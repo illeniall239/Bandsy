@@ -19,8 +19,10 @@ export const JOBS = { grading: "Writing grading (needs vision for Task 1 charts)
 
 export function makeSettings(db) {
   db.exec("CREATE TABLE IF NOT EXISTS settings (key TEXT PRIMARY KEY, value TEXT NOT NULL)");
-  const get = () => JSON.parse(db.prepare("SELECT value FROM settings WHERE key='app'").get()?.value || '{"providers":{},"jobs":{}}');
-  const set = s => db.prepare("INSERT INTO settings (key, value) VALUES ('app', ?) ON CONFLICT(key) DO UPDATE SET value=excluded.value").run(JSON.stringify(s));
+  // one row per user ("user:<id>"); user 1 inherits the single-user "app" row from before logins existed
+  const row = key => db.prepare("SELECT value FROM settings WHERE key=?").get(key)?.value;
+  const get = uid => JSON.parse(row(`user:${uid}`) || (uid === 1 && row("app")) || '{"providers":{},"jobs":{}}');
+  const set = (uid, s) => db.prepare("INSERT INTO settings (key, value) VALUES (?, ?) ON CONFLICT(key) DO UPDATE SET value=excluded.value").run(`user:${uid}`, JSON.stringify(s));
   return { get, set };
 }
 

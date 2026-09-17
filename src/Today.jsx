@@ -38,9 +38,9 @@ export function Today() {
   const title = s.label.replace(/^Diagnostic\s*·\s*/, "");
   const attempts = module ? d.history.filter(a => a.module === module).length : 0;
   const count = { listening: [40, "Questions"], reading: [40, "Questions"], writing: [2, "Tasks"], speaking: [3, "Parts"] }[module];
-  const bands = MODULES.map(m => [m, d.bands[m]]);
+  const bands = (d.modules || MODULES).map(m => [m, d.bands[m]]);
   const numeric = bands.map(([, b]) => parseFloat(b)).filter(b => !isNaN(b));
-  const overall = numeric.length === 4 ? (Math.round(numeric.reduce((a, b) => a + b, 0) / 4 * 2) / 2).toFixed(1) : "—";
+  const overall = numeric.length === bands.length ? (Math.round(numeric.reduce((a, b) => a + b, 0) / bands.length * 2) / 2).toFixed(1) : "—";
   const setDate = async () => {
     const v = prompt("Test date (YYYY-MM-DD):", d.test_date);
     if (!v || !/^\d{4}-\d{2}-\d{2}$/.test(v)) return;

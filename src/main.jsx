@@ -9,6 +9,10 @@ import { SpeakingScreen, SpeakingResult } from "./Speaking.jsx";
 import { Vocabulary } from "./Vocabulary.jsx";
 import "./style.css";
 
+// signed out (session gone): back to the login page
+const _fetch = window.fetch;
+window.fetch = async (...a) => { const r = await _fetch(...a); if (r.status === 401) location.href = "/login"; return r; };
+
 // hash routes: #/            home
 //              #/t/cam15/test1/listening?mode=mock|drill
 const route = () => { const [p, q] = location.hash.slice(1).split("?"); const u = new URLSearchParams(q); return { path: p || "/", mode: u.get("mode") || "mock", section: +u.get("section") || 0, task: +u.get("task") || 0 }; };
@@ -22,7 +26,7 @@ function App() {
   if (r.path === "/vocab" || r.path === "/review") return <Vocabulary />;   // #/review: old link
   let m = r.path.match(/^\/r\/(\d+)$/);
   if (m) return <Saved key={m[1]} id={m[1]} />;
-  m = r.path.match(/^\/t\/([^/]+\/[^/]+)\/(listening|reading|writing|speaking)$/);
+  m = r.path.match(window.BANDSY_SPEAKING === false ? /^\/t\/([^/]+\/[^/]+)\/(listening|reading|writing)$/ : /^\/t\/([^/]+\/[^/]+)\/(listening|reading|writing|speaking)$/);
   return m ? <Attempt key={location.hash} id={m[1]} module={m[2]} mode={r.mode} section={r.section} task={r.task} /> : <Today />;
 }
 
@@ -38,7 +42,7 @@ function Home() {
       <div className="testgrid">{tests.map(t => (
         <section className="testcard" key={t.id}>
           <h2>Cambridge {t.book} <span>Test {t.test}</span></h2>
-          {[["listening", "Part", 4], ["reading", "Passage", 3], ["writing", "Task", 2], ["speaking", null, 0]].map(([mod, unit, n]) => {
+          {[["listening", "Part", 4], ["reading", "Passage", 3], ["writing", "Task", 2], ["speaking", null, 0]].filter(([mod]) => mod !== "speaking" || window.BANDSY_SPEAKING !== false).map(([mod, unit, n]) => {
             const a = last(t.id, mod);
             const drill = k => `#/t/${t.id}/${mod}?mode=drill&${mod === "writing" ? "task" : "section"}=${k}`;
             return (

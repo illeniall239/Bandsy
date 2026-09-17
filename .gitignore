@@ -6,3 +6,8 @@ dist/
 bandsy.db
 __pycache__/
 sidecar/models/
+bandsy-deploy.tar
+data/
+seed/
+*.md
+.impeccable/

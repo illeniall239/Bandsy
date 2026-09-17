@@ -2,10 +2,19 @@
 import { complete } from "./providers.js";
 
 export function makeVocab(db) {
-  db.exec(`CREATE TABLE IF NOT EXISTS vocab (id INTEGER PRIMARY KEY, word TEXT UNIQUE, sentence TEXT, definition TEXT, source TEXT, created_at TEXT,
-      interval INTEGER DEFAULT 0, due TEXT, reviews INTEGER DEFAULT 0)`);
+  const table = `CREATE TABLE IF NOT EXISTS vocab (id INTEGER PRIMARY KEY, user_id INTEGER NOT NULL DEFAULT 1, word TEXT, sentence TEXT, definition TEXT,
+      source TEXT, created_at TEXT, interval INTEGER DEFAULT 0, due TEXT, reviews INTEGER DEFAULT 0, UNIQUE(user_id, word))`;
+  // before logins, words were unique globally: rebuild the table once so each user has their own list (old words go to user 1)
+  if (db.prepare("SELECT 1 FROM sqlite_master WHERE name='vocab'").get() && !db.prepare("SELECT 1 FROM pragma_table_info('vocab') WHERE name='user_id'").get())
+    db.transaction(() => {
+      db.exec("ALTER TABLE vocab RENAME TO vocab_old");
+      db.exec(table);
+      db.exec("INSERT INTO vocab (id, word, sentence, definition, source, created_at, interval, due, reviews) SELECT id, word, sentence, definition, source, created_at, interval, due, reviews FROM vocab_old");
+      db.exec("DROP TABLE vocab_old");
+    })();
+  db.exec(table);
 
-  async function addWord(settings, { word, sentence, source, definition }) {
+  async function addWord(settings, uid, { word, sentence, source, definition }) {
     word = word.trim().toLowerCase().replace(/[^a-z' -]/g, "");
     if (!word) throw new Error("no word");
     if (!definition) {
@@ -16,10 +25,10 @@ export function makeVocab(db) {
       definition = `${r.definition}\nExample: ${r.example}`;
     }
     const now = new Date().toISOString();
-    db.prepare("INSERT OR IGNORE INTO vocab (word, sentence, definition, source, created_at, due) VALUES (?,?,?,?,?,?)").run(word, sentence || "", definition, source || "", now, now);
-    return db.prepare("SELECT * FROM vocab WHERE word=?").get(word);
+    db.prepare("INSERT OR IGNORE INTO vocab (user_id, word, sentence, definition, source, created_at, due) VALUES (?,?,?,?,?,?,?)").run(uid, word, sentence || "", definition, source || "", now, now);
+    return db.prepare("SELECT * FROM vocab WHERE user_id=? AND word=?").get(uid, word);
   }
 
-  const words = () => db.prepare("SELECT * FROM vocab ORDER BY id DESC").all();
+  const words = uid => db.prepare("SELECT * FROM vocab WHERE user_id=? ORDER BY id DESC").all(uid);
   return { addWord, words };
 }

@@ -42,7 +42,7 @@ async function utterance(s, i) {
 }
 
 export async function start(settings, { test, speaking, mode }) {
-  const id = Math.random().toString(36).slice(2);
+  const id = crypto.randomUUID();
   const s = { id, test, mode, speaking, script: mode === "exam" ? script(speaking) : [], audio: {}, i: 0, turns: [], pending: [], settings,
               startedAt: new Date().toISOString(), followups: [] };
   sessions.set(id, s);

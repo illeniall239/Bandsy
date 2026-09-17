@@ -40,7 +40,9 @@ export function Settings() {
   return (
     <main className="home settings">
       <TopNav />
-      <PageHead eyebrow="Models & providers" title="Settings" meta="Pick a model for each job. Nothing is chosen for you." />
+      <PageHead eyebrow="Models & providers" title="Settings" meta={<>Pick a model for each job. Nothing is chosen for you.{s.user && <> Signed in as <b>{s.user}</b>.</>}</>}>
+        {s.user && <a className="btn" href="/logout">Sign out</a>}
+      </PageHead>
       <h2>Providers</h2>
       <table><tbody>{Object.entries(s.catalog).map(([id, c]) => (
         <tr key={id}>
