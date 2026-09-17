@@ -11,3 +11,4 @@ data/
 seed/
 *.md
 .impeccable/
+!README.md
