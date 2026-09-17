@@ -1,0 +1,1369 @@
+{
+ "book": 11,
+ "test": 2,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 1,
+      "last": 10,
+      "body": "Enquiry about joining Youth Council\nExample\nName: Roger Todd\nAge: 18\nCurrently staying in a [[1]] during the week\nPostal address: 17, [[2]] Street, Stamford, Lincs\nPostcode: [[3]]\nOccupation: student and part-time job as a [[4]]\nStudying [[5]] (major subject) and history (minor subject)\nHobbies: does a lot of [[6]] and is interested in the [[7]]\nOn Youth Council, wants to work with young people who are [[8]]\nWill come to talk to the Elections Officer next Monday at [[9]] pm\nMobile number: [[10]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 11,
+      "last": 12,
+      "body": "New staff at theatre",
+      "options": [
+       {
+        "key": "A",
+        "text": "Some rooms now have a different use."
+       },
+       {
+        "key": "B",
+        "text": "A different type of seating has been installed."
+       },
+       {
+        "key": "C",
+        "text": "An elevator has been installed."
+       },
+       {
+        "key": "D",
+        "text": "The outside of the building has been repaired."
+       },
+       {
+        "key": "E",
+        "text": "Extra seats have been added."
+       }
+      ],
+      "questions": [
+       {
+        "n": 11,
+        "text": "Which TWO changes have been made so far during the refurbishment of the theatre?",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "Which TWO changes have been made so far during the refurbishment of the theatre?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 13,
+      "last": 14,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "rooms for hire"
+       },
+       {
+        "key": "B",
+        "text": "backstage tours"
+       },
+       {
+        "key": "C",
+        "text": "hire of costumes"
+       },
+       {
+        "key": "D",
+        "text": "a bookshop"
+       },
+       {
+        "key": "E",
+        "text": "a café"
+       }
+      ],
+      "questions": [
+       {
+        "n": 13,
+        "text": "Which TWO facilities does the theatre currently offer to the public?",
+        "options": []
+       },
+       {
+        "n": 14,
+        "text": "Which TWO facilities does the theatre currently offer to the public?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 15,
+      "last": 16,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "sound"
+       },
+       {
+        "key": "B",
+        "text": "acting"
+       },
+       {
+        "key": "C",
+        "text": "making puppets"
+       },
+       {
+        "key": "D",
+        "text": "make-up"
+       },
+       {
+        "key": "E",
+        "text": "lighting"
+       }
+      ],
+      "questions": [
+       {
+        "n": 15,
+        "text": "Which TWO workshops does the theatre currently offer?",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "Which TWO workshops does the theatre currently offer?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "map_labelling",
+      "instructions": "Label the plan below.\n\nWrite the correct letter, A-G, next to Questions 17-20.",
+      "first": 17,
+      "last": 20,
+      "body": "Ground floor plan of theatre",
+      "options": [],
+      "questions": [
+       {
+        "n": 17,
+        "text": "box office",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "theatre manager's office",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "lighting box",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "artistic director's office",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 37,
+      "image": "figures/p037.png"
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "first": 21,
+      "last": 26,
+      "body": "Rocky Bay field trip",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "What do the students agree should be included in their aims?",
+        "options": [
+         {
+          "key": "A",
+          "text": "factors affecting where organisms live"
+         },
+         {
+          "key": "B",
+          "text": "the need to preserve endangered species"
+         },
+         {
+          "key": "C",
+          "text": "techniques for classifying different organisms"
+         }
+        ]
+       },
+       {
+        "n": 22,
+        "text": "What equipment did they forget to take on the Field Trip?",
+        "options": [
+         {
+          "key": "A",
+          "text": "string"
+         },
+         {
+          "key": "B",
+          "text": "a compass"
+         },
+         {
+          "key": "C",
+          "text": "a ruler"
+         }
+        ]
+       },
+       {
+        "n": 23,
+        "text": "In Helen's procedure section, Colin suggests a change in",
+        "options": [
+         {
+          "key": "A",
+          "text": "the order in which information is given."
+         },
+         {
+          "key": "B",
+          "text": "the way the information is divided up."
+         },
+         {
+          "key": "C",
+          "text": "the amount of information provided."
+         }
+        ]
+       },
+       {
+        "n": 24,
+        "text": "What do they say about the method they used to measure wave speed?",
+        "options": [
+         {
+          "key": "A",
+          "text": "It provided accurate results."
+         },
+         {
+          "key": "B",
+          "text": "It was simple to carry out"
+         },
+         {
+          "key": "C",
+          "text": "It required special equipment."
+         }
+        ]
+       },
+       {
+        "n": 25,
+        "text": "What mistake did Helen make when first drawing the map?",
+        "options": [
+         {
+          "key": "A",
+          "text": "She chose the wrong scale."
+         },
+         {
+          "key": "B",
+          "text": "She stood in the wrong place."
+         },
+         {
+          "key": "C",
+          "text": "She did it at the wrong time."
+         }
+        ]
+       },
+       {
+        "n": 26,
+        "text": "What do they decide to do next with their map?",
+        "options": [
+         {
+          "key": "A",
+          "text": "scan it onto a computer"
+         },
+         {
+          "key": "B",
+          "text": "check it using photographs"
+         },
+         {
+          "key": "C",
+          "text": "add information from the internet"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 27,
+      "last": 28,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "lack of water"
+       },
+       {
+        "key": "B",
+        "text": "strong winds"
+       },
+       {
+        "key": "C",
+        "text": "lack of food"
+       },
+       {
+        "key": "D",
+        "text": "high temperatures"
+       },
+       {
+        "key": "E",
+        "text": "large waves"
+       }
+      ],
+      "questions": [
+       {
+        "n": 27,
+        "text": "Which TWO problems affecting organisms in the splash zone are mentioned?",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "Which TWO problems affecting organisms in the splash zone are mentioned?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 29,
+      "last": 30,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "inaccurate records of the habitat of organisms"
+       },
+       {
+        "key": "B",
+        "text": "influence on behaviour of organisms by observer"
+       },
+       {
+        "key": "C",
+        "text": "incorrect identification of some organisms"
+       },
+       {
+        "key": "D",
+        "text": "making generalisations from a small sample"
+       },
+       {
+        "key": "E",
+        "text": "missing some organisms when counting"
+       }
+      ],
+      "questions": [
+       {
+        "n": 29,
+        "text": "Which TWO reasons for possible error will they include in their report?",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "Which TWO reasons for possible error will they include in their report?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "DESIGNING A PUBLIC BUILDING: THE TAYLOR CONCERT HALL\nIntroduction\nThe designer of a public building may need to consider the building's\n- function\n- physical and [[31]]\n- symbolic meaning\n\nLocation and concept of the Concert Hall\nOn the site of a disused [[32]]\nBeside a [[33]]\nThe design is based on the concept of a mystery\n\nBuilding design\nIt's approached by a [[34]] for pedestrians\nThe building is the shape of a [[35]]\nOne exterior wall acts as a large [[36]]\nIn the auditorium:\n- the floor is built on huge pads made of [[37]]\n- the walls are made of local wood and are [[38]] in shape\n- ceiling panels and [[39]] on walls allow adjustment of acoustics\n\nEvaluation\nSome critics say the [[40]] style of the building is inappropriate",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "hostel",
+   "2": "Buckleigh",
+   "3": "PE9 7QT",
+   "4": "waiter",
+   "5": "politics",
+   "6": "cycling",
+   "7": "cinema",
+   "8": "disabled",
+   "9": "4.30 (pm) / half past four",
+   "10": "07788 136711",
+   "11": "A",
+   "12": "B",
+   "13": "B",
+   "14": "D",
+   "15": "C",
+   "16": "E",
+   "17": "G",
+   "18": "D",
+   "19": "B",
+   "20": "F",
+   "21": "A",
+   "22": "A",
+   "23": "C",
+   "24": "B",
+   "25": "B",
+   "26": "B",
+   "27": "A",
+   "28": "D",
+   "29": "C",
+   "30": "E",
+   "31": "social",
+   "32": "factory",
+   "33": "canal",
+   "34": "bridge",
+   "35": "box",
+   "36": "screen",
+   "37": "rubber",
+   "38": "curved",
+   "39": "curtains",
+   "40": "international"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 11/IELTS11_Test2_Section1.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 11/IELTS11_Test2_Section2.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 11/IELTS11_Test2_Section3.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 11/IELTS11_Test2_Section4.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "CAROLINE: Good Morning. Youth Council. Caroline speaking.\n\nROGER: Oh, hello, I'm interested in standing for election to the Youth Council, and I was told\nto give you a call.\n\nCAROLINE: That's good. Could I have your name, please?\n\nROGER: Yes, it's Roger Brown,\nCAROLINE: Thank you. I'm Caroline, the Youth Council administrator. So do you know much\nabout what the Council does, Roger?\n\nROGER: I've talked to Stephanie – I think she's the chair of the Council\nCAROLINE: That's right.\n\nROGER: And she told me a lot about it. How it's a way for young people to discuss local\nissues, for example, and make suggestions to the town council. That's what made\nme interested.\n\nCAROLINE: Fine. Well let me take down some of your details. First of all, how old are you? You\nknow the Council is for young people aged from 13 to 18?\n\nROGER: ve just turned 18.\n\nCAROLINE: And where do you live, Roger?\n\nROGER: Well, that's a bit complicated. At the moment I'm looking for a flat to rent here,\nso I'm in a hostel from Monday to Friday. I go back to my parents’ place at the\nweekend.\n\nCAROLINE: OK, So where's the best place to send you some information about the Council?\n\nROGER: Oh, to my parents’ address, please. That's 17, Buckleigh Street — B-U-C-K-L-E-l-\nStreet, Stanford, Lincolnshire, though you don't really need the county.\n\nCAROLINE: Oh, I know Stamford — it's a lovely town. And what's the postcode?\n\nROGER: P-E-9-7-Q-T.\nCAROLINE: Right, thank you. So are you working here, or are you a student?\n\nROGER: I started studying at the university a couple of weeks ago, and I've got a part-time\njob for a few hours a week.\n\nCAROLINE: What do you do?\n\nROGER: Well, I've done several different things. I've just finished a short-term contract as a\ncourier, and now I'm working as a waiter in one of the big hotels.\n\nCAROLINE: Uhuh. That can't leave you much time for studying!\n\nROGER: Oh, it's not too bad. I manage to fit it all in.\n\nCAROLINE: What are you studying?\n\nROGER: My ambition is to go into parliament eventually, so my major subject is politics.\n\nThat's partly why I think the Youth Council is important and want to be a part of it.\n\nCAROLINE: And I suppose you're also taking a minor subject, aren't you? I know a lot of people\nstudy economics too.\nROGER: I chose history. To be honest, I'm not finding it as interesting as I expected!\n\nCAROLINE: OK, so with your studying and your part-time job, do you have time for any other\ninterests or hobbies?\n\nROGER: Well, I spend quite a lot of time cycling — both around town to get to university and\nto work, and also long distance, from here to London, for instance.\n\nCAROLINE: That's pretty impressive! Anything else?\n\nROGER: For relaxation, I'm also keen on the cinema. I used to go at least once a week, but\nI can't manage to go so often now.\n\nCAROLINE: Right. Are you sure you'll have enough time for the Youth Council?\n\nROGER: Yes, I've worked out that I can afford to reduce my hours at work, and that will\nmake the time.\n\nCAROLINE: So is there any particular aspect of the Youth Council's work that appeals to you,\nRoger?\nROGER: Well, my sister is blind, so I'm particularly interested in working with disabled young\npeople, to try and improve the quality of their lives.\n\nCAROLINE: That's great. Well, the best way to get involved is to be nominated by some people\nwho you know.\n\nROGER: Right. Can you tell me how to set about organising that?\n\nCAROLINE: You should talk to Jeffrey, our Elections Officer. I can arrange a meeting in the\ncouncil office with him, if you like.\n\nROGER: Yes, please.\n\nCAROLINE: He'll be here next Monday, if that suits you.\n\nROGER: That's the 14th, isn't it?\n\nCAROLINE: Yes.\n\nROGER: I can manage late afternoon.\n\nCAROLINE: Would you like to suggest a time? He generally leaves around 5.30.\n\nROGER: Well, would 4.30 be OK? My last class finishes at 4, so I'd have plenty of time to\nget to your office.\n\nCAROLINE: Right, that's fine. Oh, and could I have a phone number we can contact you on?\n\nROGER: Yes. my mobile number's 07788 136711,\nCAROLINE: Thank you. Well, we'll look forward to seeing you next week.\n\nROGER: Thanks very much. Goodbye.\n\nCAROLINE: Bye."
+   },
+   {
+    "part": 2,
+    "text": "Hi, Great to see you! I'm Jody, and I'll be looking after both of you for the first month you're\nworking here at the Amersham Theatre. I'll tell you something about the theatre now, then\ntake you to meet two of the other staff.\n\nIt's an old building, and it’s been modernised several times. In fact, as you can see, we're\ncarrying out a major refurbishment at the moment. The interior has just been repainted, and\nwe're about to start on the exterior of the building - that'll be a big job. The work's running\nover budget, so we've had to postpone installing an elevator. I hope you're happy running\nup and down stairs! When the theatre was built, people were generally slimmer and shorter\nthan now, and the seats were very close together. We've replaced them with larger seats, with more legroom. This means fewer seats in total, but we've taken the opportunity to install\nseats that can easily be moved to create different acting spaces. We've also turned a few storerooms over to other purposes, like using them for meetings.\nWe try hard to involve members of the public in the theatre One way is by organising backstage tours, so people can be shown round the building and learn how a theatre operates. These are proving very popular. What we're finding is that people want to have\nlunch or a cup of coffee while they're here, so we're looking in into the possibility of opening\na cafe in due course. We have a bookshop, which specialises in books about drama, and that attracts plenty of customers. Then there are two large rooms that will be decorated next\nmonth, and they'll be available for hire, for conferences and private functions, such as parties.\nWe're also considering hiring out costumes to amateur drama clubs.\n\nNow I want to tell you about our workshops. We recently started a programme of workshops\nthat anyone can join. Eventually we intend to run courses in acting, but we're waiting until\n\nwe've got the right people in place as trainers. That's proving more difficult than we'd\nexpected! There's a big demand to learn about the technical side of putting on a production,\nand our lighting workshop has already started, with great success, We're going to start one\n‘on sound next month. A number of people have enquired about workshops on make-up,\nand that's something we'e considering forthe future,\nNow, a word about the layout of the building. The auditorium, stage and dressing rooms for\nthe actors are all below ground level. Here on the ground floor we have most of the rooms\nthat the public doesn't see. The majority are internal, so they have windows in the roof to light\nthem.\n\nStanding here in the foyer, you're probably wondering why the box office isn't here, where the\npublic would expect to find it. Well, you might have noticed it on your way in - although its,\npart of this building, it's next door with a separate entrance from the road. For the theatre manager's office, you go across the foyer and through the double doors. Turn right and it's the room at the end of the corridor, with the door on the left. The lighting box is where the computerised stage lighting is operated, and it's at the back of the building. When you're through the double doors, turn left, turn right at the water cooler and right again at the end. It's the second room along that corridor. The lighting box has a window into the auditorium, which of course is below us. The artistic director's office is through the double doors, turn right and it's the first room you come to on the right hand side. And finally, for the moment, the room where I'll take you next,\nthe relaxation room. So if you'd like to come with me"
+   },
+   {
+    "part": 3,
+    "text": "HELEN: I've brought my notes on our Biology Field Trip to Rocky Bay, Colin, so we can work\n‘on our report on the research we did together.\n\nCOLIN: OK. I've got mine too. Let's look at the aims of the trip first.\n\nHELEN: Right. What did you have?\n\nCOLIN: I just put something about getting experience of the different sorts of procedures\nused on a field trip. But we need something about what causes different organisms to\n‘choose particular habitats,\nHELEN: Laaree. And something about finding out how to protect organisms in danger of dying\nout?\nCOLIN: In our aims? But we weren't really looking at that.\nHELEN: I suppose not. OK, now there's the list of equipment we all had to bring on the field\ntrip. What did they tell us to bring a ruler for?\nCOLIN: It was something about measuring the slope of the shore, but of course we didn't\nneed it because we were measuring wind direction, and we'd brought the compass\nfor that .\nHELEN: ‘But not the Diece of string to hold up in the air! Didn't this plate make a fuss about us leaving that behind?\nCOLIN: Yeah. He does go on. Anyway it was easy to get one from another of the students.\nHELEN: Now, the next section's the procedure. I sent you the draft of that.\nCOLIN: Yeah. It was clear, but I don't think we need all these details of what time we left and\nwhat time we got back and how we divided up the different research tasks.\nHELEN: OK. I'll look at that again.\nCOLIN: Then we have to describe our method of investigation in detail. So let's begin with 24\nHELEN: we measured wave speed. I was surprised how straightforward that was. I'd expected us to have some sort of high tech device, not just stand there and count the number of waves per minute. Not very precise, but I suppose it was good\nenough. But the way we measured the amount of salt was interesting.\nCOLIN: In the water from the rock pools?\nHELEN: Yeah, oh, I wanted to check the chemicals we used in the lab when we analysed\nthose samples – was it potassium chromate and silver nitrate?\nCOLIN: That's right\nHELEN: OK. And we need the map of the seashore. You just left that to me. And I had to do\nit while the tide was low, well that was OK, but ‘he lace started i realized I should have gone up higher to get better visibility. So I had to start all ‘over ‘again But at least I'd got the squared paper or I'd have had\nproblems drawing it all to scale.\nCOLIN: Yes. It looks good. We could get a map of the region off the internet and see if we\nneed to make any changes.\nHELEN: had a look but I couldn't find anything. But you took some pictures, didn’t you?\nCOLIN: Yeah. I'll email you them if you want.\nHELEN: Now when we get to our findings I thought we could divide them up into the different\nzones we identified on the shore and the problems organisms face in each zone. So\nfor the highest area ...\nCOLIN: the splash zone?\nHELEN: Yeah, we found mostly those tiny shellfish that have strong hard shells that act as\nprotection.\nCOLIN: But not from other organisms that might eat them, predators?\nHELEN: No, that's not the main danger for them. But the shells prevent them from drying out\nbecause they're in the open air for most of the time,\nCOLIN: Right. And since they're exposed, they need to be able to find some sort of shelter, or\ncover themselves up, so they don't get too hot, Then in the middle and lower zones, Q27 & 28\nnearer the sea, we need to discuss the effects of wave action ..\nHELEN: Yes, and how organisms develop structures to prevent themselves from being swept\naway, or even destroyed by being smashed against the rocks.\nCOLIN: haven't done anything on the geological changes. I don't know what to put for that.\nHELEN: No, we weren't concentrating on that. Maybe we need to find some websites.\nCOLIN: Good idea. I've got the lecture notes from Mr Blake's geology course, but they're\ntoo general. But we could ask him which books on our Reading List might be most\nhelpful.\nHELEN: Right. OK, now I did a draft of the section of sources of possible error in our\nresearch, but I don't know if you agree. For example, the size of the sample, and\nwhether it's big enough to make any general conclusions from. But I thought actually\nwe did have quite a big sample.\n\nCOLIN: We did. And our general method of observation seemed quite reliable. But we might\n‘not be all that accurate as far as the actual numbers go.\n\nHELEN: Yeah,\n‘example. I wasn't sure about the way we described their habitats. I decided it was\nprobably OK.\n\nCOLIN: Yeah, and the descriptions we gave of the smaller organisms, they weren't very\ndetailed, but they were adequate in this context. I'm not sure we identified all the Q29 & 30\nHELEN: OK, we'd better mention that. Now, how ..."
+   },
+   {
+    "part": 4,
+    "text": "We've been discussing the factors the architect has to consider when designing domestic\nbuildings. I'm going to move on now to consider the design of public buildings. And I'll\nillustrate this by referring to the new Taylor Concert Hall that's recently been completed here\nin the city.\n\nSo, as with a domestic building, when designing a public building, an architect needs to\nconsider the function of the building — for example, is it to be used primarily for entertainment,\n‘or for education, or for administration? The second thing the architect needs to think about\nis the context of the building, this includes its physical location, obviously, but it also includes.\nthe social meaning of the building, how it relates to the people it's built for, And finally, for\nimportant public buildings, the architect may also be looking for a central symbolic idea on\nwhich to base the design, a sort of metaphor for the building and the way in which it is used\nLet's look at the new Taylor Concert Hall in relation to these ideas. The location chosen was a site in a rundown district that has been ignored in previous redevelopment plans. It was occupied by a factory that had been empty for some years. The whole area was some\ndistance from the high-rise office blocks of the central business district and shopping centre,\nbut it was only one kilometre from the ring road. The site itself was bordered to the north by a canal which had once been used by boats bringing in raw materials when the area was used\nfor manufacturing\nThe architect chosen for the project was Tom Harrison. He found the main design challenge\nwas the location of the site in an area that had no neighbouring buildings of any importance.\nTo reflect the fact that the significance of the building in this quite run-down location was\nas yet unknown, he decided to create a building centred around the idea of a mystery -\nsomething whose meaning still has to be discovered.\n\nSo how was this reflected in the design of the building? Well, Harrison decided to create\npedestrian access to the building and to make use of the presence of water on the site. As.\nHe wanted to\ngive people a feeling of suspense as they see the building first from a distance, and then close up and from the shi the building as a whole was thal ota box. The list side that people see, the southern wall, is just a high, at\nwall uninterrupted by any windows. This might sound off-putting, but it supports Harrison's\nconcept ofthe building - that the person approaching is intrigued and wonders what will be\nThe auditorium itself seats 1500 people. The floors supported by ten massive Rags. 037\nThese are constructed from rubber, and so are able to absorb any vibrations from outside\nand prevent them from affecting the auditorium. The walls are made of several layers of\nhoney-coloured wood, all sourced from local beech trees. In order to improve the acoustic\nproperties of the auditorium and to amplify the sound, they are not Straight, they are curved.\nThe acoustics are also adjustable according to the size of orchestra and the type of music\nbeing played. In order to achieve this, there are nine movable panels in the ceiling above the\norchestra which are all individually motorized, and ing which can be\nopened or closed to change the acoustics.\nThe reaction of the public to the new building tes generally been positive. However, the\nsay it doesn't reflect features of the landscape or society for which it bull.\n\nEST 3 I"
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "title": "Raising the Mary Rose\nHow a sixteenth-century warship was recovered from the seabed",
+    "groups": [
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nIn boxes 1-4 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 1,
+      "last": 4,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "There is some doubt about what caused the Mary Rose to sink.",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "The Mary Rose was the only ship to sink in the battle of 19 July 1545.",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "Most of one side of the Mary Rose lay undamaged under the sea.",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "Alexander McKee knew that the wreck would contain many valuable historical objects.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_sentence_endings",
+      "instructions": "Look at the following statements (Questions 5-8) and the list of dates below.\nMatch each statement with the correct date, A-G.\nWrite the correct letter, A-G, in boxes 5-8 on your answer sheet.",
+      "first": 5,
+      "last": 8,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "1836"
+       },
+       {
+        "key": "B",
+        "text": "1840"
+       },
+       {
+        "key": "C",
+        "text": "1965"
+       },
+       {
+        "key": "D",
+        "text": "1967"
+       },
+       {
+        "key": "E",
+        "text": "1971"
+       },
+       {
+        "key": "F",
+        "text": "1979"
+       },
+       {
+        "key": "G",
+        "text": "1982"
+       }
+      ],
+      "questions": [
+       {
+        "n": 5,
+        "text": "A search for the Mary Rose was launched.",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "One person's exploration of the Mary Rose site stopped.",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "It was agreed that the hull of the Mary Rose should be raised.",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "The site of the Mary Rose was found by chance.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "diagram_labelling",
+      "instructions": "Label the diagram below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 9-13 on your answer sheet.",
+      "first": 9,
+      "last": 13,
+      "body": "Raising the hull of the Mary Rose: Stages one and two\n\n[[9]] attached to hull by wires\nlegs\nhull of ship\n[[10]] to prevent hull being sucked into mud\n\ncrane\nhook\nlegs\nhull of ship\nlegs are placed into [[11]]\nhull is lowered into [[12]]\n[[13]] used as extra protection for the hull",
+      "options": [],
+      "questions": [
+       {
+        "n": 9,
+        "text": "attached to hull by wires",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "used to prevent hull being sucked into mud",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "hull is lowered into [[11]]",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "used as extra protection for the hull",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "legs are placed into [[13]]",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 45,
+      "image": "figures/p045.png"
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "On 19 July 1545, English and French fleets were engaged in a sea battle off the coast of southern England in the area of water called the Solent, between Portsmouth and the Isle of Wight. Among the English vessels was a warship by the name of Mary Rose. Built in Portsmouth some 35 years earlier, she had had a long and successful fighting career, and was a favourite of King Henry VIII. Accounts of what happened to the ship vary: while witnesses agree that she was not hit by the French, some maintain that she was outdated, overladen and sailing too low in the water, others that she was mishandled by undisciplined crew. What is undisputed, however, is that the Mary Rose sank into the Solent that day, taking at least 500 men with her. After the battle, attempts were made to recover the ship, but these failed."
+     },
+     {
+      "label": "",
+      "text": "The Mary Rose came to rest on the seabed, lying on her starboard (right) side at an angle of approximately 60 degrees. The hull (the body of the ship) acted as a trap for the sand and mud carried by Solent currents. As a result, the starboard side filled rapidly, leaving the exposed port (left) side to be eroded by marine organisms and mechanical degradation. Because of the way the ship sank, nearly all of the starboard half survived intact. During the seventeenth and eighteenth centuries, the entire site became covered with a layer of hard grey clay, which minimised further erosion."
+     },
+     {
+      "label": "",
+      "text": "Then, on 16 June 1836, some fishermen in the Solent found that their equipment was caught on an underwater obstruction, which turned out to be the Mary Rose. Diver John Deane happened to be exploring another sunken ship nearby, and the fishermen approached him, asking him to free their gear. Deane dived down, and found the equipment caught on a timber protruding slightly from the seabed. Exploring further, he uncovered several other timbers and a bronze gun. Deane continued diving on the site intermittently until 1840, recovering several more guns, two bows, various timbers, part of a pump and various other small finds."
+     },
+     {
+      "label": "",
+      "text": "The Mary Rose then faded into obscurity for another hundred years. But in 1965, military historian and amateur diver Alexander McKee, in conjunction with the British Sub-Aqua Club, initiated a project called ‘Solent Ships’. While on paper this was a plan to examine a number of known wrecks in the Solent, what McKee really hoped for was to find the Mary Rose. Ordinary search techniques proved unsatisfactory, so McKee entered into collaboration with Harold E. Edgerton, professor of electrical engineering at the Massachusetts Institute of Technology. In 1967, Edgerton’s side-scan sonar systems revealed a large, unusually shaped object, which McKee believed was the Mary Rose."
+     },
+     {
+      "label": "",
+      "text": "Further excavations revealed stray pieces of timber and an iron gun. But the climax to the operation came when, on 5 May 1971, part of the ship’s frame was uncovered. McKee and his team now knew for certain that they had found the wreck, but were as yet unaware that it also housed a treasure trove of beautifully preserved artefacts. Interest in the project grew, and in 1979, The Mary Rose Trust was formed, with Prince Charles as its President and Dr Margaret Rule its Archaeological Director. The decision whether or not to salvage the wreck was not an easy one, although an excavation in 1978 had shown that it might be possible to raise the hull. While the original aim was to raise the hull if at all feasible, the operation was not given the go-ahead until January 1982, when all the necessary information was available."
+     },
+     {
+      "label": "",
+      "text": "An important factor in trying to salvage the Mary Rose was that the remaining hull was an open shell. This led to an important decision being taken: namely to carry out the lifting operation in three very distinct stages. The hull was attached to a lifting frame via a network of bolts and lifting wires. The problem of the hull being sucked back downwards into the mud was overcome by using 12 hydraulic jacks. These raised it a few centimetres over a period of several days, as the lifting frame rose slowly up its four legs. It was only when the hull was hanging freely from the lifting frame, clear of the seabed and the suction effect of the surrounding mud, that the salvage operation progressed to the second stage. In this stage, the lifting frame was fixed to a hook attached to a crane, and the hull was lifted completely clear of the seabed and transferred underwater into the lifting cradle. This required precise positioning to locate the legs into the ‘stabbing guides’ of the lifting cradle. The lifting cradle was designed to fit the hull using archaeological survey drawings, and was fitted with air bags to provide additional cushioning for the hull’s delicate timber framework. The third and final stage was to lift the entire structure into the air, by which time the hull was also supported from below. Finally, on 11 October 1982, millions of people around the world held their breath as the timber skeleton of the Mary Rose was lifted clear of the water, ready to be returned home to Portsmouth."
+     }
+    ]
+   },
+   {
+    "groups": [
+     {
+      "type": "matching_headings",
+      "instructions": "Reading Passage 2 has seven paragraphs, A—G.\nChoose the correct heading for each paragraph from the list of headings below.\nWrite the correct number, i-ix, in boxes 14-20 on your answer sheet.",
+      "first": 14,
+      "last": 20,
+      "body": "Paragraph A [[14]]\nParagraph B [[15]]\nParagraph C [[16]]\nParagraph D [[17]]\nParagraph E [[18]]\nParagraph F [[19]]\nParagraph G [[20]]",
+      "options": [
+       {
+        "key": "i",
+        "text": "Evidence of innovative environment management practices"
+       },
+       {
+        "key": "ii",
+        "text": "An undisputed answer to a question about the moai"
+       },
+       {
+        "key": "iii",
+        "text": "The future of the moai statues"
+       },
+       {
+        "key": "iv",
+        "text": "A theory which supports a local belief"
+       },
+       {
+        "key": "v",
+        "text": "The future of Easter Island"
+       },
+       {
+        "key": "vi",
+        "text": "Two opposing views about the Rapanui people"
+       },
+       {
+        "key": "vii",
+        "text": "Destruction outside the inhabitants' control"
+       },
+       {
+        "key": "viii",
+        "text": "How the statues made a situation worse"
+       },
+       {
+        "key": "ix",
+        "text": "Diminishing food resources"
+       }
+      ],
+      "questions": [
+       {
+        "n": 14,
+        "text": "Paragraph A",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "Paragraph B",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "Paragraph C",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "Paragraph D",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "Paragraph E",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "Paragraph F",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Paragraph G",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 21-24 on your answer sheet.",
+      "first": 21,
+      "last": 24,
+      "body": "Jared Diamond's View\nDiamond believes that the Polynesian settlers on Rapa Nui destroyed its forests, cutting down its trees for fuel and clearing land for [[21]]. Twentieth-century discoveries of pollen prove that Rapu Nui had once been covered in palm forests, which had turned into grassland by the time the Europeans arrived on the island. When the islanders were no longer able to build the [[22]] they needed to go fishing, they began using the island's [[23]] as a food source, according to Diamond. Diamond also claims that the moai were built to show the power of the island's chieftains, and that the methods of transporting the statues needed not only a great number of people, but also a great deal of [[24]].",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 23,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.\nWrite the correct letters in boxes 25 and 26 on your answer sheet.",
+      "first": 25,
+      "last": 26,
+      "body": "On what points do Hunt and Lipo disagree with Diamond?",
+      "options": [
+       {
+        "key": "A",
+        "text": "the period when the moai were created"
+       },
+       {
+        "key": "B",
+        "text": "how the moai were transported"
+       },
+       {
+        "key": "C",
+        "text": "the impact of the moai on Rapanui society"
+       },
+       {
+        "key": "D",
+        "text": "how the moai were carved"
+       },
+       {
+        "key": "E",
+        "text": "the origins of the people who made the moai"
+       }
+      ],
+      "questions": [
+       {
+        "n": 25,
+        "text": "On what points do Hunt and Lipo disagree with Diamond?",
+        "options": [
+         {
+          "key": "A",
+          "text": "the period when the moai were created"
+         },
+         {
+          "key": "B",
+          "text": "how the moai were transported"
+         },
+         {
+          "key": "C",
+          "text": "the impact of the moai on Rapanui society"
+         },
+         {
+          "key": "D",
+          "text": "how the moai were carved"
+         },
+         {
+          "key": "E",
+          "text": "the origins of the people who made the moai"
+         }
+        ]
+       },
+       {
+        "n": 26,
+        "text": "On what points do Hunt and Lipo disagree with Diamond?",
+        "options": [
+         {
+          "key": "A",
+          "text": "the period when the moai were created"
+         },
+         {
+          "key": "B",
+          "text": "how the moai were transported"
+         },
+         {
+          "key": "C",
+          "text": "the impact of the moai on Rapanui society"
+         },
+         {
+          "key": "D",
+          "text": "how the moai were carved"
+         },
+         {
+          "key": "E",
+          "text": "the origins of the people who made the moai"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "What destroyed the civilisation of Easter Island?",
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "Easter Island, or Rapu Nui as it is known locally, is home to several hundred ancient human statues — the moai. After this remote Pacific island was settled by the Polynesians, it remained isolated for centuries. All the energy and resources that went into the moai — some of which are ten metres tall and weigh over 7,000 kilos — came from the island itself. Yet when Dutch explorers landed in 1722, they met a Stone Age culture. The moai were carved with stone tools, then transported for many kilometres, without the use of animals or wheels, to massive stone platforms. The identity of the moai builders was in doubt until well into the twentieth century. Thor Heyerdahl, the Norwegian ethnographer and adventurer, thought the statues had been created by pre-Inca peoples from Peru. Bestselling Swiss author Erich von Daniken believed they were built by stranded extraterrestrials. Modern science — linguistic, archaeological and genetic evidence — has definitively proved the moai builders were Polynesians, but not how they moved their creations."
+     },
+     {
+      "label": "",
+      "text": "Local folklore maintains that the statues walked, while researchers have tended to assume the ancestors dragged the statues somehow, using ropes and logs."
+     },
+     {
+      "label": "B",
+      "text": "When the Europeans arrived, Rapa Nui was grassland, with only a few scrawny trees. In the 1970s and 1980s, though, researchers found pollen preserved in lake sediments, which proved the island had been covered in lush palm forests for thousands of years. Only after the Polynesians arrived did those forests disappear. US scientist Jared Diamond believes that the Rapanui people — descendants of Polynesian settlers — wrecked their own environment. They had unfortunately settled on an extremely fragile island — dry, cool, and too remote to be properly fertilised by windblown volcanic ash. When the islanders cleared the forests for firewood and farming, the forests didn’t grow back. As trees became scarce and they could no longer construct wooden canoes for fishing, they ate birds. Soil erosion decreased their crop yields. Before Europeans arrived, the Rapanui had descended into civil war and cannibalism, he maintains. The collapse of their isolated civilisation, Diamond writes, is a ‘worst-case scenario for what may lie ahead of us in our own future’."
+     },
+     {
+      "label": "C",
+      "text": "The moai, he thinks, accelerated the self-destruction. Diamond interprets them as power displays by rival chieftains who, trapped on a remote little island, lacked other ways of asserting their dominance. They competed by building ever bigger figures. Diamond thinks they laid the moai on wooden sledges, hauled over log rails, but that required both a lot of wood and a lot of people. To feed the people, even more land had to be cleared. When the wood was gone and civil war began, the islanders began toppling the moai. By the nineteenth century none were standing"
+     },
+     {
+      "label": "D",
+      "text": "Archaeologists Terry Hunt of the University of Hawaii and Carl Lipo of California State University agree that Easter Island lost its lush forests and that it was an ‘ecological catastrophe’ — but they believe the islanders themselves weren't to blame. And the moai certainly weren't. Archaeological excavations indicate that the Rapanui went to heroic efforts to protect the resources of their wind-lashed, infertile fields. They built thousands of circular stone windbreaks and gardened inside them, and used broken volcanic rocks to keep the soil moist. In short, Hunt and Lipo argue, the prehistoric Rapanui were pioneers of sustainable farming."
+     },
+     {
+      "label": "E",
+      "text": "Hunt and Lipo contend that moai-building was an activity that helped keep the peace between islanders. They also believe that moving the moai required few people and no wood, because they were walked upright. On that issue, Hunt and Lipo say, archaeological evidence backs up Rapanui folklore. Recent experiments indicate that as few as 18 people could, with three strong ropes and a bit of practice, easily manoeuvre a 1,000 kg moai replica a few hundred metres. The figures’ fat bellies tilted them forward, and a D-shaped base allowed handlers to roll and rock them side to side."
+     },
+     {
+      "label": "F",
+      "text": "Moreover, Hunt and Lipo are convinced that the settlers were not wholly responsible for the loss of the island's trees. Archaeological finds of nuts from the extinct Easter Island palm show tiny grooves, made by the teeth of Polynesian rats. The rats arrived along with the settlers, and in just a few years, Hunt and Lipo calculate, they would have overrun the island. They would have prevented the reseeding of the slow-growing palm trees and thereby doomed Rapa Nui's forest, even without the settlers’ campaign of deforestation. No doubt the rats ate birds’ eggs too. Hunt and Lipo also see no evidence that Rapanui civilisation collapsed when the palm forest did. They think its population grew rapidly and then remained more or less stable until the arrival of the Europeans, who introduced deadly diseases to which islanders had no immunity. Then in the nineteenth century slave traders decimated the population, which shrivelled to 111 people by 1877."
+     },
+     {
+      "label": "G",
+      "text": "Hunt and Lipo's vision, therefore, is one of an island populated by peaceful and ingenious moai builders and careful stewards of the land, rather than by reckless destroyers ruining their own environment and society. ‘Rather than a case of abject failure, Rapu Nui is an unlikely story of success’, they claim. Whichever is the case, there are surely some valuable lessons which the world at large can learn from the story of Rapa Nui."
+     }
+    ]
+   },
+   {
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27-30 on your answer sheet.",
+      "first": 27,
+      "last": 30,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 27,
+        "text": "In the second paragraph, the writer refers to a shape-matching test in order to illustrate",
+        "options": [
+         {
+          "key": "A",
+          "text": "the subjective nature of art appreciation."
+         },
+         {
+          "key": "B",
+          "text": "the reliance of modern art on abstract forms."
+         },
+         {
+          "key": "C",
+          "text": "our tendency to be influenced by the opinions of others."
+         },
+         {
+          "key": "D",
+          "text": "a common problem encountered when processing visual data."
+         }
+        ]
+       },
+       {
+        "n": 28,
+        "text": "Angelina Hawley-Dolan's findings indicate that people",
+        "options": [
+         {
+          "key": "A",
+          "text": "mostly favour works of art which they know well."
+         },
+         {
+          "key": "B",
+          "text": "hold fixed ideas about what makes a good work of art."
+         },
+         {
+          "key": "C",
+          "text": "are often misled by their initial expectations of a work of art."
+         },
+         {
+          "key": "D",
+          "text": "have the ability to perceive the intention behind works of art."
+         }
+        ]
+       },
+       {
+        "n": 29,
+        "text": "Results of studies involving Robert Pepperell's pieces suggest that people",
+        "options": [
+         {
+          "key": "A",
+          "text": "can appreciate a painting without fully understanding it."
+         },
+         {
+          "key": "B",
+          "text": "find it satisfying to work out what a painting represents."
+         },
+         {
+          "key": "C",
+          "text": "vary widely in the time they spend looking at paintings."
+         },
+         {
+          "key": "D",
+          "text": "generally prefer representational art to abstract art."
+         }
+        ]
+       },
+       {
+        "n": 30,
+        "text": "What do the experiments described in the fifth paragraph suggest about the paintings of Mondrian?",
+        "options": [
+         {
+          "key": "A",
+          "text": "They are more carefully put together than they appear."
+         },
+         {
+          "key": "B",
+          "text": "They can be interpreted in a number of different ways."
+         },
+         {
+          "key": "C",
+          "text": "They challenge our assumptions about shape and colour."
+         },
+         {
+          "key": "D",
+          "text": "They are easier to appreciate than many other abstract works."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary using the list of words, A-H, below.\nWrite the correct letters, A-H, in boxes 31-33 on your answer sheet.",
+      "first": 31,
+      "last": 33,
+      "body": "Art and the Brain\nThe discipline of neuroaesthetics aims to bring scientific objectivity to the study of art. Neurological studies of the brain, for example, demonstrate the impact which Impressionist paintings have on our [[31]]. Alex Forsythe of the University of Liverpool believes many artists give their works the precise degree of [[32]] which most appeals to the viewer's brain. She also observes that pleasing works of art often contain certain repeated [[33]] which occur frequently in the natural world.",
+      "options": [
+       {
+        "key": "A",
+        "text": "interpretation"
+       },
+       {
+        "key": "B",
+        "text": "complexity"
+       },
+       {
+        "key": "C",
+        "text": "emotions"
+       },
+       {
+        "key": "D",
+        "text": "movements"
+       },
+       {
+        "key": "E",
+        "text": "skill"
+       },
+       {
+        "key": "F",
+        "text": "layout"
+       },
+       {
+        "key": "G",
+        "text": "concern"
+       },
+       {
+        "key": "H",
+        "text": "images"
+       }
+      ],
+      "questions": [
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "yes_no_not_given",
+      "instructions": "Do the following statements agree with the views of the writer in Reading Passage 3?\nIn boxes 34-39 on your answer sheet, write\nYES if the statement agrees with the views of the writer\nNO if the statement contradicts the views of the writer\nNOT GIVEN if there is no information on this",
+      "first": 34,
+      "last": 39,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 34,
+        "text": "Forsythe's findings contradicted previous beliefs on the function of 'fractals' in art.",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "Certain ideas regarding the link between 'mirror neurons' and art appreciation require further verification.",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "People's taste in paintings depends entirely on the current artistic trends of the period.",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "Scientists should seek to define the precise rules which govern people's reactions to works of art.",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "Art appreciation should always involve taking into consideration the cultural context in which an artist worked.",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "It is easier to find meaning in the field of science than in that of art.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.\nWrite the correct letter in box 40 on your answer sheet.",
+      "first": 40,
+      "last": 40,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 40,
+        "text": "What would be the most appropriate subtitle for the article?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Some scientific insights into how the brain responds to abstract art"
+         },
+         {
+          "key": "B",
+          "text": "Recent studies focusing on the neural activity of abstract artists"
+         },
+         {
+          "key": "C",
+          "text": "A comparison of the neurological bases of abstract and representational art"
+         },
+         {
+          "key": "D",
+          "text": "How brain research has altered public opinion about abstract art"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "Neuroaesthetics",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "An emerging discipline called neuroaesthetics is seeking to bring scientific objectivity to the study of art, and has already given us a better understanding of many masterpieces."
+     },
+     {
+      "label": "",
+      "text": "The blurred imagery of Impressionist paintings seems to stimulate the brain’s amygdala, for instance. Since the amygdala plays a crucial role in our feelings, that finding might explain why many people find these pieces so moving."
+     },
+     {
+      "label": "",
+      "text": "Could the same approach also shed light on abstract twentieth-century pieces, from Mondrian’s geometrical blocks of colour, to Pollock's seemingly haphazard arrangements of splashed paint on canvas? Sceptics believe that people claim to like such works simply because they are famous. We certainly do have an inclination to follow the crowd. When asked to make simple perceptual decisions such as matching a shape to its rotated image, for example, people often choose a definitively wrong answer if they see others doing the same. It is easy to imagine that this mentality would have even more impact on a fuzzy concept like art appreciation, where there is no right or wrong answer."
+     },
+     {
+      "label": "",
+      "text": "Angelina Hawley-Dolan, of Boston College, Massachusetts, responded to this debate by asking volunteers to view pairs of paintings - either the creations of famous abstract artists or the doodles of infants, chimps and elephants. They then had to judge which they preferred."
+     },
+     {
+      "label": "",
+      "text": "A third of the paintings were given no captions, while many were labelled incorrectly - volunteers might think they were viewing a chimp’s messy brushstrokes when they were actually seeing an acclaimed masterpiece. In each set of trials, volunteers generally preferred the work of renowned artists, even when they believed it was by an animal or a child. It seems that the viewer can sense the artist's vision in paintings, even if they can't explain why."
+     },
+     {
+      "label": "",
+      "text": "Robert Pepperell, an artist based at Cardiff University, creates ambiguous works that are neither entirely abstract nor clearly representational. In one study, Pepperell and his collaborators asked volunteers to decide how 'powerful' they considered an artwork to be, and whether they saw anything familiar in the piece. The longer they took to answer these questions, the more highly they rated the piece under scrutiny, and the greater their neural activity. It would seem that the brain sees these images as puzzles, and the harder it is to decipher the meaning, the more rewarding is the moment of recognition."
+     },
+     {
+      "label": "",
+      "text": "And what about artists such as Mondrian, whose paintings consist exclusively of horizontal and vertical lines encasing blocks of colour? Mondrian's works are deceptively simple, but eye-tracking studies confirm that they are meticulously composed, and that simply rotating a piece radically changes the way we view it. With the originals, volunteers' eyes tended to stay longer on certain places in the image, but with the altered versions they would flit across a piece more rapidly. As a result, the volunteers considered the altered versions less pleasurable when they later rated the work."
+     },
+     {
+      "label": "",
+      "text": "In a similar study, Oshin Vartanian of Toronto University asked volunteers to compare original paintings with ones which he had altered by moving objects around within the frame. He found that almost everyone preferred the original, whether it was a Van Gogh still life or an abstract by Miró. Vartanian also found that changing the composition of the paintings reduced activation in those brain areas linked with meaning and interpretation."
+     },
+     {
+      "label": "",
+      "text": "In another experiment, Alex Forsythe of the University of Liverpool analysed the visual intricacy of different pieces of art, and her results suggest that many artists use a key level of detail to please the brain. Too little and the work is boring, but too much results in a kind of ‘perceptual overload: according to Forsythe. What’s more, appealing pieces both abstract and representational, show signs of ‘fractals'- repeated motifs recurring in different scales. Fractals are common throughout nature, for example in the shapes of mountain peaks or the branches of trees. It is possible that our visual system, which evolved in the great outdoors, finds it easier to process such patterns."
+     },
+     {
+      "label": "",
+      "text": "It is also intriguing that the brain appears to process movement when we see a handwritten letter, as if we are replaying the writer's moment of creation. This has led some to wonder whether Pollock's works feel so dynamic because the brain reconstructs the energetic actions the artist used as he painted. This may be down to our brain's ‘mirror neurons, which are known to mimic others’ actions. The hypothesis will need to be thoroughly tested, however. It might even be the case that we could use neuroaesthetic studies to understand the longevity of some pieces of artwork. While the fashions of the time might shape what is currently popular, works that are best adapted to our visual system may be the most likely to linger ‘once the trends of previous generations have been forgotten."
+     },
+     {
+      "label": "",
+      "text": "It’s still early days for the field of neuroaesthetics - and these studies are probably only a taste of what is to come. It would, however, be foolish to reduce art appreciation to a set of scientific laws. We shouldnt underestimate the importance of the style of a particular artist, their place in history and the artistic environment of their time. Abstract art offers both a challenge and the freedom to play with different interpretations. In some ways, it’s not so different to science, where we are constantly looking for systems and decoding meaning so that we can view and appreciate the world in a new way."
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "TRUE",
+   "2": "NOT GIVEN",
+   "3": "TRUE",
+   "4": "FALSE",
+   "5": "C",
+   "6": "B",
+   "7": "G",
+   "8": "A",
+   "9": "(lifting) frame",
+   "10": "hydraulic jacks",
+   "11": "stabbing guides",
+   "12": "(lifting) cradle",
+   "13": "air bags",
+   "14": "ii",
+   "15": "ix",
+   "16": "viii",
+   "17": "i",
+   "18": "iv",
+   "19": "vii",
+   "20": "vi",
+   "21": "farming",
+   "22": "canoes",
+   "23": "birds",
+   "24": "wood",
+   "25": "B (IN EITHER ORDER with 26)",
+   "26": "C (IN EITHER ORDER with 25)",
+   "27": "C",
+   "28": "D",
+   "29": "B",
+   "30": "A",
+   "31": "C",
+   "32": "B",
+   "33": "H",
+   "34": "NOT GIVEN",
+   "35": "YES",
+   "36": "NO",
+   "37": "NO",
+   "38": "YES",
+   "39": "NOT GIVEN",
+   "40": "A"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe charts below show the proportions of British students at one university\nin England who were able to speak other languages in addition to English, in\n2000 and 2010.\n\nSummarise the information by selecting and reporting the main features,\nand make comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 55,
+   "image": "figures/p055.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic\nSome people claim that not enough of the waste from homes is recycled.\nThey say that the only way to increase recycling is for governments to make\nit a legal requirement.\n\nTo what extent do you think laws are needed to make people recycle more of\ntheir waste?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Friends",
+    "questions": [
+     "How often do you go out with friends? [Why/Why not?]",
+     "Tell me about your best friend at school.",
+     "How friendly are you with your neighbours? [Why/Why not?)",
+     "Which is more important to you, friends or family? (Why?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe a writer you would like to meet. You will have to talk about the topic for one to two minutes.",
+   "points": [
+    "who the writer is",
+    "what you know about this writer already",
+    "what you would like to find out about him/her",
+    "and explain why you would like to meet this writer."
+   ],
+   "rounding_off": [
+    "You have one minute to think about what you are going to say. You can make some notes to help you if you wish."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Reading and children",
+    "questions": [
+     "What kinds of book are most popular with children in your country? Why do you think that is?",
+     "Why do you think some children do not read books very often?",
+     "How do you think children can be encouraged to read more?"
+    ]
+   },
+   {
+    "topic": "Reading for different purposes",
+    "questions": [
+     "Are there any occasions when reading at speed is a useful skill to have? What are they?",
+     "Are there any jobs where people need to read a lot? What are they?",
+     "Do you think that reading novels is more interesting than reading factual books? Why is that?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

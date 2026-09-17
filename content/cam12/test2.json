@@ -1,0 +1,1260 @@
+{
+ "book": 12,
+ "test": 2,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 1,
+      "last": 10,
+      "body": "Events during Kenton Festival\nExample\nStart date: ...........\n\nOpening ceremony (first day)\nIn town centre, starting at [[1]]\nThe mayor will make a speech\n[[2]] will perform\nPerformance of [[3]] about Helen Tungate (a [[4]])\nEvening fireworks display situated across the [[5]]\n\nOther events\nVideos about relationships that children have with their [[6]]\nVenue: [[7]] House\nPerformance of [[8]] dances\nVenue: the [[9]] market in the town centre\nTime: 2 and 5 pm every day except 1st day of festival\nSeveral professional concerts and one by children\nVenue: library\nTime: 6.30 pm on the 18th\nTickets available online from festival box office and from shops which have the festival [[10]] in their windows",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "first": 11,
+      "last": 15,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 11,
+        "text": "When the group meet at the airport they will have",
+        "options": [
+         {
+          "key": "A",
+          "text": "breakfast."
+         },
+         {
+          "key": "B",
+          "text": "coffee."
+         },
+         {
+          "key": "C",
+          "text": "lunch."
+         }
+        ]
+       },
+       {
+        "n": 12,
+        "text": "The group will be met at Munich Airport by",
+        "options": [
+         {
+          "key": "A",
+          "text": "an employee at the National Theatre."
+         },
+         {
+          "key": "B",
+          "text": "a theatre manager."
+         },
+         {
+          "key": "C",
+          "text": "a tour operator."
+         }
+        ]
+       },
+       {
+        "n": 13,
+        "text": "How much will dinner cost at the hotel?",
+        "options": [
+         {
+          "key": "A",
+          "text": "110 euros"
+         },
+         {
+          "key": "B",
+          "text": "120 euros"
+         },
+         {
+          "key": "C",
+          "text": "150 euros"
+         }
+        ]
+       },
+       {
+        "n": 14,
+        "text": "What type of restaurant will they go to on Tuesday evening?",
+        "options": [
+         {
+          "key": "A",
+          "text": "an Italian restaurant"
+         },
+         {
+          "key": "B",
+          "text": "a Lebanese restaurant"
+         },
+         {
+          "key": "C",
+          "text": "a typical restaurant of the region"
+         }
+        ]
+       },
+       {
+        "n": 15,
+        "text": "Who will they meet on Wednesday afternoon?",
+        "options": [
+         {
+          "key": "A",
+          "text": "an actor"
+         },
+         {
+          "key": "B",
+          "text": "a playwright"
+         },
+         {
+          "key": "C",
+          "text": "a theatre director"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "What does the man say about the play on each of the following days?\n\nChoose FIVE answers from the box and write the correct letter, A-G, next to Questions 16-20.",
+      "first": 16,
+      "last": 20,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "The playwright will be present."
+       },
+       {
+        "key": "B",
+        "text": "The play was written to celebrate an anniversary."
+       },
+       {
+        "key": "C",
+        "text": "The play will be performed inside a historic building."
+       },
+       {
+        "key": "D",
+        "text": "The play will be accompanied by live music."
+       },
+       {
+        "key": "E",
+        "text": "The play will be performed outdoors."
+       },
+       {
+        "key": "F",
+        "text": "The play will be performed for the first time."
+       },
+       {
+        "key": "G",
+        "text": "The performance will be attended by officials from the town."
+       }
+      ],
+      "questions": [
+       {
+        "n": 16,
+        "text": "Wednesday",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "Thursday",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "Friday",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "Saturday",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Monday",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "first": 21,
+      "last": 25,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "James chose to take Scandinavian Studies because when he was a child",
+        "options": [
+         {
+          "key": "A",
+          "text": "he was often taken to Denmark."
+         },
+         {
+          "key": "B",
+          "text": "his mother spoke to him in Danish."
+         },
+         {
+          "key": "C",
+          "text": "a number of Danish people visited his family."
+         }
+        ]
+       },
+       {
+        "n": 22,
+        "text": "When he graduates, James would like to",
+        "options": [
+         {
+          "key": "A",
+          "text": "take a postgraduate course."
+         },
+         {
+          "key": "B",
+          "text": "work in the media."
+         },
+         {
+          "key": "C",
+          "text": "become a translator."
+         }
+        ]
+       },
+       {
+        "n": 23,
+        "text": "Which course does James find most enjoyable?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Swedish"
+         },
+         {
+          "key": "B",
+          "text": "Danish television programmes"
+         },
+         {
+          "key": "C",
+          "text": "Scandinavian literature"
+         }
+        ]
+       },
+       {
+        "n": 24,
+        "text": "They agree that James's literature paper this term will be on",
+        "options": [
+         {
+          "key": "A",
+          "text": "19th century playwrights."
+         },
+         {
+          "key": "B",
+          "text": "the Icelandic sagas."
+         },
+         {
+          "key": "C",
+          "text": "modern Scandinavian novels."
+         }
+        ]
+       },
+       {
+        "n": 25,
+        "text": "Beth recommends that James's paper should be",
+        "options": [
+         {
+          "key": "A",
+          "text": "a historical overview of the genre."
+         },
+         {
+          "key": "B",
+          "text": "an in-depth analysis of a single writer."
+         },
+         {
+          "key": "C",
+          "text": "a study of the social background to the literature."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "flow_chart_completion",
+      "instructions": "Complete the flow-chart below.\n\nChoose FIVE answers from the box and write the correct letter, A-G, next to Questions 26-30.",
+      "first": 26,
+      "last": 30,
+      "body": "How James will write his paper on the Vikings\n\nHe'll read a [[26]] and choose his topic.\nHe'll borrow a [[27]] from Beth.\nHe'll plan the [[28]] of the paper.\nHe'll read some source material and write [[29]] .\nHe'll write the paper using [[30]] .\nHe'll write the complete paper.",
+      "options": [
+       {
+        "key": "A",
+        "text": "bullet points"
+       },
+       {
+        "key": "B",
+        "text": "film"
+       },
+       {
+        "key": "C",
+        "text": "notes"
+       },
+       {
+        "key": "D",
+        "text": "structure"
+       },
+       {
+        "key": "E",
+        "text": "student paper"
+       },
+       {
+        "key": "F",
+        "text": "textbook"
+       },
+       {
+        "key": "G",
+        "text": "documentary"
+       }
+      ],
+      "questions": [
+       {
+        "n": 26,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 27,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 34,
+      "image": "figures/p034.png"
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "Conflict at work\nConflict mostly consists of behaviour in the general category of [[31]]\nOften a result of people wanting to prove their [[32]]\nAlso caused by differences in [[33]] between people\n[[34]] conflicts: people more concerned about own team than about company\nConflict-related stress can cause [[35]]\n\nChief Executives\nMany have both [[36]]\nMay not like to have their decisions questioned\nThere may be conflict between people who have different [[37]]\n\nOther managers\nA structure that is more [[38]] may create a feeling of uncertainty about who staff should report to.\n\nMinimising conflict\nBosses need to try hard to gain [[39]]\nSomeone from outside the company may be given the role of [[40]] in order to resolve conflicts.",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "2.45",
+   "2": "band",
+   "3": "play",
+   "4": "scientist",
+   "5": "river",
+   "6": "grandparents",
+   "7": "Handsworth",
+   "8": "traditional",
+   "9": "outdoor",
+   "10": "logo",
+   "11": "B",
+   "12": "C",
+   "13": "A",
+   "14": "B",
+   "15": "C",
+   "16": "F",
+   "17": "B",
+   "18": "E",
+   "19": "G",
+   "20": "C",
+   "21": "C",
+   "22": "B",
+   "23": "C",
+   "24": "A",
+   "25": "C",
+   "26": "E",
+   "27": "G",
+   "28": "D",
+   "29": "C",
+   "30": "A",
+   "31": "bullying",
+   "32": "superiority",
+   "33": "personality",
+   "34": "structural",
+   "35": "absence",
+   "36": "confidence",
+   "37": "visions",
+   "38": "democratic",
+   "39": "respect",
+   "40": "mediator"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 12/Test 6 Section 1.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 12/Test 6 Section 2.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 12/Test 6 Section 3.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 12/Test 6 Section 4.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "MAN: Good morning, Kenton Festival box office. How can I help you?\n\nWOMAN: Oh, good morning. I’m coming to Kenton for a few days’ holiday next month, and a\nfriend told me there’s a festival. She gave me this number to find out about it.\nMAN: That's right, the festival begins on the 16th of May and goes on till the 19th.\nWOMAN: Oh, that’s great. I'll be there from the 15th till the 19'\". So could you tell me the\nprogramme, please?\nMAN: Well, on the first day, there's the opening ceremony in the town centre. People start gathering around two o'clock to get a good place to see from and the events will start\nat 2.45, and finish about 5.30.\nWOMAN: Okay, thanks. I'll make sure I get there early to get a good spot.\nMAN: The festival will be officially opened by the mayor. He'll just speak for a few minutes,\nwelcoming everyone to the festival. All the town councillors will be there, and of\ncourse lots of other people.\nWOMAN: Right.\nMAN: Then there'll\nbe a performance by a band. Most years we have a children’s choir,\nbut this year the local army cadets offered to perform and they're very géo\nWOMAN: Uh-huh.\nMAN: After that, a community group from the town will perform a play they've written\nthemselves, just a short one. It's about Helen Tungate. I don't know if you've heard\nof her?\nWOMAN: I certainly have. She was a scientist years ago.\nMAN: That's right. She was born in Kenton exactly 100 years ago, so we're celebrating\nher centenary.\n\nWOMAN: I’m a biologist, so I’ve always been interested in her. I didn’t realise she came from\nKenton.\n\nMAN: Yes. Well, all that will take place in the afternoon, and later, as the sun sets, there'll\nbe a firework display. You should go to the park to watch, as you'll get the best view\nfrom there, and the display takes place on the opposite side of the river. It's always\none of the most popular events in the festival.\n\nWOMAN: Sounds great.\n\nWOMAN: And what's happening on the other days?\n\nMAN: There are several events that go on the whole time. For example, the students of\nthe art college have produced a number of videos, all connected with relationships\nbetween children and their grandparents.\n\nWOMAN: That sounds interesting. It makes a change from children and parents, doesn’t it!\n\nMAN: Exactly. Because the art college is in use for classes, throughout the festival, the\nvideos are being shown in Handsworth House.\n\nWOMAN: How do you spell the name?\n\nMAN: H-A-N-D-S-W-O-R-T-H. Handsworth House. It’s close to the Town Hall.\n\nWOMAN: Right.\n\nMAN: Now let me see, what else can I tell you about?\nWOMAN: Are there any displays of ballet dancing? I’m particularly interested in that as I do it\nas a hobby.\nMAN: There isn’t any ballet, I'm afraid, but there’ll be a demonstration of traditional\ndances from all round the country.\n\nWOMAN: Oh, that’d be nice. Where’s that being held?\nMAN: It’s in the market in the town centre — the outdoor one, not the covered market. And\nit's on at 2 and 5 every afternoon of the festival, apart from the first day.\nWOMAN: Lovely. I’m interested in all Kinds of dancing, so I’m sure I'll enjoy that!\n\nMAN: Mm, I'm sure you will.\n\nWOMAN: And I’d really like to go to some concerts, if there are any.\n\nMAN: Yes, there are several. Three performed by professionals, and one by local children.\nWOMAN: And where is it being held?\n\nMAN: It’s in the library, which is in Park Street. On the 18th at 6.30 in the evening.\n\nWOMAN: I presume I'll need tickets for that.\n\nMAN: Yes, you can book online, or you can buy them when you arrive in Kenton, either at\nthe festival box office, or from any shops displaying our logo in the windows.\nWOMAN: Well, I think that'll keep me busy for the whole of my stay in Kenton. Thank you so\nmuch for all your help.\nMAN: You’re welcome. I hope you enjoy your stay.\nWOMAN: Thank you. Goodbye."
+   },
+   {
+    "part": 2,
+    "text": "Right. I’ve now almost succeeded in finalising plans for our tour, so I'll bring you up to date\nThe flight is at 11.30, so it’s too early to have lunch at the airport. I suggest we meet there for,\ncoffee at 10, which should give us plenty of time for breakfast before we leave home.\n\nWhen we arrive in Munich, we'll be met at the airport by Claus Bauer. Claus works fora tour,\noperator, and he'll look after us for the time we'll be in Germany. He’s already liaised with\nthe managers of the theatres we’re going to visit, and he’s also arranged for an officer of the\nNational Theatre in Munich to show us round the theatre one afternoon during our stay.\n\nNow last time we discussed this trip, I didn’t have the precise cost for hotel rooms, but now\nI have. The normal rate at the hotel where we’re staying is 150 euros a night for a double\nroom. I'd hoped to get that down to €120, but in fact I've been able to negotiate a rate\nof 110. That'll be reflected in the final payment which you'll need to make by the end of this\nweek.\n\nOn Tuesday, the day after our arrival, I had hoped we could sit in on a rehearsal at one of\nthe theatres, but unfortunately that’s proved very difficult to arrange, so instead we'll have a\n‘coach trip to one of the amazing castles in the mountains south of Munich.\n\nOn Tuesday evening, we'll all have dinner together in a restaurant near our hotel. From\ntalking to you all about your preferences, it was clear that a typical local restaurant would be\nto meet-oriented for some of you. Some of you suggested an Italian restaurant, but I must\nconfess that I decided to book a Lebanese one, as we have plenty of opportunities to go to\nan Italian restaurant at home.\n\nOn Wednesday afternoon, the director of the play we’re going to see that evening will talk to \nus at the theatre. She'll describe the whole process of producing a play, including how she\nchose the actors, and, as the play we’re going to see is a modern one, how she worked with\nthe playwright.\n\nRight. Now I'd just like to make a few points about the plays we're going to see, partly\nbecause it might influence your choice of clothes to take with you!\n\nThe play we’re seeing on Wednesday evening is a modern one, and we're going to the\npremiere, so it'll be quite a dressy occasion, though of course you don't have to dress\nformally. I gather it’s rather a multimedia production, with amazing lighting effects and a\nsoundtrack of electronic music, though unfortunately the playwright is ill and is unlikely to be\nable to attend.\n\nOn Thursday we're seeing a play that was first performed last year, when it was\ncommissioned to mark a hundred years since the birth in the town of a well-known scientist.\nWe're going to see a revival of that production, which aroused a lot of interest.\n\nFriday’s play will really make you think hard about what clothes to pack, as it'll be in the\ngarden of a palace. It’s a beautiful setting, but I'd better warn you, there won't be much\nprotection from the wind.\n\nOn Saturday, we’re going by coach to a theatre in another town, not far from Munich. This will\nbe the opening of a drama festival, and the mayor and all the other dignitaries of the town will\nbe attending. After the performance, the mayor is hosting a reception for all the audience, and\nthere’ll be a band playing traditional music of the region.\n\nAnd after having a day off on Sunday, our final play is on Monday, and it’ a the stunning\nsetting of the old Town Hall Which ack\nThe 14th century. The\nfifty years that the lead actor has been on stage, and the play is the one where he made his\nfirst professional appea all those years ago. \nAnd the day after that, we'll be flying back home. Now have you got any questions before I ..."
+   },
+   {
+    "part": 3,
+    "text": "BETH: Oh good morning. You must be James. I’m Beth Cartwright — please call me Beth.\n\nJAMES: Thank you.\n\nBETH: Now as this is your first tutorial since you started on the Scandinavian Studies\ncourse, I'd like to find out something about you. Why did you decide to take this\ncourse?\n\nJAMES: Well, my mother is Danish, and although we always lived in England, she used to\ntalk about her home a lot, and that made me want to visit Denmark. We hardly ever\ndid, though — my mother usually went on her own. But whenever her relations or\nfriends were in England they always came to see us.\n\nBETH: I see. Sol assume you already speak Danish, one of the languages you'll be\nstudying.\n\nJAMES: I can get by when I talk to people, though I’m not terribly accurate.\n\nBETH: I Now you probably know that you'll spend the third year of the course abroad. Have\nyou had any thoughts about that?\n\nJAMES: I'm really looking forward to it. And although Denmark seems the obvious place to\ngo, because of my family connections, I’d love to spend the time in Iceland.\n\nBETH: Oh, I’m sure it can be arranged. Do you have any plans for when you graduate? A lot\nof students go on to take a master’s degree.\n\nJAMES: I think the four years of the undergraduate course will be enough for me. I'm\ninterested in journalism, and I quite like the idea of moving to Scandinavia and writing\nfor magazines. I'd find that more creative than translating, which I suppose most\ngraduates do.\n\nBETH: OK. Now how are you finding the courses you're taking this term, James?\n\nJAMES: Well, I’m really enjoying the one on Swedish cinema.\n\nBETH: That'll continue next term, but the one on Scandinavian literature that's running atthe\nmoment will be replaced by more specialised courses. Oh, and by the way, if you’re\ninterested in watching Danish television programmes — there’s going to be a course\non that the term after next.\n\nJAMES: That sounds good.\n\nBETH: Have you started thinking about the literature paper that you have to write in the next\nfew weeks?\n\nJAMES: Yes, my first choice would be to do something on the Icelandic sagas.\n\nBETH: I Hmm. The trouble with that is that a lot of people choose that topic, and it can be\ndifficult to get hold of the books you'll need. Why not leave that for another time?\n\nJAMES: Right.\n\nBETH: You might find modern novels or 19th century playwrights interesting.\nJAMES: I've read or seen several plays in translation, so that would be a good idea.\n\nBETH: Fine. I'll put you down for that topic.\n\nJAMES: Right. So what would you advise me to aim at in the paper?\n\nBETH: First I suggest you avoid taking one writer and going into a great deal of detail. That\napproach certainly has its place, but I think you first need to get an understanding\nof the literature in the context of the society in which it was produced — who it was\nwritten for, how it was published, and so on. I also think that’s more fruitful than\nplacing it within the history of the genre. Okay. That sounds reasonable.\nJAMES: Could I ask for some advice about writing the paper I’m working on about the\nVikings? I have to do that this week, and I’m a bit stuck.\n\nBETH: Of course. Have you decided yet what to write about?\n\nJAMES: No, I haven’t. There’s so much that seems interesting — Viking settlement in other\ncountries, trade, mythology...\nBETH: Well, what I suggest is that you read an assignment a student wrote last year, which\nis kept in the library. It's short and well focused, and I’m sure you'll find it helpful. I'll\ngive you the details in a moment. Textbooks usually cover so many topics, it can be\nvery difficult to choose just one.\nJAMES: OK. I’ve got a DVD of the film about the Vikings that came out earlier this year.\n\nShould I watch that again?\nBETH: If it’s the one I am thinking of, hmm, I'd ignore it — it's more fantasy than reality.\n\nBut I’ve got a recording of a documentary that you should watch. It makes some\ninteresting and provocative points, which I think will help you to focus your topic.\nJAMES: Right.\nJAMES: So then should I work out an outline?\nBETH: Yes. Just headings for different sections at this stage. And then you should start\nlooking for suitable articles and books to draw on, and take notes which you organise\naccording to those headings.\nJAMES: I See.\n\nBETH: Then put short phrases and sentences as bullet points under each heading. Make\nsure that this skeleton makes sense and flows properly, before writing up the paper\nin full.\nJAMES: OK. Thanks, that’s very helpful.\n"
+   },
+   {
+    "part": 4,
+    "text": "Over the years, attitudes towards workers have changed considerably. After all, there was a\ntime when workers had no rights at all, and laboured in appalling conditions. Conditions have\nimproved a lot, but conflict in the workplace is still common. And human resources managers\nnowadays need to be able to deal with it when necessary.\n\nWhat is conflict in the workplace? Definitions vary but I'm taking it to refer to a whole range\nof behaviours that the victim finds unacceptable, from minor, harmless arguments to — at the\nopposite extreme — physical violence. Much of this is covered by the term bullying, by which\nI mean one or more people behaving abusively or aggressively against another who is in a\nweaker position. Although all behaviour like this is a form of conflict, not all conflict can be\ndescribed in these terms.\n\nAs with all human behaviour, there are numerous reasons for it. But often it's caused by\nsomeone who feels the need to show their superiority over someone else, in order to feel that\nthey aren't at the lowest level in a hierarchy or a group of people.\n\nIn some cases one person simply dislikes the other, on the basis that the personality of one\nis in some way incompatible with that of the other person. A general habit of optimism in one\nperson could make them intolerant of a colleague who's constantly pessimistic — not that that\njustifies treating them badly, of course.\n\nSome conflicts arise when people are more interested in promoting themselves and thei\nteam than in the company as a whole. These conflicts are called structural and could come\nabout, for example, when a sales team believe they are the only people in the business who\ndo any useful work, and look down on behind the scenes administrators.\n\nConflict obviously affects the individuals concerned — the situation is likely to be very stressful,\nfor victims, resulting in their absence from work, possibly for months. For the company, if no\neffort is made to deal with conflict, it can spiral out of control, and even lead to the breakdown\nof the business.\n\nSome interesting work with chief executives - CEOs — has uncovered some of the reasons\nwhy they may treat colleagues badly. Many CEOs combine two opposing characteristics:\nconfidence — that is, the belief that they're capable of great achievements — with a high level\nof anxiety, a fear of missing targets, whether set by themselves or by the directors of the\ncompany. This combination can make them respond badly to anyone who questions their\ndecisions.\n\nIn a high pressure work environment, such characteristics become problematic. And it's\nparticularly difficult to tackle the situation where colleagues, managers and board members\nare all trying to achieve their own visions. When they can’t agree on strategic issues and on\nwhere they see the business going, there are real problems.\n\nFor managers at lower levels within the organisation, it might seem that an autocratic form\nof management — where the chief executive gives orders and everyone else has to obey —\nwould see more conflict than others. Interestingly, though, a company with a more democratic\nbusiness model, can suffer more, when uncertainty about who to report to leads to conflicting\ndemands.\n\nNow I'll say a little about dealing with the type of conflict that has harmful effects. Of course\nthe ideal is to prevent it arising in the first place. A good manager, at any level, will make\nefforts to earn the respect of the people they work with, particularly those who report to them.\n\nThat will involve politeness in all communications, and treating them as equals who happen\nto have a different role within the organisation.\n\nSometimes, of course, conflict does occur, and can get out of hand. In such cases the human\nresources department often gets involved. However, if one of the parties in a conflict sees\nhuman resources as simply a mouthpiece for the chief executive, then an external mediator\nmight be able to help. By talking to both sides, and trying to find the truth of what's been\nhappening, they can build a clear picture of the situation, and give feedback that both sides\nwill accept, precisely because they’re independent."
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "groups": [
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 1 has nine paragraphs, A-I.\nWhich paragraph contains the following information?\n\nWrite the correct letter, A—I, in boxes 1-3 on your answer sheet.",
+      "first": 1,
+      "last": 3,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Paragraph A"
+       },
+       {
+        "key": "B",
+        "text": "Paragraph B"
+       },
+       {
+        "key": "C",
+        "text": "Paragraph C"
+       },
+       {
+        "key": "D",
+        "text": "Paragraph D"
+       },
+       {
+        "key": "E",
+        "text": "Paragraph E"
+       },
+       {
+        "key": "F",
+        "text": "Paragraph F"
+       },
+       {
+        "key": "G",
+        "text": "Paragraph G"
+       },
+       {
+        "key": "H",
+        "text": "Paragraph H"
+       },
+       {
+        "key": "I",
+        "text": "Paragraph I"
+       }
+      ],
+      "questions": [
+       {
+        "n": 1,
+        "text": "a reference to characteristics that only apply to food production",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "a reference to challenges faced only by farmers in certain parts of the world",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "a reference to difficulties in bringing about co-operation between farmers",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Look at the following statements (Questions 4—9) and the list of people below.\nMatch each statement with the correct person, A-G.\n\nWrite the correct letter, A-G, in boxes 4—9 on your answer sheet.\n\nNB You may use any letter more than once.",
+      "first": 4,
+      "last": 9,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Kanayo F. Nwanze"
+       },
+       {
+        "key": "B",
+        "text": "Sophia Murphy"
+       },
+       {
+        "key": "C",
+        "text": "Shenggen Fan"
+       },
+       {
+        "key": "D",
+        "text": "Rokeya Kabir"
+       },
+       {
+        "key": "E",
+        "text": "Pat Mooney"
+       },
+       {
+        "key": "F",
+        "text": "Giel Ton"
+       },
+       {
+        "key": "G",
+        "text": "Sonali Bisht"
+       }
+      ],
+      "questions": [
+       {
+        "n": 4,
+        "text": "Financial assistance from the government does not always go to the farmers who most need it.",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "Farmers can benefit from collaborating as a group.",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "Financial assistance from the government can improve the standard of living of farmers.",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "Farmers may be helped if there is financial input by the same individuals who buy their goods.",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "Collaboration among farmers requires investment of resources which may discourage some farmers from getting involved.",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "Improvements to infrastructure can have a major impact on risk for farmers.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.\nWrite the correct letters in boxes 10 and 11 on your answer sheet.\nWhich TWO problems are mentioned which affect farmers with small farms in developing countries?",
+      "first": 10,
+      "last": 11,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "lack of demand for locally produced food"
+       },
+       {
+        "key": "B",
+        "text": "lack of irrigation programmes"
+       },
+       {
+        "key": "C",
+        "text": "being unable to get insurance"
+       },
+       {
+        "key": "D",
+        "text": "the effects of changing weather patterns"
+       },
+       {
+        "key": "E",
+        "text": "having to sell their goods to intermediary buyers"
+       }
+      ],
+      "questions": [
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.\nWrite the correct letters in boxes 12 and 13 on your answer sheet.\nWhich TWO actions are recommended for improving conditions for farmers?",
+      "first": 12,
+      "last": 13,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "reducing the size of food stocks"
+       },
+       {
+        "key": "B",
+        "text": "attempting to ensure that prices rise at certain times of the year"
+       },
+       {
+        "key": "C",
+        "text": "organising co-operation between a wide range of interested parties"
+       },
+       {
+        "key": "D",
+        "text": "encouraging consumers to take a financial stake in farming"
+       },
+       {
+        "key": "E",
+        "text": "making customers aware of the reasons for changing food prices"
+       }
+      ],
+      "questions": [
+       {
+        "n": 12,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "The risks agriculture faces in developing countries\nSynthesis of an online debate*",
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "Two things distinguish food production from all other productive activities: first, every single person needs food each day and has a right to it; and second, it is hugely dependent on nature. These two unique aspects, one political, the other natural, make food production highly vulnerable and different from any other business. At the same time, cultural values are highly entrenched in food and agricultural systems worldwide."
+     },
+     {
+      "label": "B",
+      "text": "Farmers everywhere face major risks, including extreme weather, long-term climate change, and price volatility in input and product markets. However, smallholder farmers in developing countries must in addition deal with adverse environments, both natural, in terms of soil quality, rainfall, etc., and human, in terms of infrastructure, financial systems, markets, knowledge and technology. Counter-intuitively, hunger is prevalent among many smallholder farmers in the developing world."
+     },
+     {
+      "label": "C",
+      "text": "Participants in the online debate argued that our biggest challenge is to address the underlying causes of the agricultural system’s inability to ensure sufficient food for all, and they identified as drivers of this problem our dependency on fossil fuels and unsupportive government policies."
+     },
+     {
+      "label": "D",
+      "text": "On the question of mitigating the risks farmers face, most essayists called for greater state intervention. In his essay, Kanayo F. Nwanze, President of the International Fund for Agricultural Development, argued that governments can significantly reduce risks for farmers by providing basic services like roads to get produce more efficiently to markets, or water and food storage facilities to reduce losses. Sophia Murphy, senior advisor to the Institute for Agriculture and Trade Policy, suggested that the procurement and holding of stocks by governments can also help mitigate wild swings in food prices by alleviating uncertainties about market supply."
+     },
+     {
+      "label": "E",
+      "text": "Shenggen Fan, Director General of the International Food Policy Research Institute, held up social safety nets and public welfare programmes in Ethiopia, Brazil and Mexico as valuable ways to address poverty among farming families and reduce their vulnerability to agriculture shocks. However, some commentators responded that cash transfers to poor families do not necessarily translate into increased food security, as these programmes do not always strengthen food production or raise incomes. Regarding state subsidies for agriculture, Rokeya Kabir, Executive Director of Bangladesh Nari Progati Sangha, commented in her essay that these ‘have not compensated for the stranglehold exercised by private traders. In fact, studies show that sixty percent of beneficiaries of subsidies are not poor, but rich landowners and non-farmer traders.’"
+     },
+     {
+      "label": "F",
+      "text": "Nwanze, Murphy and Fan argued that private risk management tools, like private insurance, commodity futures markets, and rural finance can help small-scale producers mitigate risk and allow for investment in improvements. Kabir warned that financial support schemes often encourage the adoption of high-input agricultural practices, which in the medium term may raise production costs beyond the value of their harvests. Murphy noted that when futures markets become excessively financialised they can contribute to short-term price volatility, which increases farmers' food insecurity. Many participants and commentators emphasised that greater transparency in markets is needed to mitigate the impact of volatility, and make evident whether adequate stocks and supplies are available. Others contended that agribusiness companies should be held responsible for paying for negative side effects."
+     },
+     {
+      "label": "G",
+      "text": "Many essayists mentioned climate change and its consequences for small-scale agriculture. Fan explained that ‘in addition to reducing crop yields, climate change increases the magnitude and the frequency of extreme weather events, which increase smallholder vulnerability.. The growing unpredictability of weather patterns increases farmers’ difficulty in managing weather-related risks. According to this author, one solution would be to develop crop varieties that are more resilient to new climate trends and extreme weather patterns. Accordingly, Pat Mooney, co-founder and executive director of the ETC Group, suggested that ‘if we are to survive climate change, we must adopt policies that let peasants diversify the plant and animal species and varieties/breeds that make up our menus.’"
+     },
+     {
+      "label": "H",
+      "text": "Some participating authors and commentators argued in favour of community- based and autonomous risk management strategies through collective action groups, co-operatives or producers’ groups. Such groups enhance market opportunities for small-scale producers, reduce marketing costs and synchronise buying and selling with seasonal price conditions. According to Murphy, ‘collective action offers an important way for farmers to strengthen their political and economic bargaining power, and to reduce their business risks.’ One commentator, Giel Ton, warned that collective action does not come as a free good. It takes time, effort and money to organise, build trust and to experiment. Others, like Marcel Vernooij and Marcel Beukeboom, suggested that in order to ‘apply what we already know’, all stakeholders, including business, government, scientists and civil society, must work together, starting at the beginning of the value chain."
+     },
+     {
+      "label": "I",
+      "text": "Some participants explained that market price volatility is often worsened by the presence of intermediary purchasers who, taking advantage of farmers' vulnerability, dictate prices. One commentator suggested farmers can gain greater control over prices and minimise price volatility by selling directly to consumers. Similarly, Sonali Bisht, founder and advisor to the Institute of Himalayan Environmental Research and Education (INHERE), India, wrote that community-supported agriculture, where consumers invest in local farmers by subscription and guarantee producers a fair price, is a risk-sharing model worth more attention. Direct food distribution systems not only encourage small-scale agriculture but also give consumers more control over the food they consume, she wrote."
+     },
+     {
+      "label": "",
+      "text": "*The personal names in the text refer to the authors of written contributions to the online debate."
+     }
+    ]
+   },
+   {
+    "title": "The Lost City\nAn explorer's encounter with the ruined city of Machu Picchu, the most famous icon of the Inca civilisation",
+    "groups": [
+     {
+      "type": "matching_headings",
+      "instructions": "Reading Passage 2 has seven paragraphs, A-G.\nChoose the correct heading for each paragraph from the list of headings below.\n\nWrite the correct number, i–viii, in boxes 14–20 on your answer sheet.",
+      "first": 14,
+      "last": 20,
+      "body": "",
+      "options": [
+       {
+        "key": "i",
+        "text": "Different accounts of the same journey"
+       },
+       {
+        "key": "ii",
+        "text": "Bingham gains support"
+       },
+       {
+        "key": "iii",
+        "text": "A common belief"
+       },
+       {
+        "key": "iv",
+        "text": "The aim of the trip"
+       },
+       {
+        "key": "v",
+        "text": "A dramatic description"
+       },
+       {
+        "key": "vi",
+        "text": "A new route"
+       },
+       {
+        "key": "vii",
+        "text": "Bingham publishes his theory"
+       },
+       {
+        "key": "viii",
+        "text": "Bingham's lack of enthusiasm"
+       }
+      ],
+      "questions": [
+       {
+        "n": 14,
+        "text": "Paragraph A",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "Paragraph B",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "Paragraph C",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "Paragraph D",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "Paragraph E",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "Paragraph F",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Paragraph G",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 2?\nIn boxes 21-24 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 21,
+      "last": 24,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "Bingham went to South America in search of an Inca city.",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "Bingham chose a particular route down the Urubamba valley because it was the most common route used by travellers.",
+        "options": []
+       },
+       {
+        "n": 23,
+        "text": "Bingham understood the significance of Machu Picchu as soon as he saw it.",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "Bingham returned to Machu Picchu in order to find evidence to support his theory.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "sentence_completion",
+      "instructions": "Complete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 25-26 on your answer sheet.",
+      "first": 25,
+      "last": 26,
+      "body": "25 The track that took Bingham down the Urubamba valley had been created for the transportation of [[25]].\n26 Bingham found out about the ruins of Machu Picchu from a [[26]] in the Urubamba valley.",
+      "options": [],
+      "questions": [
+       {
+        "n": 25,
+        "text": "The track that took Bingham down the Urubamba valley had been created for the transportation of [[25]]",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "Bingham found out about the ruins of Machu Picchu from a [[26]] in the Urubamba valley.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "When the US explorer and academic Hiram Bingham arrived in South America in 1911, he was ready for what was to be the greatest achievement of his life: the exploration of the remote hinterland to the west of Cusco, the old capital of the Inca empire in the Andes mountains of Peru. His goal was to locate the remains of a city called Vitcos, the last capital of the Inca civilisation. Cusco lies on a high plateau at an elevation of more than 3,000 metres, and Bingham’s plan was to descend from this plateau along the valley of the Urubamba river, which takes a circuitous route down to the Amazon and passes through an area of dramatic canyons and mountain ranges."
+     },
+     {
+      "label": "B",
+      "text": "When Bingham and his team set off down the Urubamba in late July, they had an advantage over travellers who had preceded them: a track had recently been blasted down the valley canyon to enable rubber to be brought up by mules from the jungle. Almost all previous travellers had left the river at Ollantaytambo and taken a high pass across the mountains to rejoin the river lower down, thereby cutting a substantial corner, but also therefore never passing through the area around Machu Picchu."
+     },
+     {
+      "label": "C",
+      "text": "On 24 July they were a few days into their descent of the valley. The day began slowly, with Bingham trying to arrange sufficient mules for the next stage of the trek. His companions showed no interest in accompanying him up the nearby hill to see some ruins that a local farmer, Melchor Arteaga, had told them about the night before. The morning was dull and damp, and Bingham also seems to have been less than keen on the prospect of climbing the hill. In his book Lost City of the Incas, he relates that he made the ascent without having the least expectation that he would find anything at the top."
+     },
+     {
+      "label": "D",
+      "text": "Bingham writes about the approach in vivid style in his book. First, as he climbs . up the hill, he describes the ever-present possibility of deadly snakes, ‘capable of making considerable springs when in pursuit of their prey’; not that he sees any. Then there’s a sense of mounting discovery as he comes across great sweeps of terraces, then a mausoleum, followed by monumental staircases and, finally, the grand ceremonial buildings of Machu Picchu. ‘It seemed like an unbelievable dream ... the sight held me spellbound ...’ he wrote."
+     },
+     {
+      "label": "E",
+      "text": "We should remember, however, that Lost City of the Incas is a work of hindsight, not written until 1948, many years after his journey. His journal entries of the time reveal a much more gradual appreciation of his achievement. He spent the afternoon at the ruins noting down the dimensions of some of the buildings, then descended and rejoined his companions, to whom he seems to have said little about his discovery. At this stage, Bingham didn’t realise the extent or the importance of the site, nor did he realise what use he could make of the discovery."
+     },
+     {
+      "label": "F",
+      "text": "However, soon after returning it occurred to him that he could make a name for himself from this discovery. When he came to write the National Geographic magazine article that broke the story to the world in April 1913, he knew he had to produce a big idea. He wondered whether it could have been the birthplace of the very first Inca, Manco the Great, and whether it could also have been what chroniclers described as 'the last city of the Incas'. This term refers to Vilcabamba, the settlement where the Incas had fled from Spanish invaders in the 1530s. Bingham made desperate attempts to prove this belief for nearly 40 years. Sadly, his vision of the site as both the beginning and end of the Inca civilisation, while a magnificent one, is inaccurate. We now know that Vilcabamba actually lies 65 kilometres away in the depths of the jungle."
+     },
+     {
+      "label": "G",
+      "text": "One question that has perplexed visitors, historians and archaeologists alike ever since Bingham, is why the site seems to have been abandoned before the Spanish Conquest. There are no references to it by any of the Spanish chroniclers — and if they had known of its existence so close to Cusco they would certainly have come in search of gold. An idea which has gained wide acceptance over the past few years is that Machu Picchu was a moya, a country estate built by an Inca emperor to escape the cold winters of Cusco, where the elite could enjoy monumental architecture and spectacular views. Furthermore, the particular architecture of Machu Picchu suggests that it was constructed at the time of the greatest of all the Incas, the emperor Pachacuti (c. 1438-71). By custom, Pachacuti's descendants built other similar estates for their own use, and so Machu Picchu would have been abandoned after his death, some 50 years before the Spanish Conquest."
+     }
+    ]
+   },
+   {
+    "title": "The Benefits of Being Bilingual",
+    "groups": [
+     {
+      "type": "table_completion",
+      "instructions": "Complete the table below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\nWrite your answers in boxes 27-31 on your answer sheet.",
+      "first": 27,
+      "last": 31,
+      "body": "Test | Findings\nObserving the [[27]] of Russian-English bilingual people when asked to select certain objects | Bilingual people engage both languages simultaneously: a mechanism known as [[28]]\nA test called the [[29]] focusing on naming colours | Bilingual people are more able to handle tasks involving a skill called [[30]]\nA test involving switching between tasks | When changing strategies, bilingual people show better [[31]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 27,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "yes_no_not_given",
+      "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3?\nIn boxes 32–36 on your answer sheet, write\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+      "first": 32,
+      "last": 36,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 32,
+        "text": "Attitudes towards bilingualism have changed in recent years.",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "Bilingual people are better than monolingual people at guessing correctly what words are before they are finished.",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "Bilingual people consistently name images faster than monolingual people.",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "Bilingual people’s brains process single sounds more efficiently than monolingual people in all situations.",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "Fewer bilingual people than monolingual people suffer from brain disease in old age.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 3 has seven paragraphs, A-G.\n\nWhich paragraph contains the following information?\n\nWrite the correct letter, A-G, in boxes 37-40 on your answer sheet.",
+      "first": 37,
+      "last": 40,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Paragraph A"
+       },
+       {
+        "key": "B",
+        "text": "Paragraph B"
+       },
+       {
+        "key": "C",
+        "text": "Paragraph C"
+       },
+       {
+        "key": "D",
+        "text": "Paragraph D"
+       },
+       {
+        "key": "E",
+        "text": "Paragraph E"
+       },
+       {
+        "key": "F",
+        "text": "Paragraph F"
+       },
+       {
+        "key": "G",
+        "text": "Paragraph G"
+       }
+      ],
+      "questions": [
+       {
+        "n": 37,
+        "text": "an example of how bilingual and monolingual people’s brains respond differently to a certain type of non-verbal auditory input",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "a demonstration of how a bilingual upbringing has benefits even before we learn to speak",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "a description of the process by which people identify words that they hear",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "reference to some negative consequences of being bilingual",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "According to the latest figures, the majority of the world’s population is now bilingual or multilingual, having grown up speaking two or more languages. In the past, such children were considered to be at a disadvantage compared with their monolingual peers. Over the past few decades, however, technological advances have allowed researchers to look more deeply at how bilingualism interacts with and changes the cognitive and neurological systems, thereby identifying several clear benefits of being bilingual."
+     },
+     {
+      "label": "B",
+      "text": "Research shows that when a bilingual person uses one language, the other is active at the same time. When we hear a word, we don't hear the entire word all at once: the sounds arrive in sequential order. Long before the word is finished, the brain's language system begins to guess what that word might be. If you hear 'can', you will likely activate words like 'candy' and 'candle' as well, at least during the earlier stages of word recognition. For bilingual people, this activation is not limited to a single language; auditory input activates corresponding words regardless of the language to which they belong. Some of the most compelling evidence for this phenomenon, called 'language co-activation', comes from studying eye movements. A Russian-English bilingual asked to 'pick up a marker' from a set of objects would look more at a stamp than someone who doesn't know Russian, because the Russian word for 'stamp', marka, sounds like the English word he or she heard, 'marker'. In cases like this, language co-activation occurs because what the listener hears could map onto words in either language."
+     },
+     {
+      "label": "C",
+      "text": "Having to deal with this persistent linguistic competition can result in difficulties, however. For instance, knowing more than one language can cause speakers to name pictures more slowly, and can increase ‘tip-of-the-tongue states’, when you can almost, but not quite, bring a word to mind. As a result, the constant juggling of two languages creates a need to control how much a person accesses a language at any given time. For this reason, bilingual people often perform better on tasks that require conflict management. In the classic Stroop Task, people see a word and are asked to name the colour of the word’s font. When the colour and the word match (i.e., the word ‘red’ printed in red), people correctly name the colour more quickly than when the colour and the word don’t match (i.e., the word ‘red’ printed in blue). This occurs because the word itself (‘red’) and its font colour (blue) conflict. Bilingual people often excel at tasks such as this, which tap into the ability to ignore competing perceptual information and focus on the relevant aspects of the input. Bilinguals are also better at switching between two tasks; for example, when bilinguals have to switch from categorizing objects by colour (red or green) to categorizing them by shape (circle or triangle), they do so more quickly than monolingual people, reflecting better cognitive control when having to make rapid changes of strategy."
+     },
+     {
+      "label": "D",
+      "text": "It also seems that the neurological roots of the bilingual advantage extend to brain areas more traditionally associated with sensory processing. When monolingual and bilingual adolescents listen to simple speech sounds without any intervening background noise, they show highly similar brain stem responses. When researchers play the same sound to both groups in the presence of background noise, however, the bilingual listeners' neural response is considerably larger, reflecting better encoding of the sound's fundamental frequency, a feature of sound closely related to pitch perception."
+     },
+     {
+      "label": "E",
+      "text": "Such improvements in cognitive and sensory processing may help a bilingual person to process information in the environment, and help explain why bilingual adults acquire a third language better than monolingual adults master a second language. This advantage may be rooted in the skill of focussing on information about the new language while reducing interference from the languages they already know."
+     },
+     {
+      "label": "F",
+      "text": "Research also indicates that bilingual experience may help to keep the cognitive mechanisms sharp by recruiting alternate brain networks to compensate for those that become damaged during aging. Older bilinguals enjoy improved memory relative to monolingual people, which can lead to real-world health benefits. In a study of over 200 patients with Alzheimer's disease, a degenerative brain disease, bilingual patients reported showing initial symptoms of the disease an average of five years later than monolingual patients. In a follow-up study, researchers compared the brains of bilingual and monolingual patients matched on the severity of Alzheimer's symptoms. Surprisingly, the bilinguals' brains had more physical signs of disease than their monolingual counterparts, even though their outward behaviour and abilities were the same. If the brain is an engine, bilingualism may help it to go farther on the same amount of fuel."
+     },
+     {
+      "label": "G",
+      "text": "Furthermore, the benefits associated with bilingual experience seem to start very early. In one study, researchers taught seven-month-old babies growing up in monolingual or bilingual homes that when they heard a tinkling sound, a puppet appeared on one side of a screen. Halfway through the study, the puppet began appearing on the opposite side of the screen. In order to get a reward, the infants had to adjust the rule they'd learned; only the bilingual babies were able to successfully learn the new rule. This suggests that for very young children, as well as for older people, navigating a multilingual environment imparts advantages that transfer far beyond language."
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "A",
+   "2": "B",
+   "3": "H",
+   "4": "D",
+   "5": "B",
+   "6": "C",
+   "7": "G",
+   "8": "B",
+   "9": "A",
+   "10": "D",
+   "11": "E",
+   "12": "C",
+   "13": "D",
+   "14": "iv",
+   "15": "vi",
+   "16": "viii",
+   "17": "v",
+   "18": "i",
+   "19": "vii",
+   "20": "iii",
+   "21": "TRUE",
+   "22": "FALSE",
+   "23": "FALSE",
+   "24": "NOT GIVEN",
+   "25": "rubber",
+   "26": "farmer",
+   "27": "eye movements",
+   "28": "language co-activation",
+   "29": "Stroop Task",
+   "30": "conflict management",
+   "31": "cognitive control",
+   "32": "YES",
+   "33": "NOT GIVEN",
+   "34": "NO",
+   "35": "NO",
+   "36": "NOT GIVEN",
+   "37": "D",
+   "38": "G",
+   "39": "B",
+   "40": "C"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe maps below show the centre of a small town called Islip as it is now, and\nplans for its development. |\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 50,
+   "image": "figures/p050.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nAt the present time, the population of some countries includes a relatively large\nnumber of young adults, compared with the number of older people.\n\nDo the advantages of this situation outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Songs and singing",
+    "questions": [
+     "Did you enjoy singing when you were younger? [Why?/Why not?]",
+     "How often do you sing now? [Why?]",
+     "Do you have a favourite song you like listening to? [Why?/Why not?]",
+     "How important is singing in your culture? [Why?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe a film star/actor who is very popular.",
+   "points": [
+    "who this actor is",
+    "what kinds of films/movies he/she acts in",
+    "what you know about this actor's life",
+    "and explain why this actor is so popular"
+   ],
+   "rounding_off": [
+    "You will have to talk about the topic for one to two minutes.",
+    "You have one minute to think about what you are going to say. You can make some notes to help you if you wish."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Watching films/movies",
+    "questions": [
+     "What are the most popular types of films in your country?",
+     "What is the difference between watching a film in the cinema and watching a film at home?",
+     "Do you think cinemas will close in the future?"
+    ]
+   },
+   {
+    "topic": "Theatre",
+    "questions": [
+     "How important is the theatre in your country's history?",
+     "How strong a tradition is it today in your country to go to the theatre?",
+     "Do you think the theatre should be run as a business or as a public service?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

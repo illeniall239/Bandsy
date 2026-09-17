@@ -1,0 +1,1255 @@
+{
+ "book": 10,
+ "test": 4,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 1,
+      "last": 6,
+      "body": "THORNDYKE’S BUILDERS\nExample\nCustomer heard about Thorndyke's from a ..\n\nName: Edith [[1]]\nAddress: Flat 4,\n[[2]] Park Flats\n(Behind the [[3]])\nPhone number: 875934\nBest time to contact customer: during the [[4]]\nWhere to park: opposite entrance next to the [[5]]\nNeeds full quote showing all the jobs and the [[6]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "table_completion",
+      "instructions": "Complete the table below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 7,
+      "last": 10,
+      "body": "Area | Work to be done | Notes\nKitchen | Replace the [[7]]\\nin the door | Fix tomorrow\n | Paint wall above\\nthe [[8]] | Strip paint and plaster\\napproximately one\\n[[9]] in advance\nGarden | One [[10]] needs\\nreplacing (end of garden) | ",
+      "options": [],
+      "questions": [
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "first": 11,
+      "last": 15,
+      "body": "MANHAM PORT",
+      "options": [],
+      "questions": [
+       {
+        "n": 11,
+        "text": "Why did a port originally develop at Manham?",
+        "options": [
+         {
+          "key": "A",
+          "text": "It was safe from enemy attack."
+         },
+         {
+          "key": "B",
+          "text": "It was convenient for river transport."
+         },
+         {
+          "key": "C",
+          "text": "It had a good position on the sea coast."
+         }
+        ]
+       },
+       {
+        "n": 12,
+        "text": "What caused Manham's sudden expansion during the Industrial Revolution?",
+        "options": [
+         {
+          "key": "A",
+          "text": "the improvement in mining techniques"
+         },
+         {
+          "key": "B",
+          "text": "the increase in demand for metals"
+         },
+         {
+          "key": "C",
+          "text": "the discovery of tin in the area"
+         }
+        ]
+       },
+       {
+        "n": 13,
+        "text": "Why did rocks have to be sent away from Manham to be processed?",
+        "options": [
+         {
+          "key": "A",
+          "text": "shortage of fuel"
+         },
+         {
+          "key": "B",
+          "text": "poor transport systems"
+         },
+         {
+          "key": "C",
+          "text": "lack of skills among local people"
+         }
+        ]
+       },
+       {
+        "n": 14,
+        "text": "What happened when the port declined in the twentieth century?",
+        "options": [
+         {
+          "key": "A",
+          "text": "The workers went away."
+         },
+         {
+          "key": "B",
+          "text": "Traditional skills were lost."
+         },
+         {
+          "key": "C",
+          "text": "Buildings were used for new purposes."
+         }
+        ]
+       },
+       {
+        "n": 15,
+        "text": "What did the Manham Trust hope to do?",
+        "options": [
+         {
+          "key": "A",
+          "text": "discover the location of the original port"
+         },
+         {
+          "key": "B",
+          "text": "provide jobs for the unemployed"
+         },
+         {
+          "key": "C",
+          "text": "rebuild the port complex"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "table_completion",
+      "instructions": "Complete the table below.\n\nWrite NO MORE THAN TWO WORDS for each answer.",
+      "first": 16,
+      "last": 20,
+      "body": "Tourist attractions in Manham\n\nPlace | Features and activities | Advice\ncopper mine | specially adapted miners'\\n[[16]] take visitors into the mountain | the mine is [[17]]\\nand enclosed – unsuitable for children and animals\nvillage school | classrooms and a special exhibition of [[18]] | a [[19]] is recommended\n'The George'\\n(old sailing ship) | the ship's wheel (was lost but has now been restored) | children shouldn't use the [[20]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 16,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 21,
+      "last": 22,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "communication"
+       },
+       {
+        "key": "B",
+        "text": "design"
+       },
+       {
+        "key": "C",
+        "text": "IT"
+       },
+       {
+        "key": "D",
+        "text": "marketing"
+       },
+       {
+        "key": "E",
+        "text": "organisation"
+       }
+      ],
+      "questions": [
+       {
+        "n": 21,
+        "text": "Which TWO skills did Laura improve as a result of her work placement?",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "Which TWO skills did Laura improve as a result of her work placement?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 23,
+      "last": 24,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "updates for its software"
+       },
+       {
+        "key": "B",
+        "text": "cost savings"
+       },
+       {
+        "key": "C",
+        "text": "an improved image"
+       },
+       {
+        "key": "D",
+        "text": "new clients"
+       },
+       {
+        "key": "E",
+        "text": "a growth in sales"
+       }
+      ],
+      "questions": [
+       {
+        "n": 23,
+        "text": "Which TWO immediate benefits did the company get from Laura's work placement?",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "Which TWO immediate benefits did the company get from Laura's work placement?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "What source of information should Tim use at each of the following stages of the work placement?\n\nChoose SIX answers from the box and write the correct letter, A-G, next to questions 25-30.",
+      "first": 25,
+      "last": 30,
+      "body": "Stages of the work placement procedure",
+      "options": [
+       {
+        "key": "A",
+        "text": "company manager"
+       },
+       {
+        "key": "B",
+        "text": "company's personnel department"
+       },
+       {
+        "key": "C",
+        "text": "personal tutor"
+       },
+       {
+        "key": "D",
+        "text": "psychology department"
+       },
+       {
+        "key": "E",
+        "text": "mentor"
+       },
+       {
+        "key": "F",
+        "text": "university careers officer"
+       },
+       {
+        "key": "G",
+        "text": "internet"
+       }
+      ],
+      "questions": [
+       {
+        "n": 25,
+        "text": "obtaining booklet",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "discussing options",
+        "options": []
+       },
+       {
+        "n": 27,
+        "text": "getting updates",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "responding to invitation for interview",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "informing about outcome of interview",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "requesting a reference",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "first": 31,
+      "last": 33,
+      "body": "Nanotechnology: technology on a small scale",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "The speaker says that one problem with nanotechnology is that",
+        "options": [
+         {
+          "key": "A",
+          "text": "it could threaten our way of life."
+         },
+         {
+          "key": "B",
+          "text": "it could be used to spy on people."
+         },
+         {
+          "key": "C",
+          "text": "it is misunderstood by the public."
+         }
+        ]
+       },
+       {
+        "n": 32,
+        "text": "According to the speaker, some scientists believe that nano-particles",
+        "options": [
+         {
+          "key": "A",
+          "text": "should be restricted to secure environments."
+         },
+         {
+          "key": "B",
+          "text": "should be used with more caution."
+         },
+         {
+          "key": "C",
+          "text": "should only be developed for essential products."
+         }
+        ]
+       },
+       {
+        "n": 33,
+        "text": "In the speaker's opinion, research into nanotechnology",
+        "options": [
+         {
+          "key": "A",
+          "text": "has yet to win popular support."
+         },
+         {
+          "key": "B",
+          "text": "could be seen as unethical."
+         },
+         {
+          "key": "C",
+          "text": "ought to be continued."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 34,
+      "last": 40,
+      "body": "Uses of Nanotechnology\nTransport\n* Nanotechnology could allow the development of stronger [[34]]\n* Planes would be much lighter in weight.\n* [[35]] travel will be made available to the masses.\n\nTechnology\n* Computers will be even smaller, faster, and will have a greater [[36]]\n* [[37]] energy will become more affordable.\n\nThe Environment\n* Nano-robots could rebuild the ozone layer.\n* Pollutants such as [[38]] could be removed from water more easily.\n* There will be no [[39]] from manufacturing.\n\nHealth and Medicine\n* New methods of food production could eradicate famine.\n* Analysis of medical [[40]] will be speeded up.\n* Life expectancy could be increased.",
+      "options": [],
+      "questions": [
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "Pargetter",
+   "2": "East",
+   "3": "library",
+   "4": "morning/mornings",
+   "5": "postbox",
+   "6": "prices",
+   "7": "glass",
+   "8": "cooker",
+   "9": "week",
+   "10": "fence",
+   "11": "B",
+   "12": "B",
+   "13": "A",
+   "14": "A",
+   "15": "C",
+   "16": "trains",
+   "17": "dark",
+   "18": "games",
+   "19": "guided tour",
+   "20": "ladder/ladders",
+   "21": "A",
+   "22": "E",
+   "23": "B",
+   "24": "C",
+   "25": "D",
+   "26": "F",
+   "27": "G",
+   "28": "B",
+   "29": "E",
+   "30": "C",
+   "31": "C",
+   "32": "B",
+   "33": "C",
+   "34": "metal/metals",
+   "35": "space",
+   "36": "memory",
+   "37": "solar",
+   "38": "oil",
+   "39": "waste",
+   "40": "tests"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 10/IELTS 10 Test 4 Section 1.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 10/IELTS 10 Test 4 Section 2.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 10/IELTS 10 Test 4 Section 3.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 10/IELTS 10 Test 4 Section 4.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "MR THORNDYKE: Thorndyke's.\n\nEDITH: Good morning. Is that Mr Thorndyke?\n\nMR THORNDYKE: Speaking. How can I help?\n\nEDITH: I've got quite a few things which need painting and fixing in the flat and I\nwonder whether you'd be able to do the work.\n\nMR THORNDYKE: !I'm sure I'd be able to help but let me take down a few details.\n\nEDITH: Yes, of course.\n\nMR THORNDYKE: Well, firstly, how did you hear about us?\n\nEDITH: Itwas my friend May Hampton ... you did some excellent work forhera\ncouple of years ago. Do you remember?\n\nMR THORNDYKE: Oh, yes, that was in West Park Flats, lovely lady.\n\nEDITH: Yes, she is.\n\nMR THORNDYKE: And what's your name, please?\n\nEDITH: It's Edith Pargetter.\nMR THORNDYKE: Edith ... can you spell your surname, please?\n\nEDITH: It's P-A-R-G-E-double-T-E-R.\n\nMR THORNDYKE: Double T, right. And do you live in West Park Flats as well?\n\nEDITH: No, actually it's East Park, Flat 4.\nMR THORNDYKE: oh right, that's over the road, I seem to remember — quite difficult to get\nEDITH: van it's at the back of the library.\nMR THORNDYKE: Right, I know. And what's your phone number?\n\nEDITH: 875934 but I'm out a great deal in the afternoons and evenings.\n\nMR THORNDYKE: So would the best time to ring you be in the morning?\nEDITH: Yes.\nMR THORNDYKE: Fine. I've made a note of that. Can I just ask, I'll be in a van and I know\nparking's rather difficult around your flats. Where would you recommend?\n\nEDITH: Well, I always tell people in larger vehicles to park by the post box on the\nother side of the road from the entrance.\n\nMR THORNDYKE: Good, thanks.\n\nEDITH: And will you be able to give me a full itemised quote?\n\nMR THORNDYKE: Oh, yes, I'll list all the jobs separately with individual prices.\nEDITH: That'd be a great help.\n\nMR THORNDYKE: No problem.\n\nMR THORNDYKE: Now, what would you like me to do?\n\nEDITH: Firstly and most urgently is in the kitchen. With all the weather damage, the glass in the door has cracked and I'd need that fixing.\nMR THORNDYKE: I presume you mean replacing?\nEDITH: Oh, yes. And as soon as possible ...\nMR THORNDYKE: What I'll do is come around tomorrow morning and do that immediately.\nEDITH: Thank you so much. The other things aren't so urgent but ...\nMR THORNDYKE: Now, I'll make a note of everything you want doing.\nEDITH: Well, in the kitchen I'd like some painting doing.\nMR THORNDYKE: All the kitchen walls?\nEDITH: dust the area over the cooker. It's very greasy ... QB\nMR THORNDYKE: Right ... it does tend to get that way!\nEDITH: Yes!\nMR THORNDYKE: Well if you want a proper job done what I'd need to do is strip the old paint and plaster it about a week before i\nEDITH: Of course. Now, May tells me you also do work in the garden.\nMR THORNDYKE: That's right.\nEDITH: Well, I'd like you to replace a fence.\nMR THORNDYKE: Just one?\nEDITH: Yes, at the far end.\nMR THORNDYKE: Fine. Shouldn't be a problem.\nEDITH: And that's the lot.\nMR THORNDYKE: Fine. Yeah, as I say I can come around tomorrow morning to look over\nthings with you.\nEDITH: That's great, thank you.\n\nMR THORNDYKE: So, I'll look forward to seeing you tomorrow at ..."
+   },
+   {
+    "part": 2,
+    "text": "Welcome to Manham Port, where a thousand years of history are brought to life. All the\nfamily can enjoy a day out at Manham: visit our copper mine, see models of the machinery\nit used, have your photo taken in 19th century costume, experience at first hand how\npeople lived at different stages throughout history, and especially how children studied,\nworked and played.\n\nThe port of Manham is located in beautiful and peaceful countryside, on a bend in the\ngreat River Avon and developed here because it's the highest navigable point of the Avon. Boats can go no higher up this river, and proved a handy place to load and\nunload cargo to and from the sea, which is over 23 miles away re small port was ahead\nestablished here when, about 900 years go,\nin was discovered nearby, though it wasn't until the Industrial Revolution when a tremendous need for metals of all kinds developed that Manum expanded to become one of the busiest ports in the country. And because\nit was already so busy, prospectors began to look for other minerals, and by the end of\nthe nineteenth century, lead, copper, manganese and arsenic were added to the cargos\nleaving Manham.\n\nIn the early days, the ores had been smelted — or processed — in the same area they were\nmined. But, as demand grew, the smelting process required huge factory furnaces or fires\nto melt the metal from the rock, and there was not enough coal in the local area, so the rocks containing minerals had to be shipped long distances.\nSadly, in the\n20th century, the Great Port of Manum declined, and thousands of workers were forced to emigrate out of the area. The building at the port fell into disrepair,\nand the place became almost forgotten. But then, the Manham Trust was formed to\nconserve the historical resources of the area. It organised scores of local volunteers to\nremove undergrowth to find the original outlines of the installations. It then brought in paid\nreconstructing it. Today you can see the results of this ambitious programme of restoration.\nThe intention, and we believe this will be realised before the end of the year, is to return\nManham Port to the condition it reached at its peak as ‘the greatest copper port in the\ncountry’.\n\nBut what can you do and see on your visit today Here are just a few highlights. We\nsuggest you start with the visit to the copper mine. Travel on converted mining trains, and journey into the depths of the mountain, along seams once worked by hundreds of miners. Watch out especially for the great pumping machines which rid the mine of water. But please be warned that, like all mines, ours is very dark and closed in, and we do say that children under five and also dogs should not be taken into the mine.\nThe next recommended visit is to the pinot: school. While looking around the classrooms, take a special look at our display of games, which is one of the largest in the world. And it's\nThis will give you the\nopportunity to ask lots of questions. Near the school is the beautiful old sailing ketch called\n‘The George’. You are welcome to board the boat and look around the cabins. Look out for\nthe ship's wheel which was missing until only five years ago when it was dredged out of\nthe silt by a local fisherman. We have no idea how it got there but it’s been polished and\nproudly restored to its original place on the boat. Please take care going down the ladders.\nthem.\n\n‘So we hope you have a memorable visit to Manham Port and will tell your friends all\nabout us."
+   },
+   {
+    "part": 3,
+    "text": "TIM: Hi, Laura — could you spare a few minutes to talk about the work\nplacement you did last summer? I'm thinking of doing one myself ...\n\nLAURA: Hi, Tim. Sure.\n\nTIM: Didn't you do yours at an environmental services company?\n\nLAURA: That's right ... It's only a very small company and they needed\nsomeone to produce a company brochure, and I wanted to get some\nbusiness experience because I’m interested in a career in occupational\npsychology in a business environment. It was good because I had overall\nresponsibility for the project.\n\nTIM: What kind of skills do you think you developed on the placement? I mean,\napart from the ones you already had ... Did you have to do all the artwork\nfor the brochure, the layout and everything?\n\nLAURA: We hired the services of a professional photographer for that. I did have\nto use my IT skills to a certain extent because I cut and pasted text from\nmarketing leaflets, but that didn’t involve anything I hadn't done before.\n\nTIM: Do you think you got any better at managing your time and prioritizing things? You always used to say you had trouble with that.\nLAURA: Oh, definitely, There was so much pressure to meet the project deadline. And I also got better at explaining things and asserting my opinions\nbecause I had to have weekly consultations with the marketing manager\nand give him a progress report.\n\nTIM: It sounds as if you got a lot out of it then.\n\nLAURA: Absolutely. It was really worthwhile ... But you know, the company\nbenefited too ...\n\nTIM: Yes, they must have done. After all, if they'd used a professional\nadvertising agency to produce their brochure instead of doing it in-house,\npresumably they'd have paid a lot more?\n\nLAURA: ‘Oh, yes. I worked it out — it would have been 250 per cent more. And I Q23 & 24\nthought the end result was good, even though we did everything on site.\nThe company has quite a powerful computer and I managed to borrow\n‘some scanning software from the vie The new brochure looks\nreally professional; it enh Q23 & 24\nTIM: So in the long run it should help them to attract clients, ‘and improve their\nsales figures?\nLAURA: That's the idea. Yeah.\nTIM: Well, all in all it sounds very positive — I think I will go ahead and apply for\na placement myself. How do I go about it?\nLAURA: It's easy enough to do, because there's a government agency called\nSTEP — S-T-E-P — that organises placements for students. You should\nstart by getting their booklet with all the details — I expect you can\ndownload one from their website.\n\nTIM: Akagi they've got copies in the psychology department – I've seen\nthem there. I ick one up.\n\nLAURA: Right And then if I were you, after I'd looked at it I'd go over all the\noptions with someone ...\n\nTIM: I suppose I should ask my tutor’s advice. He knows more about me than\nanyone.\n\nLAURA: One of the career officers would be better, they've got more knowledge\nabout the jobs market than your personal tutor would have.\n\nTIM: OK...\n\nLAURA: And then when you know what you want you can register with STEP —\nyou'll find their address in the booklet. And once you've registered they\nassign you to a mentor who looks after your application.\nTIM: And then I suppose you just sit back and wait till you hear something?\nLAURA: They told me at the careers office that it's best to be proactive, and get. \nupdates yourself by checking the website for new placement alerts. Your\nmentor is supposed to keep you informed, but you can't rely on that.\nTIM: I don't suppose it's a good idea to get in touch with companies directly, is\nit?\nLAURA: Not really ... But itis the company who notifies you if they want you to go for an interview. You get a letter of invitation or an email from personnel department.\nTIM: And do I reply directly to them?\nLAURA: Yes. you do. STEP only gets involved again once you've been made a\njob offer.\nTIM: i\nLAURA: That's right. They'll inform the careers office once a placement has been\nagreed, so you don't have to do that.\nTIM: Is that all then?\nLAURA: More or less. Only once you've accepted an offer you'll probably have to\nsupply a reference, because the placement will be conditional on that.\nAnd that's something you should ask your own tutor to provide. He knows\nabout your academic ability and also about your qualities, like reliability.\nTIM: Well, thanks very much for the information — I'm starting to look forward ...."
+   },
+   {
+    "part": 4,
+    "text": "Today we're going to look at an important area of science, namely nanotechnology. So\nwhat is it? Nano means tiny, so it’s science and engineering on the scale of atoms and\nmolecules. The idea is that by controlling and rearranging atoms, you can literally create\nanything, However, as we'll see, the science of the small has some big implications\naffecting us in many ways.\n\nThere's no doubt that nanotechnology promises so much for civilisation. However, all new\ntechnologies have their teething problems. And with nanotechnology, society often gets the\nwrong idea about its capabilities. Numerous science fiction books and movies have raised\npeople's fears about nanotechnology — with scenarios such as inserting little nano-robots\ninto your body that monitor everything you do without you realising it, or self-replicating\nnano-robots that eventually take over the world.\n\nSo how do we safeguard such a potentially powerful technology? Some scientists.\nclear labelling. They believe that greater care should also be taken with nanoparticles in\nlaboratories and factories. Others have called for a withdrawal of new nano products such\nas cosmetics and a temporary halt to many kinds of nanotech research.\n\napplications of nanotechnology. I I really ‘believe that most scientists would welcome a way\nto guard against unethical uses of such technology. We can't go around thinking that all\ninnovation is bad, all advancement is bad. As with the debate about any new technology, it\nis how you use it that's important. So let's look at some of its possible uses.\nThanks to nanotechnology, there could be a major breakthrough in the field of\ntransportation with the production of more durable metals. These could be virtually\nunbreakable, lighter and much more pliable leading to planes that are 50 times lighter than\nat present. Those same improved capabilities will dramatically reduce the cost of travelling\ninto space making it more accessible to ordinary people and opening up a totally new\nholiday destination.\n\nIn terms of technology, the computer industry will be able to shrink computer parts down to\nminute sizes. We need nanotechnology in order to create a new generation of computers that will work even faster and will have a million times more memory, but will be about the size of a sugar cube, Nanotechnology could also revolutionise the way that we generate\npower. The cost of solar cells will be drastically reduced so harnessing this energy willbe\nfar more economical than at present.\n\nBut nanotechnology has much wider applications than this and could have an enormous\nimpact on our environment. For instance, tiny airborne nano-robots could be programmed\nto actually rebuild the ozone layer, which could lessen the impact of global warming on\n‘our planet. That's a pretty amazing thought, isn’t it? On a more local scale, this new\ntechnology could help with the clean-up of environmental disasters as $ nanotechnology will\nnanotechnology progresses as expected - as a sort of ‘building block set of about 90 atoms\nthen you could build anything yous wanted from the bottom up. In terms of production, this means that you only use what you need, and so there wouldn't be any waste.\nThe notion that you could create anything at all has major implications for our health. It\nmeans that we'll eventually be able to replicate anything. This would have a phenomenal\neffect on our society. In time it could even lead to the eradication of famine through the\nintroduction of machines that produce food to feed the hungry.\n\nBut it’s in the area of medicine that nanotechnology may have its biggest impact How we\ndetect disease will change as tiny biosensors are developed to analyze tests in minutes\nrather than days. There's even speculation nanorobots could be used to slow the aging\nprocess, lengthening life expectancy.\n\n‘As you can see, I'm very excited by the implications that could be available to us in the\nnext few decades. Just how long it'll take, I honestly don’t know."
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "title": "The megafires of California\nDrought, housing expansion, and oversupply of tinder make for bigger, hotter fires in the western United States",
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\nChoose ONE WORD AND/OR A NUMBER from the passage for each answer.\n\nWrite your answers in boxes 1-6 on your answer sheet.",
+      "first": 1,
+      "last": 6,
+      "body": "Wildfires\n* Characteristics of wildfires and wildfire conditions today compared to the past:\n— occurrence: more frequent\n— temperature: hotter\n- speed: faster\n— movement: [[1]] more unpredictably\n- size of fires: [[2]] greater on average than two decades ago\n* Reasons wildfires cause more damage today compared to the past:\n- rainfall: [[3]] average\n- more brush to act as [[4]]\n- increase in yearly temperature\n— extended fire [[5]]\n— more building of [[6]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "movement: more unpredictably",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "size of fires: [[2]] greater on average than two decades ago",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "rainfall: [[3]] average",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "more brush to act as [[4]]",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "extended fire [[5]]",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "more building of [[6]]",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nIn boxes 7-13 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 7,
+      "last": 13,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 7,
+        "text": "The amount of open space in California has diminished over the last ten years.",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "Many experts believe California has made little progress in readying itself to fight fires.",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "Personnel in the past have been criticised for mishandling fire containment.",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "California has replaced a range of firefighting tools.",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "More firefighters have been hired to improve fire-fighting capacity.",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "Citizens and government groups disapprove of the efforts of different states and agencies working together.",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "Randy Jacobs believes that loss of life from fires will continue at the same levels, despite changes made.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Wildfires are becoming an increasing menace in the western United States, with Southern California being the hardest hit area. There’s a reason fire squads battling more frequent blazes in Southern California are having such difficulty containing the flames, despite better preparedness than ever and decades of experience fighting fires fanned by the ‘Santa Ana Winds’. The wildfires themselves, experts say, are generally hotter, faster, and spread more erratically than in the past."
+     },
+     {
+      "label": "",
+      "text": "Megafires, also called ‘siege fires’, are the increasingly frequent blazes that burn 500,000 acres or more — 10 times the size of the average forest fire of 20 years ago. Some recent wildfires are among the biggest ever in California in terms of acreage burned, according to state figures and news reports."
+     },
+     {
+      "label": "",
+      "text": "One explanation for the trend to more superhot fires is that the region, which usually has dry summers, has had significantly below normal precipitation in many recent years. Another reason, experts say, is related to the century- long policy of the US Forest Service to stop wildfires as quickly as possible. The unintentional consequence has been to halt the natural eradication of underbrush, now the primary fuel for megafires."
+     },
+     {
+      "label": "",
+      "text": "Three other factors contribute to the trend, they add. First is climate change, marked by a 1-degree Fahrenheit rise in average yearly temperature across the western states. Second is fire seasons that on average are 78 days longer than they were 20 years ago. Third is increased construction of homes in wooded areas."
+     },
+     {
+      "label": "",
+      "text": "‘We are increasingly building our homes in fire-prone ecosystems,’ says Dominik Kulakowski, adjunct professor of biology at Clark University Graduate School of Geography in Worcester, Massachusetts. ‘Doing that in many of the forests of the western US is like building homes on the side of an active volcano.’"
+     },
+     {
+      "label": "",
+      "text": "In California, where population growth has averaged more than 600,000 a year for at least a decade, more residential housing is being built. ‘What once was open space is now residential homes providing fuel to make fires burn with greater intensity,’ says Terry McHale of the California Department of Forestry firefighters’ union. ‘With so much dryness, so many communities to catch fire, so many fronts to fight, it becomes an almost incredible job.’ That said, many experts give California high marks for making progress on preparedness in recent years, after some of the largest fires in state history scorched thousands of acres, burned thousands of homes, and killed numerous people. Stung in the past by criticism of bungling that allowed fires to spread when they might have been contained, personnel are meeting the peculiar challenges of neighborhood — and canyon- hopping fires better than previously, observers State promises to provide more up-to-date engines, planes, and helicopters to fight fires have been fulfilled. Firefighters' unions that in the past complained of dilapidated equipment, old fire engines, and insufficient blueprints for fire safety are now praising the state’s commitment, noting that funding for firefighting has increased, despite huge cuts in many other programs. ‘We are pleased that the current state administration has been very proactive in its support of us, and [hasl come through with budgetary support of the infrastructure needs we have long sought,’ says Mr. McHale of the firefighters’ union."
+     },
+     {
+      "label": "",
+      "text": "Besides providing money to upgrade the fire engines that must traverse the mammoth state and wind along serpentine canyon roads, the state has invested in better command-and-control facilities as well as in the strategies to run them. ‘In the fire sieges of earlier years, we found that other jurisdictions and states were willing to offer mutual-aid help, but we were not able to communicate adequately with them,’ says Kim Zagaris, chief of the state’s Office of Emergency Services Fire and Rescue Branch."
+     },
+     {
+      "label": "",
+      "text": "After a commission examined and revamped communications procedures, the statewide response ‘has become far more professional and responsive,’ he says. There is a sense among both government officials and residents that the speed, dedication, and coordination of firefighters from several states and jurisdictions are resulting in greater efficiency than in past ‘siege fire’ situations."
+     },
+     {
+      "label": "",
+      "text": "In recent years, the Southern California region has improved building codes, evacuation procedures, and procurement of new technology. ‘I am extraordinarily impressed by the improvements we have witnessed,’ says Randy Jacobs, a Southern California- based lawyer who has had to evacuate both his home and business to escape wildfires. ‘Notwithstanding all the damage that will continue to be caused by wildfires, we will no longer suffer the loss of life endured in the past because of the fire prevention and firefighting measures that have been put in place,’ he says."
+     }
+    ]
+   },
+   {
+    "title": "Second nature",
+    "groups": [
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\nWrite your answers in boxes 14-18 on your answer sheet.",
+      "first": 14,
+      "last": 18,
+      "body": "Psychologists have traditionally believed that a personality [[14]] was impossible and that by a [[15]], a person's character tends to be fixed. This is not true according to positive psychologists, who say that our personal qualities can be seen as habitual behaviour. One of the easiest qualities to acquire is [[16]]. However, regardless of the quality, it is necessary to learn a wide variety of different [[17]] in order for a new quality to develop; for example, a person must understand and feel some [[18]] in order to increase their happiness.",
+      "options": [],
+      "questions": [
+       {
+        "n": 14,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Look at the following statements (Questions 19-22) and the list of people below.\n\nMatch each statement with the correct person, A-G.\n\nWrite the correct letter, A-G, in boxes 19-22 on your answer sheet.",
+      "first": 19,
+      "last": 22,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Christopher Peterson"
+       },
+       {
+        "key": "B",
+        "text": "David Fajgenbaum"
+       },
+       {
+        "key": "C",
+        "text": "Suzanne Segerstrom"
+       },
+       {
+        "key": "D",
+        "text": "Tanya Streeter"
+       },
+       {
+        "key": "E",
+        "text": "Todd Kashdan"
+       },
+       {
+        "key": "F",
+        "text": "Kenneth Pedeleose"
+       },
+       {
+        "key": "G",
+        "text": "Cynthia Pury"
+       }
+      ],
+      "questions": [
+       {
+        "n": 19,
+        "text": "People must accept that they do not know much when first trying something new.",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "It is important for people to actively notice when good things happen.",
+        "options": []
+       },
+       {
+        "n": 21,
+        "text": "Courage can be learned once its origins in a sense of responsibility are understood.",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "It is possible to overcome shyness when faced with the need to speak in public.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 2 has eight sections, A-H.\n\nWhich section contains the following information?\n\nWrite the correct letter, A-H, in boxes 23-26 on your answer sheet.",
+      "first": 23,
+      "last": 26,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 23,
+        "text": "a mention of how rational thinking enabled someone to achieve physical goals",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "an account of how someone overcame a sad experience",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "a description of how someone decided to rethink their academic career path",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "an example of how someone risked his career out of a sense of duty",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Your personality isn’t necessarily set in stone. With a little experimentation, people can reshape their temperaments and inject passion, optimism, joy and courage into their lives"
+     },
+     {
+      "label": "A",
+      "text": "Psychologists have long held that a person’s character cannot undergo a transformation in any meaningful way and that the key traits of personality are determined at a very young age. However, researchers have begun looking more closely at ways we can change. Positive psychologists have identified 24 qualities we admire, such as loyalty and kindness, and are studying them to find out why they come so naturally to some people. What they’re discovering is that many of these qualities amount to habitual behaviour that determines the way we respond to the world. The good news is that all this can be learned."
+     },
+     {
+      "label": "",
+      "text": "Some qualities are less challenging to develop than others, optimism being one of them. However, developing qualities requires mastering a range of skills which are diverse and sometimes surprising. For example, to bring more joy and passion into your life, you must be open to experiencing negative emotions. Cultivating such qualities will help you realise your full potential."
+     },
+     {
+      "label": "B",
+      "text": "The evidence is good that most personality traits can be altered,’ says Christopher Peterson, professor of psychology at the University of Michigan, who cites himself as an example. Inherently introverted, he realised early on that as an academic, his reticence would prove disastrous in the lecture hall. So he learned to be more outgoing and to entertain his classes. ‘Now my extroverted behaviour is spontaneous,’ he says."
+     },
+     {
+      "label": "C",
+      "text": "David Fajgenbaum had to make a similar transition. He was preparing for university, when he had an accident that put an end to his sports career. On campus, he quickly found that beyond ordinary counselling, the university had no services for students who were undergoing physical rehabilitation and suffering from depression like him. He therefore launched a support group to help others in similar situations. He took action despite his own pain — a typical response of an optimist."
+     },
+     {
+      "label": "D",
+      "text": "Suzanne Segerstrom, professor of psychology at the University of Kentucky, believes that the key to increasing optimism is through cultivating optimistic behaviour, rather than positive thinking. She recommends you train yourself to pay attention to good fortune by writing down three positive things that come about each day. This will help you convince yourself that favourable outcomes actually happen all the time, making it easier to begin taking action."
+     },
+     {
+      "label": "E",
+      "text": "You can recognise a person who is passionate about a pursuit by the way they are so strongly involved in it. Tanya Streeter’s passion is freediving — the sport of plunging deep into the water without tanks or other breathing equipment. Beginning in 1998, she set nine world records and can hold her breath for six minutes. The physical stamina required for this sport is intense but the psychological demands are even more overwhelming. Streeter learned to untangle her fears from her judgment of what her body and mind could do. ‘In my career as a competitive freediver, there was a limit to what I could do — but it wasn’t anywhere near what I thought it was,’ she says."
+     },
+     {
+      "label": "F",
+      "text": "Finding a pursuit that excites you can improve anyone's life. The secret about consuming passions, though, according to psychologist Paul Silvia of the University of North Carolina, is that ‘they require discipline, hard work and ability, which is why they are so rewarding.’ Psychologist Todd Kashdan has this advice for those people taking up a new passion: ‘As a newcomer, you also have to tolerate and laugh at your own ignorance. You must be willing to accept the negative feelings that come your way,’ he says."
+     },
+     {
+      "label": "G",
+      "text": "In 2004, physician-scientist Mauro Zappaterra began his PhD research at Harvard Medical School. Unfortunately, he was miserable as his research wasn’t compatible with his curiosity about healing. He finally took a break and during eight months in Santa Fe, Zappaterra learned about alternative healing techniques not taught at Harvard. When he got back, he switched labs to study how cerebrospinal fluid nourishes the developing nervous system. He also vowed to look for the joy in everything, including failure, as this could help him learn about his research and himself."
+     },
+     {
+      "label": "",
+      "text": "One thing that can hold joy back is a person’s concentration on avoiding failure rather than their looking forward to doing something well. ‘Focusing on being safe might get in the way of your reaching your goals,’ explains Kashdan. For example, are you hoping to get through a business lunch without embarrassing yourself, or are you thinking about how fascinating the conversation might be?"
+     },
+     {
+      "label": "H",
+      "text": "Usually, we think of courage in physical terms but ordinary life demands something else. For marketing executive Kenneth Pedeleose, it meant speaking out against something he thought was ethically wrong. The new manager was intimidating staff so Pedeleose carefully recorded each instance of bullying and eventually took the evidence to a senior director, knowing his own job security would be threatened. Eventually the manager was the one to go. According to Cynthia Pury, a psychologist at Clemson University, Pedeleose’s story proves the point that courage is not motivated by fearlessness, but by moral obligation. Pury also believes that people can acquire courage. Many of her students said that faced with a risky situation, they first tried to calm themselves down, then looked for a way to mitigate the danger, just as Pedeleose did by documenting his allegations."
+     },
+     {
+      "label": "",
+      "text": "Over the long term, picking up a new character trait may help you move toward being the person you want to be. And in the short term, the effort itself could be surprisingly rewarding, a kind of internal adventure."
+     }
+    ]
+   },
+   {
+    "title": "When evolution runs backwards\nEvolution isn't supposed to run backwards – yet an increasing number of examples show that it does and that it can sometimes represent the future of a species",
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 27-31 on your answer sheet.",
+      "first": 27,
+      "last": 31,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 27,
+        "text": "When discussing the theory developed by Louis Dollo, the writer says that",
+        "options": [
+         {
+          "key": "A",
+          "text": "it was immediately referred to as Dollo's law."
+         },
+         {
+          "key": "B",
+          "text": "it supported the possibility of evolutionary throwbacks."
+         },
+         {
+          "key": "C",
+          "text": "it was modified by biologists in the early twentieth century."
+         },
+         {
+          "key": "D",
+          "text": "it was based on many years of research."
+         }
+        ]
+       },
+       {
+        "n": 28,
+        "text": "The humpback whale caught off Vancouver Island is mentioned because of",
+        "options": [
+         {
+          "key": "A",
+          "text": "the exceptional size of its body."
+         },
+         {
+          "key": "B",
+          "text": "the way it exemplifies Dollo's law."
+         },
+         {
+          "key": "C",
+          "text": "the amount of local controversy it caused."
+         },
+         {
+          "key": "D",
+          "text": "the reason given for its unusual features."
+         }
+        ]
+       },
+       {
+        "n": 29,
+        "text": "What is said about 'silent genes'?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Their numbers vary according to species."
+         },
+         {
+          "key": "B",
+          "text": "Raff disagreed with the use of the term."
+         },
+         {
+          "key": "C",
+          "text": "They could lead to the re-emergence of certain characteristics."
+         },
+         {
+          "key": "D",
+          "text": "They can have an unlimited life span."
+         }
+        ]
+       },
+       {
+        "n": 30,
+        "text": "The writer mentions the mole salamander because",
+        "options": [
+         {
+          "key": "A",
+          "text": "it exemplifies what happens in the development of most amphibians."
+         },
+         {
+          "key": "B",
+          "text": "it suggests that Raff's theory is correct."
+         },
+         {
+          "key": "C",
+          "text": "it has lost and regained more than one ability."
+         },
+         {
+          "key": "D",
+          "text": "its ancestors have become the subject of extensive research."
+         }
+        ]
+       },
+       {
+        "n": 31,
+        "text": "Which of the following does Wagner claim?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Members of the Bachia lizard family have lost and regained certain features several times."
+         },
+         {
+          "key": "B",
+          "text": "Evidence shows that the evolution of the Bachia lizard is due to the environment."
+         },
+         {
+          "key": "C",
+          "text": "His research into South American lizards supports Raff's assertions."
+         },
+         {
+          "key": "D",
+          "text": "His findings will apply to other species of South American lizards."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_sentence_endings",
+      "instructions": "Complete each sentence with the correct ending, A-G, below.\n\nWrite the correct letter, A-G, in boxes 32-36 on your answer sheet.",
+      "first": 32,
+      "last": 36,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "the question of how certain long-lost traits could reappear."
+       },
+       {
+        "key": "B",
+        "text": "the occurrence of a particular feature in different species."
+       },
+       {
+        "key": "C",
+        "text": "parallels drawn between behaviour and appearance."
+       },
+       {
+        "key": "D",
+        "text": "the continued existence of certain genetic information."
+       },
+       {
+        "key": "E",
+        "text": "the doubts felt about evolutionary throwbacks."
+       },
+       {
+        "key": "F",
+        "text": "the possibility of evolution being reversible."
+       },
+       {
+        "key": "G",
+        "text": "Dollo's findings and the convictions held by Lombroso."
+       }
+      ],
+      "questions": [
+       {
+        "n": 32,
+        "text": "For a long time biologists rejected",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "Opposing views on evolutionary throwbacks are represented by",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "Examples of evolutionary throwbacks have led to",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "The shark and killer whale are mentioned to exemplify",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "One explanation for the findings of Wagner's research is",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "yes_no_not_given",
+      "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3?\n\nIn boxes 37-40 on your answer sheet, write\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+      "first": 37,
+      "last": 40,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 37,
+        "text": "Wagner was the first person to do research on South American lizards.",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "Wagner believes that Bachia lizards with toes had toeless ancestors.",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "The temporary occurrence of long-lost traits in embryos is rare.",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "Evolutionary throwbacks might be caused by developmental problems in the womb.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "The description of any animal as an 'evolutionary throwback' is controversial. For the better part of a century, most biologists have been reluctant to use those words, mindful of a principle of evolution that says 'evolution cannot run backwards'. But as more and more examples come to light and modern genetics enters the scene, that principle is having to be rewritten. Not only are evolutionary throwbacks possible, they sometimes play an important role in the forward march of evolution."
+     },
+     {
+      "label": "",
+      "text": "The technical term for an evolutionary throwback is an ‘atavism’, from the Latin atavus, meaning forefather. The word has ugly connotations thanks largely to Cesare Lombroso, a 19th-century Italian medic who argued that criminals were born not made and could be identified by certain physical features that were throwbacks to a primitive, sub-human state."
+     },
+     {
+      "label": "",
+      "text": "While Lombroso was measuring criminals, a Belgian palaeontologist called Louis Dollo was studying fossil records and coming to the opposite conclusion. In 1890 he proposed that evolution was irreversible: that ‘an organism is unable to return, even partially, to a previous stage already realised in the ranks of its ancestors’. Early 20th-century biologists came to a similar conclusion, though they qualified it species in terms of probability, stating that there is no reason why evolution cannot run backwards it is just very unlikely. And so the idea of irreversibility in evolution stuck and came to be known as ‘Dollo’s law’."
+     },
+     {
+      "label": "",
+      "text": "If Dollo’s law is right, atavisms should occur only very rarely, if at all. Yet almost since the idea took root, exceptions have been cropping up. In 1919, for example, a humpback whale with a pair of leg-like appendages over a metre long, complete with a full set of limb bones, was caught off Vancouver Island in Canada. Explorer Roy Chapman Andrews argued at the time that the whale must be a throwback to a land-living ancestor. ‘I can see no other explanation,’ he wrote in 1921."
+     },
+     {
+      "label": "",
+      "text": "Since then, so many other examples have been discovered that it no longer makes sense to say that evolution is as good as irreversible. And this poses a puzzle: how can characteristics that disappeared millions of years ago suddenly reappear? In 1994, Rudolf Raff and colleagues at Indiana University in the USA decided to use genetics to put a number on the probability of evolution going into reverse. They reasoned that while some evolutionary changes involve the loss of genes and are therefore irreversible, others may be the result of genes being switched off. If these silent genes are somehow switched back on, they argued, long-lost traits could reappear."
+     },
+     {
+      "label": "",
+      "text": "Raff's team went on to calculate the likelihood of it happening. Silent genes accumulate random mutations, they reasoned, eventually rendering them useless. So how long can a gene survive in a species if it is no longer used? The team calculated that there is a good chance of silent genes surviving for up to 6 million years in at least a few individuals in a population, and that some might survive as long as 10 million years. In other words, throwbacks are possible, but only to the relatively recent evolutionary past."
+     },
+     {
+      "label": "",
+      "text": "As a possible example, the team pointed to the mole salamanders of Mexico and California. Like most amphibians these begin life in a juvenile ‘tadpole’ state, then metamorphose into the adult form — except for one species, the axolotl, which famously lives its entire life as a juvenile. The simplest explanation for this is that the axolotl lineage alone lost the ability to metamorphose, while others retained it. From a detailed analysis of the salamanders’ family tree, however, it is clear that the other lineages evolved from an ancestor that itself had lost the ability to metamorphose. In other words, metamorphosis in mole salamanders is an atavism. The salamander example fits with Raff's 10-million-year time frame."
+     },
+     {
+      "label": "",
+      "text": "More recently, however, examples have been reported that break the time limit, suggesting that silent genes may not be the whole story. In a paper published last year, biologist Gunter Wagner of Yale University reported some work on the evolutionary history of a group of South American lizards called Bachia. Many of these have minuscule limbs; some look more like snakes than lizards and a few have completely lost the toes on their hind limbs. Other species, however, sport up to four toes on their hind legs. The simplest explanation is that the toed lineages never lost their toes, but Wagner begs to differ. According to his analysis of the Bachia family tree, the toed species re-evolved toes from toeless ancestors and, what is more, digit loss and gain has occurred on more than one occasion over tens of millions of years."
+     },
+     {
+      "label": "",
+      "text": "So what's going on? One possibility is that these traits are lost and then simply reappear, in much the same way that similar structures can independently arise in unrelated species, such as the dorsal fins of sharks and killer whales. Another more intriguing possibility is that the genetic information needed to make toes somehow survived for tens or perhaps hundreds of millions of years in the lizards and was reactivated. These atavistic traits provided an advantage and spread through the population, effectively reversing evolution."
+     },
+     {
+      "label": "",
+      "text": "But if silent genes degrade within 6 to 10 million years, how can long-lost traits be reactivated over longer timescales? The answer may lie in the womb. Early embryos of many species develop ancestral features. Snake embryos, for example, sprout hind limb buds. Later in development these features disappear thanks to developmental programs that say ‘lose the leg’. If for any reason this does not happen, the ancestral feature may not disappear, leading to an atavism."
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "spread",
+   "2": "10/ten times",
+   "3": "below",
+   "4": "fuel",
+   "5": "seasons",
+   "6": "homes/housing",
+   "7": "TRUE",
+   "8": "FALSE",
+   "9": "TRUE",
+   "10": "TRUE",
+   "11": "NOT GIVEN",
+   "12": "FALSE",
+   "13": "FALSE",
+   "14": "transformation/change",
+   "15": "young age",
+   "16": "optimism",
+   "17": "skills/techniques",
+   "18": "negative emotions / feelings",
+   "19": "E",
+   "20": "C",
+   "21": "G",
+   "22": "A",
+   "23": "E",
+   "24": "C",
+   "25": "G",
+   "26": "H",
+   "27": "C",
+   "28": "D",
+   "29": "C",
+   "30": "B",
+   "31": "A",
+   "32": "F",
+   "33": "G",
+   "34": "A",
+   "35": "B",
+   "36": "D",
+   "37": "NOT GIVEN",
+   "38": "YES",
+   "39": "NO",
+   "40": "YES"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe diagrams below show the life cycle of a species of large fish called the\nsalmon.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 102,
+   "image": "figures/p102.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nMany museums charge for admission while others are free.\n\nDo you think the advantages of charging people for admission to museums\noutweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "School",
+    "questions": [
+     "Did you go to secondary/high school near to where you lived? [Why/Why not?]",
+     "What did you like about your secondary/high school? [Why?]",
+     "Tell me about anything you didn’t like at your school.",
+     "How do you think your school could be improved? [Why/Why not?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe something you don’t have now but would really like to own in the future.",
+   "points": [
+    "what this thing is",
+    "how long you have wanted to own it",
+    "where you first saw it",
+    "and explain why you would like to own it."
+   ],
+   "rounding_off": []
+  },
+  "part3": [
+   {
+    "topic": "Owning things",
+    "questions": [
+     "What types of things do young people in your country most want to own today? Why is this?",
+     "Why do some people feel they need to own things?",
+     "Do you think that owning lots of things makes people happy? Why?"
+    ]
+   },
+   {
+    "topic": "Salaries for skilled people",
+    "questions": [
+     "Do you think television and films can make people want to get new possessions? Why do they have this effect?",
+     "Are there any benefits to society of people wanting to get new possessions? Why do you think this is?",
+     "Do you think people will consider that having lots of possessions is a sign of success in the future? Why?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

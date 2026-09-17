@@ -1,0 +1,1247 @@
+{
+ "book": 10,
+ "test": 3,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "form_completion",
+      "instructions": "Complete the form below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 1,
+      "last": 10,
+      "body": "Early Learning Childcare Centre\nEnrolment Form\n\nExample | \nParent or guardian: Carol | Smith\n\nPersonal Details | \nChild's name: Kate | \nAge: | [[1]]\nAddress: | [[2]] Road, Woodside, 4032\nPhone: 3345 9865 | \n\nChildcare Information | \nDays enrolled for: Monday and | [[3]]\nStart time: | [[4]] am\nChildcare group: the | [[5]] group\nWhich meal/s are required each day? | [[6]]\nMedical conditions: needs | [[7]]\nEmergency contact: Jenny | [[8]] Phone: 3346 7523\nRelationship to child: | [[9]]\n\nFees | \nWill pay each | [[10]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Questions 11 and 12\nChoose TWO letters, A-E.",
+      "first": 11,
+      "last": 12,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Children make up most of the membership."
+       },
+       {
+        "key": "B",
+        "text": "It's the country's largest conservation organisation."
+       },
+       {
+        "key": "C",
+        "text": "It helps finance campaigns for changes in fishing practices."
+       },
+       {
+        "key": "D",
+        "text": "It employs several dolphin experts full-time."
+       },
+       {
+        "key": "E",
+        "text": "Volunteers help in various ways."
+       }
+      ],
+      "questions": [
+       {
+        "n": 11,
+        "text": "Which TWO things does Alice say about the Dolphin Conservation Trust?",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "Which TWO things does Alice say about the Dolphin Conservation Trust?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice",
+      "instructions": "Questions 13-15\nChoose the correct letter, A, B, or C.",
+      "first": 13,
+      "last": 15,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 13,
+        "text": "Why is Alice so pleased the Trust has won the Charity Commission award?",
+        "options": [
+         {
+          "key": "A",
+          "text": "It has brought in extra money."
+         },
+         {
+          "key": "B",
+          "text": "It made the work of the trust better known."
+         },
+         {
+          "key": "C",
+          "text": "It has attracted more members."
+         }
+        ]
+       },
+       {
+        "n": 14,
+        "text": "Alice says oil exploration causes problems to dolphins because of",
+        "options": [
+         {
+          "key": "A",
+          "text": "noise."
+         },
+         {
+          "key": "B",
+          "text": "oil leaks."
+         },
+         {
+          "key": "C",
+          "text": "movement of ships."
+         }
+        ]
+       },
+       {
+        "n": 15,
+        "text": "Alice became interested in dolphins when",
+        "options": [
+         {
+          "key": "A",
+          "text": "she saw one swimming near her home."
+         },
+         {
+          "key": "B",
+          "text": "she heard a speaker at her school."
+         },
+         {
+          "key": "C",
+          "text": "she read a book about them."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Questions 16-20\nWhich dolphin does Alice make each of the following comments about?\n\nWrite the correct letter, A, B, C or D, next to questions 16-20.",
+      "first": 16,
+      "last": 20,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Moondancer"
+       },
+       {
+        "key": "B",
+        "text": "Echo"
+       },
+       {
+        "key": "C",
+        "text": "Kiwi"
+       },
+       {
+        "key": "D",
+        "text": "Samson"
+       }
+      ],
+      "questions": [
+       {
+        "n": 16,
+        "text": "It has not been seen this year.",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "It is photographed more than the others.",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "It is always very energetic.",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "It is the newest one in the scheme.",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "It has an unusual shape.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Questions 21-25\nChoose the correct letter, A, B or C.\n\nTheatre Studies Course",
+      "first": 21,
+      "last": 25,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "What helped Rob to prepare to play the character of a doctor?",
+        "options": [
+         {
+          "key": "A",
+          "text": "the stories his grandfather told him"
+         },
+         {
+          "key": "B",
+          "text": "the times when he watched his grandfather working"
+         },
+         {
+          "key": "C",
+          "text": "the way he imagined his grandfather at work"
+         }
+        ]
+       },
+       {
+        "n": 22,
+        "text": "In the play's first scene, the boredom of village life was suggested by",
+        "options": [
+         {
+          "key": "A",
+          "text": "repetition of words and phrases."
+         },
+         {
+          "key": "B",
+          "text": "scenery painted in dull colours."
+         },
+         {
+          "key": "C",
+          "text": "long pauses within conversations."
+         }
+        ]
+       },
+       {
+        "n": 23,
+        "text": "What has Rob learned about himself through working in a group?",
+        "options": [
+         {
+          "key": "A",
+          "text": "He likes to have clear guidelines."
+         },
+         {
+          "key": "B",
+          "text": "He copes well with stress."
+         },
+         {
+          "key": "C",
+          "text": "He thinks he is a good leader."
+         }
+        ]
+       },
+       {
+        "n": 24,
+        "text": "To support the production, research material was used which described",
+        "options": [
+         {
+          "key": "A",
+          "text": "political developments."
+         },
+         {
+          "key": "B",
+          "text": "changing social attitudes."
+         },
+         {
+          "key": "C",
+          "text": "economic transformations."
+         }
+        ]
+       },
+       {
+        "n": 25,
+        "text": "What problem did the students overcome in the final rehearsal?",
+        "options": [
+         {
+          "key": "A",
+          "text": "one person forgetting their words"
+         },
+         {
+          "key": "B",
+          "text": "an equipment failure"
+         },
+         {
+          "key": "C",
+          "text": "the injury of one character"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Questions 26-30\nWhat action is needed for the following stages in doing the 'year abroad' option?\n\nChoose FIVE answers from the box and write the correct letter, A-G, next to questions 26-30.",
+      "first": 26,
+      "last": 30,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "be on time"
+       },
+       {
+        "key": "B",
+        "text": "get a letter of recommendation"
+       },
+       {
+        "key": "C",
+        "text": "plan for the final year"
+       },
+       {
+        "key": "D",
+        "text": "make sure the institution's focus is relevant"
+       },
+       {
+        "key": "E",
+        "text": "show ability in Theatre Studies"
+       },
+       {
+        "key": "F",
+        "text": "make travel arrangements and bookings"
+       },
+       {
+        "key": "G",
+        "text": "ask for help"
+       }
+      ],
+      "questions": [
+       {
+        "n": 26,
+        "text": "in the second year of the course",
+        "options": []
+       },
+       {
+        "n": 27,
+        "text": "when first choosing where to go",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "when sending in your choices",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "when writing your personal statement",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "when doing the year abroad",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "'Self-regulatory focus theory' and leadership\n\nSelf-regulatory focus theory\nPeople's focus is to approach pleasure or avoid pain\nPromotion goals focus on [[31]]\nPrevention goals emphasise avoiding punishment\n\nFactors that affect people's focus\nThe Chronic Factor\n- comes from one's [[32]]\nThe [[33]] Factor\n- we are more likely to focus on promotion goals when with a [[34]]\n- we are more likely to focus on prevention goals with our boss\n\nHow people's focus affects them\nPromotion Focus: [[35]]\nPeople think about an ideal version of themselves, their ... and their gains.\nPrevention Focus: People think about their 'ought' self and their obligations\n\nLeaders\nLeadership behaviour and [[36]]\n\nTransformational Leaders:\n- pay special attention to the [[37]]\n- passionately communicate a clear [[38]]\n- inspire promotion focus in followers\n\nTransactional Leaders:\n- create [[39]] to make expectations clear\n- emphasise the results of a mistake\n- inspire prevention focus in followers\n\nConclusion\nPromotion Focus is good for jobs requiring [[40]]\nPrevention Focus is good for work such as a surgeon\nLeaders' actions affect which focus people use\n... affects people's focus of their followers",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "4",
+   "2": "46 Wombat",
+   "3": "Thursday",
+   "4": "8.30",
+   "5": "red",
+   "6": "lunch",
+   "7": "glasses",
+   "8": "BALL",
+   "9": "aunt",
+   "10": "month",
+   "11": "C",
+   "12": "E",
+   "13": "B",
+   "14": "A",
+   "15": "C",
+   "16": "B",
+   "17": "C",
+   "18": "D",
+   "19": "D",
+   "20": "A",
+   "21": "C",
+   "22": "A",
+   "23": "A",
+   "24": "B",
+   "25": "B",
+   "26": "E",
+   "27": "D",
+   "28": "A",
+   "29": "G",
+   "30": "C",
+   "31": "achievement / achievements",
+   "32": "personality / character",
+   "33": "Situational",
+   "34": "friend",
+   "35": "aspirations / ambitions",
+   "36": "style",
+   "37": "development",
+   "38": "vision",
+   "39": "structures",
+   "40": "innovation / innovations"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 10/IELTS 10 Test 3 Section 1.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 10/IELTS 10 Test 3 Section 2.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 10/IELTS 10 Test 3 Section 3.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 10/IELTS 10 Test 3 Section 4.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "DIRECTOR: Good morning. Welcome to the Early Learning Childcare Centre. How\nmay I help you?\nCAROL: Hi. I spoke to you last week about enrolling my daughter for next year.\nDIRECTOR: Oh yes. I'll just get some details from you. So you're her mother.\nCAROL: That's right.\nDIRECTOR: And, can I have your name?\nCAROL: It's Carol, Carol Smith.\nDIRECTOR: And your daughter's name?\nCAROL: It's Kate.\nDIRECTOR: Now, we have several groups at the centre and we cater for children from\nthree to five years old. How old is your daughter?\nCAROL: She's three now but she turns four next month.\nDIRECTOR: Ll put four down because that's how old she'll be when she starts. \nCAROL: Fine, she's so excited about her birthday and coming to the centre.\nDIRECTOR: That's good to hear. And what's your address?\nCAROL: It's 46 Wombat Road, that’s W-O-M-B-A-T. Woodside 4032.\nDIRECTOR: And what's the phone number?\nCAROL: Oh ... it's ... 3345 9865.\nDIRECTOR: So, have you decided on the days you'd like to bring your daughter here?\nCAROL: I'd prefer Monday and Wednesday if possible.\nDIRECTOR: Hmm. I'll check. Monday's fine but I think the centre is already full for\nWednesday. Erm. Yes. Sorry. It seems to be a very popular day. We can\noffer you a Thursday or a Friday as well.\nCAROL: Oh dear. I suppose Thursday would be all right because she has\nswimming on Friday.\nDIRECTOR: OK, got that. Because a lot of parents work, we do offer flexible start and\nfinish times. We're open from 7.30 in the morning until 6 o'clock at night.\nWhat time would you like your daughter to start?\nCAROL: I need to get to work in the city by 9:00 so I'll drop her off at 8:30. You're\npretty close to the city here so that should give me plenty of time to get\nthere.\nDIRECTOR: That's fine. Now, we also need to decide which group she'll be in. We\nhave two different groups and they're divided up according to age. There's\nthe green group, which is for three- to four year olds And then there's the\nred group which is for four- to five year olds.\nCAROL: She's quite mature for her age and she can already write her name and\nread a little.\nDIRECTOR: Well, put her in the red group and we can always change her to the\ngreen one if there are any problems.\nCAROL: That sounds fine.\nDIRECTOR: OK. Let's move on to meals. We can provide breakfast, lunch and dinner.\nAs she's finishing pretty early, she won't need dinner, will you give her\nbreakfast before she comes?\nCAROL: Yes, she'll only need lunch.\nDIRECTOR: Now, does she have any medical conditions we need to know about?\nDoes she have asthma or any hearing problems for example?\nCAROL: No. But she does need to wear glasses.\nDIRECTOR: Oh, I'll make a note of that.\nCAROL: Yes, she's pretty good about wearing them, she can’t see much without\nthem.\nDIRECTOR: Right. OK. Now, I also need emergency contact details.\nCAROL: ‘So what sort of information do you need?\nDIRECTOR: Just the name and number of a friend or family member we can contact in\ncase we can't get hold of you at any time.\nCAROL: OK. That'd better be my sister ... Jenny Ball. That's B-A-L. Her \nphone number is 3346 7523.\nDIRECTOR: Great. So she is the child's aunt?\nCAROL: Yes, that's right.\nDIRECTOR: I'll make a note of that as well. Now, is there anything you'd like to ask?\nCAROL: What about payment? How much are the fees each term?\nDIRECTOR: Well, for two days and the hours you've chosen, that will be $450.\naltogether.\nCAROL: OK, and do I have to pay that now?\nDIRECTOR: No, we send out invoices once the children start at the centre. You can\nchoose to pay at the end of each term or we do offer a slightly discounted\nrate if you pay every month.\nCAROL: Oh, I'll do that then. I find it easier to budget that way and I'm not used to\nthe term dates just yet.\nDIRECTOR: Good, it makes it a lot simpler for us as well. Well, that's everything.\n\nWould you like me to show you around"
+   },
+   {
+    "part": 2,
+    "text": "INTERVIEWER: Today we're pleased to have on the show Alice Bustle from the Dolphin\nConservation Trust. Tell us about the Trust, Alice.\nALICE: Well, obviously its purpose is to protect dolphins in seas all around the\nworld. It tries to raise people's awareness of the problems these marine\ncreatures are suffering because of pollution and other threats. It started\nten years ago and it's one of the fastest growing animal charities in the\ncountry — although it's still fairly small compared with the big players\nin animal protection. We are particularly proud of the work we do in\neducation — last year we visited a huge number of schools in different\nparts of the country, going round to talk to children and young people\naged from five to eighteen. In fact, about 35% of our\nmembers are children. The charity uses its money to support campaigns. Q11 & 12\nfor example, for changes in fishing policy and so forth. It hopes soon to\nbe able to employ its first full-time biologist — with dolphin expertise — to\nmonitor populations. Of course, many people give their services on a\nvoluntary basis and we now have volunteers working in observation, office Q11 & 12\nwork and other things.\nI should also tell you about the award we won from the Charity\nCommission last year — for our work in education. Although it's not meant\nan enormous amount of money for us, it has made our activities even\nmore widely publicised and understood. In the long term it may not bring\nin extra members but we're hoping it'll have this effect.\nINTERVIEWER: Is it possible to see dolphins in UK waters?\nALICE: Yes. In several locations. And we have a big project in the east part of\nScotland. This has long been a haven for dolphins because it has very\nlittle shipping. However, that may be about to change soon because oil\ncompanies want to increase exploration there. We're campaigning against\nthis because, although there'll be little pollution from oil, exploration.\ncreates a lot of water . It means the dolphins can't rest and\nsocialise.\nThis is how I became interested in dolphin conservation in the first place.\nhad never seen one and I hadn't been particularly interested in them at\nINTERVIEWER: I'm sure our listeners will want to find out what they can do to help. You\nmentioned the ‘Adopt a Dolphin’ scheme. Can you tell us about that?\nALICE: Of course! People can choose one of our dolphins to sponsor. They\nreceive a picture of it and news updates. I'd like to tell you about four\nwhich are currently being adopted by our members: Moondancer, Echo,\nKiwi and Samson. Unfortunately, Echo is being rather elusive this year\nand hasn't yet been sighted by our observers but we remain optimistic\nthat he'll be out there soon. Alll the others have been out in force —\nSamson and Moon dancer are often photographed together but itis ‘oui\ncameras and we've captured her on film hundreds of times. They all have\ntheir own personalities - Moondancer is very elegant and curves out and\ninto the water very smoothly, whereas Samson has a lot of energy he's\nalways leaping out of the water with great vigour. You'd probably expect\nhim to be the youngest — he's not quite — that's Kiwi — but Samson's the\nlatest of our dolphins to be chosen for the scheme. Kiwi makes a lot of\nnoise so we can often pick her out straightaway. Echo and Moondancer\ndancer are noisy too but Moon dancer is easy to find because she has a particularly large fin on her back which makes her easy to identify. So\nyes, they'e all very different.\nINTERVIEWER: Well, they sound a fascinating group ..."
+   },
+   {
+    "part": 3,
+    "text": "MIA: Hi, Rob. How's the course going?\nROB: Oh, hi, Mia. Yeah, great. I can't believe the first term's nearly over.\nMIA: saw your group's performance last night at the student theatre. It was\ngood\nROB: Really? Yeah ... but now we have to write a report on the whole thing, an\nin-depth analysis. I don't know where to start. Like, I have to write about\nthe role I played, the doctor, how I developed the character.\nMIA: Well, what was your starting point?\nROB: My grandfather was a doctor before he retired and I just based it on him.\nMIA: OK, but how? Did you talk to him about it?\nROB: He must have all sorts of stories, but he never says much about his work,\neven now. He has a sort of authority though.\nMIA: So how did you manage to capture that?\nROB: I'd visualise what he must have been like in the past when he was sitting in his consulting room listening to his patients.\nMIA: OK, so that's what you explain in your report.\nROB: Right.\nMIA: Then there's the issue of atmosphere — so in the first scene we needed to\nknow how boring life was in the doctor's village in the 1950s, so when the\ncurtain went up on the first scene in the waiting room, there was that long\nsilence before anyone spoke. And then people kept saying the same thing\ncover and over, like ‘Cold, isn't it?”\n\nROB: Yes, and everyone wore grey and brown, and just sat in a row.\n\nMIA: Yes, all those details of the production.\n\nROB: And I have to analyse how I functioned in the group — what I found out\nabout myself. I know I was so frustrated at times, when we couldn't agree.\n\nMIA: Yes. So did one person emerge as the leader?\n\nROB: Sophia did. That was OK — she helped us work out exactly what to do, for\nthe production, And that made me feel better, I suppose.\n\nMIA: When you understood what needed doing?\n\nROB: Yes. And Sophia did some research, too. That was useful in developing\n‘our approach.\n\nMIA: Like what?\n\nROB: Well, she found these articles from the 1950s about how relationships \nbetween children and their parents, or between the public and people like\nbank managers or the police were shifting.\n\nMIA: Interesting. And did you have any practical problems to overcome?\n\nROB: Well, in the final rehearsal everything was going fine until the last scene —\nthat's where the doctor's first patient appears on stage on his own.\n\nMIA: The one in the wheelchair?\n\nROB: Yes, and he had this really long speech, with the stage all dark except\nfor one spotlight — and then that stuck somehow so it was shining on the\nwrong side of the stage ... but anyway we got that fixed, thank goodness.\n\nMIA: Yes, it was fine on the night.\n\nROB: But while you're here, Mia, I wanted to ask you about the year abroad\noption. Would you recommend doing that?\n\nMIA: Yes, definitely. It's a fantastic chance to study in another country for a\nyear.\n\nROB: I think I'd like to do it, but it looks very competitive – there's only a limited\nnumber of places.\n\nMIA: Yes. So, next year, when you're in the second year of the course, you need to work really hard in all your theatre studies modules. Only students with good marks get places. You have to prove that you know your subject really well. Right. So, how did you choose where to go? Well, I decided I wanted a programme that would fit in with what I wanted to do after I graduate. So, I looked for a university with emphasis on acting rather than directing, for example. It depends on you. Then, about six\nMIA: months before you go, you have to email the scheme coordinator with\nyour top three choices. I had a friend who missed the deadline and didn't\nget her first choice. So, you do need to get a move on at that stage. You'll\nfind that certain places are very popular with everyone.\n\nROB: And don't you have to write a personal statement at that stage?\n\nMIA: Yes.\n\nROB: Right. lll get some of the final year students to give me some tips ...\nmaybe see if I can read what they wrote.\n\nMIA: I think that’s a very good idea. I don't mind showing you what I did\n[forgot all about making arrangements for when I came back here for the final year. Make sure you stay in touch so they know your choices for\nthe optional modules. You don't want to miss out doing your preferred\nspecialisms.\nROB: Right."
+   },
+   {
+    "part": 4,
+    "text": "Today, I want to talk about self-regulatory focus theory and how the actions of leaders\ncan affect the way followers approach different situations. Self-regulatory focus theory is\na theory developed by Tori Higgins. He says that a person’s focus at any given time is to\neither approach pleasure or avoid pain. These are two basic motivations that each and\nevery one of us has, and they cause us to have different kinds of goals. Promotion goals in\ndifferent life situations emphasise achievement. Prevention goals are oriented towards the\navoidance of punishment.\n\nIn a specific situation, our thoughts might focus more on promotion goals or more on\nprevention goals. The theory suggests that two factors affect which goals we are focusing\non. First, there is a chronic factor. This factor is connected to a person's personality and\nsays that each person has a basic tendency to either focus more on promotion goals\nor eve more on prevention goals as part of his or her personality. Second, there is a situational factor which means that the context we are in can make us more likely to focus on one set of goals or the other. For example, we are more likely to be thinking\nabout plea and to promotion when with a\ncontrast, if we are working on an important project for our boss, we are more likely to try to\navoid making mistakes and therefore have more prevention goals in our mind.\n\nResearch has shown that the goals we are focusing on at a given time affect the way we\nthink. For example, when focusing on promotion goals, people consider their ideal self,\ntheir aspirations and gains. They don't think about what they can lose, so they think ina\nhappier mode. They feel more inspired to change.\n\nWhen people are focusing on prevention goals, they think about their “ought” self. What\nare they supposed to be? What are people expecting from them? They consider their\nobligations to others. As a result, they experience more anxiety and try to avoid situations\nwhere they could lose.\n\nNow that I have talked about the two focuses and how they affect people, I want to look\nat the idea that ve, or their style of leading can affect the focus\nthat followers adopt in a specific situation. In talking about leadership, we often mention\ntransformational leaders and transactional leaders. Transformational leaders, when.\n\ninteracting with their followers, focus on their development. In their words and actions\ntransformational leaders highlight change. Their speech is passionate and conveys a\ndefinitive vision. All of these things can encourage followers to think about what could be.\nIn other words, they inspire a promotion focus in their followers.\n\na that tell their\nfollowers exactly what is expected of them. While they do explain the rewards people\nwill get for following orders, they emphasise more how a follower will be punished or\nthat a follower won't get rewarded if his or her behaviour doesn't change. In short, they\nemphasise the consequences of making a mistake. This emphasis will clearly lead\nfollowers to focus on avoiding punishment and problems. This is clearly a prevention focus.\n\nIn conclusion, it is important to understand that one focus is not necessarily better than\nthe other one. For a designer who works in a field where a lot of innovation is needed, a\npromotion focus is probably better. In contrast, a prevention focus which causes people\nto work more cautiously and produce higher quality work might be very appropriate for a\njob like a surgeon, for example. The main point of the research, though, is that the actions\nof leaders can greatly influence whether people approach a situation with more of a\npromotion focus or more of a prevention focus."
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "title": "The Context, Meaning and Scope of Tourism",
+    "groups": [
+     {
+      "type": "matching_headings",
+      "instructions": "Reading Passage 1 has five paragraphs, A-E.\nChoose the correct heading for paragraphs B-E from the list of headings below.\n\nWrite the correct number, i-vii, in boxes 1—4 on your answer sheet.",
+      "first": 1,
+      "last": 4,
+      "body": "Example Answer\nParagraph A viii\nParagraph B [[1]]\nParagraph C [[2]]\nParagraph D [[3]]\nParagraph E [[4]]",
+      "options": [
+       {
+        "key": "i",
+        "text": "Economic and social significance of tourism"
+       },
+       {
+        "key": "ii",
+        "text": "The development of mass tourism"
+       },
+       {
+        "key": "iii",
+        "text": "Travel for the wealthy"
+       },
+       {
+        "key": "iv",
+        "text": "Earning foreign exchange through tourism"
+       },
+       {
+        "key": "v",
+        "text": "Difficulty in recognising the economic effects of tourism"
+       },
+       {
+        "key": "vi",
+        "text": "The contribution of air travel to tourism"
+       },
+       {
+        "key": "vii",
+        "text": "The world impact of tourism"
+       },
+       {
+        "key": "viii",
+        "text": "The history of travel"
+       }
+      ],
+      "questions": [
+       {
+        "n": 1,
+        "text": "Paragraph B",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "Paragraph C",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "Paragraph D",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "Paragraph E",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nIn boxes 5-10 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 5,
+      "last": 10,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 5,
+        "text": "The largest employment figures in the world are found in the travel and tourism industry.",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "Tourism contributes over six per cent of the Australian gross national product.",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "Tourism has a social impact because it promotes recreation.",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "Two main features of the travel and tourism industry make its economic significance difficult to ascertain.",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "Visitor spending is always greater than the spending of residents in tourist areas.",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "It is easy to show statistically how tourism affects individual economies.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "sentence_completion",
+      "instructions": "Complete the sentences below.\n\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 11-13 on your answer sheet.",
+      "first": 11,
+      "last": 13,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 11,
+        "text": "In Greece, tourism is the most important [[11]]",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "The travel and tourism industry in Jamaica is the major [[12]]",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "The problems associated with measuring international tourism are often reflected in the measurement of [[13]]",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "Travel has existed since the beginning of time, when primitive man set out, often traversing great distances in search of game, which provided the food and clothing necessary for his survival. Throughout the course of history, people have travelled for purposes of trade, religious conviction, economic gain, war, migration and other equally compelling motivations. In the Roman era, wealthy aristocrats and high government officials also travelled for pleasure. Seaside resorts located at Pompeii and Herculaneum afforded citizens the opportunity to escape to their vacation villas in order to avoid the summer heat of Rome. Travel, except during the Dark Ages, has continued to grow and, throughout recorded history, has played a vital role in the development of civilisations and their economies."
+     },
+     {
+      "label": "B",
+      "text": "Tourism in the mass form as we know it today is a distinctly twentieth-century phenomenon. Historians suggest that the advent of mass tourism began in England during the industrial revolution with the rise of the middle class and the availability of relatively inexpensive transportation. The creation of the commercial airline industry following the Second World War and the subsequent development of the jet aircraft in the 1950s signalled the rapid growth and expansion of international travel. This growth led to the development of a major new industry: tourism. In turn, international tourism became the concern of a number of world governments since it not only provided new employment opportunities but also produced a means of earning foreign exchange."
+     },
+     {
+      "label": "C",
+      "text": "Tourism today has grown significantly in both economic and social importance. In most industrialised countries over the past few years the fastest growth has been seen in the area of services. One of the largest segments of the service industry, although largely unrecognised as an entity in some of these countries, is travel and tourism. According to the World Travel and Tourism Council (1992), ‘Travel and tourism is the largest industry in the world on virtually any economic measure including value-added capital investment, employment and tax contributions’. In 1992, the industry's gross output was estimated to be $3.5 trillion, over 12 per cent of all consumer spending. The travel and tourism industry is the world’s largest employer with almost 130 million jobs, or almost 7 per cent of all employees. This industry is the world’s leading industrial contributor, producing over 6 per cent of the world’s gross national product and accounting for capital investment in excess of $422 billion in direct, indirect and personal taxes each year. Thus, tourism has a profound impact both on the world economy and, because of the educative effect of travel and the effects on employment, on society itself."
+     },
+     {
+      "label": "D",
+      "text": "However, the major problems of the travel and tourism industry that have hidden, or obscured, its economic impact are the diversity and fragmentation of the industry itself. The travel industry includes: hotels, motels and other types of accommodation; restaurants and other food services; transportation services and facilities; amusements, attractions and other leisure facilities; gift shops and a large number of other enterprises. Since many of these businesses also serve local residents, the impact of spending by visitors can easily be overlooked or underestimated. In addition, Meis (1992) points out that the tourism industry involves concepts that have remained amorphous to both analysts and decision makers. Moreover, in all nations this problem has made it difficult for the industry to develop any type of reliable or credible tourism information base in order to estimate the contribution it makes to regional, national and global economies. However, the nature of this very diversity makes travel and tourism ideal vehicles for economic development in a wide variety of countries, regions or communities."
+     },
+     {
+      "label": "E",
+      "text": "Once the exclusive province of the wealthy, travel and tourism have become an institutionalised way of life for most of the population. In fact, McIntosh and Goeldner (1990) suggest that tourism has become the largest commodity in international trade for many nations and, for a significant number of other countries, it ranks second or third. For example, tourism is the major source of income in Bermuda, Greece, Italy, Spain, Switzerland and most Caribbean countries. In addition, Hawkins and Ritchie, quoting from data published by the American Express Company, suggest that the travel and tourism industry is the number one ranked employer in the Bahamas, Brazil, Canada, France, (the former) West Germany, Hong Kong, Italy, Jamaica, Japan, Singapore, the United Kingdom and the United States. However, because of problems of definition, which directly affect statistical measurement, it is not possible with any degree of certainty to provide precise, valid or reliable data about the extent of world-wide tourism participation or its economic impact. In many cases, similar difficulties arise when attempts are made to measure domestic tourism."
+     }
+    ]
+   },
+   {
+    "title": "Autumn leaves\nCanadian writer Jay Ingram investigates the mystery of why leaves turn red in the fall",
+    "groups": [
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 2 has nine paragraphs, A-I.\n\nWhich paragraph contains the following information?\n\nWrite the correct letter, A-I, in boxes 14-18 on your answer sheet.\n\nNB You may use any letter more than once.",
+      "first": 14,
+      "last": 18,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 14,
+        "text": "a description of the substance responsible for the red colouration of leaves",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "the reason why trees drop their leaves in autumn",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "some evidence to confirm a theory about the purpose of the red leaves",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "an explanation of the function of chlorophyll",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "a suggestion that the red colouration in leaves could serve as a warning signal",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 19-22 on your answer sheet.",
+      "first": 19,
+      "last": 22,
+      "body": "Why believe the 'light screen' hypothesis?\n\nThe most vividly coloured red leaves are found on the side of the tree facing the [[19]].\n\nThe [[20]] surfaces of leaves contain the most red pigment.\n\nRed leaves are most abundant when daytime weather conditions are [[21]] and sunny.\n\nThe intensity of the red colour of leaves increases as you go further [[22]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 19,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 21,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 2?\n\nIn boxes 23-25 on your answer sheet, write\n\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 23,
+      "last": 25,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 23,
+        "text": "It is likely that the red pigments help to protect the leaf from freezing temperatures.",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "The 'light screen' hypothesis would initially seem to contradict what is known about chlorophyll.",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "Leaves which turn colours other than red are more likely to be damaged by sunlight.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter A, B, C or D.\n\nWrite the correct letter in box 26 on your answer sheet.",
+      "first": 26,
+      "last": 26,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 26,
+        "text": "For which of the following questions does the writer offer an explanation?",
+        "options": [
+         {
+          "key": "A",
+          "text": "why conifers remain green in winter"
+         },
+         {
+          "key": "B",
+          "text": "how leaves turn orange and yellow in autumn"
+         },
+         {
+          "key": "C",
+          "text": "how herbivorous insects choose which trees to lay their eggs in"
+         },
+         {
+          "key": "D",
+          "text": "why anthocyanins are restricted to certain trees"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "One of the most captivating natural events of the year in many areas throughout North America is the turning of the leaves in the fall. The colours are magnificent, but the question of exactly why some trees turn yellow or orange, and others red or purple, is something which has long puzzled scientists."
+     },
+     {
+      "label": "B",
+      "text": "Summer leaves are green because they are full of chlorophyll, the molecule that captures sunlight and converts that energy into new building materials for the tree. As fall approaches in the northern hemisphere, the amount of solar energy available declines considerably. For many trees — evergreen conifers being an exception - the best strategy is to abandon photosynthesis” until the spring. So rather than maintaining the now redundant leaves throughout the winter, the tree saves its precious resources and discards them. But before letting its leaves go, the tree dismantles their chlorophyll molecules and ships their valuable nitrogen back into the twigs. As chlorophyll is depleted, other colours that have been dominated by it throughout the summer begin to be revealed. This unmasking explains the autumn colours of yellow and orange, but not the brilliant reds and purples of trees such as the maple or sumac."
+     },
+     {
+      "label": "C",
+      "text": "The source of the red is widely known: it is created by anthocyanins, water-soluble plant pigments reflecting the red to blue range of the visible spectrum. They belong to a class of sugar-based chemical compounds also known as flavonoids. What's puzzling is that anthocyanins are actually newly minted, made in the leaves at the same time as the tree is preparing to drop them. But it is hard to make sense of the manufacture of anthocyanins — why should a tree bother making new chemicals in its leaves when it’s already scrambling to withdraw and preserve the ones already there?"
+     },
+     {
+      "label": "D",
+      "text": "Some theories about anthocyanins have argued that they might act as a chemical defence against attacks by insects or fungi, or that they might attract fruit-eating birds or increase a leaf’s tolerance to freezing. However there are problems with each of these theories, including the fact that leaves are red for such a relatively short period that the expense of energy needed to manufacture the anthocyanins would outweigh any anti-fungal or anti-herbivore activity achieved."
+     },
+     {
+      "label": "E",
+      "text": "It has also been proposed that trees may produce vivid red colours to convince herbivorous insects that they are healthy and robust and would be easily able to mount chemical defences against infestation. If insects paid attention to such advertisements, they might be prompted to lay their eggs on a duller, and presumably less resistant host. The flaw in this theory lies in the lack of proof to support it. No one has as yet ascertained whether more robust trees sport the brightest leaves, or whether insects make choices according to colour intensity."
+     },
+     {
+      "label": "F",
+      "text": "Perhaps the most plausible suggestion as to why leaves would go to the trouble of making anthocyanins when they're busy packing up for the winter is the theory known as the ‘light screen’ hypothesis. It sounds paradoxical, because the idea behind this hypothesis is that the red pigment is made in autumn leaves to protect chlorophyll, the light-absorbing chemical, from too much light. Why does chlorophyll need protection when it is the natural world’s supreme light absorber? Why protect chlorophyll at a time when the tree is breaking it down to salvage as much of it as possible?"
+     },
+     {
+      "label": "G",
+      "text": "Chlorophyll, although exquisitely evolved to capture the energy of sunlight, can sometimes be overwhelmed by it, especially in situations of drought, low temperatures, or nutrient deficiency. Moreover, the problem of oversensitivity to light is even more acute in the fall, when the leaf is busy preparing for winter by dismantling its internal machinery. The energy absorbed by the chlorophyll molecules of the unstable autumn leaf is not immediately channelled into useful products and processes, as it would be in an intact summer leaf. The weakened fall leaf then becomes vulnerable to the highly destructive effects of the oxygen created by the excited chlorophyll molecules."
+     },
+     {
+      "label": "H",
+      "text": "Even if you had never suspected that this is what was going on when leaves turn red, there are clues out there. One is straightforward: on many trees, the leaves that are the reddest are those on the side of the tree which gets most sun. Not only that, but the red is brighter on the upper side of the leaf. It has also been recognised for decades that the best conditions for intense red colours are dry, sunny days and cool nights, conditions that nicely match those that make leaves susceptible to excess light. And finally, trees such as maples usually get much redder the more north you travel in the northern hemisphere. It’s colder there, they're more stressed, their chlorophyll is more sensitive and it needs more sunblock."
+     },
+     {
+      "label": "I",
+      "text": "What is still not fully understood, however, is why some trees resort to producing red pigments while others don’t bother, and simply reveal their orange or yellow hues. Do these trees have other means at their disposal to prevent overexposure to light in autumn? Their story, though not as spectacular to the eye, will surely turn out to be as subtle and as complex."
+     },
+     {
+      "label": "",
+      "text": "* photosynthesis: the production of new material from sunlight, water and carbon dioxide"
+     }
+    ]
+   },
+   {
+    "title": "Beyond the blue horizon\nAncient voyagers who settled the far-flung islands of the Pacific Ocean",
+    "groups": [
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary using the list of words and phrases, A-J, below.\n\nWrite the correct letter, A-J, in boxes 27-31 on your answer sheet.",
+      "first": 27,
+      "last": 31,
+      "figure_pdf_page": 0,
+      "body": "The Efaté burial site\n\nA 3,000-year-old burial ground of a seafaring people called the Lapita has been found on an abandoned [[27]] on the Pacific island of Efaté. The cemetery, which is a significant [[28]], was uncovered accidentally by an agricultural worker.\n\nThe Lapita explored and colonised many Pacific islands over several centuries. They took many things with them on their voyages including [[29]] and tools.\n\nThe burial ground increases the amount of information about the Lapita available to scientists. A team of researchers, led by Matthew Spriggs from the Australian National University, are helping with the excavation of the site. Spriggs believes the [[30]] which was found at the site is very important since it confirms that the [[31]] inside are Lapita.",
+      "options": [
+       {
+        "key": "A",
+        "text": "proof"
+       },
+       {
+        "key": "B",
+        "text": "plantation"
+       },
+       {
+        "key": "C",
+        "text": "harbour"
+       },
+       {
+        "key": "D",
+        "text": "bones"
+       },
+       {
+        "key": "E",
+        "text": "data"
+       },
+       {
+        "key": "F",
+        "text": "archaeological discovery"
+       },
+       {
+        "key": "G",
+        "text": "burial urn"
+       },
+       {
+        "key": "H",
+        "text": "source"
+       },
+       {
+        "key": "I",
+        "text": "animals"
+       },
+       {
+        "key": "J",
+        "text": "maps"
+       }
+      ],
+      "questions": [
+       {
+        "n": 27,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       }
+      ]
+     },
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 32-35 on your answer sheet.",
+      "first": 32,
+      "last": 35,
+      "figure_pdf_page": 0,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 32,
+        "text": "According to the writer, there are difficulties explaining how the Lapita accomplished their journeys because",
+        "options": [
+         {
+          "key": "A",
+          "text": "the canoes that have been discovered offer relatively few clues."
+         },
+         {
+          "key": "B",
+          "text": "archaeologists have shown limited interest in this area of research."
+         },
+         {
+          "key": "C",
+          "text": "little information relating to this period can be relied upon for accuracy."
+         },
+         {
+          "key": "D",
+          "text": "technological advances have altered the way such achievements are viewed."
+         }
+        ]
+       },
+       {
+        "n": 33,
+        "text": "According to the sixth paragraph, what was extraordinary about the Lapita?",
+        "options": [
+         {
+          "key": "A",
+          "text": "They sailed beyond the point where land was visible."
+         },
+         {
+          "key": "B",
+          "text": "Their cultural heritage discouraged the expression of fear."
+         },
+         {
+          "key": "C",
+          "text": "They were able to build canoes that withstood ocean voyages."
+         },
+         {
+          "key": "D",
+          "text": "Their navigational skills were passed on from one generation to the next."
+         }
+        ]
+       },
+       {
+        "n": 34,
+        "text": "What does 'This' refer to in the seventh paragraph?",
+        "options": [
+         {
+          "key": "A",
+          "text": "the Lapita's seafaring talent"
+         },
+         {
+          "key": "B",
+          "text": "the Lapita's ability to detect signs of land"
+         },
+         {
+          "key": "C",
+          "text": "the Lapita's extensive knowledge of the region"
+         },
+         {
+          "key": "D",
+          "text": "the Lapita's belief they would be able to return home"
+         }
+        ]
+       },
+       {
+        "n": 35,
+        "text": "According to the eighth paragraph, how was the geography of the region significant?",
+        "options": [
+         {
+          "key": "A",
+          "text": "It played an important role in Lapita culture."
+         },
+         {
+          "key": "B",
+          "text": "It meant there were relatively few storms at sea."
+         },
+         {
+          "key": "C",
+          "text": "It provided a navigational aid for the Lapita."
+         },
+         {
+          "key": "D",
+          "text": "It made a large number of islands habitable."
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "yes_no_not_given",
+      "instructions": "Do the following statements agree with the views of the writer in Reading Passage 3?\n\nIn boxes 36-40 on your answer sheet, write\n\nYES if the statement agrees with the views of the writer\nNO if the statement contradicts the views of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+      "first": 36,
+      "last": 40,
+      "figure_pdf_page": 0,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 36,
+        "text": "It is now clear that the Lapita could sail into a prevailing wind.",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "Extreme climate conditions may have played a role in Lapita migration.",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "The Lapita learnt to predict the duration of El Niños.",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "It remains unclear why the Lapita halted their expansion across the Pacific.",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "It is likely that the majority of Lapita settled on Fiji.",
+        "options": []
+       }
+      ]
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "An important archaeological discovery on the island of Éfaté in the Pacific archipelago of Vanuatu has revealed traces of an ancient seafaring people, the distant ancestors of today's Polynesians. The site came to light only by chance. An agricultural worker, digging in the grounds of a derelict plantation, scraped open a grave – the first of dozens in a burial ground some 3,000 years old. It is the oldest cemetery ever found in the Pacific islands, and it harbors the remains of an ancient people archaeologists call the Lapita."
+     },
+     {
+      "label": "",
+      "text": "They were daring blue-water adventurers who used basic canoes to rove across the ocean. But they were not just explorers. They were also pioneers who carried with them everything they would need to build new lives — their livestock, taro seedlings and stone tools. Within the span of several centuries, the Lapita stretched the boundaries of their world from the jungle-clad volcanoes of Papua New Guinea to the loneliest coral outliers of Tonga."
+     },
+     {
+      "label": "",
+      "text": "The Lapita left precious few clues about themselves, but Efaté expands the volume of data available to researchers dramatically. The remains of 62 individuals have been uncovered so far, and archaeologists were also thrilled to find six complete Lapita pots. Other items included a Lapita burial urn with modeled birds arranged on the rim as though peering down at the human remains sealed inside. ‘It’s an important discovery, says Matthew Spriggs, professor of archaeology at the Australian National University and head of the international team digging up the site, ‘for it conclusively identifies the remains as Lapita.’"
+     },
+     {
+      "label": "",
+      "text": "DNA teased from these human remains may help answer one of the most puzzling questions in Pacific anthropology: did all Pacific islanders spring from one source or many? Was there only one outward migration from a single point in Asia, or several from different points? “This represents the best opportunity we've had yet,’ says Spriggs, ‘to find out who the Lapita actually were, where they came from, and who their closest descendants are today.”"
+     },
+     {
+      "label": "",
+      "text": "There is one stubborn question for which archaeology has yet to provide any answers: how did the Lapita accomplish the ancient equivalent of a moon landing, many times over? No-one has found one of their canoes or any rigging, which could reveal how the canoes were sailed. Nor do the oral histories and traditions of later Polynesians offer any insights, for they turn into myths long before they reach as far back in time as the Lapita."
+     },
+     {
+      "label": "",
+      "text": "'All we can say for certain is that the Lapita had canoes that were capable of ocean voyages, and they had the ability to sail them,' says Geoff Irwin, a professor of archaeology at the University of Auckland. Those sailing skills, he says, were developed and passed down over thousands of years by earlier mariners who worked their way through the archipelagoes of the western Pacific, making short crossings to nearby islands. The real adventure didn't begin, however, until their Lapita descendants sailed out of sight of land, with empty horizons on every side. This must have been as difficult for them as landing on the moon is for us today. Certainly it distinguished them from their ancestors, but what gave them the courage to launch out on such risky voyages?"
+     },
+     {
+      "label": "",
+      "text": "The Lapita’s thrust into the Pacific was eastward, against the prevailing trade winds, Irwin notes. Those nagging headwinds, he argues, may have been the key to their success. “They could sail out for days into the unknown and assess the area, secure in the knowledge that if they didn’t find anything, they could turn about and catch a swift ride back on the trade winds. This is what would have made the whole thing work.’ Once out there, skilled seafarers would have detected abundant leads to follow to land: seabirds, coconuts and twigs carried out to sea by the tides, and the afternoon pile-up of clouds on the horizon which often indicates an island in the distance."
+     },
+     {
+      "label": "",
+      "text": "For returning explorers, successful or not, the geography of their own archipelagoes would have provided a safety net. Without this to go by, overshooting their home ports, getting lost and sailing off into eternity would have been all too easy. Vanuatu, for example, stretches more than 500 miles in a northwest-southeast trend, its scores of intervisible islands forming a backstop for mariners riding the trade winds home."
+     },
+     {
+      "label": "",
+      "text": "All this presupposes one essential detail, says Atholl Anderson, professor of prehistory at the Australian National University: the Lapita had mastered the advanced art of sailing against the wind. ‘And there’s no proof they could do any such thing,’ Anderson says. “There has been this assumption they did, and people have built canoes to re-create those early voyages based on that assumption. But nobody has any idea what their canoes looked like or how they were rigged.’"
+     },
+     {
+      "label": "",
+      "text": "Rather than give all the credit to human skill, Anderson invokes the winds of chance. El Niño, the same climate disruption that affects the Pacific today, may have helped scatter the Lapita, Anderson suggests. He points out that climate data obtained from slow-growing corals around the Pacific indicate a series of unusually frequent El Niños around the time of the Lapita expansion. By reversing the regular east-to-west flow of the trade winds for weeks at a time, these ‘super El Niños’ might have taken the Lapita on long unplanned voyages."
+     },
+     {
+      "label": "",
+      "text": "However they did it, the Lapita spread themselves a third of the way across the Pacific, then called it quits for reasons known only to them. Ahead lay the vast emptiness of the central Pacific and perhaps they were too thinly stretched to venture farther. They probably never numbered more than a few thousand in total, and in their rapid migration eastward they encountered hundreds of islands — more than 300 in Fiji alone."
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "ii",
+   "2": "i",
+   "3": "v",
+   "4": "vii",
+   "5": "TRUE",
+   "6": "NOT GIVEN",
+   "7": "NOT GIVEN",
+   "8": "TRUE",
+   "9": "NOT GIVEN",
+   "10": "FALSE",
+   "11": "source of income / industry",
+   "12": "employer",
+   "13": "domestic tourism",
+   "14": "C",
+   "15": "B",
+   "16": "H",
+   "17": "B",
+   "18": "E",
+   "19": "sun(light)",
+   "20": "upper",
+   "21": "dry",
+   "22": "north",
+   "23": "FALSE",
+   "24": "TRUE",
+   "25": "NOT GIVEN",
+   "26": "B",
+   "27": "B",
+   "28": "F",
+   "29": "I",
+   "30": "G",
+   "31": "D",
+   "32": "C",
+   "33": "A",
+   "34": "D",
+   "35": "C",
+   "36": "NO",
+   "37": "YES",
+   "38": "NOT GIVEN",
+   "39": "YES",
+   "40": "NOT GIVEN"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe charts below show what UK graduate and postgraduate students who did\nnot go into full-time work did after leaving college in 2008.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 78,
+   "image": "figures/p078.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nCountries are becoming more and more similar because people are able to\nbuy the same products anywhere in the world.\n\nDo you think this is a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Travel",
+    "questions": [
+     "Do you enjoy travelling? [Why/Why not?]",
+     "Have you done much travelling? [Why/Why not?]",
+     "Do you think it's better to travel alone or with other people? [Why?]",
+     "Where would you like to travel in the future? [Why?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe a child that you know. You will have to talk about the topic for one to two minutes.",
+   "points": [
+    "who this child is and how often you see him or her",
+    "how old this child is",
+    "what he or she is like",
+    "and explain what you feel about this child."
+   ],
+   "rounding_off": []
+  },
+  "part3": [
+   {
+    "topic": "Relationships between parents and children",
+    "questions": [
+     "How much time do children spend with their parents in your country? Do you think that is enough?",
+     "How important do you think spending time together is for the relationships between parents and children? Why?",
+     "Have relationships between parents and children changed in recent years? Why do you think that is?"
+    ]
+   },
+   {
+    "topic": "Children's free-time activities",
+    "questions": [
+     "What are the most popular free-time activities with children today?",
+     "Do you think the free-time activities children do today are good for their health? Why is that?",
+     "How do you think children's activities will change in the future? Will this be a positive change?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

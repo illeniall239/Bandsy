@@ -1,0 +1,1107 @@
+{
+ "book": 15,
+ "test": 4,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "form_completion",
+      "instructions": "Complete the form below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 1,
+      "last": 10,
+      "body": "Customer Satisfaction Survey\n\nCustomer details | \nName: | Sophie Bird\nOccupation: | [[1]]\nReason for travel today: | [[2]]\n\nJourney information | \nName of station returning to: | [[3]]\nType of ticket purchased: | standard [[4]] ticket\nCost of ticket: | [[5]] £\nWhen ticket was purchased: | yesterday\nWhere ticket was bought: | [[6]]\n\nSatisfaction with journey | \nMost satisfied with: | the wifi\nLeast satisfied with: | the [[7]] this morning\n\nSatisfaction with station facilities | \nMost satisfied with: | how much [[8]] was\\nprovided\nLeast satisfied with: | lack of seats, particularly on the\\n[[9]]\nNeither satisfied nor dissatisfied with: | the [[10]] available",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "Occupation",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "Reason for travel today",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "Name of station returning to",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "Type of ticket purchased",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "Cost of ticket",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "Where ticket was bought",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "Satisfaction with journey – Most satisfied with",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "Satisfaction with journey – Least satisfied with",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "Satisfaction with station facilities – Most satisfied with",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "Satisfaction with station facilities – Neither satisfied nor dissatisfied with",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "map_labelling",
+      "instructions": "Label the map below.\n\nWrite the correct letter, A-H, next to Questions 11-16.",
+      "first": 11,
+      "last": 16,
+      "body": "Croft Valley Park\nNorth gate\nB Adventure playground\nOld museum | D\nF Glass houses\nH\nSouth gate",
+      "options": [],
+      "questions": [
+       {
+        "n": 11,
+        "text": "café",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "toilets",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "formal gardens",
+        "options": []
+       },
+       {
+        "n": 14,
+        "text": "outdoor gym",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "skateboard ramp",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "wild flowers",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 77,
+      "image": "figures/p077.png"
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 17,
+      "last": 18,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Children must be supervised."
+       },
+       {
+        "key": "B",
+        "text": "It costs more in winter."
+       },
+       {
+        "key": "C",
+        "text": "Some activities are only for younger children."
+       },
+       {
+        "key": "D",
+        "text": "No payment is required."
+       },
+       {
+        "key": "E",
+        "text": "It was recently expanded."
+       }
+      ],
+      "questions": [
+       {
+        "n": 17,
+        "text": "What does the speaker say about the adventure playground?",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "What does the speaker say about the adventure playground?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 19,
+      "last": 20,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "They are closed at weekends."
+       },
+       {
+        "key": "B",
+        "text": "Volunteers are needed to work there."
+       },
+       {
+        "key": "C",
+        "text": "They were badly damaged by fire."
+       },
+       {
+        "key": "D",
+        "text": "More money is needed to repair some of the glass."
+       },
+       {
+        "key": "E",
+        "text": "Visitors can see palm trees from tropical regions."
+       }
+      ],
+      "questions": [
+       {
+        "n": 19,
+        "text": "What does the speaker say about the glass houses?",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "What does the speaker say about the glass houses?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "first": 21,
+      "last": 24,
+      "body": "Presentation about refrigeration",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "What did Annie discover from reading about icehouses?",
+        "options": [
+         {
+          "key": "A",
+          "text": "why they were first created"
+         },
+         {
+          "key": "B",
+          "text": "how the ice was kept frozen"
+         },
+         {
+          "key": "C",
+          "text": "where they were located"
+         }
+        ]
+       },
+       {
+        "n": 22,
+        "text": "What point does Annie make about refrigeration in ancient Rome?",
+        "options": [
+         {
+          "key": "A",
+          "text": "It became a commercial business."
+         },
+         {
+          "key": "B",
+          "text": "It used snow from nearby."
+         },
+         {
+          "key": "C",
+          "text": "It took a long time to become popular."
+         }
+        ]
+       },
+       {
+        "n": 23,
+        "text": "In connection with modern refrigerators, both Annie and Jack are worried about",
+        "options": [
+         {
+          "key": "A",
+          "text": "the complexity of the technology."
+         },
+         {
+          "key": "B",
+          "text": "the fact that some are disposed of irresponsibly."
+         },
+         {
+          "key": "C",
+          "text": "the large number that quickly break down."
+         }
+        ]
+       },
+       {
+        "n": 24,
+        "text": "What do Jack and Annie agree regarding domestic fridges?",
+        "options": [
+         {
+          "key": "A",
+          "text": "They are generally good value for money."
+         },
+         {
+          "key": "B",
+          "text": "There are plenty of useful variations."
+         },
+         {
+          "key": "C",
+          "text": "They are more useful than other domestic appliances."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Who is going to do research into each topic?\n\nWrite the correct letter, A, B or C, next to Questions 25-30.",
+      "first": 25,
+      "last": 30,
+      "body": "People",
+      "options": [
+       {
+        "key": "A",
+        "text": "Annie"
+       },
+       {
+        "key": "B",
+        "text": "Jack"
+       },
+       {
+        "key": "C",
+        "text": "both Annie and Jack"
+       }
+      ],
+      "questions": [
+       {
+        "n": 25,
+        "text": "the goods that are refrigerated",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "the effects on health",
+        "options": []
+       },
+       {
+        "n": 27,
+        "text": "the impact on food producers",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "the impact on cities",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "refrigerated transport",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "domestic fridges",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "How the Industrial Revolution affected life in Britain\n19th century\n• For the first time, people's possessions were used to measure Britain's [[31]]\n• Developments in production of goods and in [[32]] greatly changed lives.\n\nMAIN AREAS OF CHANGE\nManufacturing\n• The Industrial Revolution would not have happened without the new types of [[33]] that were used then.\n• The leading industry was [[34]] (its products became widely available).\n• New [[35]] made factories necessary and so more people moved into towns.\n\nTransport\n• The railways took the place of canals.\n• Because of the new transport:\n– greater access to [[36]] made people more aware of what they could buy in shops.\n– when shopping, people were not limited to buying [[37]] goods.\n\nRetailing\n• The first department stores were opened.\n• The displays of goods were more visible:\n– inside stores because of better [[38]]\n– outside stores, because [[39]] were bigger.\n• [[40]] that was persuasive became much more common.",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "For the first time, people's possessions were used to measure Britain's",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "Developments in production of goods and in [[32]] greatly changed lives.",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "The Industrial Revolution would not have happened without the new types of [[33]] that were used then.",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "The leading industry was [[34]] (its products became widely available).",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "New [[35]] made factories necessary and so more people moved into towns.",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "greater access to [[36]] made people more aware of what they could buy in shops.",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "when shopping, people were not limited to buying [[37]] goods.",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "inside stores because of better [[38]]",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "outside stores, because [[39]] were bigger.",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "[[40]] that was persuasive became much more common.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "journalist",
+   "2": "shopping",
+   "3": "Staunfirth",
+   "4": "return",
+   "5": "23.70",
+   "6": "online",
+   "7": "delay",
+   "8": "information",
+   "9": "platform(s)",
+   "10": "parking",
+   "11": "D",
+   "12": "C",
+   "13": "G",
+   "14": "H",
+   "15": "A",
+   "16": "E",
+   "17": "A",
+   "18": "D",
+   "19": "A",
+   "20": "C",
+   "21": "B",
+   "22": "A",
+   "23": "B",
+   "24": "A",
+   "25": "A",
+   "26": "A",
+   "27": "B",
+   "28": "B",
+   "29": "A",
+   "30": "C",
+   "31": "wealth",
+   "32": "technology",
+   "33": "power",
+   "34": "textile(s)",
+   "35": "machines",
+   "36": "newspapers",
+   "37": "local",
+   "38": "lighting",
+   "39": "windows",
+   "40": "Advertising"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 15/ielts15_test4_audio1.m4a",
+   "Cambridge-lists-main/Cambridge IELTS 15/ielts15_test4_audio2.m4a",
+   "Cambridge-lists-main/Cambridge IELTS 15/ielts15_test4_audio3.m4a",
+   "Cambridge-lists-main/Cambridge IELTS 15/ielts15_test4_audio4.m4a"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "MAN: Hello. Do you mind if I ask you some questions about your journey today? We're\ndoing a customer satisfaction survey.\n\nSOPHIE: Yes. OK. I've got about ten minutes before my train home leaves. I'm on a day\ntrip.\n\nMAN: Great. Thank you. So first of all, could you tell me your name?\n\nSOPHIE: It's Sophie Bird.\n\nMAN: Thank you. And would you mind telling me what you do?\n\nSOPHIE: I'm a journalist.\n\nMAN: Oh really? That must be interesting.\n\nSOPHIE: Yes. It is.\n\nMAN: So was the reason for your visit here today work?\n\nSOPHIE: Actually, it's my day off. I came here to do some shopping.\n\nMAN: Oh right.\n\nSOPHIE: But I do sometimes come here for work.\n\nMAN: OK. Now I'd like to ask some questions about your journey today, if that’s OK.\n\nSOPHIE: Yes. No problem.\n\nMAN: Right, so can you tell me which station you're travelling back to?\n\nSOPHIE: ‘Staunfirth, where I live.\n\nMAN: Can I just check the spelling? S-T-A-U-N-F-I-R-T-H?\n\nSOPHIE: That's right.\n\nMAN: And you travelled from there this morning?\n\nSOPHIE: Yes.\n\nMAN: OK, good. Next, can I ask what kind of ticket you bought? I assume it wasn’t a\nseason ticket, as you don't travel every day.\n\nSOPHIE: That's right. No, I just got a normal return ticket. I don’t have a rail card so I didn’t\nget any discount. I keep meaning to get one because it's a lot cheaper.\n\nMAN: Yes — you'd have saved 20% on your ticket today. So you paid the full price for\nyour ticket?\n\nSOPHIE: I paid £23.70.\n\nMAN: OK. Do you think that's good value for money?\n\nSOPHIE: Not really. I think it's too much for a journey that only takes 45 minutes.\n\nMAN: Yes, that's one of the main complaints we get. So, you didn’t buy your ticket in\nadvance?\n\nSOPHIE: No. I know it's cheaper if you buy a week in advance but I didn’t know I was\ncoming then.\n\nMAN: I know. You can't always plan ahead. So, did you buy it this morning?\n\nSOPHIE: No, it was yesterday.\n\nMAN: Right. And do you usually buy your tickets at the station?\n\nSOPHIE: Well, I do usually but the ticket office closes early and I hate using ticket\nmachines. I think ticket offices should be open for longer hours. There's always a\nqueue for the machines and they're often out of order.\n\nMAN: Alot of customers are saying the same thing.\n\nSOPHIE: So to answer your question ... I got an e-ticket online.\n\nMAN: OK. Thank you. Now I'd like to ask you about your satisfaction with your journey.\nSo what would you say you were most satisfied with today?\n\nSOPHIE: Well, I like the wifi on the train. It's improved a lot. It makes it easier for me to\nwork if I want to.\n\nMAN: That's the first time today anyone’s mentioned that. It's good to get some positive\nfeedback on that.\n\nSOPHIE: Mmm.\n\nMAN: And, is there anything you weren't satisfied with?\n\nSOPHIE: Well, normally, the trains run on time and are pretty reliable but today there was a\ndelay; the train was about 15 minutes behind schedule.\n\nMAN: OK. I'll put that down. Now I'd also like to ask about the facilities at this station.\n\nYou've probably noticed that the whole station's been upgraded. What are you\nmost satisfied with?\n\nSOPHIE: I think the best thing is that they've improved the amount of information about\ntrain times etc. that’s given to passengers — it’s much clearer — before there was\nonly one board and I couldn't always see it properly — which was frustrating.\n\nMAN: That's good. And is there anything you're not satisfied with?\n\nSOPHIE: Let's see ... I think things have generally improved a lot. The trains are much\nmore modern and I like the new café. But one thing is that there aren't enough\nplaces to sit down, especially on the platforms.\n\nMAN: OK — so I'll put ‘seating’ down, shall I, as the thing you're least satisfied with?\nSOPHIE: Yes. OK.\nMAN: Can I ask your opinion about some of the other facilities? We'd like feedback on\nwhether people are satisfied, dissatisfied or neither satisfied nor dissatisfied.\nSOPHIE: OK.\n\nMAN: What about the parking at the station?\n\nSOPHIE: Well to be honest, I don't really have an opinion as I never use it.\nMAN: So, neither satisfied nor dissatisfied for that then.\n\nSOPHIE: Yes, I suppose so ...\n\nMAN: OK, and what about ...?"
+   },
+   {
+    "part": 2,
+    "text": "As chair of the town council subcommittee on park facilities, I'd like to bring you up to date on\nsome of the changes that have been made recently to the Croft Valley Park. So if you could\njust take a look at the map I handed out, let's begin with a general overview. So the basic\narrangement of the park hasn't changed — it still has two gates, north and south, and a lake in\nthe middle.\n\nThe café continues to serve an assortment of drinks and snacks and is still in the same place,\nlooking out over the lake and next to the old museum.\n\nWe're hoping to change the location of the toilets, and bring them nearer to the centre of the\npark as they're a bit out of the way at present, near the adventure playground, in the corner of\nyour map.\n\nThe formal gardens have been replanted and should be at their best in a month or two. They\nused to be behind the old museum, but we’ve now used the space near the south gate —\nbetween the park boundary and the path that goes past the lake towards the old museum.\n\nWe have a new outdoor gym for adults and children, which is already proving very popular.\nIt’s by the glass houses, just to the right of the path from the south gate. You have to look for\nit as it's a bit hidden in the trees.\n\n\nOne very successful introduction has been our skateboard ramp. It’s in constant use during\nthe evenings and holidays. It's near the old museum at the end of a little path that lead:\nfrom the main path between the lake and the museum.\n\nWe've also introduced a new area for wild flowers, to attract bees and butterflies. It's on\na bend in the path that goes around the east side of the lake, just south of the adventure\nplayground.\n\nNow let me tell you a bit more about some of the changes to Croft Valley Park.\n\nOne of our most exciting developments has been the adventure playground. We were aware\nthat we had nowhere for children to let off steam, and decided to use our available funds to\nset up a completely new facility in a large space to the north of the park. It's open year round\nthough it closes early in the winter months, and entrance is completely free. Children can \nchoose whatever activities they want to do, irrespective of their age, but we do ask adults not. \nto leave them on their own there. There are plenty of seats where parents can relax and keep\nan eye on their children at the same time.\n\nLastly, the glass houses. A huge amount of work has been done on them to repair the\ndamage following the disastrous fire that recently destroyed their western side. Over £80,000 \nwas spent on replacing the glass walls and the metal supports, as well as the plants that had\nbeen destroyed, although unfortunately the collection of tropical palm trees has proved too\nexpensive to replace up to now. At present the glass houses are open from 10am to 3pm\nMondays to Thursdays, and it’s hoped to extend this to the weekend soon. We're grateful to\nall those who helped us by contributing their time and money to this achievement.\n\nThe gardens have ..."
+   },
+   {
+    "part": 3,
+    "text": "ANNIE: OK, Jack. Before we plan our presentation about refrigeration, let's discuss what\nwe've discovered so far.\n\nJACK: Fine, Annie. Though I have to admit I haven't done much research yet.\n\nANNIE: Nor me. But I found an interesting article about ice houses. I'd seen some 18th-\nand 19th century ones here in the UK, so I knew they were often built in a shady\narea or underground, close to lakes that might freeze in the winter. Then blocks\nof ice could be cut and stored in the ice house, But I didn’t realise that insulating\nthe blocks with straw or sawdust meant they didn’t melt for months. The ancient\nRomans had refrigeration, too.\n\nJACK: I didn’t know that.\n\nANNIE: Yes, pits were dug in the ground, and snow was imported from the mountains —\neven though they were at quite a distance. The snow was stored in the pits. Ice\nformed at the bottom of it. Both the ice and the snow were then sold. The ice cost \nmore than the snow and my guess is that only the wealthy members of society\ncould afford it.\nJACK: I wouldn't be surprised. I also came across an article about modern domestic\nfridges. Several different technologies are used, but they were too complex for\nme to understand.\nANNIE: You have to wonder what happens when people get rid of old ones.\nJACK: You mean because the gases in them are harmful for the environment?\nANNIE: Exactly. At least there are now plenty of organisations that will recycle most of\nthe components safely, but of course some people just dump old fridges in the\ncountryside.\nJACK: it's hard to see how they can be stopped unfortunately. In the UK we get rid of\nthree million a year altogether!\nANNIE: That sounds a lot, especially because fridges hardly ever break down.\nJACK: That's right. In this country we keep domestic fridges for 11 years on average, and\na lot last for 20 or more. So if you divide the cost by the number of years you can\nuse a fridge, they're not expensive, compared with some household appliances.\nANNIE: True. I suppose manufacturers encourage people to spend more by making them\ndifferent colours and designs. I’m sure when my parents bought their first fridge\nthey had hardly any choice!\nJACK: Yes, there’s been quite a change.\nJACK: Right, let's make a list of topics to cover in our presentation, and decide who's\ngoing to do more research on them. Then later, we can get together and plan the\nnext step.\nANNIE: OK. How about starting with how useful refrigeration is, and the range of goods\nthat are refrigerated nowadays? Because of course it’s not just food and drinks.\nJACK: No, I suppose flowers and medicines are refrigerated, too.\nANNIE: And computers. I could do that, unless you particularly want to.\nJACK: No, that's fine by me. What about the effects of refrigeration on people’s health?\nAfter all, some of the chemicals used in the 19th century were pretty harmful, but\nthere have been lots of benefits too, like always having access to fresh food. Do\nyou fancy dealing with that?\nANNIE: I'm not terribly keen, to be honest.\nJACK: Nor me. My mind just goes blank when I read anything about chemicals.\nANNIE: Oh, all right then, I'll do you a favour. But you owe me, Jack.\nOK. What about the effects on food producers, like farmers in poorer countries\nbeing able to export their produce to developed countries? Something for you,\nmaybe?\nJACK: don't mind. It should be quite interesting.\nANNIE: think we should also look at how refrigeration has helped whole cities — like Las\nVegas, which couldn’t exist without refrigeration because it’s in the middle of a\ndesert.\nJACK: Right. I had a quick look at an economics book in the library that’s got a chapter\nabout this sort of thing. I could give you the title, if you want to do this section.\nANNIE: Not particularly, to be honest. I find economics books pretty heavy going, as a\nrule.\nJACK: OK, leave it to me, then.\nANNIE: Thanks. Then there’s transport, and the difference that refrigerated trucks have\nmade. I wouldn't mind having a go at that.\nJACK: Don’t forget trains, too. I read something about milk and butter being transported\nin refrigerated railroad cars in the USA, right back in the 1840s.\nANNIE: hadn't thought of trains. Thanks.\nJACK: Shall we have a separate section on domestic fridges? After all, they're\nsomething everyone's familiar with.\nANNIE: What about splitting it into two? You could investigate 19th- and 20th-\ncentury fridges, and I'll concentrate on what's available these days, and how\nmanufacturers differentiate their products from those of their competitors.\n\nJACK: OK, that'd suit me."
+   },
+   {
+    "part": 4,
+    "text": "Hi everyone, in this session I'll be presenting my research about the social history of Britain\nduring the Industrial Revolution. I particularly looked at how ordinary lives were affected\nby changes that happened at that time. This was a time that saw the beginning of a new\nphenomenon: consumerism — where buying and selling goods became a major part of\nordinary people's lives.\n\nIn fact, it was in the 19th century that the quantity and quality of people’s possessions was\nused as an indication of the wealth of the country. Before this, the vast majority of people had\nvery few possessions, but all that was changed by the Industrial Revolution. This was the era\nfrom the mid-18th to the late 19th century, when improvements in how goods were made as\nwell as in technology triggered massive social changes that transformed life for just about\neverybody in several key areas.\n\nFirst let's look at manufacturing. When it comes to manufacturing, we tend to think of the\nIndustrial Revolution in images of steam engines and coal. And it's true that the Industrial\nRevolution couldn’t have taken place at all if it weren't for these new sources of power.\nThey marked an important shift away from the traditional watermills and windmills that\nhad dominated before this. The most advanced industry for much of the 19th century was\ntextiles. This meant that fashionable fabrics, and lace and ribbons were made available\nto everyone.\n\nBefore the Industrial Revolution, most people made goods to sell in small workshops, often in\ntheir own homes. But enormous new machines were now being created that could produce\nthe goods faster and on a larger scale, and these required a lot more space. So large\nfactories were built, replacing the workshops, and forcing workers to travel to work. In fact,\nlarge numbers of people migrated from villages into towns as a result.\n\nAs well as manufacturing, there were new technologies in transport, contributing to the\ngrowth of consumerism. The horse-drawn stagecoaches and carts of the 18th century, which\ncarried very few people and goods, and travelled slowly along poorly surfaced roads, were\ngradually replaced by the numerous canals that were constructed. These were particularly\nimportant for the transportation of goods. The canals gradually fell out of use, though, as\nrailways were developed, becoming the main way of moving goods and people from one end\nof the country to the other. And the goods they moved weren't just coal, iron, clothes, and so\non — significantly, they included newspapers, which meant that thousands of people were not\nonly more knowledgeable about what was going on in the country, but could also read about\nwhat was available in the shops. And that encouraged them to buy more. So faster forms of\ntransport resulted in distribution becoming far more efficient — goods could now be sold all\nover the country, instead of just in the local market.\n\nThe third main area that saw changes that contributed to consumerism was retailing.\n\nThe number and quality of shops grew rapidly, and in particular, small shops suffered as\ncustomers flocked to the growing number of department stores — a form of retailing that\nwas new in the 19th century. The entrepreneurs who opened these found new ways to\nstock them with goods, and to attract customers: for instance, improved lighting inside\ngreatly increased the visibility of the goods for sale. Another development that made\ngoods more visible from outside resulted from the use of plate glass, which made it\npossible for windows to be much larger than previously. New ways of promoting goods\nwere introduced, too. Previously, the focus had been on informing potential customers\nabout the availability of goods; now there was an explosion in advertising trying to\npersuade people to go shopping.\n\nFlanders claims that one of the great effects of the Industrial Revolution was that it created\nchoice. All sorts of things that had previously been luxuries — from sugar to cutlery — became\nconveniences, and before long they'd turned into necessities: life without sugar or cutlery was\nunimaginable. Rather like mobile phones these days!"
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "title": "The return of the huarango\nThe arid valleys of southern Peru are welcoming the return of a native plant",
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 1-5 on your answer sheet.",
+      "first": 1,
+      "last": 5,
+      "body": "The importance of the huarango tree\n— its roots can extend as far as 80 metres into the soil\n— can access [[1]] deep below the surface\n— was a crucial part of local inhabitants' [[2]] a long time ago\n— helped people to survive periods of [[3]]\n— prevents [[4]] of the soil\n— prevents land from becoming a [[5]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 84,
+      "image": "figures/p084.png"
+     },
+     {
+      "type": "table_completion",
+      "instructions": "Complete the table below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\nWrite your answers in boxes 6-8 on your answer sheet.",
+      "first": 6,
+      "last": 8,
+      "body": "Traditional uses of the huarango tree\nPart of tree | Traditional use\n[[6]] | fuel\n[[7]] | food\nleaves and bark | medicine\n[[8]] | construction",
+      "options": [],
+      "questions": [
+       {
+        "n": 6,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 84,
+      "image": "figures/p084.png"
+     },
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nIn boxes 9-13 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 9,
+      "last": 13,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 9,
+        "text": "Local families have told Whaley about some traditional uses of huarango products.",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "Farmer Alberto Benevides is now making a good profit from growing huarangos.",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "Whaley needs the co-operation of farmers to help preserve the area's wildlife.",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "For Whaley's project to succeed, it needs to be extended over a very large area.",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "Whaley has plans to go to Africa to set up a similar project.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 85,
+      "image": "figures/p085.png"
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "The south coast of Peru is a narrow, 2,000-kilometre-long strip of desert squeezed between the Andes and the Pacific Ocean. It is also one of the most fragile ecosystems on Earth, It hardly ever rains there, and the only year-round source of water is located tens of metres below the surface. This is why the huarango tree is so suited to life there: it has the longest roots of any tree in the world. They stretch down 50-80 metres and, as well as sucking up water for the tree, they bring it into the higher subsoil, creating a water source for other plant life."
+     },
+     {
+      "label": "",
+      "text": "Dr David Beresford-Jones, archaeobotanist at Cambridge University, has been studying the role of the huarango tree in landscape change in the Lower Ica Valley in southern Peru. He believes the huarango was key to the ancient people’s diet and, because it could reach deep water sources, it allowed local people to withstand years of drought when their other crops failed. But over the centuries huarango trees were gradually replaced with crops. Cutting down native woodland leads to erosion, as there is nothing to keep the soil in place. So when the huarangos go, the land turns into a desert. Nothing grows at all in the Lower Ica Valley now."
+     },
+     {
+      "label": "",
+      "text": "For centuries the huarango tree was vital to the people of the neighbouring Middle Ica Valley too. They grew vegetables under it and ate products made from its seed pods. Its leaves and bark were used for herbal remedies, while its branches were used for charcoal for cooking and heating, and its trunk was used to build houses. But now it is disappearing rapidly. The majority of the huarango forests in the valley have already been cleared for fuel and agriculture — initially, these were smallholdings, but now they’re huge farms producing crops for the international market."
+     },
+     {
+      "label": "",
+      "text": "“Of the forests that were here 1,000 years ago, 99 per cent have already gone,’ says botanist Oliver Whaley from Kew Gardens in London, who, together with ethnobotanist Dr William Milliken, is running a pioneering project to protect and restore the rapidly disappearing habitat. In order to succeed, Whaley needs to get the local people on board, and that has meant overcoming local prejudices. ‘Increasingly aspirational communities think that if you plant food trees in your home or street, it shows you are poor, and still need to grow your own food,’ he says. In order to stop the Middle Ica Valley going the same way as the Lower Ica Valley, Whaley is encouraging locals to love the huarangos again. ‘It’s a process of cultural resuscitation,’ he says. He has already set up a huarango festival to reinstate a sense of pride in their eco-heritage, and has helped local schoolchildren plant thousands of trees. ‘In order to get people interested in habitat restoration, you need to plant a tree that is useful to them,’ says Whaley. So, he has been working with local families to attempt to create a sustainable income from the huarangos by turning their products into foodstuffs. “Boil up the beans and you get this thick brown syrup like molasses. You can also use it in drinks, soups or stews.’ The pods can be ground into flour to make cakes, and the seeds roasted into a sweet, chocolatey ‘coffee’. ‘It’s packed full of vitamins and minerals,’ Whaley says."
+     },
+     {
+      "label": "",
+      "text": "And some farmers are already planting huarangos. Alberto Benevides, owner of Ica Valley’s only certified organic farm, which Whaley helped set up, has been planting the tree for 13 years. He produces syrup and flour, and sells these products at an organic farmers’ market in Lima. His farm is relatively small and doesn’t yet provide him with enough to live on, but he hopes this will change. ‘The organic market is growing rapidly in Peru,’ Benevides says. ‘I am investing in the future.’"
+     },
+     {
+      "label": "",
+      "text": "But even if Whaley can convince the local people to fall in love with the huarango again, there is still the threat of the larger farms. Some of these cut across the forests and break up the corridors that allow the essential movement of mammals, birds and pollen up and down the narrow forest strip. In the hope of counteracting this, he’s persuading farmers to let him plant forest corridors on their land. He believes the extra woodland will also benefit the farms by reducing their water usage through a lowering of evaporation and providing a refuge for bio-control insects."
+     },
+     {
+      "label": "",
+      "text": "“If we can record biodiversity and see how it all works, then we’re in a good position to move on from there. Desert habitats can reduce down to very little’ Whaley explains. ‘It’s not like a rainforest that needs to have this huge expanse. Life has always been confined to corridors and islands here. If you just have a few trees left, the population can grow up quickly because it’s used to exploiting water when it arrives.’ He sees his project as a model that has the potential to be rolled out across other arid areas around the world. ‘If we can do it here, in the most fragile system on Earth, then that’s a real message of hope for lots of places, including Africa, where there is drought and they just can’t afford to wait for rain.”"
+     }
+    ]
+   },
+   {
+    "title": "Silbo Gomero — the whistle ‘language’ of the Canary Islands",
+    "groups": [
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 2?\nIn boxes 14-19 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 14,
+      "last": 19,
+      "body": "",
+      "options": [],
+      "figure_pdf_page": 0,
+      "questions": [
+       {
+        "n": 14,
+        "text": "La Gomera is the most mountainous of all the Canary Islands.",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "Silbo is only appropriate for short and simple messages.",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "In the brain-activity study, silbadores and non-whistlers produced different results.",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "The Spanish introduced Silbo to the islands in the 15th century.",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "There is precise data available regarding all of the whistle languages in existence today.",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "The children of Gomera now learn Silbo.",
+        "options": []
+       }
+      ]
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 20-26 on your answer sheet.",
+      "first": 20,
+      "last": 26,
+      "body": "Silbo Gomero\n\nHow Silbo is produced\n• high- and low-frequency tones represent different sounds in Spanish\n[[20]]\n• pitch of whistle is controlled using silbador's [[21]]\n• [[22]] is changed with a cupped hand\n\nHow Silbo is used\n• has long been used by shepherds and people living in secluded locations\n• in everyday use for the transmission of brief [[23]]\n• can relay essential information quickly, e.g. to inform people about [[24]]\n\nThe future of Silbo\n• future under threat because of new [[25]]\n• Canaries' authorities hoping to receive a UNESCO [[26]] to preserve it",
+      "options": [],
+      "figure_pdf_page": 0,
+      "questions": [
+       {
+        "n": 20,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 21,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 23,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "",
+        "options": []
+       }
+      ]
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "La Gomera is one of the Canary Islands situated in the Atlantic Ocean off the northwest coast of Africa. This small volcanic island is mountainous, with steep rocky slopes and deep, wooded ravines, rising to 1,487 metres at its highest peak. It is also home to the best known of the world’s whistle ‘languages’, a means of transmitting information over long distances which is perfectly adapted to the extreme terrain of the island."
+     },
+     {
+      "label": "",
+      "text": "This ‘language’, known as ‘Silbo’ or ‘Silbo Gomero’ — from the Spanish word for ‘whistle’ — is now shedding light on the language-processing abilities of the human brain, according to scientists. Researchers say that Silbo activates parts of the brain normally associated with spoken language, suggesting that the brain is remarkably flexible in its ability to interpret sounds as language."
+     },
+     {
+      "label": "",
+      "text": "“Science has developed the idea of brain areas that are dedicated to language, and we are starting to understand the scope of signals that can be recognised as language,’ says David Corina, co-author of a recent study and associate professor of psychology at the University of Washington in Seattle."
+     },
+     {
+      "label": "",
+      "text": "Silbo is a substitute for Spanish, with individual words recoded into whistles which have high- and low-frequency tones. A whistler — or silbador — puts a finger in his or her mouth to increase the whistle’s pitch, while the other hand can be cupped to adjust the direction of the sound. “There is much more ambiguity in the whistled signal than in the spoken signal,’ explains lead researcher Manuel Carreiras, psychology professor at the University of La Laguna on the Canary island of Tenerife. Because whistled ‘words’ can be hard to distinguish, silbadores rely on repetition, as well as awareness of context, to make themselves understood."
+     },
+     {
+      "label": "",
+      "text": "The silbadores of Gomera are traditionally shepherds and other isolated mountain folk, and their novel means of staying in touch allows them to communicate over distances of up to 10 kilometres. Carreiras explains that silbadores are able to pass a surprising amount of information via their whistles. ‘In daily life they use whistles to communicate short commands, but any Spanish sentence could be whistled.’ Silbo has proved particularly useful when fires have occurred on the island and rapid communication across large areas has been vital. The study team used neuroimaging equipment to contrast the brain activity of silbadores while listening to whistled and spoken Spanish. Results showed the left temporal lobe of the brain, which is usually associated with spoken language, was engaged during the processing of Silbo. The researchers found that other key regions in the brain’s frontal lobe also responded to the whistles, including those activated in response to sign language among deaf people. When the experiments were repeated with non-whistlers, however, activation was observed in all areas of the brain."
+     },
+     {
+      "label": "",
+      "text": "“Our results provide more evidence about the flexibility of human capacity for language in a variety of forms,’ Corina says. ‘These data suggest that left-hemisphere language regions are uniquely adapted for communicative purposes, independent of the modality of signal. The non- Silbo speakers were not recognising Silbo as a language. They had nothing to grab onto, so multiple areas of their brains were activated.’"
+     },
+     {
+      "label": "",
+      "text": "Carreiras says the origins of Silbo Gomero remain obscure, but that indigenous Canary Islanders, who were of North African origin, already had a whistled language when Spain conquered the volcanic islands in the 15th century. Whistled languages survive today in Papua New Guinea, Mexico, Vietnam, Guyana, China, Nepal, Senegal, and a few mountainous pockets in southern Europe. There are thought to be as many as 70 whistled languages still in use, though only 12 have been described and studied scientifically. This form of communication is an adaptation found among cultures where people are often isolated from each other, according to Julien Meyer, a researcher at the Institute of Human Sciences in Lyon, France. ‘They are mostly used in mountains or dense forests,’ he says. ‘Whistled languages are quite clearly defined and represent an original adaptation of the spoken language for the needs of isolated human groups.’ But with modern communication technology now widely available, researchers say whistled languages like Silbo are threatened with extinction. With dwindling numbers of Gomera islanders still fluent in the language, Canaries’ authorities are taking steps to try to ensure its survival."
+     },
+     {
+      "label": "",
+      "text": "Since 1999, Silbo Gomero has been taught in all of the island’s elementary schools. In addition, locals are seeking assistance from the United Nations Educational, Scientific and Cultural Organization (UNESCO). ‘The local authorities are trying to get an award from the organisation to declare [Silbo Gomerol as something that should be preserved for humanity,’ Carreiras adds."
+     }
+    ]
+   },
+   {
+    "groups": [
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary using the list of words, A-J, below.\n\nWrite the correct letter, A-J, in boxes 27-31 on your answer sheet.",
+      "first": 27,
+      "last": 31,
+      "body": "Many big businesses today are prepared to harm people and the environment in order to make money, and they appear to have no [[27]]. Lack of [[28]] by governments and lack of public [[29]] can lead to environmental problems such as [[30]] or the destruction of [[31]].",
+      "options": [
+       {
+        "key": "A",
+        "text": "funding"
+       },
+       {
+        "key": "B",
+        "text": "trees"
+       },
+       {
+        "key": "C",
+        "text": "rare species"
+       },
+       {
+        "key": "D",
+        "text": "moral standards"
+       },
+       {
+        "key": "E",
+        "text": "control"
+       },
+       {
+        "key": "F",
+        "text": "involvement"
+       },
+       {
+        "key": "G",
+        "text": "flooding"
+       },
+       {
+        "key": "H",
+        "text": "overfishing"
+       },
+       {
+        "key": "I",
+        "text": "worker support"
+       }
+      ],
+      "questions": [
+       {
+        "n": 27,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice",
+      "instructions": "[C] Choose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 32-34 on your answer sheet.",
+      "first": 32,
+      "last": 34,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 32,
+        "text": "The main idea of the third paragraph is that environmental damage",
+        "options": [
+         {
+          "key": "A",
+          "text": "requires political action if it is to be stopped."
+         },
+         {
+          "key": "B",
+          "text": "is the result of ignorance on the part of the public."
+         },
+         {
+          "key": "C",
+          "text": "could be prevented by the action of ordinary people."
+         },
+         {
+          "key": "D",
+          "text": "can only be stopped by educating business leaders."
+         }
+        ]
+       },
+       {
+        "n": 33,
+        "text": "In the fourth paragraph, the writer describes ways in which the public can",
+        "options": [
+         {
+          "key": "A",
+          "text": "reduce their own individual impact on the environment."
+         },
+         {
+          "key": "B",
+          "text": "learn more about the impact of business on the environment."
+         },
+         {
+          "key": "C",
+          "text": "raise awareness of the effects of specific environmental disasters."
+         },
+         {
+          "key": "D",
+          "text": "influence the environmental policies of businesses and governments."
+         }
+        ]
+       },
+       {
+        "n": 34,
+        "text": "What pressure was exerted by big business in the case of the disease BSE?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Meat packers stopped supplying hamburgers to fast-food chains."
+         },
+         {
+          "key": "B",
+          "text": "A fast-food company forced their meat suppliers to follow the law."
+         },
+         {
+          "key": "C",
+          "text": "Meat packers persuaded the government to reduce their expenses."
+         },
+         {
+          "key": "D",
+          "text": "A fast-food company encouraged the government to introduce legislation."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "yes_no_not_given",
+      "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3?\nIn boxes 35-39 on your answer sheet, write\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+      "first": 35,
+      "last": 39,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 35,
+        "text": "The public should be prepared to fund good environmental practices.",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "There is a contrast between the moral principles of different businesses.",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "It is important to make a clear distinction between acceptable and unacceptable behaviour.",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "The public have successfully influenced businesses in the past.",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "In the future, businesses will show more concern for the environment.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.\nWrite the correct letter in box 40 on your answer sheet.",
+      "first": 40,
+      "last": 40,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 40,
+        "text": "What would be the best subheading for this passage?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Will the world survive the threat caused by big businesses?"
+         },
+         {
+          "key": "B",
+          "text": "How can big businesses be encouraged to be less driven by profit?"
+         },
+         {
+          "key": "C",
+          "text": "What environmental dangers are caused by the greed of businesses?"
+         },
+         {
+          "key": "D",
+          "text": "Are big businesses to blame for the damage they cause the environment?"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "Environmental practices of big businesses",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "The environmental practices of big businesses are shaped by a fundamental fact that for many of us offends our sense of justice. Depending on the circumstances, a business may maximize the amount of money it makes, at least in the short term, by damaging the environment and hurting people. That is still the case today for fishermen in an unmanaged fishery without quotas, and for international logging companies with short-term leases on tropical rainforest land in places with corrupt officials and unsophisticated landowners. When government regulation is effective, and when the public is environmentally aware, environmentally clean big businesses may out-compete dirty ones, but the reverse is likely to be true if government regulation is ineffective and if the public doesn’t care."
+     },
+     {
+      "label": "",
+      "text": "It is easy for the rest of us to blame a business for helping itself by hurting other people."
+     },
+     {
+      "label": "",
+      "text": "But blaming alone is unlikely to produce change. It ignores the fact that businesses are not charities but profit-making companies, and that publicly owned companies with shareholders are under obligation to those shareholders to maximize profits, provided that they do so by legal means. US laws make a company’s directors legally liable for something termed “breach of fiduciary responsibility’ if they knowingly manage a company in a way that reduces profits. The car manufacturer Henry Ford was in fact successfully sued by shareholders in 1919 for raising the minimum wage of his workers to $5 per day: the courts declared that, while Ford’s humanitarian sentiments about his employees were nice, his business existed to make profits for its stockholders."
+     },
+     {
+      "label": "",
+      "text": "Our blaming of businesses also ignores the ultimate responsibility of the public for creating the conditions that let a business profit through destructive environmental policies. In the long run, it is the public, either directly or through its politicians, that has the power to make such destructive policies unprofitable and illegal, and to make sustainable environmental policies profitable."
+     },
+     {
+      "label": "",
+      "text": "The public can do that by suing businesses for harming them, as happened after the Exxon Valdez disaster, in which over 40,000m° of oil were spilled off the coast of Alaska. The public may also make their opinion felt by preferring to buy sustainably harvested products; by making employees of companies with poor track records feel ashamed of their company and complain to their own management; by preferring their governments to award valuable contracts to businesses with a good environmental track record; and by pressing their governments to pass and enforce laws and regulations requiring good environmental practices. In turn, big businesses can exert powerful pressure on any suppliers that might ignore public or government pressure. For instance, after the US public became concerned about the spread of a disease known as BSE, which was transmitted to humans through infected meat, the US government's Food and Drug Administration introduced rules demanding that the meat industry abandon practices associated with the risk of the disease spreading. But for five years the meat packers refused to follow these, claiming that they would be too expensive to obey. However, when a major fast-food company then made the same demands after customer purchases of its hamburgers plummeted, the meat industry complied within weeks. The public’s task is therefore to identify which links in the supply chain are sensitive to public pressure: for instance, fast-food chains or jewelry stores, but not meat packers or gold miners."
+     },
+     {
+      "label": "",
+      "text": "Some readers may be disappointed or outraged that I place the ultimate responsibility for business practices harming the public on the public itself. I also believe that the public must accept the necessity for higher prices for products to cover the added costs, if any, of sound environmental practices, My views may seem to ignore the belief that businesses should act in accordance with moral principles even if this leads to a reduction in their profits. But I think we have to recognize that, throughout human history, in all politically complex human societies, government regulation has arisen precisely because it was found that not only did moral principles need to be made explicit, they also needed to be enforced."
+     },
+     {
+      "label": "",
+      "text": "To me, the conclusion that the public has the ultimate responsibility for the behavior of even the biggest businesses is empowering and hopeful, rather than disappointing. My conclusion is not a moralistic one about who is right or wrong, admirable or selfish, a good guy or a bad guy. In the past, businesses have changed when the public came to expect and require different behavior, to reward businesses for behavior that the public wanted, and to make things difficult for businesses practicing behaviors that the public didn’t want. I predict that in the future, just as in the past, changes in public attitudes will be essential for changes in businesses’ environmental practices."
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "water",
+   "2": "diet",
+   "3": "drought",
+   "4": "erosion",
+   "5": "desert",
+   "6": "(its / huarango / the) branches",
+   "7": "IN EITHER ORDER (BOTH REQUIRED FOR ONE MARK) leaves (and) bark",
+   "8": "(its / huarango / the) trunk",
+   "9": "NOT GIVEN",
+   "10": "FALSE",
+   "11": "TRUE",
+   "12": "FALSE",
+   "13": "NOT GIVEN",
+   "14": "NOT GIVEN",
+   "15": "FALSE",
+   "16": "TRUE",
+   "17": "FALSE",
+   "18": "FALSE",
+   "19": "TRUE",
+   "20": "words",
+   "21": "finger",
+   "22": "direction",
+   "23": "commands",
+   "24": "fires",
+   "25": "technology",
+   "26": "award",
+   "27": "D",
+   "28": "E",
+   "29": "F",
+   "30": "H",
+   "31": "B",
+   "32": "C",
+   "33": "D",
+   "34": "B",
+   "35": "YES",
+   "36": "NOT GIVEN",
+   "37": "NO",
+   "38": "YES",
+   "39": "NOT GIVEN",
+   "40": "D"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe chart below shows what Anthropology graduates from one university\ndid after finishing their undergraduate degree course. The table shows the\nSalaries of the anthropologists in work after five years.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 95,
+   "image": "figures/p095.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nIn some cultures, children are often told that they can achieve anything if they\ntry hard enough.\n\nWhat are the advantages and disadvantages of giving children this message?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Jewellery",
+    "questions": [
+     "How often do you wear jewellery? [Why/Why not?]",
+     "What type of jewellery do you like best? [Why/Why not?]",
+     "When do people like to give jewellery in your country [Why?]",
+     "Have you ever given jewellery to someone as a gift? [Why/Why not?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe an interesting TV programme you watched about a science topic.",
+   "points": [
+    "what science topic this TV programme was about",
+    "when you saw this TV programme",
+    "what you learnt from this TV programme about a science topic"
+   ],
+   "rounding_off": [
+    "and explain why you found this TV programme interesting."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Science and the public",
+    "questions": [
+     "How interested are most people in your country in science?",
+     "Why do you think children today might be better at science than their parents?",
+     "How do you suggest the public can learn more about scientific developments?"
+    ]
+   },
+   {
+    "topic": "Scientific discoveries",
+    "questions": [
+     "What do you think are the most important scientific discoveries in the last 100 years?",
+     "Do you agree or disagree that there are no more major scientific discoveries left to make?",
+     "Who should pay for scientific research — governments or private companies?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

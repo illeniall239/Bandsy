@@ -1,0 +1,1097 @@
+{
+ "book": 14,
+ "test": 3,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 1,
+      "last": 10,
+      "body": "Flanders Conference Hotel\nExample\nCustomer Services Manager: Angela\n\nDate available\n- weekend beginning February 4th\n\nConference facilities\n- the [[1]] room, for talks (Projector [[2]] available)\n- area for coffee and [[3]]\n- free [[4]] throughout\n- a standard buffet lunch costs $[[5]] per head\n\nAccommodation\n- Rooms will cost $[[6]] including breakfast\n\nOther facilities\n- The hotel also has a spa and rooftop [[7]]\n- There's a free shuttle service to the [[8]]\n\nLocation\n- Wilby Street (quite near the [[9]])\n- near to restaurants and many [[10]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Questions 11 and 12\n\nChoose TWO letters, A-E.\n\nWhich TWO activities that volunteers do are mentioned?",
+      "first": 11,
+      "last": 12,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "decorating"
+       },
+       {
+        "key": "B",
+        "text": "cleaning"
+       },
+       {
+        "key": "C",
+        "text": "delivering meals"
+       },
+       {
+        "key": "D",
+        "text": "shopping"
+       },
+       {
+        "key": "E",
+        "text": "childcare"
+       }
+      ],
+      "questions": [
+       {
+        "n": 11,
+        "text": "Which TWO activities that volunteers do are mentioned?",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "Which TWO activities that volunteers do are mentioned?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Questions 13 and 14\n\nChoose TWO letters, A-E.\n\nWhich TWO ways that volunteers can benefit from volunteering are mentioned?",
+      "first": 13,
+      "last": 14,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "learning how to be part of a team"
+       },
+       {
+        "key": "B",
+        "text": "having a sense of purpose"
+       },
+       {
+        "key": "C",
+        "text": "realising how lucky they are"
+       },
+       {
+        "key": "D",
+        "text": "improved ability at time management"
+       },
+       {
+        "key": "E",
+        "text": "boosting their employment prospects"
+       }
+      ],
+      "questions": [
+       {
+        "n": 13,
+        "text": "Which TWO ways that volunteers can benefit from volunteering are mentioned?",
+        "options": []
+       },
+       {
+        "n": 14,
+        "text": "Which TWO ways that volunteers can benefit from volunteering are mentioned?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Questions 15-20\n\nWhat has each of the following volunteers helped someone to do?\n\nChoose SIX answers from the box and write the correct letter, A-G, next to Questions 15-20.\n\nWhat volunteers have helped people to do",
+      "first": 15,
+      "last": 20,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "overcome physical difficulties"
+       },
+       {
+        "key": "B",
+        "text": "rediscover skills not used for a long time"
+       },
+       {
+        "key": "C",
+        "text": "improve their communication skills"
+       },
+       {
+        "key": "D",
+        "text": "solve problems independently"
+       },
+       {
+        "key": "E",
+        "text": "escape isolation"
+       },
+       {
+        "key": "F",
+        "text": "remember past times"
+       },
+       {
+        "key": "G",
+        "text": "start a new hobby"
+       }
+      ],
+      "questions": [
+       {
+        "n": 15,
+        "text": "Habib",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "Consuela",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "Minh",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "Tanya",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "Alexei",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Juba",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 21,
+      "last": 26,
+      "body": "Background on school marching band\nIt consists of around [[21]] students.\n\nIt is due to play in a [[22]] band competition.\n\nIt has been invited to play in the town's [[23]].\n\nThey have listened to a talk by a [[24]].\n\nJoe will discuss a [[25]] with the band.\n\nJoe hopes the band will attend a [[26]] next month.",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 23,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Questions 27-30\n\nWhat problem does Joe mention in connection with each of the following band members?\n\nChoose FOUR answers from the box and write the correct letter, A-F, next to Questions 27-30.\n\nProblems",
+      "first": 27,
+      "last": 30,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "makes a lot of mistakes in rehearsals"
+       },
+       {
+        "key": "B",
+        "text": "keeps making unhelpful suggestions"
+       },
+       {
+        "key": "C",
+        "text": "has difficulty with rhythm"
+       },
+       {
+        "key": "D",
+        "text": "misses too many rehearsals"
+       },
+       {
+        "key": "E",
+        "text": "has a health problem"
+       },
+       {
+        "key": "F",
+        "text": "doesn't mix with other students"
+       }
+      ],
+      "questions": [
+       {
+        "n": 27,
+        "text": "flautist",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "trumpeter",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "trombonist",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "percussionist",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "Concerts in university arts festival\n\nAustralian composer: Liza Lim\n- studied piano and [[31]] before turning to composition\n- performers and festivals around the world have given her a lot of commissions\n- compositions show a great deal of [[32]] and are drawn from various cultural sources\n- her music is very expressive and also [[33]]\n- festival will include her [[34]] called The Oresteia\n- Lim described the sounds in The Oresteia as [[35]]\n\nBritish composers: Ralph Vaughan Williams, Frederick Delius\nBritish composers: Benjamin Britten, Judith Weir\n\nAustralian composer: Ross Edwards\n- festival will include The Tower of Remoteness, inspired by nature\n- The Tower of Remoteness is performed by piano and [[36]]\n- compositions include music for children\n- celebrates Australia's cultural [[37]]\n\nAustralian composer: Carl Vine\n- played cornet then piano\n- studied [[38]]\n- worked in Sydney as a pianist and composer before studying music\n- became well known as composer of music for [[39]]\n- festival will include his music for the 1996 [[40]]\n\nBritish composers: Edward Elgar, Thomas Adès",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "Tesla",
+   "2": "microphone",
+   "3": "exhibition",
+   "4": "wifi",
+   "5": "45",
+   "6": "135",
+   "7": "pool",
+   "8": "airport",
+   "9": "sea",
+   "10": "clubs",
+   "11": "A",
+   "12": "E",
+   "13": "B",
+   "14": "E",
+   "15": "F",
+   "16": "A",
+   "17": "E",
+   "18": "G",
+   "19": "D",
+   "20": "C",
+   "21": "50",
+   "22": "regional",
+   "23": "carnival",
+   "24": "drummer",
+   "25": "film",
+   "26": "parade",
+   "27": "D",
+   "28": "B",
+   "29": "E",
+   "30": "F",
+   "31": "violin",
+   "32": "energy",
+   "33": "complex",
+   "34": "opera",
+   "35": "disturbing",
+   "36": "clarinet",
+   "37": "diversity",
+   "38": "physics",
+   "39": "dance",
+   "40": "Olympics"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T3S1.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T3S2.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T3S3.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T3S4.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "ANGELA: Hello, Flanders conference hotel\nMAN: Oh, hi. I wanted to ask about conference facilities at the hotel. Have I come\nthrough to the right person?\nANGELA: You have under customer services manager. My name's Angela. So how can I\nhelp you?\nMAN: Well, I'm calling from Barrett and Stansons, we're a medical company based in\nPerth\nANGELA: Oh yes.\nMAN: And we're organising a conference for our clients to be held in Sydney. It'll be\nheld over two days and we're expecting about fifty or sixty people.\nANGELA: When were you thinking of having it?\nMAN: Some time early next year, like the end of January? It'd have to be a weekend\nANGELA: Let me see ... our conference facilities are already booked for the weekend\nbeginning January 28th. We could do the first weekend in February?\nMAN: How about January 21st?\nANGELA: I'm afraid that's booked too.\nMAN: Well, let's go for the February date then.\nANGELA: So that's the weekend beginning the 4th.\nMAN: OK. Now can you tell me a bit about what conference facilities you have?\nANGELA: Sure. So for talks and presentations we have the Tesla room.\nMAN: Sorry?\nANGELA: Tesla — that's spelled T-E-S-L-A. It holds up to a hundred people, and it's fully\nequipped with a projector and so on.\nMAN: How about a microphone?\nANGELA: Yes, that'll be all set up ready for you, and there'll be one that members of the\naudience can use too, for questions, if necessary.\nMAN: Fine. And we'll also need some sort of open area where people can sit and have\na cup of coffee, and we'd like to have an exhibition of our products and services\nthere as well, so that'll need to be quite a big space.\nANGELA: That's fine, there's a central atrium with all those facilities, and you can come\nbefore the conference starts if you want to set everything up.\nMAN: Great. And I presume there's wifi?\nANGELA: Oh yes, that's free and available throughout the hotel.\nMAN: OK.\nANGELA: Would you also like us to provide a buffet lunch? We can do a two course meal\nwith a number of different options,\nMAN: What sort of price are we looking at for that?\nANGELA: Well, I can send you a copy of the standard menu. That's $45 per person. Or you \ncan have the special for $25 more.\nMAN: think the standard should be OK, but yes, send me the menu.\nMAN: Now we're also going to need accommodation on the Saturday night for some\nof the participants ... I'm not sure how many, but probably about 25. So what do\nyou charge for a room?\nANGELA: Well, for conference attendees we have a 25% reduction, so we can offer you\nrooms at $135. Normally a standard room's $180,\nMAN: And does that include breakfast?\nANGELA: Sure. And of course, guests can also make use of all the other facilities at the\nhotel. So we've got a spa where you can get massages and facials and so on,\nand there's a pool up on the roof for the use of guests\nMAN: Great. Now what about transport links? The hotel's downtown, isn't it?\nANGELA: Yes, it's about 12 kilometres from the airport, but there's a complimentary\nshuttle bus for guests. And it's only about ten minutes’ walk from the central\nrailway station.\nMAN: OK. Now, I don't know Sydney very well, can you just give me an idea of the\nlocation of the hotel?\nANGELA: Well, it's downtown on Wilby Street, that’s quite a small street, and it's not very\nfar from the sea. And of course if the conference attendees want to go out on\nthe Saturday evening there's a huge choice of places to eat. Then if they want\nto make a night of it, they can go on to one of the clubs in the area\ngreat many to choose from.\n\nMAN: OK. So if we go ahead with this, can you give me some information about\nhow much"
+   },
+   {
+    "part": 2,
+    "text": "Good morning. My name's Lucy Crittenden, and |I'm the Director of Operations for an\norganisation that arranges volunteering in this part of the country. I'm hoping I can persuade\n‘one or two of you to become volunteers yourselves. Let me start by briefly explaining what\nwe mean by volunteering.\n\nVolunteers are teenagers and adults who choose to spend some time, unpaid, helping other\npeople in some way. Most volunteers devote two or three hours to this every week, while a\nfew do much more. The people they help may have physical or behavioural difficulties, for\nexample.\n\nVolunteers can do all sorts of things, depending on their own abilities and interests. If they're\nsupporting a family that’s struggling, for example, they may be able to give them tips on\ncooking, or recommend how to plan their budget or how to shop sensibly on their income.\n\nThey might even do some painting or wall ring, perhaps alongside any members of the\nfamily who are able to do it. Or even do some babysitting so that parents can go out for\na while\nThe benefit from volunteering isn’t only for the people being helped. Volunteers also gain\nfrom it: they're using their skills to cope with somebody's mental or physical ill health, and\nvolunteering may be a valuable element of their CV when they're applying for jobs: employers\nusually look favourably on someone who's given up time to help others. Significantly, most\nvolunteers feel that what they're doing gives them a purpose in their lives. And in my opinion,\nthey're lucky in that respect, as many people don't have that feeling\nNow I'd like to tell you what some of our volunteers have said about what they do, to give you\nan idea of the range of ways in which they can help people.\n\nHabib supports an elderly lady who's beginning to show signs of dementia. Once a week\nthey, along with other elderly people, go to the local community centre, where a group of\npeople come in and sing. The songs take the listeners back to their youth, and for a little\nwhile they can forget the difficulties that they face now.\nOur volunteer Consuela is an amazing woman. She has difficulty walking herself, but she\ndoesn't let that stop her. She helps a couple of people with similar difficulties, who had almost\nstopped walking altogether. By using herself as an example, Consuela encourages them to\nwalk more and more\nMinh visits a young man who lives alone and can't leave his home on his own, so he hardly\never saw anyone. But together they go out to the cinema, or to see friends the young man\nhadn't been able to visit for a long time.\n\nTanya visits an elderly woman once a week. When the woman found out that Tanya is a\nprofessional dressmaker, she got interested. Tanya showed her some soft toys she'd made,\nand the woman decided to try it herself. And now she really enjoys it, and spends hours\nmaking toys. They're not perhaps up to Tanya’s standard yet, but she gains a lot of pleasure\nfrom doing it\nAlexei is a volunteer with a family that faces a number of difficulties. By calmly talking over\npossible solutions with family members, he’s helping them to realise that they aren't helpless,\nand that they can do something themselves to improve their situation. This has been great for\ntheir self-esteem.\n\nAnd the last volunteer I'll mention, though there are plenty more, is Juba. She volunteers\nwith a teenage girl with learning difficulties, who wasn't very good at talking to other people.\n\nJuba’s worked very patiently with her, and now the girl is far better at expressing herself, and \nat understanding other I\nOK, I hope that's given you an idea of what volunteering is all about. Now I'd like"
+   },
+   {
+    "part": 3,
+    "text": "LIZZIE: So how are you getting on with your teaching practice at the High School, Joe?\n\nJOE: Well I've been put in charge of the school marching band, and it's quite a\nresponsibility. I'd like to talk it over with you\nLIZZIE: Go ahead. You'd better start by giving me a bit of background\nJOE: OK. Well the band has students in it from all years, so they're aged 11 to 18,\nand there are about 50 of them altogether. It's quite a popular activity within the\nschool. I've never worked with a band of more than 20 before, and this is very\ndifferent.\nLIZZIE: I can imagine.\nJOE: They aren't really good enough to enter national band competitions, but they're in\na regional one later in the term. Even if they don't win, and I don't expect them to,\nhopefully it'll be an incentive for them to try and improve.\n\nLIZZIE: Yes, hopefully.\n\nJOE: Well, now the town council's organising a carnival in the summer, and the band\nhas been asked to perform. If you ask me, they aren't really up to it yet, and I\nneed to get them functioning better as a band, and in a very short time\nLIZZIE: Have you been doing anything with them? Apart from practising the music,\nI mean.\nJOE: I played a recording I came across, of a drummer talking about how playing ina\nband had changed his life. I think it was an after dinner speech. I thought it was\npretty inspiring, because being in the band had stopped him from getting involved\nin crime. The students seemed to find it interesting, too\nLIZZIE: That's good\nJOE: I'm planning to show them that old film from the 1940s ‘Strike Up the Band’, and\ntalk about it with the students. What do you think?\n\nLIZZIE: Good idea. As it's about a school band, it might make the students realise how\nmuch they can achieve if they work together.\n\nJOE: That's what I've got in mind. I'm hoping I can take some of the band to a parade\nthat's going to take place next month. A couple of marching bands will be\nperforming, and the atmosphere should be quite exciting. It depends on whether I\ncan persuade the school to hire a coach or two to take us there.\n\nLIZZIE: Mmm. They sound like good ideas to me.\n\nJOE: Thanks\nJOE: Can I tell you about a few people in the band who I'm finding it quite difficult to\ncope with? I’m sure you'll have some ideas about what I can do.\n\nLIZZIE: Go ahead.\n\nJOE: There's a flautist who says she loves playing in the band. We rehearse twice a\nweek after school, but she’s hardly ever there. Then she looks for me the next\nday and gives me a very plausible reason — she says she had to help her mother,\nor she's been ill, but to be honest, I don't believe her.\n\nLIZZIE: Oh dear! Any more students with difficulties?\n\nJOE: Plenty! There's a trumpeter who thinks she's the best musician in the band,\nthough she certainly isn’t. She's always saying what she thinks other people\nshould do, which makes my job pretty difficult\nLIZZIE: She sounds a bit of a nightmare!\n\nJOE: You can say that again. One of the trombonists has got an impressive sense\nof rhythm, and could be an excellent musician — except that he has breathing -\ndifficulties, and he doesn't really have enough breath for the trombone. He'd be\nmuch better off playing percussion, for instance, but he refuses to give up. So he\nends up only playing half the notes.\n\nLIZZIE: I suppose you have to admire his determination.\n\nJOE: Maybe. One of the percussionists isn't too bad, but he never seems to interact\nwith other people, and he always rushes off as soon as the rehearsal ends. I\ndon't know if there are family reasons, or what. But it isn't good in a band, where\npeople really need to feel they're part of a group.\n\nLIZZIE: Hmm\nJOE: There are others too, but at least that gives you an idea of what I'm up against.\nDo you have any thoughts about what I can do, Lizzie?"
+   },
+   {
+    "part": 4,
+    "text": "As you all know, the university is planning an arts festival for later this year, and here in the\nmusic department we've planned three concerts. These will be public performances, and\nthe programme has just been finalised. The theme of the festival is links between the UK\nand Australia, and this is reflected in the music: each concert will feature both British and\nAustralian composers. I'll tell you briefly about the Australian music, as you probably won't be\nfamiliar with that.\nThe first concert will include music by Liza Lim, who was born in Perth, Western Australia, in\n1966. As a child, Lim originally learned to play the piano — like so many children — and also\nthe violin, but when she was 11 her teachers encouraged her to start composing. She found\nthis was her real strength, and she studied and later taught composition, both in Australia and\nin other countries. As a composer, she has received commissions from numerous orchestras,\nother performers and festivals in several countries.\n\nLiza Lim's compositions are vibrant and full of energy, and she often explores Asian and\nAustralian Aboriginal cultural sources, including the native instrument, the Digery Do. this\nis featured in a work called The Compass. Her music is very expressive, so although it is\ncomplex, it has the power of connecting with audiences and performers alike.\n\nIn the festival we're going to give a semi-staged performance of The Oresteia. This is an\nopera in seven parts, based on the trilogy of ancient Greek tragedies by Iskolas. Lim\ncomposed this when she was in her mid-twenties and she also wrote the text, along with Barrie\nKosky. It's performed by six singers, a dancer, and an orchestra that, as well as standard\norchestral instruments, includes electric guitar, and a traditional Turkish stringed instrument.\nLim wrote that because the stories in the tragedies are not easy to tell, the sounds she\ncreates are also disturbing, and they include breathing, sobbing, laughing and whistling. The\nwork lasts around 75 minutes, and the rest of the concert will consist of orchestral works by\nthe British composers Ralph Vaughan Williams and Frederick Delius.\n\nMoving on now to our second concert, this will begin with instrumental music by British\ncomposers — Benjamin Britten and Judith Weir. After the interval we'll go to Australia for a\npiece by Ross Edwards: The Tower of Remoteness. According to Edwards, the inspiration\nfor this piece came from nature, when he was sitting alone in the dry bed of a creek,\novershadowed by the leaves of palm trees, listening to the birds and insects. The Tower of\nRemoteness is scored for piano and clarinet. Edwards says he realised years after writing the\npiece that he had subconsciously modelled its opening phrase on a bird call\nRoss Edwards was born in 1943 in Sydney, Australia, and studied at the Sydney\nConservatorium of Music and the universities of Adelaide and Sydney. He's well known in\nAustralia, and in fact he’s one of the country’s most performed composers. He’s written a\nwide range of music, from symphonies and concertos to some composed specifically for\nchildren. Edwards's music has been described as being ‘deeply connected to Australia’, and\nit can be regarded as a celebration of the diversity of cultures that Australia can be proud of.\n\nThe last of the three Australian composers to be represented in our festival is Carl Vine. Born\nin 1954, Vine, like Liza Lim, comes from Perth, Western Australia. He took up the cornet at\nthe age of five, switching to the piano five years later. However, he went to university to study\nphysics, before changing to composition. After graduating he moved to Sydney and worked\nas a freelance pianist and composer. Before long he had become prominent in Australia as a\ncomposer for dance, and in fact has written 25 scores of that type.\n\nIn our third concert, Vine will be represented by his music for the flag hand-over ceremony\nof the Olympics held in 1996. This seven-minute orchestral piece was of course heard by\nmillions of people worldwide, and we'll hear it alongside works written by British composers\nEdward Elgar and, more recently, Thomas Adés."
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "groups": [
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 1 has ten sections, A-J.\n\nWhich section contains the following information?\n\nWrite the correct letter, A-J, in boxes 1-3 on your answer sheet.",
+      "first": 1,
+      "last": 3,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "information about how non-scientists’ assumptions about intelligence influence their behaviour towards others",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "a reference to lack of clarity over the definition of intelligence",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "the point that a researcher's implicit and explicit theories may be very different",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "yes_no_not_given",
+      "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 1?\nIn boxes 4-6 on your answer sheet, write\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+      "first": 4,
+      "last": 6,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 4,
+        "text": "Slow language development in children is likely to prove disappointing to their parents.",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "People’s expectations of what children should gain from education are universal.",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "Scholars may discuss theories without fully understanding each other.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Look at the following statements (Questions 7-13) and the list of theories below.\n\nMatch each statement with the correct theory, A, B, or C.\n\nWrite the correct letter, A, B, or C, in boxes 7-13 on your answer sheet.\n\nNB You may use any letter more than once.",
+      "first": 7,
+      "last": 13,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Hamiltonian"
+       },
+       {
+        "key": "B",
+        "text": "Jeffersonian"
+       },
+       {
+        "key": "C",
+        "text": "Jacksonian"
+       }
+      ],
+      "questions": [
+       {
+        "n": 7,
+        "text": "It is desirable for the same possibilities to be open to everyone.",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "No section of society should have preferential treatment at the expense of another.",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "People should only gain benefits on the basis of what they actually achieve.",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "Variation in intelligence begins at birth.",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "The more intelligent people should be in positions of power.",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "Everyone can develop the same abilities.",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "People of low intelligence are likely to lead uncontrolled lives.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "The concept of intelligence",
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "Looked at in one way, everyone knows what intelligence is; looked at in another way, no one does. In other words, people all have unconscious notions — known as ‘implicit theories’ — of intelligence, but no one knows for certain what it actually is. This chapter addresses how people conceptualize intelligence, whatever it may actually be."
+     },
+     {
+      "label": "",
+      "text": "But why should we even care what people think intelligence is, as opposed only to valuing whatever it actually is? There are at least four reasons people’s conceptions of intelligence matter."
+     },
+     {
+      "label": "B",
+      "text": "First, implicit theories of intelligence drive the way in which people perceive and evaluate their own intelligence and that of others. To better understand the judgments people make about their own and others’ abilities, it is useful to learn about people's implicit theories. For example, parents’ implicit theories of their children’s language development will determine at what ages they will be willing to make various corrections in their children’s speech. More generally, parents’ implicit theories of intelligence will determine at what ages they believe their children are ready to perform various cognitive tasks. Job interviewers will make hiring decisions on the basis of their implicit theories of intelligence. People will decide who to be friends with on the basis of such theories. In sum, knowledge about implicit theories of intelligence is important because this knowledge is so often used by people to make judgments in the course of their everyday lives."
+     },
+     {
+      "label": "C",
+      "text": "Second, the implicit theories of scientific investigators ultimately give rise to their explicit theories. Thus it is useful to find out what these implicit theories are. Implicit theories provide a framework that is useful in defining the general scope of a phenomenon — especially a not-well-understood phenomenon. These implicit theories can suggest what aspects of the phenomenon have been more or less attended to in previous investigations."
+     },
+     {
+      "label": "D",
+      "text": "Third, implicit theories can be useful when an investigator suspects that existing explicit theories are wrong or misleading, If an investigation of implicit theories reveals little correspondence between the extant implicit and explicit theories, the implicit theories may be wrong. But the possibility also needs to be taken into account that the explicit theories are wrong and in need of correction or supplementation. For example, some implicit theories of intelligence suggest the need for expansion of some of our explicit theories of the construct."
+     },
+     {
+      "label": "E",
+      "text": "Finally, understanding implicit theories of intelligence can help elucidate developmental and cross-cultural differences. As mentioned earlier, people have expectations for intellectual performances that differ for children of different ages. How these expectations differ is in part a function of culture. For example, expectations for children who participate in Western-style schooling are almost certain to be different from those for children who do not participate in such schooling."
+     },
+     {
+      "label": "F",
+      "text": "I have suggested that there are three major implicit theories of how intelligence relates to society as a whole (Sternberg, 1997). These might be called Hamiltonian, Jeffersonian, and Jacksonian. These views are not based strictly, but rather, loosely, on the philosophies of Alexander Hamilton, Thomas Jefferson, and Andrew Jackson, three great statesmen in the history of the United States."
+     },
+     {
+      "label": "G",
+      "text": "The Hamiltonian view, which is similar to the Platonic view, is that people are born with different levels of intelligence and that those who are less intelligent need the good offices of the more intelligent to keep them in line, whether they are called government officials or, in Plato’s term, philosopher-kings. Herrnstein and Murray (1994) seem to have shared this belief when they wrote about the emergence of a cognitive (high-IQ) elite, which eventually would have to take responsibility for the largely irresponsible masses of non-elite (low-IQ) people who cannot take care of themselves, Left to themselves, the unintelligent would create, as they always have created, a kind of chaos."
+     },
+     {
+      "label": "H",
+      "text": "The Jeffersonian view is that people should have equal opportunities, but they do not necessarily avail themselves equally of these opportunities and are not necessarily equally rewarded for their accomplishments. People are rewarded for what they accomplish, if given equal opportunity. Low achievers are not rewarded to the same extent as high achievers."
+     },
+     {
+      "label": "",
+      "text": "In the Jeffersonian view, the goal of education is not to favor or foster an elite, as in the Hamiltonian tradition, but rather to allow children the opportunities to make full use of the skills they have. My own views are similar to these (Sternberg, 1997)."
+     },
+     {
+      "label": "I",
+      "text": "The Jacksonian view is that all people are equal, not only as human beings but in terms of their competencies — that one person would serve as well as another in government or on a jury or in almost any position of responsibility. In this view of democracy, people are essentially intersubstitutable except for specialized skills, all of which can be learned. In this view, we do not need or want any institutions that might lead to favoring one group over another."
+     },
+     {
+      "label": "J",
+      "text": "Implicit theories of intelligence and of the relationship of intelligence to society perhaps need to be considered more carefully than they have been because they often serve as underlying presuppositions for explicit theories and even experimental designs that are then taken as scientific contributions. Until scholars are able to discuss their implicit theories and thus their assumptions, they are likely to miss the point of what others are saying when discussing their explicit theories and their data."
+     }
+    ]
+   },
+   {
+    "title": "Saving bugs to find new drugs\nZoologist Ross Piper looks at the potential of insects in pharmaceutical research",
+    "groups": [
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 2 has nine paragraphs, A-I.\n\nWhich paragraph contains the following information?\n\nWrite the correct letter, A-I, in boxes 14-20 on your answer sheet.",
+      "first": 14,
+      "last": 20,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 14,
+        "text": "mention of factors driving a renewed interest in natural medicinal compounds",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "how recent technological advances have made insect research easier",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "examples of animals which use medicinal substances from nature",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "reasons why it is challenging to use insects in drug research",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "reference to how interest in drug research may benefit wildlife",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "a reason why nature-based medicines fell out of favour for a period",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "an example of an insect-derived medicine in use at the moment",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.\n\nWrite the correct letters in boxes 21 and 22 on your answer sheet.",
+      "first": 21,
+      "last": 22,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "the huge number of individual insects in the world"
+       },
+       {
+        "key": "B",
+        "text": "the variety of substances insects have developed to protect themselves"
+       },
+       {
+        "key": "C",
+        "text": "the potential to extract and make use of insects' genetic codes"
+       },
+       {
+        "key": "D",
+        "text": "the similarities between different species of insect"
+       },
+       {
+        "key": "E",
+        "text": "the manageable size of most insects"
+       }
+      ],
+      "questions": [
+       {
+        "n": 21,
+        "text": "Which TWO of the following make insects interesting for drug research?",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "Which TWO of the following make insects interesting for drug research?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 23-26 on your answer sheet.",
+      "first": 23,
+      "last": 26,
+      "body": "Research at Aberystwyth University\n\nRoss Piper and fellow zoologists at Aberystwyth University are using their expertise in [[23]] when undertaking bioprospecting with insects. They are especially interested in the compounds that insects produce to overpower and preserve their [[24]]. They are also interested in compounds which insects use to protect themselves from pathogenic bacteria and fungi found in their [[25]]. Piper hopes that these substances will be useful in the development of drugs such as [[26]].",
+      "options": [],
+      "questions": [
+       {
+        "n": 23,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "More drugs than you might think are derived from, or inspired by, compounds found in living things. Looking to nature for the soothing and curing of our ailments is nothing new — we have been doing it for tens of thousands of years. You only have to look at other primates — such as the capuchin monkeys who rub themselves with toxin-oozing millipedes to deter mosquitoes, or the chimpanzees who use noxious forest plants to rid themselves of intestinal parasites — to realise that our ancient ancestors too probably had a basic grasp of medicine."
+     },
+     {
+      "label": "B",
+      "text": "Pharmaceutical science and chemistry built on these ancient foundations and perfected the extraction, characterisation, modification and testing of these natural products. Then, for a while, modern pharmaceutical science moved its focus away from nature and into the laboratory, designing chemical compounds from scratch. The main cause of this shift is that although there are plenty of promising chemical compounds in nature, finding them is far from easy. Securing sufficient numbers of the organism in question, isolating and characterising the compounds of interest, and producing large quantities of these compounds are all significant hurdles."
+     },
+     {
+      "label": "C",
+      "text": "Laboratory-based drug discovery has achieved varying levels of success, something which has now prompted the development of new approaches focusing once again on natural products. With the ability to mine genomes for useful compounds, it is now evident that we have barely scratched the surface of nature's molecular diversity. This realisation, together with several looming health crises, such as antibiotic resistance, has put bioprospecting — the search for useful compounds in nature — firmly back on the map."
+     },
+     {
+      "label": "D",
+      "text": "Insects are the undisputed masters of the terrestrial domain, where they occupy every possible niche. Consequently, they have a bewildering array of interactions with other organisms, something which has driven the evolution of an enormous range of very interesting compounds for defensive and offensive purposes. Their remarkable diversity exceeds that of every other group of animals on the planet combined. Yet even though insects are far and away the most diverse animals in existence, their potential as sources of therapeutic compounds is yet to be realised."
+     },
+     {
+      "label": "E",
+      "text": "From the tiny proportion of insects that have been investigated, several promising compounds have been identified. For example, alloferon, an antimicrobial compound produced by blow fly larvae, is used as an antiviral and antitumor agent in South Korea and Russia. The larvae of a few other insect species are being investigated for the potent antimicrobial compounds they produce. Meanwhile, a compound from the venom of the wasp Polybia paulista has potential in cancer treatment."
+     },
+     {
+      "label": "F",
+      "text": "Why is it that insects have received relatively little attention in bioprospecting? Firstly, there are so many insects that, without some manner of targeted approach, investigating this huge variety of species is a daunting task. Secondly, insects are generally very small, and the glands inside them that secrete potentially useful compounds are smaller still. This can make it difficult to obtain sufficient quantities of the compound for subsequent testing. Thirdly, although we consider insects to be everywhere, the reality of this ubiquity is vast numbers of a few extremely common species. Many insect species are infrequently encountered and very difficult to rear in captivity, which, again, can leave us with insufficient material to work with."
+     },
+     {
+      "label": "G",
+      "text": "My colleagues and I at Aberystwyth University in the UK have developed an approach in which we use our knowledge of ecology as a guide to target our efforts. The creatures that particularly interest us are the many insects that secrete powerful poison for subduing prey and keeping it fresh for future consumption. There are even more insects that are masters of exploiting filthy habitats, such as faeces and carcasses, where they are regularly challenged by thousands of micro- organisms. These insects have many antimicrobial compounds for dealing with pathogenic bacteria and fungi, suggesting that there is certainly potential to find many compounds that can serve as or inspire new antibiotics."
+     },
+     {
+      "label": "H",
+      "text": "Although natural history knowledge points us in the right direction, it doesn’t solve the problems associated with obtaining useful compounds from insects. Fortunately, it is now possible to snip out the stretches of the insect’s DNA that carry the codes for the interesting compounds and insert them into cell lines that allow larger quantities to be produced. And although the road from isolating and characterising compounds with desirable qualities to developing a commercial product is very long and full of pitfalls, the variety of successful animal-derived pharmaceuticals on the market demonstrates there is a precedent here that is worth exploring."
+     },
+     {
+      "label": "I",
+      "text": "With every bit of wilderness that disappears, we deprive ourselves of potential medicines. As much as I'd love to help develop a groundbreaking insect-derived medicine, my main motivation for looking at insects in this way is conservation. I sincerely believe that all species, however small and seemingly insignificant, have a right to exist for their own sake. If we can shine a light on the darker recesses of nature’s medicine cabinet, exploring the useful chemistry of the most diverse animals on the planet, I believe we can make people think differently about the value of nature."
+     }
+    ]
+   },
+   {
+    "title": "The power of play",
+    "groups": [
+     {
+      "type": "matching_features",
+      "instructions": "Look at the following statements (Questions 27-31) and the list of researchers below.\nMatch each statement with the correct researcher, A-G.\n\nWrite the correct letter, A-G, in boxes 27-31 on your answer sheet.",
+      "first": 27,
+      "last": 31,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Elkind"
+       },
+       {
+        "key": "B",
+        "text": "Miller & Almon"
+       },
+       {
+        "key": "C",
+        "text": "Rubin et al."
+       },
+       {
+        "key": "D",
+        "text": "Stuart Brown"
+       },
+       {
+        "key": "E",
+        "text": "Pellegrini"
+       },
+       {
+        "key": "F",
+        "text": "Joan Goodman"
+       },
+       {
+        "key": "G",
+        "text": "Hirsch-Pasek et al."
+       }
+      ],
+      "questions": [
+       {
+        "n": 27,
+        "text": "Play can be divided into a number of separate categories.",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "Adults' intended goals affect how they play with children.",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "Combining work with play may be the best way for children to learn.",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "Certain elements of play are more significant than others.",
+        "options": []
+       },
+       {
+        "n": 31,
+        "text": "Activities can be classified on a scale of playfulness.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "yes_no_not_given",
+      "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3?\nIn boxes 32-36 on your answer sheet, write\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+      "first": 32,
+      "last": 36,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 32,
+        "text": "Children need toys in order to play.",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "It is a mistake to treat play and learning as separate types of activities.",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "Play helps children to develop their artistic talents.",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "Researchers have agreed on a definition of play.",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "Work and play differ in terms of whether or not they have a target.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 37-40 on your answer sheet.",
+      "first": 37,
+      "last": 40,
+      "body": "Guided play\nIn the simplest form of guided play, an adult contributes to the environment in which the child is playing. Alternatively, an adult can play with a child and develop the play, for instance by [[37]] the child to investigate different aspects of their game. Adults can help children to learn through play, and may make the activity rather structured, but it should still be based on the child's [[38]] to play.\n\nPlay without the intervention of adults gives children real [[39]]. With adults, play can be [[40]] at particular goals. However, all forms of play should be an opportunity for children to have fun.",
+      "options": [],
+      "questions": [
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Virtually every child, the world over, plays. The drive to play is so intense that children will do so in any circumstances, for instance when they have no real toys, or when parents do not actively encourage the behavior. In the eyes of a young child, running, pretending, and building are fun. Researchers and educators know that these playful activities benefit the development of the whole child across social, cognitive, physical, and emotional domains. Indeed, play is such an instrumental component to healthy child development that the United Nations High Commission on Human Rights (1989) recognized play as a fundamental right of every child."
+     },
+     {
+      "label": "",
+      "text": "Yet, while experts continue to expound a powerful argument for the importance of play in children’s lives, the actual time children spend playing continues to decrease. Today, children play eight hours less each week than their counterparts did two decades ago (Elkind 2008). Under pressure of rising academic standards, play is being replaced by test preparation in kindergartens and grade schools, and parents who aim to give their preschoolers a leg up are led to believe that flashcards and educational ‘toys’ are the path to success. Our society has created a false dichotomy between play and learning."
+     },
+     {
+      "label": "",
+      "text": "Through play, children learn to regulate their behavior, lay the foundations for later learning in science and mathematics, figure out the complex negotiations of social relationships, build a repertoire of creative problem-solving skills, and so much more. There is also an important role for adults in guiding children through playful learning opportunities."
+     },
+     {
+      "label": "",
+      "text": "Full consensus on a formal definition of play continues to elude the researchers and theorists who study it. Definitions range from discrete descriptions of various types of play such as physical, construction, language, or symbolic play (Miller & Almon 2009), to lists of broad criteria, based on observations and attitudes, that are meant to capture the essence of all play behaviors (e.g. Rubin et al. 1983)."
+     },
+     {
+      "label": "",
+      "text": "A majority of the contemporary definitions of play focus on several key criteria. The founder of the National Institute for Play, Stuart Brown, has described play as ‘anything that spontaneously is done for its own sake’. More specifically, he says it ‘appears purposeless, produces pleasure and joy, [andi leads one to the next stage of mastery’ (as quoted in Tippett 2008). Similarly, Miller and Almon (2009) say that play includes ‘activities that are freely chosen and directed by children and arise from intrinsic motivation’. Often, play is defined along a continuum as more or less playful using the following set of behavioral and dispositional criteria (e.g. Rubin et al. 1983):"
+     },
+     {
+      "label": "",
+      "text": "Play is pleasurable: Children must enjoy the activity or it is not play. It is intrinsically motivated: Children engage in play simply for the satisfaction the behavior itself brings. It has no extrinsically motivated function or goal. Play is process oriented: When children play, the means are more important than the ends. It is freely chosen, spontaneous and voluntary. If a child is pressured, they will likely not think of the activity as play. Play is actively engaged: Players must be physically and/or mentally involved in the activity. Play is non-literal. It involves make-believe."
+     },
+     {
+      "label": "",
+      "text": "According to this view, children’s playful behaviors can range in degree from 0% to 100% playful. Rubin and colleagues did not assign greater weight to any one dimension in determining playfulness; however, other researchers have suggested that process orientation and a lack of obvious functional purpose may be the most important aspects of play (e.g. Pellegrini 2009)."
+     },
+     {
+      "label": "",
+      "text": "From the perspective of a continuum, play can thus blend with other motives and attitudes that are less playful, such as work. Unlike play, work is typically not viewed as enjoyable and it is extrinsically motivated (i.e. it is goal oriented). Researcher Joan Goodman (1994) suggested that hybrid forms of work and play are not a detriment to learning; rather, they can provide optimal contexts for learning. For example, a child may be engaged in a difficult, goal-directed activity set up by their teacher, but they may still be actively engaged and intrinsically motivated. At this mid-point between play and work, the child’s motivation, coupled with guidance from an adult, can create robust opportunities for playful learning."
+     },
+     {
+      "label": "",
+      "text": "Critically, recent research supports the idea that adults can facilitate children’s learning while maintaining a playful approach in interactions known as ‘guided play’ (Fisher et al. 2011). The adult’s role in play varies as a function of their educational goals and the child’s developmental level (Hirsch-Pasek et al. 2009)."
+     },
+     {
+      "label": "",
+      "text": "Guided play takes two forms. At a very basic level, adults can enrich the child’s environment by providing objects or experiences that promote aspects of a curriculum. In the more direct form of guided play, parents or other adults can support children’s play by joining in the fun as a co-player, raising thoughtful questions, commenting on children’s discoveries, or encouraging further exploration or new facets to the child’s activity. Although playful learning can be somewhat structured, it must also be child-centered (Nicolopolou et al. 2006). Play should stem from the child’s own desire."
+     },
+     {
+      "label": "",
+      "text": "Both free and guided play are essential elements in a child-centered approach to playful learning. Intrinsically motivated free play provides the child with true autonomy, while guided play is an avenue through which parents and educators can provide more targeted learning experiences."
+     },
+     {
+      "label": "",
+      "text": "In either case, play should be actively engaged, it should be predominantly child-directed, and it must be fun."
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "B",
+   "2": "A",
+   "3": "D",
+   "4": "NOT GIVEN",
+   "5": "NO",
+   "6": "YES",
+   "7": "B",
+   "8": "C",
+   "9": "B",
+   "10": "A",
+   "11": "A",
+   "12": "C",
+   "13": "A",
+   "14": "C",
+   "15": "H",
+   "16": "A",
+   "17": "F",
+   "18": "I",
+   "19": "B",
+   "20": "E",
+   "21": "B",
+   "22": "C",
+   "23": "ecology",
+   "24": "prey",
+   "25": "habitats",
+   "26": "antibiotics",
+   "27": "B",
+   "28": "G",
+   "29": "F",
+   "30": "E",
+   "31": "C",
+   "32": "NO",
+   "33": "YES",
+   "34": "NOT GIVEN",
+   "35": "NO",
+   "36": "YES",
+   "37": "encouraging",
+   "38": "desire",
+   "39": "autonomy",
+   "40": "targeted"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe diagram below shows how electricity is generated in a hydroelectric\npower station.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 64,
+   "image": "figures/p064.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people say that music is a good way of bringing people of different\ncultures and ages together.\n\nTo what extent do you agree or disagree with this opinion?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Neighbours",
+    "questions": [
+     "How often do you see your neighbours? [Why/Why not?]",
+     "Do you invite your neighbours to your home? [Why/Why not?]",
+     "Do you think you are a good neighbour? [Why/Why not?]",
+     "Has a neighbour ever helped you? [Why/Why not?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe a very difficult task that you succeeded in doing as part of your work or studies.",
+   "points": [
+    "what task you did",
+    "why this task was very difficult",
+    "how you worked on this task",
+    "and explain how you felt when you had successfully completed this task."
+   ],
+   "rounding_off": [
+    "You will have to talk about the topic for one to two minutes.",
+    "You have one minute to think about what you are going to say.",
+    "You can make some notes to help you if you wish."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Difficult jobs",
+    "questions": [
+     "What are the most difficult jobs that people do?",
+     "Why do you think some people choose to do difficult jobs?",
+     "Do you agree or disagree that all jobs are difficult sometimes?"
+    ]
+   },
+   {
+    "topic": "Personal and career success",
+    "questions": [
+     "How important is it for everyone to have a goal in their personal life?",
+     "Is it always necessary to work hard in order to achieve career success?",
+     "Do you think that successful people are always happy people?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

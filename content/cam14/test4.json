@@ -1,0 +1,1200 @@
+{
+ "book": 14,
+ "test": 4,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 1,
+      "last": 7,
+      "body": "Enquiry about booking hotel room for event\nExample\nAndrew is the Manager\nRooms\nAdelphi Room\nnumber of people who can sit down to eat: [[1]]\nhas a gallery suitable for musicians\ncan go out and see the [[2]]\nterrace has a view of a group of [[3]] in pots on the terrace\nCarlton Room\nnumber of people who can sit down to eat: 110\nhas a [[4]] view of the lake\nOptions\nMaster of Ceremonies:\ncan give a [[5]] while people are eating\nwill provide [[6]] there are any problems\nAccommodation:\nin Hotel rooms or [[7]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "What is said about using each of the following hotel facilities?\n\nChoose THREE answers from the box and write the correct letter, A, B or C, next to\nQuestions 8-10.",
+      "first": 8,
+      "last": 10,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "included in cost of hiring room"
+       },
+       {
+        "key": "B",
+        "text": "available at extra charge"
+       },
+       {
+        "key": "C",
+        "text": "not available"
+       }
+      ],
+      "questions": [
+       {
+        "n": 8,
+        "text": "outdoor swimming pool",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "gym",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "tennis courts",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "matching_features",
+      "instructions": "What information does the speaker give about each of the following excursions?\n\nChoose SIX answers from the box and write the correct letter, A-H, next to\nQuestions 11-16.",
+      "first": 11,
+      "last": 16,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "all downhill"
+       },
+       {
+        "key": "B",
+        "text": "suitable for beginners"
+       },
+       {
+        "key": "C",
+        "text": "only in good weather"
+       },
+       {
+        "key": "D",
+        "text": "food included"
+       },
+       {
+        "key": "E",
+        "text": "no charge"
+       },
+       {
+        "key": "F",
+        "text": "swimming possible"
+       },
+       {
+        "key": "G",
+        "text": "fully booked today"
+       },
+       {
+        "key": "H",
+        "text": "transport not included"
+       }
+      ],
+      "questions": [
+       {
+        "n": 11,
+        "text": "dolphin watching",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "forest walk",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "cycle trip",
+        "options": []
+       },
+       {
+        "n": 14,
+        "text": "local craft tour",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "observatory trip",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "horse riding",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 17,
+      "last": 18,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 17,
+        "text": "Which TWO things does the speaker say about the attraction called Musical Favourites?",
+        "options": [
+         {
+          "key": "A",
+          "text": "You pay extra for drinks."
+         },
+         {
+          "key": "B",
+          "text": "You must book it in advance."
+         },
+         {
+          "key": "C",
+          "text": "You get a reduction if you buy two tickets."
+         },
+         {
+          "key": "D",
+          "text": "You can meet the performers."
+         },
+         {
+          "key": "E",
+          "text": "You can take part in the show."
+         }
+        ]
+       },
+       {
+        "n": 18,
+        "text": "Which TWO things does the speaker say about the attraction called Musical Favourites?",
+        "options": [
+         {
+          "key": "A",
+          "text": "You pay extra for drinks."
+         },
+         {
+          "key": "B",
+          "text": "You must book it in advance."
+         },
+         {
+          "key": "C",
+          "text": "You get a reduction if you buy two tickets."
+         },
+         {
+          "key": "D",
+          "text": "You can meet the performers."
+         },
+         {
+          "key": "E",
+          "text": "You can take part in the show."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 19,
+      "last": 20,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 19,
+        "text": "Which TWO things does the speaker say about the Castle Feast?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Visitors can dance after the meal."
+         },
+         {
+          "key": "B",
+          "text": "There is a choice of food."
+         },
+         {
+          "key": "C",
+          "text": "Visitors wear historical costume."
+         },
+         {
+          "key": "D",
+          "text": "Knives and forks are not used."
+         },
+         {
+          "key": "E",
+          "text": "The entertainment includes horse races."
+         }
+        ]
+       },
+       {
+        "n": 20,
+        "text": "Which TWO things does the speaker say about the Castle Feast?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Visitors can dance after the meal."
+         },
+         {
+          "key": "B",
+          "text": "There is a choice of food."
+         },
+         {
+          "key": "C",
+          "text": "Visitors wear historical costume."
+         },
+         {
+          "key": "D",
+          "text": "Knives and forks are not used."
+         },
+         {
+          "key": "E",
+          "text": "The entertainment includes horse races."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "first": 21,
+      "last": 25,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "What does Trevor find interesting about the purpose of children's literature?",
+        "options": [
+         {
+          "key": "A",
+          "text": "the fact that authors may not realise what values they're teaching"
+         },
+         {
+          "key": "B",
+          "text": "the fact that literature can be entertaining and educational at the same time"
+         },
+         {
+          "key": "C",
+          "text": "the fact that adults expect children to imitate characters in literature"
+         }
+        ]
+       },
+       {
+        "n": 22,
+        "text": "Trevor says the module about the purpose of children's literature made him",
+        "options": [
+         {
+          "key": "A",
+          "text": "analyse some of the stories that his niece reads."
+         },
+         {
+          "key": "B",
+          "text": "wonder how far popularity reflects good quality."
+         },
+         {
+          "key": "C",
+          "text": "decide to start writing some children's stories."
+         }
+        ]
+       },
+       {
+        "n": 23,
+        "text": "Stephanie is interested in the Pictures module because",
+        "options": [
+         {
+          "key": "A",
+          "text": "she intends to become an illustrator."
+         },
+         {
+          "key": "B",
+          "text": "she can remember beautiful illustrations from her childhood."
+         },
+         {
+          "key": "C",
+          "text": "she believes illustrations are more important than words."
+         }
+        ]
+       },
+       {
+        "n": 24,
+        "text": "Trevor and Stephanie agree that comics",
+        "options": [
+         {
+          "key": "A",
+          "text": "are inferior to books."
+         },
+         {
+          "key": "B",
+          "text": "have the potential for being useful."
+         },
+         {
+          "key": "C",
+          "text": "discourage children from using their imagination."
+         }
+        ]
+       },
+       {
+        "n": 25,
+        "text": "With regard to books aimed at only boys or only girls, Trevor was surprised",
+        "options": [
+         {
+          "key": "A",
+          "text": "how long the distinction had gone unquestioned."
+         },
+         {
+          "key": "B",
+          "text": "how few books were aimed at both girls and boys."
+         },
+         {
+          "key": "C",
+          "text": "how many children enjoyed books intended for the opposite sex."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "What comment is made about each of these stories?\n\nChoose FIVE answers from the box and write the correct letter, A-G, next to\nQuestions 26-30.",
+      "first": 26,
+      "last": 30,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "translated into many other languages"
+       },
+       {
+        "key": "B",
+        "text": "hard to read"
+       },
+       {
+        "key": "C",
+        "text": "inspired a work in a different area of art"
+       },
+       {
+        "key": "D",
+        "text": "more popular than the author's other works"
+       },
+       {
+        "key": "E",
+        "text": "original title refers to another book"
+       },
+       {
+        "key": "F",
+        "text": "started a new genre"
+       },
+       {
+        "key": "G",
+        "text": "unlikely topic"
+       }
+      ],
+      "questions": [
+       {
+        "n": 26,
+        "text": "Perrault's fairy tales",
+        "options": []
+       },
+       {
+        "n": 27,
+        "text": "The Swiss Family Robinson",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "The Nutcracker and The Mouse King",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "The Lord of the Rings",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "War Horse",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "The hunt for sunken settlements and ancient shipwrecks\nATLIT-YAM\n- was a village on coast of eastern Mediterranean\n- thrived until about 7,000 BC.\n- stone homes had a courtyard\n- had a semicircle of large stones round a [[31]]\n- cause of destruction unknown — now under the sea\n- biggest settlement from the prehistoric period found on the seabed\n- research carried out into structures, [[32]] and human remains\nTRADITIONAL AUTONOMOUS UNDERWATER VEHICLES (AUVs)\n- used in the oil industry, e.g. to make [[33]]\n- problems: they were expensive and [[34]]\nLATEST AUVs\n- much easier to use, relatively cheap, sophisticated\nTests:\n- Marzamemi, Sicily: found ancient Roman ships carrying architectural elements made of [[35]]\nUnderwater internet:\n- [[36]] is used for short distance communication, acoustic waves for long distance\n- plans for communication with researchers by satellite\n- AUV can send data to another AUV that has better [[37]] for example\nPlanned research in Gulf of Baratti:\n- to find out more about wrecks of ancient Roman ships, including\n  - one carrying [[38]] supplies; tablets may have been used for cleaning the [[39]]\n  - others carrying containers of olive oil or [[40]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "85",
+   "2": "roses",
+   "3": "trees",
+   "4": "stage",
+   "5": "speech",
+   "6": "support",
+   "7": "cabins",
+   "8": "C",
+   "9": "A",
+   "10": "B",
+   "11": "G",
+   "12": "D",
+   "13": "A",
+   "14": "E",
+   "15": "F",
+   "16": "B",
+   "17": "B",
+   "18": "D",
+   "19": "A",
+   "20": "D",
+   "21": "A",
+   "22": "C",
+   "23": "A",
+   "24": "B",
+   "25": "B",
+   "26": "F",
+   "27": "E",
+   "28": "C",
+   "29": "B",
+   "30": "G",
+   "31": "spring",
+   "32": "tools",
+   "33": "maps",
+   "34": "heavy",
+   "35": "marble",
+   "36": "light",
+   "37": "camera(s)",
+   "38": "medical",
+   "39": "eyes",
+   "40": "wine"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T4S1.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T4S2.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T4S3.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T4S4.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "ANDREW: Good morning, Clare House Hotel. Andrew speaking. I'm the Events Manager.\nSAM: Good morning, Andrew. My name's Samantha. I’m arranging a party for my\nparents’ fiftieth wedding anniversary, and I’m ringing to ask about hiring a room\nsome time next September. Also my parents and several of the guests will need\naccommodation,\nANDREW: OK, I’m sure we can help you with that. Will you be having a sit-down meal or a\nbuffet?\n\nSAM: Probably a sit-down.\n\nANDREW: And do you know how many people there'll be?\n\nSAM: Around eighty, I think.\n\nANDREW: Well we have two rooms that can hold that number. One is the Adelphi Room.\nThat can seat 85 or hold over a hundred if people are standing for a\nbuffet.\n\nSAM: Right.\n\nANDREW: If you have live music, there's room for four or five musicians in the gallery\noverlooking the room. Our guests usually appreciate the fact that the music can\nbe loud enough for dancing, but not too loud for conversation\nSAM: Yes, I really don't like it when you can't talk.\n\nANDREW: Exactly. Now the Adelphi Room is at the back of the hotel, and there are French\nwindows leading out onto the terrace. This has a beautiful display of pots of\nroses at that time of the year.\nSAM: Which direction does it face?\n\nANDREW: Southwest, so that side of the hotel gets the sun in the afternoon and early\nevening.\n\nSAM: Very nice.\n\nANDREW: From the terrace you can see the area of trees within the grounds of the hotel, or\nyou can stroll through there to the river — that’s on the far side, so it isn’t visible\nfrom the hotel\nSAM: OK\nANDREW: Then another option is the Carlton Room. This is a bit bigger — it can hold up toa\nhundred and ten people — and it has the advantage of a stage, which is useful if\nyou have any entertainment, or indeed a small band can fit onto it.\n\nSAM: And can you go outside from the room?\n\nANDREW: No, the Carlton Room is on the first floor, but on one side the windows look out\nonto the lake.\n\nSAM: Lovely. I think either of those rooms would be suitable.\n\nANDREW: Can I tell you about some of the options we offer in addition?\n\nSAM: Please do.\n\nANDREW: As well as a meal, you can have an MC, a Master of Ceremonies, who'll be with\nyou throughout the party.\n\nSAM: What exactly is the MC's function? I suppose they make a speech during the \nmeal if we need one, do they?\n\nANDREW: That's right. All our MCs are trained as public speakers, so they can easily get\npeople's attention - many guests are glad to have someone who can make\nthemselves heard above the chatter! And they're also your support - if anything\ngoes wrong, the MC will deal with it, so you can relax.\nSAM: Great! I'll need to ask you about food, but something else that's important is\naccommodation. You obviously have rooms in the hotel, but do you also have\nany other accommodation, like cabins, for example?\nANDREW: Yes, there are five in the grounds, all self-contained. They each sleep two to four\npeople and have their own living room, bathroom and small kitchen.\n\nSAM: That sounds perfect for what we'll need.\n\nSAM: Now you have various facilities, don't you? Are they all included in the price of\nhiring the room? The pool, for instance.\n\nANDREW: Normally you'd be able to use it, but it'll be closed throughout September for \nrefurbishment, I’m afraid. The gym will be available though, at no extra char\nThat's open all day, from six in the morning until midnight.\n\nSAM: Right.\n\nANDREW: And the tennis courts, but there is a small additional payment for those. We have\nfour courts, and it's worth booking in advance if you possibly can, as there can be\nquite a long waiting list for them!\n\nSAM: Right. Now could we discuss the food? This would be dinner, around seven"
+   },
+   {
+    "part": 2,
+    "text": "Hello everyone. I’m Jake Stevens and I'm your rep here at the hotel. I'm sure you'll all have\na great time here. So let me tell you a bit about what's on offer. I'll start by telling you about\nsome of the excursions that are available for guests.\n\nOne thing you have to do while you're here is go dolphin watching. On our boat trips, we\npretty well guarantee you'll see dolphins — if you don’t you can repeat the trip free of charge.\n\nWe organise daily trips for just 35 euros. Unfortunately there aren't any places left for this \nafternoon's trip, but come and see me to book for later in the week.\n\nIf you're energetic, I'd recommend our forest walk. It's a guided walk of about seven\nkilometres. There'll be a stop half way, and you'll be provided with a drink and sandwiches.\nThere's some fairly steep climbs up the hills, so you need to be reasonably fit for this one,\nwith good shoes, and bring a waterproof in case it rains. It's just 25 euros all inclusive, and it's\nevery Wednesday.\n\nThen on Thursdays we organise a cycle trip, which will give you all the fun of biking without\nthe effort. We'll take you and your bike up to the top of Mount Larna, and leave you to bike\nback — it's a 700 metre drop in 20 kilometres so this isn't really for inexperienced cyclists\nas you'll be going pretty fast. And if it's a clear day, you'll have fantastic views.\n\nOn our local craft tour you can find out about the traditional activities in the island. And\nthe best thing about this trip is that it's completely free. You'll be taken to a factory where\njewellery is made, and also a ceramics centre. If you want, you can buy some of the products\nbut that's entirely up to you. The trip starts after lunch on Thursday, and you'll return by 6 pm.\n\nIf you're interested in astronomy you may already know that the island's one of the best\nplaces in the world to observe the night sky. We can offer trips to the observatory on Friday\nfor those who are interested. They cost 90 euros per person and you'll be shown the huge\ntelescopes and have a talk from an expert, who'll explain all about how they work. Afterwards\nwe'll head down to Sunset Beach, where you can have a dip in the ocean if you want before\nwe head off back to the hotel.\nFinally, there's horse riding. This is organised by the Equestrian Centre over near Playa\nCortino and it's a great experience if you're a keen horseback rider, or even if you've never\nbeen on a horse before. They take you down to the beach, and you can canter along the\nsand and through the waves. It costs 35 euros and it's available every day,\nSo there's plenty to do in the daytime, but what about night life?\n\nWell, the number one attraction's called ‘Musical Favourites’. Guests enjoy a three course\nmeal and unlimited free drinks, and watch a fantastic show, starting with musicals set in\nParis and then crossing the Atlantic to Las Vegas and finally Copacabana. At the end the\ncast members come down from the stage, still in their stunning costumes, and you'll have\na chance to chat with them. It's hugely popular, so let me know now if you're interested\nbecause it's no good leaving it until the last minute. It's on Friday night. Tickets are just\n50 euros each, but for an extra 10 euros you can have a table right by the stage.\n\nIf you'd like to go back in time, there's the Castle Feast on Saturday evening. It's held in a 12th century castle, and you eat in the great courtyard, with ladies in long gowns serving\nyour food. You're given a whole chicken each, which you eat in the medieval way, using\nyour hands instead of cutlery, and you're entertained by competitions where the horseback\nriders attempt to knock one another off their horses. Then you can watch the dancers in the\nballroom and join in as well if you want. OK, so now if anyone"
+   },
+   {
+    "part": 3,
+    "text": "STEPHANIE: Hello, Trevor.\n\nTREVOR: Hello, Stephanie. You said you wanted to talk about the course I'm taking on\nliterature for children.\n\nSTEPHANIE: That's right. I'm thinking of doing it next year, but Id like to find out more about\nit first.\n\nTREVOR: OK, well, as you probably know, it's a one-year course. It's divided into six\nmodules, and you have to take all of them. One of the most interesting ones, for\nme, at least, was about the purpose of children’s literature.\n\nSTEPHANIE: You mean, whether it should just entertain children or should be educational,\nas well.\n\nTREVOR: Right, and whether the teaching should be factual — giving them information\nabout the world — or ethical, teaching them values. What's fascinating is that\nthe writer isn't necessarily conscious of the message they're conveying. For\ninstance, a story might show a child who has a problem as a result of not doing\nwhat an adult has told them to do, implying that children should always obey\nadults.\nSTEPHANIE: I See what you mean.\nTREVOR: That module made me realise how important stories are — they can have a\nsignificant effect on children as they grow up. Actually, it inspired me to have a\ngo at it myself, just for my own interest. I know I can't compete with the really\npopular stories, like the Harry Potter books — they're very good, and even young\nkids like my seven year old niece love reading them.\nSTEPHANIE: Mm. I'm very interested in illustrations in stories. Is that covered in the course?\nTREVOR: Yes, there's a module on pictures, and how they're sometimes central to the\nstory,\nSTEPHANIE: That's good. I remember some frightening ones I saw as a child and I can still see\nthem vividly in my mind, years later! Pictures can be so powerful, just as powerful\nas words. I've always enjoyed drawing, so that's the field I want to go into when I\nfinish the course. I bet that module will be really helpful.\nTREVOR: I'm sure it will. We also studied comics in that module, but I'm not convinced of\ntheir value, not compared with books. One of the great things about words is that\nyou use your imagination, but with a comic you don't have to.\nSTEPHANIE: But children are so used to visual input — on TV, video games, and so on. There\nare plenty of kids who wouldn't even try to read a book, so I think comics can\nserve a really useful purpose.\nTREVOR: You mean, it's better to read a comic than not to read at all? Yes, I suppose you're\nright. I just think it's sad when children don't read books.\nSTEPHANIE: What about books for girls and books for boys? Does the course go into that?\nTREVOR: Yes, there's a module on it. For years, lots of stories, in English, at least,\nassumed that boys went out and did adventurous things and girls stayed at\nhome and played with dolls. I was amazed how many books were targeted at just\none sex or the other. Of course this reflects society as it is when the books are\nwritten.\nSTEPHANIE: That's true. So it sounds as though you think it's a good course\nTREVOR: Definitely.\nTREVOR: Have you been reading lots of children's stories, to help you decide whether to\ntake the course?\nSTEPHANIE: Yeah. I've gone as far back as the late seventeenth century, though I know there\nwere earlier children’s stories\nTREVOR: So does that mean you've read Perot's fairy tales? Cinderella, The Sleeping\nBeauty, and so on.\nSTEPHANIE: Yes. They must be important, because no stories of that type had been written\nbefore, these were the first. Then there’s The Swiss Family Robinson.\nTREVOR: haven't read that.\nSTEPHANIE: The English name makes it sound as though Robinson is the family’s surname,\nbut a more accurate translation would be The Swiss Robinsons, because it's\nabout a Swiss family who are shipwrecked, like Robinson Crusoe in the novel of\na century earlier.\nTREVOR: Well I never knew that!\nSTEPHANIE: Have you read Hoffmann's The Nutcracker and the Mouse King?\nTREVOR: Wasn't that the basis for Tchaikovsky's ballet The Nutcracker?\nSTEPHANIE: That's right. It has some quite bizarre elements.\nTREVOR: hope you've read Oscar Wilde's The Happy Prince. It's probably my favourite\nchildren’s story of all time.\nSTEPHANIE: Mine too! And it's so surprising, because Wilde is best known for his plays, and\nmost of them are very witty, but The Happy Prince is really moving. I struggled\nwith Tolkien's The Lord of the Rings — three long books and I gave up after one.\nTREVOR: It's extremely popular, though.\nSTEPHANIE: Yeah, but whereas something like The Happy Prince just carried me along with it.\nThe Lord of the Rings took more effort than I was prepared to give it.\nTREVOR: didn't find that — I love it.\nSTEPHANIE: Another one I've read is War Horse.\nTREVOR: Oh yes. It's about the First World War, isn't it? Hardly what you'd expect for a\nchildren’s story.\nSTEPHANIE: Exactly, but it's been very successful. Have you read any ."
+   },
+   {
+    "part": 4,
+    "text": "In today's class |I'm going to talk about marine archaeology, the branch of archaeology\nfocusing on human interaction with the sea, lakes and rivers. It's the study of ships, cargoes,\nshipping facilities and other physical remains. I'll give you an example. Then go on to show\nhow this type of research is being transformed by the use of the latest technology.\n\nAtlyd Yam was a village on the coast of the eastern Mediterranean, which seems to have\nbeen thriving until around 7,000 BC. The residents kept cattle, caught fish and stored grain.\n\nThey had wells for fresh water, many of their houses were built around a courtyard and were\nconstructed of stone. The village contained an impressive monument: seven half-toned stones\nstanding in a semicircle around a spring, that might have been used for ceremonial purposes.\nAtlyd Yam may have been destroyed swiftly by a tsunami, or climate change may have caused\nglaciers to melt and sea levels to rise, flooding the village gradually. Whatever the cause, it\nnow lies ten metres below the surface of the Mediterranean, buried under sand at the bottom\nof the sea. It's been described as the largest and best preserved prehistoric settlement ever\nfound on the seabed.\n\nFor marine archaeologists, Atlyd Yam is a treasure trove. Research on the buildings, tools and\nthe human remains has revealed how the bustling village once functioned, and even what\ndiseases some of its residents suffered from. But of course this is only one small village, one\nwindow into a lost world. For a fuller picture, researchers need more sunken settlements, but\nthe hard part is finding them.\n\nUnderwater research used to require divers to find shipwrecks or artefacts, but in the second\nhalf of the twentieth century, various types of underwater vehicles were developed, some\ncontrolled from a ship on the surface, and some of them autonomous, which means they\ndon't need to be operated by a person.\n\nAutonomous underwater vehicles, or AUVs, are used in the oil industry, for instance, to create\nmaps of the seabed before rigs and pipelines are installed. To navigate they use sensors,\nsuch as compasses and sonar, Until relatively recently they were very expensive, and so\nheavy that they had to be launched from a large vessel with a winch.\nBut the latest AUVs are much easier to manoeuvre — they can be launched from the shore or a\nsmall ship. And they're much cheaper, which makes them more accessible to research teams.\nThey're also very sophisticated. They can communicate with each other and, for example, work\nout the most efficient way to survey a site, or to find particular objects on the seabed.\n\nField tests show the approach can work. For example, in a trial in 2015, three AUVs searched\nfor wrecks at Marci Memi off the coast of Sicily. The site is the final resting place of an\nancient Roman ship, which sank in the sixth century AD while ferrying prefabricated marble \nelements for the construction of an early church. The AUVs mapped the area in detail, finding\nother ships carrying columns of the same material.\n\nCreating an internet in the sea for AUVs to communicate is no easy matter. Wifi networks on land\nuse electromagnetic waves, but in water these will only travel a few centimetres. Instead, a more\ncomplex mix of technologies is required. For short distances, AUVs can share data using light,\nwhile acoustic waves are used to communicate over long distances. But more creative solutions\nare also being developed, where an AUV working on the seabed offloads data to a second AUV,\nwhich then surfaces and beams the data home to the research team using a satellite.\n\nThere's also a system that enables AUVs to share information from seabed scans, and\nother data. So if an AUV surveying the seabed finds an intriguing object, it can share the\ncoordinates of the object — that is, its position — with a nearby AUV that carries superior\ncameras, and arrange for that AUV to make a closer inspection of the object.\nMarine archaeologists are excited about the huge potential of these AUVs for their discipline.\nOne site where they're going to be deployed is the Gulf of Baratti, off the Italian coast. In\n1974, a 2,000-year-old Roman vessel was discovered here, in 18 metres of water. When it\nsank, it was carrying medical goods, in wooden or tin receptacles. Its cargo gives us insight\ninto the treatments available all those years ago, including tablets that are thought to have\nbeen dissolved to form a cleansing liquid for the eyes.\nOther Roman ships went down nearby, taking their cargoes with them. Some held huge pots\nmade of terracotta. Some were used for transporting cargoes of olive oil, and others held\nwine. In many cases it's only these containers that remain, while the wooden ships have been\nburied under silt on the seabed.\n\nAnother project that’s about to ..."
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answer in boxes 1-8 on your answer sheet.",
+      "first": 1,
+      "last": 8,
+      "body": "Ysabel Giraldo's research\n\nFocused on a total of [[1]].\n\nBehaviour:\n• how well ants looked after their [[2]]\n• their ability to locate [[3]]\n• the effect that [[4]] using a scent trail had on them\n• how [[5]] they attacked prey\n\nBrains:\n• comparison between age and the [[6]] brains of ants\n• condition of synaptic complexes (areas in which [[7]]) in the brain's 'mushroom bodies'\n• level of [[8]] in the brain associated with ageing",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "Focused on a total of [[1]].",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "how well ants looked after their [[2]]",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "their ability to locate [[3]]",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "the effect that [[4]] using a scent trail had on them",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "how [[5]] they attacked prey",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "comparison between age and the [[6]] brains of ants",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "condition of synaptic complexes (areas in which [[7]]) in the brain's 'mushroom bodies'",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "level of [[8]] in the brain associated with ageing",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1?\n\nIn boxes 9-13 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 9,
+      "last": 13,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 9,
+        "text": "Pheidole dentata ants are the only known animals which remain active for almost their whole lives.",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "Ysabel Giraldo was the first person to study Pheidole dentata ants using precise data about the insects' ages.",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "The ants in Giraldo's experiments behaved as she had predicted that they would.",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "The recent studies of bees used different methods of measuring age-related decline.",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "Pheidole dentata ants kept in laboratory conditions tend to live longer lives.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "The secret of staying young",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Pheidole dentata, a native ant of the south-eastern U.S., isn’t immortal. But scientists have found that it doesn’t seem to show any signs of aging. Old worker ants can do everything just as well as the youngsters, and their brains appear just as sharp. ‘We get a picture that these ants really don’t decline,’ says Ysabel Giraldo, who studied the ants for her doctoral thesis at Boston University."
+     },
+     {
+      "label": "",
+      "text": "Such age-defying feats are rare in the animal kingdom, Naked mole rats can live for almost 30 years and stay fit for nearly their entire lives. They can still reproduce even when old, and they never get cancer. But the vast majority of animals deteriorate with age just like people do. Like the naked mole rat, ants are social creatures that usually live in highly organised colonies. ‘It’s this social complexity that makes P dentata useful for studying aging in people,’ says Giraldo, now at the California Institute of Technology. Humans are also highly social, a trait that has been connected to healthier aging. By contrast, most animal studies of aging use mice, worms or fruit flies, which all lead much more isolated lives."
+     },
+     {
+      "label": "",
+      "text": "In the lab, P dentata worker ants typically live for around 140 days. Giraldo focused on ants at four age ranges: 20 to 22 days, 45 to 47 days, 95 to 97 days and 120 to 122 days. Unlike all previous studies, which only estimated how old the ants were, her work tracked the ants from the time the pupae became adults, so she knew their exact ages. Then she put them through a range of tests."
+     },
+     {
+      "label": "",
+      "text": "Giraldo watched how well the ants took care of the young of the colony, recording how often each ant attended to, carried and fed them. She compared how well 20-day-old and 95-day-old ants followed the telltale scent that the insects usually leave to mark a trail to food. She tested how ants responded to light and also measured how active they were by counting how often ants in a small dish walked across a line. And she experimented with how ants react to live prey: a tethered fruit fly. Giraldo expected the older ants to perform poorly in all these tasks. But the elderly insects were all good caretakers and trail-followers—the 95-day-old ants could track the scent even longer than their younger counterparts, They all responded to light well, and the older ants were more active. And when it came to reacting to prey, the older ants attacked the poor fruit fly just as aggressively as the young ones did, flaring their mandibles or pulling at the fly’s legs."
+     },
+     {
+      "label": "",
+      "text": "Then Giraldo compared the brains of 20-day-old and 95-day-old ants, identifying any cells that were close to death. She saw no major differences with age, nor was there any difference in the location of the dying cells, showing that age didn’t seem to affect specific brain functions. Ants and other insects have structures in their brains called mushroom bodies, which are important for processing information, learning and memory. She also wanted to see if aging affects the density of synaptic complexes within these structures—regions where neurons come together. Again, the answer was no. What was more, the old ants didn’t experience any drop in the levels of either serotonin or dopamine—brain chemicals whose decline often coincides with aging. In humans, for example, a decrease in serotonin has been linked to Alzheimer’s disease, “This is the first time anyone has looked at both behavioral and neural changes in these ants so thoroughly,’ says Giraldo, who recently published the findings in the Proceedings of the Royal Society B. Scientists have looked at some similar aspects in bees, but the results of recent bee studies were mixed—some studies showed age-related declines, which biologists call senescence, and others didn’t. ‘For now, the study raises more questions than it answers,’ Giraldo says, ‘including how P dentata stays in such good shape.’"
+     },
+     {
+      "label": "",
+      "text": "Also, if the ants don’t deteriorate with age, why do they die at all? Out in the wild, the ants probably don’t live for a full 140 days thanks to predators, disease and just being in an environment that’s much harsher than the comforts of the lab, ‘The lucky ants that do live into old age may suffer a steep decline just before dying,’ Giraldo says, but she can’t say for sure because her study wasn’t designed to follow an ant’s final moments."
+     },
+     {
+      "label": "",
+      "text": "“It will be important to extend these findings to other species of social insects,’ says Gene E. Robinson, an entomologist at the University of Illinois at Urbana-Champaign. This ant might be unique, or it might represent a broader pattern among other social bugs with possible clues to the science of aging in larger animals. Either way, it seems that for these ants, age really doesn’t matter,"
+     }
+    ]
+   },
+   {
+    "title": "Why zoos are good\nScientist David Hone makes the case for zoos",
+    "groups": [
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 2 has six paragraphs, A-F.\n\nWhich paragraph contains the following information?\n\nWrite the correct letter, A-F, in boxes 14-17 on your answer sheet.",
+      "first": 14,
+      "last": 17,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 14,
+        "text": "a reference to how quickly animal species can die out",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "reasons why it is preferable to study animals in captivity rather than in the wild",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "mention of two ways of learning about animals other than visiting them in zoos",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "reasons why animals in zoos may be healthier than those in the wild",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 2?\n\nIn boxes 18-22 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 18,
+      "last": 22,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 18,
+        "text": "An animal is likely to live longer in a zoo than in the wild.",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "There are some species in zoos which can no longer be found in the wild.",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Improvements in the quality of TV wildlife documentaries have resulted in increased numbers of zoo visitors.",
+        "options": []
+       },
+       {
+        "n": 21,
+        "text": "Zoos have always excelled at transmitting information about animals to the public.",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "Studying animals in zoos is less stressful for the animals than studying them in the wild.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.\nWrite the correct letters in boxes 23 and 24 on your answer sheet.",
+      "first": 23,
+      "last": 24,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Some take part in television documentaries about animals."
+       },
+       {
+        "key": "B",
+        "text": "Some travel to overseas locations to join teams in zoos."
+       },
+       {
+        "key": "C",
+        "text": "Some get experience with species in the wild before taking up zoo jobs."
+       },
+       {
+        "key": "D",
+        "text": "Some teach people who are involved with conservation projects."
+       },
+       {
+        "key": "E",
+        "text": "Some specialise in caring for species which are under threat."
+       }
+      ],
+      "questions": [
+       {
+        "n": 23,
+        "text": "Which TWO of the following are stated about zoo staff in the text?",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "Which TWO of the following are stated about zoo staff in the text?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.\nWrite the correct letters in boxes 25 and 26 on your answer sheet.",
+      "first": 25,
+      "last": 26,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "They can help children overcome their fears of wild animals."
+       },
+       {
+        "key": "B",
+        "text": "They can increase public awareness of environmental issues."
+       },
+       {
+        "key": "C",
+        "text": "They can provide employment for a range of professional people."
+       },
+       {
+        "key": "D",
+        "text": "They can generate income to support wildlife conservation projects."
+       },
+       {
+        "key": "E",
+        "text": "They can raise animals which can later be released into the wild."
+       }
+      ],
+      "questions": [
+       {
+        "n": 25,
+        "text": "Which TWO of these beliefs about zoos does the writer mention in the text?",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "Which TWO of these beliefs about zoos does the writer mention in the text?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "In my view, it is perfectly possible for many species of animals living in zoos or wildlife parks to have a quality of life as high as, or higher than, in the wild. Animals in good zoos get a varied and high-quality diet with all the supplements required, and any illnesses they might have will be treated. Their movement might be somewhat restricted, but they have a safe environment in which to live, and they are spared bullying and social ostracism by others of their kind. They do not suffer from the threat or stress of predators, or the irritation and pain of parasites or injuries. The average captive animal will have a greater life expectancy compared with its wild counterpart, and will not die of drought, of starvation or in the jaws of a predator. A lot of very nasty things happen to truly ‘wild’ animals that simply don’t happen in good zoos, and to view a life that is ‘free’ as one that is automatically ‘good’ is, I think, an error. Furthermore, zoos serve several key purposes."
+     },
+     {
+      "label": "B",
+      "text": "Firstly, zoos aid conservation. Colossal numbers of species are becoming extinct across the world, and many more are increasingly threatened and therefore risk extinction. Moreover, some of these collapses have been sudden, dramatic and unexpected, or were simply discovered very late in the day. A species protected in captivity can be bred up to provide a reservoir population against a population crash or extinction in the wild. A good number of species only exist in captivity, with many of these living in zoos. Still more only exist in the wild because they have been reintroduced from zoos, or have wild populations that have been boosted by captive bred animals. Without these efforts there would be fewer species alive today. Although reintroduction successes are few and far between, the numbers are increasing, and the very fact that species have been saved or reintroduced as a result of captive breeding proves the value of such initiatives."
+     },
+     {
+      "label": "C",
+      "text": "Zoos also provide education. Many children and adults, especially those in cities, will never see a wild animal beyond a fox or pigeon. While it is true that television documentaries are becoming ever more detailed and impressive, and many natural history specimens are on display in museums, there really is nothing to compare with seeing a living creature in the flesh, hearing it, smelling it, watching what it does and having the time to absorb details. That alone will bring a greater understanding and perspective to many, and hopefully give them a greater appreciation for wildlife, conservation efforts and how they can contribute."
+     },
+     {
+      "label": "D",
+      "text": "In addition to this, there is also the education that can take place in zoos through signs, talks and presentations which directly communicate information to visitors about the animals they are seeing and their place in the world. This was an area where zoos used to be lacking, but they are now increasingly sophisticated in their communication and outreach work. Many zoos also work directly to educate conservation workers in other countries, or send their animal keepers abroad to contribute their knowledge and skills to those working in zoos and reserves, thereby helping to improve conditions and reintroductions all over the world."
+     },
+     {
+      "label": "E",
+      "text": "Zoos also play a key role in research. If we are to save wild species and restore and repair ecosystems we need to know about how key species live, act and react. Being able to undertake research on animals in zoos where there is less risk and fewer variables means real changes can be effected on wild populations. Finding out about, for example, the oestrus cycle of an animal or its breeding rate helps us manage wild populations. Procedures such as capturing and moving at-risk or dangerous individuals are bolstered by knowledge gained in zoos about doses for anaesthetics, and by experience in handling and transporting animals. This can make a real difference to conservation efforts and to the reduction of human-animal conflicts, and can provide a knowledge base for helping with the increasing threats of habitat destruction and other problems."
+     },
+     {
+      "label": "F",
+      "text": "In conclusion, considering the many ongoing global threats to the environment, it is hard for me to see zoos as anything other than essential to the long-term survival of numerous species. They are vital not just in terms of protecting animals, but as a means of learning about them to aid those still in the wild, as well as educating and informing the general population about these animals and their world so that they can assist or at least accept the need to be more environmentally conscious. Without them, the world would be, and would increasingly become, a much poorer place."
+     }
+    ]
+   },
+   {
+    "title": "READING PASSAGE 3",
+    "groups": [
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 3?\n\nIn boxes 27-33 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 27,
+      "last": 33,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 27,
+        "text": "Rochman and her colleagues were the first people to research the problem of marine debris.",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "The creatures most in danger from ocean trash are certain seabirds.",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "The studies Rochman has reviewed have already proved that populations of some birds will soon become extinct.",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "Rochman analysed papers on the different kinds of danger caused by ocean trash.",
+        "options": []
+       },
+       {
+        "n": 31,
+        "text": "Most of the research analysed by Rochman and her colleagues was badly designed.",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "One study examined by Rochman was expecting to find that mussels were harmed by eating plastic.",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "Some mussels choose to eat plastic in preference to their natural diet.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 34-39 on your answer sheet.",
+      "first": 34,
+      "last": 39,
+      "body": "Findings related to marine debris\nStudies of marine debris found the biggest threats were\n* plastic (not metal or wood)\n* bits of debris that were [[34]] (harmful to animals)\nThere was little research into [[35]] e.g. from synthetic fibres.\n\nDrawbacks of the studies examined\n* most of them focused on individual animals, not entire [[36]]\n* the [[37]] of plastic used in the lab did not always reflect those in the ocean\n* there was insufficient information on\n— numbers of animals which could be affected\n— the impact of a reduction in numbers on the [[38]] species\n— the impact on the ecosystem\nRochman says more information is needed on the possible impact of future [[39]] (e.g. involving oil).",
+      "options": [],
+      "questions": [
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.\nWrite the correct letter in box 40 on your answer sheet.",
+      "first": 40,
+      "last": 40,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 40,
+        "text": "What would be the best title for this passage?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Assessing the threat of marine debris"
+         },
+         {
+          "key": "B",
+          "text": "Marine debris: who is to blame?"
+         },
+         {
+          "key": "C",
+          "text": "A new solution to the problem of marine debris"
+         },
+         {
+          "key": "D",
+          "text": "Marine debris: the need for international action"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Chelsea Rochman, an ecologist at the University of California, Davis, has been trying to answer a dismal question: Is everything terrible, or are things just very, very bad?"
+     },
+     {
+      "label": "",
+      "text": "Rochman is a member of the National Center for Ecological Analysis and Synthesis’s marine-debris working group, a collection of scientists who study, among other things, the growing problem of marine debris, also known as ocean trash. Plenty of studies have sounded alarm bells about the state of marine debris; in a recent paper published in the journal Ecology, Rochman and her colleagues set out to determine how many of those perceived risks are real."
+     },
+     {
+      "label": "",
+      "text": "Often, Rochman says, scientists will end a paper by speculating about the broader impacts of what they’ve found. For example, a study could show that certain seabirds eat plastic bags, and go on to warn that whole bird populations are at risk of dying out. ‘But the truth was that nobody had yet tested those perceived threats,’ Rochman says. ‘There wasn’t a lot of information,’"
+     },
+     {
+      "label": "",
+      "text": "Rochman and her colleagues examined more than a hundred papers on the impacts of marine debris that were published through 2013. Within each paper, they asked what threats scientists had studied — 366 perceived threats in all — and what they’d actually found."
+     },
+     {
+      "label": "",
+      "text": "In 83 percent of cases, the perceived dangers of ocean trash were proven true, In the remaining cases, the working group found the studies had weaknesses in design and content which affected the validity of their conclusions — they lacked a control group, for example, or used faulty statistics."
+     },
+     {
+      "label": "",
+      "text": "Strikingly, Rochman says, only one well-designed study failed to find the effect it was looking for, an investigation of mussels ingesting microscopic plastic bits. The plastic moved from the mussels’ stomachs to their bloodstreams, scientists found, and stayed there for weeks — but didn’t seem to stress out the shellfish."
+     },
+     {
+      "label": "",
+      "text": "While mussels may be fine eating trash, though, the analysis also gave a clearer picture of the many ways that ocean debris is bothersome."
+     },
+     {
+      "label": "",
+      "text": "Within the studies they looked at, most of the proven threats came from plastic debris, rather than other materials like metal or wood. Most of the dangers also involved large pieces of debris — animals getting entangled in trash, for example, or eating it and severely injuring themselves."
+     },
+     {
+      "label": "",
+      "text": "But a lot of ocean debris is ‘microplastic’, or pieces smaller than five millimeters. These may be ingredients used in cosmetics and toiletries, fibers shed by synthetic clothing in the wash, or eroded remnants of larger debris. Compared to the number of studies investigating large-scale debris, Rochman’s group found little research on the effects of these tiny bits. ‘There are a lot of open questions still for microplastic, Rochman says, though she notes that more papers on the subject have been published since 2013, the cutoff point for the group’s analysis. There are also, she adds, a lot of open questions about the ways that ocean debris can lead to sea-creature death, Many studies have looked at how plastic affects an individual animal, or that animal’s tissues or cells, rather than whole populations. And in the lab, scientists often use higher concentrations of plastic than what's really in the ocean. None of that tells us how many birds or fish or sea turtles could die from plastic pollution — or how deaths in one species could affect that animal's predators, or the rest of the ecosystem."
+     },
+     {
+      "label": "",
+      "text": "“We need to be asking more ecologically relevant questions,’ Rochman says. Usually, scientists don’t know exactly how disasters such as a tanker accidentally spilling its whole cargo of oil and polluting huge areas of the ocean will affect the environment until after they’ve happened. ‘We don’t ask the right questions early enough,’ she says. But if ecologists can understand how the slow-moving effect of ocean trash is damaging ecosystems, they might be able to prevent things from getting worse."
+     },
+     {
+      "label": "",
+      "text": "Asking the right questions can help policy makers, and the public, figure out where to focus their attention. The problems that look or sound most dramatic may not be the best places to start. For example, the name of the ‘Great Pacific Garbage Patch’ — a collection of marine debris in the northern Pacific Ocean — might conjure up a vast, floating trash island. In reality though, much of the debris is tiny or below the surface; a person could sail through the area without seeing any trash at all. A Dutch group called ‘The Ocean Cleanup’ is currently working on plans to put mechanical devices in the Pacific Garbage Patch and similar areas to suck up plastic. But a recent paper used simulations to show that strategically positioning the cleanup devices closer to shore would more effectively reduce pollution over the long term."
+     },
+     {
+      "label": "",
+      "text": "‘I think clearing up some of these misperceptions is really important,’ Rochman says. Among scientists as well as in the media, she says, ‘A lot of the images about strandings and entanglement and all of that cause the perception that plastic debris is killing everything in the ocean.’ Interrogating the existing scientific literature can help ecologists figure out which problems really need addressing, and which ones they’d be better off — like the mussels — absorbing and ignoring."
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "four / 4",
+   "2": "young",
+   "3": "food",
+   "4": "light",
+   "5": "aggressively",
+   "6": "location",
+   "7": "neurons",
+   "8": "chemicals",
+   "9": "FALSE",
+   "10": "TRUE",
+   "11": "FALSE",
+   "12": "NOT GIVEN",
+   "13": "TRUE",
+   "14": "B",
+   "15": "E",
+   "16": "C",
+   "17": "A",
+   "18": "TRUE",
+   "19": "TRUE",
+   "20": "NOT GIVEN",
+   "21": "FALSE",
+   "22": "NOT GIVEN",
+   "23": "B (23&24 IN EITHER ORDER)",
+   "24": "D (23&24 IN EITHER ORDER)",
+   "25": "B (25&26 IN EITHER ORDER)",
+   "26": "E (25&26 IN EITHER ORDER)",
+   "27": "FALSE",
+   "28": "NOT GIVEN",
+   "29": "FALSE",
+   "30": "TRUE",
+   "31": "FALSE",
+   "32": "TRUE",
+   "33": "NOT GIVEN",
+   "34": "large",
+   "35": "microplastic",
+   "36": "populations",
+   "37": "concentrations",
+   "38": "predators",
+   "39": "disasters",
+   "40": "A"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe plans below show a public park when it first opened in 1920 and the same\npark today.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 86,
+   "image": "figures/p086.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nNowadays many people choose to be self-employed, rather than to work for\na company or organisation.\n\nWhy might this be the case?\n\nWhat could be the disadvantages of being self-employed?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Your neighbourhood",
+    "questions": [
+     "Do you like the neighbourhood you live in? [Why/Why not?]",
+     "What do you do in your neighbourhood in your free time? [Why/Why not?]",
+     "What new things would you like to have in your neighbourhood? [Why/Why not?]",
+     "Would you like to live in another neighbourhood in your town or city? [Why/Why not?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe a website you have bought something from.",
+   "points": [
+    "what the website is",
+    "what you bought from this website",
+    "how satisfied you were with what you bought",
+    "and explain what you liked and disliked about using this website."
+   ],
+   "rounding_off": [
+    "You will have to talk about the topic for one to two minutes.",
+    "You have one minute to think about what you are going to say.",
+    "You can make some notes to help you if you wish."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Shopping online",
+    "questions": [
+     "What kinds of things do people in your country often buy from online shops?",
+     "Why has online shopping become so popular in many countries?",
+     "What are some possible disadvantages of buying things from online shops?"
+    ]
+   },
+   {
+    "topic": "Online retail businesses",
+    "questions": [
+     "Do you agree that the prices of all goods should be lower on internet shopping sites than in shops?",
+     "Will large shopping malls continue to be popular, despite the growth of internet shopping?",
+     "Do you think that some businesses (e.g. banks and travel agents) will only operate online in the future?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

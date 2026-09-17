@@ -1,0 +1,1149 @@
+{
+ "book": 10,
+ "test": 1,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Questions 1-6\nComplete the notes below.\n\nWrite ONE WORD for each answer.",
+      "first": 1,
+      "last": 6,
+      "body": "SELF-DRIVE TOURS IN THE USA\nExample\nName: Andrea Brown\nAddress: 24 [[1]] Road\nPostcode: BH5 2QP\nPhone: (mobile) 077 8664 3091\nHeard about company from: [[2]]\n\nPossible self-drive tours\nTrip One:\n* Los Angeles: customer wants to visit some [[3]] parks with her children\n* Yosemite Park: customer wants to stay in a lodge, not a [[4]]\n\nTrip Two:\n* Customer wants to see the [[5]] on the way to Cambria\n* At Santa Monica: not interested in shopping\n* At San Diego, wants to spend time on the [[6]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "table_completion",
+      "instructions": "Questions 7-10\nComplete the table below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 7,
+      "last": 10,
+      "body": " | Number of days | Total distance | Price (per person) | Includes\nTrip One | 12 days | [[7]] km | £525 | • accommodation\\n• car\\n• one [[8]]\nTrip Two | 9 days | 980 km | [[9]] £ | • accommodation\\n• car\\n• [[10]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Questions 11-12\nChoose TWO letters A-E.",
+      "first": 11,
+      "last": 12,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "the gym"
+       },
+       {
+        "key": "B",
+        "text": "the tracks"
+       },
+       {
+        "key": "C",
+        "text": "the indoor pool"
+       },
+       {
+        "key": "D",
+        "text": "the outdoor pool"
+       },
+       {
+        "key": "E",
+        "text": "the sports training for children"
+       }
+      ],
+      "questions": [
+       {
+        "n": 11,
+        "text": "Which TWO facilities at the leisure club have recently been improved?",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Questions 13-20\nComplete the notes below.\n\nWrite NO MORE THAN TWO WORDS for each answer.",
+      "first": 13,
+      "last": 20,
+      "body": "Joining the leisure club\nPersonal Assessment\n* New members should describe any [[13]]\n* The [[14]] will be explained to you before you use the equipment.\n* You will be given a six-week [[15]]\n\nTypes of membership\n* There is a compulsory £90 [[16]]\n* Gold members are given [[17]] to all the LP clubs.\n* Premier members are given priority during [[18]] hours.\n* Premier members can bring some [[19]] every month.\n* Members should always take their [[20]] with them.",
+      "options": [],
+      "questions": [
+       {
+        "n": 13,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 14,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Questions 21-25\nChoose the correct letter, A, B or C.",
+      "first": 21,
+      "last": 25,
+      "body": "Global Design Competition",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "Students entering the design competition have to",
+        "options": [
+         {
+          "key": "A",
+          "text": "produce an energy-efficient design."
+         },
+         {
+          "key": "B",
+          "text": "adapt an existing energy-saving appliance."
+         },
+         {
+          "key": "C",
+          "text": "develop a new use for current technology."
+         }
+        ]
+       },
+       {
+        "n": 22,
+        "text": "John chose a dishwasher because he wanted to make dishwashers",
+        "options": [
+         {
+          "key": "A",
+          "text": "more appealing."
+         },
+         {
+          "key": "B",
+          "text": "more common."
+         },
+         {
+          "key": "C",
+          "text": "more economical."
+         }
+        ]
+       },
+       {
+        "n": 23,
+        "text": "The stone in John's 'Rockpool' design is used",
+        "options": [
+         {
+          "key": "A",
+          "text": "for decoration."
+         },
+         {
+          "key": "B",
+          "text": "to switch it on."
+         },
+         {
+          "key": "C",
+          "text": "to stop water escaping."
+         }
+        ]
+       },
+       {
+        "n": 24,
+        "text": "In the holding chamber, the carbon dioxide",
+        "options": [
+         {
+          "key": "A",
+          "text": "changes back to a gas."
+         },
+         {
+          "key": "B",
+          "text": "dries the dishes."
+         },
+         {
+          "key": "C",
+          "text": "is allowed to cool."
+         }
+        ]
+       },
+       {
+        "n": 25,
+        "text": "At the end of the cleaning process, the carbon dioxide",
+        "options": [
+         {
+          "key": "A",
+          "text": "is released into the air."
+         },
+         {
+          "key": "B",
+          "text": "is disposed of with the waste."
+         },
+         {
+          "key": "C",
+          "text": "is collected ready to be re-used."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Questions 26-30\nComplete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 26,
+      "last": 30,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 26,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 27,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 16,
+      "image": "figures/p016.png"
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Questions 31-40\nComplete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "THE SPIRIT BEAR\nGeneral facts\n* It is a white bear belonging to the black bear family.\n* Its colour comes from an uncommon [[31]]\n* Local people believe that it has unusual [[32]]\n* They protect the bear from [[33]]\n\nHabitat\n* The bear's relationship with the forest is complex.\n* Tree roots stop [[34]] along salmon streams.\n* The bears' feeding habits provide nutrients for forest vegetation.\n* It is currently found on a small number of [[35]]\n\nThreats\n* Habitat is being lost due to deforestation and construction of [[36]] by logging companies.\n* Unrestricted [[37]] is affecting the salmon supply.\n* The bears' existence is also threatened by their low rate of [[38]]\n\nGoing forward\n* Interested parties are working together.\n* Logging companies must improve their [[39]] of logging.\n* Maintenance and [[40]] of the spirit bears' territory is needed.",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "Ardleigh",
+   "2": "newspaper",
+   "3": "theme",
+   "4": "tent",
+   "5": "castle",
+   "6": "beach/beaches",
+   "7": "2020",
+   "8": "flight",
+   "9": "429",
+   "10": "dinner",
+   "11": "A (11&12 IN EITHER ORDER)",
+   "12": "C (11&12 IN EITHER ORDER)",
+   "13": "health problems",
+   "14": "safety rules",
+   "15": "plan",
+   "16": "joining",
+   "17": "free entry",
+   "18": "peak",
+   "19": "guests",
+   "20": "photo card / photo cards",
+   "21": "C",
+   "22": "A",
+   "23": "B",
+   "24": "A",
+   "25": "C",
+   "26": "presentation",
+   "27": "model",
+   "28": "material/materials",
+   "29": "grant",
+   "30": "technical",
+   "31": "gene",
+   "32": "power/powers",
+   "33": "strangers",
+   "34": "erosion",
+   "35": "islands",
+   "36": "roads",
+   "37": "fishing",
+   "38": "reproduction",
+   "39": "method/methods",
+   "40": "expansion"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 10/IELTS 10 Test 1 Section 1.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 10/IELTS 10 Test 1 Section 2.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 10/IELTS 10 Test 1 Section 3.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 10/IELTS 10 Test 1 Section 4.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "TRAVEL AGENT: Good morning. World Tours. My name is Jamie. How can I help you?\nANDREA: Good morning. I want some information on self-drive tours in the USA.\nCould you send me a brochure?\nTRAVEL AGENT: Of course. Could I have your name please?\nANDREA: Andrea Brown.\nTRAVEL AGENT: Thank you. And your address?\nANDREA: 24, Ardleigh Road.\nTRAVEL AGENT: Can you spell that?\nANDREA: A-R-D-L-E-I-G-H Road.\nTRAVEL AGENT: Postcode?\nANDREA: B-H5-2-O-P.\nTRAVEL AGENT: Thanks. And can I have your phone number?\nANDREA: Is a mobile alright?\nTRAVEL AGENT: Fine.\nANDREA: It's 07786643091.\nTRAVEL AGENT: Thank you. And can I ask you where you heard about World Tours? From\na friend? Or did you see an advert somewhere?\nANDREA: No, I read about you in the newspaper.\nTRAVEL AGENT: OK, I'll get the brochures in the post to you but can I give you some\ninformation over the phone. What kinds of things do you want to do on\nyour holiday?\nANDREA: I'm interested in going to California with my family. I've got two children\nand we want to hire a car.\nTRAVEL AGENT: OK. We have a couple of self-drive tours there visiting different places\nof interest in California. The first one begins in Los Angeles and there's\nplenty of time to visit some of the theme parks there.\nANDREA: That's something on my children’s list so I'd want to include that.\nTRAVEL AGENT: Good. Then you drive to San Francisco. From San Francisco you can\ndrive to Yosemite Park where you spend a couple of nights. You can\nchoose to stay in a lodge or on the campsite.\nANDREA: don't like the idea of staying in a tent. It'd be too hot.\nTRAVEL AGENT: Right. And the tour ends in Las Vegas.\nANDREA: OK.\nTRAVEL AGENT: The other trip we can arrange is slightly different. It starts in San\nFrancisco. Then you drive south to Cambria.\nANDREA: Someone told me there's a really nice castle near Cambria. Will we go\nnear that?\nTRAVEL AGENT: Hearst Castle is on that road so you could stop there.\nANDREA: Good. I'd like to do that. Does this trip also go into the desert?\nTRAVEL AGENT: No, it continues to Santa Monica where most people like to stop and do\nsome shopping.\nANDREA: We have enough of that at home so that doesn't interest us.\nTRAVEL AGENT: OK. Well you could go straight on to San Diego.\nANDREA: That's good for beaches isn't it?\nTRAVEL AGENT: That's right, that’s a good place to relax and your children might like to\nvisit the zoo before flying home.\nANDREA: I don't think so. We want some time for sunbathing and swimming.\n\nANDREA: ‘So how many days are the trips and how much do they cost?\n\nTRAVEL AGENT: The first one I told you about is a self-drive tour through California which\nlasts twelve days and covers 2,020 kilometres. The shortest journey is\n206 kilometers and the longest is 632 kilometres. The cost is £525 per person.\n\nThat includes accommodation, car rental and a flight but no meals.\nANDREA: OK. And the other trip?\n\nTRAVEL AGENT: That lasts nine days but you spend only three days on the road. You cover\nabout 980 kilometres altogether.\n\nANDREA: So is that cheaper then?\n\nTRAVEL AGENT: Yes, it's almost a hundred pounds cheaper. It's £429 per person, which is\na good deal.\n\nANDREA: ‘So that covers accommodation and car hire. What about flights?\n\nTRAVEL AGENT: They aren't included. But these hotels offer dinner in the price.\nANDREA: OK. Well, thank you very much. I'll be in touch when I've had a chance to\nlook at the brochure.\nTRAVEL AGENT: I'm pleased to help. Goodbye.\nANDREA: Goodbye."
+   },
+   {
+    "part": 2,
+    "text": "On behalf of LP Clubs, I'd like to welcome you all here today. My name's Sandy Fisher\nand I'm one of the fitness managers here. Before we start our tour of the club I'll just\nrun through some basic information about the facilities we have here, including recent\nimprovements, and explain the types of membership available.\n\nOur greatest asset is probably our swimming pool, which at 2 isn’ Olympic-sized,\nbut now we've expanded it to eight lanes, it's much wider. This means there a are rarely\nmore than a couple of people at a time in each lane. Unfortunately, there isn't space for\nan outdoor pool here but the glass roof on the swimming pool is partly retractable, which\nmeans you can enjoy something of the open air experience on warmer days.\n\nOur recently refurbished fitness suite has all the latest exercise equipment including 10\nnew running machines, and a wide range of weight training machines. Each member is\ngiven full training in how to operate the equipment and there is always a trainer on duty to\noffer help and advice. Although we do have adult only times after 6 and at certain times\nat weekends, children are well catered for. Older children continue to benefit from a wide\nrange of tuition; anything from trampolining to yoga.\n\nOne thing all our members appreciate about us is that we take very good care of\nthem. This starts on day one with your personal assessment. You are asked to fill ina\nquestionnaire giving details of any health problems. One of our personal trainers will then\ngo through this with you.\n\nThe trainer will then take you through the safety rules for using the equipment in the fitness.\nsuite. During your next exercise session a personal trainer will work with you to make sure\nyou understand these. It's very important to do this because we really do want to avoid\nhaving any sports injuries. There's a lot more to looking after yourself than simply lifting\nweights!\n\nAt the end of the personal assessment, the trainer will draw up a plan, outlining what you\nshould try to achieve within a six-week period. This will then be reviewed at the end of the\nsix weeks,\nNow, Ill just quickly run through the types of membership we have available. All members\nmust pay a joining fee of £90 in addition to the rates for the monthly membership fees.\n\nGold membership entitles you to free entry at all LP Clubs. There are now LP clubs in all ©\nmajor cities and towns so if you travel a lot this will be a great advantage. Individual gold\nmembership costs £50 a month and joint membership for you and your partner will cost\n£75.\n\nPremier membership is for professional people whose work commitments make it difficult\nfor them to use the club during the day and so LP gives booking preferences to Premier.\nmembers at peak times. This means you will find it easier to book the sessions at times\nthat suit you. Reciprocal arrangements with other LP Clubs are available to Premier\nmembers. Premier membership is for individuals only, but you will be sent passes for\nguests every month. The monthly fee is £65.\n\nYou don't have to have any special clothes or equipment when you visit the club. We\nprovide robes and hairdryers in the changing rooms, but it’s very important to remember\nyour photo card because you won't be able to get in without it.\n\nFor people who aren't working during the day then ..."
+   },
+   {
+    "part": 3,
+    "text": "JOHN: Erm ... hello Professor, I'm John Wishart. I'm working on my entry for the\nGlobal Design Competition. My tutor said you might be able to help me\nwith it.\n\nPROFESSOR: Ah, yes, I got a copy of your drawings. Come in and tell me about it. What\nsort of competition is it?\n\nJOHN: Well, it's an international design competition and we have to come up with\nanew design for a typical domestic kitchen appliance.\n\nPROFESSOR: I see, and are there any special conditions? Does it have to save energy\nfor example?\n\nJOHN: Actually that was the focus in last year's competition. This year's different.\n\nWe have to adopt an innovative approach to existing technology, using it\nin a way that hasn't been thought of before.\n\nPROFESSOR: see, that sounds tricky. And what kitchen appliance have you chosen?\nJOHN: Well, I decided to choose the dishwasher.\n\nPROFESSOR: Interesting, what made you choose that?\n\nJOHN: Well, they're an everyday kitchen appliance in most Australian houses\n\nbut they're all pretty boring and almost identical to each other. I think some people will be prepared to pay a little extra for something that looks different.\nPROFESSOR: That's a nice idea. I see you've called your design ‘the rock pool. Why is\nthat?\nJOHN: Basically because it looks like the rock pools you find on a beach. The top\nis made of glass so that you can look down into it.\nPROFESSOR: And there's a stone at the bottom. Is that just for decoration?\nJOHN: Actually it does have a function. Instead of pushing a button, you turn\nthe stone.\nPROFESSOR: So it's really just a novel way of starting the dishwasher.\nJOHN: That's right.\nPROFESSOR: It's a really nice design, but what makes it innovative?\nJOHN: Well, I decided to make a dishwasher that uses carbon dioxide.\nPROFESSOR: In place of water and detergent? How will you manage that?\nJOHN: The idea is to pressurize the carbon dioxide so that it becomes a liquid.\nThe fluid is then released into the dishwasher where it cleans the dishes\nall by itself.\nPROFESSOR: Sounds like a brilliant idea! Your system will totally do away with the need\nfor strong detergents. So what happens once the dishes are clean?\nJOHN: Well, to allow them to dry, the liquid carbon dioxide and the waste\nmaterials all go to an area called the holding chamber. That's where the\nliquid is depressurised and so it reverts to a gas. Then the oil and grease\nare separated out and sent to the waste system.\nPROFESSOR: It sounds like you've thought it all out very thoroughly. So, what happens\nto the carbon dioxide once the process is complete? Not wasted I hope.\nJOHN: Actually, that's where the real savings are made. The carbon dioxide is\nsent back again and in.\nPROFESSOR: What a terrific idea. Do you think it will ever be built?\nJOHN: Probably not, but that's OK.\nPROFESSOR: Well, I'm sure a lot of positive things will come out of your design.\nPROFESSOR: Now, you seem to have thought about everything so what exactly did you\nneed me to help you with?\nJOHN: Well, my design has made it to the final stage of the competition and, ina\nfew have to give a presentation and that's the part I was hoping you could help me with.\nPROFESSOR: Right, well that should be easy enough. What have you managed to do so\nfar?\nJOHN: Well, I've got detailed drawings to show how it will work and I've also\nwritten a 500 word paper on it.\nPROFESSOR: see. Well, if you want to stand a good chance of winning you really need\nmodel of the machine.\nJOHN: Yes, I thought I might but I'm having a few problems.\nPROFESSOR: What is the main difficulty so far? Let me guess — is it the materials?\nJOHN: Yes. I [want it to look professional, but everything that's top quality is also very expensive.\nPROFESSOR: Look, projects i projects like this are very important to us. They really help lift our\nprofile. So why don't you talk to the university about a grant? Oh. I can help\nyou fill out the application forms if you like.\nJOHN: That would be great.\nPROFESSOR: You'd better show me this paper you've written as well. For global competition such as this, you need to make sure the technical details\nyou've given are accurate and thorough.\nJOHN: That would be a great help.\nPROFESSOR: Is there anything else I can do?\nJOHN: Well, I'm really ..."
+   },
+   {
+    "part": 4,
+    "text": "Today we continue our series on ecology and conservation with a look at a particularly\nendangered member of the black bear family. One in ten black bears is actually born with\nwhite coat, which is the result of a special gene that surfaces in a few. Local people have\nnamed it ‘the spirit bear’. And according to the legends of these communities, its snowy fur.\nbrings with ita special power. Because of this, it has always been highly regarded by them\nso much that they do not speak of seeing it to anyone else. It is their way of protecting it,\nwhen strangers visit the area.\n\nThe white bear's habitat is quite interesting. The bear's strong relationship with the old-\ngrowth rainforest is a complex one. The white bear relies on the huge centuries-old trees in\nthe forest in many ways. For example, the old growth trees have extremely long roots that\n. Keeping these\nbanks intact is important because these streams are home to salmon, which are the bear's\nmain food source. In return, the bear's feeding habits nurture the forest. As the bears eat\nthe salmon, they discard the skin and bones in great amounts on the forest floor, which\nprovide vital nutrients. These produce lush vegetation that sustains thousands of other\ntypes of life forms; from birds to insects and more.\n\nToday, the spirit bear lives off the coast of the province of British Columbia on a few\nislands. There is great concem for ther survival since itis estimated that less than two\nhundred of these white bears remain. The best way to protect them is to make every\neffort to preserve the delicate balance of their forest environment — in other words, their\necosystem.\n\nThe greatest threat to the bear's existence is the loss of its habitat. Over many years,\nlogging companies have stripped the land by cutting down a large number of trees. In\naddition, they have built roads which have fractured the areas where the bear usually\nfeeds, and many hibernation sites have also been lost. The logging of the trees along\nthe streams has damaged the places where the bears fish. To make matters worse, the 37\nAnd so, what's the situation going forward? Community organizations, environmental\ngroups and the British Columbia government are now working together on the problem.\n\nwhich is a positive step. However, these measures alone may not be sufficient to ensure a\nhealthy population of the spirit bear in the future.\n\nOther steps also need to be taken. While it is important to maintain the spirit bear's habitat,\nthere also needs to be more emphasis on its expansion. The move is justified as it will also\ncreate space for other bears that are losing their homes .."
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "title": "Stepwells\nA millennium ago, stepwells were fundamental to life in the driest parts of India. Richard Cox travelled to north-western India to document these spectacular monuments from a bygone era",
+    "groups": [
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nIn boxes 1-5 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 1,
+      "last": 5,
+      "body": "",
+      "options": [],
+      "figure_pdf_page": 0,
+      "questions": [
+       {
+        "n": 1,
+        "text": "Examples of ancient stepwells can be found all over the world.",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "Stepwells had a range of functions, in addition to those related to water collection.",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "The few existing stepwells in Delhi are more attractive than those found elsewhere.",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "It took workers many years to build the stone steps characteristic of stepwells.",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "The number of steps above the water level in a stepwell altered during the course of a year.",
+        "options": []
+       }
+      ]
+     },
+     {
+      "type": "short_answer",
+      "instructions": "Answer the questions below.\n\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 6-8 on your answer sheet.",
+      "first": 6,
+      "last": 8,
+      "body": "",
+      "options": [],
+      "figure_pdf_page": 0,
+      "questions": [
+       {
+        "n": 6,
+        "text": "Which part of some stepwells provided shade for people?",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "What type of serious climatic event, which took place in southern Rajasthan, is mentioned in the article?",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "Who are frequent visitors to stepwells nowadays?",
+        "options": []
+       }
+      ]
+     },
+     {
+      "type": "table_completion",
+      "instructions": "Complete the table below.\n\nChoose ONE WORD AND/OR A NUMBER from the passage for each answer.\n\nWrite your answers in boxes 9-13 on your answer sheet.",
+      "first": 9,
+      "last": 13,
+      "body": "Stepwell | Date | Features | Other notes\nRani Ki Vav | Late 11th century | As many as 500 sculptures decorate the monument | Restored in the 1960s\\nExcellent condition, despite the [[9]] of 2001\nSurya Kund | 1026 | Steps on the [[10]] produce a geometrical pattern\\nCarved shrines | Looks more like a [[11]] than a well\nRaniji Ki Baori | 1699 | Intricately carved monument | One of 21 baoris in the area commissioned by Queen Nathavatji\nChand Baori | 850 AD | Steps take you down 11 storeys to the bottom | Old, deep and very dramatic\\nHas [[12]] which provide a view of the steps\nNeemrana Ki Baori | 1700 | Has two [[13]] levels | Used by public today",
+      "options": [],
+      "figure_pdf_page": 0,
+      "questions": [
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "",
+        "options": []
+       }
+      ]
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "During the sixth and seventh centuries, the inhabitants of the modern-day states of Gujarat and Rajasthan in north-western India developed a method of gaining access to clean, fresh groundwater during the dry season for drinking, bathing, watering animals and irrigation. However, the significance of this invention — the stepwell - goes beyond its utilitarian application."
+     },
+     {
+      "label": "",
+      "text": "Unique to this region, stepwells are often architecturally complex and vary widely in size and shape. During their heyday, they were places of gathering, of leisure and relaxation and of worship for villagers of all but the lowest classes. Most stepwells are found dotted round the desert areas of Gujarat (where they are called vav) and Rajasthan (where they are called baori), while a few also survive in Delhi. Some were located in or near villages as public spaces for the community; others were positioned beside roads as resting places for travellers."
+     },
+     {
+      "label": "",
+      "text": "As their name suggests, stepwells comprise a series of stone steps descending from ground level to the stepwells were fundamental to life in the driest travelled to north-western India to monuments from a bygone era water source (normally an underground aquifer) as it recedes following the rains. When the water level was high, the user needed only to descend a few steps to reach it; when it was low, several levels would have to be negotiated."
+     },
+     {
+      "label": "",
+      "text": "Some wells are vast, open craters with hundreds of steps paving each sloping side, often in tiers. Others are more elaborate, with long stepped passages leading to the water via several storeys. Built from stone and supported by pillars, they also included pavilions that sheltered visitors from the relentless heat. But perhaps the most impressive features are the intricate decorative sculptures that embellish many stepwells, showing activities from fighting and dancing to everyday acts such as women combing their hair or churning butter."
+     },
+     {
+      "label": "",
+      "text": "Down the centuries, thousands of wells were constructed throughout north- western India, but the majority have now fallen into disuse; many are derelict and dry, as groundwater has been diverted for industrial use and the wells no longer reach the water table. Their condition hasn't been helped by recent dry spells: southern Rajasthan suffered an eight-year drought between 1996 and 2004."
+     },
+     {
+      "label": "",
+      "text": "However, some important sites in Gujarat have recently undergone major restoration, and the state government announced in June last year that it plans to restore the stepwells throughout the state."
+     },
+     {
+      "label": "",
+      "text": "In Patan, the state's ancient capital, the stepwell of Rani Ki Vav (Queen's Stepwell) is perhaps the finest current example. It was built by Queen Udayamati during the late 11th century, but became silted up following a flood during the 13th century. But the Archaeological Survey of India began restoring it in the 1960s, and today it is in pristine condition. At 65 metres long, 20 metres wide and 27 metres deep, Rani Ki Vav features 500 sculptures carved into niches throughout the monument. Incredibly, in January 2001, this ancient structure survived an earthquake that measured 7.6 on the Richter scale."
+     },
+     {
+      "label": "",
+      "text": "Another example is the Surya Kund in Modhera, northern Gujarat, next to the Sun Temple, built by King Bhima I in 1026 to honour the sun god Surya. It actually resembles a tank (kund means reservoir or pond) rather than a well, but displays the hallmarks of stepwell architecture, including four sides of steps that descend to the bottom in a stunning geometrical formation. The terraces house 108 small, intricately carved shrines between the sets of steps."
+     },
+     {
+      "label": "",
+      "text": "Rajasthan also has a wealth of wells."
+     },
+     {
+      "label": "",
+      "text": "The ancient city of Bundi, 200 kilometres south of Jaipur, is renowned for its architecture, including its stepwells."
+     },
+     {
+      "label": "",
+      "text": "One of the larger examples is Raniji Ki Baori, which was built by the queen of the region, Nathavatji, in 1699. At 46 metres: deep, 20 metres wide and 40 metres long, the intricately carved monument is one of 21 baoris commissioned in the Bundi area by Nathavatji."
+     },
+     {
+      "label": "",
+      "text": "In the old ruined town of Abhaneri, about 95 kilometres east of Jaipur, is Chand Baori, one of India’s oldest and deepest wells; aesthetically it’s perhaps one of the most dramatic. Built in around 850 AD next to the temple of Harshat Mata, the baori comprises hundreds of zigzagging steps that run along three of its sides, steeply descending 11 storeys, resulting: in a striking pattern when seen from afar. On the fourth side, verandas which are supported by ornate pillars overlook the steps."
+     },
+     {
+      "label": "",
+      "text": "Still in public use is Neemrana Ki Baori, located just off the Jaipur—Delhi highway. Constructed in around 1700, it is nine storeys deep, with the last two being underwater. At ground level, there are 86 colonnaded openings from where the visitor descends 170 steps to the deepest water source, Today, following years of neglect, many of these monuments to medieval engineering have been saved by the Archaeological Survey of India, which has recognised the importance of preserving them as part of the country’s rich history. Tourists flock to wells in far-flung corners of north- western India to gaze in wonder at these architectural marvels from hundreds of years ago, which serve as a reminder of both the ingenuity and artistry of ancient civilisations and of the value of water to human existence."
+     }
+    ]
+   },
+   {
+    "title": "EUROPEAN TRANSPORT SYSTEMS 1990-2010\nWhat have been the trends and what are the prospects for European transport systems?",
+    "groups": [
+     {
+      "type": "matching_headings",
+      "instructions": "Reading Passage 2 has nine paragraphs, A-I.\nChoose the correct heading for paragraphs A-E and G-I from the list of headings below.\n\nWrite the correct number, i-xi, in boxes 14-21 on your answer sheet.",
+      "first": 14,
+      "last": 21,
+      "body": "Example Answer\nParagraph F vii",
+      "options": [
+       {
+        "key": "i",
+        "text": "A fresh and important long-term goal"
+       },
+       {
+        "key": "ii",
+        "text": "Charging for roads and improving other transport methods"
+       },
+       {
+        "key": "iii",
+        "text": "Changes affecting the distances goods may be transported"
+       },
+       {
+        "key": "iv",
+        "text": "Taking all the steps necessary to change transport patterns"
+       },
+       {
+        "key": "v",
+        "text": "The environmental costs of road transport"
+       },
+       {
+        "key": "vi",
+        "text": "The escalating cost of rail transport"
+       },
+       {
+        "key": "vii",
+        "text": "The need to achieve transport rebalance"
+       },
+       {
+        "key": "viii",
+        "text": "The rapid growth of private transport"
+       },
+       {
+        "key": "ix",
+        "text": "Plans to develop major road networks"
+       },
+       {
+        "key": "x",
+        "text": "Restricting road use through charging policies alone"
+       },
+       {
+        "key": "xi",
+        "text": "Transport trends in countries awaiting EU admission"
+       }
+      ],
+      "questions": [
+       {
+        "n": 14,
+        "text": "Paragraph A",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "Paragraph B",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "Paragraph C",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "Paragraph D",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "Paragraph E",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "Paragraph G",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Paragraph H",
+        "options": []
+       },
+       {
+        "n": 21,
+        "text": "Paragraph I",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 2?\n\nIn boxes 22-26 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 22,
+      "last": 26,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 22,
+        "text": "The need for transport is growing, despite technological developments.",
+        "options": []
+       },
+       {
+        "n": 23,
+        "text": "To reduce production costs, some industries have been moved closer to their relevant consumers.",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "Cars are prohibitively expensive in some EU candidate countries.",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "The Gothenburg European Council was set up 30 years ago.",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "By the end of this decade, CO2 emissions from transport are predicted to reach 739 billion tonnes.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "It is difficult to conceive of vigorous economic growth without an efficient transport: system. Although modern information technologies can reduce the demand for physical transport by facilitating teleworking and teleservices, the requirement for transport continues to increase. There are two key factors behind this trend. For passenger transport, the determining factor is the spectacular growth in car use. The number of cars on European Union (EU) roads saw an increase of three million cars each year from 1990 to 2010, and in the next decade the EU will see a further substantial increase in its fleet."
+     },
+     {
+      "label": "B",
+      "text": "As far as goods transport is concerned, growth is due to a large extent to changes in the European economy and its system of production. In the last 20 years, as internal frontiers have been abolished, the EU has moved from a ‘stock’ economy to a ‘flow’ economy. This phenomenon has been emphasised by the relocation of some industries, particularly those which are labour intensive, to reduce production costs, even though the production site is hundreds or even thousands of kilometres away from the final assembly plant or away from users."
+     },
+     {
+      "label": "C",
+      "text": "The strong economic growth expected in countries which are candidates for entry to the EU will also increase transport flows, in particular road haulage traffic. In 1998, some of these countries already exported more than twice their 1990 volumes and imported more than five times their 1990 volumes. And although many candidate countries inherited a transport system which encourages rail, the distribution between modes has tipped sharply in favour of road transport since the 1990s. Between 1990 and 1998, road haulage increased by 19.4%, while during the same period rail haulage decreased by 43.5%, although - and this could benefit the enlarged EU - it is still on average at a much higher level than in existing member states."
+     },
+     {
+      "label": "D",
+      "text": "However, a new imperative - sustainable development - offers an opportunity for adapting the EU's common transport policy. This objective, agreed by the Gothenburg European Council, has to be achieved by integrating environmental considerations into Community policies, and shifting the balance between modes of transport lies at the heart of its strategy. The ambitious objective can only be fully achieved by 2020, but proposed measures are nonetheless a first essential step towards a sustainable transport system which will ideally be in place in 30 years’ time, that is by 2040."
+     },
+     {
+      "label": "E",
+      "text": "In 1998, energy consumption in the transport sector was to blame for 28% of emissions of CO, the leading greenhouse gas. According to the latest estimates, if nothing is done to reverse the traffic growth trend, COz2 emissions from transport can be expected to increase by around 50% to 1,113 billion tonnes by 2020, compared with the 739 billion tonnes recorded in 1990. Once again, road transport is the main culprit since it alone accounts for 84% of the COz emissions attributable to transport. Using alternative fuels and improving energy efficiency is thus both an ecological necessity and a technological challenge."
+     },
+     {
+      "label": "F",
+      "text": "At the same time greater efforts must be made to achieve a modal shift. Such a change cannot be achieved overnight, all the less so after over half a century of constant deterioration in favour of road. This has reached such a pitch that today rail freight services are facing marginalisation, with just 8% of market share, and with international goods trains struggling along at an average speed of 18km/h. Three possible options have emerged."
+     },
+     {
+      "label": "G",
+      "text": "The first approach would consist of focusing on road transport solely through pricing. This option would not be accompanied by complementary measures in the other modes of transport. In the short term it might curb the growth in road transport through the better loading ratio of goods vehicles and occupancy rates of passenger vehicles expected as a result of the increase in the price of transport. However, the lack of measures available to revitalise other modes of transport would make it impossible for more sustainable modes of transport to take up the baton."
+     },
+     {
+      "label": "H",
+      "text": "The second approach also concentrates on road transport pricing but is accompanied by measures to increase the efficiency of the other modes (better quality of services, logistics, technology). However, this approach does not include investment in new infrastructure, nor does it guarantee better regional cohesion. It could help to achieve greater uncoupling than the first approach, but road transport would keep the lion's share of the market and continue to concentrate on saturated arteries, despite being the most polluting of the modes. It is therefore not enough to guarantee the necessary shift of the balance."
+     },
+     {
+      "label": "I",
+      "text": "The third approach, which is not new, comprises a series of measures ranging from pricing to revitalising alternative modes of transport and targeting investment in the trans-European network. This integrated approach would allow the market shares of the other modes to return to their 1998 levels and thus make a shift of balance. It is far more ambitious than it looks, bearing in mind the historical imbalance in favour of roads for the last fifty years, but would achieve a marked break in the link between road transport growth and economic growth, without placing restrictions on the mobility of people and goods."
+     }
+    ]
+   },
+   {
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 27-30 on your answer sheet.",
+      "first": 27,
+      "last": 30,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 27,
+        "text": "The example of the ‘million-dollar quartet’ underlines the writer's point about",
+        "options": [
+         {
+          "key": "A",
+          "text": "recognising talent."
+         },
+         {
+          "key": "B",
+          "text": "working as a team."
+         },
+         {
+          "key": "C",
+          "text": "having a shared objective."
+         },
+         {
+          "key": "D",
+          "text": "being an effective leader."
+         }
+        ]
+       },
+       {
+        "n": 28,
+        "text": "James Watson suggests that he and Francis Crick won the race to discover the DNA code because they",
+        "options": [
+         {
+          "key": "A",
+          "text": "were conscious of their own limitations."
+         },
+         {
+          "key": "B",
+          "text": "brought complementary skills to their partnership."
+         },
+         {
+          "key": "C",
+          "text": "were determined to outperform their brighter rivals."
+         },
+         {
+          "key": "D",
+          "text": "encouraged each other to realise their joint ambition."
+         }
+        ]
+       },
+       {
+        "n": 29,
+        "text": "The writer mentions competitions on breakfast cereal packets as an example of how to",
+        "options": [
+         {
+          "key": "A",
+          "text": "inspire creative thinking."
+         },
+         {
+          "key": "B",
+          "text": "generate concise writing."
+         },
+         {
+          "key": "C",
+          "text": "promote loyalty to a group."
+         },
+         {
+          "key": "D",
+          "text": "strengthen commitment to an idea."
+         }
+        ]
+       },
+       {
+        "n": 30,
+        "text": "In the last paragraph, the writer suggests that it is important for employees to",
+        "options": [
+         {
+          "key": "A",
+          "text": "be aware of their company's goals."
+         },
+         {
+          "key": "B",
+          "text": "feel that their contributions are valued."
+         },
+         {
+          "key": "C",
+          "text": "have respect for their co-workers’ achievements."
+         },
+         {
+          "key": "D",
+          "text": "understand why certain management decisions are made."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_sentence_endings",
+      "instructions": "Complete each sentence with the correct ending, A-G, below.\n\nWrite the correct letter, A-G, in boxes 31-35 on your answer sheet.",
+      "first": 31,
+      "last": 35,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "take chances."
+       },
+       {
+        "key": "B",
+        "text": "share their ideas."
+       },
+       {
+        "key": "C",
+        "text": "become competitive."
+       },
+       {
+        "key": "D",
+        "text": "get promotion."
+       },
+       {
+        "key": "E",
+        "text": "avoid risk."
+       },
+       {
+        "key": "F",
+        "text": "ignore their duties."
+       },
+       {
+        "key": "G",
+        "text": "remain in their jobs."
+       }
+      ],
+      "questions": [
+       {
+        "n": 31,
+        "text": "Employees whose values match those of their employers are more likely to",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "At times of change, people tend to",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "If people are aware of what they might lose, they will often",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "People working under a dominant boss are liable to",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "Employees working in organisations with few rules are more likely to",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "yes_no_not_given",
+      "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3?\n\nIn boxes 36-40 on your answer sheet, write\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+      "first": 36,
+      "last": 40,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 36,
+        "text": "The physical surroundings in which a person works play a key role in determining their creativity.",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "Most people have the potential to be creative.",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "Teams work best when their members are of equally matched intelligence.",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "It is easier for smaller companies to be innovative.",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "A manager's approval of an idea is more persuasive than that of a colleague.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "The psychology of innovation\nWhy are so few companies truly innovative?",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Innovation is key to business survival, and companies put substantial resources into inspiring employees to develop new ideas. There are, nevertheless, people working in luxurious, state-of-the-art centres designed to stimulate innovation who find that their environment doesn’t make them feel at all creative. And there are those who don’t have a budget, or much space, but who innovate successfully."
+     },
+     {
+      "label": "",
+      "text": "For Robert B. Cialdini, Professor of Psychology at Arizona State University, one reason that companies don’t succeed as often as they should is that innovation starts with recruitment. Research shows that the fit between an employee's values and a company’s values makes a difference to what contribution they make and whether, two years after they join, they’re still at the company. Studies at Harvard Business School show that, although some individuals may be more creative than others, almost every individual can be creative in the right circumstances."
+     },
+     {
+      "label": "",
+      "text": "One of the most famous photographs in the story of rock’n’roll emphasises Cialdini’s views. The 1956 picture of singers Elvis Presley, Carl Perkins, Johnny Cash and Jerry Lee Lewis jamming at a piano in Sun Studios in Memphis tells a hidden story. Sun’s ‘million-dollar quartet’ could have been a quintet. Missing from the picture is Roy Orbison, a greater natural singer than Lewis, Perkins or Cash. Sam Phillips, who owned Sun, wanted to revolutionise popular music with songs that fused black and white music, and country and blues. Presley, Cash, Perkins and Lewis instinctively understood Phillips’s ambition and believed in it. Orbison wasn’t inspired by the goal, and only ever achieved one hit with the Sun label."
+     },
+     {
+      "label": "",
+      "text": "The value fit matters, says Cialdini, because innovation is, in part, a process of change, and under that pressure we, as a species, behave differently, ‘When things change, we are hard-wired to play it safe.’ Managers should therefore adopt an approach that appears counter- intuitive — they should explain what stands to be lost if the company fails to seize a particular opportunity. Studies show that we invariably take more gambles when threatened with a loss than when offered a reward."
+     },
+     {
+      "label": "",
+      "text": "Managing innovation is a delicate art. It’s easy for a company to be pulled in conflicting directions as the marketing, product development, and finance departments each get different feedback from different sets of people. And without a system which ensures collaborative exchanges within the company, it’s also easy for small ‘pockets of innovation’ to disappear. Innovation is a contact sport. You can’t brief people just by saying, ‘We’re going in this direction and I'm going to take you with me.’ Cialdini believes that this ‘follow-the- leader syndrome’ is dangerous, not least because it encourages bosses to go it alone. ‘It’s been scientifically proven that three people will be better than one at solving problems, even if that one person is the smartest person in the field.’ To prove his point, Cialdini cites an interview with molecular biologist James Watson. Watson, together with Francis Crick, discovered the structure of DNA, the genetic information carrier of all living organisms. ‘When asked how they had cracked the code ahead of an array of highly accomplished rival investigators, he said something that stunned me. He said he and Crick had succeeded because they were aware that they weren't the most intelligent of the scientists pursuing the answer. The smartest scientist was called Rosalind Franklin who, Watson said, “was so intelligent she rarely sought advice”.’"
+     },
+     {
+      "label": "",
+      "text": "Teamwork taps into one of the basic drivers of human behaviour. ‘The principle of social proof is so pervasive that we don’t even recognise it,’ says Cialdini. ‘If your project is being resisted, for example, by a group of veteran employees, ask another old-timer to speak up for it.’ Cialdini is not alone in advocating this strategy. Research shows that peer power, used horizontally not vertically, is much more powerful than any boss's speech."
+     },
+     {
+      "label": "",
+      "text": "Writing, visualising and prototyping can stimulate the flow of new ideas. Cialdini cites scores of research papers and historical events that prove that even something as simple as writing deepens every individual’s engagement in the project. It is, he says, the reason why all those competitions on breakfast cereal packets encouraged us to write in saying, in no more than 10 words: ‘I like Kellogg's Corn Flakes because... .’ The very act of writing makes us more likely to believe it."
+     },
+     {
+      "label": "",
+      "text": "Authority doesn’t have to inhibit innovation but it often does. The wrong kind of leadership will lead to what Cialdini calls ‘captainitis, the regrettable tendency of team members to opt out of team responsibilities that are properly theirs’. He calls it captainitis because, he says, ‘crew members of multipilot aircraft exhibit a sometimes deadly passivity when the flight captain makes a clearly wrong-headed decision’. This behaviour is not, he says, unique to air travel, but can happen in any workplace where the leader is overbearing."
+     },
+     {
+      "label": "",
+      "text": "At the other end of the scale is the 1980s Memphis design collective, a group of young designers for whom ‘the only rule was that there were no rules’. This environment encouraged a free interchange of ideas, which led to more creativity with form, function, colour and materials that revolutionised attitudes to furniture design."
+     },
+     {
+      "label": "",
+      "text": "Many theorists believe the ideal boss should lead from behind, taking pride in collective accomplishment and giving credit where it is due. Cialdini says: ‘Leaders should encourage everyone to contribute and simultaneously assure all concerned that every recommendation is important to making the right decision and will be given full attention.’ The frustrating thing about innovation is that there are many approaches, but no magic formula. However, a manager who wants to create a truly innovative culture can make their job a lot easier by recognising these psychological realities."
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "FALSE",
+   "2": "TRUE",
+   "3": "NOT GIVEN",
+   "4": "NOT GIVEN",
+   "5": "TRUE",
+   "6": "pavilions",
+   "7": "drought",
+   "8": "tourists",
+   "9": "earthquake",
+   "10": "4/four sides",
+   "11": "tank",
+   "12": "verandas/verandahs",
+   "13": "underwater",
+   "14": "viii",
+   "15": "iii",
+   "16": "xi",
+   "17": "i",
+   "18": "v",
+   "19": "x",
+   "20": "ii",
+   "21": "iv",
+   "22": "TRUE",
+   "23": "FALSE",
+   "24": "NOT GIVEN",
+   "25": "NOT GIVEN",
+   "26": "FALSE",
+   "27": "C",
+   "28": "A",
+   "29": "D",
+   "30": "B",
+   "31": "G",
+   "32": "E",
+   "33": "A",
+   "34": "F",
+   "35": "B",
+   "36": "NO",
+   "37": "YES",
+   "38": "NOT GIVEN",
+   "39": "NOT GIVEN",
+   "40": "NO"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe first chart below shows how energy is used in an average Australian\nhousehold. The second chart shows the greenhouse gas emissions which\nresult from this energy use.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 31,
+   "image": "figures/p031.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nPresent a written argument or case to an educated reader with no specialist knowledge\nof the following topic.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Weekends",
+    "questions": [
+     "How do you usually spend your weekends? [Why?]",
+     "Do you think your weekends are long enough? [Why/Why not?]",
+     "Which is your favourite part of the weekend? [Why?]",
+     "How important do you think it is to have free time at the weekends? [Why?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe someone you know who does something well.",
+   "points": [
+    "who this person is",
+    "how you know this person",
+    "what they do well"
+   ],
+   "rounding_off": [
+    "and explain why you think this person is so good at doing this."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Skills and abilities",
+    "questions": [
+     "What skills and abilities do people most want to have today? Why?",
+     "Which skills should children learn at school? Are there any skills which they should learn at home? What are they?",
+     "Which skills do you think will be important in the future? Why?"
+    ]
+   },
+   {
+    "topic": "Salaries for skilled people",
+    "questions": [
+     "Which kinds of jobs have the highest salaries in your country? Why is this?",
+     "Are there any other jobs that you think should have high salaries? Why do you think that?",
+     "Some people say it would be better for society if everyone got the same salary. What do you think about that? Why?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

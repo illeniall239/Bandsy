@@ -1,0 +1,1228 @@
+{
+ "book": 13,
+ "test": 2,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 1,
+      "last": 10,
+      "body": "South City Cycling Club\nExample\nName of club secretary: Jim Hunter\n\nMembership\n• Full membership costs $260; this covers cycling and [[1]] all over Australia\n• Recreational membership costs $108\n• Cost of membership includes the club fee and [[2]]\n• The club kit is made by a company called [[3]]\n\nTraining rides\n• Chance to improve cycling skills and fitness\n• Level B: speed about [[4]] kph\n• Weekly sessions\n  – Tuesdays at 5.30 am, meet at the [[5]]\n  – Thursdays at 5.30 am, meet at the entrance to the [[6]]\n\nFurther information\n• Rides are about an hour and a half\n• Members often have [[7]] together afterwards\n• There is not always a [[8]] with the group on these rides\n• Check and print the [[9]] on the website beforehand\n• Bikes must have [[10]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 31,
+      "image": "figures/p031.png"
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Questions 11-16\nChoose the correct letter, A, B or C.\n\nInformation on company volunteering projects",
+      "first": 11,
+      "last": 16,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 11,
+        "text": "How much time for volunteering does the company allow per employee?",
+        "options": [
+         {
+          "key": "A",
+          "text": "two hours per week"
+         },
+         {
+          "key": "B",
+          "text": "one day per month"
+         },
+         {
+          "key": "C",
+          "text": "8 hours per year"
+         }
+        ]
+       },
+       {
+        "n": 12,
+        "text": "In feedback almost all employees said that volunteering improved their",
+        "options": [
+         {
+          "key": "A",
+          "text": "chances of promotion."
+         },
+         {
+          "key": "B",
+          "text": "job satisfaction."
+         },
+         {
+          "key": "C",
+          "text": "relationships with colleagues."
+         }
+        ]
+       },
+       {
+        "n": 13,
+        "text": "Last year some staff helped unemployed people with their",
+        "options": [
+         {
+          "key": "A",
+          "text": "literacy skills."
+         },
+         {
+          "key": "B",
+          "text": "job applications."
+         },
+         {
+          "key": "C",
+          "text": "communication skills."
+         }
+        ]
+       },
+       {
+        "n": 14,
+        "text": "This year the company will start a new volunteering project with a local",
+        "options": [
+         {
+          "key": "A",
+          "text": "school."
+         },
+         {
+          "key": "B",
+          "text": "park."
+         },
+         {
+          "key": "C",
+          "text": "charity."
+         }
+        ]
+       },
+       {
+        "n": 15,
+        "text": "Where will the Digital Inclusion Day be held?",
+        "options": [
+         {
+          "key": "A",
+          "text": "at the company's training facility"
+         },
+         {
+          "key": "B",
+          "text": "at a college"
+         },
+         {
+          "key": "C",
+          "text": "in a community centre"
+         }
+        ]
+       },
+       {
+        "n": 16,
+        "text": "What should staff do if they want to take part in the Digital Inclusion Day?",
+        "options": [
+         {
+          "key": "A",
+          "text": "fill in a form"
+         },
+         {
+          "key": "B",
+          "text": "attend a training workshop"
+         },
+         {
+          "key": "C",
+          "text": "get permission from their manager"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 32,
+      "image": "figures/p032.png"
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Questions 17 and 18\nChoose TWO letters, A-E.",
+      "first": 17,
+      "last": 18,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "They were all over 70."
+       },
+       {
+        "key": "B",
+        "text": "They never used their computer."
+       },
+       {
+        "key": "C",
+        "text": "Their phones were mostly old-fashioned."
+       },
+       {
+        "key": "D",
+        "text": "They only used their phones for making calls."
+       },
+       {
+        "key": "E",
+        "text": "They initially showed little interest."
+       }
+      ],
+      "questions": [
+       {
+        "n": 17,
+        "text": "What TWO things are mentioned about the participants on the last Digital Inclusion Day?",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "What TWO things are mentioned about the participants on the last Digital Inclusion Day?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 33,
+      "image": "figures/p033.png"
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Questions 19 and 20\nChoose TWO letters, A-E.",
+      "first": 19,
+      "last": 20,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "learning to use tablets"
+       },
+       {
+        "key": "B",
+        "text": "communicating with family"
+       },
+       {
+        "key": "C",
+        "text": "shopping online"
+       },
+       {
+        "key": "D",
+        "text": "playing online games"
+       },
+       {
+        "key": "E",
+        "text": "sending emails"
+       }
+      ],
+      "questions": [
+       {
+        "n": 19,
+        "text": "What TWO activities on the last Digital Inclusion Day did participants describe as useful?",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "What TWO activities on the last Digital Inclusion Day did participants describe as useful?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 33,
+      "image": "figures/p033.png"
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Questions 21-25\nChoose the correct letter, A, B or C.\n\nPlanning a presentation on nanotechnology",
+      "first": 21,
+      "last": 25,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "Russ says that his difficulty in planning the presentation is due to",
+        "options": [
+         {
+          "key": "A",
+          "text": "his lack of knowledge about the topic."
+         },
+         {
+          "key": "B",
+          "text": "his uncertainty about what he should try to achieve."
+         },
+         {
+          "key": "C",
+          "text": "the short time that he has for preparation."
+         }
+        ]
+       },
+       {
+        "n": 22,
+        "text": "Russ and his tutor agree that his approach in the presentation will be",
+        "options": [
+         {
+          "key": "A",
+          "text": "to concentrate on how nanotechnology is used in one field."
+         },
+         {
+          "key": "B",
+          "text": "to follow the chronological development of nanotechnology."
+         },
+         {
+          "key": "C",
+          "text": "to show the range of applications of nanotechnology."
+         }
+        ]
+       },
+       {
+        "n": 23,
+        "text": "In connection with slides, the tutor advises Russ to",
+        "options": [
+         {
+          "key": "A",
+          "text": "talk about things that he can find slides to illustrate."
+         },
+         {
+          "key": "B",
+          "text": "look for slides to illustrate the points he makes."
+         },
+         {
+          "key": "C",
+          "text": "consider omitting slides altogether."
+         }
+        ]
+       },
+       {
+        "n": 24,
+        "text": "They both agree that the best way for Russ to start his presentation is",
+        "options": [
+         {
+          "key": "A",
+          "text": "to encourage the audience to talk."
+         },
+         {
+          "key": "B",
+          "text": "to explain what Russ intends to do."
+         },
+         {
+          "key": "C",
+          "text": "to provide an example."
+         }
+        ]
+       },
+       {
+        "n": 25,
+        "text": "What does the tutor advise Russ to do next while preparing his presentation?",
+        "options": [
+         {
+          "key": "A",
+          "text": "summarise the main point he wants to make"
+         },
+         {
+          "key": "B",
+          "text": "read the notes he has already made"
+         },
+         {
+          "key": "C",
+          "text": "list the topics he wants to cover"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 34,
+      "image": "figures/p034.png"
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Questions 26-30\nWhat comments do the speakers make about each of the following aspects of Russ's previous presentation?\n\nChoose FIVE answers from the box and write the correct letter, A-G, next to Questions 26-30.",
+      "first": 26,
+      "last": 30,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "lacked a conclusion"
+       },
+       {
+        "key": "B",
+        "text": "useful in the future"
+       },
+       {
+        "key": "C",
+        "text": "not enough"
+       },
+       {
+        "key": "D",
+        "text": "sometimes distracting"
+       },
+       {
+        "key": "E",
+        "text": "showed originality"
+       },
+       {
+        "key": "F",
+        "text": "covered a wide range"
+       },
+       {
+        "key": "G",
+        "text": "not too technical"
+       }
+      ],
+      "questions": [
+       {
+        "n": 26,
+        "text": "structure",
+        "options": []
+       },
+       {
+        "n": 27,
+        "text": "eye contact",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "body language",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "choice of words",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "handouts",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 35,
+      "image": "figures/p035.png"
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "Episodic memory\n• the ability to recall details, e.g. the time and [[31]] of past events\n• different to semantic memory - the ability to remember general information about the [[32]] , which does not involve recalling [[33]] information\n\nForming episodic memories involves three steps:\n\nEncoding\n• involves receiving and processing information\n• the more [[34]] given to an event, the more successfully it can be encoded\n• to remember a [[35]] , it is useful to have a strategy for encoding such information\n\nConsolidation\n• how memories are strengthened and stored\n• most effective when memories can be added to a [[36]] of related information\n• the [[37]] of retrieval affects the strength of memories\n\nRetrieval\n• memory retrieval often depends on using a prompt, e.g. the [[38]] of an object near to the place where you left your car\n\nEpisodic memory impairments\n• these affect people with a wide range of medical conditions\n• games which stimulate the [[39]] have been found to help people with schizophrenia\n• Children with autism may have difficulty forming episodic memories – possibly because their concept of the [[40]] may be absent\n• memory training may help autistic children develop social skills",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 36,
+      "image": "figures/p036.png"
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "races",
+   "2": "insurance",
+   "3": "Jerriz",
+   "4": "25 / twenty-five",
+   "5": "stadium",
+   "6": "park",
+   "7": "coffee",
+   "8": "leader",
+   "9": "route",
+   "10": "lights",
+   "11": "C",
+   "12": "B",
+   "13": "C",
+   "14": "B",
+   "15": "B",
+   "16": "A",
+   "17": "C (IN EITHER ORDER)",
+   "18": "E (IN EITHER ORDER)",
+   "19": "B (IN EITHER ORDER)",
+   "20": "D (IN EITHER ORDER)",
+   "21": "B",
+   "22": "A",
+   "23": "C",
+   "24": "C",
+   "25": "A",
+   "26": "A",
+   "27": "C",
+   "28": "D",
+   "29": "G",
+   "30": "B",
+   "31": "location",
+   "32": "world",
+   "33": "personal",
+   "34": "attention",
+   "35": "name",
+   "36": "network",
+   "37": "frequency",
+   "38": "colour / color",
+   "39": "brain",
+   "40": "self"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 13/IELTS13-Test 2-4CD1Track_05.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 13/IELTS13-Test 2-4CD1Track_06.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 13/IELTS13-Test 2-4CD1Track_07.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 13/IELTS13-Test 2-4CD1Track_08.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "JIM: Hello, South City Cycling Club.\nWOMAN: Oh, hi. Er... I want to find out about joining the club.\nJIM: Right. I can help you there. I'm the club secretary and my name's Jim Hunter.\nWOMAN: Oh, hi Jim.\nJIM: So, are you interested in membership for yourself?\nWOMAN: That's right\nJIM: OK. Well there are basically two types of adult membership. If you're pretty serious\nabout cycling, there's the Full membership. That costs 260 dollars and that covers you not just for ordinary cycling, but also for races both here in the city and also in other parts of Australia.\nWOMAN: Right. Well, I'm not really up to that standard. I was more interested in just joining a\ngroup to do some cycling in my free time.\n\nJIM: Sure. That's why most people join. So, in that case you'd be better with the\nRecreational membership. That's 108 dollars if you're over 19, and 95 dollars if\nyou're under.\n\nWOMAN: I'm 25.\n\nJIM: Okay. It's paid quarterly and you can upgrade it later to the Full membership if\nyou won't need that, of course.\nWOMAN: No. OK, well, I'll go with the Recreational membership, I think. And that allows me\nto join in the club activities, and so on?\nJIM: That's right And once you're a member of the club, you're also permitted to wear\n‘our kit when you're out cycling. It's green and white.\nWOMAN: Yes, I've seen cyclists wearing it. So, can I buy that at the club?\nJIM: No, it’s made to order by a company in Brisbane, You can find them online: theyre\ncalled Jerriz. That's J-E-R-R-I-Z, You can use your membership number to put in an\norder on their website.\nWOMAN: OK. Now, can you tell me a bit about the rides I can do?\nJIM: Sure. So we have training rides pretty well every morning, and they're a really\ngood way of improving your cycling skills as well as your general level of fitness,\nbut they're different levels. Level A is pretty fast - you're looking at about 30 or 35\nkilometres an hour, If you can do about 25 kilometres an hour, you'd probably be level B, and then level C are the novices, who stay at about 15 kilometres per hour.\nWOMAN: Right. Well I reckon I'd be level B. So, when are the sessions for that level?\nJIM: There are a couple each week. They're both early morning sessions. There's one on Tuesdays. And for that one, you meet at 5.30 a.m. and the meeting points, the stadium. Do you know where that is?\nWOMAN: Yes, it's quite near a my home, in fact. OK and how about the other one?\n\nJIM: That's on Thursdays. It starts at the same time, but they meet at the main gate to the park.\nWOMAN: Is that the one just past the shopping mall?\nJIM: That's it\nWOMAN: So how long are the rides?\nThey're about an hour and a half.\n\nJIM: So, if YOU have a job it's easy to fit in before you\nquite a social event. » SO it's\nWOMAN: OK. That sounds good. I've only Just Moved to the city so I don't actually know many people yet.\nJIM: Well, it's a great way to meet People,\nWOMAN: And does each ride have a leader?\nJIM: Sometimes, but not always. But you don't really need one: the group members on \nthe ride support one another, anyway.\nWOMAN: How would we know where to go?\n\nJIM: If you check the club website, you'll see that the route for each ride is clearly\nmarked. So you can just print that out and take it along with you. It's similar from\none week to another, but it's not always exactly the same,\nWOMAN: And what do I need to bring?\n\nJIM: Well, bring a bottle of water, and your phone. You shouldn't use it while you're\ncycling, but have it with you.\n\nWOMAN: Right.\n\nJIM: And in winter, it's well before sunrise when we set Out, So you need to make sure\nyour bike's got lights.\n\nWOMAN: That's OK. Well, thanks Jim. I'd definitely like to join. So what's the best way of\ngoing about it?\nJIM: You can ..."
+   },
+   {
+    "part": 2,
+    "text": "Thanks for coming everyone. OK, so this meeting is for new staff and staff who haven't been\ninvolved with our volunteering projects yet. So basically, the idea is that we allow staff to give\nUp some of their work time to help on various charity projects to benefit the local community.\nWe've been doing this for the last five years and it's been very successful.\n\nParticipating doesn't necessarily involve a huge time commitment. The company will pay for\neight hours of your time. That can be used over one or two days all at once, or spread over\nSeveral months throughout the year. There are some staff who enjoy volunteering so much\nthey also give up their own free time for a couple of hours every week. It's completely up to\nyou, Obviously, many people will have family commitments and aren't as available as other\nmembers of staff.\nFeedback from staff has been overwhelmingly positive. Because they felt they were doing something really useful, nearly everyone agreed tha\nGoing\nMore motiva . They also liked building relationships with the people in the local\ncommunity and felt valued by them, One or two people also sai\nOn their CVs,\nid it was a good thing to have\non their CVs. One particularly successful project last year was the Get Working Project. This was aimed at helping unemployed people in the area get back to work. Our staff were able to help them improve their telephone skills, such as writing down messages and speaking with confidence to potential customers, which they had found quite difficult. This is something many employers look for in job applicants, and something we all do without even thinking about every day at work.\nWe've got an exciting new project starting this year. Up until now, we've mainly focused\n‘on projects to do with education and training. And we'll continue with our reading project in\nschools and our work with local charities. But we've also agreed to help out on a conservation\nproject in Redfern Park. So if any of you fancy being outside and getting your hands dirty, this\nis the project for you.\n\nI also want to mention the annual Digital Inclusion Day, which is coming up next month. The\naim of this is to help older people keep up with technology, and this year, instead of hosting the event in our own training facility, we're using the ICT suite at Hill College, as it can hold far more people.\nWe've invited over 60 people from the Silver Age Community Centre to take part, so we'll\nneed a lot of volunteers to help with this event.\n\ncomplete the relevant form We won be providing any training for this but you'l be paired\nwith an experienced volunteer if you've never done it before. By the way, don't forget to tell\nyour manager about any volunteering activities you decide to do.\n\nThe participants on the Digital Inclusion Day really benefited. The majority were in their\nseventies, though some were younger, and a few were even in their nineties! Quite a few\nowned both a computer and a\nmobile phone, but these tended to be outdated models. They generally knew how to do simple things, like send texts, but weren't aware of recent developments in mobile phone technology. A few were keen to learn, but most were quite dismissive at first. They couldn't see the point of updating their skills, but that soon changed. The feedback was very positive. The really encouraging thing was that participants all said they felt much more confident about using social media to keep in touch with their grandchildren, who prefer this form of communication to phoning or sending emails. A lot of them also said playing online games would help them make new friends and keep their brains active. They weren't that impressed with being able to order their groceries online as\nthey liked going out to the shops, but some said it would come in handy if they were ill or the\nweather was really bad. One thing they asked about was using tablets for things like reading\nnewspapers — some people had been given tablets as presents but had never used them, so\nthat's something we'll make sure we include this time ."
+   },
+   {
+    "part": 3,
+    "text": "TUTOR: Ah... come in, Russ.\n\nRUSS: Thank you\nTUTOR: Now you wanted to consult me about your class presentation on nanotechnology —\nyou're due to give it in next week, aren't you?\n\nRUSS: That's right. And I'm really struggling. I chose the topic because I didn't know much\nabout it and wanted to learn more, but now I've read so much about it, ina way\nto learn more, but now I've read so much about it in a way there's too much to say. I could talk for much longer than the 20 minutes I've been allocated. Should I assume the other students don't know much and give them a kind of general introduction? Or should I try and make them share my fascination with a particular aspect?\nTUTOR: You could do either, but you'll need to have it clear in your own mind.\n\nRUSS: Then I think I'll give an overview.\n\nTUTOR: OK. Now, one way of approaching this is to work through developments in\nchronological order.\n\nRUSS: Uh-huh.\nTUTOR: On the other hand, you could talk about the numerous ways that nanotechnology is\nbeing applied.\nRUSS: You mean things like thin films on camera displays to make them water repellent\nand additives to make: motorcycle helmets stronger and lighter.\nTUTOR: Exactly. Ora 2\nmedicine, or space exploration.\nRUSS: That would make it easier to focus. Perhaps I should do that.\nTUTOR: think that would be a good idea\nRUSS: Right. How important is it to include slides in the presentation?\nTUTOR: They aren't essential, by any means. And there's a danger of tailoring what you say\nto fit teach slides you can find, While it can be good to include slides, you could end up spending too long looking for\nthem out\nRUSS: see. Another thing I was wondering about was how to start. I know presentations\noften begin with ‘First I'm going to talk about this, and then I'll talk about that’, but I\nthought about asking the audience what they know about nanotechnology.\nTUTOR: That would be fine if you had an hour or two for the presentation, but you might find\nthat you can't do anything with the answers you get, and it simply eats into the short time that's available.\nRUSS: So maybe I should mention a particular way that nanotechnology is used to focus people's attention.\nTUTOR: That sounds sensible.\nRUSS: What do you think I should do next? I really have to plan the presentation today and\ntomorrow.\nTUTOR: ‘Well, initially I think you pet ignore all the notes you ve mace, takea small pace\nof paper, and write a\nsingle short sentence that ties together the whole presentation.\nit can be something as simple as \"Nanotechnology is ‘already improving our lives’,\nThen start planning the content around that. You can always modify that sentence\nlater, if you need to.\nRUSS: OK.\nTUTOR: OK, now let's think about actually giving the presentation. You've only given one\nbefore, if I remember correctly, about an experiment you'd been involved in.\nRUSS: That's right. It was pretty rubbish!\nTUTOR: Let's say it was better in some respects than in others. With regard to the structure. I\nfelt that you ended rather abruptly, without rounding it off. Be careful not to do that in\nnext week's presentation.\nRUSS: Oh dear What did you think of the Tanguage? 1 knew that not everyone was familiar\nwith the subject, so I tried to make it as simple as I could.\nTUTOR: Yes, that came across. You used a few words that are specific to the field, but you always explained what they meant so the audience wouldn't have had any difficulty understanding.\nTUTOR: I must say the handouts you prepared were well thought out. They were a good\nsummary of your presentation which people would have been able to refer to later on. So\nwell done on that.\n\nRUSS: Thank you.\n\nTUTOR: Well, I hope that helps you with next week's presentation,\nRUSS: Yes, it will. Thanks a lot.\n\nTUTOR: I'll look forward to seeing a big improvement, then."
+   },
+   {
+    "part": 4,
+    "text": "Today, we'll be continuing the series of lectures on memory by focusing on what is called\nepisodic memory and what can happen if this is not working properly.\n\nEpisodic memory refers to the memory of an event or ‘episode’. Episodic memories allow us\nto mentally travel back in time to an event from the past. Episodic memories include various\nas the location. To help understand this concept, try to remember the last time you ate dinner\nat a restaurant. The ability to remember where you ate, who you were with and the items you\nordered are all features of an episodic memory.\n\nEpisodic memory is distinct from another type of memory called semantic memory. This is.\nknowledge of the world To build upon a a previous example, remembering where you parked\nyour car is an example of episodic memory, but your understanding of what a car is and\nhow an engine works are examples of semantic memory. Unlike episodic memory, semantic memory isn't dependent on recalling personal experiences. Episodic memory can be thought of as a process with several different steps of memory\nPROCESSING: encoding, consolidation and retrieval.\n\nThe initial step is called encoding. This involves the process of receiving and registering\ninformation, which is necessary for creating memories of information or events that you experience. The degree to which you can successfully encode information depends on the level of attention you give to an event while it's actually happening. Being distracted can\nmake ‘effective encoding very difficult. Encoding of episode memories is also influenced by\nhow you pets the event. For example, if you were introduced to someone called Charlie, you might make the connection that your uncle has the same name. Future recollection of Charlie's name is much easier if you have a strategy to help you encode it.\nMemory consolidation, the next step in forming an episodic memory, is the process by which\nmemories of encoded information are strengthened, stabilized and stored to facilitate later\nretrieval Consolidation is most effective when the information being stored can be linked to\nan existing network of information, “Consolidation makes it possible for ‘you to store memories\nyou try to retrieve them. Memories can fade or become harder to retrieve if they aren't used\nvery often.\n\nThe last step in forming episodic memories is called retrieval, which is the conscious\nrecollection of encoded information. Retrieving information from episodic memory depends\nupon semantic, olfactory, auditory and visual factors. These help episodic memory retrieval by acting as a prompt. For example, when recalling where you parked your car, you may use\nthe colour of a sign close to where you parked. You actually have to mentally travel back to\nthe moment you parked.\nThere are a wide range of neurological diseases and conditions that can affect episodic\nmemory. These range from Alzheimer's to schizophrenia to autism. An impairment of episodic\nmemory can have a profound effect on individuals’ lives. For example, the symptoms of\nschizophrenia can be reasonably well controlled by medication; however, patients’ episodic\nmemory may still be impaired ‘and so they: are often unable to return to sed or work,\nRecent studies have shown that computer-assisted games designed to keep the brain active can help improve their episodic memory. Episodic memories can help people connect with others, for instance by sharing intimate details about their past. Something individuals with autism often have problems with. This may be caused by an absence of a sense of self. This is essential for the storage of episodic\nmemory, and has been found to be impaired in children with autism. Research has shown\nthat treatments that improve memory may also have a positive impact on children’s social\ndevelopment.\n\nOne study looked at a"
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 1-9 on your answer sheet.",
+      "first": 1,
+      "last": 9,
+      "body": "The Early History of Cinnamon\n\nBiblical times:\n- added to [[1]]\n- use to show [[2]] between people\n\nAncient Rome:\n- used for its sweet smell at [[3]]\n\nMiddle Ages:\n- added to food, especially meat\n- was an indication of a person's [[4]]\n- known as a treatment for [[5]] and other health problems\n- grown in [[6]]\n- merchants used [[7]] to bring it to the Mediterranean\n- arrived in the Mediterranean at [[8]]\n- traders took it to [[9]] and sold it to destinations around Europe",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "added to [[1]]",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "use to show [[2]] between people",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "used for its sweet smell at [[3]]",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "was an indication of a person's [[4]]",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "known as a treatment for [[5]] and other health problems",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "grown in [[6]]",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "merchants used [[7]] to bring it to the Mediterranean",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "arrived in the Mediterranean at [[8]]",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "traders took it to [[9]] and sold it to destinations around Europe",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1?\n\nIn boxes 10-13 on your answer sheet, write\n\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 10,
+      "last": 13,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 10,
+        "text": "The Portuguese had control over the cinnamon trade in Ceylon throughout the 16th century.",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "The Dutch took over the cinnamon trade from the Portuguese as soon as they arrived in Ceylon.",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "The trees planted by the Dutch produced larger quantities of cinnamon than the wild trees.",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "The spice trade maintained its economic importance during the 19th century.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "Bringing cinnamon to Europe",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Cinnamon is a sweet, fragrant spice produced from the inner bark of trees of the genus Cinnamomum, which is native to the Indian sub-continent. It was known in biblical times, and is mentioned in several books of the Bible, both as an ingredient that was mixed with oils for anointing people's bodies, and also as a token indicating friendship among lovers and friends. In ancient Rome, mourners attending funerals burnt cinnamon to create a pleasant scent. Most often, however, the spice found its primary use as an additive to food and drink. In the Middle Ages, Europeans who could afford the spice used it to flavour food, particularly meat, and to impress those around them with their ability to purchase an expensive condiment from the ‘exotic’ East. At a banquet, a host would offer guests a plate with various spices piled upon it as a sign of the wealth at his or her disposal. Cinnamon was also reported to have health benefits, and was thought to cure various ailments, such as indigestion."
+     },
+     {
+      "label": "",
+      "text": "Toward the end of the Middle Ages, the European middle classes began to desire the lifestyle of the elite, including their consumption of spices. This led to a growth in demand for cinnamon and other spices. At that time, cinnamon was transported by Arab merchants, who closely guarded the secret of the source of the spice from potential rivals. They took it from India, where it was grown, on camels via an overland route to the Mediterranean. Their journey ended when they reached Alexandria. European traders sailed there to purchase their supply of cinnamon, then brought it back to Venice. The spice then travelled from that great trading city to markets all around Europe. Because the overland trade route allowed for only small quantities of the spice to reach Europe, and because Venice had a virtual monopoly of the trade, the Venetians could set the price of cinnamon exorbitantly high. These prices, coupled with the increasing demand, spurred the search for new routes to Asia by Europeans eager to take part in the spice trade Seeking the high profits promised by the cinnamon market, Portuguese traders arrived on the island of Ceylon in the Indian Ocean toward the end of the 15th century. Before Europeans arrived on the island, the state had organized the cultivation of cinnamon. People belonging to the ethnic group called the Salagama would peel the bark off young shoots of the cinnamon plant in the rainy season, when the wet bark was more pliable. During the peeling process, they curled the bark into the ‘stick’ shape still associated with the spice today. The Salagama then gave the finished product to the king as a form of tribute. When the Portuguese arrived, they needed to increase production significantly, and so enslaved many other members of the Ceylonese native population, forcing them to work in cinnamon harvesting. In 1518, the Portuguese built a fort on Ceylon, which enabled them to protect the island, so helping them to develop a monopoly in the cinnamon trade and generate very high profits. In the late 16th century, for example, they enjoyed a tenfold profit when shipping cinnamon over a journey of eight days from Ceylon to India."
+     },
+     {
+      "label": "",
+      "text": "When the Dutch arrived off the coast of southern Asia at the very beginning of the 17th century, they set their sights on displacing the Portuguese as kings of cinnamon The Dutch allied themselves with Kandy, an inland kingdom on Ceylon. In return for payments of elephants and cinnamon, they protected the native king from the Portuguese. By 1640, the Dutch broke the 150-year Portuguese monopoly when they overran and occupied their factories. By 1658, they had permanently expelled the Portuguese from the island, thereby gaining control of the lucrative cinnamon trade."
+     }
+    ]
+   },
+   {
+    "title": "Oxytocin",
+    "groups": [
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 2 has six paragraphs, A-F.\n\nWhich paragraph contains the following information?\n\nWrite the correct letter, A-F, in boxes 14-17 on your answer sheet.\nNB You may use any letter more than once.",
+      "first": 14,
+      "last": 17,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 14,
+        "text": "reference to research showing the beneficial effects of oxytocin on people",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "reasons why the effects of oxytocin are complex",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "mention of a period in which oxytocin attracted little scientific attention",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "reference to people ignoring certain aspects of their research data",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Look at the following research findings (Questions 18-20) and the list of researchers below.\n\nMatch each research finding with the correct researcher, A-F.\nWrite the correct letter, A-F, in boxes 18-20 on your answer sheet.",
+      "first": 18,
+      "last": 20,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Markus Heinrichs"
+       },
+       {
+        "key": "B",
+        "text": "Simone Shamay-Tsoory"
+       },
+       {
+        "key": "C",
+        "text": "Jennifer Bartz"
+       },
+       {
+        "key": "D",
+        "text": "Carolyn DeClerck"
+       },
+       {
+        "key": "E",
+        "text": "Carsten De Dreu"
+       },
+       {
+        "key": "F",
+        "text": "Sue Carter"
+       }
+      ],
+      "questions": [
+       {
+        "n": 18,
+        "text": "People are more trusting when affected by oxytocin.",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "Oxytocin increases people's feelings of jealousy.",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "The effect of oxytocin varies from one type of person to another.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\nChoose ONE WORD ONLY from the Passage for each answer.\nWrite your answers in boxes 21-26 on your answer sheet.",
+      "first": 21,
+      "last": 26,
+      "body": "Oxytocin research\n\nThe earliest findings about oxytocin and bonding came from research involving [[21]] . It was also discovered that humans produce oxytocin during [[22]] . An experiment in 2005, in which participants were given either oxytocin or a [[23]] , reinforced the belief that the hormone had a positive effect.\n\nHowever, later research suggests that this is not always the case. A study at the University of Haifa where participants took part in a [[24]] revealed the negative emotions which oxytocin can trigger. A study at the University of Antwerp showed people's lack of willingness to help [[25]] while under the influence of oxytocin. Meanwhile, research at the University of Amsterdam revealed that people who have been given oxytocin consider [[26]] that are familiar to them in their own country to have more positive associations than those from other cultures.",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 23,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "The positive and negative effects of the chemical known as the ‘love hormone"
+     },
+     {
+      "label": "A",
+      "text": "Oxytocin is a chemical, a hormone produced in the pituitary gland in the brain. It was through various studies focusing on animals that scientists first became aware of the influence of oxytocin. They discovered that it helps reinforce the bonds between prairie voles, which mate for life, and triggers the motherly behaviour that sheep show towards their newborn lambs. It is also released by women in childbirth, strengthening the attachment between mother and baby. Few chemicals have as positive a reputation as oxytocin, which is sometimes referred to as the ‘love hormone’. One sniff of it can, it is claimed, make a person more trusting, empathetic, generous and cooperative. It is time, however, to revise this wholly optimistic view. A new wave of studies has shown that its effects vary greatly depending on the person and the circumstances, and it can impact on our social interactions for worse as well as for better."
+     },
+     {
+      "label": "B",
+      "text": "Oxytocin’s role in human behaviour first emerged in 2005. In a groundbreaking experiment, Markus Heinrichs and his colleagues at the University of Freiburg, Germany, asked volunteers to do an activity in which they could invest money with an anonymous person who was not guaranteed to be honest. The team found that participants who had sniffed oxytocin via a nasal spray beforehand invested more money than those who received a placebo instead. The study was the start of research into the effects of oxytocin on human interactions. ‘For eight years, it was quite a lonesome field,’ Heinrichs recalls. ‘Now, everyone is interested.’ These follow-up studies have shown that after a sniff of the hormone, people become more charitable, better at reading emotions on others’ faces and at communicating constructively in arguments. Together, the results fuelled the view that oxytocin universally enhanced the positive aspects of our social nature."
+     },
+     {
+      "label": "C",
+      "text": "Then, after a few years, contrasting findings began to emerge. Simone Shamay- Tsoory at the University of Haifa, Israel, found that when volunteers played a competitive game, those who inhaled the hormone showed more pleasure when they beat other players, and felt more envy when others won. What's more, administering oxytocin also has sharply contrasting outcomes depending on a person's disposition. Jennifer Bartz from Mount Sinai School of Medicine, New York, found that it improves people's ability to read emotions, but only if they are not very socially adept to begin with. Her research also shows that oxytocin in fact reduces cooperation in subjects who are particularly anxious or sensitive to rejection."
+     },
+     {
+      "label": "D",
+      "text": "Another discovery is that oxytocin's effects vary depending on who we are interacting with. Studies conducted by Carolyn DeClerck of the University of Antwerp, Belgium, revealed that people who had received a dose of oxytocin actually became less cooperative when dealing with complete strangers. Meanwhile, Carsten De Dreu at the University of Amsterdam in the Netherlands discovered that volunteers given oxytocin showed favouritism: Dutch men became quicker to associate positive words with Dutch names than with foreign ones, for example. According to De Dreu, oxytocin drives people to care for those in their social circles and defend them from outside dangers. So, it appears that oxytocin strengthens biases, rather than promoting general goodwill, as was previously thought."
+     },
+     {
+      "label": "E",
+      "text": "There were signs of these subtleties from the start. Bartz has recently shown that in almost half of the existing research results, oxytocin influenced only certain individuals or in certain circumstances. Where once researchers took no notice of such findings, now a more nuanced understanding of oxytocin’s effects is propelling investigations down new lines. To Bartz, the key to understanding what the hormone does lies in pinpointing its core function rather than in cataloguing its seemingly endless effects. There are several hypotheses which are not mutually exclusive. Oxytocin could help to reduce anxiety and fear. Or it could simply motivate people to seek out social connections. She believes that oxytocin acts as a chemical spotlight that shines on social clues — a shift in posture, a flicker of the eyes, a dip in the voice — making people more attuned to their social environment. This would explain why it makes us more likely to look others in the eye and improves our ability to identify emotions, But it could also make things worse for people who are overly sensitive or prone to interpreting social cues in the worst light."
+     },
+     {
+      "label": "F",
+      "text": "Perhaps we should not be surprised that the oxytocin story has become more perplexing. The hormone is found in everything from octopuses to sheep, and its evolutionary roots stretch back half a billion years. ‘It's a very simple and ancient molecule that has been co-opted for many different functions,’ says Sue Carter at the University of Illinois, Chicago, USA. ‘It affects primitive parts of the brain like the amygdala, so it’s going to have many effects on just about everything.’ Bartz agrees. ‘Oxytocin probably does some very basic things, but once you add our higher-order thinking and social situations, these basic processes could manifest in different ways depending on individual differences and context.’"
+     }
+    ]
+   },
+   {
+    "title": "MAKING THE MOST OF TRENDS",
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27-31 on your answer sheet.",
+      "first": 27,
+      "last": 31,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 27,
+        "text": "In the first paragraph, the writer says that most managers",
+        "options": [
+         {
+          "key": "A",
+          "text": "fail to spot the key consumer trends of the moment."
+         },
+         {
+          "key": "B",
+          "text": "make the mistake of focusing only on the principal consumer trends."
+         },
+         {
+          "key": "C",
+          "text": "misinterpret market research data relating to current consumer trends."
+         },
+         {
+          "key": "D",
+          "text": "are unaware of the significant impact that trends have on consumers lives."
+         }
+        ]
+       },
+       {
+        "n": 28,
+        "text": "According to the third paragraph, Coach was anxious to",
+        "options": [
+         {
+          "key": "A",
+          "text": "follow what some of its competitors were doing."
+         },
+         {
+          "key": "B",
+          "text": "maintain its prices throughout its range."
+         },
+         {
+          "key": "C",
+          "text": "safeguard its reputation as a manufacturer of luxury goods."
+         },
+         {
+          "key": "D",
+          "text": "modify the entire look of its brand to suit the economic climate."
+         }
+        ]
+       },
+       {
+        "n": 29,
+        "text": "What point is made about Tesco's Greener Living programme?",
+        "options": [
+         {
+          "key": "A",
+          "text": "It did not require Tesco to modify its core business activities."
+         },
+         {
+          "key": "B",
+          "text": "It succeeded in attracting a more eco-conscious clientele."
+         },
+         {
+          "key": "C",
+          "text": "Its main aim was to raise consumers' awareness of environmental issues."
+         },
+         {
+          "key": "D",
+          "text": "It was not the first time that Tesco had implemented such an initiative."
+         }
+        ]
+       },
+       {
+        "n": 30,
+        "text": "What does the writer suggest about Nike's strategy?",
+        "options": [
+         {
+          "key": "A",
+          "text": "It was an extremely risky strategy at the time."
+         },
+         {
+          "key": "B",
+          "text": "It was a strategy that only a major company could afford to follow."
+         },
+         {
+          "key": "C",
+          "text": "It was the type of strategy that would not have been possible in the past."
+         },
+         {
+          "key": "D",
+          "text": "It was the kind of strategy which might appear to have few obvious benefits."
+         }
+        ]
+       },
+       {
+        "n": 31,
+        "text": "What was original about the ME2?",
+        "options": [
+         {
+          "key": "A",
+          "text": "It contained technology that had been developed for the sports industry."
+         },
+         {
+          "key": "B",
+          "text": "It appealed to young people who were keen to improve their physical fitness."
+         },
+         {
+          "key": "C",
+          "text": "It took advantage of a current trend for video games with colourful 3D graphics."
+         },
+         {
+          "key": "D",
+          "text": "It was a handheld game that addressed people's concerns about unhealthy lifestyles."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Look at the following statements (Questions 32-37) and the list of companies below.\nMatch each statement with the correct company, A, B, C or D.\nWrite the correct letter, A, B, C or D, in boxes 32-37 on your answer sheet.\nYou may use any letter more than once.",
+      "first": 32,
+      "last": 37,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Coach"
+       },
+       {
+        "key": "B",
+        "text": "Tesco"
+       },
+       {
+        "key": "C",
+        "text": "Nike"
+       },
+       {
+        "key": "D",
+        "text": "iToys"
+       }
+      ],
+      "questions": [
+       {
+        "n": 32,
+        "text": "It turned the notion that its products could have harmful effects to its own advantage.",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "It extended its offering by collaborating with another manufacturer.",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "It implemented an incentive scheme to demonstrate its corporate social responsibility.",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "It discovered that customers had a positive attitude towards dealing with difficult circumstances.",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "It responded to a growing lifestyle trend in an unrelated product sector.",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "It successfully avoided having to charge its customers less for its core products.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_sentence_endings",
+      "instructions": "Complete each sentence with the correct ending, A, B, C or D below.\nWrite the correct letter, A, B, C or D, in boxes 38-40 on your answer sheet.",
+      "first": 38,
+      "last": 40,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "employ a combination of strategies to maintain your consumer base."
+       },
+       {
+        "key": "B",
+        "text": "identify the most appropriate innovation strategy to use."
+       },
+       {
+        "key": "C",
+        "text": "emphasise your brand's traditional values with the counteract-and-affirm strategy."
+       },
+       {
+        "key": "D",
+        "text": "use the combine-and-transcend strategy to integrate the two worlds."
+       }
+      ],
+      "questions": [
+       {
+        "n": 38,
+        "text": "If there are any trend-related changes impacting on your category, you should",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "If a current trend highlights a negative aspect of your category, you should",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "If the consumers' new focus has an increasing lack of connection with your offering, you should",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Experts from Harvard Business School give advice to managers Most managers can identify the major trends of the day. But in the course of conducting research in a number of industries and working directly with companies, we have discovered that managers often fail to recognize the less obvious but profound ways these trends are influencing consumers’ aspirations, attitudes, and behaviors. This is especially true of trends that managers view as peripheral to their core markets."
+     },
+     {
+      "label": "",
+      "text": "Many ignore trends in their innovation strategies or adopt a wait-and-see approach and let competitors take the lead. At a minimum, such responses mean missed profit opportunities. At the extreme, they can jeopardize a company by ceding to rivals the opportunity to transform the industry. The purpose of this article is twofold: to spur managers to think more expansively about how trends could engender new value propositions in their core markets, and to provide some high-level advice on how to make market research and product development personnel more adept at analyzing and exploiting trends."
+     },
+     {
+      "label": "",
+      "text": "One strategy. known as ‘infuse and augment’, is to design a product or service that retains most of the attributes and functions of existing products in the category but adds others that address the needs and desires unleashed by a major trend. A case in point is the Poppy range of handbags, which the firm Coach created in response to the economic downturn of 2008. The Coach brand had been a symbol of opulence and luxury for nearly 70 years, and the most obvious reaction to the downturn would have been to lower prices. However, that would have risked cheapening the brand’s image. Instead. they initiated a consumer-research project which revealed that customers were eager to lift themselves and the country out of tough times. Using these insights, Coach launched the lower-priced Poppy handbags. which were in vibrant colors, and looked more youthful and playful than conventional Coach products. Creating the sub-brand allowed Coach to avert an across-the-board price cut. In contrast to the many companies that responded to the recession by cutting prices, Coach saw the new consumer mindset as an opportunity for innovation and renewal."
+     },
+     {
+      "label": "",
+      "text": "A further example of this strategy was supermarket Tesco's response to consumers' growing concerns about the environment. With that in mind, Tesco, one of the world's top five retailers, introduced its Greener Living program, which demonstrates the company's commitment to protecting the environment by involving consumers in ways that produce tangible results. For example, Tesco customers can accumulate points for such activities as reusing bags, recycling cans and printer cartridges, and buying home-insulation materials. Like points earned on regular purchases, these green points can be redeemed for cash. Tesco has not abandoned its traditional retail offerings but augmented its business with these innovations, thereby infusing its value proposition with a green streak."
+     },
+     {
+      "label": "",
+      "text": "At first glance, spending resources to incorporate elements of a seemingly irrelevant trend into one’s core offerings sounds like it’s hardly worthwhile. But consider Nike’s move to integrate the digital revolution into its reputation for high-performance athletic footwear. In 2006, they teamed up with technology company Apple to launch Nike+, a digital sports kit comprising a sensor that attaches to the running shoe and a wireless receiver that connects to the user's iPod, By combining Nike’s original value proposition for amateur athletes with one for digital consumers, the Nike+ sports kit and web interface moved the company from a focus on athletic apparel to a new plane of engagement with its customers."
+     },
+     {
+      "label": "",
+      "text": "A third approach, known as 'counteract and reaffirm', involves developing products or services that stress the values traditionally associated with the category in ways that allow consumers to oppose – or at least temporarily escape from – the aspects of trends they view as undesirable. A product that accomplished this is the ME2, a video game created by Canada's iToys. By reaffirming the toy category's association with physical play, the ME2 counteracted some of the widely perceived negative impacts of digital gaming devices. Like other handheld games, the device featured a host of exciting interactive games, a full-color LCD screen, and advanced 3D graphics. What set it apart was that it incorporated the traditional physical component of children's play: it contained a pedometer, which tracked and awarded points for physical activity (walking, running, biking, skateboarding, climbing stairs). The child could use the points to enhance various virtual skills needed for the video game. The ME2, introduced in mid-2008, catered to kids' huge desire to play video games while countering the negatives, such as associations with lack of exercise and obesity."
+     },
+     {
+      "label": "",
+      "text": "Once you have gained perspective on how trend-related changes in consumer opinions and behaviors impact on your category, you can determine which of our three innovation strategies to pursue. When your category's basic value proposition continues to be meaningful for consumers influenced by the trend, the infuse-and-augment strategy will allow you to reinvigorate the category. If analysis reveals an increasing disparity between your category and consumers' new focus, your innovations need to transcend the category to integrate the two worlds. Finally, if aspects of the category clash with undesired outcomes of a trend, such as associations with unhealthy lifestyles, there is an opportunity to counteract those changes by reaffirming the core values of your category."
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "oils",
+   "2": "friendship",
+   "3": "funerals",
+   "4": "wealth",
+   "5": "indigestion",
+   "6": "India",
+   "7": "camels",
+   "8": "Alexandria",
+   "9": "Venice",
+   "10": "TRUE",
+   "11": "FALSE",
+   "12": "NOT GIVEN",
+   "13": "FALSE",
+   "14": "B",
+   "15": "F",
+   "16": "B",
+   "17": "E",
+   "18": "A",
+   "19": "B",
+   "20": "C",
+   "21": "animals",
+   "22": "childbirth",
+   "23": "placebo",
+   "24": "game",
+   "25": "strangers",
+   "26": "names",
+   "27": "D",
+   "28": "C",
+   "29": "A",
+   "30": "D",
+   "31": "D",
+   "32": "D",
+   "33": "C",
+   "34": "B",
+   "35": "A",
+   "36": "C",
+   "37": "A",
+   "38": "B",
+   "39": "C",
+   "40": "D"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe chart below shows the percentage of households in owned and rented\naccommodation in England and Wales between 1918 and 2011.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 50,
+   "image": "figures/p050.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people believe that nowadays we have too many choices.\n\nTo what extent do you agree or disagree with this statement?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Age",
+    "questions": [
+     "Are you happy to be the age you are now? [Why/Why not?]",
+     "When you were a child, did you think a lot about your future? [Why/Why not?]",
+     "Do you think you have changed as you have got older? [Why/Why not?]",
+     "What will be different about your life in the future? [Whyl"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe a time when you started using a new technological device (e.g. a new computer or phone).\nYou should say:",
+   "points": [
+    "what device you started using",
+    "why you started using this device",
+    "how easy or difficult it was to use",
+    "and explain how helpful this device was to you."
+   ],
+   "rounding_off": [
+    "You will have to talk about the topic for one to two minutes.",
+    "You have one minute to think about what you are going to say.",
+    "You can make some notes to help you if you wish."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Technology and education",
+    "questions": [
+     "What is the best age for children to start computer lessons?",
+     "Do you think that schools should use more technology to help children learn?",
+     "Do you agree or disagree that computers will replace teachers one day?"
+    ]
+   },
+   {
+    "topic": "Technology and society",
+    "questions": [
+     "How much has technology improved how we communicate with each other?",
+     "Do you agree that there are still many more major technological innovations to be made?",
+     "Could you suggest some reasons why some people are deciding to reduce their use of technology?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

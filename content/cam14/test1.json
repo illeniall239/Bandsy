@@ -1,0 +1,1163 @@
+{
+ "book": 14,
+ "test": 1,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "form_completion",
+      "instructions": "Complete the form below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 1,
+      "last": 10,
+      "body": "CRIME REPORT FORM\n\nType of crime: | theft\nPersonal information | \nExample | \nName | Louise Taylor\nNationality | [[1]]\nDate of birth | 14 December 1977\nOccupation | interior designer\nReason for visit | business (to buy antique [[2]])\nLength of stay | two months\nCurrent address | [[3]] Apartments (No 15)\nDetails of theft | \nItems stolen | – a wallet containing approximately [[4]] £\\n– a [[5]]\nDate of theft | [[6]]\nPossible time and place of theft | \nLocation | outside the [[7]] at about 4 pm\nDetails of suspect | – some boys asked for the [[8]] then ran off\\n– one had a T-shirt with a picture of a tiger\\n– he was about 12, slim build with [[9]] hair\nCrime reference number allocated | [[10]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "Nationality",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "Reason for visit: business (to buy antique ...)",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "Current address: ... Apartments (No 15)",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "Items stolen: a wallet containing approximately £...",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "Items stolen: a ...",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "Date of theft",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "Location: outside the ...",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "Details of suspect: some boys asked for the ...",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "Details of suspect: about 12, slim build with ...",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "Crime reference number allocated",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 11,
+      "last": 12,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "get to know colleagues"
+       },
+       {
+        "key": "B",
+        "text": "learn from any mistakes"
+       },
+       {
+        "key": "C",
+        "text": "ask lots of questions"
+       },
+       {
+        "key": "D",
+        "text": "react positively to feedback"
+       },
+       {
+        "key": "E",
+        "text": "enjoy new challenges"
+       }
+      ],
+      "questions": [
+       {
+        "n": 11,
+        "text": "Which TWO pieces of advice for the first week of an apprenticeship does the manager give?",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "Which TWO pieces of advice for the first week of an apprenticeship does the manager give?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 13,
+      "last": 14,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "confidence-building"
+       },
+       {
+        "key": "B",
+        "text": "making career plans"
+       },
+       {
+        "key": "C",
+        "text": "completing difficult tasks"
+       },
+       {
+        "key": "D",
+        "text": "making a weekly timetable"
+       },
+       {
+        "key": "E",
+        "text": "reviewing progress"
+       }
+      ],
+      "questions": [
+       {
+        "n": 13,
+        "text": "Which TWO things does the manager say mentors can help with?",
+        "options": []
+       },
+       {
+        "n": 14,
+        "text": "Which TWO things does the manager say mentors can help with?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "What does the manager say about each of the following aspects of the company policy for apprentices?\n\nWrite the correct letter, A, B or C, next to Questions 15-20.",
+      "first": 15,
+      "last": 20,
+      "body": "Company policy for apprentices",
+      "options": [
+       {
+        "key": "A",
+        "text": "It is encouraged."
+       },
+       {
+        "key": "B",
+        "text": "There are some restrictions."
+       },
+       {
+        "key": "C",
+        "text": "It is against the rules."
+       }
+      ],
+      "questions": [
+       {
+        "n": 15,
+        "text": "Using the internet",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "Flexible working",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "Booking holidays",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "Working overtime",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "Wearing trainers",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Bringing food to work",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "first": 21,
+      "last": 25,
+      "body": "Cities built by the sea",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "Carla and Rob were surprised to learn that coastal cities",
+        "options": [
+         {
+          "key": "A",
+          "text": "contain nearly half the world's population."
+         },
+         {
+          "key": "B",
+          "text": "include most of the world's largest cities."
+         },
+         {
+          "key": "C",
+          "text": "are growing twice as fast as other cities."
+         }
+        ]
+       },
+       {
+        "n": 22,
+        "text": "According to Rob, building coastal cities near to rivers",
+        "options": [
+         {
+          "key": "A",
+          "text": "may bring pollution to the cities."
+         },
+         {
+          "key": "B",
+          "text": "may reduce the land available for agriculture."
+         },
+         {
+          "key": "C",
+          "text": "may mean the countryside is spoiled by industry."
+         }
+        ]
+       },
+       {
+        "n": 23,
+        "text": "What mistake was made when building water drainage channels in Miami in the 1950s?",
+        "options": [
+         {
+          "key": "A",
+          "text": "There were not enough of them."
+         },
+         {
+          "key": "B",
+          "text": "They were made of unsuitable materials."
+         },
+         {
+          "key": "C",
+          "text": "They did not allow for the effects of climate change."
+         }
+        ]
+       },
+       {
+        "n": 24,
+        "text": "What do Rob and Carla think that the authorities in Miami should do immediately?",
+        "options": [
+         {
+          "key": "A",
+          "text": "take measures to restore ecosystems"
+         },
+         {
+          "key": "B",
+          "text": "pay for a new flood prevention system"
+         },
+         {
+          "key": "C",
+          "text": "stop disposing of waste materials into the ocean"
+         }
+        ]
+       },
+       {
+        "n": 25,
+        "text": "What do they agree should be the priority for international action?",
+        "options": [
+         {
+          "key": "A",
+          "text": "greater coordination of activities"
+         },
+         {
+          "key": "B",
+          "text": "more sharing of information"
+         },
+         {
+          "key": "C",
+          "text": "agreement on shared policies"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "What decision do the students make about each of the following parts of their presentation?\n\nChoose FIVE answers from the box and write the correct letter, A-G, next to Questions 26-30.",
+      "first": 26,
+      "last": 30,
+      "body": "Decisions\nParts of the presentation",
+      "options": [
+       {
+        "key": "A",
+        "text": "use visuals"
+       },
+       {
+        "key": "B",
+        "text": "keep it short"
+       },
+       {
+        "key": "C",
+        "text": "involve other students"
+       },
+       {
+        "key": "D",
+        "text": "check the information is accurate"
+       },
+       {
+        "key": "E",
+        "text": "provide a handout"
+       },
+       {
+        "key": "F",
+        "text": "focus on one example"
+       },
+       {
+        "key": "G",
+        "text": "do online research"
+       }
+      ],
+      "questions": [
+       {
+        "n": 26,
+        "text": "Historical background",
+        "options": []
+       },
+       {
+        "n": 27,
+        "text": "Geographical factors",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "Past mistakes",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "Future risks",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "International implications",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "Marine renewable energy (ocean energy)\nIntroduction\nMore energy required because of growth in population and [[31]]\nWhat's needed:\n- renewable energy sources\n- methods that won't create pollution\nWave energy\nAdvantage: waves provide a [[32]] source of renewable energy\nElectricity can be generated using offshore or onshore systems\nOnshore systems may use a reservoir\nProblems:\n- waves can move in any [[33]]\n- movement of sand, etc. on the [[34]]\n- appearance of the ocean may be affected\nTidal energy\nTides are more [[35]] than waves\nPlanned tidal lagoon in Wales:\n- will be created in a [[36]]\n- breakwater (dam) containing 16 turbines\n- rising tide forces water through turbines, generating electricity\n- stored water is released through [[37]], driving the turbines in the reverse direction\nAdvantages:\n- not dependent on [[38]]\n- less affected by weather than waves\n- lagoon at Swansea likely to create a number of [[39]]\nProblem:\n- may harm fish and birds, e.g. by affecting [[40]] and building up silt\nOcean thermal energy conversion\nUses a difference in temperature between the surface and lower levels\nWater brought to the surface in a pipe",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "More energy required because of growth in population and ...",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "Advantage: waves provide a ... source of renewable energy",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "Problem: waves can move in any ...",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "Problem: movement of sand, etc. on the ...",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "Tides are more ... than waves",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "Planned tidal lagoon in Wales will be created in a ...",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "Stored water is released through ..., driving the turbines in the reverse direction",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "Advantage: not dependent on ...",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "Lagoon at Swansea likely to create a number of ...",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "Problem: may harm fish and birds, e.g. by affecting ... and building up silt",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "Canadian",
+   "2": "furniture",
+   "3": "Park",
+   "4": "250 (sterling)",
+   "5": "phone",
+   "6": "10(th) September",
+   "7": "museum",
+   "8": "time",
+   "9": "blond(e)",
+   "10": "87954 82361",
+   "11": "A",
+   "12": "C",
+   "13": "B",
+   "14": "E",
+   "15": "B",
+   "16": "B",
+   "17": "C",
+   "18": "A",
+   "19": "A",
+   "20": "C",
+   "21": "B",
+   "22": "A",
+   "23": "C",
+   "24": "B",
+   "25": "A",
+   "26": "B",
+   "27": "A",
+   "28": "F",
+   "29": "G",
+   "30": "C",
+   "31": "industry",
+   "32": "constant",
+   "33": "direction",
+   "34": "floor",
+   "35": "predictable",
+   "36": "bay",
+   "37": "gates",
+   "38": "fuel",
+   "39": "jobs",
+   "40": "migration"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T1S1.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T1S2.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T1S3.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T1S4.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "OFFICER: Good morning. What can I do for you?\n\nLOUISE: I want to report a theft. I had some things stolen out of my bag yesterday.\n\nOFFICER: I'm sorry to hear that. Right, so I'll need to take a few details. Can I start with your\nname?\n\nLOUISE: Louise Taylor.\nOFFICER: OK, thank you. And are you resident in the UK?\n\nLOUISE: No, I'm actually Canadian, though my mother was British.\nOFFICER: And your date of birth?\n\nLOUISE: December 14th, 1977.\n\nOFFICER: So you're just visiting this country?\n\nLOUISE: That's right. I come over most summers on business. I'm an interior designer and\nI come over to buy old furniture, antiques you know. There are some really lovely\nthings around here, but you need to get out to the small towns. I've had a really\ngood trip this year, until this happened.\n\nOFFICER: OK. So you've been here quite a while?\n\nLOUISE: Yes, I'm here for two months. I go back next week.\n\nOFFICER: So may I ask where you're staying now?\n\nLOUISE: Well at present I've got a place at Park Apartments, that's on King Street. I was\nstaying at the Riverside Apartments on the same street, but the apartment there\nwas only available for six weeks so I had to find another one.\n\nOFFICER: OK. And the apartment number?\n\nLOUISE: Fifteen.\n\nLOUISE: Right.\n\nOFFICER: Now, I need to take some details of the theft. So you said you had some things\nstolen out of your bag?\n\nLOUISE: That's right.\n\nOFFICER: And were you actually carrying the bag when the theft took place?\n\nLOUISE: Yes. I really can’t understand it. I had my backpack on. And I went into a\nsupermarket to buy a few things and when I opened it up my wallet wasn't\nthere.\n\nOFFICER: And what did your wallet have in it?\n\nLOUISE: Well, fortunately I don’t keep my credit cards in that wallet — I keep them with\nmy passport in an inside compartment in my backpack. But there was quite a\nbit of cash there ... about £250 sterling, I should think. I withdrew £300 from my\naccount yesterday, but I did a bit of shopping, so I must have already spent about\n£50 of that.\n\nOFFICER: OK.\n\nLOUISE: At first I thought, oh I must have left the wallet back in the apartment, but then\nI realised my phone had gone as well. It was only a week old, and that's when\nI realised I'd been robbed. Anyway at least they didn’t take the keys to my\nrental car.\nOFFICER: Yes. So you say the theft occurred yesterday?\n\nLOUISE: Yes.\n\nOFFICER: So that was September the tenth. And do you have any idea at all of where or\nwhen the things might possibly have been stolen?\n\nLOUISE: Well at first I couldn't believe it because the bag had been on my back ever since I\nleft the apartment after lunch. It's just a small backpack, but I generally use it when\nI'm travelling because it seems safer than a handbag. Anyway, I met up with a\nfriend, and we spent a couple of hours in the museum. But! do remember that as\nwe were leaving there at about four o'clock, a group of young boys ran up to us, and\nthey were really crowding round us, and they were asking us what time it was, then \nall of a sudden they ran off.\n\nOFFICER: Can you remember anything about them?\n\nLOUISE: The one who did most of the talking was wearing a T-shirt with a picture of\nsomething ... let's see ... a tiger.\n\nOFFICER: Right. Any idea of how old he might have been?\n\nLOUISE: Around twelve years old?\nOFFICER: And can you remember anything else about his appearance?\nLOUISE: Not much. He was quite thin ..\nOFFICER: Colour of hair?\nLOUISE: I do remember that — he was blond. All the others were dark-haired.\nOFFICER: And any details of the others?\nLOUISE: Not really. They came and went so quickly.\nOFFICER: Right. So what I'm going to do now is give you a crime reference number so you\ncan contact your insurance company. So this is ten digits: 87954 82361.\nLOUISE: Thank you. So should I .."
+   },
+   {
+    "part": 2,
+    "text": "Good morning everyone. My name's Janet Parker and I'm the human resources manager.\nWe're very happy to welcome you to your new apprenticeship. I hope that the next six months\nwill be a positive and enjoyable experience for you.\n\nI'd like to start with some general advice about being an apprentice. Most of you have very\nlittle or no experience of working for a big organisation and the first week or so may be quite\nchallenging. There will be a lot of new information to take in but don't worry too much about trying\nto remember everything. The important thing is to check with someone if you're not sure what to\ndo — you'll find your supervisor is very approachable and won't mind explaining things or helping\nyou out. You're here to learn so make the most of that opportunity. You'll be spending time in\ndifferent departments during your first week so make an effort to talk to as many people as\npossible about their work — you'll make some new friends and find out lots of useful information\nAs well as having a supervisor, you'll each be assigned a mentor. This person will be someone\nwho's recently completed an apprenticeship and you'll meet with them on a weekly basis. Their\nrole is to provide help and support throughout your apprenticeship. Of course, this doesn’t\nmean they'll actually do any of your work for you — instead they'll be asking you about what\ngoals you've achieved so far, as well as helping you to identify any areas for improvement. You\ncan also discuss your more long-term ambitions with them as well.\nNow I just want to run through a few company policies for our apprenticeship scheme\nyou... Most importantly, the internet. As part of your job you'll be doing some research online\nso obviously you'll have unlimited access for that but please don't use it for personal use —\nyou'll have your own phones for that.\nSome of you have already asked me about flexible working. After your probationary three-\nmonth period — some of you will be eligible for this — but it will depend on which department\nyou're in and what your personal circumstances are. So please don’t assume you'll\nautomatically be permitted to do this.\n\nI want to make sure there's no confusion about our holiday policy. Apart from any\nstatutory public holidays we ask that you don't book any holidays until after your six-month\napprenticeship has finished. Time off should only be taken if you are unwell. Please speak to\nyour supervisor if this is going to be a problem.\n\nYou'll be expected to work a 40-hour week but there may be opportunities to do overtime\nduring busy periods. Although you're not required to do this, it can be a valuable experience\nSO we advise you to take it up if possible. Obviously, we understand that people do have\ncommitments outside work, so don't worry if there are times when you are unavailable.\n\nAs you know, we don't have a formal dress code here — you may wear casual clothes as long\nas they're practical — and the only restriction for shoes we have is on high heels for health\nand safety reasons. Comfortable shoes like trainers are preferable.\n\nThere's a heavily subsidised canteen on site where you can get hot meals or salads cheaply.\nSnacks and drinks are also provided — so we've decided to introduce a no-packed lunch\npolicy. This is partly to encourage healthy eating at work and partly to stop people from eating\nat their workstation, which is unhygienic.\n\nOK moving on to .."
+   },
+   {
+    "part": 3,
+    "text": "TUTOR: OK, so what I'd like you to do now is to talk to your partner about your\npresentations on urban planning. You should have done most of the reading\nnow, so I'd like you to share your ideas, and talk about the structure of your\npresentation and what you need to do next.\n\nCARLA: OK Rob. I'm glad we chose quite a specific topic — cities built next to the sea. It\nmade it much easier to find relevant information.\nROB: Yeah. And cities are growing so quickly — I mean, we know that more than half\nthe world’s population lives in cities now.\nCARLA: Yeah, though that's all cities, not just ones on the coast. But most of the biggest\ncities are actually built by the sea, I'd not realised that before.\nROB: Nor me. And what's more, a lot of them are built at places where rivers come out\ninto the sea. But apparently this can be a problem.\nCARLA: Why?\nROB: Well, as the city expands, agriculture and industry tend to spread further inland\nalong the rivers, and so agriculture moves even further inland up the river.\nThat's not necessarily a problem, except it means more and more pollutants are discharged into the rivers.\nCARLA: So these are brought downstream to the cities?\nROB: Right. Hmm. Did you read that article about Miami, on the east coast of the\nUSA?\nCARLA: No.\nROB: Well, apparently back in the 1950s they built channels to drain away the water in\ncase of flooding\nCARLA: Sounds sensible.\nROB: Yeah, they spent quite a lot of money on them. But what they didn't take into account.\nwas global warming. So they built the drainage channels too close to sea level, and\n\nnow sea levels are rising, they're more or less useless. If there’s a lot of rain, the\nwater can't run away, there’s nowhere for it to go. The whole design was faulty.\n\nCARLA: So what are the authorities doing about it now?\n\nROB: I don’t know. I did read that they're aiming to stop disposing of waste water into\nthe ocean over the next ten years.\n\nCARLA: But that won't help with flood prevention now, will it?\n\nROB: No. Really they just need to find the money for something to replace the drainage\nchannels, in order to protect against flooding now. But in the long term they need\nto consider the whole ecosystem.\n\nCARLA: Right. Really, though, coastal cities can't deal with their problems on their own,\ncan they? I mean, they've got to start acting together at an international level\ninstead of just doing their own thing.\n\nROB: Absolutely. The thing is, everyone knows what the problems are and\nenvironmentalists have a pretty good idea of what we should be doing about\nthem, so they should be able to work together to some extent. But it’s going to\nbe a long time before countries come to a decision on what principles they're\nprepared to abide by.\n\nCARLA: Yes, if they ever do.\n\nCARLA: So I think we've probably got enough for our presentation. It's only fifteen minutes.\n\nROB: OK. So I suppose we'll begin with some general historical background about why\ncoastal cities were established. But we don’t want to spend too long on that, the\nother students will already know a bit about it. It’s all to do with communications\nand so on.\n\nCARLA: Yes. We should mention some geographical factors, things like wetlands and\nriver estuaries and coastal erosion and so on. We could have some maps of\ndifferent cities with these features marked\nROB: On a handout you mean? Or some slides everyone can see?\nCARLA: Yeah, that'd be better.\n\nROB: It'd be good to go into past mistakes in a bit more detail. Did you read that case\nstudy of the problems there were in New Orleans with flooding a few years ago?\n\nCARLA: Yes. We could use that as the basis for that part of the talk. I don’t think the other\n‘students will have read it, but they'll remember hearing about the flooding at the time.\n\nROB: OK. So that’s probably enough background.\n\nCARLA: So then we'll go on to talk about what action’s being taken to deal with the\nproblems of coastal cities.\n\nROB: OK. What else do we need to talk about? Maybe something on future risks,\nlooking more at the long term, if populations continue to grow.\n\nCARLA: Yeah. We'll need to do a bit of work there, I haven't got much information, have you?\n\nROB: No. We'll need to look at some websites. Shouldn't take too long.\nCARLA: OK. And I think we should end by talking about international implications. Maybe\nwe could ask people in the audience. We've got people from quite a lot of\ndifferent places.\n\nROB: That'd be interesting, if we have time, yes. So now shall we .."
+   },
+   {
+    "part": 4,
+    "text": "Producing enough energy to meet our needs has become a serious problem. Demand is rising\nrapidly because of the world's increasing population and expanding industry. Burning fossil\nfuels, like gas, coal and oil, seriously damages the environment and they'll eventually run out.\nFor a number of years now, scientists have been working out how we can derive energy from\nrenewable sources, such as the sun and wind, without causing pollution. Today I'll outline marine\nrenewable energy — also called ocean energy — which harnesses the movement of the oceans.\n\nMarine renewable energy can be divided into three main categories: wave energy, tidal\nenergy and ocean thermal energy conversion, and I'll say a few words about each one,\nFirst, wave energy. Numerous devices have been invented to harvest wave energy, with names\nsuch as Wave Dragon, the Penguin and Mighty Whale, and research is going on to try and\ncome up with a really efficient method, This form of energy has plenty of potential, as the source\nis constant, and there’s no danger of waves coming to a standstill. Electricity can be generated\nusing onshore systems, using a reservoir, or offshore systems. But the problem with ocean\nwaves is that they're erratic, with the wind making them travel in every direction, This adds to\nthe difficulty of creating efficient technology: ideally all the waves would travel smoothly and\nregularly along the same straight line, Another drawback is that sand and other sediment on the\nocean floor might be stopped from flowing normally, which can lead to environmental problems,\nThe second category of marine energy that I'll mention is tidal energy. One major advantage\nof using the tide, rather than waves, as a source of energy is that it's predictable; we know\nthe exact times of high and low tides for years to come,\nFor tidal energy to be effective, the difference between high and low tides needs to be at least\nfive metres, and this occurs naturally in only about forty places on Earth, But the right conditions\ncan be created by constructing a tidal lagoon, an area of sea water separated from the sea.\n\nOne current plan is to create a tidal lagoon on the coast of Wales. This will be an area of water\nwithin a bay at Swansea, sheltered by a U-shaped breakwater, or dam, built out from the\ncoast. The breakwater will contain sixteen hydro turbines, and as the tide rises, water rushes.\nthrough the breakwater, activating the turbines, which turn a generator to produce electricity.\n\nThen, for three hours as the tide goes out, the water is held back within the breakwater,\nincreasing the difference in water level, until it's several metres higher within the lagoon than in\nthe open sea, Then, in order to release the stored water, gates in the breakwater are opened.\nIt pours powerfully out of the lagoon, driving the turbines in the breakwater in the opposite\ndirection and again generating thousands of megawatts of electricity. As there are two high\ntides a day, this lagoon scheme would generate electricity four times a day, every day, fora\ntotal of around 14 hours in every 24 — and enough electricity for over 150,000 homes.\n\nThis system has quite a lot in its favour! unlike solar and wind energy it doesn’t depend\non the weather; the turbines are operated without the need for fuel, so it doesn’t create\nany greenhouse gas emissions; and very little maintenance is needed. It's estimated\nthat electricity generated in this way will be relatively cheap, and that manufacturing the\ncomponents would create more than 2,000 jobs, a big boost to the local economy.\nOn the other hand, there are fears that lagoons might harm both fish and birds, for example\nby disturbing migration patterns, and causing a build-up of silt, affecting local ecosystems\nThere are other forms of tidal energy, but I'll go on to the third category of marine energy:\nocean thermal energy conversion. This depends on there being a big difference in\ntemperature between surface water and the water a couple of kilometres below the surface,\nand this occurs in tropical coastal areas. The idea is to bring cold water up to the surface\nusing a submerged pipe. The concept dates back to 1881, when ..."
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "title": "THE IMPORTANCE OF CHILDREN’S PLAY",
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 1-8 on your answer sheet.",
+      "first": 1,
+      "last": 8,
+      "body": "Children’s play\nUses of children’s play\n* building a ‘magical kingdom’ may help develop [[1]]\n* board games involve [[2]] and turn-taking\nRecent changes affecting children’s play\n* populations of [[3]] have grown\n* opportunities for free play are limited due to\n— fear of [[4]]\n— fear of [[5]]\n— increased [[6]] in schools\nInternational policies on children’s play\n* it is difficult to find [[7]] to support new policies\n* research needs to study the impact of play on the rest of the child’s [[8]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "building a ‘magical kingdom’ may help develop",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "board games involve [[2]] and turn-taking",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "populations of [[3]] have grown",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "fear of [[4]]",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "fear of [[5]]",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "increased [[6]] in schools",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "it is difficult to find [[7]] to support new policies",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "research needs to study the impact of play on the rest of the child's [[8]]",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1?\n\nIn boxes 9-13 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 9,
+      "last": 13,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 9,
+        "text": "Children with good self-control are known to be likely to do well at school later on.",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "The way a child plays may provide information about possible medical problems.",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "Playing with dolls was found to benefit girls’ writing more than boys’ writing.",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "Children had problems thinking up ideas when they first created the story with Lego.",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "People nowadays regard children’s play as less significant than they did in the past.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Brick by brick, six-year-old Alice is building a magical kingdom. Imagining fairy-tale turrets and fire-breathing dragons, wicked witches and gallant heroes, she’s creating an enchanting world. Although she isn’t aware of it, this fantasy is helping her take her first steps towards her capacity for creativity and so it will have important repercussions in her adult life."
+     },
+     {
+      "label": "",
+      "text": "Minutes later, Alice has abandoned the kingdom in favour of playing schools with her younger brother. When she bosses him around as his ‘teacher’, she’s practising how to regulate her emotions through pretence. Later on, when they tire of this and settle down with a board game, she’s learning about the need to follow rules and take turns with a partner."
+     },
+     {
+      "label": "",
+      "text": "‘Play in all its rich variety is one of the highest achievements of the human species,’ says Dr David Whitebread from the Faculty of Education at the University of Cambridge, UK. ‘It underpins how we develop as intellectual, problem-solving adults and is crucial to our success as a highly adaptable species.’"
+     },
+     {
+      "label": "",
+      "text": "Recognising the importance of play is not new: over two millennia ago, the Greek philosopher Plato extolled its virtues as a means of developing skills for adult life, and ideas about play-based learning have been developing since the 19th century."
+     },
+     {
+      "label": "",
+      "text": "But we live in changing times, and Whitebread is mindful of a worldwide decline in play, pointing out that over half the people in the world now live in cities. ‘The opportunities for free play, which I experienced almost every day of my childhood, are becoming increasingly scarce,’ he says. Outdoor play is curtailed by perceptions of risk to do with traffic, as well as parents’ increased wish to protect their children from being the victims of crime, and by the emphasis on ‘earlier is better’ which is leading to greater competition in academic learning and schools."
+     },
+     {
+      "label": "",
+      "text": "International bodies like the United Nations and the European Union have begun to develop policies concerned with children’s right to play, and to consider implications for leisure facilities and educational programmes. But what they often lack is the evidence to base policies on."
+     },
+     {
+      "label": "",
+      "text": "‘The type of play we are interested in is child-initiated, spontaneous and unpredictable — but, as soon as you ask a five-year-old “to play”, then you as the researcher have intervened,’ explains Dr Sara Baker. ‘And we want to know what the long-term impact of play is. It’s a real challenge.’ Dr Jenny Gibson agrees, pointing out that although some of the steps in the puzzle of how and why play is important have been looked at. there is very little data on the impact it has on the child’s later life."
+     },
+     {
+      "label": "",
+      "text": "Now, thanks to the university’s new Centre for Research on Play in Education, Development and Learning (PEDAL), Whitebread, Baker, Gibson and a team of researchers hope to provide evidence on the role played by play in how a child develops."
+     },
+     {
+      "label": "",
+      "text": "‘A strong possibility is that play supports the early development of children’s self-control,’ explains Baker. ‘This is our ability to develop awareness of our own thinking processes – it influences how effectively we go about undertaking challenging activities.”"
+     },
+     {
+      "label": "",
+      "text": "In a study carried out by Baker with toddlers and young pre-schoolers, she found that children with greater self-control solved problems more quickly when exploring an unfamiliar set-up requiring scientific reasoning. ‘This sort of evidence makes us think that giving children the chance to play will make them more successful problem-solvers in the long run.”"
+     },
+     {
+      "label": "",
+      "text": "If playful experiences do facilitate this aspect of development, say the researchers, it could be extremely significant for educational practices, because the ability to self-regulate has been shown to be a key predictor of academic performance."
+     },
+     {
+      "label": "",
+      "text": "Gibson adds: ‘Playful behaviour is also an important indicator of healthy social and emotional development. In my previous research, I investigated how observing children at play can give us important clues about their well-being and can even be useful in the diagnosis of neurodevelopmental disorders like autism.’"
+     },
+     {
+      "label": "",
+      "text": "Whitebread’s recent research has involved developing a play-based approach to supporting children’s writing. ‘Many primary school children find writing difficult, but we showed in a previous study that a playful stimulus was far more effective than an instructional one.’ Children wrote longer and better-structured stories when they first played with dolls representing characters in the story. In the latest study, children first created their story with Lego*, with similar results. ‘Many teachers commented that they had always previously had children saying they didn’t know what to write about. With the Lego building, however, not a single child said this through the whole year of the project.’"
+     },
+     {
+      "label": "",
+      "text": "Whitebread, who directs PEDAL, trained as a primary school teacher in the early 1970s, when, as he describes, ‘the teaching of young children was largely a quiet backwater, untroubled by any serious intellectual debate or controversy.’ Now, the landscape is very different, with hotly debated topics such as school starting age."
+     },
+     {
+      "label": "",
+      "text": "“Somehow the importance of play has been lost in recent decades. It’s regarded as something trivial, or even as something negative that contrasts with “work”, Let’s not lose sight of its benefits, and the fundamental contributions it makes to human achievements in the arts, sciences and technology. Let’s make sure children have a rich diet of play experiences.’"
+     },
+     {
+      "label": "",
+      "text": "* Lego: coloured plastic building blocks and other pieces that can be joined together"
+     }
+    ]
+   },
+   {
+    "title": "The growth of bike-sharing schemes around the world\nHow Dutch engineer Luud Schimmelpennink helped to devise urban bike-sharing schemes",
+    "groups": [
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 2 has seven paragraphs, A-G.\n\nWhich paragraph contains the following information?\n\nWrite the correct letter, A-G, in boxes 14-18 on your answer sheet.\n\nNB You may use any letter more than once.",
+      "first": 14,
+      "last": 18,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 14,
+        "text": "a description of how people misused a bike-sharing scheme",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "an explanation of why a proposed bike-sharing scheme was turned down",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "a reference to a person being unable to profit from their work",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "an explanation of the potential savings a bike-sharing scheme would bring",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "a reference to the problems a bike-sharing scheme was intended to solve",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.\nWrite the correct letters in boxes 19 and 20 on your answer sheet.\n\nWhich TWO of the following statements are made in the text about the Amsterdam bike-sharing scheme of 1999?",
+      "first": 19,
+      "last": 20,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "It was initially opposed by a government department."
+       },
+       {
+        "key": "B",
+        "text": "It failed when a partner in the scheme withdrew support."
+       },
+       {
+        "key": "C",
+        "text": "It aimed to be more successful than the Copenhagen scheme."
+       },
+       {
+        "key": "D",
+        "text": "It was made possible by a change in people's attitudes."
+       },
+       {
+        "key": "E",
+        "text": "It attracted interest from a range of bike designers."
+       }
+      ],
+      "questions": [
+       {
+        "n": 19,
+        "text": "Which TWO of the following statements are made in the text about the Amsterdam bike-sharing scheme of 1999?",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Which TWO of the following statements are made in the text about the Amsterdam bike-sharing scheme of 1999?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.\nWrite the correct letters in boxes 21 and 22 on your answer sheet.\n\nWhich TWO of the following statements are made in the text about Amsterdam today?",
+      "first": 21,
+      "last": 22,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "The majority of residents would like to prevent all cars from entering the city."
+       },
+       {
+        "key": "B",
+        "text": "There is little likelihood of the city having another bike-sharing scheme."
+       },
+       {
+        "key": "C",
+        "text": "More trips in the city are made by bike than by any other form of transport."
+       },
+       {
+        "key": "D",
+        "text": "A bike-sharing scheme would benefit residents who use public transport."
+       },
+       {
+        "key": "E",
+        "text": "The city has a reputation as a place that welcomes cyclists."
+       }
+      ],
+      "questions": [
+       {
+        "n": 21,
+        "text": "Which TWO of the following statements are made in the text about Amsterdam today?",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "Which TWO of the following statements are made in the text about Amsterdam today?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 23-26 on your answer sheet.",
+      "first": 23,
+      "last": 26,
+      "body": "The first urban bike-sharing scheme\n\nThe first bike-sharing scheme was the idea of the Dutch group Provo. The people who belonged to this group were [[23]]. They were concerned about damage to the environment and about [[24]] and believed that the bike-sharing scheme would draw attention to these issues. As well as painting some bikes white, they handed out [[25]] that condemned the use of cars.\n\nHowever, the scheme was not a great success: almost as quickly as Provo left the bikes around the city, the [[26]] took them away. According to Schimmelpennink, the scheme was intended to be symbolic. The idea was to get people thinking about the issues.",
+      "options": [],
+      "questions": [
+       {
+        "n": 23,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "The original idea for an urban bike-sharing scheme dates back to a summer's day in Amsterdam in 1965. Provo, the organisation that came up with the idea, was a group of Dutch activists who wanted to change society. They believed the scheme, which was known as the Witte Fietsenplan, was an answer to the perceived threats of air pollution and consumerism. In the centre of Amsterdam, they painted a small number of used bikes white. They also distributed leaflets describing the dangers of cars and inviting people to use the white bikes. The bikes were then left unlocked at various locations around the city, to be used by anyone in need of transport."
+     },
+     {
+      "label": "B",
+      "text": "Luud Schimmelpennink, a Dutch industrial engineer who still lives and cycles in Amsterdam, was heavily involved in the original scheme. He recalls how the scheme succeeded in attracting a great deal of attention — particularly when it came to publicising Provo’s aims — but struggled to get off the ground. The police were opposed to Provo’s initiatives and almost as soon as the white bikes were distributed around the city, they removed them. However, for Schimmelpennink and for bike-sharing schemes in general, this was just the beginning. ‘The first Witte Fietsenplan was just a symbolic thing,’ he says. ‘We painted a few bikes white, that was all. Things got more serious when I became a member of the Amsterdam city council two years later.’"
+     },
+     {
+      "label": "C",
+      "text": "Schimmelpennink seized this opportunity to present a more elaborate Witte Fietsenplan to the city council. ‘My idea was that the municipality of Amsterdam would distribute 10,000 white bikes over the city, for everyone to use,’ he explains. ‘I made serious calculations. It turned out that a white bicycle — per person, per kilometre — would cost the municipality only 10% of what it contributed to public transport per person per kilometre.’ Nevertheless, the council unanimously rejected the plan. ‘They said that the bicycle belongs to the past. They saw a glorious future for the car,’ says Schimmelpennink. But he was not in the least discouraged."
+     },
+     {
+      "label": "D",
+      "text": "Schimmelpennink never stopped believing in bike-sharing, and in the mid-90s, two Danes asked for his help to set up a system in Copenhagen. The result was the world's first large-scale bike-share programme. It worked on a deposit: ‘You dropped a coin in the bike and when you returned it, you got your money back.’ After setting up the Danish system, Schimmelpennink decided to try his luck again in the Netherlands — and this time he succeeded in arousing the interest of the Dutch Ministry of Transport. ‘Times had changed,’ he recalls. ‘People had become more environmentally conscious, and the Danish experiment had proved that bike-sharing was a real possibility.’ A new Witte Fietsenplan was launched in 1999 in Amsterdam. However, riding a white bike was no longer free; it cost one guilder per trip and payment was made with a chip card developed by the Dutch bank Postbank. Schimmelpennink designed conspicuous, sturdy white bikes locked in special racks which could be opened with the chip card — the plan started with 250 bikes, distributed over five stations."
+     },
+     {
+      "label": "E",
+      "text": "Theo Molenaar, who was a system designer for the project, worked alongside Schimmelpennink. ‘I remember when we were testing the bike racks, he announced that he had already designed better ones. But of course, we had to go through with the ones we had.’ The system, however, was prone to vandalism and theft. ‘After every weekend there would always be a couple of bikes missing,’ Molenaar says."
+     },
+     {
+      "label": "",
+      "text": "‘I really have no idea what people did with them, because they could instantly be recognised as white bikes.’ But the biggest blow came when Postbank decided to abolish the chip card, because it wasn’t profitable. ‘That chip card was pivotal to the system,’ Molenaar says. ‘To continue the project we would have needed to set up another system, but the business partner had lost interest.’"
+     },
+     {
+      "label": "F",
+      "text": "Schimmelpennink was disappointed, but — characteristically — not for long. In 2002 he got a call from the French advertising corporation JC Decaux, who wanted to set up his bike-sharing scheme in Vienna. ‘That went really well. After Vienna, they set up a system in Lyon. Then in 2007, Paris followed. That was a decisive moment in the history of bike-sharing.’ The huge and unexpected success of the Parisian bike-sharing programme, which now boasts more than 20,000 bicycles, inspired cities all over the world to set up their own schemes, all modelled on Schimmelpennink’s. ‘It's wonderful that this happened,’ he says. ‘But financially I didn’t really benefit from it, because I never filed for a patent.’"
+     },
+     {
+      "label": "G",
+      "text": "In Amsterdam today, 38% of all trips are made by bike and, along with Copenhagen, it is regarded as one of the two most cycle-friendly capitals in the world — but the city never got another Witte Fietsenplan. Molenaar believes this may be because everybody in Amsterdam already has a bike. Schimmelpennink, however, cannot see that this changes Amsterdam's need for a bike-sharing scheme. ‘People who travel on the underground don’t carry their bikes around, But often they need additional transport to reach their final destination.’ Although he thinks it is strange that a city like Amsterdam does not have a successful bike- sharing scheme, he is optimistic about the future. ‘In the '60s we didn’t stand a chance because people were prepared to give their lives to keep cars in the city. But that mentality has totally changed. Today everybody longs for cities that are not dominated by cars.’"
+     }
+    ]
+   },
+   {
+    "title": "Motivational factors and the hospitality industry",
+    "groups": [
+     {
+      "type": "matching_features",
+      "instructions": "Look at the following statements (Questions 27—31) and the list of researchers below.\nMatch each statement with the correct researcher, A-F.\n\nWrite the correct letter, A-F, in boxes 27-31 on your answer sheet.\n\nNB You may use any letter more than once.",
+      "first": 27,
+      "last": 31,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Pfeffer"
+       },
+       {
+        "key": "B",
+        "text": "Lucas"
+       },
+       {
+        "key": "C",
+        "text": "Maroudas et al."
+       },
+       {
+        "key": "D",
+        "text": "Ng and Sorensen"
+       },
+       {
+        "key": "E",
+        "text": "Enz and Siguaw"
+       },
+       {
+        "key": "F",
+        "text": "Deery"
+       }
+      ],
+      "questions": [
+       {
+        "n": 27,
+        "text": "Hotel managers need to know what would encourage good staff to remain.",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "The actions of managers may make staff feel they shouldn’t move to a different employer.",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "Little is done in the hospitality industry to help workers improve their skills.",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "Staff are less likely to change jobs if cooperation is encouraged.",
+        "options": []
+       },
+       {
+        "n": 31,
+        "text": "Dissatisfaction with pay is not the only reason why hospitality workers change jobs.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "yes_no_not_given",
+      "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3?\nIn boxes 32-35 on your answer sheet, write\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+      "first": 32,
+      "last": 35,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 32,
+        "text": "One reason for high staff turnover in the hospitality industry is poor morale.",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "Research has shown that staff have a tendency to dislike their workplace.",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "An improvement in working conditions and job security makes staff satisfied with their jobs.",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "Staff should be allowed to choose when they take breaks during the working day.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 36-40 on your answer sheet.",
+      "first": 36,
+      "last": 40,
+      "body": "Fun at work\nTews, Michel and Stafford carried out research on staff in an American chain of [[36]]. They discovered that activities designed for staff to have fun improved their [[37]], and that management involvement led to lower staff [[38]]. They also found that the activities needed to fit with both the company's [[39]] and the [[40]] of the staff. A balance was required between a degree of freedom and maintaining work standards.",
+      "options": [],
+      "questions": [
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "A critical ingredient in the success of hotels is developing and maintaining superior performance from their employees. How is that accomplished? What Human Resource Management (HRM) practices should organizations invest in to acquire and retain great employees?"
+     },
+     {
+      "label": "",
+      "text": "Some hotels aim to provide superior working conditions for their employees. The idea originated from workplaces — usually in the non-service sector — that emphasized fun and enjoyment as part of work-life balance. By contrast, the service sector, and more specifically hotels, has traditionally not extended these practices to address basic employee needs, such as good working conditions."
+     },
+     {
+      "label": "",
+      "text": "Pfeffer (1994) emphasizes that in order to succeed in a global business environment, organizations must make investment in Human Resource Management (HRM) to allow them to acquire employees who possess better skills and capabilities than their competitors. This investment will be to their competitive advantage. Despite this recognition of the importance of employee development, the hospitality industry has historically been dominated by underdeveloped HR practices (Lucas, 2002)."
+     },
+     {
+      "label": "",
+      "text": "Lucas also points out that “the substance of HRM practices does not appear to be designed to foster constructive relations with employees or to represent a managerial approach that enables developing and drawing out the full potential of people, even though employees may be broadly satisfied with many aspects of their work’ (Lucas, 2002). In addition, or maybe as a result, high employee turnover has been a recurring problem throughout the hospitality industry. Among the many cited reasons are low compensation, inadequate benefits, poor working conditions and compromised employee morale and attitudes (Maroudas et al., 2008)."
+     },
+     {
+      "label": "",
+      "text": "Ng and Sorensen (2008) demonstrated that when managers provide recognition to employees, motivate employees to work together, and remove obstacles preventing effective performance, employees feel more obligated to stay with the company. This was succinctly summarized by Michel et al. (2013); ‘[P]roviding support to employees gives them the confidence to perform their jobs better and the motivation to stay with the organization.’ Hospitality organizations can therefore enhance employee motivation and retention through the development and improvement of their working conditions, These conditions are inherently linked to the working environment."
+     },
+     {
+      "label": "",
+      "text": "While it seems likely that employees’ reactions to their job characteristics could be affected by a predisposition to view their work environment negatively, no evidence exists to support this hypothesis (Spector et al., 2000). However, given the opportunity, many people will find something to complain about in relation to their workplace (Poulston, 2009). There is a strong link between the perceptions of employees and particular factors of their work environment that are separate from the work itself, including company policies, salary and vacations."
+     },
+     {
+      "label": "",
+      "text": "Such conditions are particularly troubling for the luxury hotel market, where high-quality service, requiring a sophisticated approach to HRM, is recognized as a critical source of competitive advantage (Maroudas et al,, 2008). In a real sense, the services of hotel employees represent their industry (Schneider and Bowen, 1993). This representation has commonly been limited to guest experiences. This suggests that there has been a dichotomy between the guest environment provided in luxury hotels and the working conditions of their employees."
+     },
+     {
+      "label": "",
+      "text": "It is therefore essential for hotel management to develop HRM practices that enable them to inspire and retain competent employees. This requires an understanding of what motivates employees at different levels of management and different stages of their careers (Enz and Siguaw, 2000). This implies that it is beneficial for hotel managers to understand what practices are most favorable to increase employee satisfaction and retention."
+     },
+     {
+      "label": "",
+      "text": "Herzberg (1966) proposes that people have two major types of needs, the first being extrinsic motivation factors relating to the context in which work is performed, rather than the work itself. These include working conditions and job security. When these factors are unfavorable, job dissatisfaction may result. Significantly, though, just fulfilling these needs does not result in satisfaction, but only in the reduction of dissatisfaction (Maroudas et al., 2008)."
+     },
+     {
+      "label": "",
+      "text": "Employees also have intrinsic motivation needs or motivators, which include such factors as achievement and recognition. Unlike extrinsic factors, motivator factors may ideally result in job satisfaction (Maroudas et al., 2008). Herzberg’s (1966) theory discusses the need for a ‘balance’ of these two types of needs."
+     },
+     {
+      "label": "",
+      "text": "The impact of fun as a motivating factor at work has also been explored. For example, Tews, Michel and Stafford (2013) conducted a study focusing on staff from a chain of themed restaurants in the United States. It was found that fun activities had a favorable impact on performance and manager support for fun had a favorable impact in reducing turnover, Their findings support the view that fun may indeed have a beneficial effect, but the framing of that fun must be carefully aligned with both organizational goals and employee characteristics. ‘Managers must learn how to achieve the delicate balance of allowing employees the freedom to enjoy themselves at work while simultaneously maintaining high levels of performance’ (Tews et al., 2013)."
+     },
+     {
+      "label": "",
+      "text": "Deery (2008) has recommended several actions that can be adopted at the organizational level to retain good staff as well as assist in balancing work and family life. Those particularly appropriate to the hospitality industry include allowing adequate breaks during the working day, staff functions that involve families, and providing health and well-being opportunities."
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "creativity",
+   "2": "rules",
+   "3": "cities",
+   "4": "traffic",
+   "5": "crime",
+   "6": "competition",
+   "7": "evidence",
+   "8": "life",
+   "9": "TRUE",
+   "10": "TRUE",
+   "11": "NOT GIVEN",
+   "12": "FALSE",
+   "13": "TRUE",
+   "14": "E",
+   "15": "C",
+   "16": "F",
+   "17": "C",
+   "18": "A",
+   "19": "B",
+   "20": "D",
+   "21": "D",
+   "22": "E",
+   "23": "activists",
+   "24": "consumerism",
+   "25": "leaflets",
+   "26": "police",
+   "27": "E",
+   "28": "D",
+   "29": "B",
+   "30": "D",
+   "31": "C",
+   "32": "YES",
+   "33": "NO",
+   "34": "NO",
+   "35": "NOT GIVEN",
+   "36": "restaurants",
+   "37": "performance",
+   "38": "turnover",
+   "39": "goals",
+   "40": "characteristics"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe charts below show the average percentages in typical meals of three\ntypes of nutrients, all of which may be unhealthy if eaten too much.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 21,
+   "image": "figures/p021.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people believe that it is best to accept a bad situation, such as an\nunsatisfactory job or shortage of money. Others argue that it is better to try\nand improve such situations.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Future",
+    "questions": [
+     "What job would you like to have ten years from now? [Why?]",
+     "How useful will English be for your future? [Why/Why not?]",
+     "How much travelling do you hope to do in the future? [Why/Why not?]",
+     "How do you think your life will change in the future? [Why/Why not?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe a book that you enjoyed reading because you had to think a lot.",
+   "points": [
+    "what this book was",
+    "why you decided to read it",
+    "what reading this book made you think about"
+   ],
+   "rounding_off": [
+    "and explain why you enjoyed reading this book."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Children and reading",
+    "questions": [
+     "What are the most popular types of children’s books in your country?",
+     "What are the benefits of parents reading books to their children?",
+     "Should parents always let children choose the books they read?"
+    ]
+   },
+   {
+    "topic": "Electronic books",
+    "questions": [
+     "How popular are electronic books are in your country?",
+     "What are the advantages of parents reading electronic books (compared to printed books)?",
+     "Will electronic books ever completely replace printed books in the future?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

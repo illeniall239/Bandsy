@@ -1,0 +1,8 @@
+Cambridge-lists-main/
+work/
+node_modules/
+*.db
+dist/
+bandsy.db
+__pycache__/
+sidecar/models/

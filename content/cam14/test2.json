@@ -1,0 +1,1133 @@
+{
+ "book": 14,
+ "test": 2,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 1,
+      "last": 10,
+      "body": "TOTAL HEALTH CLINIC\nPATIENT DETAILS\nPersonal information\nExample\nName: Julie Anne .......\nContact phone: [[1]]\nDate of birth: [[2]], 1992\nOccupation: works as a [[3]]\nInsurance company: [[4]] Life Insurance\n\nDetails of the problem\nType of problem: pain in her left [[5]]\nWhen it began: [[6]]\nAction already taken: has taken painkillers and applied ice\n\nOther information\nSports played: belongs to [[7]] club\ngoes [[8]] regularly\nMedical history: injured her [[9]] last year\nno allergies\nNo regular medication apart from [[10]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "Contact phone",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "Date of birth",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "Occupation",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "Insurance company",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "Type of problem",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "When it began",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "Sports played",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "Sports played (frequency)",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "Medical history",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "No regular medication apart from",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "first": 11,
+      "last": 15,
+      "body": "Visit to Branley Castle",
+      "options": [],
+      "questions": [
+       {
+        "n": 11,
+        "text": "Before Queen Elizabeth I visited the castle in 1576,",
+        "options": [
+         {
+          "key": "A",
+          "text": "repairs were carried out to the guest rooms."
+         },
+         {
+          "key": "B",
+          "text": "a new building was constructed for her."
+         },
+         {
+          "key": "C",
+          "text": "a fire damaged part of the main hall."
+         }
+        ]
+       },
+       {
+        "n": 12,
+        "text": "In 1982, the castle was sold to",
+        "options": [
+         {
+          "key": "A",
+          "text": "the government."
+         },
+         {
+          "key": "B",
+          "text": "the Fenys family."
+         },
+         {
+          "key": "C",
+          "text": "an entertainment company."
+         }
+        ]
+       },
+       {
+        "n": 13,
+        "text": "In some of the rooms, visitors can",
+        "options": [
+         {
+          "key": "A",
+          "text": "speak to experts on the history of the castle."
+         },
+         {
+          "key": "B",
+          "text": "interact with actors dressed as famous characters."
+         },
+         {
+          "key": "C",
+          "text": "see models of historical figures moving and talking."
+         }
+        ]
+       },
+       {
+        "n": 14,
+        "text": "In the castle park, visitors can",
+        "options": [
+         {
+          "key": "A",
+          "text": "see an 800-year-old tree."
+         },
+         {
+          "key": "B",
+          "text": "go to an art exhibition."
+         },
+         {
+          "key": "C",
+          "text": "visit a small zoo."
+         }
+        ]
+       },
+       {
+        "n": 15,
+        "text": "At the end of the visit, the group will have",
+        "options": [
+         {
+          "key": "A",
+          "text": "afternoon tea in the conservatory."
+         },
+         {
+          "key": "B",
+          "text": "the chance to meet the castle's owners."
+         },
+         {
+          "key": "C",
+          "text": "a photograph together on the Great Staircase."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "map_labelling",
+      "instructions": "Label the plan below.\n\nWrite the correct letter, A-H, next to Questions 16-20.",
+      "first": 16,
+      "last": 20,
+      "body": "Branley Castle\nExample: Main entrance",
+      "options": [],
+      "questions": [
+       {
+        "n": 16,
+        "text": "Starting point for walking the walls",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "Bow and arrow display",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "Hunting birds display",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "Traditional dancing",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Shop",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 26,
+      "image": "figures/p026.png"
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "first": 21,
+      "last": 24,
+      "body": "Woolly mammoths on St Paul's Island",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "How will Rosie and Martin introduce their presentation?",
+        "options": [
+         {
+          "key": "A",
+          "text": "with a drawing of woolly mammoths in their natural habitat"
+         },
+         {
+          "key": "B",
+          "text": "with a timeline showing when woolly mammoths lived"
+         },
+         {
+          "key": "C",
+          "text": "with a video clip about woolly mammoths"
+         }
+        ]
+       },
+       {
+        "n": 22,
+        "text": "What was surprising about the mammoth tooth found by Russell Graham?",
+        "options": [
+         {
+          "key": "A",
+          "text": "It was still embedded in the mammoth's jawbone."
+         },
+         {
+          "key": "B",
+          "text": "It was from an unknown species of mammoth."
+         },
+         {
+          "key": "C",
+          "text": "It was not as old as mammoth remains from elsewhere."
+         }
+        ]
+       },
+       {
+        "n": 23,
+        "text": "The students will use an animated diagram to demonstrate how the mammoths",
+        "options": [
+         {
+          "key": "A",
+          "text": "became isolated on the island."
+         },
+         {
+          "key": "B",
+          "text": "spread from the island to other areas."
+         },
+         {
+          "key": "C",
+          "text": "coexisted with other animals on the island."
+         }
+        ]
+       },
+       {
+        "n": 24,
+        "text": "According to Martin, what is unusual about the date of the mammoths' extinction on the island?",
+        "options": [
+         {
+          "key": "A",
+          "text": "how exact it is"
+         },
+         {
+          "key": "B",
+          "text": "how early it is"
+         },
+         {
+          "key": "C",
+          "text": "how it was established"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "What action will the students take for each of the following sections of their presentation?\n\nChoose SIX answers from the box and write the correct letter, A-H, next to Questions 25-30.",
+      "first": 25,
+      "last": 30,
+      "body": "Actions",
+      "options": [
+       {
+        "key": "A",
+        "text": "make it more interactive"
+       },
+       {
+        "key": "B",
+        "text": "reduce visual input"
+       },
+       {
+        "key": "C",
+        "text": "add personal opinions"
+       },
+       {
+        "key": "D",
+        "text": "contact one of the researchers"
+       },
+       {
+        "key": "E",
+        "text": "make detailed notes"
+       },
+       {
+        "key": "F",
+        "text": "find information online"
+       },
+       {
+        "key": "G",
+        "text": "check timing"
+       },
+       {
+        "key": "H",
+        "text": "organise the content more clearly"
+       }
+      ],
+      "questions": [
+       {
+        "n": 25,
+        "text": "Introduction",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "Discovery of the mammoth tooth",
+        "options": []
+       },
+       {
+        "n": 27,
+        "text": "Initial questions asked by the researchers",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "Further research carried out on the island",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "Findings and possible explanations",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "Relevance to the present day",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "The history of weather forecasting\n\nAncient cultures\n- many cultures believed that floods and other disasters were involved in the creation of the world\n- many cultures invented [[31]] and other ceremonies to make the weather gods friendly\n- people needed to observe and interpret the sky to ensure their [[32]]\n- around 650 BC, Babylonians started forecasting, using weather phenomena such as [[33]]\n- by 300 BC, the Chinese had a calendar made up of a number of [[34]] connected with the weather\n\nAncient Greeks\n- a more scientific approach\n- Aristotle tried to explain the formation of various weather phenomena\n- Aristotle also described haloes and [[35]]\n\nMiddle Ages\n- Aristotle's work considered accurate\n- many proverbs, e.g. about the significance of the colour of the [[36]], passed on accurate information.\n\n15th-19th centuries\n- 15th century: scientists recognised value of [[37]] for the first time\n- Galileo invented the [[38]]\n- Pascal showed relationship between atmospheric pressure and altitude\n- from the 17th century, scientists could measure atmospheric pressure and temperature\n- 18th century: Franklin identified the movement of [[39]]\n- 19th century: data from different locations could be sent to the same place by [[40]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "Ceremonies invented to make the weather gods friendly",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "What people needed to observe and interpret the sky to ensure",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "Weather phenomena used by Babylonians for forecasting",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "Chinese calendar made up of a number of these, connected with the weather",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "Aristotle also described haloes and this",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "Colour of this passed on accurate information (proverbs)",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "Scientists recognised value of this for the first time (15th century)",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "Instrument Galileo invented",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "What Franklin identified the movement of (18th century)",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "How data from different locations could be sent to the same place (19th century)",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "219 442 9785",
+   "2": "10(th) October",
+   "3": "manager",
+   "4": "Cawley",
+   "5": "knee",
+   "6": "3 weeks",
+   "7": "tennis",
+   "8": "running",
+   "9": "shoulder",
+   "10": "vitamins",
+   "11": "B",
+   "12": "C",
+   "13": "C",
+   "14": "B",
+   "15": "A",
+   "16": "H",
+   "17": "D",
+   "18": "F",
+   "19": "A",
+   "20": "E",
+   "21": "B",
+   "22": "C",
+   "23": "A",
+   "24": "A",
+   "25": "E",
+   "26": "D",
+   "27": "A",
+   "28": "H",
+   "29": "G",
+   "30": "C",
+   "31": "dances",
+   "32": "survival",
+   "33": "clouds",
+   "34": "festivals",
+   "35": "comets",
+   "36": "sky",
+   "37": "instruments",
+   "38": "thermometer",
+   "39": "storms",
+   "40": "telegraph"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T2S1.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T2S2.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T2S3.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 14/C14T2S4.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "CARL: Hi, come and take a seat.\nJULIE: Thank you\nCARL: My name is Karl Rogers and I'm one of the doctors here at the Total Health Clinic.\nSo I understand this is your first visit to the clinic?\nJULIE: Yes, itis.\nCARL: OK, well I hope you'll be very happy with the service you receive here. So if\nit's alright with you I'll take a few details to help me give you the best possible\nservice\nJULIE: Sure.\nCARL: So can I check first of all that we have the correct personal details for you? So\nyour full name is Julie Anne Garcia?\nJULIE: That's correct\nCARL: Perfect. And can I have a contact phone number?\nJULIE: It's 219 442 9785.\nCARL: OK, and then can I just check that we have the correct date of birth?\nJULIE: October tenth, 1992.\nCARL: Oh, I actually have 1991, I'll just correct that now. Right, so that's all good. Now I\njust need just a few more personal details ... do you have an occupation, either\nfull time or part time?\nJULIE: Yes, I work full time in Esther Hasys, you know, the restaurant chain. I started off\nas a waitress there a few years ago and I'm a manager now.\nCARL: Oh I know them, yeah, they're down on 114th Street, aren't they?\nJULIE: That's right,\nCARL: Yeah, I've been there a few times. I just love their salads.\nJULIE: That's good to hear.\nCARL: Right, so one more thing I need to know before we talk about why you're here,\nJulie, and that's the name of your insurance company.\nJULIE: It's Cawley Life Insurance, that’s C-A-W-L-E-Y.\nCARL: Excellent, thank you so much.\nCARL: Now Julie, let's look at how we can help you. So tell me a little about what\nbrought you here today.\nJULIE: Well, I've been getting a pain in my knee, the left one. Not very serious at first,\nbut it's gotten worse, so I thought I ought to see someone about it\nCARL: That's certainly the right decision. So how long have you been aware of this\npain? Is it just a few days, or is it longer than that?\nJULIE: Longer. It's been worse for the last couple of days, but it's three weeks since I\nfirst noticed it. It came on quite gradually though, so I kind of ignored it at first.\nCARL: And have you taken any medication yourself, or treated it in anyway?\nJULIE: way? Yeah, I've been taking medication to deal with the pain, Tylenol, and that works\nOK for a few hours. But I don't like to keep taking it\nCARL: OK. And what about heat treatment? Have you tried applying heat at all?\nJULIE: No, but I have been using ice on it for the last few days.\nCARL: And does that seem to help the pain at all?\nJULIE: A little, yes.\nCARL: Good. Now you look as if you're quite fit normally?\nJULIE: I am, yes.\nCARL: So do you do any sport on a regular basis?\nJULIE: Yes, I play a lot of tennis. I belong to a club so I go there a lot. I’m quite\ncompetitive so I enjoy that side of it as well as the exercise. But I haven't gone\nsince this started\nCARL: Sure. And do you do any other types of exercise?\n\nJULIE: Yeah, I sometimes do a little swimming, but usually just when I’m on\nvacation. But normally I go running a few times a week, maybe three or\nfour times.\n\nCARL: Hmm. So your legs are getting quite a pounding. But you haven't had any\nproblems up to now?\n\nJULIE: No, not with my legs. I did have an accident last year when I slipped and hurt my\nshoulder, but that's better now.\n\nCARL: Excellent. And do you have any allergies?\n\nJULIE: No, none that I'm aware of.\n\nCARL: And do you take any medication on a regular basis?\n\nJULIE: Well, I take vitamins but that's all. I'm generally very healthy.\n\nCARL: OK, well let's have a closer look and see what might be causing this problem\nIf you can just get up ..."
+   },
+   {
+    "part": 2,
+    "text": "We'll be arriving at Branley Castle in about five minutes, but before we get there I'll give you\na little information about the castle and what our visit will include.\n\nSo in fact there's been a castle on this site for over eleven hundred years. The first building\nwas a fort constructed in 914 AD for defence against Danish invaders by King Alfred the\nGreat's daughter, who ruled England at the time. In the following century, after the Normans\nconquered England, the land was given to a nobleman called Richard Devere, and he built\na castle there that stayed in the Devere family for over four hundred years,\nHowever, when Queen Elizabeth I announced that she was going to visit the castle in 1576\nit was beginning to look a bit run down, and it was decided that rather than repair the guest\nrooms, they’d make a new house for her out of wood next to the main hall. She stayed there\nfor four nights and apparently it was very luxurious, but unfortunately it was destroyed a few\nyears later by fire.\n\nIn the seventeenth century the castle belonged to the wealthy Fenys family, who enlarged\nit and made it more comfortable. However, by 1982 the Fenys family could no longer afford\nto maintain the castle, even though they received government support, and they put it on\nthe market. It was eventually taken over by a com; who own number of amusement\nparks, but when we get there I think you'll see that they've managed to retain the original\natmosphere of the castle.\n\nWhen you go inside, you'll find that in the state rooms there are life-like moving wax model\ndressed in costumes of different periods in the past, which even carry on conversations\ntogether. As well as that, in every room there are booklets giving information about what the\nroom was used for and the history of the objects and furniture it contains.\n\nThe castle park’s quite extensive. At one time sheep were kept there, and in the nineteenth\ncentury the owners had a little zoo with animals like rabbits and even a baby elephant.\nNowadays the old zoo buildings are used for public displays of paintings and sculpture. The\npark also has some beautiful trees, though the oldest of all, which dated back 800 years, was\nsadly blown down in 1987.\n\nNow, you're free to wander around on your own until 4.30, but then at the end of our visit we'll\nall meet together at the bottom of the Great Staircase. We'll then go on to the long gallery,\nwhere there's a wonderful collection of photographs showing the family who owned the castle\na hundred years ago having tea and cakes in the conservatory — and we'll then take you to\nthe same place, where afternoon tea will be served to you.\nNow if you can take a look at your plans you'll see Branley Castle has four towers, joined\ntogether by a high wall, with the river on two sides.\n\nDon't miss seeing the Great Hall. That's near the river in the main tower, the biggest one,\nwhich was extended and redesigned in the eighteenth century.\n\nIf you want to get a good view of the whole castle, you can walk around the walls. The\nstarting point's quite near the main entrance — walk straight down the path until you get to the\nsouth gate, and it's just there. Don't go on to the north gate — there’s no way up from there.\n\nThere'll shortly be a show in which you can see archers displaying their skill with a bow and\narrow. The quickest way to get there is to take the first left after the main entrance and follow\nthe path past the bridge, then you'll see it in front of you at the end.\n\nIf you like animals there's also a display of hunting birds — falcons and eagles and so on. If\nyou go from the main entrance in the direction of the south gate, but term right before you get\nthere instead of going through it, you'll see it on your right past the first tower\nAt 3 pm there's a short performance of traditional dancing on the outdoor stage. That's right\nat the other side of the castle from the entrance, and over the bridge. It's about ten minutes’\nwalk or so\nAnd finally the shop. It's actually inside one of the towers, but the way in is from the outside.\nJust take the first left after the main entrance, go down the path and take the first right. It's got\nsome lovely gifts and souvenirs.\n\nRight, so we're just arriving ."
+   },
+   {
+    "part": 3,
+    "text": "TUTOR: So, Rosie and Martin, let's look at what you've got for your presentation on\nwoolly mammoths.\n\nROSIE: OK, we've got a short outline here.\n\nTUTOR: Thanks. So it's about a research project in North America?\n\nMARTIN: Yes. But we thought we needed something general about woolly mammoths in\nour introduction, to establish that they were related to our modern elephant, and\nthey lived thousands of years ago in the last ice age.\nROSIE: Maybe we could show a video clip of a cartoon about mammoths. But that'd be a\nbit childish. Or we could have a diagram, it could be a timeline to show when they\nlived, with illustrations?\n\nMARTIN: Or we could just show a drawing of them walking in the ice? No, let's go with\nyour last suggestion.\n\nTUTOR: Good. Then you're describing the discovery of the mammoth tooth on St Paul's\nIsland in Alaska, and why it was significant.\nROSIE: Yes. The tooth was found by a man called Russell Graham. He picked it up from\nunder a rock in a cave. He knew it was special — for a start it was in really good\ncondition, as if it had been just extracted from the animal's jawbone. Anyway.\nthey found it was 6,500 years old.\nTUTOR: So why was that significant?\nROSIE: Well the mammoth bones previously found on the North American mainland were\nmuch less recent than that. So this was really amazing.\nMARTIN: Then we're making an animated diagram to show the geography of the area\nin prehistoric times. So originally, St Paul's Island wasn't an island, it was\nconnected to the mainland, and mammoths and other animals like bears were\nable to roam around the whole area.\nROSIE: Then the climate warmed up and the sea level began to rise, and the island got\ncut off from the mainland. So those mammoths on the island couldn't escape:\nthey had to stay on the island.\nMARTIN: And in fact the species survived there for thousands of years after they'd become\nextinct on the mainland.\nTUTOR: So why do you think they died out on the mainland?\nROSIE: No one's sure.\nMARTIN: Anyway, next we'll explain how Graham and his team identified the date when\nthe mammoths became extinct on the island. They concluded that the extinction\nhi ned 5. 0. iS a very precise time for a prehistoric\nextinction. It's based on samples they took from mud at the bottom of a lake\non the island. They analysed it to find out what had fallen in over time — bits of\nplants, volcanic ash and even DNA from the mammoths themselves. It's standard\nprocedure, but it took nearly two years to do.\nTUTOR: So why don't you quickly go through the main sections of your presentation and\ndiscuss what action’s needed for each part?\nMARTIN: OK. So for the introduction, we're using a visual, so once we've prepared that\nwe're done.\nROSIE: I'm not sure. I think we need to write down all the ideas we want to include here,\nnot just rely on memory. How we begin the presentation is so important ...\nMARTIN: You're right\nROSIE: The discovery of the mammoth tooth is probably the most dramatic part, but\nwe don't have that much information, only what we got from the online article. I\nthought maybe we could get in touch with the researcher who led the team and\nask him to tell us a bit more.\nMARTIN: Great idea. What about the section with the initial questions asked by the\nresearchers? We've got a lot on that but we need to make it interesting.\nROSIE: We could ask the audience to suggest some questions about it and then see how\nmany of them we can answer, I don't think it would take too long.\nTUTOR: Yes that would add a bit of variety.\nMARTIN: Then the section on further research carried out on the island — analysing the\nmud in the lake. I wonder if we've actually got too much information here, should\nwe cut some?\nROSIE: don't think so, but it's all a bit muddled at present.\nMARTIN: Yes, maybe it would be better if it followed a chronological pattern.\nROSIE: think so. The findings and possible explanations section is just about ready, but\nwe need to practise it so we're sure it won't overrun.\nMARTIN: think it should be OK, but yes, let's make sure.\nTUTOR: In the last section, relevance to the present day, you've got some good ideas but\nthis is where you need to move away from the ideas of others and give your own viewpoint.\nMARTIN: OK, we'll think about that. Now shall we"
+   },
+   {
+    "part": 4,
+    "text": "In this series of lectures about the history of weather forecasting, I'll start by examining its\nearly history — that'll be the subject of today’s talk.\n\nOK, so we'll start by going back thousands of years. Most ancient cultures had weather gods,\nand weather catastrophes, such as floods, played an important role in many creation myths.\nGenerally, weather was attributed to the whims of the gods, as the wide range of weather\ngods in various cultures shows. For instance, there's the Egyptian sun god Ra, and Thor,\nthe Norse god of thunder and lightning. Many ancient civilisations developed rites such as\ndances in order to make the weather gods look kindly on them.\n\nBut the weather was of daily importance: observing the skies and drawing the correct\nconclusions from these observations was really important, in fact their survival depended on\nit. It isn't known when people first started to observe the skies, but at around 650 BC, the\nBabylonians produced the first short-range weather forecasts, based on their observations\nof clouds and other phenomena. The Chinese also recognised weather patterns, and by\n300 BC, astronomers had developed a calendar which divided the year into 24 festivals,\neach associated with a different weather phenomenon.\n\nThe ancient Greeks were the first to develop a more scientific approach to explaining the\nweather. The work of the philosopher and scientist Aristotle, in the fourth century BC, is\nespecially noteworthy, as his ideas held sway for nearly 2,000 years. In 340 BC, he wrote a\nbook in which he attempted to account for the formation of rain, clouds, wind and storms. He\nalso described celestial phenomena such as haloes — that is, bright circles of light around\nthe sun, the moon and bright stars — and comets. Many of his observations were surprisingly\naccurate. For example, he believed that heat could cause water to evaporate. But he also\njumped to quite a few wrong conclusions, such as that winds are breathed out by the Earth.\nErrors like this were rectified from the Renaissance onwards\nFor nearly 2,000 years, Aristotle’s work was accepted as the chief authority on weather\ntheory. Alongside this, though, in the Middle Ages weather observations were passed on in\nthe form of proverbs, such as ‘Red sky at night, shepherd's delight; red sky in the morning,\nshepherd's warning’. Many of these are based on very good observations and are accurate,\nas contemporary meteorologists have discovered.\n\nFor centuries, any attempt to forecast the weather could only be based on personal\nobservations, but in the fifteenth century scientists began to see the need for instruments.\nUntil then, the only ones available were weather vanes — to determine the wind direction —\nand early versions of rain gauges. One of the first, invented in the fifteenth century, was a\nhygrometer, which measured humidity. This was one of many inventions that contributed to\nthe development of weather forecasting.\n\nIn 1592, the Italian scientist and inventor Galileo developed the world’s first thermometer. His\nstudent Torricelli later invented the barometer, which allowed people to measure atmospheric\npressure. In 1648, the French philosopher Pascal proved that pressure decreases with\naltitude. This discovery was verified by English astronomer Halley in 1686; and Halley was\nalso the first person to map trade winds.\n\nThis increasing ability to measure factors related to weather helped scientists to understand\nthe atmosphere and its processes better, and they started collecting weather observation\ndata systematically. In the eighteenth century, the scientist and politician Benjamin Franklin\ncarried out work on electricity and lightning in particular, but he was also very interested in\nweather and studied it throughout most of his life. It was Franklin who discovered that storms\ngenerally travel from west to east.\n\nIn addition to new meteorological instruments, other developments contributed to our\nunderstanding of the atmosphere. People in different locations began to keep records, and in\nthe mid-19th century, the invention of the telegraph made it possible for these records\nto be collated. This led, by the end of the nineteenth century, to the first weather services.\n\nIt was not until the early twentieth century that mathematics and physics became part of\nmeteorology, and we'll continue from that point next week."
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "groups": [
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nIn boxes 1-8 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 1,
+      "last": 8,
+      "body": "",
+      "options": [],
+      "figure_pdf_page": 0,
+      "questions": [
+       {
+        "n": 1,
+        "text": "Henderson rarely visited the area around Press estate when he was younger.",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "Henderson pursued a business career because it was what his family wanted.",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "Henderson and Notman were surprised by the results of their 1865 experiment.",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "There were many similarities between Henderson's early landscapes and those of Notman.",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "The studio that Henderson opened in 1866 was close to his home.",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "Henderson gave up portraiture so that he could focus on taking photographs of scenery.",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "When Henderson began work for the Intercolonial Railway, the Montreal to Halifax line had been finished.",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "Henderson's last work as a photographer was with the Canadian Pacific Railway.",
+        "options": []
+       }
+      ]
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 9-13 on your answer sheet.",
+      "first": 9,
+      "last": 13,
+      "body": "Alexander Henderson\n\nEarly life\n* was born in Scotland in 1831 — father was a [[9]]\n* trained as an accountant, emigrated to Canada in 1855\n\nStart of a photographic career\n* opened up a photographic studio in 1866\n* took photos of city life, but preferred landscape photography\n* people bought Henderson's photos because photography took up considerable time and the [[10]] was heavy\n* the photographs Henderson sold were [[11]] of souvenirs\n\nTravelling as a professional photographer\n* travelled widely in Quebec and Ontario in 1870s and 1880s\n* took many trips along eastern rivers in a [[12]]\n* worked for Canadian railways between 1875 and 1897\n* worked for CPR in 1885 and photographed the [[13]] and the railway at Rogers Pass",
+      "options": [],
+      "figure_pdf_page": 0,
+      "questions": [
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "",
+        "options": []
+       }
+      ]
+     }
+    ],
+    "title": "Alexander Henderson (1831-1913)\nBorn in Scotland, Henderson emigrated to Canada in 1855 and became a well-known landscape photographer",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Alexander Henderson was born in Scotland in 1831 and was the son of a successful merchant. His grandfather, also called Alexander, had founded the family business, and later became the first chairman of the National Bank of Scotland. The family had extensive landholdings in Scotland. Besides its residence in Edinburgh, it owned Press Estate, 650 acres of farmland about 35 miles southeast of the city. The family often stayed at Press Castle, the large mansion on the northern edge of the property, and Alexander spent much of his childhood in the area, playing on the beach near Eyemouth or fishing in the streams nearby."
+     },
+     {
+      "label": "",
+      "text": "Even after he went to school at Murcheston Academy on the outskirts of Edinburgh, Henderson returned to Press at weekends. In 1849 he began a three-year apprenticeship to become an accountant. Although he never liked the prospect of a business career, he stayed with it to please his family. In October 1855, however, he emigrated to Canada with his wife Agnes Elder Robertson and they settled in Montreal."
+     },
+     {
+      "label": "",
+      "text": "Henderson learned photography in Montreal around the year 1857 and quickly took it up as a serious amateur. He became a personal friend and colleague of the Scottish—-Canadian photographer William Notman. The two men made a photographic excursion to Niagara Falls in 1860 and they cooperated on experiments with magnesium flares as a source of artificial light in 1865. They belonged to the same societies and were among the founding members of the Art Association of Montreal. Henderson acted as chairman of the association’s first meeting, which was held in Notman’s studio on 11 January 1860."
+     },
+     {
+      "label": "",
+      "text": "In spite of their friendship, their styles of photography were quite different. While Notman’s landscapes were noted for their bold realism, Henderson for the first 20 years of his career produced romantic images, showing the strong influence of the British landscape tradition. His artistic and technical progress was rapid and in 1865 he published his first major collection of landscape photographs. The publication had limited circulation (only seven copies have ever been found), and was called Canadian Views and Studies. The contents of each copy vary significantly and have proved a useful source for evaluating Henderson’s early work."
+     },
+     {
+      "label": "",
+      "text": "This text is taken, for the most part, verbatim from the Dictionary of Canadian Biography Volume XIV (1911-1920). For design purposes."
+     },
+     {
+      "label": "",
+      "text": "Henderson frequently exhibited his photographs in Montreal and abroad, in London, Edinburgh, Dublin, Paris, New York, and Philadelphia, He met with greater success in 1877 and 1878 in New York when he won first prizes in the exhibition held by E and H T Anthony and Company for landscapes using the Lambertype process. In 1878 his work won second prize at the world exhibition in Paris."
+     },
+     {
+      "label": "",
+      "text": "In the 1870s and 1880s Henderson travelled widely throughout Quebec and Ontario, in Canada, documenting the major cities of the two provinces and many of the villages in Quebec. He was especially fond of the wilderness and often travelled by canoe on the Blanche, du Liévre, and other noted eastern rivers. He went on several occasions to the Maritimes and in 1872 he sailed by yacht along the lower north shore of the St Lawrence River. That same year, while in the lower St Lawrence River region, he took some photographs of the construction of the Intercolonial Railway. This undertaking led in 1875 to a commission from the railway to record the principal structures along the almost-completed line connecting Montreal to Halifax. Commissions from other railways followed. In 1876 he photographed bridges on the Quebec, Montreal, Ottawa and Occidental Railway between Montreal and Ottawa. In 1885 he went west along the Canadian Pacific Railway (CPR) as far as Rogers Pass in British Columbia, where he took photographs of the mountains and the progress of construction."
+     },
+     {
+      "label": "",
+      "text": "In 1892 Henderson accepted a full-time position with the CPR as manager of a photographic department which he was to set up and administer. His duties included spending four months in the field each year. That summer he made his second trip west, photographing extensively along the railway line as far as Victoria. He continued in this post until 1897, when he retired completely from photography."
+     },
+     {
+      "label": "",
+      "text": "When Henderson died in 1913, his huge collection of glass negatives was stored in the basement of his house. Today collections of his work are held at the National Archives of Canada, Ottawa, and the McCord Museum of Canadian History, Montreal."
+     }
+    ]
+   },
+   {
+    "title": "Back to the future of skyscraper design",
+    "groups": [
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 2 has nine sections, A-I.\n\nWhich section contains the following information?\n\nWrite the correct letter, A-I, in boxes 14-18 on your answer sheet.",
+      "first": 14,
+      "last": 18,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 14,
+        "text": "why some people avoided hospitals in the 19th century",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "a suggestion that the popularity of tall buildings is linked to prestige",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "a comparison between the circulation of air in a 19th-century building and modern standards",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "how Short tested the circulation of air in a 19th-century building",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "an implication that advertising led to the large increase in the use of air conditioning",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 19-26 on your answer sheet.",
+      "first": 19,
+      "last": 26,
+      "body": "Ventilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the architectural [[19]] of hospitals to ensure they had good ventilation.\n\nHe calculated that [[20]] in the air coming from patients suffering from [[21]] would not have harmed other patients. He also found that the air in [[22]] hospitals could change as often as in a modern operating theatre. He suggests that energy use could be reduced by locating more patients in [[23]] areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from [[24]] for protection against bad air, known as [[25]]. These were blamed for the spread of disease for hundreds of years, including [[26]] epidemics in London and Paris in the middle of the 19th century.",
+      "options": [],
+      "questions": [
+       {
+        "n": 19,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 21,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 23,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Answers to the problem of excessive electricity use by skyscrapers and large public buildings can be found in ingenious but forgotten architectural designs of the 19th and early-20th centuries"
+     },
+     {
+      "label": "A",
+      "text": "The Recovery of Natural Environments in Architecture by Professor Alan Short is the culmination of 30 years of research and award-winning green building design by Short and colleagues in Architecture, Engineering, Applied Maths and Earth Sciences at the University of Cambridge."
+     },
+     {
+      "label": "",
+      "text": "‘The crisis in building design is already here,’ said Short. ‘Policy makers think you can solve energy and building problems with gadgets. You can't. As global temperatures continue to rise, we are going to continue to squander more and more energy on keeping our buildings mechanically cool until we have run out of capacity."
+     },
+     {
+      "label": "B",
+      "text": "Short is calling for a sweeping reinvention of how skyscrapers and major public buildings are designed — to end the reliance on sealed buildings which exist solely via the ‘life support’ system of vast air conditioning units."
+     },
+     {
+      "label": "",
+      "text": "Instead, he shows it is entirely possible to accommodate natural ventilation and cooling in large buildings by looking into the past, before the widespread introduction of air conditioning systems, which were ‘relentlessly and aggressively marketed’ by their inventors."
+     },
+     {
+      "label": "C",
+      "text": "Short points out that to make most contemporary buildings habitable, they have to be sealed and air conditioned. The energy use and carbon emissions this generates is spectacular and largely unnecessary. Buildings in the West account for 40-50% of electricity usage, generating substantial carbon emissions, and the rest of the world is catching up at a frightening rate. Short regards glass, steel and air-conditioned skyscrapers as symbols of status, rather than practical ways of meeting our requirements."
+     },
+     {
+      "label": "D",
+      "text": "Short’s book highlights a developing and sophisticated art and science of ventilating buildings through the 19th and earlier-20th centuries, including the design of ingeniously ventilated hospitals. Of particular interest were those built to the designs of John Shaw Billings, including the first Johns Hopkins Hospital in the US city of Baltimore (1873-1889)."
+     },
+     {
+      "label": "",
+      "text": "‘We spent three years digitally modelling Billings’ final designs,’ says Short. ‘We put pathogens in the airstreams, modelled for someone with tuberculosis (TB) coughing in the wards and we found the ventilation systems in the room would have kept other patients safe from harm."
+     },
+     {
+      "label": "E",
+      "text": "We discovered that 19th-century hospital wards could generate up to 24 air changes an hour — that’s similar to the performance of a modern-day, computer-controlled operating theatre. We believe you could build wards based on these principles now."
+     },
+     {
+      "label": "",
+      "text": "Single rooms are not appropriate for all patients. Communal wards appropriate for certain patients — older people with dementia, for example — would work just as well in today’s hospitals, at a fraction of the energy cost.’"
+     },
+     {
+      "label": "",
+      "text": "Professor Short contends the mindset and skill-sets behind these designs have been completely lost, lamenting the disappearance of expertly designed theatres, opera houses, and other buildings where up to half the volume of the building was given over to ensuring everyone got fresh air."
+     },
+     {
+      "label": "F",
+      "text": "Much of the ingenuity present in 19th-century hospital and building design was driven by a panicked public clamouring for buildings that could protect against what was thought to be the lethal threat of miasmas — toxic air that spread disease. Miasmas were feared as the principal agents of disease and epidemics for centuries, and were used to explain the spread of infection from the Middle Ages right through to the cholera outbreaks in London and Paris during the 1850s. Foul air, rather than germs, was believed to be the main driver of ‘hospital fever’, leading to disease and frequent death. The prosperous steered clear of hospitals."
+     },
+     {
+      "label": "",
+      "text": "While miasma theory has been long since disproved, Short has for the last 30 years advocated a return to some of the building design principles produced in its wake."
+     },
+     {
+      "label": "G",
+      "text": "Today, huge amounts of a building’s space and construction cost are given over to air conditioning. ‘But I have designed and built a series of buildings over the past three decades which have tried to reinvent some of these ideas and then measure what happens."
+     },
+     {
+      "label": "",
+      "text": "‘To go forward into our new low-energy, low-carbon future, we would be well advised to look back at design before our high-energy, high-carbon present appeared. What is surprising is what a rich legacy we have abandoned.’"
+     },
+     {
+      "label": "H",
+      "text": "Successful examples of Short’s approach include the Queen's Building at De Montfort University in Leicester. Containing as many as 2,000 staff and students, the entire building is naturally ventilated, passively cooled and naturally lit, including the two largest auditoria, each seating more than 150 people. The award-winning building uses a fraction of the electricity of comparable buildings in the UK."
+     },
+     {
+      "label": "",
+      "text": "Short contends that glass skyscrapers in London and around the world will become a liability over the next 20 or 30 years if climate modelling predictions and energy price rises come to pass as expected."
+     },
+     {
+      "label": "I",
+      "text": "He is convinced that sufficiently cooled skyscrapers using the natural environment can be produced in almost any climate. He and his team have worked on hybrid buildings in the harsh climates of Beijing and Chicago — built with natural ventilation assisted by back-up air conditioning — which, surprisingly perhaps, can be switched off more than half the time on milder days and during the spring and autumn."
+     },
+     {
+      "label": "",
+      "text": "Short looks at how we might reimagine the cities, offices and homes of the future Maybe it's time we changed our outlook."
+     },
+     {
+      "label": "",
+      "text": "* pathogens: microorganisms that can cause disease"
+     }
+    ]
+   },
+   {
+    "title": "Why companies should welcome disorder",
+    "groups": [
+     {
+      "type": "matching_headings",
+      "instructions": "Reading Passage 3 has eight sections, A-H.\nChoose the correct heading for each section from the list of headings below.\n\nWrite the correct number, i-ix, in boxes 27-34 on your answer sheet.",
+      "first": 27,
+      "last": 34,
+      "body": "",
+      "options": [
+       {
+        "key": "i",
+        "text": "Complaints about the impact of a certain approach"
+       },
+       {
+        "key": "ii",
+        "text": "Fundamental beliefs that are in fact incorrect"
+       },
+       {
+        "key": "iii",
+        "text": "Early recommendations concerning business activities"
+       },
+       {
+        "key": "iv",
+        "text": "Organisations that put a new approach into practice"
+       },
+       {
+        "key": "v",
+        "text": "Companies that have suffered from changing their approach"
+       },
+       {
+        "key": "vi",
+        "text": "What people are increasingly expected to do"
+       },
+       {
+        "key": "vii",
+        "text": "How to achieve outcomes that are currently impossible"
+       },
+       {
+        "key": "viii",
+        "text": "Neither approach guarantees continuous improvement"
+       },
+       {
+        "key": "ix",
+        "text": "Evidence that a certain approach can have more disadvantages than advantages"
+       }
+      ],
+      "questions": [
+       {
+        "n": 27,
+        "text": "Section A",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "Section B",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "Section C",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "Section D",
+        "options": []
+       },
+       {
+        "n": 31,
+        "text": "Section E",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "Section F",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "Section G",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "Section H",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "sentence_completion",
+      "instructions": "Complete the sentences below.\n\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 35-37 on your answer sheet.",
+      "first": 35,
+      "last": 37,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 35,
+        "text": "Numerous training sessions are aimed at people who feel they are not [[35]] enough.",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "Being organised appeals to people who regard themselves as [[36]]",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "Many people feel [[37]] with aspects of their work.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 3?\nIn boxes 38-40 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 38,
+      "last": 40,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 38,
+        "text": "Both businesses and people aim at order without really considering its value.",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "Innovation is most successful if the people involved have distinct roles.",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "Google was inspired to adopt flexibility by the success of General Electric.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "Organisation is big business. Whether it is of our lives — all those inboxes and calendars — or how companies are structured, a multi-billion dollar industry helps to meet this need."
+     },
+     {
+      "label": "",
+      "text": "We have more strategies for time management, project management and self-organisation than at any other time in human history. We are told that we ought to organise our company, our home life, our week, our day and even our sleep, all as a means to becoming more productive. Every week, countless seminars and workshops take place around the world to tell a paying public that they ought to structure their lives in order to achieve this."
+     },
+     {
+      "label": "",
+      "text": "This rhetoric has also crept into the thinking of business leaders and entrepreneurs, much to the delight of self-proclaimed perfectionists with the need to get everything right. The number of business schools and graduates has massively increased over the past 50 years, essentially teaching people how to organise well."
+     },
+     {
+      "label": "B",
+      "text": "Ironically, however, the number of businesses that fail has also steadily increased. Work-related stress has increased. A large proportion of workers from all demographics claim to be dissatisfied with the way their work is structured and the way they are managed."
+     },
+     {
+      "label": "",
+      "text": "This begs the question: what has gone wrong? Why is it that on paper the drive for organisation seems a sure shot for increasing productivity, but in reality falls well short of what is expected?"
+     },
+     {
+      "label": "C",
+      "text": "This has been a problem for a while now. Frederick Taylor was one of the forefathers of scientific management. Writing in the first half of the 20th century, he designed a number of principles to improve the efficiency of the work process, which have since become widespread in modern companies. So the approach has been around for a while."
+     },
+     {
+      "label": "D",
+      "text": "New research suggests that this obsession with efficiency is misguided. The problem is not necessarily the management theories or strategies we use to organise our work; it’s the basic assumptions we hold in approaching how we work. Here it’s the assumption that order is a necessary condition for productivity. This assumption has also fostered the idea that disorder must be detrimental to organisational productivity. The result is that businesses and people spend time and money organising themselves for the sake of organising, rather than actually looking at the end goal and usefulness of such an effort."
+     },
+     {
+      "label": "E",
+      "text": "What’s more, recent studies show that order actually has diminishing returns. Order does increase productivity to a certain extent, but eventually the usefulness of the process of organisation, and the benefit it yields, reduce until the point where any further increase in order reduces productivity. Some argue that in a business, if the cost of formally structuring something outweighs the benefit of doing it, then that thing ought not to be formally structured. Instead, the resources involved can be better used elsewhere."
+     },
+     {
+      "label": "F",
+      "text": "In fact, research shows that, when innovating, the best approach is to create an environment devoid of structure and hierarchy and enable everyone involved to engage as one organic group. These environments can lead to new solutions that, under conventionally structured environments (filled with bottlenecks in terms of information flow, power structures, rules, and routines) would never be reached,"
+     },
+     {
+      "label": "G",
+      "text": "In recent times companies have slowly started to embrace this disorganisation. Many of them embrace it in terms of perception (embracing the idea of disorder, as opposed to fearing it) and in terms of process (putting mechanisms in place to reduce structure)."
+     },
+     {
+      "label": "",
+      "text": "For example, Oticon, a large Danish manufacturer of hearing aids, used what it called a ‘spaghetti’ structure in order to reduce the organisation’s rigid hierarchies. This involved scrapping formal job titles and giving staff huge amounts of ownership over their own time and projects. This approach proved to be highly successful initially, with clear improvements in worker productivity in all facets of the business."
+     },
+     {
+      "label": "",
+      "text": "In similar fashion, the former chairman of General Electric embraced disorganisation, putting forward the idea of the ‘boundaryless’ organisation, Again, it involves breaking down the barriers between different parts of a company and encouraging virtual collaboration and flexible working. Google and a number of other tech companies have embraced (at least in part) these kinds of flexible structures, facilitated by technology and strong company values which glue people together."
+     },
+     {
+      "label": "H",
+      "text": "A word of warning to others thinking of jumping on this bandwagon: the evidence so far suggests disorder, much like order, also seems to have diminishing utility, and can also have detrimental effects on performance if overused. Like order, disorder should be embraced only so far as it is useful. But we should not fear it — nor venerate one over the other."
+     },
+     {
+      "label": "",
+      "text": "This research also shows that we should continually question whether or not our existing assumptions work."
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "FALSE",
+   "2": "TRUE",
+   "3": "NOT GIVEN",
+   "4": "FALSE",
+   "5": "NOT GIVEN",
+   "6": "TRUE",
+   "7": "FALSE",
+   "8": "TRUE",
+   "9": "merchant",
+   "10": "equipment",
+   "11": "gifts",
+   "12": "canoe",
+   "13": "mountains",
+   "14": "F",
+   "15": "C",
+   "16": "E",
+   "17": "D",
+   "18": "B",
+   "19": "design(s)",
+   "20": "pathogens",
+   "21": "tuberculosis",
+   "22": "wards",
+   "23": "communal",
+   "24": "public",
+   "25": "miasmas",
+   "26": "cholera",
+   "27": "vi",
+   "28": "i",
+   "29": "iii",
+   "30": "ii",
+   "31": "ix",
+   "32": "vii",
+   "33": "iv",
+   "34": "viii",
+   "35": "productive",
+   "36": "perfectionists",
+   "37": "dissatisfied",
+   "38": "TRUE",
+   "39": "FALSE",
+   "40": "NOT GIVEN"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe chart below shows the value of one country’s exports in various\ncategories during 2015 and 2016. The table shows the percentage change in\neach category of exports in 2016 compared with 2015.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 42,
+   "image": "figures/p042.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people say that the main environmental problem of our time is the loss\nof particular species of plants and animals. Others say that there are more\nimportant environmental problems.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Social media",
+    "questions": [
+     "Which social media websites do you use?",
+     "How much time do you spend on social media sites? [Why/Why not?]",
+     "What kind of information about yourself have you put on social media? [Why/Why not?]",
+     "Is there anything you don't like about social media? [Why?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe something you liked very much which you bought for your home.",
+   "points": [
+    "what you bought",
+    "when and where you bought it",
+    "why you chose this particular thing",
+    "and explain why you liked it so much"
+   ],
+   "rounding_off": [
+    "You will have to talk about the topic for one to two minutes.",
+    "You have one minute to think about what you are going to say.",
+    "You can make some notes to help you if you wish."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Creating a nice home",
+    "questions": [
+     "Why do some people buy lots of things for their home?",
+     "Do you think it is very expensive to make a home look nice?",
+     "Why don't some people care about how their home looks?"
+    ]
+   },
+   {
+    "topic": "Different types of home",
+    "questions": [
+     "In what ways is living in a flat/apartment better than living in a house?",
+     "Do you think homes will look different in the future?",
+     "Do you agree that the kinds of homes people prefer change as they get older?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

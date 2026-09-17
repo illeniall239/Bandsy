@@ -1,0 +1,1047 @@
+{
+ "book": 12,
+ "test": 1,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 1,
+      "last": 10,
+      "body": "FAMILY EXCURSIONS\n\nCruise on a lake\nExample: Travel on an old ....... Steamship .......\n- Can take photos of the [[1]] that surround the lake\n\nFarm visit\n- Children can help feed the sheep\n- Visit can include a 40-minute ride on a [[2]]\n- Visitors can walk in the farm's [[3]] by the lake\n- [[4]] is available at extra cost\n\nCycling trips\n- Cyclists explore the Back Road\n- [[5]] is provided\n- Only suitable for cyclists who have some [[6]]\n- Bikes can be hired for [[7]] (near the Cruise Ship Terminal)\n\nCyclists need:\n- a repair kit\n- food and drink\n- [[8]] (can be hired)\n- [[9]] accommodation in the area\n\nCost\n- Total cost for whole family of cruise and farm visit: $[[10]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.\n\nTalk to new kitchen assistants",
+      "first": 11,
+      "last": 14,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 11,
+        "text": "According to the manager, what do most people like about the job of kitchen assistant?",
+        "options": [
+         {
+          "key": "A",
+          "text": "the variety of work"
+         },
+         {
+          "key": "B",
+          "text": "the friendly atmosphere"
+         },
+         {
+          "key": "C",
+          "text": "the opportunities for promotion"
+         }
+        ]
+       },
+       {
+        "n": 12,
+        "text": "The manager is concerned about some of the new staff's",
+        "options": [
+         {
+          "key": "A",
+          "text": "jewellery."
+         },
+         {
+          "key": "B",
+          "text": "hair."
+         },
+         {
+          "key": "C",
+          "text": "shoes."
+         }
+        ]
+       },
+       {
+        "n": 13,
+        "text": "The manager has asked all staff to work an extra shift today because",
+        "options": [
+         {
+          "key": "A",
+          "text": "it is a public holiday."
+         },
+         {
+          "key": "B",
+          "text": "the head chef is absent."
+         },
+         {
+          "key": "C",
+          "text": "the restaurant is almost fully booked."
+         }
+        ]
+       },
+       {
+        "n": 14,
+        "text": "Only kitchen staff who are 18 or older are allowed to use",
+        "options": [
+         {
+          "key": "A",
+          "text": "the waste disposal unit."
+         },
+         {
+          "key": "B",
+          "text": "the electric mixer."
+         },
+         {
+          "key": "C",
+          "text": "the meat slicer."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 15,
+      "last": 16,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "They have to follow orders immediately."
+       },
+       {
+        "key": "B",
+        "text": "The kitchen gets very hot."
+       },
+       {
+        "key": "C",
+        "text": "They may not be able to take a break."
+       },
+       {
+        "key": "D",
+        "text": "They have to do overtime."
+       },
+       {
+        "key": "E",
+        "text": "The work is physically demanding."
+       }
+      ],
+      "questions": [
+       {
+        "n": 15,
+        "text": "According to the manager, which TWO things can make the job of kitchen assistant stressful?",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "According to the manager, which TWO things can make the job of kitchen assistant stressful?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "What is the responsibility of each of the following restaurant staff?\nChoose FOUR answers from the box and write the correct letter, A-F, next to Questions 17-20.\n\nResponsibilities",
+      "first": 17,
+      "last": 20,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "training courses"
+       },
+       {
+        "key": "B",
+        "text": "food stocks"
+       },
+       {
+        "key": "C",
+        "text": "first aid"
+       },
+       {
+        "key": "D",
+        "text": "breakages"
+       },
+       {
+        "key": "E",
+        "text": "staff discounts"
+       },
+       {
+        "key": "F",
+        "text": "timetables"
+       }
+      ],
+      "questions": [
+       {
+        "n": 17,
+        "text": "Joy Perkins",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "David Field",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "Dexter Wills",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Mike Smith",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.\n\nPaper on Public Libraries",
+      "first": 21,
+      "last": 23,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "What will be the main topic of Trudie and Stewart's paper?",
+        "options": [
+         {
+          "key": "A",
+          "text": "how public library services are organised in different countries"
+         },
+         {
+          "key": "B",
+          "text": "how changes in society are reflected in public libraries"
+         },
+         {
+          "key": "C",
+          "text": "how the funding of public libraries has changed"
+         }
+        ]
+       },
+       {
+        "n": 22,
+        "text": "They agree that one disadvantage of free digitalised books is that",
+        "options": [
+         {
+          "key": "A",
+          "text": "they may take a long time to read."
+         },
+         {
+          "key": "B",
+          "text": "they can be difficult to read."
+         },
+         {
+          "key": "C",
+          "text": "they are rarely old."
+         }
+        ]
+       },
+       {
+        "n": 23,
+        "text": "Stewart believes that in the future, public libraries will",
+        "options": [
+         {
+          "key": "A",
+          "text": "maintain their traditional function."
+         },
+         {
+          "key": "B",
+          "text": "become centres for local communities."
+         },
+         {
+          "key": "C",
+          "text": "no longer contain any books."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 24,
+      "last": 30,
+      "body": "Study of local library: possible questions\n- whether it has a [[24]] of its own\n- its policy regarding noise of various kinds\n- how it's affected by laws regarding all aspects of [[25]]\n- how the design needs to take the [[26]] of customers into account\n- what [[27]] is required in case of accidents\n- why a famous person's [[28]] is located in the library\n- whether it has a [[29]] of local organisations\n- how it's different from a library in a [[30]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 24,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 27,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite NO MORE THAN TWO WORDS for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "Four business values\nMany business values can result [[31]].\nSenior managers need to understand and deal with the potential [[32]] that may result.\n\nCollaboration\nDuring a training course, the speaker was in a team that had to build a [[33]].\nOther teams experienced [[34]] trying to collaborate.\nSales of a [[35]] were poor because of collaboration.\n\nIndustriousness\nHard work may be a bad use of various company [[36]].\nThe word 'lazy' in this context refers to people who avoid doing tasks that [[37]].\n\nCreativity\nAn advertising campaign for a [[38]] was memorable but failed to boost sales.\nCreativity should be used as a response to a particular [[39]].\n\nExcellence\nAccording to one study, on average, pioneers had a [[40]] that was far higher than that of followers.\nCompanies that always aim at excellence may miss opportunities.",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "mountains",
+   "2": "horse",
+   "3": "garden(s)",
+   "4": "lunch",
+   "5": "map",
+   "6": "experience",
+   "7": "Ratchesons",
+   "8": "helmet",
+   "9": "shops",
+   "10": "267",
+   "11": "A",
+   "12": "A",
+   "13": "C",
+   "14": "C",
+   "15": "A",
+   "16": "E",
+   "17": "F",
+   "18": "C",
+   "19": "D",
+   "20": "B",
+   "21": "B",
+   "22": "C",
+   "23": "C",
+   "24": "budget",
+   "25": "employment",
+   "26": "safety",
+   "27": "insurance",
+   "28": "diary",
+   "29": "database",
+   "30": "museum",
+   "31": "damage",
+   "32": "side effects",
+   "33": "bridge",
+   "34": "confusion",
+   "35": "smartphone",
+   "36": "resources",
+   "37": "unnecessary/not necessary",
+   "38": "chocolate bar",
+   "39": "problem",
+   "40": "market share"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 12/Test 5 Section 1.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 12/Test 5 Section 2.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 12/Test 5 Section 3.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 12/Test 5 Section 4.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "TC EMPLOYEE: Hi. Can I help you?\nVISITOR: I'd like to find out if you have any excursions suitable for families.\n\nTC EMPLOYEE: Sure. How about taking your family for a cruise? We have a steamship that\ntakes passengers out several times a day — it’s over 100 years old.\n\nVISITOR: That sounds interesting. How long is the trip?\n\nTC EMPLOYEE: About an hour and a half. And don’t forget to take pictures of the mountains.\nThey're all around you when you’re on the boat and they look fantastic.\n\nVISITOR: OK. And I assume there’s a café or something on board?\n\nTC EMPLOYEE: Sure. How old are your children?\n\nVISITOR: Er, my daughter’s fifteen and my son’s seven.\n\nTC EMPLOYEE: Right. Well there are various things you can he once you’ve Poo the lake\nto make a day of it. One thing that’ I a visit to the country farm.\nYou're met boat by the farmer and he’ 5 4 to ; Hana\nwhere the sheep are kept. Children love feeding them.\nVISITOR: My son would love that. He really likes animals.\nTC EMPLOYEE: Well, there’s also a 40-minute trek round the farm on a horse, if he wants.\nVISITOR: Do you think he’d manage it? He hasn't done that before.\nTC EMPLOYEE: Sure. It’s suitable for complete beginners.\nVISITOR: Ah, good.\nTC EMPLOYEE: And again, visitors are welcome to explore the farm on their own, as long\nas they take care to close gates and so on. There are some very beautiful\ngardens along the side of the lake which also belong to the farm — they'll be\njust at their best now. You could easily spend an hour or two there.\nVISITOR: OK. Well that all sounds good. And can we get lunch there?\nTC EMPLOYEE: You can, and it’s very good, though it's not included in the basic cost. You pay\nwhen you get there.\nVISITOR: Right.\n\nVISITOR: So is there anything else to do over on that side of the lake?\n\nTC EMPLOYEE: Well, what you can do is take a bike over on the ship and then go on a cycling\ntrip. There’s a trail there called the Back Road — you could easily spend three \nor four hours exploring it, and the scenery’s wonderful. They'll give you a map\nwhen you get your ticket for the cruise — there’s no extra charge.\n\nVISITOR: What's the trail like in terms of difficulty?\n\nTC EMPLOYEE: (Quite challenging in places. It wouldn't be suitable for your seven-year-old. It\nneeds someone who's got a bit more experience.\n\nVISITOR: Hmm. Well, my daughter loves cycling and so do I, so maybe the two of us\ncould go, and my wife and son could stay on the farm. That might work out\nquite well. But we don’t have bikes here... is there somewhere we could\nrent them?\nTC EMPLOYEE: Yes, there’s a place here in the city. It’s called Ratchesons.\nVISITOR: I'll just make a note of that — er, how do you spell it?\n\nTC EMPLOYEE: R-A-T-C-H-E-S-O-N-S. It’s just by the cruise ship terminal.\n\nVISITOR: OK.\n\nTC EMPLOYEE: You'd also need to pick up a repair kit for the bike from there to take along with\nyou, and you'd need to take along a snack and some water — it'd be best to get\nthose in the city.\n\nVISITOR: Fine. That shouldn’t be a problem. And I assume I can rent a helmet from the\nbike place?\n\nTC EMPLOYEE: Sure, you should definitely get that. It’s a great ride, but you want to be well\nprepared because it's very remote — you won't see any shops round there, or\nanywhere to stay, so you need to get back in time for the last boat.\n\nVISITOR: Yeah. So what sort of prices are we looking at here?\n\nTC EMPLOYEE: Let’s see, that’d be one adult and one child for the cruise with farm tour,\nthat’s $117, and an adult and a child for the cruise only so that’s $214 dollars\naltogether. Oh, wait a minute, how old did you say your daughter was?\n\nVISITOR: Fifteen.\n\nTC EMPLOYEE: Then I'm afraid it’s $267 because she has to pay the adult fare, which is $75\ninstead of the child fare which is $22 — sorry about that.\n\nVISITOR: That's OK. Er, so how do ..."
+   },
+   {
+    "part": 2,
+    "text": "Good morning everyone. My name is Joy Parkins and I'm the restaurant manager and I\nunderstand that none of you've had any previous experience as kitchen assistants? Well,\nyou might be feeling a bit nervous now, but most of our kitchen assistants say they enjoy the\nwork. OK, they might get shouted at sometimes, but it’s nothing personal, and they're pleased\nthat they have so many different things to do, which means they never get bored. And I'll\ntell you straightaway that if you do well we might think about moving you up and giving you\nsome more responsibility.\n\nRight, well, you've all shown up on time, which is an excellent start. Now I’m glad to see none\nof you have unsuitable footwear, so that’s good — you need to be careful as the floors can get\nvery wet and slippery. Those of you with long hair have got it well out of the way, but some of\nyou'll need to remove your rings and bracelets — just put them somewhere safe for today, and\nremember to leave them at home tomorrow, as they can be a safety hazard.\n\nNow it’s going to be a busy day for you all today — we don't have any tables free for this\nevening and only a few for lunch. Fortunately we've got our Head Chef back — he was away\non holiday all last week which meant the other chefs had extra work. Now, I'll tell you a bit\nmore about the job in a minute but first, some general regulations. For all of you, whatever\nyour age, there’s some equipment you mustn't use until you’ve been properly trained, like\nthe waste disposal system for example, for health and safety reasons. Then I think there are. \ntwo of you here who are under 18 — that’s Emma and Jake, isn’t it? Right, so for you two, the\nmeat slicer is out of bounds. And of course none of you are allowed to use the electric mixer\nuntil you’ve been shown how it works.\n\nNow you may have heard that this can be a stressful job, and I have to say that can be true.\n\nYou'll be working an eight hour day for the first week, though you'll have the chance to do\novertime after that as well if you want to. But however long the hours are, you'll get a break\nin the middle. What you will find is that you’re on your feet all day long, lifting and carrying so\nif you’re not fit now you soon will be! You'll find you don’t have much chance to take it easy\nwhen someone tells you to do something you need to do it straightaway — but at least we do\nhave a very efficient air conditioning system compared with some kitchens.\n\nNow let me tell you about some of the people you need to know. So as I said, I’m Joy Parkins\nand I decide who does what during the day and how long they work for. I'll be trying to get\nyou to work with as many different people in the kitchen as possible, so that you learn while\nyou're on the job. One person whose name you must remember is David Field. If youinjure\nyourself at all, even if it's really minor, you must report to him and he'll make sure the incident\nis recorded and you get the appropriate treatment. He’s trained to give basic treatment to\nstaff himself, or he'll send you off somewhere else if necessary. Then there’s Dexter Wills—\nhe’s the person you need to see if you smash a plate or something like that. Don’t just leave\nit and hope no one will notice — it’s really important to get things noted and replaced or there\ncould be problems later. And finally, there’s Mike Smith. He’s the member of staff who takes\ncare of all the stores of perishable. So if you notice we’re getting low in flour or sugar or\nsomething, make sure you let him know so he can put in an order.\n\nOK, now the next thing ..."
+   },
+   {
+    "part": 3,
+    "text": "TRUDIE: OK, Stewart. We need to start planning our paper on public libraries. Have you\nthought of an angle yet?\nSTEWART: Well, there’s so much we could look into. How libraries have cha Wine over the\ncenturies, for instance, or how different countries organise them? What do you think, Trudy?\nTRUDIE: Maybe we should concentrate on this country and try and relate the changes in libraries to external developments, like the fact that far more people can read than\na century ago. And that the local population may speak lots of different languages?\nSTEWART: We could include something about changes in the source of funding, too.\n\nTRUDIE: Yes, but remember we're only supposed to write a short paper, so it’s probably\nbest if we don’t go into funding in any detail.\n\nSTEWART: Right. Well, shall we just brainstorm a few ideas, to get started?\n\nTRUDIE: OK. We obviously need to look at the impact of new technology, particularly the\ninternet. Now that lots of books have been digitalised, people can access them\nfrom their own computers at home.\n\nSTEWART: And if everyone did that, libraries would be obsolete.\n\nTRUDIE: Yes.\n\nSTEWART: But the digitalised books that are available online for free are mostly out of\ncopyright, aren't they? And copyright in this country lasts for 70 years after the\nauthor dies. So you won't find the latest best-seller or up-to-date information.\n\nTRUDIE: That's an important point. Anyway, I find it hard to concentrate when I’m reading a\nlong text on a screen. I’d much rather read a physical book. And it takes longer to\nread on a screen.\n\nSTEWART: Oh, I prefer it. I suppose it’s just a personal preference.\n\nTRUDIE: Mm. I expect that libraries will go on evolving in the next few years. Some have\nalready become centres where community activities take place, like local clubs\nmeeting there. I think that'll become even more common.\n\nSTEWART: I'd like to think so, and that they'll still be serving their traditional function, but I’m\nnot so sure. There are financial implications, after all. What I’m afraid will happen is\nthat books and magazines will all disappear, and there'll just be rows and rows of\ncomputers. They won't look anything like the libraries we’re used to.\n\nTRUDIE: Well, we'll see.\n\nTRUDIE: ‘I’ve just had an idea. Why don’t we make an in-depth study of our local public\nlibrary as background to our paper?\n\nSTEWART: Yes, that'd be interesting, and raise all sorts of issues. Let’s make a list of possible\nthings we could ask about, then work out some sort of structure. For instance, um,\nwe could interview some of the staff, and find out whether the library has its own\nbudget, or if that’s controlled by the local council.\n\nTRUDIE: I And what their policies are. I know they don’t allow food, but I’d love to find out\nwhat types of noise they ban — there always seems to be a lot of talking, but never\nmusic. I don’t know if that’s a policy or it just happens.\n\nSTEWART: Ah, I’ve often wondered. Then there are things like how the library is affected by\nemployment laws. I suppose there are rules about working hours, facilities for staff,\nand so on.\n\nTRUDIE: Right. Then there are other issues relating to the design of the building and how\ncustomers use it. Like what measures does the library take to ensure their safety?\nThey'd need floor coverings that aren't slippery, and emergency exits, for instance.\nOh, and another thing — there’s the question of the kind of insurance the library.\nneeds to have, in case anyone gets injured.\n\nSTEWART: Yes, that’s something else to find out. You know something I’ve often wondered?\n\nTRUDIE: I What's that?\n\nSTEWART: Well, you know they've got an archive of local newspapers going back years? Well,\n\nnext to it they, got the diary of a : I\nI wonder why it’s there. Do you know what his connection was with this area?\nTRUDIE: No idea. Let’s add it to our i just thought, you know\npeople might ask In the library about local organisations, like sports clubs? Well, I\nwonder if they keep a database, or whether they just look online.\n\nSTEWART: Right. Lquite fancy finding out what the differences are between a library that's\nopen to the public and one that’s part of a museum, for example — they must be\nvery different.\n\nTRUDIE: I Mmm. Then something else I'd like to know is ..."
+   },
+   {
+    "part": 4,
+    "text": "In public discussion of business, we take certain values for granted. Today I’m going to talk\nabout four of them: collaboration, hard work, creativity and excellence. Most people would\nsay they’re all ‘good things’. I’m going to suggest that’s an over simple view.\n\nThe trouble with these values is that they’re theoretical concepts, removed from the reality of\nday-to-day business. Pursue values by all means, but be prepared for what may happen as a\nresult. They can actually cause damage, which is not at all the intention.\n\nBusiness leaders generally try to do the right thing. But all too often the right thing backfires.\nif those leaders adopt values without understanding and managing the side effects that arise.\nThe values can easily get in the way of what's actually intended.\n\nOK. So the first value I’m going to discuss is collaboration. Er, let me give you an example.\n\nOn a management training course I once attended, we were put into groups and had to\nconstruct a bridge across a stream, using building blocks that we were given. The rule was\nthat everyone in the team had to move at least one building block during the construction.\n\nThis was intended to encourage teamwork.\n\nBut it was really a job best done by one person. The other teams tried to collaborate on\nbuilding the structure, and descended into confusion, with everyone getting in each other’s\nway. Our team leader solved the challenge brilliantly. She simply asked everyone in the team\nto move a piece a few centimetres, to comply with the rule, and then let the person in the\nteam with an aptitude for puzzles like this build it alone. We finished before any other team.\n\nMy point is that the task wasn’t really suited to team working. So why make it one?\n\nTeamwork can also lead to inconsistency — a common cause of poor sales. In the case of\na smartphone that a certain company launched, one director wanted to target the business\nmarket, and another demanded it was aimed at consumers. The company wanted both\ndirectors to be involved, so gave the product a consumer-friendly name, but marketed it to\ncompanies. The result was that it met the needs of neither group. It would have been better\nto let one director or the other have his way, not both.\n\nNow industriousness, or hard work. It’s easy to mock people who say they work hard: after\nall, a hamster running around in a wheel is working hard — and getting nowhere. Of course\nhard work is valuable, but only when properly targeted. Otherwise it wastes the resources\nthat companies value most — time and energy. And that’s bad for the organisation.\n\nThere’s a management model that groups people according to four criteria: clever, hard-\nworking, stupid and lazy. Here ‘lazy’ means having a rational determination not to carry out\nunnecessary tasks. It doesn’t mean trying to avoid work altogether. Most people display two\nof these characteristics, a most valuable people are those who are both clever\nlazy: they possess intellectual clarity and they don't rush into making decisions. They\ncome\nup with solutions to save time and energy spent by the stupid and hardworking group.\nInstead of throwing more man hours at a problem, the clever and lazy group looks for a more\neffective solution.\n\nNext we come to creativity. This often works well — creating an attention-grabbing TV\ncommercial, for example, might lead to increased sales. But it isn't always a good thing.\n\nSome advertising campaigns are remembered for their creativity, without having any effect\non sales. This happened a few years ago with the launch of a chocolate bar: subsequent\nresearch showed that plenty of consumers remembered the adverts, but had no idea what\nwas being advertised. The trouble is that the creator derives pleasure from coming up with\nthe idea, and wrongly assumes the audience for the campaign will share that feeling.\n\nA company that brings out thousands of new products may seem more creative than a\ncompany that only has a few, but it may be too creative, and make smaller profits. Creativity\nneeds to be targeted, to solve a problem that the company has identified. Just coming up with\nmore and more novel products isn’t necessarily a good thing.\n\nAnd finally, excellence. We all know companies that claim they ‘strive for excellence’, but\nit takes a long time to achieve excellence. In business, being first with a product is more\nprofitable than having the best product. A major study of company performance compared\npioneers — that is, companies bringing out the first version of a particular product — with\nfollowers, the companies that copied and improved on that product. The study found that the \npioneers commanded an average market share of 29 percent, while the followers achieved\ness than half that only 13 percent — even though their product might have been better.\n\nnsisting on excellence in everything we do is time consuming, wastes energy and leads\nto losing out on opportunities. Sometimes, second rate work is more worthwhile than\nexcellence. ‘Make sure it’s excellent’ sounds like a good approach to business, but the ‘just-\nget started approach is likely to be more successful.\n\n"
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "title": "Cork",
+    "groups": [
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nIn boxes 1-5 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 1,
+      "last": 5,
+      "body": "",
+      "options": [],
+      "figure_pdf_page": 0,
+      "questions": [
+       {
+        "n": 1,
+        "text": "The cork oak has the thickest bark of any living tree.",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "Scientists have developed a synthetic cork with the same cellular structure as natural cork.",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "Individual cork oak trees must be left for 25 years between the first and second harvest.",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "Cork bark should be stripped on a warm day.",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "The only way to remove cork bark is by hand.",
+        "options": []
+       }
+      ]
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 6—13 on your answer sheet.",
+      "first": 6,
+      "last": 13,
+      "body": "Comparison of aluminium screw caps and cork bottle stoppers\n\nAdvantages of aluminium screw caps\n• do not affect the [[6]] of the bottle contents\n• are [[7]] to produce\n• are more [[8]] to use\n\nAdvantages of cork\n• suit the [[9]] of quality products\n• made from a [[10]] material\n• easily [[11]]\n• cork forests aid [[12]]\n• cork forests stop [[13]] happening",
+      "options": [],
+      "figure_pdf_page": 0,
+      "questions": [
+       {
+        "n": 6,
+        "text": "do not affect the [[6]] of the bottle contents",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "are [[7]] to produce",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "are more [[8]] to use",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "suit the [[9]] of quality products",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "made from a [[10]] material",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "easily [[11]]",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "cork forests aid [[12]]",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "cork forests stop [[13]] happening",
+        "options": []
+       }
+      ]
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Cork – the thick bark of the cork oak tree (Quercus suber) – is a remarkable material. It is tough, elastic, buoyant, and fire-resistant, and suitable for a wide range of purposes. It has also been used for millennia: the ancient Egyptians sealed their sarcophagi (stone coffins) with cork, while the ancient Greeks and Romans used it for anything from beehives to sandals."
+     },
+     {
+      "label": "",
+      "text": "And the cork oak itself is an extraordinary tree. Its bark grows up to 20 cm in thickness, insulating the tree like a coat wrapped around the trunk and branches and keeping the inside at a constant 20°C all year round. Developed most probably as a defence against forest fires, the bark of the cork oak has a particular cellular structure – with about 40 million cells per cubic centimetre – that technology has never succeeded in replicating. The cells are filled with air, which is why cork is so buoyant. It also has an elasticity that means you can squash it and watch it spring back to its original size and shape when you release the pressure."
+     },
+     {
+      "label": "",
+      "text": "Cork oaks grow in a number of Mediterranean countries, including Portugal, Spain, Italy, Greece and Morocco. They flourish in warm, sunny climates where there is a minimum of 400 millimetres of rain per year, and not more than 800 millimetres. Like grape vines, the trees thrive in poor soil, putting down deep roots in search of moisture and nutrients. Southern Portugal's Alentejo region meets all of these requirements, which explains why, by the early 20th century, this region had become the world's largest producer of cork, and why today it accounts for roughly half of all cork production around the world."
+     },
+     {
+      "label": "",
+      "text": "Most cork forests are family-owned. Many of these family businesses, and indeed many of the trees themselves, are around 200 years old. Cork production is, above all, an exercise in patience. From the planting of a cork sapling to the first harvest takes 25 years, and a gap of approximately a decade must separate harvests from an individual tree. And for top-quality cork, it's necessary to wait a further 15 or 20 years. You even have to wait for the right kind of summer's day to harvest cork. If the bark is stripped on a day when it's too cold – or when the air is damp – the tree will be damaged."
+     },
+     {
+      "label": "",
+      "text": "Cork harvesting is a very specialised profession. No mechanical means of stripping cork bark has been invented, so the job is done by teams of highly skilled workers. First, they make vertical cuts down the bark using small sharp axes, then lever it away in pieces as large as they can manage. The most skilful cork-strippers prise away a semi-circular husk that runs the length of the trunk from just above ground level to the first branches. It is then dried on the ground for about four months, before being taken to factories, where it is boiled to kill any insects that might remain in the cork. Over 60% of cork then goes on to be made into traditional bottle stoppers, with most of the remainder being used in the construction trade. Corkboard and cork tiles are ideal for thermal and acoustic insulation, while granules of cork are used in the manufacture of concrete."
+     },
+     {
+      "label": "",
+      "text": "Recent years have seen the end of the virtual monopoly of cork as the material for bottle stoppers, due to concerns about the effect it may have on the contents of the bottle. This is caused by a chemical compound called 2,4,6-trichloroanisole (TCA), which forms through the interaction of plant phenols, chlorine and mould. The tiniest concentrations – as little as three or four parts to a trillion – can spoil the taste of the product contained in the bottle. The result has been a gradual yet steady move first towards plastic stoppers and, more recently, to aluminium screw caps. These substitutes are cheaper to manufacture and, in the case of screw caps, more convenient for the user."
+     },
+     {
+      "label": "",
+      "text": "The classic cork stopper does have several advantages, however. Firstly, its traditional image is more in keeping with that of the type of high quality goods with which it has long been associated. Secondly – and very importantly – cork is a sustainable product that can be recycled without difficulty. Moreover, cork forests are a resource which support local biodiversity, and prevent desertification in the regions where they are planted. So, given the current concerns about environmental issues, the future of this ancient material once again looks promising."
+     }
+    ]
+   },
+   {
+    "groups": [
+     {
+      "type": "sentence_completion",
+      "instructions": "Complete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 14-21 on your answer sheet.",
+      "first": 14,
+      "last": 21,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 14,
+        "text": "The writer mentions collecting [[14]] as an example of collecting in order to make money.",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "Collectors may get a feeling of [[15]] from buying and selling items.",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "Collectors' clubs provide opportunities to share [[16]].",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "Collectors' clubs offer [[17]] with people who have similar interests.",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "Collecting sometimes involves a life-long [[18]] for a special item.",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "Searching for something particular may prevent people from feeling their life is completely [[19]].",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Stamp collecting may be valued because it provides knowledge about different [[20]].",
+        "options": []
+       },
+       {
+        "n": 21,
+        "text": "[[21]] tends to be mostly a male hobby.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in the passage on pages 20 and 21?\n\nIn boxes 22—26 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 22,
+      "last": 26,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 22,
+        "text": "The number of people buying dolls has grown over the centuries.",
+        "options": []
+       },
+       {
+        "n": 23,
+        "text": "Sixteenth century European dolls were normally made of wax and porcelain.",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "Arranging a stamp collection by the size of the stamps is less common than other methods.",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "Someone who collects unusual objects may want others to think he or she is also unusual.",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "Collecting gives a feeling that other hobbies are unlikely to inspire.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "COLLECTING",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Collecting must be one of the most varied of human activities, and it's one that many of us psychologists find fascinating. Many forms of collecting have been dignified with a technical name: an archtophilist collects teddy bears, a philatelist collects postage stamps, and a deltiologist collects postcards. Amassing hundreds or even thousands of postcards, chocolate wrappers or whatever, takes time, energy and money that could surely be put to much more productive use. And yet there are millions of collectors around the world. Why do they do it?"
+     },
+     {
+      "label": "",
+      "text": "There are the people who collect because they want to make money – this could be called an instrumental reason for collecting; that is, collecting as a means to an end. They'll look for, say, antiques that they can buy cheaply and expect to be able to sell at a profit. But there may well be a psychological element, too – buying cheap and selling dear can give the collector a sense of triumph. And as selling online is so easy, more and more people are joining in."
+     },
+     {
+      "label": "",
+      "text": "Many collectors collect to develop their social life, attending meetings of a group of collectors and exchanging information on items. This is a variant on joining a bridge club or a gym, and similarly brings them into contact with like-minded people."
+     },
+     {
+      "label": "",
+      "text": "Another motive for collecting is the desire to find something special, or a particular example of the collected item, such as a rare early recording by a particular singer."
+     },
+     {
+      "label": "",
+      "text": "Some may spend their whole lives in a hunt for this. Psychologically, this can give a purpose to a life that otherwise feels aimless. There is a danger, though, that if the individual is ever lucky enough to find what they're looking for, rather than celebrating their success, they may feel empty, now that the goal that drove them on has gone."
+     },
+     {
+      "label": "",
+      "text": "If you think about collecting postage stamps, another potential reason for it – or, perhaps, a result of collecting – is its educational value. Stamp collecting opens a window to other countries, and to the plants, animals, or famous people shown on their stamps. Similarly, in the 19th century, many collectors amassed fossils, animals and plants from around the globe, and their collections provided a vast amount of information about the natural world. Without those collections, our understanding would be greatly inferior to what it is."
+     },
+     {
+      "label": "",
+      "text": "In the past – and nowadays, too, though to a lesser extent – a popular form of collecting, particularly among boys and men, was trainspotting. This might involve trying to see every locomotive of a particular type, using published data that identifies each one, and ticking off each engine as it is seen. Trainspotters exchange information, these days often by mobile phone, so they can work out where to go to, to see a particular engine. As a by-product, many practitioners of the hobby become very knowledgeable about railway operations, or the technical specifications of different engine types."
+     },
+     {
+      "label": "",
+      "text": "Similarly, people who collect dolls may go beyond simply enlarging their collection, and develop an interest in the way that dolls are made, or the materials that are used. These have changed over the centuries from the wood that was standard in 16th century Europe, through the wax and porcelain of later centuries, to the plastics of today's dolls. Or collectors might be inspired to study how dolls reflect notions of what children like, or ought to like."
+     },
+     {
+      "label": "",
+      "text": "Not all collectors are interested in learning from their hobby, though, so what we might call a psychological reason for collecting is the need for a sense of control, perhaps as a way of dealing with insecurity. Stamp collectors, for instance, arrange their stamps in albums, usually very neatly, organising their collection according to certain commonplace principles – perhaps by country in alphabetical order, or grouping stamps by what they depict – people, birds, maps, and so on."
+     },
+     {
+      "label": "",
+      "text": "One reason, conscious or not, for what someone chooses to collect is to show the collector's individualism. Someone who decides to collect something as unexpected as dog collars, for instance, may be conveying their belief that they must be interesting themselves. And believe it or not, there is at least one dog collar museum in existence, and it grew out of a personal collection."
+     },
+     {
+      "label": "",
+      "text": "Of course, all hobbies give pleasure, but the common factor in collecting is usually passion: pleasure is putting it far too mildly. More than most other hobbies, collecting can be totally engrossing, and can give a strong sense of personal fulfilment. To non-collectors it may appear an eccentric, if harmless, way of spending time, but potentially, collecting has a lot going for it."
+     }
+    ]
+   },
+   {
+    "title": "What’s the purpose of gaining knowledge?",
+    "groups": [
+     {
+      "type": "matching_headings",
+      "instructions": "Reading Passage 3 has six sections, A-F.\n\nChoose the correct heading for each section from the list of headings below.\n\nWrite the correct number, f-vili, in boxes 27—32 on your answer sheet.",
+      "first": 27,
+      "last": 32,
+      "body": "",
+      "options": [
+       {
+        "key": "i",
+        "text": "Courses that require a high level of commitment"
+       },
+       {
+        "key": "ii",
+        "text": "A course title with two meanings"
+       },
+       {
+        "key": "iii",
+        "text": "The equal importance of two key issues"
+       },
+       {
+        "key": "iv",
+        "text": "Applying a theory in an unexpected context"
+       },
+       {
+        "key": "v",
+        "text": "The financial benefits of studying"
+       },
+       {
+        "key": "vi",
+        "text": "A surprising course title"
+       },
+       {
+        "key": "vii",
+        "text": "Different names for different outcomes"
+       },
+       {
+        "key": "viii",
+        "text": "The possibility of attracting the wrong kind of student"
+       }
+      ],
+      "questions": [
+       {
+        "n": 27,
+        "text": "Section A",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "Section B",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "Section C",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "Section D",
+        "options": []
+       },
+       {
+        "n": 31,
+        "text": "Section E",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "Section F",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\nWrite your answers in boxes 33-36 on your answer sheet.",
+      "first": 33,
+      "last": 36,
+      "body": "The 'Arson for Profit' course\nThis is a university course intended for students who are undergraduates and who are studying [[33]] . The expectation is that they will become [[34]] specialising in arson. The course will help them to detect cases of arson and find [[35]] of criminal intent, leading to successful [[36]] in the courts.",
+      "options": [],
+      "questions": [
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "yes_no_not_given",
+      "instructions": "Do the following statements agree with the views of the writer in Reading Passage 3?\n\nIn boxes 37-40 on your answer sheet, write\nYES if the statement agrees with the views of the writer\nNO if the statement contradicts the views of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+      "first": 37,
+      "last": 40,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 37,
+        "text": "It is difficult to attract students onto courses that do not focus on a career.",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "The 'Arson for Profit' course would be useful for people intending to set fire to buildings.",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "Fire science courses are too academic to help people to be good at the job of firefighting.",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "The writer's fire science students provided a detailed definition of the purpose of their studies.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "‘I would found an institution where any person can find instruction in any subject.’ That was the founder's motto for Cornell University, and it seems an apt characterization of the different university, also in the USA, where I currently teach philosophy. A student can prepare for a career in resort management, engineering, interior design, accounting, music, law enforcement, you name it. But what would the founders of these two institutions have thought of a course called ‘Arson for Profit’? I kid you not: we have it on the books. Any undergraduates who have met the academic requirements can sign up for the course in our program in “fire science’."
+     },
+     {
+      "label": "B",
+      "text": "Naturally, the course is intended for prospective arson investigators, who can learn all the tricks of the trade for detecting whether a fire was deliberately set, discovering who did it, and establishing a chain of evidence for effective prosecution in a court of law. But wouldn't this also be the perfect course for prospective arsonists to sign up for? My point is not to criticize academic programs in fire science: they are highly welcome as part of the increasing professionalization of this and many other occupations. However, it's not unknown for a firefighter to torch a building. This example suggests how dishonest and illegal behavior, with the help of higher education, can creep into every aspect of public and business life."
+     },
+     {
+      "label": "C",
+      "text": "I realized this anew when I was invited to speak before a class in marketing, which is another of our degree programs. The regular instructor is a colleague who appreciates the kind of ethical perspective I can bring as a philosopher. There are endless ways I could have approached this assignment, but I took my cue from the title of the course: ‘Principles of Marketing’. It made me think to ask the students, ‘Is marketing principled?’ After all, a subject matter can have principles in the sense of being codified, having rules, as with football or chess, without being principled in the sense of being ethical. Many of the students immediately assumed that the answer to my question about marketing principles was obvious: Just look at the ways in which everything under the sun has been marketed; obviously it need not be done in a principled (=ethical) fashion."
+     },
+     {
+      "label": "D",
+      "text": "Is that obvious? I made the suggestion, which may sound downright crazy in light of the evidence, that perhaps marketing is by definition principled. My inspiration for this judgement is the philosopher Immanuel Kant, who argued that any body of knowledge consists of an end (or purpose) and a means."
+     },
+     {
+      "label": "E",
+      "text": "Let us apply both the terms 'means' and 'end' to marketing. The students have signed up for a course in order to learn how to market effectively. But to what end? There seem to be two main attitudes toward that question. One is that the answer is obvious: the purpose of marketing is to sell things and to make money. The other attitude is that the purpose of marketing is irrelevant: Each person comes to the program and course with his or her own plans, and these need not even concern the acquisition of marketing expertise as such. My proposal, which I believe would also be Kant's, is that neither of these attitudes captures the significance of the end to the means for marketing. A field of knowledge or a professional endeavor is defined by both the means and the end; hence both deserve scrutiny. Students need to study both how to achieve X, and also what X is."
+     },
+     {
+      "label": "F",
+      "text": "It is at this point that 'Arson for Profit' becomes supremely relevant. That course is presumably all about means: how to detect and prosecute criminal activity. It is therefore assumed that the end is good in an ethical sense. When I ask fire science students to articulate the end, or purpose, of their field, they eventually generalize to something like, 'The safety and welfare of society,' which seems right. As we have seen, someone could use the very same knowledge of means to achieve a much less noble end, such as personal profit via destructive, dangerous, reckless activity. But we would not call that firefighting. We have a separate word for it: arson. Similarly, if you employed the 'principles of marketing' in an unprincipled way, you would not be doing marketing. We have another term for it: fraud. Kant gives the example of a doctor and a poisoner, who use the identical knowledge to achieve their divergent ends. We would say that one is practicing medicine, the other, murder."
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "NOT GIVEN",
+   "2": "FALSE",
+   "3": "FALSE",
+   "4": "TRUE",
+   "5": "TRUE",
+   "6": "taste",
+   "7": "cheaper",
+   "8": "convenient",
+   "9": "image",
+   "10": "sustainable",
+   "11": "recycled",
+   "12": "biodiversity",
+   "13": "desertification",
+   "14": "antiques",
+   "15": "triumph",
+   "16": "information",
+   "17": "contact/meetings",
+   "18": "hunt/desire",
+   "19": "aimless/empty",
+   "20": "educational",
+   "21": "Trainspotting",
+   "22": "NOT GIVEN",
+   "23": "FALSE",
+   "24": "NOT GIVEN",
+   "25": "TRUE",
+   "26": "TRUE",
+   "27": "vi",
+   "28": "viii",
+   "29": "ii",
+   "30": "iv",
+   "31": "iii",
+   "32": "vii",
+   "33": "fire science",
+   "34": "investigators",
+   "35": "evidence",
+   "36": "prosecution",
+   "37": "NOT GIVEN",
+   "38": "YES",
+   "39": "NO",
+   "40": "NO"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe bar chart below shows the percentage of Australian men and women in\ndifferent age groups who did regular physical activity in 2010.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 27,
+   "image": "figures/p027.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people believe that it is good to share as much information as possible\nin scientific research, business and the academic world. Others believe that\nsome information is too important or too valuable to be shared freely.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Health",
+    "questions": [
+     "Is it important to you to eat healthy food? [Why?/Why not?]",
+     "If you catch a cold, what do you do to help you feel better? [Why?]",
+     "Do you pay attention to public information about health? [Why?/Why not?]",
+     "What could you do to have a healthier lifestyle?"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe an occasion when you had to wait for a long time for someone or something",
+   "points": [
+    "who or what you were waiting for",
+    "how long you had to wait",
+    "why you had to wait a long time"
+   ],
+   "rounding_off": [
+    "and explain how you felt about waiting a long time."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Arriving early",
+    "questions": [
+     "In what kinds of situations should people always arrive early?",
+     "How important it is to arrive early in your country?",
+     "How can modern technology help people to arrive early?"
+    ]
+   },
+   {
+    "topic": "Being patient",
+    "questions": [
+     "What kinds of jobs require the most patience?",
+     "Is it always better to be patient in work (or studies)?",
+     "Do you agree or disagree that the older people are, the more patient they are?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

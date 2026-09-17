@@ -1,0 +1,1220 @@
+{
+ "book": 15,
+ "test": 3,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 1,
+      "last": 5,
+      "body": "Employment Agency: Possible Jobs\nFirst Job\nAdministrative assistant in a company that produces [[1]] (London)\n\nResponsibilities\n- data entry\n- go to [[2]]\n- general admin\n- management of [[3]]\n\nRequirements\n- good computer skills including spreadsheets\n- good interpersonal skills\n- attention to [[4]]\n\nExperience\n- need a minimum of [[5]] of experience of teleconferencing",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 54,
+      "image": "figures/p054.png"
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 6,
+      "last": 10,
+      "body": "Second Job\nWarehouse assistant in South London\n\nResponsibilities\n- stock management\n- managing [[6]]\n\nRequirements\n- ability to work with numbers\n- good computer skills\n- very organised and [[7]]\n- good communication skills\n- used to working in a [[8]]\n- able to cope with items that are [[9]]\n\nNeed experience of\n- driving in London\n- warehouse work\n- [[10]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 6,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 55,
+      "image": "figures/p055.png"
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Questions 11-16\nChoose the correct letter, A, B or C.",
+      "first": 11,
+      "last": 16,
+      "body": "Street Play Scheme",
+      "options": [],
+      "questions": [
+       {
+        "n": 11,
+        "text": "When did the Street Play Scheme first take place?",
+        "options": [
+         {
+          "key": "A",
+          "text": "two years ago"
+         },
+         {
+          "key": "B",
+          "text": "three years ago"
+         },
+         {
+          "key": "C",
+          "text": "six years ago"
+         }
+        ]
+       },
+       {
+        "n": 12,
+        "text": "How often is Beechwood Road closed to traffic now?",
+        "options": [
+         {
+          "key": "A",
+          "text": "once a week"
+         },
+         {
+          "key": "B",
+          "text": "on Saturdays and Sundays"
+         },
+         {
+          "key": "C",
+          "text": "once a month"
+         }
+        ]
+       },
+       {
+        "n": 13,
+        "text": "Who is responsible for closing the road?",
+        "options": [
+         {
+          "key": "A",
+          "text": "a council official"
+         },
+         {
+          "key": "B",
+          "text": "the police"
+         },
+         {
+          "key": "C",
+          "text": "local wardens"
+         }
+        ]
+       },
+       {
+        "n": 14,
+        "text": "Residents who want to use their cars",
+        "options": [
+         {
+          "key": "A",
+          "text": "have to park in another street."
+         },
+         {
+          "key": "B",
+          "text": "must drive very slowly."
+         },
+         {
+          "key": "C",
+          "text": "need permission from a warden."
+         }
+        ]
+       },
+       {
+        "n": 15,
+        "text": "Alice says that Street Play Schemes are most needed in",
+        "options": [
+         {
+          "key": "A",
+          "text": "wealthy areas."
+         },
+         {
+          "key": "B",
+          "text": "quiet suburban areas."
+         },
+         {
+          "key": "C",
+          "text": "areas with heavy traffic."
+         }
+        ]
+       },
+       {
+        "n": 16,
+        "text": "What has been the reaction of residents who are not parents?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Many of them were unhappy at first."
+         },
+         {
+          "key": "B",
+          "text": "They like seeing children play in the street."
+         },
+         {
+          "key": "C",
+          "text": "They are surprised by the lack of noise."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 56,
+      "image": "figures/p056.png"
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Questions 17 and 18\nChoose TWO letters, A-E.",
+      "first": 17,
+      "last": 18,
+      "body": "Which TWO benefits for children does Alice think are the most important?",
+      "options": [
+       {
+        "key": "A",
+        "text": "increased physical activity"
+       },
+       {
+        "key": "B",
+        "text": "increased sense of independence"
+       },
+       {
+        "key": "C",
+        "text": "opportunity to learn new games"
+       },
+       {
+        "key": "D",
+        "text": "opportunity to be part of a community"
+       },
+       {
+        "key": "E",
+        "text": "opportunity to make new friends"
+       }
+      ],
+      "questions": [
+       {
+        "n": 17,
+        "text": "Which TWO benefits for children does Alice think are the most important?",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "Which TWO benefits for children does Alice think are the most important?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 57,
+      "image": "figures/p057.png"
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Questions 19 and 20\nChoose TWO letters, A-E.",
+      "first": 19,
+      "last": 20,
+      "body": "Which TWO results of the King Street experiment surprised Alice?",
+      "options": [
+       {
+        "key": "A",
+        "text": "more shoppers"
+       },
+       {
+        "key": "B",
+        "text": "improved safety"
+       },
+       {
+        "key": "C",
+        "text": "less air pollution"
+       },
+       {
+        "key": "D",
+        "text": "more relaxed atmosphere"
+       },
+       {
+        "key": "E",
+        "text": "less noise pollution"
+       }
+      ],
+      "questions": [
+       {
+        "n": 19,
+        "text": "Which TWO results of the King Street experiment surprised Alice?",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Which TWO results of the King Street experiment surprised Alice?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 57,
+      "image": "figures/p057.png"
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Questions 21-26\nComplete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 21,
+      "last": 26,
+      "body": "What Hazel should analyse about items in newspapers:\n\nwhat [[21]] the item is on\n\nthe [[22]] of the item, including the headline\n\nany [[23]] accompanying the item\n\nthe [[24]] of the item, e.g. what's made prominent\n\nthe writer's main [[25]]\n\nthe [[26]] the writer may make about the reader",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 23,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 58,
+      "image": "figures/p058.png"
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Questions 27-30\nWhat does Hazel decide to do about each of the following types of articles?\n\nWrite the correct letter, A, B or C, next to Questions 27-30.",
+      "first": 27,
+      "last": 30,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "She will definitely look for a suitable article."
+       },
+       {
+        "key": "B",
+        "text": "She may look for a suitable article."
+       },
+       {
+        "key": "C",
+        "text": "She definitely won't look for an article."
+       }
+      ],
+      "questions": [
+       {
+        "n": 27,
+        "text": "national news item",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "editorial",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "human interest",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "arts",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 58,
+      "image": "figures/p058.png"
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "Early history of keeping clean\n\nPrehistoric times:\n- water was used to wash off [[31]]\n\nAncient Babylon:\n- soap-like material found in [[32]] cylinders\n\nAncient Greece:\n- people cleaned themselves with sand and other substances\n- used a strigil – scraper made of [[33]]\n- washed clothes in streams\n\nAncient Germany and Gaul:\n- used soap to colour their [[34]]\n\nAncient Rome:\n- animal fat, ashes and clay mixed through action of rain, used for washing clothes\n- from about 312 BC, water carried to Roman [[35]] by aqueducts\n\nEurope in Middle Ages:\n- decline in bathing contributed to occurrence of [[36]]\n- [[37]] began to be added to soap\n\nEurope from 17th century:\n- 1600s: cleanliness and bathing started becoming usual\n- 1791: Leblanc invented a way of making soda ash from [[38]]\n- early 1800s: Chevreul turned soapmaking into a [[39]]\n- from 1800s, there was no longer a [[40]] on soap",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 59,
+      "image": "figures/p059.png"
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "furniture",
+   "2": "meetings",
+   "3": "diary",
+   "4": "detail(s)",
+   "5": "1 / one year",
+   "6": "deliveries",
+   "7": "tidy",
+   "8": "team",
+   "9": "heavy",
+   "10": "customer",
+   "11": "B",
+   "12": "A",
+   "13": "C",
+   "14": "B",
+   "15": "C",
+   "16": "B",
+   "17": "B (IN EITHER ORDER)",
+   "18": "D (IN EITHER ORDER)",
+   "19": "A (IN EITHER ORDER)",
+   "20": "E (IN EITHER ORDER)",
+   "21": "page",
+   "22": "size",
+   "23": "graphic(s)",
+   "24": "structure",
+   "25": "purpose",
+   "26": "assumption(s)",
+   "27": "A",
+   "28": "C",
+   "29": "C",
+   "30": "B",
+   "31": "mud",
+   "32": "clay",
+   "33": "metal",
+   "34": "hair",
+   "35": "bath(s)",
+   "36": "disease(s)",
+   "37": "perfume",
+   "38": "salt",
+   "39": "science",
+   "40": "tax"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 15/ielts15_test3_audio1.m4a",
+   "Cambridge-lists-main/Cambridge IELTS 15/ielts15_test3_audio2.m4a",
+   "Cambridge-lists-main/Cambridge IELTS 15/ielts15_test3_audio3.m4a",
+   "Cambridge-lists-main/Cambridge IELTS 15/ielts15_test3_audio4.m4a"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "SALLY: Good morning. Thanks for coming in to see us here at the agency, Joe. I'm one\nof the agency representatives, and my name's Sally Baker.\nJOE: Hi Sally, I think we spoke on the phone, didn’t we?\nSALLY: That's right, we did. So thank you for sending in your CV. We've had quite a\ncareful look at it and I think we have two jobs that might be suitable for you.\nJOE: OK.\nSALLY: The first one is in a company based in North London. They're looking for an\nadministrative assistant.\nJOE: OK. What sort of company is it?\nSALLY: They're called Home Solutions and they design and make furniture.\nJOE: Oh, I don’t know much about that, but it sounds interesting.\nSALLY: Yes, well as I said, they want someone in their office, and looking at your past\nexperience it does look as if you fit quite a few of the requirements. So on your\nCV it appears you've done some data entry?\nJOE: Yes.\nSALLY: So that's one skill they want. Then they expect the person they appoint to attend\nmeetings and take notes there ...\nJOE: OK. I've done that before, yes.\nSALLY: And you'd need to be able to cope with general admin.\nJOE: Filing, and keeping records and so on? That should be OK. And in my last job I\nalso had to manage the diary.\nSALLY: Excellent. That’s something they want here too. I’d suggest you add it to your\nCV I don't think you mentioned that, did you?\nJOE: No.\nSALLY: So as far as the requirements go, they want good computer skills, of course, and\nthey particularly mention spreadsheets.\nJOE: That should be fine.\nSALLY: And interpersonal skills — which would be something they'd check with your\nreferences.\nJOE: think that should be OK, yes.\nSALLY: Then they mention that they want someone who is careful and takes care with\ndetails — just looking at your CV, I'd say you're probably alright there.\nJOE: I think so, yes. Do they want any special experience?\nSALLY: think they wanted some experience of teleconferencing.\nJOE: I've got three years’ experience of that.\nSALLY: Let’s see, yes, good. In fact they're only asking for at least one year, so that's\ngreat. So is that something that might interest you?\nJOE: Itis, yes. The only thing is, you said they were in North London so it would be\nquite a long commute for me.\nSALLY: OK.\nSALLY: So the second position might suit you better as far as the location goes; that's\nfor a warehouse assistant and that's in South London.\nJOE: Yes, that would be a lot closer.\nSALLY: And you've worked in a warehouse before, haven't you?\nJOE: Yes.\nSALLY: So as far as the responsibilities for this position go, they want someone who can\nmanage the stock, obviously, and also deliveries.\nJOE: That should be OK. You've got to keep track of stuff, but I've always been quite\ngood with numbers.\nSALLY: Good. that’s their first requirement. And they want someone who's computer\nliterate, which we know you are.\nJOE: Sure.\nSALLY: Then they mention organisational skills. They want someone who's well\norganised.\nJOE: Yes, I think I am.\nSALLY: And tidy?\nJOE: Yes, they go together really, don’t they?\nSALLY: Sure. Then the usual stuff; they want someone who can communicate well both\norally and in writing.\nJOE: OK. And for the last warehouse job I had, one of the things I enjoyed most was\nbeing part of a team. I found that was really essential for the job. \nSALLY: Excellent. Yes, they do mention that they want someone who's used to that, yes.\nNow when you were working in a warehouse last time, what sorts of items were\nyou dealing with?\nJOE: It was mostly bathroom and kitchen equipment, sinks and stoves and fridges.\nSALLY: So you're OK moving heavy things? \nJOE: Sure. I'm quite strong, and I've had the training.\nSALLY: Good. Now as far as experience goes, they mention they want someone with a\nlicence, and that you have experience of driving in London — so you can cope\nwith the traffic and so on.\nJOE: Yes, no problem.\nSALLY: And you've got experience of warehouse work ... and the final thing they mention\nis customer service. I think looking at your CV you're OK there.\nJOE: Right. So what about pay? Can you tell me a bit more about that, please ..."
+   },
+   {
+    "part": 2,
+    "text": "PRESENTER: My guest on the show today is Alice Riches who started the Street Play Scheme\nwhere she lives in Beechwood Road. For those of you that don’t already know —\nStreet Play involves local residents closing off their street for a few hours so\nthat children have a chance to play in the street safely. She started it in her own\nstreet, Beechwood Road, and the idea caught on, and there are now Street Play\nSchemes all over the city. So when did you actually start the scheme, Alice?\nALICE: Well, I first had the idea when my oldest child was still a toddler, so that’s about\nsix years ago now — but it took at least two years of campaigning before we\nwere actually able to make it happen. So the scheme's been up and running for \nthree years now. We'd love to be able to close our road for longer — for the whole\nweekend, from Saturday morning until Sunday evening, for example. At the\nmoment it's just once a week. But when we started it was only once a month. But\nwe're working on it.\nPRESENTER: So what actually happens when Beechwood Road is closed?\nALICE: We have volunteer wardens, mostly parents but some elderly residents too, who\nblock off our road at either end. The council have provided special signs but there’s\nalways a volunteer there to explain what's happening to any motorists. Generally,\nthey're fine about it — we've only had to get the police involved once or twice.\nNow I should explain that the road isn’t completely closed to cars. But only\nresidents’ cars are allowed. If people really need to get in or out of Beechwood\nRoad, it's not a problem — as long as they drive at under 20 kilometres per hour.\nBut most people just decide not to use their cars during this time, or they park in\nanother street. The wardens are only there to stop through traffic.\nPRESENTER: So can anyone apply to get involved in Street Play?\nALICE: Absolutely — we want to include all kids in the city — especially those who live on\nbusy roads. It's here that demand is greatest. Obviously, there isn’t such demand\nin wealthier areas where the children have access to parks or large gardens — or\nin the suburbs where there are usually more places for children to play outside.\nI'd recommend that anyone listening who likes the idea should just give it a go.\nWe've been surprised by the positive reaction of residents all over the city. And\nthat’s not just parents. There are always a few who complain but they're a tiny\nminority. On the whole everyone is very supportive and say they're very happy to\nsee children out on the street — even if it does get quite noisy.\nALICE: There have been so many benefits of Street Play for the kids. Parents really like the\nfact that the kids are getting fresh air instead of sitting staring at a computer screen,\neven if they're not doing anything particularly energetic. And of course it's great that\nkids can play with their friends outside without being supervised by their parents —\nbut for me the biggest advantage is that kids develop confidence in themselves to \nbe outside without their parents. The other really fantastic thing is that children get \nto know the adults in the street. It's like having a big extended family.\nPRESENTER: It certainly does have a lot of benefits. I want to move on now and ask you about I\na related project in King Street.\nALICE: Right. Well this was an experiment I was involved in where local residents\ndecided to try and reduce the traffic along King Street, which is the busiest main\nroad in our area, by persuading people not to use their cars for one day. We\nthought about making people pay more for parking — but we decided that would\nbe really unpopular — so instead we just stopped people from parking on King I\nStreet but left the other car parks open. I\nIt was surprising how much of a difference all this made. As we'd predicted, air\nquality was significantly better but what I hadn’t expected was how much quieter. \nit would be — even with the buses still running. Of course everyone said they felt\nsafer but we were actually amazed that sales in the shops went up considerably \nthat day — we thought there’d be fewer people out shopping — not more.\nPRESENTER: That's really interesting so the fact that ..."
+   },
+   {
+    "part": 3,
+    "text": "HAZEL: Tom, could I ask you for some advice, please?\nTOM: Yes of course, if you think I can help. What's it about?\nHAZEL: It's my first media studies assignment, and I'm not sure how to go about it. You\nmust have done it last year.\nTOM: Is that the one comparing the coverage of a particular story in a range of\nnewspapers?\nHAZEL: That's right.\nTOM: Oh yes, I really enjoyed writing it.\nHAZEL: So what sort of things do I need to compare?\nTOM: Well, there are several things. For example, there's the question of which page of\nthe newspaper the item appears on.\nHAZEL: You mean, because there’s a big difference between having it on the front page\nand the bottom of page ten, for instance?\nTOM: Exactly. And that shows how important the editor thinks the story is. Then there’s\nthe size — how many column inches the story is given, how many columns it\nspreads over.\nHAZEL: And I suppose that includes the headline.\nTOM: It certainly does. It’s all part of attracting the reader's attention.\nHAZEL: What about graphics — whether there’s anything visual in addition to the text?\nTOM: Yes, you need to consider those, too, because they can have a big effect on the\nreader’s understanding of the story — sometimes a bigger effect than the text\nitself. Then you'll need to look at how the item is put together: what structure is\nit given? Bear in mind that not many people read beyond the first paragraph,\nso what has the journalist put at the beginning? And if, say, there are conflicting\nopinions about something, does one appear near the end, where people\nprobably won't read it?\nHAZEL: And newspapers sometimes give wrong or misleading information, don't they?\nEither deliberately or by accident. Should I be looking at that, too?\nTOM: Yes, if you can. Compare what's in different versions, and as far as possible,\ntry and work out what's true and what isn’t. And that relates to a very important\npoint: what's the writer’s purpose, or at least the most important one, if they have\nseveral. It may seem to be to inform the public, but often it's that they want to\ncreate fear, or controversy, or to make somebody look ridiculous.\nHAZEL: Gosh, I see what you mean. And I suppose the writer may make assumptions\nabout the reader.\nTOM: That's right — about their knowledge of the subject, their attitudes, and their level\nof education, which means writing so that the readers understand without feeling\npatronised. All of that will make a difference to how the story is presented.\nHAZEL: Does it matter what type of story I write about?\nTOM: No — national or international politics, the arts ... Anything, as long as it’s covered\nin two or three newspapers. Though of course it'll be easier and more fun if it’s\nsomething you're interested in and know something about.\nHAZEL: And on that basis a national news item would be worth analysing — I'm quite\nkeen on politics, so I'll try and find a suitable topic. What did you choose for your\nanalysis, Tom?\nTOM: was interested in how newspapers express their opinions explicitly, so\nwanted to compare editorials in different papers, but when I looking. I\ncouldn't find two on the same topic that I felt like analysing.\nHAZEL: In that case, I won't even bother to look.\nTOM: So in the end I chose a human interest story — a terribly emotional story about a\nyoung girl who was very ill, and lots of other people — mostly strangers — raised\nmoney so she could go abroad for treatment. Actually, I was surprised — some\npapers just wrote about how wonderful everyone was, but others considered the\nbroader picture, like why treatment wasn't available here.\nHAZEL: Hmm, I usually find stories like that raise quite strong feelings in me! I'll\navoid that. Perhaps I'll choose an arts topic, like different reviews of a film, or\nsomething about funding for the arts — I'll think about that.\nTOM: Yes, that might be interesting.\nHAZEL: OK, well thanks a lot for your help, Tom. It's been really useful.\nTOM: You're welcome. Good luck with the assignment, Hazel."
+   },
+   {
+    "part": 4,
+    "text": "Nowadays, we use different products for personal cleanliness, laundry, dishwashing and\nhousehold cleaning, but this is very much a 20th century development.\n\nThe origins of cleanliness date back to prehistoric times. Since water is essential for life, the\nearliest people lived near water and knew something about its cleansing properties — at least\nthat it rinsed mud off their hands.\n\nDuring the excavation of ancient Babylon, evidence was found that soapmaking was known\nas early as 2800 BC. Archaeologists discovered cylinders made of clay, with inscriptions\non them saying that fats were boiled with ashes. This is a method of making soap, though\nthere’s no reference to the purpose of this material.\n\nThe early Greeks bathed for aesthetic reasons and apparently didn't use soap. Instead, they\ncleaned their bodies with blocks of sand, pumice and ashes, then anointed themselves with\noil, and scraped off the oil and dirt with a metal instrument known as a strigil. They also used\noil mixed with ashes. Clothes were washed without soap in streams.\n\nThe ancient Germans and Gauls are also credited with discovering how to make a substance\ncalled ‘soap’, made of melted animal fat and ashes. They used this mixture to tint their hair red.\n\nSoap got its name, according to an ancient Roman legend, from Mount Sapo, where animals\nwere sacrificed, leaving deposits of animal fat. Rain washed these deposits, along with wood\nashes, down into the clay soil along the River Tiber. Women found that this mixture greatly\nreduced the effort required to wash their clothes.\n\nAs Roman civilisation advanced, so did bathing. The first of the famous Roman baths.\nsupplied with water from their aqueducts, was built around 312 BC. The baths were\nluxurious, and bathing became very popular. And by the second century AD, the Greek\nphysician Galen recommended soap for both medicinal and cleansing purposes.\n\nAfter the fall of Rome in 467 AD and the resulting decline in bathing habits, much of\nEurope felt the impact of filth on public health, a . lack of personal cleanliness and related\nunsanitary living conditions were major factors in the outbreaks of disease in the Middle\nAges, and especially the Black Death of the 14th century.\nNevertheless, soapmaking became an established craft in Europe, and associations of\nsoapmakers guarded their trade secrets closely. Vegetable and animal oils were used with\nashes of plants, along with perfume, apparently for the first time. Gradually more varieties of\nsoap became available for shaving and shampooing, as well as bathing and laundering.\n\nA major step toward large-scale commercial soapmaking occurred in 1791, when a French\nchemist, Nicholas Leblanc, patented a process for turning salt into soda ash, or sodium\ncarbonate. Soda ash is the alkali obtained from ashes that combines with fat to form soap.\nThe Leblanc process yielded quantities of good quality, inexpensive soda ash.\n\nModern soapmaking was born some 20 years later, in the early 19th century, with the\ndiscovery by Michel Eugéne Chevreul, another French chemist, of the chemical nature and\nrelationship of fats, glycerine and fatty acids. His studies established the basis for both fat.\nand soap chemistry, and soapmaking became a science. Further developments during the\n19th century made it easier and cheaper to manufacture soap.\n\nUntil the 19th century, soap was regarded as a luxury item, and was heavily taxed in\nseveral countries. As it became more readily available, it became an everyday necessity, a\ndevelopment that was reinforced when the high tax was removed. Soap was then something\nordinary people could afford, and cleanliness standards improved.\n\nWith this widespread use came the development of milder soaps for bathing and soaps for use\nin the washing machines that were available to consumers by the turn of the 20th century."
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "title": "Henry Moore (1898-1986)",
+    "groups": [
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nIn boxes 1-7 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 1,
+      "last": 7,
+      "body": "",
+      "options": [],
+      "figure_pdf_page": 0,
+      "questions": [
+       {
+        "n": 1,
+        "text": "On leaving school, Moore did what his father wanted him to do.",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "Moore began studying sculpture in his first term at the Leeds School of Art.",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "When Moore started at the Royal College of Art, its reputation for teaching sculpture was excellent.",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "Moore became aware of ancient sculpture as a result of visiting London museums.",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "The Trocadero Museum's Mayan sculpture attracted a lot of public interest.",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "Moore thought the Mayan sculpture was similar in certain respects to other stone sculptures.",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "The artists who belonged to Unit One wanted to make modern art and architecture more popular.",
+        "options": []
+       }
+      ]
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 8-13 on your answer sheet.",
+      "first": 8,
+      "last": 13,
+      "body": "Moore's career as an artist\n\n1930s\n• Moore's exhibition at the Leicester Galleries is criticised by the press\n• Moore is urged to offer his [[8]] and leave the Royal College\n\n1940s\n• Moore turns to drawing because [[9]] for sculpting are not readily available\n• While visiting his hometown, Moore does some drawings of [[10]]\n• Moore is employed to produce a sculpture of a [[11]]\n• [[12]] start to buy Moore's work\n• Moore's increased [[13]] makes it possible for him to do more ambitious sculptures\n\n1950s\n• Moore's series of bronze figures marks a further change in his style",
+      "options": [],
+      "figure_pdf_page": 0,
+      "questions": [
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "",
+        "options": []
+       }
+      ]
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "The British sculptor Henry Moore was a leading figure in the 20th-century art world Henry Moore was born in Castleford, a small town near Leeds in the north of England. He was the seventh child of Raymond Moore and his wife Mary Baker. He studied at Castleford Grammar School from 1909 to 1915, where his early interest in art was encouraged by his teacher Alice Gostick. After leaving school, Moore hoped to become a sculptor, but instead he complied with his father’s wish that he train as a schoolteacher. He had to abandon his training in 1917 when he was sent to France to fight in the First World War."
+     },
+     {
+      "label": "",
+      "text": "After the war, Moore enrolled at the Leeds School of Art, where he studied for two years. In his first year, he spent most of his time drawing. Although he wanted to study sculpture, no teacher was appointed until his second year. At the end of that year, he passed the sculpture examination and was awarded a scholarship to the Royal College of Art in London. In September 1921, he moved to London and began three years of advanced study in sculpture."
+     },
+     {
+      "label": "",
+      "text": "Alongside the instruction he received at the Royal College, Moore visited many of the London museums, particularly the British Museum, which had a wide-ranging collection of ancient sculpture. During these visits, he discovered the power and beauty of ancient Egyptian and African sculpture. As he became increasingly interested in these ‘primitive’ forms of art, he turned away from European sculptural traditions."
+     },
+     {
+      "label": "",
+      "text": "After graduating, Moore spent the first six months of 1925 travelling in France. When he visited the Trocadero Museum in Paris, he was impressed by a cast of a Mayan’ sculpture of the rain spirit. It was a male reclining figure with its knees drawn up together, and its head at a right angle to its body. Moore became fascinated with this stone sculpture, which he thought had a power and originality that no other stone sculpture possessed. He himself started carving a variety of subjects in stone, including depictions of reclining women, mother-and-child groups, and masks."
+     },
+     {
+      "label": "",
+      "text": "Moore’s exceptional talent soon gained recognition, and in 1926 he started work as a sculpture instructor at the Royal College. In 1933, he became a member of a group of young artists called Unit One. The aim of the group was to convince the English public of the merits of the emerging international movement in modern art and architecture."
+     },
+     {
+      "label": "",
+      "text": "“Mayan: belonging to an ancient civilisation that inhabited parts of current-day Mexico, Guatemala, Belize, El Salvador and Honduras. Around this time, Moore moved away from the human figure to experiment with abstract shapes. In 1931, he held an exhibition at the Leicester Galleries in London. His work was enthusiastically welcomed by fellow sculptors, but the reviews in the press were extremely negative and turned Moore into a notorious figure. There were calls for his resignation from the Royal College, and the following year, when his contract expired, he left to start a sculpture department at the Chelsea School of Art in London."
+     },
+     {
+      "label": "",
+      "text": "Throughout the 1930s, Moore did not show any inclination to please the British public. He became interested in the paintings of the Spanish artist Pablo Picasso, whose work inspired him to distort the human body in a radical way. At times, he seemed to abandon the human figure altogether. The pages of his sketchbooks from this period show his ideas for abstract sculptures that bore little resemblance to the human form."
+     },
+     {
+      "label": "",
+      "text": "In 1940, during the Second World War, Moore stopped teaching at the Chelsea School and moved to a farmhouse about 20 miles north of London. A shortage of materials forced him to focus on drawing. He did numerous small sketches of Londoners, later turning these ideas into large coloured drawings in his studio. In 1942, he returned to Castleford to make a series of sketches of the miners who worked there."
+     },
+     {
+      "label": "",
+      "text": "In 1944, Harlow, a town near London, offered Moore a commission for a sculpture depicting a family. The resulting work signifies a dramatic change in Moore’s style, away from the experimentation of the 1930s towards a more natural and humanistic subject matter. He did dozens of studies in clay for the sculpture, and these were cast in bronze and issued in editions of seven to nine copies each. In this way, Moore’s work became available to collectors all over the world. The boost to his income enabled him to take on ambitious projects and start working on the scale he felt his sculpture demanded."
+     },
+     {
+      "label": "",
+      "text": "Critics who had begun to think that Moore had become less revolutionary were proven wrong by the appearance, in 1950, of the first of Moore’s series of standing figures in bronze, with their harsh and angular pierced forms and distinct impression of menace. Moore also varied his subject matter in the 1950s with such works as Warrior with Shield and Falling Warrior. These were rare examples of Moore’s use of the male figure and owe something to his visit to Greece in 1951, when he had the opportunity to study ancient works of art."
+     },
+     {
+      "label": "",
+      "text": "In his final years, Moore created the Henry Moore Foundation to promote art appreciation and to display his work. Moore was the first modern English sculptor to achieve international critical acclaim and he is still regarded as one of the most important sculptors of the 20th century."
+     }
+    ]
+   },
+   {
+    "title": "The Desolenator: producing clean water",
+    "groups": [
+     {
+      "type": "matching_headings",
+      "instructions": "Reading Passage 2 has seven sections, A-G.\nChoose the correct heading for each section from the list of headings below.\n\nWrite the correct number, i-x, in boxes 14-20 on your answer sheet.",
+      "first": 14,
+      "last": 20,
+      "body": "",
+      "options": [
+       {
+        "key": "i",
+        "text": "Getting the finance for production"
+       },
+       {
+        "key": "ii",
+        "text": "An unexpected benefit"
+       },
+       {
+        "key": "iii",
+        "text": "From initial inspiration to new product"
+       },
+       {
+        "key": "iv",
+        "text": "The range of potential customers for the device"
+       },
+       {
+        "key": "v",
+        "text": "What makes the device different from alternatives"
+       },
+       {
+        "key": "vi",
+        "text": "Cleaning water from a range of sources"
+       },
+       {
+        "key": "vii",
+        "text": "Overcoming production difficulties"
+       },
+       {
+        "key": "viii",
+        "text": "Profit not the primary goal"
+       },
+       {
+        "key": "ix",
+        "text": "A warm welcome for the device"
+       },
+       {
+        "key": "x",
+        "text": "The number of people affected by water shortages"
+       }
+      ],
+      "questions": [
+       {
+        "n": 14,
+        "text": "Section A",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "Section B",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "Section C",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "Section D",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "Section E",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "Section F",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Section G",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 21-26 on your answer sheet.",
+      "first": 21,
+      "last": 26,
+      "body": "How the Desolenator works\n\nThe energy required to operate the Desolenator comes from sunlight. The device can be used in different locations, as it has [[21]]. Water is fed into a pipe, and a [[22]] of water flows over a solar panel. The water then enters a boiler, where it turns into steam. Any particles in the water are caught in a [[23]]. The purified water comes out through one tube, and all types of [[24]] come out through another. A screen displays the [[25]] of the device, and transmits the information to the company so that they know when the Desolenator requires [[26]].",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 23,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "Travelling around Thailand in the 1990s, William Janssen was impressed with the basic rooftop solar heating systems that were on many homes, where energy from the sun was absorbed by a plate and then used to heat water for domestic use. Two decades later Janssen developed that basic idea he saw in Southeast Asia into a portable device that uses the power from the sun to purify water."
+     },
+     {
+      "label": "B",
+      "text": "The Desolenator operates as a mobile desalination unit that can take water from different places, such as the sea, rivers, boreholes and rain, and purify it for human consumption. It is particularly valuable in regions where natural groundwater reserves have been polluted, or where seawater is the only water source available."
+     },
+     {
+      "label": "",
+      "text": "Janssen saw that there was a need for a sustainable way to clean water in both the developing and the developed countries when he moved to the United Arab Emirates and saw large-scale water processing. ‘I was confronted with the enormous carbon footprint that the Gulf nations have because of all of the desalination that they do,’ he says."
+     },
+     {
+      "label": "C",
+      "text": "The Desolenator can produce 15 litres of drinking water per day, enough to sustain a family for cooking and drinking. Its main selling point is that unlike standard desalination techniques, it doesn’t require a generated power supply: just sunlight. It measures 120cm by 90cm, and is easy to transport, thanks to its two wheels. Water enters through a pipe, and flows as a thin film between a sheet of double glazing and the surface of a solar panel, where it is heated by the sun. The warm water flows into a small boiler (heated by a solar-powered battery) where it is converted to steam. When the steam cools, it becomes distilled water. The device has a very simple filter to trap particles, and this can easily be shaken to remove them. There are two tubes for liquid coming out: one for the waste — salt from seawater, fluoride, etc. — and another for the distilled water. The performance of the unit is shown on an LCD screen and transmitted to the company which provides servicing when necessary."
+     },
+     {
+      "label": "D",
+      "text": "A recent analysis found that at least two-thirds of the world’s population lives with severe water scarcity for at least a month every year. Janssen says that by 2030 half of the world’s population will be living with water stress — where the demand exceeds the supply over a certain period of time. ‘It is really important that a sustainable solution is brought to the market that is able to help these people,’ he says. Many countries ‘don’t have the money for desalination plants, which are very expensive to build. They don’t have the money to operate them, they are very maintenance intensive, and they don’t have the money to buy the diesel to run the desalination plants, so it is a really bad situation”"
+     },
+     {
+      "label": "E",
+      "text": "The device is aimed at a wide variety of users — from homeowners in the developing world who do not have a constant supply of water to people living off the grid in rural parts of the US. The first commercial versions of the Desolenator are expected to be in operation in India early next year, after field tests are carried out. The market for the self-sufficient devices in developing countries is twofold — those who cannot afford the money for the device outright and pay through microfinance, and middle- income homes that can lease their own equipment. ‘People in India don’t pay for a fridge outright; they pay for it over six months. They would put the Desolenator on their roof and hook it up to their municipal supply and they would get very reliable drinking water on a daily basis,’ Janssen says. In the developed world, it is aimed at niche markets where tap water is unavailable — for camping, on boats, or for the military, for instance."
+     },
+     {
+      "label": "F",
+      "text": "Prices will vary according to where it is bought. In the developing world, the price will depend on what deal aid organisations can negotiate. In developed countries, it is likely to come in at $1,000 (£685) a unit, said Janssen. ‘We are a venture with a social mission. We are aware that the product we have envisioned is mainly finding application in the developing world and humanitarian sector and that this is the way we will proceed. We do realise, though, that to be a viable company there is a bottom line to keep in mind,’ he says."
+     },
+     {
+      "label": "G",
+      "text": "The company itself is based at Imperial College London, although Janssen, its chief executive, still lives in the UAE. It has raised £340,000 in funding so far. Within two years, he says, the company aims to be selling 1,000 units a month, mainly in the humanitarian field. They are expected to be sold in areas such as Australia, northern Chile, Peru, Texas and California."
+     }
+    ]
+   },
+   {
+    "title": "Why fairy tales are really scary tales",
+    "groups": [
+     {
+      "type": "matching_sentence_endings",
+      "instructions": "Complete each sentence with the correct ending, A-F, below.\nWrite the correct letter, A-F, in boxes 27-31 on your answer sheet.",
+      "first": 27,
+      "last": 31,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "may be provided through methods used in biological research."
+       },
+       {
+        "key": "B",
+        "text": "are the reason for their survival."
+       },
+       {
+        "key": "C",
+        "text": "show considerable global variation."
+       },
+       {
+        "key": "D",
+        "text": "contain animals which transform to become humans."
+       },
+       {
+        "key": "E",
+        "text": "were originally spoken rather than written."
+       },
+       {
+        "key": "F",
+        "text": "have been developed without factual basis."
+       }
+      ],
+      "questions": [
+       {
+        "n": 27,
+        "text": "In fairy tales, details of the plot",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "Tehrani rejects the idea that the useful lessons for life in fairy tales",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "Various theories about the social significance of fairy tales",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "Insights into the development of fairy tales",
+        "options": []
+       },
+       {
+        "n": 31,
+        "text": "All the fairy tales analysed by Tehrani",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary using the list of words, A-I, below.\nWrite the correct letter, A-I, in boxes 32-36 on your answer sheet.",
+      "first": 32,
+      "last": 36,
+      "body": "Phylogenetic analysis of Little Red Riding Hood\n\nTehrani used techniques from evolutionary biology to find out if [[32]] existed among 58 stories from around the world. He also wanted to know which aspects of the stories had fewest [[33]], as he believed these aspects would be the most important ones. Contrary to other beliefs, he found that some [[34]] that were included in a story tended to change over time, and that the middle of a story seemed no more important than the other parts.\n\nHe was also surprised that parts of a story which seemed to provide some sort of [[35]] were unimportant. The aspect that he found most important in a story's survival was [[36]].",
+      "options": [
+       {
+        "key": "A",
+        "text": "ending"
+       },
+       {
+        "key": "B",
+        "text": "events"
+       },
+       {
+        "key": "C",
+        "text": "warning"
+       },
+       {
+        "key": "D",
+        "text": "links"
+       },
+       {
+        "key": "E",
+        "text": "records"
+       },
+       {
+        "key": "F",
+        "text": "variations"
+       },
+       {
+        "key": "G",
+        "text": "horror"
+       },
+       {
+        "key": "H",
+        "text": "people"
+       },
+       {
+        "key": "I",
+        "text": "plot"
+       }
+      ],
+      "questions": [
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 37-40 on your answer sheet.",
+      "first": 37,
+      "last": 40,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 37,
+        "text": "What method did Jamie Tehrani use to test his ideas about fairy tales?",
+        "options": [
+         {
+          "key": "A",
+          "text": "He compared oral and written forms of the same stories."
+         },
+         {
+          "key": "B",
+          "text": "He looked at many different forms of the same basic story."
+         },
+         {
+          "key": "C",
+          "text": "He looked at unrelated stories from many different countries."
+         },
+         {
+          "key": "D",
+          "text": "He contrasted the development of fairy tales with that of living creatures."
+         }
+        ]
+       },
+       {
+        "n": 38,
+        "text": "When discussing Tehrani's views, Jack Zipes suggests that",
+        "options": [
+         {
+          "key": "A",
+          "text": "Tehrani ignores key changes in the role of women."
+         },
+         {
+          "key": "B",
+          "text": "stories which are too horrific are not always taken seriously."
+         },
+         {
+          "key": "C",
+          "text": "Tehrani overemphasises the importance of violence in stories."
+         },
+         {
+          "key": "D",
+          "text": "features of stories only survive if they have a deeper significance."
+         }
+        ]
+       },
+       {
+        "n": 39,
+        "text": "Why does Tehrani refer to Chinese and Japanese fairy tales?",
+        "options": [
+         {
+          "key": "A",
+          "text": "to indicate that Jack Zipes' theory is incorrect"
+         },
+         {
+          "key": "B",
+          "text": "to suggest that crime is a global problem"
+         },
+         {
+          "key": "C",
+          "text": "to imply that all fairy tales have a similar meaning"
+         },
+         {
+          "key": "D",
+          "text": "to add more evidence for Jack Zipes' ideas"
+         }
+        ]
+       },
+       {
+        "n": 40,
+        "text": "What does Mathias Clasen believe about fairy tales?",
+        "options": [
+         {
+          "key": "A",
+          "text": "They are a safe way of learning to deal with fear."
+         },
+         {
+          "key": "B",
+          "text": "They are a type of entertainment that some people avoid."
+         },
+         {
+          "key": "C",
+          "text": "They reflect the changing values of our society."
+         },
+         {
+          "key": "D",
+          "text": "They reduce our ability to deal with real-world problems."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Some people think that fairy tales are just stories to amuse children, but their universal and enduring appeal may be due to more serious reasons People of every culture tell each other fairy tales but the same story often takes a variety of forms in different parts of the world. In the story of Little Red Riding Hood that European children are familiar with, a young girl on the way to see her grandmother meets a wolf and tells him where she is going. The wolf runs on ahead and disposes of the grandmother, then gets into bed dressed in the grandmother's clothes to wait for Little Red Riding Hood. You may think you know the story — but which version? In some versions, the wolf swallows up the grandmother, while in others it locks her in a cupboard. In some stories Red Riding Hood gets the better of the wolf on her own, while in others a hunter or a woodcutter hears her cries and comes to her rescue."
+     },
+     {
+      "label": "",
+      "text": "The universal appeal of these tales is frequently attributed to the idea that they contain cautionary messages: in the case of Little Red Riding Hood, to listen to your mother, and avoid talking to strangers. ‘It might be what we find interesting about this story is that it’s got this survival- relevant information in it, says anthropologist Jamie Tehrani at Durham University in the UK. But his research suggests otherwise. ‘We have this huge gap in our knowledge about the history and prehistory of storytelling, despite the fact that we know this genre is an incredibly ancient one,’ he says. That hasn’t stopped anthropologists, folklorists” and other academics devising theories to explain the importance of fairy tales in human society. Now Tehrani has found a way to test these ideas, borrowing a technique from evolutionary biologists."
+     },
+     {
+      "label": "",
+      "text": "To work out the evolutionary history, development and relationships among groups of organisms, biologists compare the characteristics of living species in a process called ‘phylogenetic analysis’. Tehrani has used the same approach to compare related versions of fairy tales to discover how they have evolved and which elements have survived longest."
+     },
+     {
+      "label": "",
+      "text": "Tehrani’s analysis focused on Little Red Riding Hood in its many forms, which include another Western fairy tale known as The Wolf and the Kids. Checking for variants of these two tales and similar stories from Africa, East Asia and other regions, he ended up with 58 stories recorded from oral traditions. Once his phylogenetic analysis had established that they were indeed related, he used the same methods to explore how they have developed and altered over time."
+     },
+     {
+      "label": "",
+      "text": "First he tested some assumptions about which aspects of the story alter least as it evolves, indicating their importance. Folklorists believe that what happens in a story is more central to the story than the characters in it— that visiting a relative, only to be met by a scary animal in disguise, is “Folklorists: those who study traditional stories more fundamental than whether the visitor is a little girl or three siblings, or the animal is a tiger instead of a wolf."
+     },
+     {
+      "label": "",
+      "text": "However, Tehrani found no significant difference in the rate of evolution of incidents compared with that of characters. ‘Certain episodes are very stable because they are crucial to the story, but there are lots of other details that can evolve quite freely, he says. Neither did his analysis support the theory that the central section of a story is the most conserved part. He found no significant difference in the flexibility of events there compared with the beginning or the end."
+     },
+     {
+      "label": "",
+      "text": "But the really big surprise came when he looked at the cautionary elements of the story. ‘Studies on hunter-gatherer folk tales suggest that these narratives include really important information about the environment and the possible dangers that may be faced there — stuff that’s relevant to survival,’ he says. Yet in his analysis such elements were just as flexible as seemingly trivial details. What, then, is important enough to be reproduced from generation to generation?"
+     },
+     {
+      "label": "",
+      "text": "The answer, it would appear, is fear — blood-thirsty and gruesome aspects of the story, such as the eating of the grandmother by the wolf, turned out to be the best preserved of all. Why are these details retained by generations of storytellers, when other features are not? Tehrani has an idea: ‘In an oral context, a story won’t survive because of one great teller. It also needs to be interesting when it’s told by someone who’s not necessarily a great storyteller.’ Maybe being swallowed whole by a wolf, then cut out of its stomach alive is so gripping that it helps the story remain popular, no matter how badly it’s told."
+     },
+     {
+      "label": "",
+      "text": "Jack Zipes at the University of Minnesota, Minneapolis, is unconvinced by Tehrani’s views on fairy tales. ‘Even if they're gruesome, they won’t stick unless they matter, he says. He believes the perennial theme of women as victims in stories like Little Red Riding Hood explains why they continue to feel relevant. But Tehrani points out that although this is often the case in Western versions, it is not always true elsewhere. In Chinese and Japanese versions, often known as The Tiger Grandmother, the villain is a woman, and in both Iran and Nigeria, the victim is a boy."
+     },
+     {
+      "label": "",
+      "text": "Mathias Clasen at Aarhus University in Denmark isn’t surprised by Tehrani’s findings. ‘Habits and morals change, but the things that scare us, and the fact that we seek out entertainment that’s designed to scare us — those are constant,’ he says. Clasen believes that scary stories teach us what it feels like to be afraid without having to experience real danger, and so build up resistance to negative emotions."
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "TRUE",
+   "2": "FALSE",
+   "3": "NOT GIVEN",
+   "4": "TRUE",
+   "5": "NOT GIVEN",
+   "6": "FALSE",
+   "7": "TRUE",
+   "8": "resignation",
+   "9": "materials",
+   "10": "miners",
+   "11": "family",
+   "12": "collectors",
+   "13": "income",
+   "14": "iii",
+   "15": "vi",
+   "16": "v",
+   "17": "x",
+   "18": "iv",
+   "19": "viii",
+   "20": "i",
+   "21": "wheels",
+   "22": "film",
+   "23": "filter",
+   "24": "waste",
+   "25": "performance",
+   "26": "servicing",
+   "27": "C",
+   "28": "B",
+   "29": "F",
+   "30": "A",
+   "31": "E",
+   "32": "D",
+   "33": "F",
+   "34": "B",
+   "35": "C",
+   "36": "G",
+   "37": "B",
+   "38": "D",
+   "39": "A",
+   "40": "A"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe diagram below shows how instant noodles are manufactured.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 73,
+   "image": "figures/p073.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people say that advertising is extremely successful at persuading us\nto buy things. Other people think that advertising is so common that we no\nlonger pay attention to it.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Swimming",
+    "questions": [
+     "Did you learn to swim when you were a child? [Why/Why not?]",
+     "How often do you go swimming now? [Why/Why not?]",
+     "What places are there for swimming where you live? [Why?]",
+     "Do you think it would be more enjoyable to go swimming outdoors or at an indoor pool? [Why?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe a famous business person that you know",
+   "points": [
+    "who this person is",
+    "what kind of business this person is involved in",
+    "what you know about this business person"
+   ],
+   "rounding_off": [
+    "and explain what you think of this business person."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Famous people today",
+    "questions": [
+     "What kinds of people are most famous in your country today?",
+     "Why are there so many stories about famous people in the news?",
+     "Do you agree or disagree that many young people today want to be famous?"
+    ]
+   },
+   {
+    "topic": "Advantages of being famous",
+    "questions": [
+     "Do you think it is easy for famous people to earn a lot of money?",
+     "Why might famous people enjoy having fans?",
+     "In what ways could famous people use their influence to do good things in the world?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

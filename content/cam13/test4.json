@@ -1,0 +1,1344 @@
+{
+ "book": 13,
+ "test": 4,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 1,
+      "last": 10,
+      "body": "Alex’s Training\n\nExample\nAlex completed his training in 2014\n\nAbout the applicant:\n— At first, Alex did his training in the [[1]] department.\n— Alex didn't have a qualification from school in [[2]]\n— Alex thinks he should have done the diploma in [[3]] skills.\n— Age of other trainees: the youngest was [[4]]\n\nBenefits of doing training at JPNW:\n• Lots of opportunities because of the size of the organisation.\n• Trainees receive the same amount of [[5]] as permanent staff.\n• The training experience increases people's confidence a lot.\n• Trainees go to [[6]] one day per month.\n• The company is in a convenient [[7]]\n\nAdvice for interview:\n• Don't wear [[8]]\n• Don't be [[9]]\n• Make sure you [[10]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 75,
+      "image": "figures/p075.png"
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "first": 11,
+      "last": 16,
+      "body": "The Snow Centre",
+      "options": [],
+      "questions": [
+       {
+        "n": 11,
+        "text": "Annie recommends that when cross-country skiing, the visitors should",
+        "options": [
+         {
+          "key": "A",
+          "text": "get away from the regular trails."
+         },
+         {
+          "key": "B",
+          "text": "stop to enjoy views of the scenery."
+         },
+         {
+          "key": "C",
+          "text": "go at a slow speed at the beginning"
+         }
+        ]
+       },
+       {
+        "n": 12,
+        "text": "What does Annie tell the group about this afternoon's dog-sled trip?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Those who want to can take part in a race"
+         },
+         {
+          "key": "B",
+          "text": "Anyone has the chance to drive a team of dogs."
+         },
+         {
+          "key": "C",
+          "text": "One group member will be chosen to lead the trail."
+         }
+        ]
+       },
+       {
+        "n": 13,
+        "text": "What does Annie say about the team relay event?",
+        "options": [
+         {
+          "key": "A",
+          "text": "All participants receive a medal."
+         },
+         {
+          "key": "B",
+          "text": "The course is 4 km long."
+         },
+         {
+          "key": "C",
+          "text": "Each team is led by a teacher."
+         }
+        ]
+       },
+       {
+        "n": 14,
+        "text": "On the snow-shoe trip, the visitors will",
+        "options": [
+         {
+          "key": "A",
+          "text": "visit an old gold mine."
+         },
+         {
+          "key": "B",
+          "text": "learn about unusual flowers."
+         },
+         {
+          "key": "C",
+          "text": "climb to the top of a mountain."
+         }
+        ]
+       },
+       {
+        "n": 15,
+        "text": "The cost of accommodation in the mountain hut includes",
+        "options": [
+         {
+          "key": "A",
+          "text": "a supply of drinking water."
+         },
+         {
+          "key": "B",
+          "text": "transport of visitors' luggage."
+         },
+         {
+          "key": "C",
+          "text": "cooked meals."
+         }
+        ]
+       },
+       {
+        "n": 16,
+        "text": "If there is a storm while the visitors are in the hut, they should",
+        "options": [
+         {
+          "key": "A",
+          "text": "contact the bus driver."
+         },
+         {
+          "key": "B",
+          "text": "wait until the weather improves."
+         },
+         {
+          "key": "C",
+          "text": "use the emergency locator beacon"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 76,
+      "image": "figures/p076.png"
+     },
+     {
+      "type": "matching_features",
+      "instructions": "What information does Annie give about skiing on each of the following mountain trails?\n\nChoose FOUR answers from the box and write the correct letter, A-F, next to Questions 17-20.",
+      "first": 17,
+      "last": 20,
+      "body": "Information",
+      "options": [
+       {
+        "key": "A",
+        "text": "It has a good place to stop and rest."
+       },
+       {
+        "key": "B",
+        "text": "It is suitable for all abilities."
+       },
+       {
+        "key": "C",
+        "text": "It involves crossing a river."
+       },
+       {
+        "key": "D",
+        "text": "It demands a lot of skill."
+       },
+       {
+        "key": "E",
+        "text": "It may be closed in bad weather."
+       },
+       {
+        "key": "F",
+        "text": "It has some very narrow sections."
+       }
+      ],
+      "questions": [
+       {
+        "n": 17,
+        "text": "Highland Trail",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "Pine Trail",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "Stony Trail",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Loser's Trail",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 77,
+      "image": "figures/p077.png"
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "first": 21,
+      "last": 26,
+      "body": "Labels giving nutritional information on food packaging",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "What was Jack's attitude to nutritional food labels before this project?",
+        "options": [
+         {
+          "key": "A",
+          "text": "He didn't read everything on them."
+         },
+         {
+          "key": "B",
+          "text": "He didn't think they were important."
+         },
+         {
+          "key": "C",
+          "text": "He thought they were too complicated"
+         }
+        ]
+       },
+       {
+        "n": 22,
+        "text": "Alice says that before doing this project,",
+        "options": [
+         {
+          "key": "A",
+          "text": "she was unaware of what certain foods contained."
+         },
+         {
+          "key": "B",
+          "text": "she was too lazy to read food labels."
+         },
+         {
+          "key": "C",
+          "text": "she was only interested in the number of calories."
+         }
+        ]
+       },
+       {
+        "n": 23,
+        "text": "When discussing supermarket brands of pizza, Jack agrees with Alice that",
+        "options": [
+         {
+          "key": "A",
+          "text": "the list of ingredients is shocking"
+         },
+         {
+          "key": "B",
+          "text": "he will hesitate before buying pizza again"
+         },
+         {
+          "key": "C",
+          "text": "the nutritional label is misleading"
+         }
+        ]
+       },
+       {
+        "n": 24,
+        "text": "Jack prefers the daily value system to other labelling systems because it is",
+        "options": [
+         {
+          "key": "A",
+          "text": "more accessible"
+         },
+         {
+          "key": "B",
+          "text": "more logical"
+         },
+         {
+          "key": "C",
+          "text": "more comprehensive."
+         }
+        ]
+       },
+       {
+        "n": 25,
+        "text": "What surprised both students about one flavour of crisps?",
+        "options": [
+         {
+          "key": "A",
+          "text": "The percentage of artificial additives given was incorrect."
+         },
+         {
+          "key": "B",
+          "text": "The products did not contain any meat."
+         },
+         {
+          "key": "C",
+          "text": "The labels did not list all the ingredients."
+         }
+        ]
+       },
+       {
+        "n": 26,
+        "text": "What do the students think about research into the impact of nutritional food labelling?",
+        "options": [
+         {
+          "key": "A",
+          "text": "It did not produce clear results."
+         },
+         {
+          "key": "B",
+          "text": "It focused on the wrong people"
+         },
+         {
+          "key": "C",
+          "text": "It made unrealistic recommendations."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 78,
+      "image": "figures/p078.png"
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 27,
+      "last": 28,
+      "body": "Which TWO things surprised the students about the traffic-light system for nutritional labels?",
+      "options": [
+       {
+        "key": "A",
+        "text": "its widespread use"
+       },
+       {
+        "key": "B",
+        "text": "the fact that it is voluntary for supermarkets"
+       },
+       {
+        "key": "C",
+        "text": "how little research was done before its introduction"
+       },
+       {
+        "key": "D",
+        "text": "its unpopularity with food manufacturers"
+       },
+       {
+        "key": "E",
+        "text": "the way that certain colours are used"
+       }
+      ],
+      "questions": [
+       {
+        "n": 27,
+        "text": "Which TWO things surprised the students about the traffic-light system for nutritional labels?",
+        "options": [
+         {
+          "key": "A",
+          "text": "its widespread use"
+         },
+         {
+          "key": "B",
+          "text": "the fact that it is voluntary for supermarkets"
+         },
+         {
+          "key": "C",
+          "text": "how little research was done before its introduction"
+         },
+         {
+          "key": "D",
+          "text": "its unpopularity with food manufacturers"
+         },
+         {
+          "key": "E",
+          "text": "the way that certain colours are used"
+         }
+        ]
+       },
+       {
+        "n": 28,
+        "text": "Which TWO things surprised the students about the traffic-light system for nutritional labels?",
+        "options": [
+         {
+          "key": "A",
+          "text": "its widespread use"
+         },
+         {
+          "key": "B",
+          "text": "the fact that it is voluntary for supermarkets"
+         },
+         {
+          "key": "C",
+          "text": "how little research was done before its introduction"
+         },
+         {
+          "key": "D",
+          "text": "its unpopularity with food manufacturers"
+         },
+         {
+          "key": "E",
+          "text": "the way that certain colours are used"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 79,
+      "image": "figures/p079.png"
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 29,
+      "last": 30,
+      "body": "Which TWO things are true about the participants in the study on the traffic-light system?",
+      "options": [
+       {
+        "key": "A",
+        "text": "They had low literacy levels."
+       },
+       {
+        "key": "B",
+        "text": "They were regular consumers of packaged food."
+       },
+       {
+        "key": "C",
+        "text": "They were selected randomly."
+       },
+       {
+        "key": "D",
+        "text": "They were from all socio-economic groups."
+       },
+       {
+        "key": "E",
+        "text": "They were interviewed face-to-face."
+       }
+      ],
+      "questions": [
+       {
+        "n": 29,
+        "text": "Which TWO things are true about the participants in the study on the traffic-light system?",
+        "options": [
+         {
+          "key": "A",
+          "text": "They had low literacy levels."
+         },
+         {
+          "key": "B",
+          "text": "They were regular consumers of packaged food."
+         },
+         {
+          "key": "C",
+          "text": "They were selected randomly."
+         },
+         {
+          "key": "D",
+          "text": "They were from all socio-economic groups."
+         },
+         {
+          "key": "E",
+          "text": "They were interviewed face-to-face."
+         }
+        ]
+       },
+       {
+        "n": 30,
+        "text": "Which TWO things are true about the participants in the study on the traffic-light system?",
+        "options": [
+         {
+          "key": "A",
+          "text": "They had low literacy levels."
+         },
+         {
+          "key": "B",
+          "text": "They were regular consumers of packaged food."
+         },
+         {
+          "key": "C",
+          "text": "They were selected randomly."
+         },
+         {
+          "key": "D",
+          "text": "They were from all socio-economic groups."
+         },
+         {
+          "key": "E",
+          "text": "They were interviewed face-to-face."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 79,
+      "image": "figures/p079.png"
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "The history of coffee\n\nCoffee in the Arab world\n• There was small-scale trade in wild coffee from Ethiopia.\n• 1522: Coffee was approved in the Ottoman court as a type of medicine.\n• 1623: In Constantinople, the ruler ordered the [[31]] of every coffee house.\n\nCoffee arrives in Europe (17th century)\n• Coffee shops were compared to [[32]]\n• They played an important part in social and [[33]] changes.\n\nCoffee and European colonisation\n• European powers established coffee plantations in their colonies\n• Types of coffee were often named according to the [[34]] they came from.\n• In Brazil and the Caribbean, most cultivation depended on [[35]]\n• In Java, coffee was used as a form of [[36]]\n• Coffee became almost as important as [[37]]\n• The move towards the consumption of [[38]] in Britain did not also take place in the USA.\n\nCoffee in the 19th century\n• Prices dropped because of improvements in [[39]]\n• Industrial workers found coffee helped them to work at [[40]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 80,
+      "image": "figures/p080.png"
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "Finance",
+   "2": "Maths / Math / Mathematics",
+   "3": "business",
+   "4": "17 / seventeen",
+   "5": "holiday(s) / vacation(s)",
+   "6": "college",
+   "7": "location",
+   "8": "jeans",
+   "9": "late",
+   "10": "smile",
+   "11": "A",
+   "12": "B",
+   "13": "A",
+   "14": "C",
+   "15": "A",
+   "16": "B",
+   "17": "B",
+   "18": "D",
+   "19": "A",
+   "20": "E",
+   "21": "A",
+   "22": "A",
+   "23": "C",
+   "24": "C",
+   "25": "B",
+   "26": "A",
+   "27": "B (IN EITHER ORDER with 28)",
+   "28": "C (IN EITHER ORDER with 27)",
+   "29": "D (IN EITHER ORDER with 30)",
+   "30": "E (IN EITHER ORDER with 29)",
+   "31": "destruction",
+   "32": "universities / university",
+   "33": "political",
+   "34": "port(s)",
+   "35": "slaves / slavery",
+   "36": "taxation",
+   "37": "sugar",
+   "38": "tea",
+   "39": "transportation",
+   "40": "night"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 13/IELTS13-Test 4-4CD2Track_05.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 13/IELTS13-Test 4-4CD2Track_06.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 13/IELTS13-Test 4-4CD2Track_07.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 13/IELTS13-Test 4-4CD2Track_08.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "MARTHA: Hi Alex. It's Martha Clines here. James White gave me your number I hope you\ndon't mind me calling you.\nALEX: Of course not. How are you, Martha?\nMARTHA: Good thanks. I'm ringing because I need a bit of advice\nALEX: Oh yeah. What about?\nMARTHA: The training you did at JPNW a few years ago. I'm applying for the same thing.\nALEX: Oh right. Yes, I did mine in 2014. Best thing I ever did. I'm still working there.\nMARTHA: Really? What are you doing?\nALEX: Well, now I work in the customer services department but I did my initial training\nin Finance. I stayed there for the first two years and then moved to where I\nam now.\nMARTHA: That's the same department I'm applying for. Did you enjoy it?\nALEX: was pretty nervous to begin with. I didn't do well in my exams at school and I\nwas really worried because I failed Maths. But it didn't actually matter because!\ndid lots of courses on the job.\nMARTHA: Did you get a diploma at the end of your trainee period? I'm hoping to do the one\nin business skills,\nALEX: Yes. That sounds good. I took the one on IT skills but I wish I'd done that\none instead.\nMARTHA: OK, that’s good to know. What about the other trainees? How did you get on\nwith them?\nALEX: There were about 20 of us who started at the same time and we were all around\nthe same age — I was 18 and there was only one person younger than me who\nwas 17. The rest were between 18 and 20. I made some good friends.\nMARTHA: I've heard lots of good things about the training at JPNW. It seems like there are\na lot of opportunities there.\nALEX: Yeah, definitely. Because of its size you can work in loads of different areas\nwithin the organisation.\nMARTHA: What about pay? I know you get a lower minimum wage than regular employees.\nALEX: That's right — which isn't great. But you get the same number of days’ holidays\neveryone else. And the pay goes up massively if they offer you a job at the end of the training period.\nMARTHA: Yeah, but I'm not doing it for the money — it’s the experience I think will be really\nuseful. Everyone says by the end of the year you gain so much confidence.\nALEX: You're right. That's the most useful part about it. There's a lot of variety too.\nYou're given lots of different things to do. I enjoyed it all I didn't even mind\nthe studying,\nMARTHA: Do you have to spend any time in college?\nALEX: Yes, one day each month. So you get lots of support from both your tutor and\nyour manager.\nMARTHA: That's good. And the company is easy to get to, isn't it?\nALEX: Yes it's very close to the train station so the locations are real advantage.\nALEX: Have you got a date for your interview yet?\nMARTHA: Yes, it's on the 23rd of this month.\nALEX: So long as you're well prepared there's nothing to worry about. Everyone's very\nfriendly,\nMARTHA: I am not sure what I should wear. What do you think?\n\nALEX: Nothing too casual — like jeans, for example. If you've got a nice jacket, wear that \nwith a skirt or trousers.\n\nMARTHA: OK. Thanks. Any other tips?\n\nALEX: Erm, well I know it’s really obvious but arrive in plenty of time. They hate people\nwho are late. So make sure you know exactly where you have to get to. And one\nthis job —is to smile. Even if you feel terrified. It makes people respond better\nto you.\nMARTHA: I'll have to practise doing that in the mirror!\nALEX: Yeah — well, good luck. Let me know if you need any more information.\n\nMARTHA: Thanks very much."
+   },
+   {
+    "part": 2,
+    "text": "Hi everyone, welcome to the Snow Centre. My name's Annie. I hope you enjoyed the bus\ntrip from the airport — we've certainly got plenty of snow today! Well, you've come to New\nZealand's premier snow and ski centre, and we've a whole load of activities for you during\nyour week here.\n\nMost visitors come here for the cross-country skiing, where you're on fairly flat ground for\nmost of the time, rather than going down steep mountainsides. There are marked trails, but.\n\nYou can 90 at your own speed -it's great aerobic exercise if you really push yourself, or if :\nyou prefer you can just glide gently along and enjoy the beautiful scenery.\n\nThis afternoon, you'll be going on a dog sled trip. You may have seen our dogs on TV\nrecently racing in the winter sled festival. If you want, you can have your own team for the.\nafternoon and learn how to drive them, following behind our leader on the trail. Or if you'd\nprefer, you can just sit back in the sled and enjoy the ride as a passenger.\n\nAt the weekend, we have the team relay event, and you're all welcome to join in. We have a\nlocal school coming along, and a lot of the teachers are taking part too. Participation rather\nthan winning is the main focus, and there’s a me lakes part. Participants\nare in teams of two to four, and each team must complete four laps of the course.\n\nFor your final expedition, you'll head off to Mount Frenner wearing a pair of special snow\nshoes which allow you to walk on top of the snow. This is an area where miners once\nsearched for gold, though there are very few traces of their work left now. When the snow\nmelts in summer, the mountain slopes are carpeted in flowers and plants. It's a long ascent.\n\nfor the stay. It's got cooking facilities, firewood and water for drinking. For washing, we\nrecommend you use melted snow, though, to conserve supplies. We can take your luggage\nup on our snowmobile for you for just ten dollars a person. The hut has cooking facilities so\nyou can make a hot meal in the evening and morning, but you need to take your own food,\nThe weather on Mount Frenner can be very stormy. In that case, stay in the hut — generally\nthe storms don't last long. Don't stress about getting back here to the centre in time to catch\nthe airport bus — they'll probably not be running anyway. We do have an emergency locator\nbeacon in the hut but only use that if it's a real emergency, like if someone's ill or injured.\n\nNow, let me tell you something about the different ski trails you can follow during your\nstay here.\n\nHighland trails directly accessible Kom where we are now. This true been designed to ove.\nThen there's Pine Trail ... if you're nervous about skiing, leave this one to the experts!\nYou follow a steep valley looking right down on the river below — scary! But if you've fully\nmastered the techniques needed for hills, it's great fun.\n\nStony Trail’s a good choice once you've got a general idea of the basics, There are one or\ntwo tricky sections, but nothing too challenging. There's a shelter half-way where you can sit\nand take a break and enjoy the afternoon sunshine.\n\nAnd finally, Loser’s Trail. This starts off following a gentle river valley but the last part is quite\nexposed so the snow conditions can be challenging — if it's snowing or windy, check with us\nbefore you set out to make sure the trail’'s open that day.\n\nRight, so now if you'd like to follow me, we'll get started .."
+   },
+   {
+    "part": 3,
+    "text": "JACK: I've still got loads to do for our report on nutritional food labels.\n\nALICE: Me too. What did you learn from doing the project about your own shopping habits?\n\nJACK: Well, I've always had to check labels for traces of peanuts and everything I eat because\nof my allergy. But beyond that I've never really been concerned enough to check how\nhealthy a product is.\n\nJACK: Ready meals are the worst ... comparing the labels on supermarket pizzas a real eye opener. Did you have any idea how bell calories they contain? Iwas amazed,\nJACK: When most people eat the whole pizza. Not exactly transparent is it?\n\nALICE: Not at all. But! expect it won't stop you from buying pizza?\n\nJACK: Probably not, no! I thought comparing the different labelling systems used by food\nmanufacturers was interesting. I think the kind of labelling system used makes a big\ndifference.\n\nALICE: Which one did you prefer?\n\nJACK: I liked the traditional daily value system best — the one which tells you what proportion\nof your required daily intake of each haben the product contains. !I'm not sure it's\ntory. I like to know all the\ningredients in a product, not just how much fat. ‘salt and sugar they contain.\n\nALICE: But it's good supermarkets have been making an effort to provide reliable information\nfor customers.\n\nJACK: Yes. There just needs to be more consistency between labelling systems used by\ndifferent supermarkets, in terms of portion sizes, etc.\n\nALICE: Mmm. The labels on the different brands of chicken flavour crisps were quite revealing\ntoo, weren't they?\n\nALICE: I know, a\nJACK: Absolutely.\n\nALICE: I think having nutritional food labeling has been a good idea, don't you? I think it will\nchange people's behaviour and stop mothers, in particular, buying the wrong things.\n\nJACK: But didn’t that study kind of prove the opposite? People didn't necessarily stop buying\nunhealthy products.\n\nALICE: They only said that might be the case. Those findings weren't that conclusive and it\nwas quite a small scale study. I think more research has to be done.\n\nJACK: Yes. I think you're probably right.\nJACK: What do you think of the traffic light system?\n\nALICE: I think supermarkets like the idea of having a colour-coded system — red, orange or\ngreen — for levels of fat, sugar and salt in a product.\n\nJACK: But it's not been adopted universally. And not on all products. Why do you suppose Q27 &\nthat is?\n\nALICE: Pressure from the food manufacturers. Hardly surprising that some of them are\nopposed to flagging up how unhealthy their products are.\n\nJACK: I'd have thought it would have been compulsory. It seems ridiculous it isn’t\nALICE: I know. And what I couldn't get over is the fact that it was brought in without enough\nconsultation — a lot of experts had deep reservations about it\nJACK: That is a bit weird. I suppose there's an argument for doing the research now when\nconsumers are familiar with this system.\n\nALICE: Yeah, maybe.\n\nJACK: The participants in the survey were quite positive about the traffic light system.\n\nALICE: Mmm. But! don't think they targeted the right people. They should have focused on\npeople with low literacy levels because these labels are designed to be accessible to\nShen.\n\nJACK: groups. And there wasn't + Q29 &\nmuch variation in their responses\nALICE: No. But\nif they hadn't interviewed participants face-to-face, they could have used a much bigger sample size. I wonder why they chose that method?\n\nJACK: Dunno. How were they selected? Did they volunteer or were they approached?\n\nALICE: I think they volunteered. The thing that wasn't stated was how often they bought\npackaged food — all we know is how frequently they used the supermarket."
+   },
+   {
+    "part": 4,
+    "text": "In my presentation, |I'm going to talk about coffee, and its importance both in economic and\nsocial terms. We think it was first drunk in the Arab world, but there’s hardly any documentary\nevidence of it before the 1500s, although of course that doesn't mean that people didn't know\nHowever, there is evidence that coffee was originally gathered from bushes growing wild\nin Ethiopia, in the northeast of Africa. In the early sixteenth century, it was being bought by\ntraders, and gradually its use as a drink spread throughout the Middle East. It's also known\nthat in 1522, in the Turkish city of Constantinople, which was the centre of the Ottoman\nEmpire, the court physician approved its use as a medicine.\n\nBy the mid-1500s, coffee bushes were being cultivated in the Yemen and for the next\nhundred years this region produced most of the coffee drunk in Africa and the Arab world.\nWhat's particularly interesting about coffee is its effect on social life. It was rarely drunk at\nhome, but instead people went to coffee houses to drink it. These people, usually men, would\nmeet to drink coffee and chat about issues of the day. But at the time, this chance to share\nGoss and opinions was seen as something that was pony dangerous, And in 1623, the ruler of Constantinople demanded the destruction of all the coffee houses in the city,\nalthough after his death many new ones opened, and coffee consumption ‘continued In ‘the\n17th century, coffee drinking spread to Europe, and here too, coffee shops became places where ordinary people, nearly always men, could meet to exchange ideas. Because of this, some people said that these places performed a similar function to universities. The opportunity they provided for people to meet together, outside their own homes, and to discuss the topics of the day had an enormous impact on social life. And many social movements and political developments had their origins in coffee house discussions.\nIn the late 1600s, the Yemeni monopoly on coffee production broke down and coffee\nProduction started to spread around the world, helped by European colonisation. Europeans\n‘set up coffee plantations in Indonesia and the Caribbean and production of coffee in the\ncolonies sky rocketed. Different types of coffee were erode in different areas, and it's.\ninteresting that the names given to these different types, like Mocha or Java coffee, were often taken from the port they were shipped to Europe from. But if you look at the labour\nsystem in the different colonies, there were some significant differences.\n\nIn Brazil and the various Caribbean colonies, coffee was grown in huge plantations, and the workers there were almost all slaves. But this wasn't the same in all colonies, for example in Java, which had been colonised by the Dutch, the peasants grew coffee and passed a proportion of this onto the Dutch, so it was used as a means of taxation. But whatever system was used, under the European powers of the 18th century, coffee production\nwas very closely linked to colonisation. Coffee was grown in ever-increasing quantities to satisfy the growing demand from Europe, and it became nearly as important as sugar\nproduction, ‘which was con under very similar conditions, However, coffee prices were\nnot yet low enough for people to drink it regularly at home, so most coffee consumption still\ntook place in public coffee houses and it still remained something of a luxury item. In Britain,\nhowever, a new drink was introduced from China, and started to become popular, gradually\ntaking over from coffee, although at first it was so expensive that only the upper classes could\nafford it This was tea, and by the late 1700s it was being widely drunk. However, when the\nA, as it still is today.\n\nSo, by the early nineteenth century, coffee was already being widely produced and\nconsumed. But during this century, ‘Production boomed and coffee Lees rei to fall. This\nwas partly because new types of transportation had been developed which were cheaper and more efficient. So now, working people could afford to Buy coffee. It wasn't just a drink for\nthe middle classes. And this was at a time when large parts of Europe were starting to work in\nindustries, and sometimes this meant their work didn't stop when it got dark. They might have to continue throughout the night, So, the use of coffee as a stimulant became: important — it\nwasn't just a drink people drank in the morning, for breakfast.\n\nThere were also changes in cultivation"
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "title": "Cutty Sark: the fastest sailing ship of all time",
+    "groups": [
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nIn boxes 1-8 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 1,
+      "last": 8,
+      "body": "",
+      "options": [
+       {
+        "key": "TRUE",
+        "text": "TRUE"
+       },
+       {
+        "key": "FALSE",
+        "text": "FALSE"
+       },
+       {
+        "key": "NOT GIVEN",
+        "text": "NOT GIVEN"
+       }
+      ],
+      "figure_pdf_page": 0,
+      "questions": [
+       {
+        "n": 1,
+        "text": "Clippers were originally intended to be used as passenger ships.",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "Cutty Sark was given the name of a character in a poem.",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "The contract between John Willis and Scott & Linton favoured Willis.",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "John Willis wanted Cutty Sark to be the fastest tea clipper travelling between the UK and China.",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "Despite storm damage, Cutty Sark beat Thermopylae back to London.",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "The opening of the Suez Canal meant that steam ships could travel between Britain and China faster than clippers.",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "Steam ships sometimes used the ocean route to travel between London and China.",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "Captain Woodget put Cutty Sark at risk of hitting an iceberg.",
+        "options": []
+       }
+      ]
+     },
+     {
+      "type": "sentence_completion",
+      "instructions": "Complete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 9-13 on your answer sheet.",
+      "first": 9,
+      "last": 13,
+      "body": "9 After 1880, Cutty Sark carried [[9]] as its main cargo during its most successful time.\n10 As a captain, [[10]] Woodget was very skilled.\n11 Ferreira went to Falmouth to repair damage that a [[11]] had caused.\n12 Between 1923 and 1954, Cutty Sark was used for [[12]].\n13 Cutty Sark has twice been damaged by [[13]] in the 21st century.",
+      "options": [],
+      "figure_pdf_page": 0,
+      "questions": [
+       {
+        "n": 9,
+        "text": "After 1880, Cutty Sark carried [[9]] as its main cargo during its most successful time.",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "As a captain, [[10]] Woodget was very skilled.",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "Ferreira went to Falmouth to repair damage that a [[11]] had caused.",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "Between 1923 and 1954, Cutty Sark was used for [[12]].",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "Cutty Sark has twice been damaged by [[13]] in the 21st century.",
+        "options": []
+       }
+      ]
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "The nineteenth century was a period of great technological development in Britain, and for shipping the major changes were from wind to steam power, and from wood to iron and steel."
+     },
+     {
+      "label": "",
+      "text": "The fastest commercial sailing vessels of all time were clippers, three-masted ships built to transport goods around the world, although some also took passengers. From the 1840s until 1869, when the Suez Canal opened and steam propulsion was replacing sail, clippers dominated world trade. Although many were built, only one has survived more or less intact: Cutty Sark, now on display in Greenwich, southeast London."
+     },
+     {
+      "label": "",
+      "text": "Cutty Sark’s unusual name comes from the poem Tam O'Shanter by the Scottish poet Robert Burns, Tam, a farmer, is chased by a witch called Nannie, who is wearing a ‘cutty sark’ — an old Scottish name for a short nightdress. The witch is depicted in Cutty Sark’s figurehead — the carving of a woman typically at the front of old sailing ships. In legend, and in Burns's poem, witches cannot cross water, so this was a rather strange choice of name for a ship."
+     },
+     {
+      "label": "",
+      "text": "Cutty Sark was built in Dumbarton, Scotland, in 1869, for a shipping company owned by John Willis. To carry out construction, Willis chose a new shipbuilding firm, Scott & Linton, and ensured that the contract with them put him in a very strong position. In the end, the firm was forced out of business, and the ship was finished by a competitor."
+     },
+     {
+      "label": "",
+      "text": "Willis’s company was active in the tea trade between China and Britain, where speed could bring shipowners both profits and prestige. so Cutty Sark was designed to make the journey more quickly than any other ship. On her maiden voyage, in 1870, she set sail from London, carrying large amounts of goods to China. She returned laden with tea, making the journey back to London in four months. However, Cutty Sark never lived up to the high expectations of her owner, as a result of bad winds and various misfortunes. On one occasion, in 1872, the ship and a rival clipper, Thermopylae, left port in China on the same day. Crossing the Indian Ocean, Cutty Sark gained a lead of over 400 miles, but then her rudder was severely damaged in stormy seas, making her impossible to steer. The ship’s crew had the daunting task of repairing the rudder at sea, and only succeeded at the second attempt. Cutty Sark reached London a week after Thermopylae. Steam ships posed a growing threat to clippers, as their speed and cargo capacity increased. In addition, the opening of the Suez Canal in 1869, the same year that Cutty Sark was launched. had a serious impact. While steam ships could make use of the quick, direct route between the Mediterranean and the Red Sea, the canal was of no use to sailing ships. which needed the much stronger winds of the oceans, and so had to sail a far greater distance. Steam ships reduced the journey time between Britain and China by approximately two months."
+     },
+     {
+      "label": "",
+      "text": "By 1878, tea traders weren't interested in Cutty Sark, and instead, she took on the much less prestigious work of carrying any cargo between any two ports in the world. In 1880. violence aboard the ship led ultimately to the replacement of the captain with an incompetent drunkard who stole the crew's wages. He was suspended from service, and a new captain appointed. This marked a turnaround and the beginning of the most successful period in Cutty Sark’s working life. transporting wool from Australia to Britain. One such journey took just under 12 weeks, beating every other ship sailing that year by around a month."
+     },
+     {
+      "label": "",
+      "text": "The ship's next captain, Richard Woodget, was an excellent navigator. who got the best out of both his ship and his crew. As a sailing ship, Cutty Sark depended on the strong trade winds of the southern hemisphere, and Woodget took her further south than any previous captain, bringing her dangerously close to icebergs off the southern tip of South America. His gamble paid off, though, and the ship was the fastest vessel in the wool trade for ten years."
+     },
+     {
+      "label": "",
+      "text": "As competition from steam ships increased in the 1890s, and Cutty Sark approached the end of her life expectancy. she became less profitable. She was sold to a Portuguese firm, which renamed her Ferreira. For the next 25 years, she again carried miscellaneous cargoes around the world."
+     },
+     {
+      "label": "",
+      "text": "Badly damaged in a gale in 1922, she was put into Falmouth harbour in southwest England, for repairs. Wilfred Dowman, a retired sea captain who owned a training vessel, recognised her and tried to buy her, but without success. She returned to Portugal and was sold to another Portuguese company. Dowman was determined, however, and offered a high price: this was accepted, and the ship returned to Falmouth the following year and had her original name restored."
+     },
+     {
+      "label": "",
+      "text": "Dowman used Cutty Sark as a training ship, and she continued in this role after his death. When she was no longer required, in 1954, she was transferred to dry dock at Greenwich to go on public display. The ship suffered from fire in 2007, and again, less seriously, in 2014, but now Cutty Sark attracts a quarter of a million visitors a year."
+     }
+    ]
+   },
+   {
+    "title": "SAVING THE SOIL",
+    "groups": [
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\nWrite ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 14-17 on your answer sheet.",
+      "first": 14,
+      "last": 17,
+      "body": "Why soil degradation could be a disaster for humans\n\nHealthy soil contains a large variety of bacteria and other microorganisms, as well as plant remains and [[14]]. It provides us with food and also with antibiotics, and its function in storing [[15]] has a significant effect on the climate. In addition, it prevents damage to property and infrastructure because it holds [[16]].\n\nIf these microorganisms are lost, soil may lose its special properties. The main factor contributing to soil degradation is the [[17]] carried out by humans.",
+      "options": [],
+      "questions": [
+       {
+        "n": 14,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_sentence_endings",
+      "instructions": "Complete each sentence with the correct ending, A-F, below.\nWrite the correct letter, A-F, in boxes 18-21 on your answer sheet.",
+      "first": 18,
+      "last": 21,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "may improve the number and quality of plants growing there."
+       },
+       {
+        "key": "B",
+        "text": "may contain data from up to nine countries."
+       },
+       {
+        "key": "C",
+        "text": "may not be put back into the soil."
+       },
+       {
+        "key": "D",
+        "text": "may help governments to be more aware of soil-related issues."
+       },
+       {
+        "key": "E",
+        "text": "may cause damage to different aspects of the environment."
+       },
+       {
+        "key": "F",
+        "text": "may be better for use at a global level."
+       }
+      ],
+      "questions": [
+       {
+        "n": 18,
+        "text": "Nutrients contained in the unused parts of harvested crops",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "Synthetic fertilisers produced with the Haber-Bosch process",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Addition of a mixture developed by Pius Floris to the soil",
+        "options": []
+       },
+       {
+        "n": 21,
+        "text": "The idea of zero net soil degradation",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 2 has seven paragraphs, A-G.\n\nWhich section contains the following information?\n\nWrite the correct letter, A-G, in boxes 22-26 on your answer sheet.\n\nNB You may use any letter more than once.",
+      "first": 22,
+      "last": 26,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 22,
+        "text": "a reference to one person's motivation for a soil-improvement project",
+        "options": []
+       },
+       {
+        "n": 23,
+        "text": "an explanation of how soil stayed healthy before the development of farming",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "examples of different ways of collecting information on soil degradation",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "a suggestion for a way of keeping some types of soil safe in the near future",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "a reason why it is difficult to provide an overview of soil degradation",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "More than a third of the Earth's top layer is at risk. Is there hope for our planet's most precious resource?"
+     },
+     {
+      "label": "A",
+      "text": "More than a third of the world’s soil is endangered, according to a recent UN report. If we don't slow the decline, all farmable soil could be gone in 60 years. Since soil grows 95% of our food, and sustains human life in other more surprising ways, that is a huge problem."
+     },
+     {
+      "label": "B",
+      "text": "Peter Groffman, from the Cary Institute of Ecosystem Studies in New York, points out that soil scientists have been warning about the degradation of the world’s soil for decades. At the same time, our understanding of its importance to humans has grown. A single gram of healthy soil might contain 100 million bacteria, as well as other microorganisms such as viruses and fungi, living amid decomposing plants and various minerals."
+     },
+     {
+      "label": "",
+      "text": "That means soils do not just grow our food, but are the source of nearly all our existing antibiotics, and could be our best hope in the fight against antibiotic- resistant bacteria. Soil is also an ally against climate change: as microorganisms within soil digest dead animals and plants, they lock in their carbon content, holding three times the amount of carbon as does the entire atmosphere. Soils also store water, preventing flood damage: in the UK, damage to buildings, roads and bridges from floods caused by soil degradation costs £233 million every year."
+     },
+     {
+      "label": "C",
+      "text": "If the soil loses its ability to perform these functions, the human race could be in big trouble. The danger is not that the soil will disappear completely, but that the microorganisms that give it its special properties will be lost. And once this has happened, it may take the soil thousands of years to recover."
+     },
+     {
+      "label": "",
+      "text": "Agriculture is by far the biggest problem. In the wild, when plants grow they remove nutrients from the soil, but then when the plants die and decay these nutrients are returned directly to the soil. Humans tend not to return unused parts of harvested crops directly to the soil to enrich it, meaning that the soil gradually becomes less fertile. In the past we developed strategies to get around the problem, such as regularly varying the types of crops grown, or leaving fields uncultivated for a season."
+     },
+     {
+      "label": "D",
+      "text": "But these practices became inconvenient as populations grew and agriculture had to be run on more commercial lines. A solution came in the early 20th century with the Haber-Bosch process for manufacturing ammonium nitrate. Farmers have been putting this synthetic fertiliser on their fields ever since."
+     },
+     {
+      "label": "",
+      "text": "But over the past few decades, it has become clear this wasn't such a bright idea. Chemical fertilisers can release polluting nitrous oxide into the atmosphere and excess is often washed away with the rain, releasing nitrogen into rivers. More recently, we have found that indiscriminate use of fertilisers hurts the soil itself, turning it acidic and salty, and degrading the soil they are supposed to nourish."
+     },
+     {
+      "label": "E",
+      "text": "One of the people looking for a solution to this problem is Pius Floris, who started out running a tree-care business in the Netherlands, and now advises some of the world's top soil scientists. He came to realise that the best way to ensure his trees flourished was to take care of the soil, and has developed a cocktail of beneficial bacteria, fungi and humus* to do this. Researchers at the University of Valladolid in Spain recently used this cocktail on soils destroyed by years of fertiliser overuse. When they applied Floris's mix to the desert-like test plots, a good crop of plants emerged that were not just healthy at the surface, but had roots strong enough to pierce dirt as hard as rock. The few plants that grew in the control plots, fed with traditional fertilisers, were small and weak."
+     },
+     {
+      "label": "F",
+      "text": "However, measures like this are not enough to solve the global soil degradation problem. To assess our options on a global scale we first need an accurate picture of what types of soil are out there, and the problems they face. That's not easy. For one thing, there is no agreed international system for classifying soil. In an attempt to unify the different approaches, the UN has created the Global Soil Map project. Researchers from nine countries are working together to create a map linked to a database that can be fed measurements from field surveys, drone surveys, satellite imagery, lab analyses and so on to provide real-time data on the state of the soil. Within the next four years, they aim to have mapped soils worldwide to a depth of 100 metres, with the results freely accessible to all."
+     },
+     {
+      "label": "",
+      "text": "Within the next four years, they aim to have mapped soils worldwide to a depth of 100 metres, with the results freely accessible to all."
+     },
+     {
+      "label": "G",
+      "text": "But this is only a first step. We need ways of presenting the problem that bring it home to governments and the wider public, says Pamela Chasek at the International Institute for Sustainable Development, in Winnipeg, Canada. 'Most scientists don't speak language that policy-makers can understand, and vice versa.' Chasek and her colleagues have proposed a goal of 'zero net land degradation'. Like the idea of carbon neutrality, it is an easily understood target that can help shape expectations and encourage action."
+     },
+     {
+      "label": "",
+      "text": "Like the idea of carbon neutrality, it is an easily understood target that can help shape expectations and encourage action."
+     },
+     {
+      "label": "",
+      "text": "For soils on the brink, that may be too late. Several researchers are agitating for the immediate creation of protected zones for endangered soils. One difficulty here is defining what these areas should conserve: areas where the greatest soil diversity is present? Or areas of unspoilt soils that could act as a future benchmark of quality?"
+     }
+    ]
+   },
+   {
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27-29 on your answer sheet.",
+      "first": 27,
+      "last": 29,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 27,
+        "text": "What is the reviewer's attitude to advocates of positive psychology?",
+        "options": [
+         {
+          "key": "A",
+          "text": "They are wrong to reject the ideas of Bentham."
+         },
+         {
+          "key": "B",
+          "text": "They are over-influenced by their study of Bentham’s theories."
+         },
+         {
+          "key": "C",
+          "text": "They have a fresh new approach to ideas on human happiness."
+         },
+         {
+          "key": "D",
+          "text": "They are ignorant about the ideas they should be considering."
+         }
+        ]
+       },
+       {
+        "n": 28,
+        "text": "The reviewer refers to the Greek philosopher Aristotle in order to suggest that happiness",
+        "options": [
+         {
+          "key": "A",
+          "text": "may not be just pleasure and the absence of pain."
+         },
+         {
+          "key": "B",
+          "text": "should not be the main goal of humans."
+         },
+         {
+          "key": "C",
+          "text": "is not something that should be fought for."
+         },
+         {
+          "key": "D",
+          "text": "is not just an abstract concept."
+         }
+        ]
+       },
+       {
+        "n": 29,
+        "text": "According to Davies, Bentham's suggestion for linking the price of goods to happiness was significant because",
+        "options": [
+         {
+          "key": "A",
+          "text": "it was the first successful way of assessing happiness."
+         },
+         {
+          "key": "B",
+          "text": "it established a connection between work and psychology."
+         },
+         {
+          "key": "C",
+          "text": "it was the first successful example of psychological research."
+         },
+         {
+          "key": "D",
+          "text": "it involved consideration of the rights of consumers."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary using the list of words A-G below.\nWrite the correct letter, A-G, in boxes 30-34 on your answer sheet.\nJeremy Bentham",
+      "first": 30,
+      "last": 34,
+      "body": "Jeremy Bentham was active in other areas besides philosophy. In the 1790s he suggested a type of technology to improve [[30]] for different Government departments. He developed a new way of printing banknotes to increase [[31]] and also designed a method for the [[32]] of food. He also drew up plans for a prison which allowed the [[33]] of prisoners at all times, and believed the same design could be used for other institutions as well. When researching happiness, he investigated possibilities for its [[34]], and suggested some methods of doing this.",
+      "options": [
+       {
+        "key": "A",
+        "text": "measurement"
+       },
+       {
+        "key": "B",
+        "text": "security"
+       },
+       {
+        "key": "C",
+        "text": "implementation"
+       },
+       {
+        "key": "D",
+        "text": "profits"
+       },
+       {
+        "key": "E",
+        "text": "observation"
+       },
+       {
+        "key": "F",
+        "text": "communication"
+       },
+       {
+        "key": "G",
+        "text": "preservation"
+       }
+      ],
+      "questions": [
+       {
+        "n": 30,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "yes_no_not_given",
+      "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3?\nIn boxes 35-40 on your answer sheet, write\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+      "first": 35,
+      "last": 40,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 35,
+        "text": "One strength of The Happiness Industry is its discussion of the relationship between psychology and economics.",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "It is more difficult to measure some emotions than others.",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "Watson's ideas on behaviourism were supported by research on humans he carried out before 1915.",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "Watson's ideas have been most influential on governments outside America.",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "The need for happiness is linked to industrialisation.",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "A main aim of government should be to increase the happiness of the population.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "Book Review",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "The Happiness Industry: How the Government and Big Business Sold Us Well-Being By William Davies ‘Happiness is the ultimate goal because it is self-evidently good. If we are asked why  happiness matters we can give no further external reason. It just obviously does matter.’ This pronouncement by Richard Layard, an economist and advocate of ‘positive psychology’ , summarises the beliefs of many people today. For Layard and others like him, it is obvious that the purpose of government is to promote a state of collective well-being. The only question is how to achieve it, and here positive psychology – a supposed science that not only identifies what makes people happy but also allows their happiness to be measured — can show the way. Equipped with this science, they say, governments can secure happiness in society in a way they never could in the past."
+     },
+     {
+      "label": "",
+      "text": "It is an astonishingly crude and simple-minded way of thinking, and for that very reason increasingly popular. Those who think in this way are oblivious to the vast philosophical literature in which the meaning and value of happiness have been explored and questioned, and write as if nothing of any importance had been thought on the subject until it came to their attention. It was the philosopher Jeremy Bentham (1748–1832) who was more than anyone else responsible for the development of this way of thinking. For Bentham it was obvious that the human good consists of pleasure and the absence of pain. The Greek philosopher Aristotle may have identified happiness with self-realisation in the 4th century BC, and thinkers throughout the ages may have struggled to reconcile the pursuit of happiness with other human values, but for Bentham all this was mere metaphysics or fiction. Without knowing anything much of him or the school of moral theory he established – since they are by education and intellectual conviction illiterate in the history of ideas – our advocates of positive psychology follow in his tracks in rejecting as outmoded and irrelevant pretty much the entirety of ethical reflection on human happiness to date."
+     },
+     {
+      "label": "",
+      "text": "But as William Davies notes in his recent book The Happiness Industry, the view that happiness is the only self-evident good is actually a way of limiting moral inquiry. One of the virtues of this rich, lucid and arresting book is that it places the current cult of happiness in a well-defined historical framework. Rightly, Davies begins his story with Bentham, noting that he was far more than a philosopher. Davies writes, 'Bentham's activities were those which we might now associate with a public sector management consultant'. In the 1790s, he wrote to the Home Office suggesting that the departments of government be linked together through a set of 'conversation tubes', and to the Bank of England with a design for a printing device that could produce unforgeable banknotes. He drew up plans for a 'frigidarium' to keep provisions such as meat, fish, fruit and vegetables fresh. His celebrated design for a prison to be known as a 'Panopticon', in which prisoners would be kept in solitary confinement while being visible at all times to the guards, was very nearly adopted. (Surprisingly, Davies does not discuss the fact that Bentham meant his Panopticon not just as a model prison but also as an instrument of control that could be applied to schools and factories.)"
+     },
+     {
+      "label": "",
+      "text": "Bentham was also a pioneer of the 'science of happiness'. If happiness is to be regarded as a science, it has to be measured, and Bentham suggested two ways in which this might be done. Viewing happiness as a complex of pleasurable sensations, he suggested that it might be quantified by measuring the human pulse rate. Alternatively, money could be used as the standard for quantification: if two different goods have the same price, it can be claimed that they produce the same quantity of pleasure in the consumer. Bentham was more attracted by the latter measure. By associating money so closely to inner experience, Davies writes, Bentham 'set the stage for the entangling of psychological research and capitalism that would shape the business practices of the twentieth century'."
+     },
+     {
+      "label": "",
+      "text": "The Happiness Industry describes how the project of a science of happiness has become integral to capitalism. We learn much that is interesting about how economic problems are being redefined and treated as psychological maladies. In addition, Davies shows how the belief that inner states of pleasure and displeasure can be objectively measured has informed management studies and advertising. The tendency of thinkers such as J B Watson, the founder of behaviourism*, was that human beings could be shaped, or manipulated, by policymakers and managers. Watson had no factual basis for his view of human action. When he became president of the American Psychological Association in 1915, he 'had never even studied a single human being': his research had been confined to experiments on white rats. Yet Watson's reductive model is now widely applied, with 'behaviour change' becoming the goal of governments: in Britain, a 'Behaviour Insights Team' has been established by the government to study how people can be encouraged, at minimum cost to the public purse, to live in what are considered to be socially desirable ways."
+     },
+     {
+      "label": "",
+      "text": "'behaviourism': a branch of psychology which is concerned with observable behaviour"
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "FALSE",
+   "2": "FALSE",
+   "3": "TRUE",
+   "4": "TRUE",
+   "5": "FALSE",
+   "6": "TRUE",
+   "7": "NOT GIVEN",
+   "8": "TRUE",
+   "9": "wool",
+   "10": "navigator",
+   "11": "gale",
+   "12": "training",
+   "13": "fire",
+   "14": "minerals",
+   "15": "carbon",
+   "16": "water",
+   "17": "agriculture",
+   "18": "C",
+   "19": "E",
+   "20": "A",
+   "21": "D",
+   "22": "E",
+   "23": "C",
+   "24": "F",
+   "25": "G",
+   "26": "F",
+   "27": "D",
+   "28": "A",
+   "29": "B",
+   "30": "F",
+   "31": "B",
+   "32": "G",
+   "33": "E",
+   "34": "A",
+   "35": "YES",
+   "36": "NOT GIVEN",
+   "37": "NO",
+   "38": "NOT GIVEN",
+   "39": "YES",
+   "40": "NO"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe plans below show the layout of a university's sports centre now, and how\nit will look after redevelopment.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 93,
+   "image": "figures/p093.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nIn spite of the advances made in agriculture, many people around the world still\ngo hungry.\n\nWhy is this the case?\n\nWhat can be done about this problem?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Animals",
+    "questions": [
+     "Are there many animals or birds where you live? [Why/Why not?]",
+     "How often do you watch programmes or read articles about wild animals? [Why?]",
+     "Have you ever been to a zoo or a wildlife park? [Why/Why not?]",
+     "Would you like to have a job working with animals? [Why/Why not?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe a website you use that helps you a lot in your work or studies.",
+   "points": [
+    "what the website is about",
+    "how often you use the website",
+    "what information the website gives you"
+   ],
+   "rounding_off": [
+    "and explain how your work or studies would change if this website didn't exist."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "The internet",
+    "questions": [
+     "Why do some people find the internet addictive?",
+     "What would the world be like without the internet?",
+     "Do you think that the way people use the internet may change in the future?"
+    ]
+   },
+   {
+    "topic": "Social media websites",
+    "questions": [
+     "What are the ways that social media can be used for positive purposes?",
+     "Why do some individuals post highly negative comments about other people on social media?",
+     "Do you think that companies' main form of advertising will be via social media in the future?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

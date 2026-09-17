@@ -1,0 +1,1102 @@
+{
+ "book": 11,
+ "test": 3,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Questions 1-6\nChoose the correct letter, A, B or C.",
+      "first": 1,
+      "last": 6,
+      "body": "Free activities in the Burnham area\n\nExample\nThe caller wants to find out about events on\nA 27 June.\nB 28 June.\nC 29 June.",
+      "options": [],
+      "figure_pdf_page": 58,
+      "questions": [
+       {
+        "n": 1,
+        "text": "The 'Family Welcome' event in the art gallery begins at",
+        "options": [
+         {
+          "key": "A",
+          "text": "10am"
+         },
+         {
+          "key": "B",
+          "text": "10.30 am."
+         },
+         {
+          "key": "C",
+          "text": "2pm."
+         }
+        ]
+       },
+       {
+        "n": 2,
+        "text": "The film that is now shown in the 'Family Welcome' event is about",
+        "options": [
+         {
+          "key": "A",
+          "text": "sculpture."
+         },
+         {
+          "key": "B",
+          "text": "painting."
+         },
+         {
+          "key": "C",
+          "text": "ceramics."
+         }
+        ]
+       },
+       {
+        "n": 3,
+        "text": "When do most of the free concerts take place?",
+        "options": [
+         {
+          "key": "A",
+          "text": "in the morning"
+         },
+         {
+          "key": "B",
+          "text": "at lunchtime"
+         },
+         {
+          "key": "C",
+          "text": "in the evening"
+         }
+        ]
+       },
+       {
+        "n": 4,
+        "text": "Where will the 4 pm concert of Latin American music take place?",
+        "options": [
+         {
+          "key": "A",
+          "text": "in a museum"
+         },
+         {
+          "key": "B",
+          "text": "in a theatre"
+         },
+         {
+          "key": "C",
+          "text": "in a library"
+         }
+        ]
+       },
+       {
+        "n": 5,
+        "text": "The boat race begins at",
+        "options": [
+         {
+          "key": "A",
+          "text": "Summer Pool."
+         },
+         {
+          "key": "B",
+          "text": "Charlesworth Bridge."
+         },
+         {
+          "key": "C",
+          "text": "Offord Marina."
+         }
+        ]
+       },
+       {
+        "n": 6,
+        "text": "One of the boat race teams",
+        "options": [
+         {
+          "key": "A",
+          "text": "won a regional competition earlier this year."
+         },
+         {
+          "key": "B",
+          "text": "has represented the region in a national competition."
+         },
+         {
+          "key": "C",
+          "text": "has won several regional competitions."
+         }
+        ]
+       }
+      ],
+      "image": "figures/p058.png"
+     },
+     {
+      "type": "sentence_completion",
+      "instructions": "Questions 7-10\nComplete the sentences below.\nWrite ONE WORD ONLY for each answer.",
+      "first": 7,
+      "last": 10,
+      "body": "Paxton Nature Reserve\n7 Paxton is a good place for seeing rare [[7]] all year round.\n8 This is a particularly good time for seeing certain unusual [[8]]\n9 Visitors will be able to learn about [[9]] and then collect some.\n10 Part of the [[10]] has been made suitable for swimming.",
+      "options": [],
+      "figure_pdf_page": 59,
+      "questions": [
+       {
+        "n": 7,
+        "text": "Paxton is a good place for seeing rare [[7]] all year round.",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "This is a particularly good time for seeing certain unusual [[8]]",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "Visitors will be able to learn about [[9]] and then collect some.",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "Part of the [[10]] has been made suitable for swimming.",
+        "options": []
+       }
+      ],
+      "image": "figures/p059.png"
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Questions 11-15\nChoose the correct letter, A, B or C.",
+      "first": 11,
+      "last": 15,
+      "body": "Changes in Barford over the last 50 years",
+      "options": [],
+      "figure_pdf_page": 60,
+      "questions": [
+       {
+        "n": 11,
+        "text": "In Shona's opinion, why do fewer people use buses in Barford these days?",
+        "options": [
+         {
+          "key": "A",
+          "text": "The buses are old and uncomfortable."
+         },
+         {
+          "key": "B",
+          "text": "Fares have gone up too much"
+         },
+         {
+          "key": "C",
+          "text": "There are not so many bus routes."
+         }
+        ]
+       },
+       {
+        "n": 12,
+        "text": "What change in the road network is known to have benefited the town most?",
+        "options": [
+         {
+          "key": "A",
+          "text": "the construction of a bypass"
+         },
+         {
+          "key": "B",
+          "text": "the development of cycle paths"
+         },
+         {
+          "key": "C",
+          "text": "the banning of cars from certain streets"
+         }
+        ]
+       },
+       {
+        "n": 13,
+        "text": "What is the problem affecting shopping in the town centre?",
+        "options": [
+         {
+          "key": "A",
+          "text": "lack of parking spaces"
+         },
+         {
+          "key": "B",
+          "text": "lack of major retailers"
+         },
+         {
+          "key": "C",
+          "text": "lack of restaurants and cafés"
+         }
+        ]
+       },
+       {
+        "n": 14,
+        "text": "What does Shona say about medical facilities in Barford?",
+        "options": [
+         {
+          "key": "A",
+          "text": "There is no hospital."
+         },
+         {
+          "key": "B",
+          "text": "New medical practices are planned."
+         },
+         {
+          "key": "C",
+          "text": "The number of dentists is too low."
+         }
+        ]
+       },
+       {
+        "n": 15,
+        "text": "The largest number of people are employed in",
+        "options": [
+         {
+          "key": "A",
+          "text": "manufacturing."
+         },
+         {
+          "key": "B",
+          "text": "services."
+         },
+         {
+          "key": "C",
+          "text": "education."
+         }
+        ]
+       }
+      ],
+      "image": "figures/p060.png"
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Questions 16-20\nWhat is planned for each of the following facilities?\nChoose FIVE answers from the box and write the correct letter, A-G, next to Questions 16-20.",
+      "first": 16,
+      "last": 20,
+      "body": "Plans",
+      "options": [
+       {
+        "key": "A",
+        "text": "It will move to a new location."
+       },
+       {
+        "key": "B",
+        "text": "It will have its opening hours extended."
+       },
+       {
+        "key": "C",
+        "text": "It will be refurbished."
+       },
+       {
+        "key": "D",
+        "text": "It will be used for a different purpose."
+       },
+       {
+        "key": "E",
+        "text": "It will have its opening hours reduced."
+       },
+       {
+        "key": "F",
+        "text": "It will have new management."
+       },
+       {
+        "key": "G",
+        "text": "It will be expanded."
+       }
+      ],
+      "figure_pdf_page": 61,
+      "questions": [
+       {
+        "n": 16,
+        "text": "railway station car park",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "cinema",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "indoor market",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "library",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "nature reserve",
+        "options": []
+       }
+      ],
+      "image": "figures/p061.png"
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "table_completion",
+      "instructions": "Questions 21-26\nComplete the table below.\nWrite ONE WORD ONLY for each answer.",
+      "first": 21,
+      "last": 26,
+      "body": "Subject of drawing | Change to be made\nA [[21]] surrounded by trees | Add Malcolm and a [[22]] noticing him\nPeople who are [[23]] outside the forest | Add Malcolm sitting on a tree trunk and [[24]]\nIce-skaters on [[25]] covered with ice | Add a [[26]] for each person",
+      "options": [],
+      "figure_pdf_page": 62,
+      "questions": [
+       {
+        "n": 21,
+        "text": "A [[21]] surrounded by trees",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "Add Malcolm and a [[22]] noticing him",
+        "options": []
+       },
+       {
+        "n": 23,
+        "text": "People who are [[23]] outside the forest",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "Add Malcolm sitting on a tree trunk and [[24]]",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "Ice-skaters on [[25]] covered with ice",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "Add a [[26]] person",
+        "options": []
+       }
+      ],
+      "image": "figures/p062.png"
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Questions 27-30\nWho is going to write each of the following parts of the report?\nWrite the correct letter, A-D, next to Questions 27-30.",
+      "first": 27,
+      "last": 30,
+      "body": "Parts of the report",
+      "options": [
+       {
+        "key": "A",
+        "text": "Helen only"
+       },
+       {
+        "key": "B",
+        "text": "Jeremy only"
+       },
+       {
+        "key": "C",
+        "text": "both Helen and Jeremy"
+       },
+       {
+        "key": "D",
+        "text": "neither Helen nor Jeremy"
+       }
+      ],
+      "figure_pdf_page": 63,
+      "questions": [
+       {
+        "n": 27,
+        "text": "how they planned the project",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "how they had ideas for their stories",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "an interpretation of their stories",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "comments on the illustrations",
+        "options": []
+       }
+      ],
+      "image": "figures/p063.png"
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Questions 31-40\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "ETHNOGRAPHY IN BUSINESS\nEthnography: research which explores human cultures\nIt can be used in business:\n• to investigate customer needs and [[31]]\n• to help companies develop new designs\n\nExamples of ethnographic research in business\nKitchen equipment\n• Researchers found that cooks could not easily see the [[32]] in measuring cups.\n\nCell phones\n• In Uganda, customers paid to use the cell phones of entrepreneurs.\n• These customers wanted to check the [[33]] used.\n\nComputer companies\n• There was a need to develop [[34]] between system administrators and colleagues.\n• to improve communication\n\nHospitals\n• Nurses needed to access information about [[35]] in different parts of the hospital.\n\nAirlines\n• Respondents recorded information about their [[36]] while travelling.\n\nPrinciples of ethnographic research in business\n• The researcher does not start off with a hypothesis.\n• Participants may be selected by criteria such as age, [[37]], product used.\n• The participants must feel [[38]] about taking part in the research.\n• There is usually direct [[39]] of the participants.\n• The interview is guided by the participant.\n• A lot of time is needed for the [[40]] of the data.\n• Researchers look for a meaningful pattern in the data.",
+      "options": [],
+      "figure_pdf_page": 64,
+      "questions": [
+       {
+        "n": 31,
+        "text": "to investigate customer needs and [[31]]",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "Researchers found that cooks could not easily see the [[32]] in measuring cups.",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "These customers wanted to check the [[33]] used.",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "There was a need to develop [[34]] between system administrators and colleagues.",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "Nurses needed to access information about [[35]] in different parts of the hospital.",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "Respondents recorded information about their [[36]] while travelling.",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "Participants may be selected by criteria such as age, [[37]], product used.",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "The participants must feel [[38]] about taking part in the research.",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "There is usually direct [[39]] of the participants.",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "A lot of time is needed for the [[40]] of the data.",
+        "options": []
+       }
+      ],
+      "image": "figures/p064.png"
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "B",
+   "2": "C",
+   "3": "B",
+   "4": "A",
+   "5": "C",
+   "6": "A",
+   "7": "birds",
+   "8": "flowers",
+   "9": "mushrooms",
+   "10": "river",
+   "11": "C",
+   "12": "B",
+   "13": "B",
+   "14": "A",
+   "15": "C",
+   "16": "G",
+   "17": "A",
+   "18": "C",
+   "19": "B",
+   "20": "F",
+   "21": "cave",
+   "22": "tiger",
+   "23": "dancing",
+   "24": "crying",
+   "25": "grass",
+   "26": "scarf",
+   "27": "A",
+   "28": "C",
+   "29": "D",
+   "30": "B",
+   "31": "attitude/attitudes",
+   "32": "numbers",
+   "33": "time/minutes",
+   "34": "software",
+   "35": "patients",
+   "36": "emotions/feelings",
+   "37": "income",
+   "38": "comfortable",
+   "39": "observation",
+   "40": "analysis"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 11/IELTS11_Test3_Section1.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 11/IELTS11_Test3_Section2.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 11/IELTS11_Test3_Section3.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 11/IELTS11_Test3_Section4.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "MARTIN: Good morning. This is Burnham tourist office, Martin speaking\nSUE: Oh, hello. I saw a poster about free things to do in the area, and it said people should\nphone you for information. I'm coming to Burnham with my husband and two children\nfor a few days on June the 27th, or possibly the 28th, and I would like some ideas for\nthings to do on the 29th,\nMARTIN: Yes, of course. OK. Then let's start with a couple of events especially for children.\nThe art gallery is holding an event called ‘Family Welcome’ that day, when there are\nactivities and trails to use throughout the gallery.\nSUE: That sounds interesting. What time does it start?\nMARTIN: The gallery opens at 10 and the Family Welcome event runs from 10.30 until two o'clock. The gallery stays open until five and several times during the day they are going to show a short film that the gallery has produced. It demonstrates how ceramics are made and there will be equipment and materials for children to have a go\nthemselves. Last time they ran the event, there was a film about painting, which went\ndown very well with the children, and they're now working on one about sculpture.\n\nSUE: I like the sound of that. And what other events happen in Burnham?\n\nMARTIN: Well, do you all enjoy listening to music?\n\nSUE: Oh, yes\nMARTIN: Well there are several free concerts taking place at different times — one or two in the\nmorning, the majority at lunchtime, and a couple in the evening. And they range from\npop music to Latin American.\n\nSUE: The Latin American could be fun. What time is that?\n\nMARTIN: It's being repeated several times, in different places. They're performing in the central\nlibrary at one o'clock, then at four it's in the City Museum and in the evening at seven thirty there\nthere's a longer concert, in the theatre.\n\nSUE: Right. I'l suggest that to the rest of the family.\n\nMARTIN: Something else you might be interested in is the boat race along the river.\n\nSUE: Oh, yes, do tell me about that.\n\nMARTIN: The race starts at Offord Marina, to the north of Bumham, and goes as far as\nSummer Pool. The best place to watch it from is Charlesworth Bridge, though that\ndoes get rather crowded.\n\n113,\nSUE: And who's taking part?\n\nMARTIN: Well, local boat clubs, but the standard is very high. Qne of them came first in the West.\nof England regional championship in May this year – it was the first time a team from\nBurnham has won, it means that next year they'll be representing the region in the national championship.\nSUE: Now I've heard something about Paxton nature reserve. It's a good place for spotting unusual\n\nMARTIN: birds isn't it? That's right throughout the year. There is a lake there, as well as a river, and they provide\na very attractive habitat. So it's a good idea to bring binoculars if you have them. And just at\nthe moment you can see various flowers that are pretty unusual — the soil at Paxton isn't very\ncommon. They're looking good right now.\n\nSUE: Right. My husband will be particularly interested in that\nMARTIN: And there's going to be a\nSUE: Uhuh, And is it possible for children to swim in the river?\n\nMARTIN: Yes. Part of it has been fenced off to make it safe for children to swim in, It's very shallow, and\nthere’s a lifeguard on duty whenever it's open. The lake is too deep, so swimming isn't allowed\nthere.\n\nSUE: OK, We must remember to bring their swimming things, in case we go to Paxton. How long does\nit take to get there by car from Bumham?\n\nMARTIN: About 20 minutes, but parking is very limited, so it's usually much easier to go by bus – and it\ntakes about the same time.\n\nSUE: Right. Well, I'll discuss the options with the rest of the family. Thanks very much for all your help.\n\nMARTIN: You're welcome.\n\nSUE: Goodbye.\n\nMARTIN: Bye."
+   },
+   {
+    "part": 2,
+    "text": "wan. First of all, let me thank you all for coming to this public meeting, to discuss the future of our\ntown. Our first speaker is Shona Ferguson, from Barford town council. Shona.\n\nThank you. First, I'll briefly give you some background information, then I'l be asking you for your\n‘comments on developments in the town.\nWell, as you don't need me to tell you, Barford has changed a great deal in the last 50 years.\nThese are some of the main changes.\n\nFifty years ago, buses linked virtually every part of the town and the neighbouring towns\nand villages. Most people used them frequently, but not now because the bus companies concentrate on just the routes that attract most passengers. So parts of the town are no longer served by buses. Even replacing old uncomfortable buses with amart new ones has had little\nimpact on passenger numbers. It's sometimes said that bus fares are too high, but in relation to\naverage incomes, fares are not much higher than they were 50 years ago.\n\nChanges in the road network are affecting the town. The centre was recently closed to traffic on\na trial basis, making it much safer for pedestrians. The impact of this is being measured. The new cycle paths, separating bikes from cars in most main roads, are being used far more than was expected, reducing traffic and improving air quality. And ‘although ‘the council's attempts 10\nhave a bypass constructed have failed, we haven't given up hope of persuading the govemment\nto change its mind.\n\n‘Shopping in the town centre has changed over the years. Many of us can remember when the\ntown was crowded with people going shopping. Numbers have been falling for several years,\ndespite efforts to attract shoppers, for instance by opening new car parks. Some people combine\n\non\nshopping with visits to the town's restaurants and cafes. Most shops are small\nindependent —. which is good. But many people prefer to use supermarkets and department stores in nearby large towns, as there are so few well known chain stores here.\n‘Turning now to medical facilities, the town is served by family doctors in several\nmedical practices — fewer than 50 years ago, but each catering for far more patients.\n\n‘Qur hospital closed 15 years ago, which means journeys to other towns are\nunavoidable. On the other hand, there are more dentists than there used to be.\nEmployment pattems have changed, along with almost everything else, The number of schools and colleges has increased, making that the main employment sector.\nServices, such as website design and accountancy, have grown in importance, and\nsurprisingly, perhaps, manufacturing hasn't seen the decline that has affected it in\nother parts of the country.\n\nNow I'll very quickly outline current plans for some of the town’s facilities, before\nasking for your comments.\n\nAs you'll know if you regularly use the car park at the railway station, it's usually full.\n\nThe railway company applied for permission to replace it with a multi-storey car park,\nbut that was refused. Instead, the company has bought some adjoining land, and this,\nwillbe used to increase the number of parking spaces.\n\nThe grand, the old cinema in the high street will close at the end of the year and reopen on a different site, You've probably seen the building under construction.\nThe plan is to have three screens with fewer seats, rather than just the one large\nauditorium in the old cinema.\n\nI expect many of you shop in the indoor market. It's become more and more shabby-\nlooking, and because of fears about safety, it was threatened with demolition. The\nthe evening, twice a week. We would like to enlarge the building in the not too distant\nfuture, but this is by no means definite.\n\nThere's no limit on access to the nature reserve on the edge of town, and this will\ncontinue to be the case. What will change, though, is that the council will no longer\nbe in charge of the area. Instead, it will become the responsibility of a national body that administers most nature reserves in the country. Okay, now let me ask you ..."
+   },
+   {
+    "part": 3,
+    "text": "JEREMY: Hello, Helen. Sorry I'm late.\n\nHELEN: Hi, Jeremy, no problem. Well we'd better work out where we are on our project, I\n‘suppose.\n\nJEREMY: Yeah. I've looked at the drawings you've done for my story, ‘The Forest’, and I think\nthey're brilliant – they really create the atmosphere I had in mind when I was writing\nit.\n\nHELEN: I'm glad you like them.\n\nJEREMY: There are just a few suggestions I'd like to make.\n\nHELEN: Go ahead\nJEREMY: Now, I'm not sure about the drawing of the cave — it's got trees all around it, which is\ngreat, but the drawing’s a bit too static, isn’t it? I think it needs some action\nHELEN: Yes, there's nothing happening. Perhaps I should add the boy - Malcolm, isn't it? He\nwould be walking up to it.\nJEREMY: Yes, let's have Malcolm in the drawing. What about putting in a tiger? The one\nthat he makes friends with a bit later? Maybe it could be siting under a tree washing\nitself.\nHELEN: And the tiger stops in the middle of what it's doing when it sees Malcolm walking\npast.\nJEREMY: That's a good idea.\nHELEN: OK, I'l have a go at that.\nJEREMY: Then there's the drawing of the crowd of men and women dancing, They're just outside the forest, and there's a lot going on.\nHELEN: That's right, you wanted them to be watching a carnival procession, but I thought it\nwould be too crowded. Do you think it works like this?\nJEREMY: Yes, I like what you've done. The only thing is, could you add Malcolm to it, without\nchanging what's already there.\nHELEN: ‘What about having him sitting on the tree trunk on the right of the picture?\nJEREMY: Yes, that would be fine.\nHELEN: And do you want him watching the other people?\nJEREMY: No, he's been left out of all the fun so I'd like him to be crying. That'll contrast nicely\nwith the next picture, where he’s laughing at the clowns in the carnival.\nHELEN: Right, I'll do that.\nJEREMY: ‘And then the drawing of the people ice skating in the forest.\nHELEN: wasn't too happy with that one, Because they re supposed to be skating on grass, aren't they?\nJEREMY: That's right, and it’s frozen over. At the moment it doesn't look quite right.\nHELEN: Mm, I see what you mean. I'll have another go at that.\nJEREMY: And I like the wool hats they're wearing. Maybe you could give each of them a scar, 026\naswell,\nHELEN: Yeah, that’s easy enough. They can be streaming out behind the people to suggest\nthey're skating really fast.\nJEREMY: Mm, great. Well that's all on the drawings\nHELEN: Right. So you've finished writing your story and I just need to finish illustrating it, and\nmy story and your drawings are done.\nHELEN: So the next thing is to decide what exactly we need to write about in the report that\ngoes with the stories, and how we're going to divide the work.\nJEREMY: Right, Helen.\nHELEN: What do you think about including a section on how we planned the project as a\nwhole, Jeremy? That's probably quite important\nJEREMY: Yeah. Well\nsomething, then we can go through it together and discuss it?\nHELEN: OK, that seems reasonable. And I could include something on how we came up with\nthe ideas for our two stories, couldn't I? Well, I've started writing something about that, so why don't you do the same and we can include the two things.\nHELEN: Right, so what about our interpretation of the stories? Do we need to write about what we think they show, like the value of helping other people or that sort of thing? That's going to come up later, isn't it? I think everyone in the class is going to read each other's stories and come up with their own interpretations, which we're going to discuss.\nHELEN: Oh, I missed that. So it isn't going to be part of the report at all?\nJEREMY: No. But we need to write about the illustrations, because they're an essential\nelement of children's experience of reading the stories. It's probably easiest for you\nto write that section, as you know more about drawing than I do.\nHELEN: Maybe, but I find it quite hard to write about. I'd be happier if you did it, 30\nJEREMY: OK. So when do you think ."
+   },
+   {
+    "part": 4,
+    "text": "‘So what I'm going to talk about to you today is something called Ethnography. This is a type\nof research aimed at exploring the way human cultures work. It was first developed for use in\nanthropology, and it's also been used in sociology and communication studies. So what's it\ngot to do with business, you may ask. Well, Bisineies ise finding that ethnography can offer them deeper insight into the possible needs of customers, either present or future, as well as providing valuable information about their attitudes towards existing products. And ethnography\ncan also help companies to design new products or services that customers really want.\n\nLet's look at some examples of how ethnographic research works in business. One team of\nresearchers did a project for a company manufacturing kitchen equipment. They watched\nhow cooks used measuring cups to measure out things like sugar and flour. They saw that\nthe cooks had to check and recheck the contents, because although the measuring cups had numbers inside them, the cooks couldn't see these easily.\nSo a new design of cup was\ndeveloped to overcome this problem, and it was a top seller.\n\nAnother team of ethnographic researchers looked at how cell phones were used in Uganda,\nin Africa. They found that people who didn't have their own phones could pay to use the\nphones of local entrepreneurs. Because these customers paid in advance for their calls, they.\nwere eager to know how much time they'd spent on the call so far. So the phone company\ndesigned phones for use globally with this added feature.\n\nEthnographic research has also been carried out in computer companies. In one company, IT\nsystems administrators were observed for several weeks. It was found that a large amount of\ntheir work involved communicating with colleagues in order to solve problems, but that they didn't have a standard way of exchanging information from spreadsheets and so on. So, the team came up with an idea for software that would help them to do this. In another piece of research, a team observed and talked to nurses working in hospitals. This led to the recognition that the nurses needed to access the computer records of their patients no matter where they were. This led to the development of a portable computer\ntablet that allowed the nurses to check records in locations throughout the hospital.\nOccasionally, research can be done even in environments where the researchers can't be\npresent. For example, in one project done for an airline, respondents used their smart phones\nto record information during airline trips, in aiming at tracking the\nemotions of passengers during a flight.\nSo what makes studies like these different from ordinary research? Let's look at some of the\ngeneral principles behind ethnographic research in business. First of all, the researcher has to\nbe completely open-minded — he or she hasn't thought up a hypothesis to be tested, as is the\ncase in other types of research. Instead they wait for the participants in the research to inform\nthem. As far as choosing the participants themselves is concerned, that's not really all that\ndifferent from ordinary research - the criteria according to which the participants are chosen\nmay be something as simple as the age bracket they fall into, or the researchers may select\nthem according to their income, or they might try to find a set of people who all use a particular\nproduct, for example. But it's absolutely crucial to recruit the right people as participants. As well\nas the criteria I've mentioned, the\nwatched as they go about their activities. Actually, most researchers say that people open up\npretty easily, maybe because they're often in their own home or workplace.\n\nSo what makes this type of research special is that it's not just a matter of sending a\nquestionnaire to the participants, instead the research is usually based on first-hand\n‘observation of what they are doing at the time. But that doesn’t mean that the researcher\nnever talks to the participants. However, unlike in traditional research, in this case it's the\nparticipant rather than the researchers who decides what direction the interview will follow.\nThis means that there's less likelihood of the researcher imposing his or her own ideas on the\nparticipant.\n\nBut after they've said goodbye to their participants and got back to their office, the\nresearcher's work isn't finished. Most researchers estimate that 70 to 80 percent of their time is spent not on the collecting of data, but on its analysis, looking at photos, listening to recordings and transcribing them, and so on. The researchers may end up with hundreds\nof pages of notes. And to determine what's significant, they don't focus on the sensational\nthings or the unusual things, instead they try to identify a pattem of some sort in all this data,\nand to discern the meaning behind it. This can result in some compelling insights that can in\nturn feed back to the whole design process."
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "title": "THE STORY OF SILK\nThe history of the world's most luxurious fabric, from ancient China to the present day",
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 1-9 on your answer sheet.",
+      "first": 1,
+      "last": 9,
+      "body": "THE STORY OF SILK\nEarly silk production in China\n* Around 3000 BC, according to legend:\n— silkworm cocoon fell into emperor's wife's [[1]]\n— emperor's wife invented a [[2]] to pull out silk fibres\nONLY [[3]] were allowed to produce silk\nOnly [[4]] were allowed to wear silk\nSilk used as a form of [[5]]\n- e.g. farmers' taxes consisted partly of silk\nSilk used for many purposes\n— e.g. evidence found of [[6]] made from silk around 168 AD\nSilk reaches rest of world\n* Merchants use Silk Road to take silk westward and bring back [[7]] and precious metals\n* 550 AD: [[8]] hide silkworm eggs in canes and take them to Constantinople\n* Silk production spreads across Middle East and Europe\n* 20th century: [[9]] and other manmade fibres cause decline in silk production",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "silkworm cocoon fell into emperor's wife's [[1]]",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "emperor's wife invented a [[2]] to pull out silk fibres",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "ONLY [[3]] were allowed to produce silk",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "Only [[4]] were allowed to wear silk",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "Silk used as a form of [[5]]",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "evidence found of [[6]] made from silk around 168 AD",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "Merchants use Silk Road to take silk westward and bring back [[7]] and precious metals",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "550AD: [[8]] hide silkworm eggs in canes and take them to Constantinople",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "20th century: [[9]] and other manmade fibres cause decline in silk production",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information in Reading Passage 1?\nIn boxes 10-13 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 10,
+      "last": 13,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 10,
+        "text": "Gold was the most valuable material transported along the Silk Road.",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "Most tradesmen only went along certain sections of the Silk Road.",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "The Byzantines spread the practice of silk production across the West.",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "Silk yarn makes up the majority of silk currently exported from China.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Silk is a fine, smooth material produced from the cocoons — soft protective shells — that are made by mulberry silkworms (insect larvae). Legend has it that it was Lei Tzu, wife of the Yellow Emperor, ruler of China in about 3000 BC, who discovered silkworms. One account of the story goes that as she was taking a walk in her husband's gardens, she discovered that silkworms were responsible for the destruction of several mulberry trees. She collected a number of cocoons and sat down to have a rest. It just so happened that while she was sipping some tea, one of the cocoons that she had collected landed in the hot tea and started to unravel into a fine thread. Lei Tzu found that she could wind this thread around her fingers. Subsequently, she persuaded her husband to allow her to rear silkworms on a grove of mulberry trees. She also devised a special reel to draw the fibres from the cocoon into a single thread so that they would be strong enough to be woven into fabric. While it is unknown just how much of this is true, it is certainly known that silk cultivation has existed in China for several millennia."
+     },
+     {
+      "label": "",
+      "text": "Originally, silkworm farming was solely restricted to women, and it was they who were responsible for the growing, harvesting and weaving. Silk quickly grew into a symbol of status, and originally, only royalty were entitled to have clothes made of silk. The rules were gradually relaxed over the years until finally during the Qing Dynasty (1644-1911 AD), even peasants, the lowest caste, were also entitled to wear silk. Sometime during the Han Dynasty (206 BC-220 AD), silk was so prized that it was also used as a unit of currency. Government officials were paid their salary in silk, and farmers paid their taxes in grain and silk. Silk was also used as diplomatic gifts by the emperor. Fishing lines, bowstrings, musical instruments and paper were all made using silk. The earliest indication of silk paper being used was discovered in the tomb of a noble who is estimated to have died around Demand for this exotic fabric eventually created the lucrative trade route now known as the Silk Road, taking silk westward and bringing gold, silver and 65 wool to the East. It was named the Silk Road after its most precious commodity, which was considered to be worth more than gold. The Silk Road stretched over 6,000 kilometres from Eastern China to the Mediterranean Sea, following the Great Wall of China, climbing the Pamir mountain range, crossing modern-day Afghanistan and going on to the Middle East, with a major trading market in Damascus. From there, the merchandise was shipped across the Mediterranean Sea. Few merchants travelled the entire route; goods were handled mostly by a series of middlemen."
+     },
+     {
+      "label": "",
+      "text": "With the mulberry silkworm being native to China, the country was the world’s sole producer of silk for many hundreds of years. The secret of silk-making eventually reached the rest of the world via the Byzantine Empire, which ruled over the Mediterranean region of southern Europe, North Africa and the Middle East during the period 330-1453 AD. According to another legend, monks working for the Byzantine emperor Justinian smuggled silkworm eggs to Constantinople (Istanbul in modern-day Turkey) in 550 AD, concealed inside hollow bamboo walking canes. The Byzantines were as secretive as the Chinese, however, and for many centuries the weaving and trading of silk fabric was a strict imperial monopoly. Then in the seventh century, the Arabs conquered Persia, capturing their magnificent silks in the process. Silk production thus spread through Africa, Sicily and Spain as the Arabs swept through these lands. Andalusia in southern Spain was Europe's main silk- producing centre in the tenth century. By the thirteenth century, however, Italy had become Europe’s leader in silk production and export. Venetian merchants traded extensively in silk and encouraged silk growers to settle in Italy. Even now, silk processed in the province of Como in northern Italy enjoys an esteemed reputation."
+     },
+     {
+      "label": "",
+      "text": "The nineteenth century and industrialisation saw the downfall of the European silk industry. Cheaper Japanese silk, trade in which was greatly facilitated by the opening of the Suez Canal, was one of the many factors driving the trend. Then in the twentieth century, new manmade fibres, such as nylon, started to be used in what had traditionally been silk products, such as stockings and parachutes. The two world wars, which interrupted the supply of raw material from Japan, also stifled the European silk industry. After the Second World War, Japan's silk production was restored, with improved production and quality of raw silk. Japan was to remain the world’s biggest producer of raw silk, and practically the only major exporter of raw silk, until the 1970s. However, in more recent decades, China has gradually recaptured its position as the world’s biggest producer and exporter of raw silk and silk yarn. Today, around 125,000 metric tons of silk are produced in the world, and almost two thirds of that production takes place in China."
+     }
+    ]
+   },
+   {
+    "title": "Great Migrations",
+    "groups": [
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 2?\nIn boxes 14-18 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 14,
+      "last": 18,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 14,
+        "text": "Local gulls and migrating arctic terns behave in the same way when offered food.",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "Experts’ definitions of migration tend to vary according to their area of study.",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "Very few experts agree that the movement of aphids can be considered migration.",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "Aphids’ journeys are affected by changes in the light that they perceive.",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "Dingle’s aim is to distinguish between the migratory behaviours of different species.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_sentence_endings",
+      "instructions": "Complete each sentence with the correct ending, A—G, below.\nWrite the correct letter, A-G, in boxes 19-22 on your answer sheet.",
+      "first": 19,
+      "last": 22,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "be discouraged by difficulties."
+       },
+       {
+        "key": "B",
+        "text": "travel on open land where they can look out for predators."
+       },
+       {
+        "key": "C",
+        "text": "eat more than they need for immediate purposes."
+       },
+       {
+        "key": "D",
+        "text": "be repeated daily."
+       },
+       {
+        "key": "E",
+        "text": "ignore distractions."
+       },
+       {
+        "key": "F",
+        "text": "be governed by the availability of water."
+       },
+       {
+        "key": "G",
+        "text": "follow a straight line."
+       }
+      ],
+      "questions": [
+       {
+        "n": 19,
+        "text": "According to Dingle, migratory routes are likely to",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "To prepare for migration, animals are likely to",
+        "options": []
+       },
+       {
+        "n": 21,
+        "text": "During migration, animals are unlikely to",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "Arctic terns illustrate migrating animals’ ability to",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 23-26 on your answer sheet.",
+      "first": 23,
+      "last": 26,
+      "body": "The migration of pronghorns\nPronghorns rely on their eyesight and [[23]] to avoid predators. One particular population's summer habitat is a national park, and their winter home is on the [[24]], where they go to avoid the danger presented by the snow at that time of year. However, their route between these two areas contains three [[25]]. One problem is the construction of new homes in a narrow [[26]] of land on the pronghorns’ route.",
+      "options": [],
+      "questions": [
+       {
+        "n": 23,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Animal migration, however it is defined, is far more than just the movement of animals. It can loosely be described as travel that takes place at regular intervals — often in an annual cycle — that may involve many members of a species, and is rewarded only after a long journey. It suggests inherited instinct. The biologist Hugh Dingle has identified five characteristics that apply, in varying degrees and combinations, to all migrations. They are prolonged movements that carry animals outside familiar habitats; they tend to be linear, not zigzaggy; they involve special behaviours concerning preparation (such as overfeeding) and arrival; they demand special allocations of energy. And one more: migrating animals maintain an intense attentiveness to the greater mission, which keeps them undistracted by temptations and undeterred by challenges that would turn other animals aside."
+     },
+     {
+      "label": "",
+      "text": "An arctic tern, on its 20,000 km flight from the extreme south of South America to the Arctic circle, will take no notice of a nice smelly herring offered from a bird-watcher's boat along the way. While local gulls will dive voraciously for such handouts, the tern flies on. Why? The arctic tern resists distraction because it is driven at that moment by an instinctive sense of something we humans find admirable: larger purpose. In other words, it is determined to reach its destination. The bird senses that it can eat, rest and mate later. Right now it is totally focused on the journey; its undivided intent is arrival."
+     },
+     {
+      "label": "",
+      "text": "Reaching some gravelly coastline in the Arctic, upon which other arctic terns have converged, will serve its larger purpose as shaped by evolution: finding a place, a time, and a set of circumstances in which it can successfully hatch and rear offspring."
+     },
+     {
+      "label": "",
+      "text": "But migration is a complex issue, and biologists define it differently, depending in part on what sorts of animals they study. Joel Berger, of the University of Montana, who works on the American pronghorn and other large terrestrial mammals, prefers what he calls a simple, practical definition suited to his beasts: ‘movements from a seasonal home area away to another home area and back again’. Generally the reason for such seasonal back-and-forth movement is to seek resources that aren't available within a single area year-round."
+     },
+     {
+      "label": "",
+      "text": "But daily vertical movements by Zooplankton in the ocean — upward by night to seek food, downward by day to escape predators – can also be considered migration. So can the movement of aphids when, having depleted the young leaves on one food plant, their offspring then fly onward to a different host plant, with no one aphid ever returning to where it started."
+     },
+     {
+      "label": "",
+      "text": "Dingle is an evolutionary biologist who studies insects. His definition is more intricate than Berger's, citing those five features that distinguish migration from other forms of movement. They allow for the fact that, for example, aphids will become sensitive to blue light (from the sky) when it’s time for takeoff on their big journey, and sensitive to yellow light (reflected from tender young leaves) when it's appropriate to land. Birds will fatten themselves with heavy feeding in advance of a long migrational flight. The value of his definition, Dingle argues, is that it focuses attention on what the phenomenon of wildebeest migration shares with the phenomenon of the aphids, and therefore helps guide researchers towards understanding how evolution has produced them all."
+     },
+     {
+      "label": "",
+      "text": "Human behaviour, however, is having a detrimental impact on animal migration. The pronghorn, which resembles an antelope, though they are unrelated, is the fastest land mammal of the New World. One population, which spends the summer in the mountainous Grand Teton National Park of the western USA, follows a narrow route from its summer range in the mountains, across a river, and down onto the plains. Here they wait out the frozen months, feeding mainly on sagebrush blown clear of snow. These pronghorn are notable for the invariance of their migration route and the severity of its constriction at three bottlenecks. If they can't pass through each of the three during their spring migration, they can't reach their bounty of summer grazing; if they can't pass through again in autumn, escaping south onto those windblown plains, they are likely to die trying to overwinter in the deep snow. Pronghorn, dependent on distance vision and speed to keep safe from predators, traverse high, open shoulders of land, where they can see and run. At one of the bottlenecks, forested hills rise to form a V, leaving a corridor of open ground only about 150 metres wide, filled with private homes. Increasing development is leading toward a crisis for the pronghorn, threatening to choke off their passageway."
+     },
+     {
+      "label": "",
+      "text": "Conservation scientists, along with some biologists and land managers within the USA‘s National Park Service and other agencies, are now working to preserve migrational behaviours, not just species and habitats. A National Forest has recognised the path of the pronghorn, much of which passes across its land, as a protected migration corridor. But neither the Forest Service nor the Park Service can control what happens on private land at a bottleneck. And with certain other migrating species, the challenge is complicated further — by vastly greater distances traversed, more jurisdictions, more borders, more dangers along the way. We will require wisdom and resoluteness to ensure that migrating species can continue their journeying a while longer."
+     }
+    ]
+   },
+   {
+    "groups": [
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 3 has seven sections, A-G.\n\nWhich section contains the following information?\n\nWrite the correct letter, A—G, in boxes 27-34 on your answer sheet.\n\nNB You may use any letter more than once.",
+      "first": 27,
+      "last": 34,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 27,
+        "text": "a reference to books that assume a lack of mathematical knowledge",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "the way in which this is not a typical book about mathematics",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "personal examples of being helped by mathematics",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "examples of people who each had abilities that seemed incompatible",
+        "options": []
+       },
+       {
+        "n": 31,
+        "text": "mention of different focuses of books about mathematics",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "a contrast between reading this book and reading other kinds of publication",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "a claim that the whole of the book is accessible to everybody",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "a reference to different categories of intended readers of this book",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "sentence_completion",
+      "instructions": "Complete the sentences below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 35-40 on your answer sheet.",
+      "first": 35,
+      "last": 40,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 35,
+        "text": "Some areas of both music and mathematics are suitable for someone who is [[35]].",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "It is sometimes possible to understand advanced mathematics using no more than a limited knowledge of [[36]].",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "The writer intends to show that mathematics requires [[37]] thinking, as well as analytical skills.",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "Some books written by [[38]] have had to leave out the mathematics that is central to their theories.",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "The writer advises non-mathematical readers to perform [[39]] while reading the book.",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "A lawyer found that studying [[40]] helped even more than other areas of mathematics in the study of law.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "Preface to 'How the other half thinks:\nAdventures in mathematical reasoning'",
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "Occasionally, in some difficult musical compositions, there are beautiful, but easy parts — parts so simple a beginner could play them. So it is with mathematics as well. There are some discoveries in advanced mathematics that do not depend on specialized knowledge, not even on algebra, geometry, or trigonometry. Instead they may involve, at most, a little arithmetic, such as ‘the sum of two odd numbers is even’, and common sense. Each of the eight chapters in this book illustrates this phenomenon. Anyone can understand every step in the reasoning."
+     },
+     {
+      "label": "",
+      "text": "The thinking in each chapter uses at most only elementary arithmetic, and sometimes not even that. Thus all readers will have the chance to participate in a mathematical experience, to appreciate the beauty of mathematics, and to become familiar with its logical, yet intuitive, style of thinking."
+     },
+     {
+      "label": "B",
+      "text": "One of my purposes in writing this book is to give readers who haven't had the opportunity to see and enjoy real mathematics the chance to appreciate the mathematical way of thinking. I want to reveal not only some of the fascinating discoveries, but, more importantly, the reasoning behind them."
+     },
+     {
+      "label": "",
+      "text": "In that respect, this book differs from most books on mathematics written for the general public. Some present the lives of colorful mathematicians. Others describe important applications of mathematics. Yet others go into mathematical procedures, but assume that the reader is adept in using algebra."
+     },
+     {
+      "label": "C",
+      "text": "I hope this book will help bridge that notorious gap that separates the two cultures: the humanities and the sciences, or should I say the right brain (intuitive) and the left brain (analytical, numerical). As the chapters will illustrate, mathematics is not restricted to the analytical and numerical; intuition plays a significant role. The alleged gap can be narrowed or completely overcome by anyone, in part because each of us is far from using the full capacity of either side of the brain. To illustrate our human potential, I cite a structural engineer who is an artist, an electrical engineer who is an opera singer, an opera singer who published mathematical research, and a mathematician who publishes short stories."
+     },
+     {
+      "label": "D",
+      "text": "Other scientists have written books to explain their fields to non-scientists, but have necessarily had to omit the mathematics, although it provides the foundation of their theories. The reader must remain a tantalized spectator rather than an involved participant, since the appropriate language for describing the details in much of ‘science is mathematics, whether the subject is expanding universe, subatomic particles, or chromosomes. Though the broad outline of a scientific theory can be sketched intuitively, when a part of the physical universe is finally understood, its description often looks like a page in a mathematics text."
+     },
+     {
+      "label": "E",
+      "text": "Still, the non-mathematical reader can go far in understanding mathematical reasoning. This book presents the details that illustrate the mathematical style of thinking, which involves sustained, step-by-step analysis, experiments, and insights. You will turn these pages much more slowly than when reading a novel or a newspaper. It may help to have a pencil and paper ready to check claims and carry out experiments."
+     },
+     {
+      "label": "F",
+      "text": "As I wrote, I kept in mind two types of readers: those who enjoyed mathematics until they were turned off by an unpleasant episode, usually around fifth grade, and mathematics aficionados, who will find much that is new throughout the book."
+     },
+     {
+      "label": "",
+      "text": "This book also serves readers who simply want to sharpen their analytical skills. Many careers, such as law and medicine, require extended, precise analysis. Each chapter offers practice in following a sustained and closely argued line of thought. That mathematics can develop this skill is shown by these two testimonials:"
+     },
+     {
+      "label": "G",
+      "text": "A physician wrote, ‘The discipline of analytical thought processes (in mathematics prepared me extremely well for medical school. In medicine one is faced with a problem which must be thoroughly analyzed before a solution can be found. The process is similar to doing mathematics.’"
+     },
+     {
+      "label": "",
+      "text": "A lawyer made the same point, ‘Although I had no background in law — not even ‘one political science course — I did well at one of the best law schools. I attribute much of my success there to having learned, through the study of mathematics, and, in particular, theorems, how to analyze complicated principles. Lawyers who have studied mathematics can master the legal principles in a way that most others cannot.’"
+     },
+     {
+      "label": "",
+      "text": "I hope you will share my delight in watching as simple, even naive, questions lead to remarkable solutions and purely theoretical discoveries find unanticipated applications."
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "tea",
+   "2": "reel",
+   "3": "women",
+   "4": "royalty",
+   "5": "currency",
+   "6": "paper",
+   "7": "wool",
+   "8": "monks",
+   "9": "nylon",
+   "10": "FALSE",
+   "11": "TRUE",
+   "12": "FALSE",
+   "13": "NOT GIVEN",
+   "14": "FALSE",
+   "15": "TRUE",
+   "16": "NOT GIVEN",
+   "17": "TRUE",
+   "18": "FALSE",
+   "19": "G",
+   "20": "C",
+   "21": "A",
+   "22": "E",
+   "23": "speed",
+   "24": "plains",
+   "25": "bottlenecks",
+   "26": "corridor/passageway",
+   "27": "D",
+   "28": "B",
+   "29": "G",
+   "30": "C",
+   "31": "B",
+   "32": "E",
+   "33": "A",
+   "34": "F",
+   "35": "beginner",
+   "36": "arithmetic",
+   "37": "intuitive",
+   "38": "scientists",
+   "39": "experiments",
+   "40": "theorems"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe graph below shows average carbon dioxide (CO2) emissions per person\nin the United Kingdom, Sweden, Italy and Portugal between 1967 and 2007.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 78,
+   "image": "figures/p078.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people say that the only reason for learning a foreign language is in\norder to travel to or work in a foreign country. Others say that these are not\nthe only reasons why someone should learn a foreign language.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Photographs",
+    "questions": [
+     "What type of photos do you like taking? [Why/Why not?]",
+     "What do you do with photos you take? [Why/Why not?]",
+     "When you visit other places, do you take photos or buy postcards? [Why/Why not?]",
+     "Do you like people taking photos of you? [Why/Why not?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe a day when you thought the weather was perfect.",
+   "points": [
+    "where you were on this day",
+    "what the weather was like on this day",
+    "what you did during the day"
+   ],
+   "rounding_off": [
+    "and explain why you thought the weather was perfect on this day."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Types of weather",
+    "questions": [
+     "What types of weather do people in your country dislike most? Why is that?",
+     "What jobs can be affected by different weather conditions? Why?",
+     "Are there any important festivals in your country that celebrate a season or type of weather?"
+    ]
+   },
+   {
+    "topic": "Weather forecasts",
+    "questions": [
+     "How important do you think it is for everyone to check what the next day's weather will be? Why?",
+     "What is the best way to get accurate information about the weather?",
+     "How easy or difficult is it to predict the weather in your country? Why is that?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

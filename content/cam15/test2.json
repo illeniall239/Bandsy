@@ -1,0 +1,1307 @@
+{
+ "book": 15,
+ "test": 2,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "table_completion",
+      "instructions": "Complete the table below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 1,
+      "last": 4,
+      "body": "Festival information\n\nDate | Type of event | Details\n17th | a concert | performers from Canada\n18th | a ballet | company called [[1]]\n19th–20th (afternoon) | a play | type of play: a comedy called Jemima\\nhas had a good [[2]]\n20th (evening) | a [[3]] show | show is called [[4]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "company called",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "has had a good",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "a ... show",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "is called",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 5,
+      "last": 10,
+      "body": "Workshops\n• Making [[5]]\n• (children only) Making [[6]]\n• (adults only) Making toys from [[7]] using various tools\n\nOutdoor activities\n• Swimming in the [[8]]\n• Walking in the woods, led by an expert on [[9]]\nSee the festival organiser's [[10]] for more information",
+      "options": [],
+      "questions": [
+       {
+        "n": 5,
+        "text": "Making",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "(children only) Making",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "(adults only) Making toys from ... using various tools",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "Swimming in the",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "Walking in the woods, led by an expert on",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "See the festival organiser's ... for more information",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "first": 11,
+      "last": 14,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 11,
+        "text": "The park was originally established",
+        "options": [
+         {
+          "key": "A",
+          "text": "as an amenity provided by the city council."
+         },
+         {
+          "key": "B",
+          "text": "as land belonging to a private house."
+         },
+         {
+          "key": "C",
+          "text": "as a shared area set up by the local community."
+         }
+        ]
+       },
+       {
+        "n": 12,
+        "text": "Why is there a statue of Diane Gosforth in the park?",
+        "options": [
+         {
+          "key": "A",
+          "text": "She was a resident who helped to lead a campaign."
+         },
+         {
+          "key": "B",
+          "text": "She was a council member responsible for giving the public access."
+         },
+         {
+          "key": "C",
+          "text": "She was a senior worker at the park for many years."
+         }
+        ]
+       },
+       {
+        "n": 13,
+        "text": "During the First World War, the park was mainly used for",
+        "options": [
+         {
+          "key": "A",
+          "text": "exercises by troops."
+         },
+         {
+          "key": "B",
+          "text": "growing vegetables."
+         },
+         {
+          "key": "C",
+          "text": "public meetings."
+         }
+        ]
+       },
+       {
+        "n": 14,
+        "text": "When did the physical transformation of the park begin?",
+        "options": [
+         {
+          "key": "A",
+          "text": "2013"
+         },
+         {
+          "key": "B",
+          "text": "2015"
+         },
+         {
+          "key": "C",
+          "text": "2016"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "map_labelling",
+      "instructions": "Label the map below.\n\nWrite the correct letter, A-I, next to Questions 15-20.",
+      "first": 15,
+      "last": 20,
+      "body": "Minster Park",
+      "options": [
+       {
+        "key": "A",
+        "text": "A"
+       },
+       {
+        "key": "B",
+        "text": "B"
+       },
+       {
+        "key": "C",
+        "text": "C"
+       },
+       {
+        "key": "D",
+        "text": "D"
+       },
+       {
+        "key": "E",
+        "text": "E"
+       },
+       {
+        "key": "F",
+        "text": "F"
+       },
+       {
+        "key": "G",
+        "text": "G"
+       },
+       {
+        "key": "H",
+        "text": "H"
+       },
+       {
+        "key": "I",
+        "text": "I"
+       }
+      ],
+      "questions": [
+       {
+        "n": 15,
+        "text": "statue of Diane Gosforth",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "wooden sculptures",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "playground",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "maze",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "tennis courts",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "fitness area",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 35,
+      "image": "figures/p035.png"
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 21,
+      "last": 22,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "students from the English department"
+       },
+       {
+        "key": "B",
+        "text": "residents of the local area"
+       },
+       {
+        "key": "C",
+        "text": "the university's teaching staff"
+       },
+       {
+        "key": "D",
+        "text": "potential new students"
+       },
+       {
+        "key": "E",
+        "text": "students from other departments"
+       }
+      ],
+      "questions": [
+       {
+        "n": 21,
+        "text": "Which TWO groups of people is the display primarily intended for?",
+        "options": [
+         {
+          "key": "A",
+          "text": "students from the English department"
+         },
+         {
+          "key": "B",
+          "text": "residents of the local area"
+         },
+         {
+          "key": "C",
+          "text": "the university's teaching staff"
+         },
+         {
+          "key": "D",
+          "text": "potential new students"
+         },
+         {
+          "key": "E",
+          "text": "students from other departments"
+         }
+        ]
+       },
+       {
+        "n": 22,
+        "text": "Which TWO groups of people is the display primarily intended for?",
+        "options": [
+         {
+          "key": "A",
+          "text": "students from the English department"
+         },
+         {
+          "key": "B",
+          "text": "residents of the local area"
+         },
+         {
+          "key": "C",
+          "text": "the university's teaching staff"
+         },
+         {
+          "key": "D",
+          "text": "potential new students"
+         },
+         {
+          "key": "E",
+          "text": "students from other departments"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.",
+      "first": 23,
+      "last": 24,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "His speeches inspired others to try to improve society."
+       },
+       {
+        "key": "B",
+        "text": "He used his publications to draw attention to social problems."
+       },
+       {
+        "key": "C",
+        "text": "His novels are well-known now."
+       },
+       {
+        "key": "D",
+        "text": "He was consulted on a number of social issues."
+       },
+       {
+        "key": "E",
+        "text": "His reputation has changed in recent times."
+       }
+      ],
+      "questions": [
+       {
+        "n": 23,
+        "text": "What are Cathy and Graham's TWO reasons for choosing the novelist Charles Dickens?",
+        "options": [
+         {
+          "key": "A",
+          "text": "His speeches inspired others to try to improve society."
+         },
+         {
+          "key": "B",
+          "text": "He used his publications to draw attention to social problems."
+         },
+         {
+          "key": "C",
+          "text": "His novels are well-known now."
+         },
+         {
+          "key": "D",
+          "text": "He was consulted on a number of social issues."
+         },
+         {
+          "key": "E",
+          "text": "His reputation has changed in recent times."
+         }
+        ]
+       },
+       {
+        "n": 24,
+        "text": "What are Cathy and Graham's TWO reasons for choosing the novelist Charles Dickens?",
+        "options": [
+         {
+          "key": "A",
+          "text": "His speeches inspired others to try to improve society."
+         },
+         {
+          "key": "B",
+          "text": "He used his publications to draw attention to social problems."
+         },
+         {
+          "key": "C",
+          "text": "His novels are well-known now."
+         },
+         {
+          "key": "D",
+          "text": "He was consulted on a number of social issues."
+         },
+         {
+          "key": "E",
+          "text": "His reputation has changed in recent times."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "What topic do Cathy and Graham choose to illustrate with each novel?\n\nChoose SIX answers from the box and write the correct letter, A-H, next to Questions 25-30.",
+      "first": 25,
+      "last": 30,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "poverty"
+       },
+       {
+        "key": "B",
+        "text": "education"
+       },
+       {
+        "key": "C",
+        "text": "Dickens's travels"
+       },
+       {
+        "key": "D",
+        "text": "entertainment"
+       },
+       {
+        "key": "E",
+        "text": "crime and the law"
+       },
+       {
+        "key": "F",
+        "text": "wealth"
+       },
+       {
+        "key": "G",
+        "text": "medicine"
+       },
+       {
+        "key": "H",
+        "text": "a woman's life"
+       }
+      ],
+      "questions": [
+       {
+        "n": 25,
+        "text": "The Pickwick Papers",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "Oliver Twist",
+        "options": []
+       },
+       {
+        "n": 27,
+        "text": "Nicholas Nickleby",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "Martin Chuzzlewit",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "Bleak House",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "Little Dorrit",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "Agricultural programme in Mozambique\n\nHow the programme was organised\nIt focused on a dry and arid region in Chicualacuala district, near the Limpopo River.\nPeople depended on the forest to provide charcoal as a source of income.\n[[31]] was seen as the main priority to ensure the supply of water.\nMost of the work organised by farmers' associations was done by [[32]]\nFenced areas were created to keep animals away from crops.\n\nThe programme provided:\n– [[33]] for the fences\n– [[34]] for suitable crops\n– water pumps\n\nThe farmers provided:\n– labour\n– [[35]] for the fences on their land\n\nFurther developments\nThe marketing of produce was sometimes difficult due to lack of [[36]]\nTraining was therefore provided in methods of food [[37]]\nFarmers made special places where [[38]] could be kept.\nLocal people later suggested keeping [[39]]\n\nEvaluation and lessons learned\nAgricultural production increased, improving incomes and food security.\nEnough time must be allowed, particularly for the [[40]] phase of the programme.",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "was seen as the main priority to ensure the supply of water.",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "Most of the work organised by farmers' associations was done by",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "The programme provided ... for the fences",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "The programme provided ... for suitable crops",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "The farmers provided ... for the fences on their land",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "The marketing of produce was sometimes difficult due to lack of",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "Training was therefore provided in methods of food",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "Farmers made special places where ... could be kept.",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "Local people later suggested keeping",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "Enough time must be allowed, particularly for the ... phase of the programme.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "Eustatis",
+   "2": "review",
+   "3": "dance",
+   "4": "Chat",
+   "5": "healthy",
+   "6": "posters",
+   "7": "wood",
+   "8": "lake",
+   "9": "insects",
+   "10": "blog",
+   "11": "C",
+   "12": "A",
+   "13": "B",
+   "14": "C",
+   "15": "E",
+   "16": "C",
+   "17": "B",
+   "18": "A",
+   "19": "G",
+   "20": "D",
+   "21": "B (21&22 IN EITHER ORDER)",
+   "22": "D (21&22 IN EITHER ORDER)",
+   "23": "B (23&24 IN EITHER ORDER)",
+   "24": "C (23&24 IN EITHER ORDER)",
+   "25": "G",
+   "26": "B",
+   "27": "D",
+   "28": "C",
+   "29": "H",
+   "30": "F",
+   "31": "Irrigation",
+   "32": "women",
+   "33": "wire(s)",
+   "34": "seed(s)",
+   "35": "posts",
+   "36": "transport",
+   "37": "preservation",
+   "38": "fish(es)",
+   "39": "bees",
+   "40": "design"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 15/ielts15_test2_audio1.m4a",
+   "Cambridge-lists-main/Cambridge IELTS 15/ielts15_test2_audio2.m4a",
+   "Cambridge-lists-main/Cambridge IELTS 15/ielts15_test2_audio3.m4a",
+   "Cambridge-lists-main/Cambridge IELTS 15/ielts15_test2_audio4.m4a"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "TIM: Good morning. You're through to the tourist information office, Tim speaking.\nHow can I help you?\nJEAN: Oh hello. Could you give me some information about next month's festival,\nplease? My family and I will be staying in the town that week.\nTIM: Of course. Well it starts with a concert on the afternoon of the 17th.\nJEAN: Oh I heard about that. The orchestra and singers come from the USA,\ndon't they?\nTIM: They're from Canada. They're very popular over there. They're going to perform\na number of well-known pieces that will appeal to children as well as adults.\nJEAN: That sounds good. My whole family are interested in music.\nTIM: The next day, the 18th, there’s a performance by a ballet company called\nEustatis.\nJEAN: Sorry?\nTIM: The name is spelt E-U-S-T-A-T-I-S. They appeared in last year's festival, and\nwent down very well. Again, their programme is designed for all ages.\nJEAN: Good. I expect we'll go to that. I hope there's going to be a play during the\nfestival, a comedy, ideally.\nTIM: You're in luck! On the 19th and 20th a local amateur group are performing one\nwritten by a member of the group. It’s called Jemima. That'll be on in the town\nhall. They've already performed it two or three times. I haven't seen it myself, but\nthe review in the local paper was very good.\nJEAN: And is it suitable for children?\nTIM: Yes, in fact it’s aimed more at children than at adults, so both performances are\nin the afternoon.\nJEAN: And what about dance? Will there be any performances?\nTIM: Yes, also on the 20th, but in the evening. A professional company is putting on a\nshow of modern pieces, with electronic music by young composers.\nJEAN: Uh-huh.\nTIM: The show is about how people communicate, or fail to communicate, with each\nother, so it's got the rather strange name, Chat.\nJEAN: suppose that's because that's something we do both face to face and online.\nTIM: That's right.\nTIM: Now there are also some workshops and other activities. They'll all take place at\nleast once every day, so everyone who wants to take part will have a chance.\nJEAN: Good. We're particularly interested in cookery — you don’t happen to have a\ncookery workshop, do you?\nTIM: We certainly do. It’s going to focus on how to make food part of a healthy\nlifestyle, and it'll show that even sweet things like cakes can contain much less\nsugar than they usually do.\nJEAN: That might be worth going to. We're trying to encourage our children to cook.\nTIM: Another workshop is just for children, and that's on creating posters to reflect the\nhistory of the town. The aim is to make children aware of how both the town and\npeople's lives have changed over the centuries. The results will be exhibited in\nthe community centre. Then the other workshop is in toy making, and that’s for\nadults only.\nJEAN: Oh, why's that?\n\nTIM: Because it involves carpentry — participants will be making toys out of wood, so\nthere'll be a lot of sharp chisels and other tools around.\n\nJEAN: It makes sense to keep children away from it.\n\nTIM: Exactly. Now let me tell you about some of the outdoor activities. There'll be\nsupervised wild swimming ...\n\nJEAN: Wild swimming? What's that?\n\nTIM: It just means swimming in natural waters, rather than a swimming pool.\n\nJEAN: Oh OK. In a lake, for instance.\n\nTIM: Yes, there’s a beautiful one just outside the town, and that'll be the venue for the\nswimming. There'll be lifeguards on duty, so it's suitable for all ages. And finally,\nthere'll be a walk in some nearby woods every day. The leader is an expert on\ninsects. He'll show some that live in the woods, and how important they are for\nthe environment. So there are going to be all sorts of different things to do during\nthe festival.\n\nJEAN: There certainly are.\n\nTIM: If you'd like to read about how the preparations for the festival are going, the\nfestival organiser is keeping a blog. Just search online for the festival website,\nand you'll find it.\n\nJEAN: Well, thank you very much for all the information.\n\nTIM: You're welcome. Goodbye.\n\nJEAN: Goodbye."
+   },
+   {
+    "part": 2,
+    "text": "WOMAN: I'm very pleased to welcome this evening's guest speaker, Mark Logan,\nwho's going to tell us about the recent transformation of Minster Park. Over\nto you, Mark.\n\nMARK: Thank you. I’m sure you're all familiar with Minster Park. It's been a feature of\nthe city for well over a century, and has been the responsibility of the city council\nfor most of that time. What perhaps isn’t so well known is the origin of the park:\nunlike many public parks that started in private ownership, as the garden of a\nlarge house, for instance, Minster was some waste land, which people living\nnearby started planting with flowers in 1892. It was unclear who actually owned\nthe land, and this wasn’t settled until 20 years later, when the council took\npossession of it.\n\nYou may have noticed the statue near one of the entrances. It's of Diane\nGosforth, who played a key role in the history of the park. Once the council\nhad become the legal owner, it planned to sell the land for housing. Many local\npeople wanted it to remain a place that everyone could go to, to enjoy the fresh\nair and natural environment — remember the park is in a densely populated\nresidential area. Diane Gosforth was one of those people, and she organized\npetitions and demonstrations, which eventually made the council change its mind\nabout the future of the land.\n\nSoon after this the First World War broke out, in 1914, and most of the park was\ndug up and planted with vegetables, which were sold locally. At one stage the\narmy considered taking it over for troop exercises and got as far as contacting\nthe city council, then decided the park was too small to be of use. There were\noccasional public meetings during the war, in an area that had been retained\nas grass.\n\n\nAfter the war, the park was turned back more or less to how it had been before\n1914, and continued almost unchanged until recently. Plans for transforming it\nwere drawn up at various times, most recently in 2013, though they were revised\nin 2015, before any work had started. The changes finally got going in 2016, and\nwere finished on schedule last year.\n\nOK, let me tell you about some of the changes that have been made — and some\nthings that have been retained. If you look at this map, you'll see the familiar\nOutline of the park, with the river forming the northern boundary, and a gate in\neach of the other three walls. The statue of Diane Gosforth has been moved: it\nused to be close to the south gate, but it’s now immediately to the north of the lily\npond, almost in the centre of the park, which makes it much more visible.\n\nThere's a new area of wooden sculptures, which are river bank, where the\npath from the east gate makes a sharp bend.\n\nThere are two areas that are particularly intended for children. The playground\nhas been enlarged and improved, and that’s between the river and the path that\nleads from the pond to the river.\n\nThen there's a new maze, a circular series of paths, separated by low hedges.\n\nThat's near the west gate — you go north from there towards the river and then\nturn left to reach it.\n\nThere have been tennis courts in the park for many years, and they've been\ndoubled, from four to eight, They're still in the south-west corner of the park,\nwhere there's a right angle bend in the path.\n\nSomething else I'd like to mention is the new fitness area. This is right next to the\nlily pond on the same side as the west gate.\n\nNow, as you're all gardeners, I’m sure you'll like to hear about the plants that\nhave been chosen for the park."
+   },
+   {
+    "part": 3,
+    "text": "CATHY: OK, Graham, so let’s check we both know what we're supposed to be doing.\n\nGRAHAM: OK.\n\nCATHY: So, for the university’s open day, we have to plan a display on British life and\nliterature in the mid 19th century.\n\nGRAHAM: That's right. But we'll have some people to help us find the materials and set it\nup, remember — for the moment, we just need to plan it.\n\nCATHY: Good. So have you gathered who's expected to come and see the display? Is\nit for the people studying English, or students from other departments? I’m not\nclear about it. .\n\nGRAHAM: Nor me. That was how it used to be, but it didn’t attract many people, so this\nyear it’s going to be part of an open day, to raise the university's profile. It'll be\npublicized in the city to encourage people to come and find out something of\nwhat goes on here. And it’s included in the information that's sent to people who\nare considering applying to study here next year.\n\nCATHY: Presumably some current students and lecturers will come?\n\nGRAHAM: I would imagine so, but we've been told to concentrate on the other categories\nof people.\n\nCATHY: Right. We don’t have to cover the whole range of 19th century literature, do we?\n\n\nGRAHAM: No, it's entirely up to us. I suggest just using Charles Dickens.\nCATHY: That's a good idea, ople have he: him, and have ably read \nsome of his novels, or seen films based on them, so that's a good lead-in to life\nin his time.\nGRAHAM: Exactly. And his Is show the awful conditions that most people live in, \ndon't they: he wanted to shock people int ing somethin: it.\nCATHY: Did he do any campaigning, other than writing?\nGRAHAM: Yes, he campaigned for education and other social reforms, and gave talks, but\nI'm inclined to ignore that and focus on the novels.\nCATHY: Yes, I agree.\nCATHY: OK, so now shall we think about a topic linked to each novel?\nGRAHAM: Yes. I've printed out a list of Dickens's novels in the order they were published, in\nthe hope you'd agree to focus on him!\nCATHY: You're lucky I did agree! Let’s have a look. OK, the first was The Pickwick\nPapers, published in 1836. It was very successful when it came out, wasn't it,\nand was adapted for the theatre straight away.\nGRAHAM: There's an interesting point, though, that there’s a character who keeps falling\nasleep and that medical condition was named after the book — Pickwickian\nSyndrome.\nCATHY: Oh, so why don’t we use that as the topic, and include some quotations from the\nnovel?\nGRAHAM: Right. Next is Oliver Twist. There’s a lot in the novel about poverty. But maybe\nsomething less obvious ...\nCATHY: Well Oliver is taught how to steal, isn’t he? We could use that to illustrate the fact\nthat very few children went to school, particularly not poor children, so they leamt\nin other ways.\nGRAHAM: Good idea. What's next?\nCATHY: Maybe Nicholas Nickleby. Actually he taught in a really cruel school, didn’t he?\nGRAHAM: That's right. But there’s also the company of touring actors that Nicholas joins.\nWe something on theatres and * amusement: he time. We don't\nwant only the bad things, do we?\nCATHY: OK.\nGRAHAM: What about Martin Chuzzlewit? He goes to the USA, doesn’t he?\nCATHY: Yes, and Dickens himself had been there a year before, and drew on his\nexperience there in the novel.\nGRAHAM: wonder, though ... The main theme is selfishness, so we could do something on\nsocial justice? No, too general, let's keep to your idea — I think it would work well.\nCATHY: He wrote Bleak House next — that’s my favourite of his novels.\nGRAHAM: Yes, mine too. His satire of the legal system is pretty powerful.\nCATHY: That's true, but think about Esther, the heroine. As a child she lives with someone she doesn’t know is her aunt, who treats her very badly, Then she's very happy\nliving with her guardian, ant her in charge of the he hold. And at\nend she married and her in gives her and her husband a house.\nwhere of course they’re very happy.\nGRAHAM: Yes, I like that.\nCATHY: What shall we take next? Little Dorrit? Old Mr Dorrit has been in a debtors’ prison\nfor years ..\nGRAHAM: So was Dickens's father, wasn’t he?\nCATHY: That's right.\nGRAHAM: What about focusing on the part when Mr Dorrit inherits a fortune, and he starts\npretending he's always been rich?\nCATHY: Good idea.\n\nGRAHAM: OK, so next we need to think about what materials we want to illustrate each\nissue. That's going to be quite hard."
+   },
+   {
+    "part": 4,
+    "text": "I'm going to report on a case study of a programme which has been set up to help rural\npopulations in Mozambique, a largely agricultural country in South-East Africa.\n\nThe programme worked with three communities in Chicualacuala district, near the Limpopo\nRiver. This is a dry and arid region, with unpredictable rainfall. Because of this, people in the\narea were unable to support themselves through agriculture and instead they used the forest\nas a means of providing themselves with an income, mainly by selling charcoal. However,\nthis was not a sustainable way of living in the long term, as they were rapidly using up this\nresource.\n\nTo support agriculture in this dry region, the programme focused primarily on making use of\nexisting water resources from the Limpopo River by setting up systems of irrigation, which\nwould provide a dependable water supply for crops and animals. The programme worked\nclosely with the district government in order to find the best way of implementing this. The\nregion already had one farmers’ association, and it was decided to set up two more of these.\nThese associations planned and carried out activities including water management, livestock\nbreeding and agriculture, and it was notable that in general, women formed the majority of\nthe workforce.\n\nIt was decided that in order to keep the crops safe from animals, both wild and domestic,\nspecial areas should be fenced off where the crops could be grown. The community was\nresponsible for creating these fences, but the programme provided the necessary wire for\nmaking them.\n\nOnce the area had been fenced off, it could be cultivated. The land was dug, so that\nvegetables and cereals appropriate to the climate could be grown, and the programme\nprovided the necessary seeds for this. The programme also provided pumps so that water\ncould be brought from the river in pipes to the fields. However, the labour was all provided by\nlocal people, and they also provided and put up the posts that supported the fences around\nthe fields.\n\nOnce the programme had been set up, its development was monitored carefully. The farmers\nwere able to grow enough produce not just for their own needs, but also to sell. However,\ngetting the produce to places where it could be marketed was sometimes a problem, as the\nfarmers did not have access to transport, and this resulted in large amounts of produce,\nespecially vegetables, being spoiled. This problem was discussed with the farmers’\nassociations and it was decided that in order to prevent food from being spoiled, the farmers\nneeded to learn techniques for its preservation.\n\nThere was also an additional initiative that had not been originally planned, but which became\na central feature of the programme. This was when farmers started to dig holes for tanks in\nthe fenced off areas and to fill these with water and use them for breeding fish — an important\nsource of protein. After a time, another suggestion was made by local people which hadn’t\nbeen part of the programme’s original proposal, but which was also adopted later on. They\ndecided to try setting up colonies of bees, which would provide honey both for their own\nconsumption and to sell.\n\nSo what lessons can be learned from this programme? First of all, it tells us that in dry,\narid regions, if there is access to a reliable source of water, there is great potential for the\ndevelopment of agriculture. In Chicualacuala, there was a marked improvement in agricultural\nproduction, which improved food security and benefited local people by providing them with\nboth food and income. However, it's important to set realistic timelines for each phase of the\nprogramme, especially for its design, as mistakes made at this stage may be hard to correct\nlater on.\n\nThe programme demonstrates that sustainable development is possible in areas where ..."
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "groups": [
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 1 has seven paragraphs, A-G.\n\nWhich paragraph contains the following information?\n\nWrite the correct letter, A-G, in boxes 1-6 on your answer sheet.",
+      "first": 1,
+      "last": 6,
+      "body": "",
+      "figure_pdf_page": 0,
+      "options": [
+       {
+        "key": "A",
+        "text": "Paragraph A"
+       },
+       {
+        "key": "B",
+        "text": "Paragraph B"
+       },
+       {
+        "key": "C",
+        "text": "Paragraph C"
+       },
+       {
+        "key": "D",
+        "text": "Paragraph D"
+       },
+       {
+        "key": "E",
+        "text": "Paragraph E"
+       },
+       {
+        "key": "F",
+        "text": "Paragraph F"
+       },
+       {
+        "key": "G",
+        "text": "Paragraph G"
+       }
+      ],
+      "questions": [
+       {
+        "n": 1,
+        "text": "reference to an appealing way of using dance that the writer is not proposing",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "an example of a contrast between past and present approaches to building",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "mention of an objective of both dance and engineering",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "reference to an unforeseen problem arising from ignoring the climate",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "why some measures intended to help people are being reversed",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "reference to how transport has an impact on human lives",
+        "options": []
+       }
+      ]
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 7-13 on your answer sheet.",
+      "first": 7,
+      "last": 13,
+      "body": "Guard rails\n\nGuard rails were introduced on British roads to improve the [[7]] of pedestrians, while ensuring that the movement of [[8]] is not disrupted. Pedestrians are led to access points, and encouraged to cross in [[9]], one at a time.\n\nAn unintended effect is to create psychological difficulties in crossing the road, particularly for less [[10]] people. Another result is that some people cross the road in a [[11]] way. The guard rails separate [[12]], and make it more difficult to introduce forms of transport that are [[13]].",
+      "figure_pdf_page": 0,
+      "options": [],
+      "questions": [
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "",
+        "options": []
+       }
+      ]
+     }
+    ],
+    "title": "Could urban engineers learn from dance?",
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "The way we travel around cities has a major impact on whether they are sustainable. Transportation is estimated to account for 30% of energy consumption in most of the world’s most developed nations, so lowering the need for energy-using vehicles is essential for decreasing the environmental impact of mobility. But as more and more people move to cities, it is important to think about other kinds of sustainable travel too. The ways we travel affect our physical and mental health, our social lives, our access to work and culture, and the air we breathe. Engineers are tasked with changing how we travel round cities through urban design, but the engineering industry still works on the assumptions that led to the creation of the energy-consuming transport systems we have now: the emphasis placed solely on efficiency, speed, and quantitative data. We need radical changes, to make it healthier, more enjoyable, and less environmentally damaging to travel around cities."
+     },
+     {
+      "label": "B",
+      "text": "Dance might hold some of the answers. That is not to suggest everyone should dance their way to work, however healthy and happy it might make us, but rather that the techniques used by choreographers to experiment with and design movement in dance could provide engineers with tools to stimulate new ideas in city-making. Richard Sennett, an influential urbanist and sociologist who has transformed ideas about the way cities are made, argues that urban design has suffered from a separation between mind and body since the introduction of the architectural blueprint."
+     },
+     {
+      "label": "C",
+      "text": "Whereas medieval builders improvised and adapted construction through their intimate knowledge of materials and personal experience of the conditions on a site, building designs are now conceived and stored in media technologies that detach the designer from the physical and social realities they are creating. While the design practices created by these new technologies are essential for managing the technical complexity of the modern city, they have the drawback of simplifying reality in the process."
+     },
+     {
+      "label": "D",
+      "text": "To illustrate, Sennett discusses the Peachtree Center in Atlanta, USA, a development typical of the modernist approach to urban planning prevalent in the 1970s. Peachtree created a grid of streets and towers intended as a new pedestrian-friendly downtown for Atlanta. According to Sennett, this failed because its designers had invested too much faith in computer-aided design to tell them how it would operate. They failed to take into account that purpose-built street cafés could not operate in the hot sun without the protective awnings common in older buildings, and would need energy-consuming air conditioning instead, or that its giant car park would feel so unwelcoming that it would put people off getting out of their cars. What seems entirely predictable and controllable on screen has unexpected results when translated into reality."
+     },
+     {
+      "label": "E",
+      "text": "The same is true in transport engineering, which uses models to predict and shape the way people move through the city. Again, these models are necessary, but they are built on specific world views in which certain forms of efficiency and safety are considered and other experiences of the city ignored. Designs that seem logical in models appear counter-intuitive in the actual experience of their users. The guard rails that will be familiar to anyone who has attempted to cross a British road, for example, were an engineering solution to pedestrian safety based on models that prioritise the smooth flow of traffic. On wide major roads, they often guide pedestrians to specific crossing points and slow down their progress across the road by using staggered access points to divide the crossing into two — one for each carriageway. In doing so they make crossings feel longer, introducing psychological barriers greatly impacting those that are the least mobile, and encouraging others to make dangerous crossings to get around the guard rails. These barriers don’t just make it harder to cross the road: they divide communities and decrease opportunities for healthy transport. As a result, many are now being removed, causing disruption, cost, and waste."
+     },
+     {
+      "label": "F",
+      "text": "If their designers had had the tools to think with their bodies — like dancers — and imagine how these barriers would feel, there might have been a better solution. In order to bring about fundamental changes to the ways we use our cities, engineering will need to develop a richer understanding of why people move in certain ways, and how this movement affects them. Choreography may not seem an obvious choice for tackling this problem. Yet it shares with engineering the aim of designing patterns of movement within limitations of space."
+     },
+     {
+      "label": "",
+      "text": "It is an art form developed almost entirely by trying out ideas with the body, and gaining instant feedback on how the results feel. Choreographers have deep understanding of the psychological, aesthetic, and physical implications of different ways of moving."
+     },
+     {
+      "label": "G",
+      "text": "Observing the choreographer Wayne McGregor, cognitive scientist David Kirsh described how he ‘thinks with the body’. Kirsh argues that by using the body to simulate outcomes, McGregor is able to imagine solutions that would not be possible using purely abstract thought. This kind of physical knowledge is valued in many areas of expertise, but currently has no place in formal engineering design processes, A suggested method for transport engineers is to improvise design solutions and get instant feedback about how they would work from their own experience of them, or model designs at full scale in the way choreographers experiment with groups of dancers. Above all, perhaps, they might learn to design for emotional as well as functional effects."
+     }
+    ]
+   },
+   {
+    "title": "Should we try to bring extinct species back to life?",
+    "groups": [
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 2 has six paragraphs, A-F.\n\nWhich paragraph contains the following information?\n\nWrite the correct letter, A-F, in boxes 14-17 on your answer sheet.\nNB You may use any letter more than once.",
+      "first": 14,
+      "last": 17,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 14,
+        "text": "a reference to how further disappearance of multiple species could be avoided",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "explanation of a way of reproducing an extinct animal using the DNA of only that species",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "reference to a habitat which has suffered following the extinction of a species",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "mention of the exact point at which a particular species became extinct",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\nWrite your answers in boxes 18-22 on your answer sheet.",
+      "first": 18,
+      "last": 22,
+      "body": "The woolly mammoth revival project\n\nProfessor George Church and his team are trying to identify the [[18]] which enabled mammoths to live in the tundra. The findings could help preserve the mammoth's close relative, the endangered Asian elephant.\n\nAccording to Church, introducing Asian elephants to the tundra would involve certain physical adaptations to minimise [[19]]. To survive in the tundra, the species would need to have the mammoth-like features of thicker hair, [[20]] of a reduced size and more [[21]].\n\nRepopulating the tundra with mammoths or Asian elephant/mammoth hybrids would also have an impact on the environment, which could help to reduce temperatures and decrease [[22]].",
+      "options": [],
+      "questions": [
+       {
+        "n": 18,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 21,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Look at the following statements (Questions 23-26) and the list of people below.\n\nMatch each statement with the correct person, A, B or C.\n\nWrite the correct letter, A, B or C, in boxes 23-26 on your answer sheet.\n\nNB You may use any letter more than once.",
+      "first": 23,
+      "last": 26,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Ben Novak"
+       },
+       {
+        "key": "B",
+        "text": "Michael Archer"
+       },
+       {
+        "key": "C",
+        "text": "Beth Shapiro"
+       }
+      ],
+      "questions": [
+       {
+        "n": 23,
+        "text": "Reintroducing an extinct species to its original habitat could improve the health of a particular species living there.",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "It is important to concentrate on the causes of an animal's extinction.",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "A species brought back from extinction could have an important beneficial impact on the vegetation of its habitat.",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "Our current efforts at preserving biodiversity are insufficient.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "The passenger pigeon was a legendary species. Flying in vast numbers across North America, with potentially many millions within a single flock, their migration was once one of nature’s great spectacles. Sadly, the passenger pigeon’s existence came to an end on 1 September 1914, when the last living specimen died at Cincinnati Zoo. Geneticist Ben Novak is lead researcher on an ambitious project which now aims to bring the bird back to life through a process known as ‘de- extinction’. The basic premise involves using cloning technology to turn the DNA of extinct animals into a fertilised embryo, which is carried by the nearest relative still in existence — in this case, the abundant band-tailed pigeon — before being born as a living, breathing animal. Passenger pigeons are one of the pioneering species in this field, but they are far from the only ones on which this cutting-edge technology is being trialled."
+     },
+     {
+      "label": "B",
+      "text": "In Australia, the thylacine, more commonly known as the Tasmanian tiger, is another extinct creature which genetic scientists are striving to bring back to life. ‘There is no carnivore now in Tasmania that fills the niche which thylacines once occupied,’ explains Michael Archer of the University of New South Wales. He points out that in the decades since the thylacine went extinct, there has been a spread in a ‘dangerously debilitating’ facial tumour syndrome which threatens the existence of the Tasmanian devils, the island’s other notorious resident. Thylacines would have prevented this spread because they would have killed significant numbers of Tasmanian devils. ‘If that contagious cancer had popped up previously, it would have burned out in whatever region it started. The return of thylacines to Tasmania could help to ensure that devils are never again subjected to risks of this kind.’"
+     },
+     {
+      "label": "C",
+      "text": "If extinct species can be brought back to life, can humanity begin to correct the damage it has caused to the natural world over the past few millennia? ‘The idea of de-extinction is that we can reverse this process, bringing species that no longer exist back to life,’ says Beth Shapiro of University of California Santa Cruz’s Genomics Institute. ‘I don’t think that we can do this. There is no way to bring back something that is 100 per cent identical to a species that went extinct a long time ago.’ A more practical approach for long-extinct species is to take the DNA of existing species as a template, ready for the insertion of strands of extinct animal DNA to create something new; a hybrid, based on the living species, but which looks and/or acts like the animal which died out."
+     },
+     {
+      "label": "D",
+      "text": "This complicated process and questionable outcome begs the question: what is the actual point of this technology? ‘For us, the goal has always been replacing the extinct species with a suitable replacement,’ explains Novak. ‘When it comes to breeding, band-tailed pigeons scatter and make maybe one or two nests per hectare, whereas passenger pigeons were very social and would make 10,000 or more nests in one hectare.’ Since the disappearance of this key species, ecosystems in the eastern US have suffered, as the lack of disturbance caused by thousands of passenger pigeons wrecking trees and branches means there has been minimal need for regrowth. This has left forests stagnant and therefore unwelcoming to the plants and animals which evolved to help regenerate the forest after a disturbance. According to Novak, a hybridised band-tailed pigeon, with the added nesting habits of a passenger pigeon, could, in theory, re-establish that forest disturbance, thereby creating a habitat necessary for a great many other native species to thrive."
+     },
+     {
+      "label": "E",
+      "text": "Another popular candidate for this technology is the woolly mammoth. George Church, professor at Harvard Medical School and leader of the Woolly Mammoth Revival Project, has been focusing on cold resistance, the main way in which the extinct woolly mammoth and its nearest living relative, the Asian elephant, differ. By pinpointing which genetic traits made it possible for mammoths to survive the icy climate of the tundra, the project's goal is to return mammoths, or a mammoth- like species, to the area. ‘My highest priority would be preserving the endangered Asian elephant,’ says Church, ‘expanding their range to the huge ecosystem of the tundra. Necessary adaptations would include smaller ears, thicker hair, and extra insulating fat, all for the purpose of reducing heat loss in the tundra, and all traits found in the now extinct woolly mammoth.’ This repopulation of the tundra and boreal forests of Eurasia and North America with large mammals could also be a useful factor in reducing carbon emissions — elephants punch holes through snow and knock down trees, which encourages grass growth. This grass growth would reduce temperatures, and mitigate emissions from melting permafrost."
+     },
+     {
+      "label": "F",
+      "text": "While the prospect of bringing extinct animals back to life might capture imaginations, it is, of course, far easier to try to save an existing species which is merely threatened with extinction. ‘Many of the technologies that people have in mind when they think about de-extinction can be used as a form of “genetic rescue”,’ explains Shapiro. She prefers to focus the debate on how this emerging technology could be used to fully understand why various species went extinct in the first place, and therefore how we could use it to make genetic modifications which could prevent mass extinctions in the future. ‘I would also say there's an incredible moral hazard to not do anything at all,’ she continues. ‘We know that what we are doing today is not enough, and we have to be willing to take some calculated and measured risks.’"
+     }
+    ]
+   },
+   {
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 27-31 on your answer sheet.",
+      "first": 27,
+      "last": 31,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 27,
+        "text": "When referring to laughter in the first paragraph, the writer emphasises",
+        "options": [
+         {
+          "key": "A",
+          "text": "its impact on language."
+         },
+         {
+          "key": "B",
+          "text": "its function in human culture."
+         },
+         {
+          "key": "C",
+          "text": "its value to scientific research."
+         },
+         {
+          "key": "D",
+          "text": "its universality in animal societies."
+         }
+        ]
+       },
+       {
+        "n": 28,
+        "text": "What does the writer suggest about Charley Douglass?",
+        "options": [
+         {
+          "key": "A",
+          "text": "He understood the importance of enjoying humour in a group setting."
+         },
+         {
+          "key": "B",
+          "text": "He believed that TV viewers at home needed to be told when to laugh."
+         },
+         {
+          "key": "C",
+          "text": "He wanted his shows to appeal to audiences across the social spectrum."
+         },
+         {
+          "key": "D",
+          "text": "He preferred shows where audiences were present in the recording studio."
+         }
+        ]
+       },
+       {
+        "n": 29,
+        "text": "What makes the Santa Cruz study particularly significant?",
+        "options": [
+         {
+          "key": "A",
+          "text": "the various different types of laughter that were studied"
+         },
+         {
+          "key": "B",
+          "text": "the similar results produced by a wide range of cultures"
+         },
+         {
+          "key": "C",
+          "text": "the number of different academic disciplines involved"
+         },
+         {
+          "key": "D",
+          "text": "the many kinds of people whose laughter was recorded"
+         }
+        ]
+       },
+       {
+        "n": 30,
+        "text": "Which of the following happened in the San Diego study?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Some participants became very upset."
+         },
+         {
+          "key": "B",
+          "text": "Participants exchanged roles."
+         },
+         {
+          "key": "C",
+          "text": "Participants who had not met before became friends."
+         },
+         {
+          "key": "D",
+          "text": "Some participants were unable to laugh."
+         }
+        ]
+       },
+       {
+        "n": 31,
+        "text": "In the fifth paragraph, what did the results of the San Diego study suggest?",
+        "options": [
+         {
+          "key": "A",
+          "text": "It is clear whether a dominant laugh is produced by a high- or low-status person."
+         },
+         {
+          "key": "B",
+          "text": "Low-status individuals in a position of power will still produce submissive laughs."
+         },
+         {
+          "key": "C",
+          "text": "The submissive laughs of low- and high-status individuals are surprisingly similar."
+         },
+         {
+          "key": "D",
+          "text": "High-status individuals can always be identified by their way of laughing."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary using the list of words, A-H, below.\n\nWrite the correct letter, A-H, in boxes 32-36 on your answer sheet.",
+      "first": 32,
+      "last": 36,
+      "body": "The benefits of humour\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of [[32]]. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the [[33]] persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly [[34]] task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces [[35]] and helps build social connections but it may also have a [[36]] effect on the body and mind.",
+      "options": [
+       {
+        "key": "A",
+        "text": "laughter"
+       },
+       {
+        "key": "B",
+        "text": "relaxing"
+       },
+       {
+        "key": "C",
+        "text": "boring"
+       },
+       {
+        "key": "D",
+        "text": "anxiety"
+       },
+       {
+        "key": "E",
+        "text": "stimulating"
+       },
+       {
+        "key": "F",
+        "text": "emotion"
+       },
+       {
+        "key": "G",
+        "text": "enjoyment"
+       },
+       {
+        "key": "H",
+        "text": "amusing"
+       }
+      ],
+      "questions": [
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "yes_no_not_given",
+      "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3?\n\nIn boxes 37-40 on your answer sheet, write\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+      "first": 37,
+      "last": 40,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 37,
+        "text": "Participants in the Santa Cruz study were more accurate at identifying the laughs of friends than those of strangers.",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "The researchers in the San Diego study were correct in their predictions regarding the behaviour of the high-status individuals.",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "The participants in the Australian National University study were given a fixed amount of time to complete the task focusing on employee profiles.",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "Cheng and Wang's conclusions were in line with established notions regarding task performance.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "Having a laugh",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "The findings of psychological scientists reveal the importance of humour Humans start developing a sense of humour as early as six weeks old, when babies begin to laugh and smile in response to stimuli. Laughter is universal across all human cultures and even exists in some form in rats, chimps, and bonobos. Like other human emotions and expressions, laughter and humour provide psychological scientists with rich resources for studying human psychology, ranging from the development of language to the neuroscience of social perception."
+     },
+     {
+      "label": "",
+      "text": "Theories focusing on the evolution of laughter point to it as an important adaptation for social communication. Take, for example, the recorded laughter in TV comedy shows. Back in 1950, US sound engineer Charley Douglass hated dealing with the unpredictable laughter of live audiences, so started recording his own ‘laugh tracks’, These were intended to help people at home feel like they were in a social situation, such as a crowded theatre. Douglass even recorded various types of laughter, as well as mixtures of laughter from men, women, and children. In doing so, he picked up on a quality of laughter that is now interesting researchers: a simple ‘haha’ communicates a remarkable amount of socially relevant information."
+     },
+     {
+      "label": "",
+      "text": "In one study conducted in 2016, samples of laughter from pairs of English-speaking students were recorded at the University of California, Santa Cruz. A team made up of more than 30 psychological scientists, anthropologists, and biologists then played these recordings to listeners from 24 diverse societies, from indigenous tribes in New Guinea to city-dwellers in India and Europe. Participants were asked whether they thought the people laughing were friends or strangers. On average, the results were remarkably consistent: worldwide, people’s guesses were correct approximately 60% of the time."
+     },
+     {
+      "label": "",
+      "text": "Researchers have also found that different types of laughter serve as codes to complex human social hierarchies. A team led by Christopher Oveis from the University of California, San Diego, found that high-status individuals had different laughs from low-status individuals, and that strangers’ judgements of an individual’s social status were influenced by the dominant or submissive quality of their laughter. In their study, 48 male college students were randomly assigned to groups of four, with each group composed of two low-status members, who had just joined their college fraternity group, and two high-status members, older students who had been active in the fraternity for at least two years. Laughter was recorded as each student took a turn at being teased by the others, involving the use of mildly insulting nicknames. Analysis revealed that, as expected, high-status individuals produced more dominant laughs and fewer submissive laughs relative to the low-status individuals. Meanwhile, low-status individuals were more likely to change their laughter based on their position of power; that is, the newcomers produced more dominant laughs when they were in the ‘powerful’ role of teasers. Dominant laughter was higher in pitch, louder, and more variable in tone than submissive laughter."
+     },
+     {
+      "label": "",
+      "text": "A random group of volunteers then listened to an equal number of dominant and submissive laughs from both the high- and low-status individuals, and were asked to estimate the social status of the laugher. In line with predictions, laughers producing dominant laughs were perceived to be significantly higher in status than laughers producing submissive laughs. ‘This was particularly true for low-status individuals, who were rated as significantly higher in status when displaying a dominant versus submissive laugh,’ Oveis and colleagues note. ‘Thus, by strategically displaying more dominant laughter when the context allows, low-status individuals may achieve higher status in the eyes of others.’ However, high-status individuals were rated as high-status whether they produced their natural dominant laugh or tried to do a submissive one."
+     },
+     {
+      "label": "",
+      "text": "Another study, conducted by David Cheng and Lu Wang of Australian National University, was based on the hypothesis that humour might provide a respite from tedious situations in the workplace. This ‘mental break’ might facilitate the replenishment of mental resources. To test this theory, the researchers recruited 74 business students, ostensibly for an experiment on perception. First, the students performed a tedious task in which they had to cross out every instance of the letter ‘e’ over two pages of text. The students then were randomly assigned to watch a video clip eliciting either humour, contentment, or neutral feelings. Some watched a clip of the BBC comedy Mr. Bean, others a relaxing scene with dolphins swimming in the ocean, and others a factual video about the management profession."
+     },
+     {
+      "label": "",
+      "text": "The students then completed a task requiring persistence in which they were asked to guess the potential performance of employees based on provided profiles, and were told that making 10 correct assessments in a row would lead to a win. However, the software was programmed such that it was nearly impossible to achieve 10 consecutive correct answers. Participants were allowed to quit the task at any point. Students who had watched the Mr. Bean video ended up spending significantly more time working on the task, making twice as many predictions as the other two groups."
+     },
+     {
+      "label": "",
+      "text": "Cheng and Wang then replicated these results in a second study, during which they had participants complete long multiplication questions by hand. Again, participants who watched the humorous video spent significantly more time working on this tedious task and completed more questions correctly than did the students in either of the other groups."
+     },
+     {
+      "label": "",
+      "text": "'Although humour has been found to help relieve stress and facilitate social relationships, the traditional view of task performance implies that individuals should avoid things such as humour that may distract them from the accomplishment of task goals,' Cheng and Wang conclude. 'We suggest that humour is not only enjoyable but more importantly, energising.'"
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "B",
+   "2": "C",
+   "3": "F",
+   "4": "D",
+   "5": "E",
+   "6": "A",
+   "7": "safety",
+   "8": "traffic",
+   "9": "carriageway",
+   "10": "mobile",
+   "11": "dangerous",
+   "12": "communities",
+   "13": "healthy",
+   "14": "F",
+   "15": "A",
+   "16": "D",
+   "17": "A",
+   "18": "genetic traits",
+   "19": "heat loss",
+   "20": "ears",
+   "21": "(insulating) fat",
+   "22": "(carbon) emissions",
+   "23": "B",
+   "24": "C",
+   "25": "A",
+   "26": "C",
+   "27": "C",
+   "28": "A",
+   "29": "B",
+   "30": "B",
+   "31": "D",
+   "32": "F",
+   "33": "H",
+   "34": "C",
+   "35": "D",
+   "36": "E",
+   "37": "NOT GIVEN",
+   "38": "YES",
+   "39": "NO",
+   "40": "NO"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe graph below shows the number of tourists visiting a particular Caribbean\nisland between 2010 and 2017.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 51,
+   "image": "figures/p051.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nIn the future, nobody will buy printed newspapers or books because they will be\nable to read everything they want online without paying.\n\nTo what extent do you agree or disagree with this statement?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Languages",
+    "questions": [
+     "How many languages can you speak? [Why/Why not?]",
+     "How useful will English be to you in your future? [Why/Why not?]",
+     "What do you remember about learning languages at school? [Why/Why not?]",
+     "What do you think would be the hardest language for you to learn? [Why?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe a website that you bought something from.",
+   "points": [
+    "what the website is",
+    "what you bought from this website",
+    "how satisfied you were with what you bought",
+    "and explain what you liked or disliked about using this website."
+   ],
+   "rounding_off": [
+    "You will have to talk about the topic for one to two minutes.",
+    "You have one minute to think about what you are going to say.",
+    "You can make some notes to help you if you wish."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Shopping online",
+    "questions": [
+     "What kinds of things do people in your country often buy from online shops?",
+     "Why do you think online shopping has become so popular nowadays?",
+     "What are some possible disadvantages of buying things from online shops?"
+    ]
+   },
+   {
+    "topic": "The culture of consumerism",
+    "questions": [
+     "Why do many people today keep buying things which they do not need?",
+     "Do you believe the benefits of a consumer society outweigh the disadvantages?",
+     "How possible is it to avoid the culture of consumerism?"
+    ]
+   }
+  ]
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}
