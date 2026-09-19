@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { TopNav, PageHead } from "./Nav.jsx";
-import { HOSTED, supabase } from "./hosted.js";
 
 /** Providers (keys, base URLs) and one model per job. No defaults: a job without a model refuses to run.
  *  Model lists load by themselves for every provider that is reachable (Claude, Ollama, any provider with a key);
@@ -41,9 +40,7 @@ export function Settings() {
   return (
     <main className="home settings">
       <TopNav />
-      <PageHead eyebrow="Models & providers" title="Settings" meta="Pick a model for each job. Nothing is chosen for you.">
-        {HOSTED && <button onClick={() => supabase.auth.signOut()}>Sign out</button>}
-      </PageHead>
+      <PageHead eyebrow="Models & providers" title="Settings" meta="Pick a model for each job. Nothing is chosen for you." />
       <h2>Providers</h2>
       <table><tbody>{Object.entries(s.catalog).map(([id, c]) => (
         <tr key={id}>

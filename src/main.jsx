@@ -7,44 +7,12 @@ import { Settings } from "./Settings.jsx";
 import { Today, History } from "./Today.jsx";
 import { SpeakingScreen, SpeakingResult } from "./Speaking.jsx";
 import { Vocabulary } from "./Vocabulary.jsx";
-import { HOSTED, supabase } from "./hosted.js";
+import "./hosted.js";
 import "./style.css";
 
 // hash routes: #/            home
 //              #/t/cam15/test1/listening?mode=mock|drill
 const route = () => { const [p, q] = location.hash.slice(1).split("?"); const u = new URLSearchParams(q); return { path: p || "/", mode: u.get("mode") || "mock", section: +u.get("section") || 0, task: +u.get("task") || 0 }; };
-
-/** Hosted only: the app waits for a Supabase session (accounts are created in the Supabase dashboard, no sign-up here). */
-function Gate() {
-  const [session, setSession] = useState(undefined);
-  useEffect(() => {
-    supabase.auth.getSession().then(({ data }) => setSession(data.session));
-    return supabase.auth.onAuthStateChange((_e, s) => setSession(s)).data.subscription.unsubscribe;
-  }, []);
-  if (session === undefined) return null;
-  return session ? <App /> : <Login />;
-}
-
-function Login() {
-  const [error, setError] = useState("");
-  const submit = async e => {
-    e.preventDefault();
-    const f = new FormData(e.target);
-    const { error } = await supabase.auth.signInWithPassword({ email: f.get("email"), password: f.get("password") });
-    if (error) setError(error.message);
-  };
-  return (
-    <main className="login">
-      <form onSubmit={submit}>
-        <b className="brand">BANDSY</b>
-        <h1>Sign in</h1>
-        {error && <p className="error-inline" role="alert">{error}</p>}
-        <label>Email<input name="email" type="email" autoComplete="username" required autoFocus /></label>
-        <label>Password<input name="password" type="password" autoComplete="current-password" required /></label>
-        <button className="start">Sign in</button>
-      </form>
-    </main>);
-}
 
 function App() {
   const [r, setR] = useState(route());
@@ -189,4 +157,4 @@ function Row({ n, ok, yours, keyAnswer, test, module, answer }) {
     </>);
 }
 
-createRoot(document.getElementById("root")).render(HOSTED ? <Gate /> : <App />);
+createRoot(document.getElementById("root")).render(<App />);

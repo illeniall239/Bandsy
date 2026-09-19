@@ -1,5 +1,5 @@
 // The /api routes, shared by the local server (server.js: SQLite, Speaking) and the hosted Vercel function (api/index.js: Supabase).
-// `store` is the signed-in user's data: attempts, settings, word bank and the shared explanation cache.
+// `store` is one person's data: attempts, settings, word bank and the shared explanation cache.
 import fs from "node:fs";
 import path from "node:path";
 import { PROVIDERS, JOBS, listModels } from "./providers.js";
@@ -10,6 +10,7 @@ import { define } from "./review.js";
 import { explain } from "./explain.js";
 
 export const ROOT = import.meta.dirname;
+const MASK = "••••";   // hosted Settings shows keys as ••••last4
 const content = f => JSON.parse(fs.readFileSync(path.join(ROOT, "content", f), "utf8"));
 
 let TESTS;
@@ -47,8 +48,16 @@ export async function api(req, res, { store, hosted }) {
       const list = await store.attempts();
       return json(res, { ...plan(new Date(), tests(), list, modules), modules, test_date: (await mine()).test_date || "2026-12-31", history: list.filter(a => a.band != null) });
     }
-    if (p === "/api/settings" && req.method === "PUT") { await store.saveSettings(await body(req)); return json(res, { ok: true }); }
-    if (p === "/api/settings") return json(res, { ...(await mine()), catalog, jobs_available: JOBS });
+    if (p === "/api/settings" && req.method === "PUT") {
+      const s = await body(req), old = await mine();
+      for (const [id, v] of Object.entries(s.providers || {})) if (v.apiKey?.startsWith(MASK)) v.apiKey = old.providers?.[id]?.apiKey;   // unchanged key
+      await store.saveSettings(s); return json(res, { ok: true });
+    }
+    if (p === "/api/settings") {
+      const s = await mine();
+      if (hosted) s.providers = Object.fromEntries(Object.entries(s.providers || {}).map(([id, v]) => [id, { ...v, apiKey: v.apiKey ? MASK + v.apiKey.slice(-4) : v.apiKey }]));
+      return json(res, { ...s, catalog, jobs_available: JOBS });
+    }
     if (p === "/api/vocab/book") return json(res, fs.existsSync(path.join(ROOT, "content", "vocab.json")) ? content("vocab.json") : []);
     if (p === "/api/vocab" && req.method === "POST") return json(res, await store.addWord(await define(await mine(), await body(req))));
     if (p === "/api/vocab") return json(res, await store.words());

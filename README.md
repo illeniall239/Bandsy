@@ -96,19 +96,23 @@ Model strings are `provider:model`, for example `claude:sonnet` or `ollama:<mode
 
 ## Hosting it online (Vercel + Supabase)
 
-The same app runs online so you can use it from anywhere. Vercel serves the site and one function (`api/index.js`) that runs the same routes as the local server (`app.js`). Supabase holds the accounts, your data and the Listening audio. Speaking stays on your PC, because it needs the local speech models. The hosted copy only offers providers it can reach over the internet (OpenAI, Groq, Gemini, custom), not Claude Code or Ollama.
+The same app runs online so you can use it from anywhere. Vercel serves the site and one function (`api/index.js`) that runs the same routes as the local server (`app.js`). Supabase holds your data and the Listening audio. Speaking stays on your PC, because it needs the local speech models. The hosted copy only offers providers it can reach over the internet (OpenAI, Groq, Gemini, custom), not Claude Code or Ollama.
 
-1. **Supabase.** Create a free project. In the SQL Editor, run `deploy/supabase.sql` (tables, per-user access rules, and the public `audio` bucket).
+There is no sign-in: it's one person's app. Anyone who has the link can use it (and the models whose keys you saved), so keep the link to yourself. API keys are never sent back to the browser; Settings shows them as `••••last4`.
+
+1. **Supabase.** Create a free project. In the SQL Editor, run `deploy/supabase.sql` (tables, the rule that keeps them closed to the public key, and the public `audio` bucket).
 2. **Audio.** From Project Settings > API, copy the project URL and the `service_role` key, then upload the Listening audio (PowerShell):
    ```
    $env:SUPABASE_URL="https://<project>.supabase.co"; $env:SUPABASE_SERVICE_KEY="<service_role key>"; node deploy/upload-audio.mjs
    ```
-   The service key stays on your PC; it isn't needed anywhere else.
-3. **Account.** In Authentication > Users, add a user with an email and password. Then under Authentication > Sign In / Providers, turn off "Allow new users to sign up" so nobody else can create one.
-4. **Vercel.** Import the GitHub repo as a new project and add two environment variables: `VITE_SUPABASE_URL` (the project URL) and `VITE_SUPABASE_ANON_KEY` (the anon/publishable key). Deploy.
-5. Open the Vercel URL, sign in, and pick your models in Settings.
+3. **Owner.** In Authentication > Users, add one user (any email and password; nobody signs in with it). Your data is stored under its id: copy the user's UID.
+4. **Vercel.** Import the GitHub repo and add three environment variables, then deploy:
+   - `VITE_SUPABASE_URL`: the project URL
+   - `SUPABASE_SERVICE_KEY`: the `service_role` key (stays on the server, never reaches the browser)
+   - `BANDSY_OWNER_ID`: the user's UID from step 3
+5. Open the Vercel URL and pick your models in Settings.
 
-Every push to `main` redeploys. Note that a free Supabase project pauses after a week without use; restore it from the dashboard if that happens.
+Every push to `main` redeploys. A free Supabase project pauses after a week without use; restore it from the dashboard if that happens.
 
 ## Notes
 
