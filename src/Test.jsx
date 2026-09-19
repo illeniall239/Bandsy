@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Group } from "./Questions.jsx";
 import { mark, band } from "./mark.js";
+import { AUDIO } from "./hosted.js";
 
 const fmt = s => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 
@@ -66,7 +67,7 @@ export function TestScreen({ test, id, module, mode, section, onDone }) {
         <div className={"stage " + module}>
           {module === "reading" && <Passage passage={s.passage} sec={sec} hl={hl} setHl={setHl} source={`${id} passage ${sec + 1}`} />}
           <div className="questions">
-            {module === "listening" && <Audio key={sec} src={"/audio/" + s.audio} playOnce={mode === "mock"}
+            {module === "listening" && <Audio key={sec} src={AUDIO + s.audio} playOnce={mode === "mock"}
               onEnded={() => { if (sec === sections.length - 1 && mode === "mock") setLeft(120); }} />}
             {s.groups.map(g => <Group key={g.first} g={g} answers={answers} setAnswer={setAnswer} flags={flags} toggleFlag={toggleFlag} labels={labels} base={base} />)}
           </div>

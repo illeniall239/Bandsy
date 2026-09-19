@@ -17,17 +17,15 @@ const SCHEMA = {
   required: ["evidence", "location", "why_correct", "why_yours", "tip"],
 };
 
-export function makeExplain(db, root) {
-  db.exec(`CREATE TABLE IF NOT EXISTS explanations (test TEXT, module TEXT, n INTEGER, answer TEXT, body TEXT, created_at TEXT,
-    PRIMARY KEY (test, module, n, answer))`);
-
-  return async function explain(settings, { test, module, n, answer }) {
+/** store: explained(key) / saveExplained(key, body), a cache shared by everyone (the explanation doesn't depend on who asks). */
+export async function explain(settings, store, { test, module, n, answer }) {
     const ans = [].concat(answer ?? []).join(", ").trim();
-    const hit = db.prepare("SELECT body FROM explanations WHERE test=? AND module=? AND n=? AND answer=?").get(test, module, n, ans.toLowerCase());
-    if (hit) return { ...JSON.parse(hit.body), cached: true };
+    const key = { test, module, n, answer: ans.toLowerCase() };
+    const hit = await store.explained(key);
+    if (hit) return { ...hit, cached: true };
 
-    const t = JSON.parse(fs.readFileSync(path.join(root, "content", `${test}.json`), "utf8"));
-    const key = t[module].answers[n];
+    const t = JSON.parse(fs.readFileSync(path.join(import.meta.dirname, "content", `${test}.json`), "utf8"));
+    const keyAnswer = t[module].answers[n];
     let group, source;
     if (module === "listening") {
       const part = t.listening.parts.find(p => p.groups.some(g => g.first <= n && n <= g.last));
@@ -46,7 +44,7 @@ export function makeExplain(db, root) {
       group.body && `Question text:\n${group.body}`,
       q?.text && `Question ${n}: ${q.text}`,
       opts && `Options:\n${opts}`,
-      `Answer key: ${key}`,
+      `Answer key: ${keyAnswer}`,
       `Candidate's answer: ${ans || "(blank)"}`,
       source,
     ].filter(Boolean).join("\n\n");
@@ -54,7 +52,6 @@ export function makeExplain(db, root) {
     const r = await complete(settings, { job: "small", schema: SCHEMA, prompt,
       system: "You are an IELTS tutor explaining one Listening or Reading answer to a candidate. Quote the evidence exactly from the source. " +
               "Be concrete and short. If the candidate's answer is acceptable in substance but was marked wrong on a technicality (spelling, word limit, form), say so plainly." });
-    db.prepare("INSERT OR REPLACE INTO explanations VALUES (?,?,?,?,?,?)").run(test, module, n, ans.toLowerCase(), JSON.stringify(r), new Date().toISOString());
+    await store.saveExplained(key, r);
     return r;
-  };
 }

@@ -312,3 +312,13 @@ mark.err.cohesion, mark.err.task { background: var(--soft); border-color: var(--
   .stats { gap: 24px; }
   .countdown .unit b { font-size: 40px; }
 }
+
+/* hosted sign-in */
+.login { min-height: 100vh; display: grid; place-items: center; padding: 20px; }
+.login form { width: 100%; max-width: 380px; background: var(--card); border-radius: var(--r-card); padding: 40px; display: grid; gap: 14px; }
+.login .brand { font: 800 14px/1 var(--font); letter-spacing: 3px; }
+.login h1 { margin: 18px 0 6px; font-size: 44px; font-weight: 800; letter-spacing: -2px; line-height: 1; }
+.login label { display: grid; gap: 6px; font: 700 13px/1.2 var(--font); color: var(--ink-2); }
+.login input { padding: 12px 14px; border: 1px solid var(--line-2); border-radius: 12px; background: var(--card); }
+.login input:focus { outline: none; border-color: var(--ink); }
+.login .start { justify-content: center; border: 0; margin-top: 6px; cursor: pointer; }

@@ -19,7 +19,8 @@ A personal IELTS Academic prep app covering all four modules, built on the Cambr
 | Part | What it is |
 | --- | --- |
 | `src/` | React single-page app (Vite). |
-| `server.js` | One Node process: serves the built app, `content/` and the audio, plus a small JSON API over SQLite (`bandsy.db`). |
+| `server.js` | The local server: serves the built app, `content/` and the audio, and runs the API routes over SQLite (`bandsy.db`). |
+| `app.js` | The API routes, shared by the local server and the hosted function. |
 | `providers.js` | Model providers: Claude through Claude Code (your subscription, no API key), OpenAI, Groq, Gemini, Ollama, and any OpenAI-compatible endpoint. |
 | `grading.js`, `examiner.js`, `explain.js`, `review.js`, `plan.js` | Writing grading, the Speaking examiner, Explain, the word bank, and the daily plan. |
 | `src/mark.js` | Marks Listening and Reading answers the IELTS way (alternatives, optional words, "in either order" pairs). |
@@ -27,7 +28,8 @@ A personal IELTS Academic prep app covering all four modules, built on the Cambr
 | `content/` | The extracted tests: `camNN/testN.json` plus figures, and `vocab.json`. |
 | `Cambridge-lists-main/` | The Listening audio the tests play (96 files). |
 | `pipeline/` | The scripts that turn the book PDFs and audio into `content/`. |
-| `deploy/` | Scripts for running a hosted copy on a server. |
+| `api/index.js`, `vercel.json` | The hosted API on Vercel, using Supabase for data. |
+| `deploy/` | Supabase setup SQL and the audio upload script. |
 
 ## Requirements
 
@@ -92,17 +94,21 @@ python pipeline/vocab.py --text claude:sonnet
 
 Model strings are `provider:model`, for example `claude:sonnet` or `ollama:<model>`. Any model error stops the run; run it again to resume from the cache.
 
-## Hosting a copy
+## Hosting it online (Vercel + Supabase)
 
-The app can also run on a small Ubuntu server for more than one person. The hosted copy adds sign-in with separate history, words and settings for each account, and leaves out Speaking. The scripts are in `deploy/`:
+The same app runs online so you can use it from anywhere. Vercel serves the site and one function (`api/index.js`) that runs the same routes as the local server (`app.js`). Supabase holds the accounts, your data and the Listening audio. Speaking stays on your PC, because it needs the local speech models. The hosted copy only offers providers it can reach over the internet (OpenAI, Groq, Gemini, custom), not Claude Code or Ollama.
 
-```
-python deploy/pack.py                  # code, content, audio and your database -> bandsy-deploy.tar
-sh /opt/bandsy/deploy/setup.sh <domain>   # on the server: installs Node and Caddy (HTTPS) and starts the service
-sh /opt/bandsy/deploy/adduser.sh <name> <password>
-```
+1. **Supabase.** Create a free project. In the SQL Editor, run `deploy/supabase.sql` (tables, per-user access rules, and the public `audio` bucket).
+2. **Audio.** From Project Settings > API, copy the project URL and the `service_role` key, then upload the Listening audio (PowerShell):
+   ```
+   $env:SUPABASE_URL="https://<project>.supabase.co"; $env:SUPABASE_SERVICE_KEY="<service_role key>"; node deploy/upload-audio.mjs
+   ```
+   The service key stays on your PC; it isn't needed anywhere else.
+3. **Account.** In Authentication > Users, add a user with an email and password. Then under Authentication > Sign In / Providers, turn off "Allow new users to sign up" so nobody else can create one.
+4. **Vercel.** Import the GitHub repo as a new project and add two environment variables: `VITE_SUPABASE_URL` (the project URL) and `VITE_SUPABASE_ANON_KEY` (the anon/publishable key). Deploy.
+5. Open the Vercel URL, sign in, and pick your models in Settings.
 
-Create your own account first: it takes over the history from your PC. For later updates, run `python deploy/pack.py --code`, upload the file, and run `setup.sh` again. It never overwrites the live database.
+Every push to `main` redeploys. Note that a free Supabase project pauses after a week without use; restore it from the dashboard if that happens.
 
 ## Notes
 
