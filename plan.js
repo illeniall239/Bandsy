@@ -1,5 +1,4 @@
-// Picks today's one session. Diagnostic first (one module a day, Listening first), then a fixed weekly
-// rotation weighted to the weakest module. 6 days/week, 30-minute cap, Sunday review, mock section every 2nd Saturday.
+// Picks today's one session from a fixed weekly rotation weighted to the weakest module. 6 days/week, 30-minute cap, Sunday review, mock section every 2nd Saturday.
 export const MODULES = ["listening", "reading", "writing", "speaking"];
 const LABEL = { listening: "Listening", reading: "Reading", writing: "Writing", speaking: "Speaking" };
 
@@ -25,14 +24,12 @@ export function plan(today, tests, attempts, modules = MODULES) {
   const bands = latestBands(attempts);
   const day = today.toISOString().slice(0, 10);
   const doneToday = attempts.filter(a => a.finished_at.slice(0, 10) === day);
-  const missing = modules.find(m => !attempts.some(a => a.module === m && (a.mode === "mock" || a.mode === "exam")));
   const S = (module, mode, minutes, opts = {}) => {
     const { test, section } = pickTest(tests, attempts, module, opts.sections);
     const q = new URLSearchParams({ mode, ...(section ? { section } : {}), ...(opts.task ? { task: opts.task } : {}) });
     const label = opts.label || `${LABEL[module]} ${mode}${section ? ` · ${opts.unit} ${section}` : ""}`;
     return { module, mode, minutes, label, href: `#/t/${test}/${module}?${q}`, done: doneToday.some(a => a.module === module) };
   };
-  if (missing) return { phase: "diagnostic", bands, session: { ...S(missing, missing === "speaking" ? "exam" : "mock", { listening: 32, reading: 60, writing: 60, speaking: 14 }[missing]), label: `Diagnostic · ${LABEL[missing]} ${missing === "speaking" ? "test" : "mock"}` } };
   const week = Math.floor((today - new Date(today.getFullYear(), 0, 1)) / 6048e5);
   const w = weakest(bands, modules);
   const speaking = modules.includes("speaking");
@@ -54,8 +51,8 @@ export function plan(today, tests, attempts, modules = MODULES) {
 if (typeof process !== "undefined" && process.argv[1]?.endsWith("plan.js")) {
   const tests = [{ id: "cam15/test1" }, { id: "cam15/test2" }];
   const eq = (a, b) => JSON.stringify(a) === JSON.stringify(b) || (() => { throw new Error(`${JSON.stringify(a)} != ${JSON.stringify(b)}`); })();
-  let p = plan(new Date("2026-09-14T10:00:00Z"), tests, []);
-  eq([p.phase, p.session.module, p.session.mode], ["diagnostic", "listening", "mock"]);
+  let p = plan(new Date("2026-09-14T10:00:00Z"), tests, []);   // Monday, nothing attempted yet: straight into the rotation
+  eq([p.phase, p.session.module], ["rotation", "writing"]);
   const A = (module, mode, band, test = "cam15/test1", d = "2026-09-13T10:00:00Z") => ({ test, module, mode, band, finished_at: d });
   const done = [A("speaking", "exam", 6.5), A("writing", "mock", 6), A("reading", "mock", 7), A("listening", "mock", 6.5)];
   p = plan(new Date("2026-09-16T10:00:00Z"), tests, done);              // Wednesday -> weakest (writing 6)
@@ -65,7 +62,6 @@ if (typeof process !== "undefined" && process.argv[1]?.endsWith("plan.js")) {
   eq(plan(new Date("2026-09-13T10:00:00Z"), tests, done).session.mode, "rest");
   eq(latestBands([A("reading", "drill-s2", null), A("reading", "mock", 7), A("reading", "mock", 5)]).reading, 7);
   const noSpeak = ["listening", "reading", "writing"];
-  eq(plan(new Date("2026-09-16T10:00:00Z"), tests, done.slice(1), noSpeak).phase, "rotation");   // no Speaking diagnostic without Speaking
   eq(plan(new Date("2026-09-18T10:00:00Z"), tests, done.slice(1), noSpeak).session.module, "writing");   // odd-week Friday: Task 1, not Speaking
   console.log("plan.js ok");
 }

@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { TopNav, PageHead } from "./Nav.jsx";
 
-// Swiss Neutral charts stay monochrome: modules differ by grey step and dash, and every line is labelled at its end.
-const SERIES = { listening: ["#111111", ""], reading: ["#8A8A85", ""], writing: ["#111111", "6 5"], speaking: ["#8A8A85", "6 5"] };
 const NAME = { listening: "Listening", reading: "Reading", writing: "Writing", speaking: "Speaking" };
 const MODULES = ["listening", "reading", "writing", "speaking"];
 
@@ -35,7 +33,6 @@ export function Today() {
   if (!d) return <main className="home"><TopNav /><p className="muted">Loading…</p></main>;
   const s = d.session;
   const module = s.module || s.href?.match(/\/(listening|reading|writing|speaking)(\?|$)/)?.[1];
-  const title = s.label.replace(/^Diagnostic\s*·\s*/, "");
   const attempts = module ? d.history.filter(a => a.module === module).length : 0;
   const count = { listening: [40, "Questions"], reading: [40, "Questions"], writing: [2, "Tasks"], speaking: [3, "Parts"] }[module];
   const bands = (d.modules || MODULES).map(m => [m, d.bands[m]]);
@@ -48,7 +45,7 @@ export function Today() {
     await fetch("/api/settings", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ providers: cur.providers, jobs: cur.jobs, test_date: v }) });
     setD({ ...d, test_date: v });
   };
-  const eyebrow = d.phase === "diagnostic" ? "Up next — Diagnostic" : `Up next — ${new Date().toLocaleDateString(undefined, { weekday: "long" })}`;
+  const eyebrow = `Up next — ${new Date().toLocaleDateString(undefined, { weekday: "long" })}`;
 
   return (
     <main className="home today">
@@ -57,11 +54,11 @@ export function Today() {
         <section className="card hero">
           <div className="top">
             <span className="eyebrow">{eyebrow}</span>
-            <h1>{title}</h1>
+            <h1>{s.label}</h1>
             <p className="sub">{s.mode === "rest"
               ? <>Nothing scheduled today. Browse the <a href="#/vocab">word bank</a> or pick any test if you feel like it.</>
-              : d.weakest && d.phase === "rotation" ? `Your weakest module right now is ${NAME[d.weakest]}.`
-              : "Your result sets the starting band for your study plan."}</p>
+              : d.bands[d.weakest] != null ? `Your weakest module right now is ${NAME[d.weakest]}.`
+              : "Today's session from your weekly rotation. Every test you do is tracked below."}</p>
           </div>
           {s.mode !== "rest" && (
             <div className="bottom">
@@ -91,45 +88,50 @@ export function Today() {
         </aside>
       </div>
 
-      <section className="card graph">
-        <div className="head"><span>Band over time</span></div>
-        <BandChart history={d.history} />
-      </section>
+      <Progress history={d.history} modules={d.modules || MODULES} />
     </main>);
 }
 
-/** One line per module over attempt date; y = band 4–9. Hover a point for the exact value. */
-function BandChart({ history }) {
+/** Band over time for one module at a time, picked from the dropdown (starts on the module you practised last). */
+function Progress({ history, modules }) {
+  const done = modules.filter(m => history.some(a => a.module === m));
+  const [module, setModule] = useState(history.find(a => modules.includes(a.module))?.module || modules[0]);
+  const list = [...history].reverse().filter(a => a.module === module);
+  return (
+    <section className="card graph">
+      <div className="head">
+        <span>Progress</span>
+        <select value={module} onChange={e => setModule(e.target.value)} aria-label="Module">
+          {modules.map(m => <option key={m} value={m}>{NAME[m]}{done.includes(m) ? "" : " (no tests yet)"}</option>)}
+        </select>
+      </div>
+      {list.length
+        ? <><p className="summary"><b>{list[list.length - 1].band}</b> latest · <b>{Math.max(...list.map(a => a.band))}</b> best · <b>{list.length}</b> test{list.length === 1 ? "" : "s"}</p>
+            <BandChart list={list} /></>
+        : <p className="muted empty">No full {NAME[module]} tests yet. Finish one and it shows up here.</p>}
+    </section>);
+}
+
+/** One module's bands over attempt date. Hover a point for the exact value. */
+function BandChart({ list }) {
   const [hover, setHover] = useState(null);
-  const pts = [...history].reverse().filter(a => a.band != null);
-  if (!pts.length) return <p className="muted empty">No full attempts yet — the diagnostic puts the first point here.</p>;
-  const W = 1000, H = 240, L = 40, R = 120, T = 14, B = 28;
-  const t0 = new Date(pts[0].finished_at).getTime(), t1 = Math.max(new Date(pts[pts.length - 1].finished_at).getTime(), t0 + 864e5 * 7);
+  const W = 1000, H = 240, L = 40, R = 24, T = 14, B = 34;
+  const lo = Math.min(4, Math.ceil(Math.min(...list.map(a => a.band))) - 1);   // a band-4 point sits above the bottom line
+  const t0 = new Date(list[0].finished_at).getTime(), t1 = Math.max(new Date(list[list.length - 1].finished_at).getTime(), t0 + 864e5 * 7);
   const x = t => L + (W - L - R) * (new Date(t).getTime() - t0) / (t1 - t0);
-  const y = b => T + (H - T - B) * (9 - b) / 5;
-  const byMod = {};
-  for (const a of pts) (byMod[a.module] ||= []).push(a);
+  const y = b => T + (H - T - B) * (9 - b) / (9 - lo);
+  const path = list.map((a, i) => `${i ? "L" : "M"}${x(a.finished_at)},${y(a.band)}`).join(" ");
+  const day = t => new Date(t).toLocaleDateString(undefined, { day: "numeric", month: "short" });
   return (
     <div className="chart">
-      <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Band by module over time">
-        {[4, 5, 6, 7, 8, 9].map(b => <g key={b}><line x1={L} x2={W - R} y1={y(b)} y2={y(b)} className="grid" /><text x={L - 12} y={y(b) + 4} className="tick">{b}</text></g>)}
-        {(() => {
-          const ends = Object.entries(byMod).map(([m, list]) => ({ m, y: y(list[list.length - 1].band) })).sort((a, b) => a.y - b.y);
-          for (let i = 1; i < ends.length; i++) if (ends[i].y - ends[i - 1].y < 16) ends[i].y = ends[i - 1].y + 16;
-          return Object.entries(byMod).map(([m, list]) => ({ m, list, ly: ends.find(e => e.m === m).y }));
-        })().map(({ m, list, ly }) => {
-          const path = list.map((a, i) => `${i ? "L" : "M"}${x(a.finished_at)},${y(a.band)}`).join(" ");
-          const last = list[list.length - 1];
-          const [stroke, dash] = SERIES[m];
-          return (
-            <g key={m}>
-              <path d={path} fill="none" stroke={stroke} strokeWidth="2" strokeDasharray={dash} strokeLinejoin="round" />
-              {list.map(a => <circle key={a.id} cx={x(a.finished_at)} cy={y(a.band)} r="4.5" fill={stroke} stroke="#fff" strokeWidth="2"
-                onMouseEnter={() => setHover(a)} onMouseLeave={() => setHover(null)} />)}
-              <text x={x(last.finished_at) + 12} y={ly + 4} className="label">{NAME[m]} <tspan className="lv">{last.band}</tspan></text>
-            </g>);
-        })}
-        {hover && <text x={Math.min(x(hover.finished_at), W - R - 90)} y={y(hover.band) - 12} className="tip">{NAME[hover.module]} {hover.band} · {hover.finished_at.slice(0, 10)}</text>}
+      <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Band over time">
+        {Array.from({ length: 10 - lo }, (_, i) => lo + i).map(b => <g key={b}><line x1={L} x2={W - R} y1={y(b)} y2={y(b)} className="grid" /><text x={L - 12} y={y(b) + 4} className="tick">{b}</text></g>)}
+        <text x={L} y={H - 8} className="tick start">{day(t0)}</text>
+        <text x={W - R} y={H - 8} className="tick">{day(t1)}</text>
+        <path d={path} fill="none" stroke="#111" strokeWidth="2" strokeLinejoin="round" />
+        {list.map(a => <circle key={a.id} cx={x(a.finished_at)} cy={y(a.band)} r="5" fill="#111" stroke="#fff" strokeWidth="2"
+          onMouseEnter={() => setHover(a)} onMouseLeave={() => setHover(null)} />)}
+        {hover && <text x={Math.min(Math.max(x(hover.finished_at) - 60, L), W - R - 150)} y={y(hover.band) - 14} className="tip">Band {hover.band} · {hover.test} · {hover.finished_at.slice(0, 10)}</text>}
       </svg>
     </div>);
 }

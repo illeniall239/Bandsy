@@ -4,7 +4,7 @@ A personal IELTS Academic prep app covering all four modules, built on the Cambr
 
 ## What it does
 
-- **Home.** One session a day, the countdown to your exam date, your latest band per module, and a band-over-time chart. It starts with a diagnostic (one full mock per module), then moves to a weekly rotation weighted towards your weakest module.
+- **Home.** One suggested session a day from a weekly rotation weighted to your weakest module, the countdown to your exam date, your latest band per module, and your progress over time for one module at a time (pick it from the dropdown). Every full test you do is tracked; there's no placement test.
 - **Tests.** Every test, module by module. **Mock** is the full module under exam conditions and gives you a band. **Drill** is one part, passage or task, untimed.
 - **Listening.** Real book audio (played once in a mock), question types as in the book, number flags and a review strip. Results mark each answer and can show the transcript with each speaker's turns.
 - **Reading.** Passage and questions side by side, highlighting and notes. Double-click a word to save it to your word bank.
