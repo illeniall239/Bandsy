@@ -11,6 +11,7 @@ export function WritingScreen({ test, id, mode, only, onDone }) {
   const tasks = only ? [only] : [1, 2];     // a drill is one task
   const [task, setTask] = useState(tasks[0]);
   const [text, setText] = useState({ 1: "", 2: "" });
+  const [pane, setPane] = useState("task");   // phones: task or answer
   const [left, setLeft] = useState(only ? (only === 1 ? 20 : 40) * 60 : 60 * 60);
   const [busy, setBusy] = useState("");
   const [error, setError] = useState("");
@@ -51,7 +52,9 @@ export function WritingScreen({ test, id, mode, only, onDone }) {
         <span><button className="primary" disabled={!!busy} onClick={() => confirm("Submit for grading?") && submit()}>{busy || "Submit"}</button></span>
       </header>
       {error && <div className="error">{error}</div>}
-      <div className="stage writing">
+      <div className={"stage writing show-" + pane}>
+        <div className="panes">{[["task", "Task"], ["answer", "Answer"]].map(([k, l]) =>
+          <button key={k} className={pane === k ? "on" : ""} onClick={() => setPane(k)}>{l}</button>)}</div>
         <div className="task">
           <div className="tabs">{tasks.map(t => <button key={t} className={task === t ? "on" : ""} onClick={() => setTask(t)}>Task {t}</button>)}</div>
           <p className="body">{w.prompt}</p>

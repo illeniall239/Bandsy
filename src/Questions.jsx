@@ -15,7 +15,7 @@ export function Group({ g, answers, setAnswer, flags, toggleFlag, labels, base }
     const opts = g.options.length ? g.options : g.questions[0].options;
     const chosen = [].concat(answers[ns[0]] || []);
     content = (
-      <div className="q">
+      <div className="q" data-q={ns.join(" ")}>
         <div className="qhead"><span className="nums">{ns.map(n => <span key={n}>{num(n, flags, toggleFlag)}</span>)}</span><span>{g.questions[0].text}</span></div>
         {opts.map(o => (
           <label key={o.key} className="opt"><input type="checkbox" checked={chosen.includes(o.key)}
@@ -33,7 +33,7 @@ export function Group({ g, answers, setAnswer, flags, toggleFlag, labels, base }
           const qParts = q.text.split(/\[\[(\d+)\]\]/);
           const opts = q.options.length ? q.options : g.options;
           return (
-            <div className="q" key={q.n}>
+            <div className="q" key={q.n} data-q={q.n}>
               {qParts.length > 1 ? (
                 <p className="body">{qParts.map((p, i) => i % 2 ? <span key={i}>{gap(+p, answers, setAnswer, flags, toggleFlag)}</span> : <span key={i}>{p}</span>)}</p>
               ) : g.type === "multiple_choice" ? (

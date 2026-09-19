@@ -18,6 +18,7 @@ export function TestScreen({ test, id, module, mode, section, onDone }) {
 
   const [answers, setAnswers] = useState({});
   const [flags, setFlags] = useState(new Set());
+  const [pane, setPane] = useState("q");   // phones: which reading pane is showing
   const [sec, setSec] = useState(0);
   const [review, setReview] = useState(false);
   const [hl, setHl] = useState({});          // reading highlights {sec: [{para, s, e, note}]}, lifted so Review doesn't lose them
@@ -40,6 +41,8 @@ export function TestScreen({ test, id, module, mode, section, onDone }) {
     return () => clearTimeout(t);
   });
 
+  // question number -> its input (gaps) or its block (choice questions have no single input)
+  const jump = n => { const el = document.getElementById(`q${n}`) || document.querySelector(`[data-q~="${n}"]`); el?.scrollIntoView({ block: "center" }); el?.focus?.({ preventScroll: true }); };
   const answered = n => { const v = answers[n]; return Array.isArray(v) ? v.length > 0 : !!v; };
   const labels = useMemo(() => sections[sec].passage?.paragraphs.map(p => p.label).filter(Boolean) || [], [sec]);
   const s = sections[sec];
@@ -60,11 +63,13 @@ export function TestScreen({ test, id, module, mode, section, onDone }) {
           <h2>Review</h2>
           <div className="numstrip">{numbers.map(n => (
             <button key={n} className={(answered(n) ? "done " : "") + (flags.has(n) ? "flagged" : "")}
-              onClick={() => { setSec(sections.findIndex(x => x.groups.some(g => g.questions.some(q => q.n === n)))); setReview(false); setTimeout(() => document.getElementById(`q${n}`)?.focus(), 0); }}>{n}</button>))}</div>
+              onClick={() => { setSec(sections.findIndex(x => x.groups.some(g => g.questions.some(q => q.n === n)))); setReview(false); setPane("q"); setTimeout(() => jump(n), 0); }}>{n}</button>))}</div>
           <p>{numbers.filter(answered).length} of {numbers.length} answered · {flags.size} flagged</p>
         </div>
       ) : (
-        <div className={"stage " + module}>
+        <div className={"stage " + module + " show-" + pane}>
+          {module === "reading" && <div className="panes">{[["p", "Passage"], ["q", "Questions"]].map(([k, l]) =>
+            <button key={k} className={pane === k ? "on" : ""} onClick={() => setPane(k)}>{l}</button>)}</div>}
           {module === "reading" && <Passage passage={s.passage} sec={sec} hl={hl} setHl={setHl} source={`${id} passage ${sec + 1}`} />}
           <div className="questions">
             {module === "listening" && <Audio key={sec} src={AUDIO + s.audio} playOnce={mode === "mock"}
@@ -77,7 +82,7 @@ export function TestScreen({ test, id, module, mode, section, onDone }) {
       <footer className="bar">
         <span className="tabs">{sections.map((x, i) => <button key={i} className={i === sec ? "on" : ""} onClick={() => { setSec(i); setReview(false); }}>{x.title}</button>)}</span>
         <span className="numstrip small">{s.groups.flatMap(g => g.questions.map(q => q.n)).map(n => (
-          <button key={n} className={(answered(n) ? "done " : "") + (flags.has(n) ? "flagged" : "")} onClick={() => document.getElementById(`q${n}`)?.focus()}>{n}</button>))}</span>
+          <button key={n} className={(answered(n) ? "done " : "") + (flags.has(n) ? "flagged" : "")} onClick={() => { setPane("q"); setTimeout(() => jump(n), 0); }}>{n}</button>))}</span>
       </footer>
     </div>);
 }

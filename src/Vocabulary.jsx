@@ -16,7 +16,7 @@ export function Vocabulary() {
     r.error ? setError(r.error) : load();
   };
   return (
-    <main className="home">
+    <main className="home vocab">
       <TopNav />
       <PageHead eyebrow="Word bank" title="Vocabulary"
         meta={`${mine.length} saved word${mine.length === 1 ? "" : "s"} · double-click any word in a Reading passage to save it`} />

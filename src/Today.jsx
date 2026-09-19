@@ -115,7 +115,7 @@ function Progress({ history, modules }) {
 /** One module's bands over attempt date. Hover a point for the exact value. */
 function BandChart({ list }) {
   const [hover, setHover] = useState(null);
-  const W = 1000, H = 240, L = 40, R = 24, T = 14, B = 34;
+  const W = innerWidth < 640 ? 360 : 1000, H = innerWidth < 640 ? 220 : 240, L = 40, R = 24, T = 14, B = 34;   // phones: fewer units across, same text size
   const lo = Math.min(4, Math.ceil(Math.min(...list.map(a => a.band))) - 1);   // a band-4 point sits above the bottom line
   const t0 = new Date(list[0].finished_at).getTime(), t1 = Math.max(new Date(list[list.length - 1].finished_at).getTime(), t0 + 864e5 * 7);
   const x = t => L + (W - L - R) * (new Date(t).getTime() - t0) / (t1 - t0);
@@ -130,7 +130,7 @@ function BandChart({ list }) {
         <text x={W - R} y={H - 8} className="tick">{day(t1)}</text>
         <path d={path} fill="none" stroke="#111" strokeWidth="2" strokeLinejoin="round" />
         {list.map(a => <circle key={a.id} cx={x(a.finished_at)} cy={y(a.band)} r="5" fill="#111" stroke="#fff" strokeWidth="2"
-          onMouseEnter={() => setHover(a)} onMouseLeave={() => setHover(null)} />)}
+          onMouseEnter={() => setHover(a)} onMouseLeave={() => setHover(null)} onClick={() => setHover(h => h === a ? null : a)} />)}
         {hover && <text x={Math.min(Math.max(x(hover.finished_at) - 60, L), W - R - 150)} y={y(hover.band) - 14} className="tip">Band {hover.band} · {hover.test} · {hover.finished_at.slice(0, 10)}</text>}
       </svg>
     </div>);
@@ -143,7 +143,7 @@ export function History() {
     <main className="home">
       <TopNav />
       <PageHead eyebrow="Every attempt" title="History" meta="Open any row to see its marked result again." />
-      <table>
+      <table className="history">
         <thead><tr><th>When</th><th>Test</th><th>Module</th><th>Mode</th><th>Score</th><th>Band</th></tr></thead>
         <tbody>{list.map(a => (
           <tr key={a.id}><td>{a.finished_at.slice(0, 16).replace("T", " ")}</td><td>{a.test}</td><td>{NAME[a.module]}</td><td>{a.mode}</td>
