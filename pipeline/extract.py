@@ -199,6 +199,8 @@ def _validate(d):
             flags.append({"path": f"group {g['first']}-{g['last']}", "check": "table stored without cells", "A": g["body"][:80]})
         if len({l.count("|") for l in rows}) > 1:
             flags.append({"path": f"group {g['first']}-{g['last']}", "check": "table rows have different cell counts", "A": [l.count("|") + 1 for l in rows]})
+        if g["type"].endswith("_completion") and not g["body"].strip() and not any(q["text"] for q in g["questions"]):
+            flags.append({"path": f"group {g['first']}-{g['last']}", "check": "completion text missing", "A": qn})
         if gaps and gaps != qn:
             flags.append({"path": f"group {g['first']}-{g['last']}", "check": "[[n]] gaps vs questions", "A": gaps})
         if g["type"] in ("multiple_choice", "multiple_choice_multi", "matching_headings", "matching_features", "matching_sentence_endings") \
@@ -1492,6 +1494,9 @@ def tables_from_pages(w, uid, data, pages, vision_spec):
     for g in groups:
         grid = g["type"] in GRID_TYPES
         broken = bool(gaps_of(g["body"])) and gaps_of(g["body"]) != expected(g)
+        # (c) notes OCR never saw (Cambridge 10 Test 1 Q26-30: the notes sit in a shaded box that Tesseract skipped entirely)
+        lost = g["type"].endswith("_completion") and not g["body"].strip() and not any(q["text"] for q in g["questions"])
+        broken = broken or lost
         if not (grid or broken): continue
         cache = w / "units" / f"{uid}.grid{g['first']}.json"
         if not cache.exists():
