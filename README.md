@@ -25,6 +25,7 @@ A personal IELTS Academic prep app covering all four modules, built on the Cambr
 | `src/mark.js` | Marks Listening and Reading answers the IELTS way (alternatives, optional words, "in either order" pairs). |
 | `sidecar/audio.py` | Local speech service on port 3002: faster-whisper for speech-to-text, Kokoro for the examiner's voice. |
 | `content/` | The extracted tests: `camNN/testN.json` plus figures, and `vocab.json`. |
+| `Cambridge-lists-main/` | The Listening audio the tests play (96 files). |
 | `pipeline/` | The scripts that turn the book PDFs and audio into `content/`. |
 | `deploy/` | Scripts for running a hosted copy on a server. |
 
@@ -33,7 +34,6 @@ A personal IELTS Academic prep app covering all four modules, built on the Cambr
 - Node.js 22
 - Python 3.11 with `faster-whisper`, `kokoro-onnx` and `soundfile` (for Speaking)
 - The Kokoro model files `kokoro-v1.0.onnx` and `voices-v1.0.bin` in `sidecar/models/` (from the [kokoro-onnx releases](https://github.com/thewh1teagle/kokoro-onnx/releases))
-- The Cambridge IELTS books folder at `Cambridge-lists-main/`. The app plays the Listening audio from there, so it isn't in this repo.
 - At least one model provider: Claude Code signed in, an API key, or Ollama running locally
 
 ## Running it
@@ -69,7 +69,7 @@ BANDSY_DB=work/test.db PORT=3011 node server.js --no-sidecar
 
 `content/` is produced from the book PDFs and audio by `pipeline/extract.py`. The text comes from OCR. A model is used only where OCR can't do the job: structuring question groups, reading answer keys, and fixing garbled pages, titles and option lists. Every step is cached under `work/camNN/`, so re-running costs nothing.
 
-Extra requirements: Tesseract OCR, `pymupdf`, and `faster-whisper` (used to repair transcripts against the recordings).
+Extra requirements: the Cambridge IELTS book PDFs in `Cambridge-lists-main/Cambridge IELTS NN/` (only the Listening audio is in this repo), Tesseract OCR, `pymupdf`, and `faster-whisper` (used to repair transcripts against the recordings).
 
 ```
 python pipeline/extract.py ocr       --book 15
