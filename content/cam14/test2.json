@@ -1067,12 +1067,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe chart below shows the value of one country’s exports in various\ncategories during 2015 and 2016. The table shows the percentage change in\neach category of exports in 2016 compared with 2015.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 42,
+   "kind": "mixed",
    "image": "figures/p042.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people say that the main environmental problem of our time is the loss\nof particular species of plants and animals. Others say that there are more\nimportant environmental problems.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "discussion"
   }
  ],
  "speaking": {
@@ -1118,7 +1120,8 @@
      "Do you agree that the kinds of homes people prefer change as they get older?"
     ]
    }
-  ]
+  ],
+  "kind": "object"
  },
  "flags": {
   "listening": [],

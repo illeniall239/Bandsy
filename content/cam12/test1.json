@@ -984,12 +984,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe bar chart below shows the percentage of Australian men and women in\ndifferent age groups who did regular physical activity in 2010.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 27,
+   "kind": "bar_chart",
    "image": "figures/p027.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people believe that it is good to share as much information as possible\nin scientific research, business and the academic world. Others believe that\nsome information is too important or too valuable to be shared freely.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "discussion"
   }
  ],
  "speaking": {
@@ -1032,7 +1034,8 @@
      "Do you agree or disagree that the older people are, the more patient they are?"
     ]
    }
-  ]
+  ],
+  "kind": "experience"
  },
  "flags": {
   "listening": [],

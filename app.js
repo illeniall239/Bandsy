@@ -22,6 +22,23 @@ export function tests() {
     }));
 }
 
+let CATALOG;
+/** Every practisable item in the books: one entry per question group, Writing task and Speaking cue card.
+ *  The Practice page groups these by type ("map labelling", "process diagram") so a weakness can be drilled directly. */
+export function catalog() {
+  if (CATALOG) return CATALOG;
+  const items = [];
+  for (const t of tests()) {
+    const d = content(`${t.id}.json`);
+    for (const [module, key] of [["listening", "parts"], ["reading", "passages"]])
+      d[module][key].forEach((p, i) => p.groups.forEach(g =>
+        items.push({ test: t.id, module, type: g.type, section: i + 1, first: g.first, n: g.last - g.first + 1 })));
+    d.writing.forEach(w => items.push({ test: t.id, module: "writing", type: `task${w.task}_${w.kind || "other"}`, task: w.task, n: 1 }));
+    items.push({ test: t.id, module: "speaking", type: `part2_${d.speaking.kind || "other"}`, n: 1 });
+  }
+  return CATALOG = items;
+}
+
 export const json = (res, data, code = 200) => { res.writeHead(code, { "Content-Type": "application/json" }); res.end(JSON.stringify(data)); };
 const raw = req => new Promise(r => { const c = []; req.on("data", d => c.push(d)); req.on("end", () => r(Buffer.concat(c))); });
 const body = async req => "body" in req ? (typeof req.body === "string" ? JSON.parse(req.body || "{}") : req.body || {})   // Vercel parses JSON bodies itself
@@ -32,12 +49,13 @@ export async function api(req, res, { store, hosted }) {
   const url = new URL(req.url, "http://x");
   const p = url.searchParams.get("__path") != null ? `/api/${url.searchParams.get("__path")}` : decodeURIComponent(url.pathname);   // Vercel rewrite
   const modules = hosted ? MODULES.filter(m => m !== "speaking") : MODULES;
-  const catalog = hosted ? Object.fromEntries(Object.entries(PROVIDERS).filter(([id]) => id !== "claude-code" && id !== "ollama")) : PROVIDERS;
+  const providers = hosted ? Object.fromEntries(Object.entries(PROVIDERS).filter(([id]) => id !== "claude-code" && id !== "ollama")) : PROVIDERS;
   const mine = () => store.settings();
   const fail = e => json(res, { error: e.message }, 502);   // shown verbatim; the user decides what to do (design Q39)
   let m;
   try {
     if (p === "/api/tests") return json(res, tests());
+    if (p === "/api/catalog") return json(res, catalog());
     if (p === "/api/attempts" && req.method === "POST") return json(res, { id: await store.addAttempt(await body(req)) });
     if (p === "/api/attempts") return json(res, await store.attempts());
     if (m = p.match(/^\/api\/attempts\/(\d+)$/)) {
@@ -56,7 +74,7 @@ export async function api(req, res, { store, hosted }) {
     if (p === "/api/settings") {
       const s = await mine();
       if (hosted) s.providers = Object.fromEntries(Object.entries(s.providers || {}).map(([id, v]) => [id, { ...v, apiKey: v.apiKey ? MASK + v.apiKey.slice(-4) : v.apiKey }]));
-      return json(res, { ...s, catalog, jobs_available: JOBS });
+      return json(res, { ...s, catalog: providers, jobs_available: JOBS });
     }
     if (p === "/api/vocab/book") return json(res, fs.existsSync(path.join(ROOT, "content", "vocab.json")) ? content("vocab.json") : []);
     if (p === "/api/vocab" && req.method === "POST") return json(res, await store.addWord(await define(await mine(), await body(req))));

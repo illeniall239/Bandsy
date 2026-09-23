@@ -1091,12 +1091,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\nThe two maps below show road access to a city hospital in 2007 and in 2010.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 28,
+   "kind": "map",
    "image": "figures/p028.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nLiving in a country where you have to speak a foreign language can cause\nserious social problems, as well as practical problems.\n\nTo what extent do you agree or disagree with this statement?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "opinion"
   }
  ],
  "speaking": {
@@ -1138,7 +1140,8 @@
      "Could you recommend some effective strategies for governments and employers to ensure people have a good work-life balance?"
     ]
    }
-  ]
+  ],
+  "kind": "person"
  },
  "flags": {
   "listening": [],

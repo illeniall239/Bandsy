@@ -1039,12 +1039,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe graph below shows average carbon dioxide (CO2) emissions per person\nin the United Kingdom, Sweden, Italy and Portugal between 1967 and 2007.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 78,
+   "kind": "line_graph",
    "image": "figures/p078.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people say that the only reason for learning a foreign language is in\norder to travel to or work in a foreign country. Others say that these are not\nthe only reasons why someone should learn a foreign language.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "discussion"
   }
  ],
  "speaking": {
@@ -1087,7 +1089,8 @@
      "How easy or difficult is it to predict the weather in your country? Why is that?"
     ]
    }
-  ]
+  ],
+  "kind": "experience"
  },
  "flags": {
   "listening": [],

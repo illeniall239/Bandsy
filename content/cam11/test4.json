@@ -1230,12 +1230,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe table below shows the numbers of visitors to Ashdown Museum during\nthe year before and the year after it was refurbished. The charts show the\nresult of surveys asking visitors how satisfied they were with their visit,\nduring the same two periods.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 101,
+   "kind": "mixed",
    "image": "figures/p101.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nMany governments think that economic progress is their most important\ngoal. Some people, however, think that other types of progress are equally\nimportant for a country.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "discussion"
   }
  ],
  "speaking": {
@@ -1281,7 +1283,8 @@
      "How important are regulations on TV advertising?"
     ]
    }
-  ]
+  ],
+  "kind": "media"
  },
  "flags": {
   "listening": [],

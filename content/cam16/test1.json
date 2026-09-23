@@ -1,0 +1,1286 @@
+{
+ "book": 16,
+ "test": 1,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 1,
+      "last": 10,
+      "body": "Children's Engineering Workshops\n\nTiny Engineers (ages 4-5)\nActivities\n- Create a cover for an [[1]] without breaking it, so they can drop it from a height\n- Take part in a competition to build the tallest [[2]]\n- Make a [[3]] powered by a balloon\n\nJunior Engineers (ages 6-8)\nActivities\n- Build model cars, trucks and [[4]] and learn how to program them so they can move\n- Take part in a competition to build the longest [[5]] using card and wood\n- Create a short [[6]]\n- Build, [[7]] with special software, and program a humanoid robot\n\nCost for a five-week block: £50\nHeld on [[8]] from 10 am to 11 am\n\nLocation\nBuilding 10A, [[9]] Industrial Estate, Grasford\nPlenty of [[10]] is available.",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Questions 11-14\nChoose the correct letter, A, B or C.",
+      "first": 11,
+      "last": 14,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 11,
+        "text": "Stevenson's was founded in",
+        "options": [
+         {
+          "key": "A",
+          "text": "1923."
+         },
+         {
+          "key": "B",
+          "text": "1924."
+         },
+         {
+          "key": "C",
+          "text": "1926."
+         }
+        ]
+       },
+       {
+        "n": 12,
+        "text": "Originally, Stevenson's manufactured goods for",
+        "options": [
+         {
+          "key": "A",
+          "text": "the healthcare industry."
+         },
+         {
+          "key": "B",
+          "text": "the automotive industry."
+         },
+         {
+          "key": "C",
+          "text": "the machine tools industry."
+         }
+        ]
+       },
+       {
+        "n": 13,
+        "text": "What does the speaker say about the company premises?",
+        "options": [
+         {
+          "key": "A",
+          "text": "The company has recently moved."
+         },
+         {
+          "key": "B",
+          "text": "The company has no plans to move."
+         },
+         {
+          "key": "C",
+          "text": "The company is going to move shortly."
+         }
+        ]
+       },
+       {
+        "n": 14,
+        "text": "The programme for the work experience group includes",
+        "options": [
+         {
+          "key": "A",
+          "text": "time to do research."
+         },
+         {
+          "key": "B",
+          "text": "meetings with a teacher."
+         },
+         {
+          "key": "C",
+          "text": "talks by staff."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "map_labelling",
+      "instructions": "Questions 15-20\nLabel the map below.\n\nWrite the correct letter, A-J, next to Questions 15-20.",
+      "first": 15,
+      "last": 20,
+      "body": "Plan of Stevenson's site",
+      "options": [],
+      "questions": [
+       {
+        "n": 15,
+        "text": "coffee room",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "warehouse",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "staff canteen",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "meeting room",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "human resources",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "boardroom",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 12,
+      "image": "figures/p012.png"
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Questions 21 and 22\nChoose TWO letters, A-E.",
+      "first": 21,
+      "last": 22,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "the Bird Park visit"
+       },
+       {
+        "key": "B",
+        "text": "the workshop sessions"
+       },
+       {
+        "key": "C",
+        "text": "the Natural History Museum visit"
+       },
+       {
+        "key": "D",
+        "text": "the projects done in previous years"
+       },
+       {
+        "key": "E",
+        "text": "the handouts with research sources"
+       }
+      ],
+      "questions": [
+       {
+        "n": 21,
+        "text": "Which TWO parts of the introductory stage to their art projects do Jess and Tom agree were useful?",
+        "options": [
+         {
+          "key": "A",
+          "text": "the Bird Park visit"
+         },
+         {
+          "key": "B",
+          "text": "the workshop sessions"
+         },
+         {
+          "key": "C",
+          "text": "the Natural History Museum visit"
+         },
+         {
+          "key": "D",
+          "text": "the projects done in previous years"
+         },
+         {
+          "key": "E",
+          "text": "the handouts with research sources"
+         }
+        ]
+       },
+       {
+        "n": 22,
+        "text": "Which TWO parts of the introductory stage to their art projects do Jess and Tom agree were useful?",
+        "options": [
+         {
+          "key": "A",
+          "text": "the Bird Park visit"
+         },
+         {
+          "key": "B",
+          "text": "the workshop sessions"
+         },
+         {
+          "key": "C",
+          "text": "the Natural History Museum visit"
+         },
+         {
+          "key": "D",
+          "text": "the projects done in previous years"
+         },
+         {
+          "key": "E",
+          "text": "the handouts with research sources"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Questions 23 and 24\nChoose TWO letters, A-E.",
+      "first": 23,
+      "last": 24,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "by giving a rationale for their action plans"
+       },
+       {
+        "key": "B",
+        "text": "by being less specific about the outcome"
+       },
+       {
+        "key": "C",
+        "text": "by adding a video diary presentation"
+       },
+       {
+        "key": "D",
+        "text": "by providing a timeline and a mind map"
+       },
+       {
+        "key": "E",
+        "text": "by making their notes more evaluative"
+       }
+      ],
+      "questions": [
+       {
+        "n": 23,
+        "text": "In which TWO ways do both Jess and Tom decide to change their proposals?",
+        "options": [
+         {
+          "key": "A",
+          "text": "by giving a rationale for their action plans"
+         },
+         {
+          "key": "B",
+          "text": "by being less specific about the outcome"
+         },
+         {
+          "key": "C",
+          "text": "by adding a video diary presentation"
+         },
+         {
+          "key": "D",
+          "text": "by providing a timeline and a mind map"
+         },
+         {
+          "key": "E",
+          "text": "by making their notes more evaluative"
+         }
+        ]
+       },
+       {
+        "n": 24,
+        "text": "In which TWO ways do both Jess and Tom decide to change their proposals?",
+        "options": [
+         {
+          "key": "A",
+          "text": "by giving a rationale for their action plans"
+         },
+         {
+          "key": "B",
+          "text": "by being less specific about the outcome"
+         },
+         {
+          "key": "C",
+          "text": "by adding a video diary presentation"
+         },
+         {
+          "key": "D",
+          "text": "by providing a timeline and a mind map"
+         },
+         {
+          "key": "E",
+          "text": "by making their notes more evaluative"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Questions 25-30\nWhich personal meaning do the students decide to give to each of the following pictures?\n\nChoose SIX answers from the box and write the correct letter, A-H, next to Questions 25-30.",
+      "first": 25,
+      "last": 30,
+      "body": "Personal meanings",
+      "options": [
+       {
+        "key": "A",
+        "text": "a childhood memory"
+       },
+       {
+        "key": "B",
+        "text": "hope for the future"
+       },
+       {
+        "key": "C",
+        "text": "fast movement"
+       },
+       {
+        "key": "D",
+        "text": "a potential threat"
+       },
+       {
+        "key": "E",
+        "text": "the power of colour"
+       },
+       {
+        "key": "F",
+        "text": "the continuity of life"
+       },
+       {
+        "key": "G",
+        "text": "protection of nature"
+       },
+       {
+        "key": "H",
+        "text": "a confused attitude to nature"
+       }
+      ],
+      "questions": [
+       {
+        "n": 25,
+        "text": "Falcon (Landseer)",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "Fish hawk (Audubon)",
+        "options": []
+       },
+       {
+        "n": 27,
+        "text": "Kingfisher (van Gogh)",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "Portrait of William Wells",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "Vairumati (Gauguin)",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "Portrait of Giovanni de Medici",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "Stoicism\n\nStoicism is still relevant today because of its [[31]] appeal.\n\nAncient Stoics\n- Stoicism was founded over 2,000 years ago in Greece.\n- The Stoics' ideas are surprisingly well known, despite not being intended for [[32]].\n\nStoic principles\n- Happiness could be achieved by leading a virtuous life.\n- Controlling emotions was essential.\n- Epictetus said that external events cannot be controlled but the [[33]] people make in response can be controlled.\n- A Stoic is someone who has a different view on experiences which others would consider as [[34]].\n\nThe influence of Stoicism\n- George Washington organised a [[35]] about Cato to motivate his men.\n- The French artist Delacroix was a Stoic.\n- Adam Smith's ideas on [[36]] were influenced by Stoicism.\n- Some of today's political leaders are inspired by the Stoics.\n- Cognitive Behaviour Therapy (CBT)\n  - the treatment for [[37]] based on ideas from Stoicism\n  - people learn to base their thinking on [[38]]\n- In business, people benefit from Stoicism by identifying obstacles as [[39]]\n\nRelevance of Stoicism\n- It requires a lot of [[40]] but Stoicism can help people to lead a good life.\n- It teaches people that having a strong character is more important than anything else.",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "egg",
+   "2": "tower",
+   "3": "car",
+   "4": "animals",
+   "5": "bridge",
+   "6": "movie / film",
+   "7": "decorate",
+   "8": "Wednesdays",
+   "9": "Fradstone",
+   "10": "parking",
+   "11": "C",
+   "12": "A",
+   "13": "B",
+   "14": "C",
+   "15": "H",
+   "16": "C",
+   "17": "G",
+   "18": "B",
+   "19": "I",
+   "20": "A",
+   "21": "C — IN EITHER ORDER (21 & 22)",
+   "22": "E — IN EITHER ORDER (21 & 22)",
+   "23": "B — IN EITHER ORDER (23 & 24)",
+   "24": "E — IN EITHER ORDER (23 & 24)",
+   "25": "D",
+   "26": "C",
+   "27": "A",
+   "28": "H",
+   "29": "F",
+   "30": "G",
+   "31": "practical",
+   "32": "publication",
+   "33": "choices",
+   "34": "negative",
+   "35": "play",
+   "36": "capitalism",
+   "37": "depression",
+   "38": "logic",
+   "39": "opportunity",
+   "40": "practice / practise"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 16 Audio/Test 1 Part 1.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 16 Audio/Test 1 Part 2.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 16 Audio/Test 1 Part 3.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 16 Audio/Test 1 Part 4.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "SARAH: Hello. Children’s Engineering Workshops.\nFATHER: Oh hello. I wanted some information about the workshops in the school holidays.\nSARAH: Sure.\nFATHER: have two daughters who are interested. The younger one’s Lydia, she’s\nfour — do you take children as young as that?\nSARAH: Yes, our Tiny Engineers workshop is for four to five year olds.\nFATHER: What sorts of activities do they do?\nSARAH: All sorts. For example, they work together to design a special cover that goes\nround an egg so that when it's inside they can drop it from a height and it doesn’t\nbreak. Well, sometimes it does break but that's part of the fun!\nFATHER: Right. And Lydia loves building things. Is there any opportunity for her to do that?\nSARAH: Well, they have a competition to see who can make the highest tower, You'd be\namazed how high they can go.\nFATHER: Right.\nSARAH: But they're learning all the time as well as having fun. For example, one thing\nthey do is to design and build a car that’s attached to a balloon, and the force of\nthe air in that actually powers the car and makes it move along. They go really\nfast too.\nSARAH: OK, well, all this sounds perfect.\nFATHER: Now Carly, that’s my older daughter, has just had her seventh birthday, so\npresumably she'd be in a different group?\nSARAH: Yes, she'd be in the Junior Engineers. That's for children from six to eight.\nFATHER: And do they do the same sorts of activities?\nSARAH: Some are the same, but a bit more advanced. So they work out how to build\nmodel vehicles, things like cars and trucks, but also how to construct animals \nusing the same sorts of material and technique, and then they learn how they\ncan program them and make them move.\nFATHER: So they learn a bit of coding?\nSARAH: They do. They pick it up really quickly. We're there to help if they need it, but\nthey learn from one another too.\nFATHER: Right. And do they have competitions too?\nSARAH: Yes, with the Junior Engineers, it’s to use recycled materials like card and wood\nto build a bridge, and the longest one gets a prize.\nFATHER: That sounds fun. I wouldn’t mind doing that myself!\nSARAH: Then they have something a bit different, which is to think up an idea for a\nfive-minute movie and then film it, using special animation software. You'd be\namazed what they come up with.\nFATHER: And of course, that's something they can put on their phone and take home to\nshow all their friends.\nSARAH: Exactly. And then they also build a robot in the shape of a human, and they\ndecorate it and program it so that it can move its arms and legs.\nFATHER: Perfect. So, is it the same price as the Tiny Engineers?\n\nSARAH: It’s just a bit more: £50 for the five weeks.\n\nFATHER: And are the classes on a Monday, too?\n\nSARAH: They used to be, but we found it didn’t give our staff enough time to clear up after\nthe first workshop, so we moved them to Wednesdays. The classes are held in\nthe morning from ten to eleven.\n\nFATHER: OK. That's better for me actually. And what about the location? Where exactly are\nthe workshops held?\n\nSARAH: They’re in building 10A — there’s a big sign on the door, you can’t miss it, and\nthat’s in Eradstone Industrial Estate.\n\nFATHER: Sorry?\n\nSARAH: Fradstone — that’s F-R-A-D-S-T-O-N-E.\n\nFATHER: And that’s in Grasford, isn’t it?\n\nSARAH: Yes, up past the station.\n\nFATHER: And will I have any parking problems there?\n\nSARAH: No, there’s always plenty available. So would you like to enrol Lydia and Carly now?\n\nFATHER: OK.\n\nSARAH: So can I have your full name ..."
+   },
+   {
+    "part": 2,
+    "text": "Good morning, everyone, and welcome to Stevenson's, one of the country’s major\nmanufacturers of metal goods. Thank you for choosing us for your two weeks of work\nexperience. My name is Julia Simmons, and since the beginning of this year I’ve been the\nmanaging director.\n\nStevenson's is quite an old company. Like me, the founder, Ronald Stevenson, went into\nthe steel industry when he left school — that was in 1923. He set up this company when he\nfinished his apprenticeship, in 1926, although he actually started making plans two years\nearlier, in 1924. He was a very determined young man!\n\nStevenson's long term plan was to manufacture components for the machine tools industry —\nalthough in fact that never came about — and for the automotive industry, that is, cars and\nlorries. However, there was a delay of five years before that happened, because shortly\nbefore the company went into production, Stevenson was given the opportunity to make\ngoods for hospitals and other players in the healthcare industry, so that's what we did for the\nfirst five years,\nOver the years, we've expanded the premises considerably — we were lucky that the site is\nbig enough, so moving to a new location has never been necessary. However, the layout is\nfar from ideal for modern machinery and production methods, so we intend to carry out major\nrefurbishment of this site over the next five years.\n\nI'd better give you some idea of what you'll be doing during your two weeks with us, so you\nknow what to expect. Most mornings you'll have a presentation from one of the managers, to\nlearn about their department, starting this morning with research and development. And you'll\nall spend some time in each department, observing what's going on and talking to people — as\nlong as you don’t stop them from doing their work altogether! In the past, a teacher from your\nschool has come in at the end of each week to find out how the group were getting on, but\nyour school isn’t able to arrange that this year.\n\nOK, now I'll briefly help you to orientate yourselves around the site. As you can see, we're\nin the reception area, which we try to make attractive and welcoming to visitors. There’s a\ncorridor running left from here, and if you go along that, the door facing you at the end is the\nentrance to the coffee room. This looks out onto the main road on one side and some trees\non the other, and that'll be where you meet each morning.\n\nThe factory is the very big room on the far side of the site. Next to it is the warehouse, which\ncan be accessed by lorries going up the road to the turning area at the end. You can get to\nthe warehouse by crossing to the far side of the courtyard, and then the door is on your right.\n\nSomewhere you'll be keen to find is the staff canteen. This is right next to reception, I can\nconfidently say that the food's very good, but the view isn’t. The windows on one side look\nonto a corridor and courtyard, which aren't very attractive at all, and on the other onto the\naccess road, which isn’t much better.\n\nYou'll be using the meeting room quite often, and you'll find it by walking along the corridor to\nthe left of the courtyard, and continuing along it to the end. The meeting room is the last one\non the right, and I’m afraid there's no natural daylight in the room.\n\nThen you'll need to know where some of the offices are. The human resources department is\nat the front of this building, so you head to the left along the corridor from reception, and it's\nthe second room you come to. It looks out onto the main road.\n\nAnd finally, the boardroom, where you'll be meeting sometimes. That has quite a pleasant\nview, as it looks out on to the trees. Go along the corridor past the courtyard, right to the end.\nThe boardroom is on the left, next to the factory.\n\nOK, now are there any questions before we ..."
+   },
+   {
+    "part": 3,
+    "text": "JESS: How are you getting on with your art project, Tom?\nTOM: OK. Like, they gave us the theme of birds to base our project on, and I’m not\nreally all that interested in wildlife. But I'm starting to get into it. I've pretty well\nfinished the introductory stage.\n\nJESS: So have I. When they gave us all those handouts with details of books and\nwebsites to look at, I was really put off, but the more I read, the more interested\n1 got.\n\nTOM: Me too. I found I could research so many different aspects of birds in art — colour,\nmovement, texture, So I was looking forward to the Bird Park visit.\n\nJESS: What a letdown! It poured with rain and we hardly saw a single bird. Much less\nuse than the trip to the Natural History Museum.\n\nTOM: Yeah. I liked all the stuff about evolution there, The workshop sessions with\nDr Fletcher were good too, especially the brainstorming sessions.\n\nJESS: I missed those because I was ill. I wish we could've seen the projects last year's\nstudents did.\n\nTOM: Mm. I suppose they want us to do our own thing, not copy.\n\nJESS: Have you drafted your proposal yet?\n\nTOM: Yes, but I haven’t handed it in. I need to amend some parts. I've realised the\nnotes from my research are almost all just descriptions, I haven't actually\nevaluated anything. So I'll have to fix that,\nJESS: Oh, I didn’t know we had to do that. I'll have to look at that too. Did you do a\ntimeline for the project?\n\nTOM: Yes, and a mind map.\n\nJESS: Yeah, so did I. I quite enjoyed that. But it was hard having to explain the basis for\nmy decisions in my action plan.\n\n\nTOM: What?\nJESS: You know, give a rationale.\nTOM: I didn't realise we had to do that. OK, I can add it now. And I’ve done the video\ndiary presentation, and worked out what I want my outcome to be in the project.\nJESS: Someone told me it's best not to be too precise about your actual outcome at this\nstage, so you have more scope to explore your ideas later on. So I'm going to go\nback to my proposal to make it a bit more vague.\n\nTOM: Really? OK, I'll change that too then.\n\nTOM: One part of the project I’m unsure about is where we choose some paintings\nof birds and say what they mean to us. Like, I chose a painting of a falcon by\nLancia. I like it because the bird’s standing there with his head turned to one\nside, but he seems to be staring straight at you. But I can't just say it's a bit scary,\ncan I?\nJESS: You could talk about the possible danger suggested by the bird's look.\nTOM: Oh, OK.\nJESS: There's a picture of a fish hawk by Audubon I like. It's swooping over the water\nwith a fish in its talons, and with great black wings which take up most of the\npicture.\nTOM: So you could discuss it in relation to predators and food chains?\nJESS: Well actually I think I'll concentrate on the impression of rapid motion it gives.\nTOM: Right.\nJESS: Do you know that picture of a kingfisher by van Gogh — it’s perching on a reed\ngrowing near a stream.\nTOM: Yes it's got these beautiful blue and red and black shades.\nJESS: I've actually chosen it because I saw a real kingfisher once when I was\nlittle, I was out walking with my grandfather, and I've never forgotten it.\nTOM: So we can use a personal link?\nJESS: Sure.\nTOM: OK. There's a portrait called William Wells, I can't remember the artist but it’s a\nmiddle-aged man who's just shot a bird. And his expression, and the way he’s\nholding the bird in his hand suggests he’s not sure about what he’s done. To me\nit's about how ambiguous people are in the way they exploit the natural world.\nJESS: Interesting. There's Goghan's picture via a matty. He did it in Tahiti. It's a woman\nwith a white bird behind her that is eating a lizard, and what I'm interested in is\nwhat idea this bird refers to. Apparently, it’s a reference to the never-ending cycle\nof existence.\n\nTOM: Wow. I chose a portrait of a little boy, Giovanni de Medici. He's holding a tiny bird\nin one fist. I like the way he’s holding it carefully so he doesn’t hurt it.\n\nJESS: No, right."
+   },
+   {
+    "part": 4,
+    "text": "Ancient philosophy is not just about talking or lecturing, or even reading long, dense books.\nIn fact, it is something people have used throughout history — to solve their problems and to\nachieve their greatest triumphs.\n\nSpecifically, I am referring to Stoicism, which, in my opinion, is the most practical of all\nphilosophies and therefore the most appealing. Stoicism was founded in Ancient Greece by\nZeno of Citium in the early 3rd century BC, but was practised by the likes of Epictetus, Cato,\nSeneca and Marcus Aurelius. Amazingly, we still have access to these ideas, despite the fact\nthat the most famous Stoics never wrote anything down for publication. Cato definitely didn’t.\nMarcus Aurelius never intended his Meditations to be anything but personal. Seneca’s letters\nwere, well, letters and Epictetus’ thoughts come to us by way of a note-taking student.\n\nStoic principles were based on the idea that its followers could have an unshakable\nhappiness in this life and the key to achieving this was virtue. The road to virtue, in turn, lay\nin understanding that destructive emotions, like anger and jealousy, are under our conscious\ncontrol — they don't have to control us, because we can learn to control them. In the words\nof Epictetus: “external events I cannot control, but the choices I make with regard to them.\n\nI do control”,\nThe modern day philosopher and writer Nassim Nicholas Taleb defines a Stoic as someone\nwho has a different perspective on experiences which most of us would see as wholly\nnegative; a Stoic “transforms fear into caution, pain into transformation, mistakes into\ninitiation and desire into undertaking”. Using this definition as a model, we can see that\nthroughout the centuries Stoicism has been practised in more recent history by kings,\npresidents, artists, writers and entrepreneurs.\n\nThe founding fathers of the United States were inspired by the philosophy. George\nWashington was introduced to Stoicism by his neighbours at age seventeen, and later, put on\na play based on the life of Cato to inspire his men. Thomas Jefferson kept a copy of Seneca\nbeside his bed.\n\nWriters and artists have also been inspired by the stoics. Eugene Delacroix, the renowned\nFrench Romantic artist (known best for his painting Liberty Leading the People) was an\nardent Stoic, referring to it as his “consoling religion”.\n\nThe economist Adam Smith’s theories on capitalism were significantly influenced by the\nStoicism that he studied as a schoolboy, under a teacher who had translated Marcus Aurelius’\nworks.\n\nToday's political leaders are no different, with many finding their inspiration from the ancient\ntexts. Former US president Bill Clinton rereads Marcus Aurelius every single year, and many\nhave compared former President Obama's calm leadership style to that of Cato. When Zhao Bao,\nthe former prime minister of China, claims that Meditations is one of two books he travels with\nand that he has read it more than one hundred times over the course of his life.\n\nStoicism had a profound influence on Albert Ellis, who invented Cognitive Behaviour Therapy.\nwhich is used to help people manage their problems by changing the way that they think and\nbehave. It's most commonly used to treat depression. The idea is that we can take control\nof our lives by challenging the irrational beliefs that create our faulty thinking, symptoms and\nbehaviours by using logic instead.\n\nStoicism has also become popular in the world of business. Stoic principles can build the\nresilience and state of mind required to overcome setbacks because Stoics teach turning\nobstacles into opportunity. A lesson every business entrepreneur needs to learn.\n\nI would argue that studying Stoicism is as relevant today as it was 2,000 years ago, thanks to\nits brilliant insights into how to lead a good life. At the very root of the thinking, there is a very\nsimple way of living — control what you can and accept what you can't. This is not as easy as\nit sounds and will require considerable practice — it can take a lifetime to master. The Stoics\nalso believed the most important foundation for a good and happy life is not money, fame,\npower or pleasure, but having a disciplined and principled character — something which\nseems to resonate with many people today."
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "groups": [
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nIn boxes 1-7 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 1,
+      "last": 7,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "Polar bears suffer from various health problems due to the build-up of fat under their skin.",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "The study done by Liu and his colleagues compared different groups of polar bears.",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "Liu and colleagues were the first researchers to compare polar bears and brown bears genetically.",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "Polar bears are able to control their levels of 'bad' cholesterol by genetic means.",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "Female polar bears are able to survive for about six months without food.",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "It was found that the bones of female polar bears were very weak when they came out of their dens in spring.",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "The polar bear's mechanism for increasing bone density could also be used by people one day.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Complete the table below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 8-13 on your answer sheet.",
+      "first": 8,
+      "last": 13,
+      "body": "Reasons why polar bears should be protected\n\nPeople think of bears as unintelligent and [[8]].\nHowever, this may not be correct. For example:\nIn Tennoji Zoo, a bear has been seen using a branch as a [[9]]. This allowed him to knock down some [[10]].\nA wild polar bear worked out a method of reaching a platform where a [[11]] was located.\nPolar bears have displayed behaviour such as conscious manipulation of objects and activity similar to a [[12]].\nBears may also display emotions. For example:\nThey may make movements suggesting [[13]] if disappointed when hunting.\nThey may form relationships with other species.",
+      "options": [],
+      "questions": [
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "Why we need to protect polar bears",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Polar bears are being increasingly threatened by the effects of climate change, but their disappearance could have far-reaching consequences. They are uniquely adapted to the extreme conditions of the Arctic Circle, where temperatures can reach —40°C. One reason for this is that they have up to 11 centimetres of fat underneath their skin. Humans with comparative levels of adipose tissue would be considered obese and would be likely to suffer from diabetes and heart disease. Yet the polar bear experiences no such consequences."
+     },
+     {
+      "label": "",
+      "text": "A 2014 study by Shi Ping Liu and colleagues sheds light on this mystery. They compared the genetic structure of polar bears with that of their closest relatives from a warmer climate, the brown bears. This allowed them to determine the genes that have allowed polar bears to survive in one of the toughest environments on Earth. Liu and his colleagues found the polar bears had a gene known as APoB, which reduces levels of low-density lipoproteins (LDLs) — a form of ‘bad’ cholesterol. In humans, mutations of this gene are associated with increased risk of heart disease. Polar bears may therefore be an important study model to understand heart disease in humans."
+     },
+     {
+      "label": "",
+      "text": "The genome of the polar bear may also provide the solution for another condition, one that particularly affects our older generation: osteoporosis. This is a disease where bones show reduced density, usually caused by insufficient exercise, reduced calcium intake or food starvation. Bone tissue is constantly being remodelled, meaning that bone is added or removed, depending on nutrient availability and the stress that the bone is under. Female polar bears, however, undergo extreme conditions during every pregnancy. Once autumn comes around, these females will dig maternity dens in the snow and will remain there throughout the winter, both before and after the birth of their cubs. This process results in about six months of fasting, where the female bears have to keep themselves and their cubs alive, depleting their own calcium and calorie reserves. Despite this, their bones remain strong and dense."
+     },
+     {
+      "label": "",
+      "text": "Physiologists Alanda Lennox and Allen Goodship found an explanation for this paradox in 2008. They discovered that pregnant bears were able to increase the density of their bones before they started to build their dens. In addition, six months later, when they finally emerged from the den with their cubs, there was no evidence of significant loss of bone density. Hibernating brown bears do not have this capacity and must therefore resort to major bone reformation in the following spring. If the mechanism of bone remodelling in polar bears can be understood, many bedridden humans, and even astronauts, could potentially benefit. The medical benefits of the polar bear for humanity certainly have their importance in our conservation efforts, but these should not be the only factors taken into consideration. We tend to want to protect animals we think are intelligent and possess emotions, such as elephants and primates. Bears, on the other hand, seem to be perceived as stupid and in many cases violent. And yet anecdotal evidence from the field challenges those assumptions, suggesting for example that polar bears have good problem-solving abilities. A male bear called GoGo in Tennoji Zoo, Osaka, has even been observed making use of a tool to manipulate his environment. The bear used a tree branch on multiple occasions to dislodge a piece of meat hung out of his reach. Problem-solving ability has also been witnessed in wild polar bears, although not as obviously as with GoGo. A calculated move by a male bear involved running and jumping onto barrels in an attempt to get to a photographer standing on a platform four metres high."
+     },
+     {
+      "label": "",
+      "text": "In other studies, such as one by Alison Ames in 2008, polar bears showed deliberate and focussed manipulation. For example, Ames observed bears putting objects in piles and then knocking them over in what appeared to be a game. The study demonstrates that bears are capable of agile and thought-out behaviours. These examples suggest bears have greater creativity and problem-solving abilities than previously thought."
+     },
+     {
+      "label": "",
+      "text": "As for emotions, while the evidence is once again anecdotal, many bears have been seen to hit out at ice and snow — seemingly out of frustration — when they have just missed out on a kill. Moreover, polar bears can form unusual relationships with other species, including playing with the dogs used to pull sleds in the Arctic. Remarkably, one hand-raised polar bear called Agee has formed a close relationship with her owner Mark Dumas to the point where they even swim together. This is even more astonishing since polar bears are known to actively hunt humans in the wild."
+     },
+     {
+      "label": "",
+      "text": "If climate change were to lead to their extinction, this would mean not only the loss of potential breakthroughs in human medicine, but more importantly, the disappearance of an intelligent, majestic animal."
+     }
+    ]
+   },
+   {
+    "groups": [
+     {
+      "type": "matching_headings",
+      "instructions": "Reading Passage 2 has seven paragraphs, A-G.\nChoose the correct heading for each paragraph from the list of headings below.\n\nWrite the correct number, i-ix, in boxes 14-20 on your answer sheet.",
+      "first": 14,
+      "last": 20,
+      "body": "",
+      "options": [
+       {
+        "key": "i",
+        "text": "The areas and artefacts within the pyramid itself"
+       },
+       {
+        "key": "ii",
+        "text": "A difficult task for those involved"
+       },
+       {
+        "key": "iii",
+        "text": "A king who saved his people"
+       },
+       {
+        "key": "iv",
+        "text": "A single certainty among other less definite facts"
+       },
+       {
+        "key": "v",
+        "text": "An overview of the external buildings and areas"
+       },
+       {
+        "key": "vi",
+        "text": "A pyramid design that others copied"
+       },
+       {
+        "key": "vii",
+        "text": "An idea for changing the design of burial structures"
+       },
+       {
+        "key": "viii",
+        "text": "An incredible experience despite the few remains"
+       },
+       {
+        "key": "ix",
+        "text": "The answers to some unexpected questions"
+       }
+      ],
+      "questions": [
+       {
+        "n": 14,
+        "text": "Paragraph A",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "Paragraph B",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "Paragraph C",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "Paragraph D",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "Paragraph E",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "Paragraph F",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Paragraph G",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 21—24 on your answer sheet.",
+      "first": 21,
+      "last": 24,
+      "body": "The Step Pyramid of Djoser\nThe complex that includes the Step Pyramid and its surroundings is considered to be as big as an Egyptian [[21]] of the past. The area outside the pyramid included accommodation that was occupied by [[22]], along with many other buildings and features.\n\nA wall ran around the outside of the complex and a number of false entrances were built into this. In addition, a long [[23]] encircled the wall. As a result, any visitors who had not been invited were cleverly prevented from entering the pyramid grounds unless they knew the [[24]] of the real entrance.",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 23,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.\nWrite the correct letters in boxes 25 and 26 on your answer sheet.\n\nWhich TWO of the following points does the writer make about King Djoser?",
+      "first": 25,
+      "last": 26,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Initially he had to be persuaded to build in stone rather than clay."
+       },
+       {
+        "key": "B",
+        "text": "There is disagreement concerning the length of his reign."
+       },
+       {
+        "key": "C",
+        "text": "He failed to appreciate Imhotep's part in the design of the Step Pyramid."
+       },
+       {
+        "key": "D",
+        "text": "A few of his possessions were still in his tomb when archaeologists found it."
+       },
+       {
+        "key": "E",
+        "text": "He criticised the design and construction of other pyramids in Egypt."
+       }
+      ],
+      "questions": [
+       {
+        "n": 25,
+        "text": "Which TWO of the following points does the writer make about King Djoser?",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "Which TWO of the following points does the writer make about King Djoser?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "The Step Pyramid of Djoser",
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "The pyramids are the most famous monuments of ancient Egypt and still hold enormous interest for people in the present day. These grand, impressive tributes to the memory of the Egyptian kings have become linked with the country even though other cultures, such as the Chinese and Mayan, also built pyramids. The evolution of the pyramid form has been written and argued about for centuries. However, there is no question that, as far as Egypt is concerned, it began with one monument to one king designed by one brilliant architect: the Step Pyramid of Djoser at Saqqara."
+     },
+     {
+      "label": "B",
+      "text": "Djoser was the first king of the Third Dynasty of Egypt and the first to build in stone. Prior to Djoser’s reign, tombs were rectangular monuments made of dried clay brick, which covered underground passages where the deceased person was buried. For reasons which remain unclear, Djoser’s main official, whose name was Imhotep, conceived of building a taller, more impressive tomb for his king by stacking stone slabs on top of one another, progressively making them smaller, to form the shape now known as the Step Pyramid. Djoser is thought to have reigned for 19 years, but some historians and scholars attribute a much longer time for his rule, owing to the number and size of the monuments he built."
+     },
+     {
+      "label": "C",
+      "text": "The Step Pyramid has been thoroughly examined and investigated over the last century, and it is now known that the building process went through many different stages. Historian Marc Van de Mieroop comments on this, writing ‘Much experimentation was involved, which is especially clear in the construction of the pyramid in the center of the complex. It had several plans ... before it became the first Step Pyramid in history, piling six levels on top of one another ... The weight of the enormous mass was a challenge for the builders, who placed the stones at an inward incline in order to prevent the monument breaking up.’"
+     },
+     {
+      "label": "D",
+      "text": "When finally completed, the Step Pyramid rose 62 meters high and was the tallest structure of its time. The complex in which it was built was the size of a city in ancient Egypt and included a temple, courtyards, shrines, and living quarters for the priests. It covered a region of 16 hectares and was surrounded by a wall 10.5 meters high. The wall had 13 false doors cut into it with only one true entrance cut into the south-east corner; the entire wall was then ringed by a trench 750 meters long and 40 meters wide. The false doors and the trench were incorporated into the complex to discourage unwanted visitors. If someone wished to enter, he or she would have needed to know in advance how to find the location of the true opening in the wall. Djoser was so proud of his accomplishment that he broke the tradition of having only his own name on the monument and had Imhotep’s name carved on it as well."
+     },
+     {
+      "label": "E",
+      "text": "The burial chamber of the tomb, where the king’s body was laid to rest, was dug beneath the base of the pyramid, surrounded by a vast maze of long tunnels that had rooms off them to discourage robbers. One of the most mysterious discoveries found inside the pyramid was a large number of stone vessels. Over 40,000 of these vessels, of various forms and shapes, were discovered in storerooms off the pyramid’s underground passages. They are inscribed with the names of rulers from the First and Second Dynasties of Egypt and made from different kinds of stone. There is no agreement among scholars and archaeologists on why the vessels were placed in the tomb of Djoser or what they were supposed to represent. The archaeologist Jean-Philippe Lauer, who excavated most of the pyramid and complex, believes they were originally stored and then given a ‘proper burial’ by Djoser in his pyramid to honor his predecessors. There are other historians, however, who claim the vessels were dumped into the shafts as yet another attempt to prevent grave robbers from getting to the king’s burial chamber."
+     },
+     {
+      "label": "F",
+      "text": "Unfortunately, all of the precautions and intricate design of the underground network did not prevent ancient robbers from finding a way in. Djoser’s grave goods, and even his body, were stolen at some point in the past and all archaeologists found were a small number of his valuables overlooked by the thieves. There was enough left throughout the pyramid and its complex, however, to astonish and amaze the archaeologists who excavated it."
+     },
+     {
+      "label": "G",
+      "text": "Egyptologist Miroslav Verner writes, ‘Few monuments hold a place in human history as significant as that of the Step Pyramid in Saqqara ... It can be said without exaggeration that this pyramid complex constitutes a milestone in the evolution of monumental stone architecture in Egypt and in the world as a whole.’ The Step Pyramid was a revolutionary advance in architecture and became the archetype which all the other great pyramid builders of Egypt would follow."
+     }
+    ]
+   },
+   {
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 27-30 on your answer sheet.",
+      "first": 27,
+      "last": 30,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 27,
+        "text": "The first paragraph tells us about",
+        "options": [
+         {
+          "key": "A",
+          "text": "the kinds of jobs that will be most affected by the growth of AI."
+         },
+         {
+          "key": "B",
+          "text": "the extent to which AI will alter the nature of the work that people do."
+         },
+         {
+          "key": "C",
+          "text": "the proportion of the world's labour force who will have jobs in AI in the future."
+         },
+         {
+          "key": "D",
+          "text": "the difference between ways that embodied and disembodied AI will impact on workers."
+         }
+        ]
+       },
+       {
+        "n": 28,
+        "text": "According to the second paragraph, what is Stella Pachidi's view of the 'knowledge economy'?",
+        "options": [
+         {
+          "key": "A",
+          "text": "It is having an influence on the number of jobs available."
+         },
+         {
+          "key": "B",
+          "text": "It is changing people's attitudes towards their occupations."
+         },
+         {
+          "key": "C",
+          "text": "It is the main reason why the production sector is declining."
+         },
+         {
+          "key": "D",
+          "text": "It is a key factor driving current developments in the workplace."
+         }
+        ]
+       },
+       {
+        "n": 29,
+        "text": "What did Pachidi observe at the telecommunications company?",
+        "options": [
+         {
+          "key": "A",
+          "text": "staff disagreeing with the recommendations of AI"
+         },
+         {
+          "key": "B",
+          "text": "staff feeling resentful about the intrusion of AI in their work"
+         },
+         {
+          "key": "C",
+          "text": "staff making sure that AI produces the results that they want"
+         },
+         {
+          "key": "D",
+          "text": "staff allowing AI to carry out tasks they ought to do themselves"
+         }
+        ]
+       },
+       {
+        "n": 30,
+        "text": "In his recently published research, Ewan McGaughey",
+        "options": [
+         {
+          "key": "A",
+          "text": "challenges the idea that redundancy is a negative thing."
+         },
+         {
+          "key": "B",
+          "text": "shows the profound effect of mass unemployment on society."
+         },
+         {
+          "key": "C",
+          "text": "highlights some differences between past and future job losses."
+         },
+         {
+          "key": "D",
+          "text": "illustrates how changes in the job market can be successfully handled."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary using the list of words, A-G, below.\n\nWrite the correct letter, A-G, in boxes 31-34 on your answer sheet.",
+      "first": 31,
+      "last": 34,
+      "body": "The 'algorithmication' of jobs\nStella Pachidi of Cambridge Judge Business School has been focusing on the 'algorithmication' of jobs which rely not on production but on [[31]]. While monitoring a telecommunications company, Pachidi observed a growing [[32]] on the recommendations made by AI, as workers begin to learn through the 'algorithm's eyes'. Meanwhile, staff are deterred from experimenting and using their own [[33]], and are therefore prevented from achieving innovation.\n\nTo avoid the kind of situations which Pachidi observed, researchers are trying to make AI's decision-making process easier to comprehend, and to increase users' [[34]] with regard to the technology.",
+      "options": [
+       {
+        "key": "A",
+        "text": "pressure"
+       },
+       {
+        "key": "B",
+        "text": "satisfaction"
+       },
+       {
+        "key": "C",
+        "text": "intuition"
+       },
+       {
+        "key": "D",
+        "text": "promotion"
+       },
+       {
+        "key": "E",
+        "text": "reliance"
+       },
+       {
+        "key": "F",
+        "text": "confidence"
+       },
+       {
+        "key": "G",
+        "text": "information"
+       }
+      ],
+      "questions": [
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Look at the following statements (Questions 35-40) and the list of people below.\n\nMatch each statement with the correct person, A, B or C.\n\nWrite the correct letter, A, B or C, in boxes 35-40 on your answer sheet.\n\nNB You may use any letter more than once.",
+      "first": 35,
+      "last": 40,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Stella Pachidi"
+       },
+       {
+        "key": "B",
+        "text": "Hamish Low"
+       },
+       {
+        "key": "C",
+        "text": "Ewan McGaughey"
+       }
+      ],
+      "questions": [
+       {
+        "n": 35,
+        "text": "Greater levels of automation will not result in lower employment.",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "There are several reasons why AI is appealing to businesses.",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "AI's potential to transform people's lives has parallels with major cultural shifts which occurred in previous eras.",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "It is important to be aware of the range of problems that AI causes.",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "People are going to follow a less conventional career path than in the past.",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "Authorities should take measures to ensure that there will be adequately paid work for everyone.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "The future of work",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "According to a leading business consultancy, 3—14% of the global workforce will need to switch to a different occupation within the next 10-15 years, and all workers will need to adapt as their occupations evolve alongside increasingly capable machines. Automation — or ‘embodied artificial intelligence’ (AI) — is one aspect of the disruptive effects of technology on the labour market. ‘Disembodied AI’, like the algorithms running in our smartphones, is another."
+     },
+     {
+      "label": "",
+      "text": "Dr Stella Pachidi from Cambridge Judge Business School believes that some of the most fundamental changes are happening as a result of the ‘algorithmication’ of jobs that are dependent on data rather than on production — the so-called knowledge economy. Algorithms are capable of learning from data to undertake tasks that previously needed human judgement, such as reading legal contracts, analysing medical scans and gathering market intelligence."
+     },
+     {
+      "label": "",
+      "text": "‘In many cases, they can outperform humans,’ says Pachidi. ‘Organisations are attracted to using algorithms because they want to make choices based on what they consider is “perfect information”, as well as to reduce costs and enhance productivity.’"
+     },
+     {
+      "label": "",
+      "text": "“But these enhancements are not without consequences,’ says Pachidi. ‘If routine cognitive tasks are taken over by AI, how do professions develop their future experts?’ she asks. ‘One way of learning about a job is “legitimate peripheral participation” — a novice stands next to experts and learns by observation. If this isn’t happening, then you need to find new ways to learn.”"
+     },
+     {
+      "label": "",
+      "text": "Another issue is the extent to which the technology influences or even controls the workforce. For over two years, Pachidi monitored a telecommunications company. ‘The way telecoms salespeople work is through personal and frequent contact with clients, using the benefit of experience to assess a situation and reach a decision. However, the company had started using an algorithm that defined when account managers should contact certain customers about which kinds of campaigns and what to offer them.’"
+     },
+     {
+      "label": "",
+      "text": "The algorithm — usually built by external designers — often becomes the keeper of knowledge, she explains. In cases like this, Pachidi believes, a short-sighted view begins to creep into working practices whereby workers learn through the ‘algorithm’s eyes’ and become dependent on its instructions. Alternative explorations — where experimentation and human instinct lead to progress and new ideas — are effectively discouraged."
+     },
+     {
+      "label": "",
+      "text": "Pachidi and colleagues even observed people developing strategies to make the algorithm work to their own advantage. ‘We are seeing cases where workers feed the algorithm with false data to reach their targets,’ she reports. It’s scenarios like these that many researchers are working to avoid. Their objective is to make AI technologies more trustworthy and transparent, so that organisations and individuals understand how AI decisions are made. In the meantime, says Pachidi, ‘We need to make sure we fully understand the dilemmas that this new world raises regarding expertise, occupational boundaries and control.”"
+     },
+     {
+      "label": "",
+      "text": "Economist Professor Hamish Low believes that the future of work will involve major transitions across the whole life course for everyone: ‘The traditional trajectory of full-time education followed by full-time work followed by a pensioned retirement is a thing of the past,’ says Low. Instead, he envisages a multistage employment life: one where retraining happens across the life course, and where multiple jobs and no job happen by choice at different stages."
+     },
+     {
+      "label": "",
+      "text": "On the subject of job losses, Low believes the predictions are founded on a fallacy: ‘It assumes that the number of jobs is fixed. If in 30 years, half of 100 jobs are being carried out by robots, that doesn’t mean we are left with just 50 jobs for humans. The number of jobs will increase: we would expect there to be 150 jobs.’"
+     },
+     {
+      "label": "",
+      "text": "Dr Ewan McGaughey, at Cambridge’s Centre for Business Research and King’s College London, agrees that ‘apocalyptic’ views about the future of work are misguided. ‘It’s the laws that restrict the supply of capital to the job market, not the advent of new technologies that causes unemployment.’"
+     },
+     {
+      "label": "",
+      "text": "His recently published research answers the question of whether automation, AI and robotics will mean a ‘jobless future’ by looking at the causes of unemployment. ‘History is clear that change can mean redundancies. But social policies can tackle this through retraining and redeployment.’"
+     },
+     {
+      "label": "",
+      "text": "He adds: ‘If there is going to be change to jobs as a result of AI and robotics then I’d like to see governments seizing the opportunity to improve policy to enforce good job security. We can “reprogramme” the law to prepare for a fairer future of work and leisure.’ McGaughey’s findings are a call to arms to leaders of organisations, governments and banks to pre-empt the coming changes with bold new policies that guarantee full employment, fair incomes and a thriving economic democracy."
+     },
+     {
+      "label": "",
+      "text": "‘The promises of these new technologies are astounding. They deliver humankind the capacity to live in a way that nobody could have once imagined,’ he adds. ‘Just as the industrial revolution brought people past subsistence agriculture, and the corporate revolution enabled mass production, a third revolution has been pronounced. But it will not only be one of technology. The next revolution will be social.’"
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "FALSE",
+   "2": "FALSE",
+   "3": "NOT GIVEN",
+   "4": "TRUE",
+   "5": "TRUE",
+   "6": "FALSE",
+   "7": "TRUE",
+   "8": "violent",
+   "9": "tool",
+   "10": "meat",
+   "11": "photographer",
+   "12": "game",
+   "13": "frustration",
+   "14": "iv",
+   "15": "vii",
+   "16": "ii",
+   "17": "v",
+   "18": "i",
+   "19": "viii",
+   "20": "vi",
+   "21": "city",
+   "22": "priests",
+   "23": "trench",
+   "24": "location",
+   "25": "B (IN EITHER ORDER)",
+   "26": "D (IN EITHER ORDER)",
+   "27": "B",
+   "28": "D",
+   "29": "C",
+   "30": "D",
+   "31": "G",
+   "32": "E",
+   "33": "C",
+   "34": "F",
+   "35": "B",
+   "36": "A",
+   "37": "C",
+   "38": "A",
+   "39": "B",
+   "40": "C"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe charts below show the changes in ownership of electrical appliances and\namount of time spent doing housework in households in one country between\n1920 and 2019.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 29,
+   "kind": "mixed",
+   "image": "figures/p029.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nIn some countries, more and more people are becoming interested in finding\nout about the history of the house or building they live in.\n\nWhat are the reasons for this?\n\nHow can people research this?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0,
+   "kind": "two_part_question"
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "People you study/work with",
+    "questions": [
+     "Who do you spend most time studying/working with? [Why?]",
+     "What kinds of things do you study/work on with other people? [Why?]",
+     "Are there times when you study/work better by yourself? [Why/Why not?]",
+     "Is it important to like the people you study/work with? [Why/Why not?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe a tourist attraction you enjoyed visiting.",
+   "points": [
+    "what this tourist attraction is",
+    "when and why you visited it",
+    "what you did there",
+    "and explain why you enjoyed visiting this tourist attraction."
+   ],
+   "rounding_off": [
+    "You will have to talk about the topic for one to two minutes.",
+    "You have one minute to think about what you are going to say.",
+    "You can make some notes to help you if you wish."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Different kinds of tourist attractions",
+    "questions": [
+     "What are the most popular tourist attractions in your country?",
+     "How do the types of tourist attractions that younger people like to visit compare with those that older people like to visit?",
+     "Do you agree that some tourist attractions (e.g. national museums/galleries) should be free to visit?"
+    ]
+   },
+   {
+    "topic": "The importance of international tourism",
+    "questions": [
+     "Why is tourism important to a country?",
+     "What are the benefits to individuals of visiting another country as tourists?",
+     "How necessary is it for tourists to learn the language of the country they're visiting?"
+    ]
+   }
+  ],
+  "kind": "place"
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

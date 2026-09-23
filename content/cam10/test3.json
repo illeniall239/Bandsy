@@ -1185,12 +1185,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe charts below show what UK graduate and postgraduate students who did\nnot go into full-time work did after leaving college in 2008.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 78,
+   "kind": "pie_chart",
    "image": "figures/p078.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nCountries are becoming more and more similar because people are able to\nbuy the same products anywhere in the world.\n\nDo you think this is a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "opinion"
   }
  ],
  "speaking": {
@@ -1232,7 +1234,8 @@
      "How do you think children's activities will change in the future? Will this be a positive change?"
     ]
    }
-  ]
+  ],
+  "kind": "person"
  },
  "flags": {
   "listening": [],

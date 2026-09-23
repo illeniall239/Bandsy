@@ -974,12 +974,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe charts below show the percentage of water used for different purposes in\nsix areas of the world.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 31,
+   "kind": "pie_chart",
    "image": "figures/p031.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nGovernments should spend money on railways rather than roads.\n\nTo what extent do you agree or disagree with this statement?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "opinion"
   }
  ],
  "speaking": {
@@ -1025,7 +1027,8 @@
      "Do you agree that there is a right age for young adults to stop living with their parents? Why is that?"
     ]
    }
-  ]
+  ],
+  "kind": "place"
  },
  "flags": {
   "listening": [],

@@ -1031,12 +1031,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe diagram below shows how electricity is generated in a hydroelectric\npower station.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 64,
+   "kind": "process",
    "image": "figures/p064.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people say that music is a good way of bringing people of different\ncultures and ages together.\n\nTo what extent do you agree or disagree with this opinion?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "opinion"
   }
  ],
  "speaking": {
@@ -1082,7 +1084,8 @@
      "Do you think that successful people are always happy people?"
     ]
    }
-  ]
+  ],
+  "kind": "experience"
  },
  "flags": {
   "listening": [],

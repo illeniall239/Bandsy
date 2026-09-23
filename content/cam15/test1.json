@@ -1184,12 +1184,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe chart below shows the results of a survey about people’s coffee and tea\nbuying and drinking habits in five Australian\nciti\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 30,
+   "kind": "bar_chart",
    "image": "figures/p030.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nIn some countries, owning a home rather than renting one is very important\nfor people.\n\nWhy might this be the case?\n\nDo you think this is a positive or negative situation?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "opinion"
   }
  ],
  "speaking": {
@@ -1231,7 +1233,8 @@
      "What skills are needed to be a successful hotel manager?"
     ]
    }
-  ]
+  ],
+  "kind": "place"
  },
  "flags": {
   "listening": [],

@@ -1193,12 +1193,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe diagrams below show the life cycle of a species of large fish called the\nsalmon.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 102,
+   "kind": "process",
    "image": "figures/p102.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nMany museums charge for admission while others are free.\n\nDo you think the advantages of charging people for admission to museums\noutweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "advantages_disadvantages"
   }
  ],
  "speaking": {
@@ -1240,7 +1242,8 @@
      "Do you think people will consider that having lots of possessions is a sign of success in the future? Why?"
     ]
    }
-  ]
+  ],
+  "kind": "object"
  },
  "flags": {
   "listening": [],

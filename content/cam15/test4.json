@@ -1044,12 +1044,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe chart below shows what Anthropology graduates from one university\ndid after finishing their undergraduate degree course. The table shows the\nSalaries of the anthropologists in work after five years.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 95,
+   "kind": "mixed",
    "image": "figures/p095.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nIn some cultures, children are often told that they can achieve anything if they\ntry hard enough.\n\nWhat are the advantages and disadvantages of giving children this message?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "advantages_disadvantages"
   }
  ],
  "speaking": {
@@ -1092,7 +1094,8 @@
      "Who should pay for scientific research — governments or private companies?"
     ]
    }
-  ]
+  ],
+  "kind": "media"
  },
  "flags": {
   "listening": [],

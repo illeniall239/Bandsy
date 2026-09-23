@@ -1060,12 +1060,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe diagram below shows how geothermal energy is used to produce |\n| electricity. |\n| Summarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 92,
+   "kind": "process",
    "image": "figures/p092.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people believe that allowing children to make their own choices on\neveryday matters (such as food, clothes and entertainment) is likely to result\nin a society of individuals who only think about their own wishes. Other people\nbelieve that it is important for children to make decisions about matters that\naffect them.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "discussion"
   }
  ],
  "speaking": {
@@ -1110,7 +1112,8 @@
      "Why do some people become workaholics?"
     ]
    }
-  ]
+  ],
+  "kind": "experience"
  },
  "flags": {
   "listening": [],

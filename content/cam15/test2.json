@@ -1241,12 +1241,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe graph below shows the number of tourists visiting a particular Caribbean\nisland between 2010 and 2017.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 51,
+   "kind": "line_graph",
    "image": "figures/p051.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nIn the future, nobody will buy printed newspapers or books because they will be\nable to read everything they want online without paying.\n\nTo what extent do you agree or disagree with this statement?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "opinion"
   }
  ],
  "speaking": {
@@ -1292,7 +1294,8 @@
      "How possible is it to avoid the culture of consumerism?"
     ]
    }
-  ]
+  ],
+  "kind": "object"
  },
  "flags": {
   "listening": [],

@@ -1305,12 +1305,14 @@
    "task": 1,
    "prompt": "WRITIN\nYou should spend about 20 minutes on this task.\n\nThe tables below give information about sales of Fairtrade*-labelled coffee\nand bananas in 1999 and 2004 in five European countries.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 55,
+   "kind": "table",
    "image": "figures/p055.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people think that all university students should study whatever they\nlike. Others believe that they should only be allowed to study subjects that\nwill be useful in the future, such as those related to science and technology.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "discussion"
   }
  ],
  "speaking": {
@@ -1352,7 +1354,8 @@
      "What are the most important qualities that a good business person needs? Why is that?"
     ]
    }
-  ]
+  ],
+  "kind": "place"
  },
  "flags": {
   "listening": [],

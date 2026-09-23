@@ -1,5 +1,5 @@
 // Shared chrome for every non-exam screen (Swiss Neutral): wordmark left, one white pill nav, an optional right slot.
-const LINKS = [["#/", "Home"], ["#/tests", "Tests"], ["#/vocab", "Vocabulary"], ["#/history", "History"], ["#/settings", "Settings"]];
+const LINKS = [["#/", "Home"], ["#/tests", "Tests"], ["#/practice", "Practice"], ["#/vocab", "Words"], ["#/history", "History"], ["#/settings", "Settings"]];
 
 export function TopNav({ right }) {
   const here = location.hash.split("?")[0] || "#/";

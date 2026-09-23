@@ -1100,12 +1100,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe charts below show the average percentages in typical meals of three\ntypes of nutrients, all of which may be unhealthy if eaten too much.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 21,
+   "kind": "pie_chart",
    "image": "figures/p021.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people believe that it is best to accept a bad situation, such as an\nunsatisfactory job or shortage of money. Others argue that it is better to try\nand improve such situations.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "discussion"
   }
  ],
  "speaking": {
@@ -1148,7 +1150,8 @@
      "Will electronic books ever completely replace printed books in the future?"
     ]
    }
-  ]
+  ],
+  "kind": "media"
  },
  "flags": {
   "listening": [],

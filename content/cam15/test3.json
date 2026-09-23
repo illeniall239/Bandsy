@@ -1157,12 +1157,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe diagram below shows how instant noodles are manufactured.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 73,
+   "kind": "process",
    "image": "figures/p073.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people say that advertising is extremely successful at persuading us\nto buy things. Other people think that advertising is so common that we no\nlonger pay attention to it.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "discussion"
   }
  ],
  "speaking": {
@@ -1205,7 +1207,8 @@
      "In what ways could famous people use their influence to do good things in the world?"
     ]
    }
-  ]
+  ],
+  "kind": "person"
  },
  "flags": {
   "listening": [],

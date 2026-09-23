@@ -20,7 +20,10 @@ ROOT = Path(__file__).resolve().parent.parent
 BOOKS = ROOT / "Cambridge-lists-main"
 HEADER = ocr.HEADER
 
-def book_pdf(book): return next((BOOKS / f"Cambridge IELTS {book:02d}").glob("*.pdf"))
+def book_pdf(book):
+    """Books 1-15 keep the PDF in a per-book folder; 16+ sit at the top level as Cambridge-IELTS-NN-Academic.pdf."""
+    folder = BOOKS / f"Cambridge IELTS {book:02d}"
+    return next(folder.glob("*.pdf"), None) or next(BOOKS.glob(f"Cambridge-IELTS-{book}-*.pdf"))
 def work(book):
     w = ROOT / "work" / f"cam{book:02d}"
     for d in ("ocr", "pages", "units"): (w / d).mkdir(parents=True, exist_ok=True)
@@ -55,7 +58,8 @@ def map_book(book):
     first = lambda rx, lo=1: next(n for n in range(lo, npages + 1) if re.search(rx, head(n), re.M))
     top = lambda n: (text(w, n, False).splitlines() or [""])[0]
     audio = next(n for n in range(1, npages + 1) if top(n).startswith("Audioscripts"))       # first line only: the contents page lists it too
-    keys = next(n for n in range(audio, npages + 1) if re.search(r"(?i)answer keys", top(n)))   # "Answer Keys" in Cambridge 13
+    two = lambda n: " ".join(text(w, n, False).splitlines()[:2])   # Cambridge 16 wraps it: "Listening and / Reading answer keys"
+    keys = next(n for n in range(audio, npages + 1) if re.search(r"(?i)answer keys", two(n)))   # "Answer Keys" in Cambridge 13
     sample = next((n for n in range(keys, npages + 1) if re.search(r"(?i)^(Model and )?Sample .*Writing", head(n), re.M)), npages + 1)
     # General Training pages (Cambridge 10 prints two GT reading/writing tests after the four Academic ones, and their keys
     # after the Academic keys): the Academic tests end where they begin
@@ -159,11 +163,19 @@ def run_ab(w, uid, spec, prompt_body, schema, images=()):
     for v in "AB" if VERIFY[0] else "A":
         f = w / "units" / f"{uid}.{v}.json"
         if not f.exists():
-            W(f, model_json(spec, f"{PROMPTS[v]}\n{GUIDE}\n\n{prompt_body}", schema, images)); print(f"  {uid} {v}")
+            ask = lambda: model_json(spec, f"{PROMPTS[v]}\n{GUIDE}\n\n{prompt_body}", schema, images)
+            out = ask() or ask()   # the verbatim-text filter fires now and then on a page that reads fine on a second try
+            if out is None: sys.exit(f"{uid} {v}: the model refused this page twice (content filter)")
+            W(f, out); print(f"  {uid} {v}")
         res[v] = J(f)
     for g in res["A"].get("groups") or [g for p in res["A"].get("parts", []) for g in p["groups"]]:
         if not g["questions"]:  # completion groups: the [[n]] gaps in body are the questions
             g["questions"] = [{"n": int(n), "text": "", "options": []} for n in re.findall(r"\[\[(\d+)\]\]", g["body"])]
+        # "Choose TWO letters": one question on the page, but both numbers are answered
+        if g["type"] == "multiple_choice_multi" and [q["n"] for q in g["questions"]] != list(range(g["first"], g["last"] + 1)):
+            first = g["questions"][0] if g["questions"] else {"n": g["first"], "text": "", "options": []}
+            first["n"] = g["first"]
+            g["questions"] = [first] + [{"n": n, "text": "", "options": []} for n in range(g["first"] + 1, g["last"] + 1)]
     W(w / "units" / f"{uid}.A.json", res["A"])
     flags = validate(res["A"]) + (compare(res["A"], res["B"]) if "B" in res else [])
     W(w / "units" / f"{uid}.diff.json", flags)
@@ -204,7 +216,8 @@ def _validate(d):
         if gaps and gaps != qn:
             flags.append({"path": f"group {g['first']}-{g['last']}", "check": "[[n]] gaps vs questions", "A": gaps})
         if g["type"] in ("multiple_choice", "multiple_choice_multi", "matching_headings", "matching_features", "matching_sentence_endings") \
-                and not g["options"] and not all(q["options"] for q in g["questions"]):
+                and not g["options"] and not (all(q["options"] for q in g["questions"])
+                     or (g["type"] == "multiple_choice_multi" and g["questions"] and g["questions"][0]["options"])):   # a "choose TWO" pair prints one option list
             flags.append({"path": f"group {g['first']}-{g['last']}", "check": "letter question without options", "A": g["instructions"]})
     if nums and nums != list(range(nums[0], nums[0] + len(nums))):
         flags.append({"path": "unit", "check": "question numbers not consecutive", "A": nums})
@@ -1519,6 +1532,8 @@ def tables_from_pages(w, uid, data, pages, vision_spec):
         body = J(cache)["body"].replace("\r", "")
         if gaps_of(body) == expected(g):
             g["body"] = body
+            # "Complete the table below" over a one-column box of notes (Cambridge 16 Test 1 Q8-13): it is notes, not a table
+            if grid and "|" not in body: g["type"] = "note_completion"
             if not any(q["text"] for q in g["questions"]):   # questions were derived from the gaps: rebuild them from the repaired body
                 g["questions"] = [{"n": n, "text": "", "options": []} for n in expected(g)]
 
@@ -1671,9 +1686,10 @@ def compare(A, B):
 
 # ---------- assemble ----------
 def audio_files(book, test):
-    d = BOOKS / f"Cambridge IELTS {book:02d}"
-    files = sorted(p for p in d.rglob("*") if p.suffix.lower() in (".mp3", ".m4a", ".wma"))
-    pat = [re.compile(rf"test\s*_?{test}(?!\d)", re.I), re.compile(rf"^0{test}0[1-4]\."), re.compile(rf"T{test}S[1-4]\.", re.I)]  # ponytail: covers books 1-15 naming (C14T1S1.mp3)
+    d = next((x for x in (BOOKS / f"Cambridge IELTS {book:02d}", BOOKS / f"Cambridge IELTS {book} Audio") if x.is_dir()), None)
+    files = sorted(p for p in d.rglob("*") if p.suffix.lower() in (".mp3", ".m4a", ".wma")) if d else []
+    # every naming the books use: "Test 1 Part 1", "Test-1-Part-1", "0101.mp3", "C14T1S1.mp3", "ELT_IELTS17_t1_audio1"
+    pat = [re.compile(rf"test[\s_-]*{test}(?!\d)", re.I), re.compile(rf"^0{test}0[1-4]\."), re.compile(rf"T{test}S[1-4]\.", re.I), re.compile(rf"_t{test}_", re.I)]
     hit = [p for p in files if any(r.search(p.name) for r in pat)]
     if not hit:   # Cambridge 12 numbers its tests 5-8 ("Test 5 Section 1.mp3"): take the book's n-th test
         nums = sorted({int(m[1]) for p in files if (m := re.search(r"(?i)test\s*_?(\d+)", p.name))})
@@ -1864,6 +1880,33 @@ def apply_proofread(w, t, passages):
         done.setdefault(id(q), []).append((wrong, right))
     return n
 
+T1_KINDS = ["process", "pie_chart", "bar_chart", "line_graph", "table", "map", "mixed"]
+T2_KINDS = ["opinion", "discussion", "advantages_disadvantages", "problem_solution", "two_part_question"]
+SPK_KINDS = ["person", "place", "object", "event", "experience", "activity", "media", "other"]
+TAGS_SCHEMA = {"type": "object", "properties": {"tests": {"type": "array", "items": {"type": "object", "properties": {
+    "test": {"type": "integer"}, "task1": {"type": "string", "enum": T1_KINDS}, "task2": {"type": "string", "enum": T2_KINDS},
+    "speaking": {"type": "string", "enum": SPK_KINDS}}, "required": ["test", "task1", "task2", "speaking"]}}}, "required": ["tests"]}
+
+def tags(book, text_spec):
+    """One text call per book (paid, cached in units/tags.json): what each Writing task and Part 2 cue card IS, so the
+    Practice page can offer "process diagrams" or "pie charts" the way it offers "map labelling" for Listening."""
+    w = work(book)
+    cache = w / "units" / "tags.json"
+    if cache.exists(): return J(cache)
+    blocks = []
+    for t in "1234":
+        t1, t2 = J(w / "units" / f"t{t}_writing_task_1.A.json"), J(w / "units" / f"t{t}_writing_task_2.A.json")
+        spk = J(w / "units" / f"t{t}_speaking.A.json")
+        blocks.append(f"TEST {t}\nTask 1: {t1['prompt'][:500]}\nTask 2: {t2['prompt'][:500]}\nSpeaking Part 2 cue: {spk['part2']['cue']}")
+    out = model_json(text_spec, "Classify each IELTS Academic test below.\n"
+                     "task1: what the Task 1 visual is (process = a diagram of stages or how something is made or works; "
+                     "map = maps or plans of a place, usually over time; mixed = two different visual kinds in one task).\n"
+                     "task2: the essay question type.\nspeaking: what the Part 2 cue card asks the candidate to describe.\n\n"
+                     + "\n\n".join(blocks), TAGS_SCHEMA)
+    W(cache, out)
+    print(f"  tags: {[(x['test'], x['task1'], x['task2'], x['speaking']) for x in out['tests']]}")
+    return out
+
 def assemble(book):
     w, m = work(book), J(work(book) / "map.json")
     U = lambda uid: J(w / "units" / f"{uid}.A.json")
@@ -1884,13 +1927,16 @@ def assemble(book):
         kflags += D(f"keys_p{n}")
     tr = U("transcripts") if (w / "units" / "transcripts.A.json").exists() else J(w / "units" / "transcripts.json")
     outdir = ROOT / "content" / f"cam{book:02d}"; (outdir / "figures").mkdir(parents=True, exist_ok=True)
+    tagged = J(w / "units" / "tags.json")["tests"] if (w / "units" / "tags.json").exists() else []
     for t, secs in m["tests"].items():
+        tg = next((x for x in tagged if x["test"] == int(t)), None)
         test = {"book": book, "test": int(t), "module": "academic",
                 "listening": {**U(f"t{t}_listening"), "answers": keys.get((int(t), "listening"), {}),
                               "audio": audio_files(book, int(t)), "transcript": tr.get(t, [])},
                 "reading": {"passages": [U(f"t{t}_reading_passage_{i}") for i in (1, 2, 3)], "answers": keys.get((int(t), "reading"), {})},
-                "writing": [U(f"t{t}_writing_task_1"), U(f"t{t}_writing_task_2")],
-                "speaking": U(f"t{t}_speaking"),
+                "writing": [{**U(f"t{t}_writing_task_1"), **({"kind": tg["task1"]} if tg else {})},
+                            {**U(f"t{t}_writing_task_2"), **({"kind": tg["task2"]} if tg else {})}],
+                "speaking": {**U(f"t{t}_speaking"), **({"kind": tg["speaking"]} if tg else {})},
                 "flags": {s: D(f"t{t}_{s}") for s in secs} | {"keys": kflags}}
         apply_proofread(w, t, test["reading"]["passages"])
         test = spell_fix_all(test)
@@ -1923,7 +1969,7 @@ def figures(w, node, figdir):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("step", choices=["ocr", "map", "units", "scripts", "proofread", "turns", "assemble", "all"])
+    ap.add_argument("step", choices=["ocr", "map", "units", "scripts", "proofread", "turns", "tags", "assemble", "all"])
     ap.add_argument("--book", type=int, required=True)
     ap.add_argument("--text", help="provider:model for question/speaking structuring (required for units)")
     ap.add_argument("--vision", help="provider:model for answer-key pages (required for units)")
@@ -1941,6 +1987,9 @@ def main():
     if a.step == "proofread":
         if not a.text: ap.error("--text is required for proofread, no defaults")
         proofread(a.book, a.text)            # rebuild only the audioscripts (no model calls)
+    if a.step == "tags":
+        if not a.text: ap.error("--text is required for tags, no defaults")
+        tags(a.book, a.text); print(f"model tokens this run: {TOKENS[0]:,}")
     if a.step in ("assemble", "all"): assemble(a.book)
 
 if __name__ == "__main__":

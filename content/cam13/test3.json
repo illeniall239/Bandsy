@@ -1008,12 +1008,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe bar chart below shows the top ten countries for the production and\nconsumption of electricity in 2014,\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 72,
+   "kind": "bar_chart",
    "image": "figures/p072.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nSome people say History is one of the most important school subjects. Other\npeople think that, in today’s world, subjects like Science and Technology are\nmore important than History.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "discussion"
   }
  ],
  "speaking": {
@@ -1056,7 +1058,8 @@
      "What do you think will be the future impact of technology on communication in the workplace?"
     ]
    }
-  ]
+  ],
+  "kind": "event"
  },
  "flags": {
   "listening": [],

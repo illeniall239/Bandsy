@@ -1281,12 +1281,14 @@
    "task": 1,
    "prompt": "You should spend about 20 minutes on this task.\n\nThe plans below show the layout of a university's sports centre now, and how\nit will look after redevelopment.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
    "figure_pdf_page": 93,
+   "kind": "map",
    "image": "figures/p093.png"
   },
   {
    "task": 2,
    "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nIn spite of the advances made in agriculture, many people around the world still\ngo hungry.\n\nWhy is this the case?\n\nWhat can be done about this problem?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
-   "figure_pdf_page": 0
+   "figure_pdf_page": 0,
+   "kind": "problem_solution"
   }
  ],
  "speaking": {
@@ -1329,7 +1331,8 @@
      "Do you think that companies' main form of advertising will be via social media in the future?"
     ]
    }
-  ]
+  ],
+  "kind": "media"
  },
  "flags": {
   "listening": [],

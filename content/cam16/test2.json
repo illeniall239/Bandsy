@@ -1,0 +1,1262 @@
+{
+ "book": 16,
+ "test": 2,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ANDIOR A NUMBER for each answer.",
+      "first": 1,
+      "last": 10,
+      "figure_pdf_page": 32,
+      "body": "Copying photos to digital format\nName of company: Picturerep\n\nRequirements\n- Maximum size of photos is 30 cm, minimum size 4 cm.\n- Photos must not be in a [[1]] or an album.\n\nCost\n- The cost for 360 photos is £[[2]]\n- Before the completed order is sent, [[3]] (including one disk) is required.\n\nServices included in the price\n- Photos can be placed in a folder, e.g. with the name [[4]]\n- [[5]] and contrast can be improved if necessary.\n- Photos which are very fragile will be scanned by [[6]]\n\nSpecial restore service (costs extra)\n- It may be possible to remove an object from a photo, or change the [[7]]\n- A photo which is not correctly in [[8]] cannot be fixed.\n\nOther information\n- Orders are completed within [[9]]\n- Send the photos in a box (not [[10]])",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       }
+      ],
+      "image": "figures/p032.png"
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Questions 11-15\n\nChoose the correct letter, A, B or C.",
+      "first": 11,
+      "last": 15,
+      "figure_pdf_page": 0,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 11,
+        "text": "Dartfield House school used to be",
+        "options": [
+         {
+          "key": "A",
+          "text": "a tourist information centre."
+         },
+         {
+          "key": "B",
+          "text": "a private home."
+         },
+         {
+          "key": "C",
+          "text": "a local council building."
+         }
+        ]
+       },
+       {
+        "n": 12,
+        "text": "What is planned with regard to the lower school?",
+        "options": [
+         {
+          "key": "A",
+          "text": "All buildings on the main site will be improved."
+         },
+         {
+          "key": "B",
+          "text": "The lower school site will be used for new homes."
+         },
+         {
+          "key": "C",
+          "text": "Additional school buildings will be constructed on the lower school site."
+         }
+        ]
+       },
+       {
+        "n": 13,
+        "text": "The catering has been changed because of",
+        "options": [
+         {
+          "key": "A",
+          "text": "long queuing times."
+         },
+         {
+          "key": "B",
+          "text": "changes to the school timetable."
+         },
+         {
+          "key": "C",
+          "text": "dissatisfaction with the menus."
+         }
+        ]
+       },
+       {
+        "n": 14,
+        "text": "Parents are asked to",
+        "options": [
+         {
+          "key": "A",
+          "text": "help their children to decide in advance which serving point to use."
+         },
+         {
+          "key": "B",
+          "text": "make sure their children have enough money for food."
+         },
+         {
+          "key": "C",
+          "text": "advise their children on healthy food to eat."
+         }
+        ]
+       },
+       {
+        "n": 15,
+        "text": "What does the speaker say about the existing canteen?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Food will still be served there."
+         },
+         {
+          "key": "B",
+          "text": "Only staff will have access to it."
+         },
+         {
+          "key": "C",
+          "text": "Pupils can take their food into it."
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Questions 16-18\n\nWhat comment does the speaker make about each of the following serving points in the Food Hall?\n\nChoose THREE answers from the box and write the correct letter, A-D, next to Questions 16-18.",
+      "first": 16,
+      "last": 18,
+      "figure_pdf_page": 34,
+      "body": "Comments\n\nFood available at serving points in Food Hall",
+      "options": [
+       {
+        "key": "A",
+        "text": "pupils help to plan menus"
+       },
+       {
+        "key": "B",
+        "text": "only vegetarian food"
+       },
+       {
+        "key": "C",
+        "text": "different food every week"
+       },
+       {
+        "key": "D",
+        "text": "daily change in menu"
+       }
+      ],
+      "questions": [
+       {
+        "n": 16,
+        "text": "World Adventures",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "Street Life",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "Speedy Italian",
+        "options": []
+       }
+      ],
+      "image": "figures/p034.png"
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Questions 19 and 20\n\nChoose TWO letters, A-E.",
+      "first": 19,
+      "last": 20,
+      "figure_pdf_page": 0,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 19,
+        "text": "Which TWO optional after-school lessons are new?",
+        "options": [
+         {
+          "key": "A",
+          "text": "swimming"
+         },
+         {
+          "key": "B",
+          "text": "piano"
+         },
+         {
+          "key": "C",
+          "text": "acting"
+         },
+         {
+          "key": "D",
+          "text": "cycling"
+         },
+         {
+          "key": "E",
+          "text": "theatre sound and lighting"
+         }
+        ]
+       },
+       {
+        "n": 20,
+        "text": "",
+        "options": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Questions 21-24\n\nChoose the correct letter, A, B or C.",
+      "first": 21,
+      "last": 24,
+      "figure_pdf_page": 0,
+      "body": "Assignment on sleep and dreams",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "Luke read that one reason why we often forget dreams is that",
+        "options": [
+         {
+          "key": "A",
+          "text": "our memories cannot cope with too much information."
+         },
+         {
+          "key": "B",
+          "text": "we might otherwise be confused about what is real."
+         },
+         {
+          "key": "C",
+          "text": "we do not think they are important."
+         }
+        ]
+       },
+       {
+        "n": 22,
+        "text": "What do Luke and Susie agree about dreams predicting the future?",
+        "options": [
+         {
+          "key": "A",
+          "text": "It may just be due to chance."
+         },
+         {
+          "key": "B",
+          "text": "It only happens with certain types of event."
+         },
+         {
+          "key": "C",
+          "text": "It happens more often than some people think."
+         }
+        ]
+       },
+       {
+        "n": 23,
+        "text": "Susie says that a study on pre-school children having a short nap in the day",
+        "options": [
+         {
+          "key": "A",
+          "text": "had controversial results."
+         },
+         {
+          "key": "B",
+          "text": "used faulty research methodology."
+         },
+         {
+          "key": "C",
+          "text": "failed to reach any clear conclusions."
+         }
+        ]
+       },
+       {
+        "n": 24,
+        "text": "In their last assignment, both students had problems with",
+        "options": [
+         {
+          "key": "A",
+          "text": "statistical analysis."
+         },
+         {
+          "key": "B",
+          "text": "making an action plan."
+         },
+         {
+          "key": "C",
+          "text": "self-assessment."
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Questions 25-30\n\nComplete the flow chart below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 25,
+      "last": 30,
+      "figure_pdf_page": 36,
+      "body": "Assignment plan\n\nDecide on research question:\nIs there a relationship between hours of sleep and number of dreams?\nDecide on sample:\nTwelve students from the [[25]] department\nDecide on methodology:\nSelf-reporting\nDecide on procedure:\nAnswers on [[26]]\nCheck ethical guidelines for working with [[27]]\nEnsure that risk is assessed and [[28]] is kept to a minimum\nAnalyse the results\nCalculate the correlation and make a [[29]]\n[[30]] the research",
+      "options": [],
+      "questions": [
+       {
+        "n": 25,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 27,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "",
+        "options": []
+       }
+      ],
+      "image": "figures/p036.png"
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "figure_pdf_page": 37,
+      "body": "Health benefits of dance\n\nRecent findings:\n- All forms of dance produce various hormones associated with feelings of happiness.\n- Dancing with others has a more positive impact than dancing alone.\n- An experiment on university students suggested that dance increases [[31]].\n- For those with mental illness, dance could be used as a form of [[32]].\n\nBenefits of dance for older people:\n- accessible for people with low levels of [[33]]\n- reduces the risk of heart disease\n- better [[34]] reduces the risk of accidents\n- improves [[35]] function by making it work faster\n- improves participants' general well-being\n- gives people more [[36]] to take exercise\n- can lessen the feeling of [[37]] very common in older people\n\nBenefits of Zumba:\n- A study at The University of Wisconsin showed that doing Zumba for 40 minutes uses up as many [[38]] as other quite intense forms of exercise.\n- The American Journal of Health Behavior study showed that:\n  - women suffering from [[39]] benefited from doing Zumba.\n  - Zumba became a [[40]] for the participants.",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "",
+        "options": []
+       }
+      ],
+      "image": "figures/p037.png"
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "frame",
+   "2": "195",
+   "3": "payment",
+   "4": "Grandparents",
+   "5": "colour / color",
+   "6": "hand",
+   "7": "background",
+   "8": "focus",
+   "9": "ten / 10 days",
+   "10": "plastic",
+   "11": "C",
+   "12": "B",
+   "13": "A",
+   "14": "A",
+   "15": "C",
+   "16": "D",
+   "17": "A",
+   "18": "B",
+   "19": "B (IN EITHER ORDER)",
+   "20": "C (IN EITHER ORDER)",
+   "21": "B",
+   "22": "A",
+   "23": "C",
+   "24": "C",
+   "25": "history",
+   "26": "paper",
+   "27": "humans / people",
+   "28": "stress",
+   "29": "graph",
+   "30": "evaluate",
+   "31": "creativity",
+   "32": "therapy",
+   "33": "fitness",
+   "34": "balance",
+   "35": "brain",
+   "36": "motivation",
+   "37": "isolation",
+   "38": "calories",
+   "39": "obesity",
+   "40": "habit"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 16 Audio/Test 2 Part 1.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 16 Audio/Test 2 Part 2.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 16 Audio/Test 2 Part 3.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 16 Audio/Test 2 Part 4.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "EMPLOYEE: Hello, Picturerep. Can I help you?\nWOMAN: Oh, hi. I saw your advertisement about copying pictures to disk and I'd like a bit\nmore information about what you do.\nEMPLOYEE: Sure. What would you like to know?\nWOMAN: Well, I've got a box full of old family photos that's been up in the attic for years,\nsome of them must be 50 or 60 years old, and I'd like to get them converted to\ndigital format.\nEMPLOYEE: Sure, we can do that for you.\nWOMAN: Right. And what about size? The photos are all sorts of sizes — are there any\nrestrictions?\nEMPLOYEE: Well the maximum size of photo we can do with our normal service is 30\ncentimetres. And each picture must be at least 4 centimetres, that’s the minimum\nwe can cope with\nWOMAN: That should be fine. And some of them are in a frame — should I take them out \nbefore I send them?\nEMPLOYEE: Yes please, we can't copy them otherwise. And also the photos must all be\nseparate, they mustn’t be stuck into an album.\nWOMAN: OK, that’s not a problem. So can you give me an idea of how much this will cost?\nI've got about 360 photos I think.\nEMPLOYEE: We charge £195 for 300 to 400 photos for the basic service.\nWOMAN: OK. And does that include the disk?\nEMPLOYEE: Yes, one disk — but you can get extra ones for £5 each.\nWOMAN: That's good. So do I need to pay when I send you the photos?\nEMPLOYEE: No, we won't need anything until we’ve actually copied the pictures. Then we'll let\nyou know how much it is, and once we've received the payment, we'll send the\nparcel off to you.\nWOMAN: Right.\nEMPLOYEE: Is there anything else you'd like to ask about our services?\nWOMAN: Yes. I've roughly sorted out the photos into groups, according to what they're\nabout — so can you keep them in those groups when you copy them?\nEMPLOYEE: Sure. We'll save each group in a different folder on the disk and if you like, you\ncan suggest a name for each folder.\nWOMAN: So I could have one called ‘Grandparents’ for instance?\nEMPLOYEE: Exactly.\nWOMAN: And do you do anything besides scan the photos? Like, can you make any\nimprovements?\nEMPLOYEE: Yes, in the standard service each photo is checked, and we can sometimes touch\nup the colour a bit, or improve the contrast — that can make a big difference.\nWOMAN: OK. And some of the photos are actually quite fragile — they won’t get damaged\nin the process, will they?\nEMPLOYEE: No, if any look particularly fragile, we'd do them by hand. We do realise how\nprecious these old photos can be.\nWOMAN: Sure.\nEMPLOYEE: And another thing is we can make changes to a photo if you want — so if you want\nto remove an object from a photo, or maybe alter the background, we can do that.\nWOMAN: Really? I might be interested in that. I'll have a look through the photos and see.\nOh, and talking of fixing photos — I've got a few that aren't properly in focus. Can\nyou do anything to make that better?\nEMPLOYEE: No. I'm afraid that's one thing we can't do.\nWOMAN: Okay.\n\nEMPLOYEE: Any other information I can give you?\n\nWOMAN: Er ... oh, how long will it all take?\n\nEMPLOYEE: We aim to get the copying done in ten days.\n\nWOMAN: Fine. Right, well I'll get the photos packed up in a box and post them off to you.\n\nEMPLOYEE: Right. If you've got a strong cardboard box, that's best. We've found that plastic\nones sometimes break in the post.\n\nWOMAN: OK. Right, thanks for your help. Bye.\n\nEMPLOYEE: Bye."
+   },
+   {
+    "part": 2,
+    "text": "Good morning and thank you for coming here today. I'd like to bring you up to date with\nchanges in the school that will affect your children.\n\nAs you know, the school buildings date from various times: some from the 1970s, some from\nthe last five years, and of course Dartfield House is over a century old. It was commissioned\nby a businessman, Neville Richards, and intended as his family home, but he died before it\nwas completed. His heir chose to sell it to the local council, who turned it into offices. A later\nplan to convert it into a tourist information centre didn’t come about, through lack of money,\nand instead it formed the nucleus of this school when it opened 40 years ago.\n\nThe school has grown as the local population has increased, and I can now give you some\nnews about the lower school site, which is separated from the main site by a road. Planning\npermission has been granted for development of both sites. The lower school will move to\nnew buildings that will be constructed on the main site. Developers will construct houses on\nthe existing lower school site. Work on the new school buildings should start within the next\nfew months.\n\nAmore imminent change concerns the catering facilities and the canteen. The canteen is\nalways very busy throughout the lunch period — in fact it's often full to capacity, because a\nlot of our pupils like the food that’s on offer there. But there's only one serving point, so most\npupils have to wait a considerable time to be served, This is obviously unsatisfactory, as they\nmay have hardly finished their lunch before afternoon lessons start.\n\nSo we've had a new Food Hall built, and this will come into use next week. It'll have several\nserving areas, and I'll give you more details about those in a minute, but one thing we ask\nyou to do, to help in the smooth running of the Food Hall, is to discuss with your children\neach morning which type of food they want to eat that day, so they can go straight to the\nrelevant serving point. There won't be any junk food — everything on offer will be healthy —\nand there's no change to the current system of paying for lunches by topping up your child’s\nelectronic payment card online.\n\nYou may be wondering what will happen to the old canteen. We'll still have tables and chairs\nin there, and pupils can eat food from the Food Hall or lunch they've brought from home.\n\nEventually we may use part of the canteen for storage, but first we'll see how many pupils go\nin there at lunchtime.\n\nOK, back to the serving points in the Food Hall, which will all have side dishes, desserts and\ndrinks on sale, as well as main courses.\n\nOne serving point we call World Adventures. This will serve a different country's cuisine each\nday, maybe Chinese one day and Lebanese the next. The menus will be planned for a week\nat a time, so pupils will know what's going to be available the whole of that week.\n\nStreet Life is also international, with food from three particular cultures. We'll ask pupils\nto make suggestions so perhaps sometimes there'll be food from Thailand, Ethiopia and\nMexico, and then one of them will be replaced by Jamaican food for a week or two.\n\nThe Speedy Italian serving point will cater particularly for the many pupils who don’t eat meat.\nor fish: they can be sure that all the food served there is suitable for them. There'll be plenty\nof variety, so they shouldn't get bored with the food.\n\nOK, that's all on the new Food Hall. Now after school lessons. These are very popular with\npupils, particularly swimming — in fact there's a waiting list for lessons. Cycling is another\nfavourite, and I'm delighted that dozens of pupils make use of the chance to learn to ride in\noff-road conditions. It means that more and more cycle to and from school every day. As you\nknow, we have a well-equipped performance centre, and we're going to start drama classes\nin there, too. Pupils will be able to join in just for fun or work up to taking part in a play — we\nhope to put on at least one a year. We already teach a number of pupils to use the sound and\nlighting systems in the centre. And a former pupil has given a magnificent grand piano to the\n\nschool, so a few pupils will be able to learn at the school instead of going to the local college, \nas many of them do at the moment."
+   },
+   {
+    "part": 3,
+    "text": "SUSIE: So Luke, for our next psychology assignment we have to do something on sleep\nand dreams.\n\nLUKE: Right. I've just read an article suggesting why we tend to forget most of our\ndreams soon after we wake up. I mean, most of my dreams aren't that interesting\nanyway, but what it said was that if we remembered everything, we might get\nmixed up about what actually happened and what we dreamed. So it’s a sort of\nprotection. I hadn’t heard that idea before. I'd always assumed that it was just\nthat we didn’t have room in our memories for all that stuff.\n\nSUSIE: Me too. What do you think about the idea that our dreams may predict the\nfuture?\n\nLUKE: It's a belief that you get all over the world.\n\nSUSIE: Yeah, lots of people have a story of it happening to them, but the explanation\nI've read is that for each dream that comes true, we have thousands that don't,\nbut we don’t notice those, we don’t even remember them. We just remember\nthe ones where something in the real world, like a view or an action, happens to\ntrigger a dream memory.\n\nLUKE: Right. So it's just a coincidence really. Something else I read about is what they\ncall segmented sleeping. That's a theory that hundreds of years ago, people\nused to get up in the middle of the night and have a chat or something to eat,\nthen go back to bed. So I tried it myself.\n\nSUSIE: Why?\n\nLUKE: Well it's meant to make you more creative. I don’t know why. But I gave it up after\na week. It just didn’t fit in with my lifestyle.\n\n\nSUSIE: But most pre-school children have a short sleep in the day don't they? There was\nan experiment some students did here last term to see at what age kids should\nstop having naps. But they didn’t really find an answer. They spent a lot of time\nworking out the most appropriate methodology, but the results didn’t seem to\nshow any obvious patterns.\n\nLUKE: Right. Anyway, let's think about our assignment. Last time I had problems with\nthe final stage, where we had to describe and justify how successful we thought\nwe'd been. I struggled a bit with the action plan too.\n\nSUSIE: I was OK with the planning, but I got marked down for the self-assessment as\nwell. And I had big problems with the statistical stuff, that's where I really lost\nmarks.\n\nLUKE: Right.\n\nSUSIE: So shall we plan what we have to do for this assignment?\n\nLUKE: OK.\n\nSUSIE: First, we have to decide on our research question. So how about ‘Is there a\nrelationship between hours of sleep and number of dreams?’\n\nLUKE: OK. Then we need to think about who we'll do the study on. About 12 people?\n\nSUSIE: Right. And shall we use other psychology students?\n\nLUKE: Let's use people from a different department. What about history?\n\nSUSIE: Yes, they might have interesting dreams! Or literature students?\n\nLUKE: I don’t really know any.\n\nSUSIE: OK, forget that idea. Then we have to think about our methodology. So we could\nuse observation, but that doesn’t seem appropriate.\n\nLUKE: No. It needs to be self-reporting I think. And we could ask them to answer\nquestions online.\n\nSUSIE: But in this case, paper might be better as they'll be doing it straight after they\nwake up ... in fact while they're still half asleep.\n\nLUKE: Right. And we'll have to check the ethical guidelines for this sort of research.\n\nSUSIE: Mm, because our experiment involves humans, so there are special regulations.\n\nLUKE: Yes, I had a look at those for another assignment I did. There's a whole section\non risk assessment, and another section on making sure they aren't put under\nany unnecessary stress.\n\nSUSIE: Let's hope they don’t have any bad dreams!\nLUKE: Yeah.\nSUSIE: Then when we've collected all our data we have to analyse it and calculate the\ncorrelation between our two variables, that's time sleeping and number of dreams\nand then present our results visually in a graph.\n\nLUKE: Right. And the final thing is to think about our research and evaluate it. So that\nseems quite straightforward.\n\nSUSIE: Yeah. So now let's ..."
+   },
+   {
+    "part": 4,
+    "text": "Dancing is something that humans do when they want to have a good time. It’s a universal\nresponse to music, found in all cultures. But what's only been discovered recently is that\ndancing not only makes us feel good, it’s also extremely good for our health.\n\nDancing, like other forms of exercise, releases hormones, such as dopamine, which make us\nfeel relaxed and happy. And it also reduces feelings of stress or anxiety.\n\nDancing is also a sociable activity, which is another reason it makes us feel good.\n\nOne study compared people’s enjoyment of dancing at home in front of a video with dancing\nin a group in a studio.\n\nThe people dancing in a group reported feeling happier, whereas those dancing alone did not.\n\nIn another experiment, university researchers at York and Sheffield took a group of students\nand sent each of them into a lab where music was played for five minutes. Each had to\nchoose from three options: to sit and listen quietly to the music, to cycle on an exercise bike\nwhile they listened, or to get up and dance. All were given cognitive tasks to perform before\nand after. The result showed that those who chose to dance showed much more creativity\nwhen doing problem solving tasks.\n\nDoctor Lovatt at the University of Hertfordshire believes dance could be a very useful way to\nhelp people suffering from mental health problems. He thinks dance should be prescribed as\ntherapy to help people overcome issues such as depression.\n\nIt's well established that dance is a good way of encouraging adolescent girls to take exercise\nbut what about older people? Studies have shown that there are enormous benefits for\npeople in their sixties and beyond. One of the great things about dance is that there are no\nbarriers to participation. Anyone can have a go, even those whose standard of fitness is\nquite low.\n\nDance can be especially beneficial for older adults who can’t run or do more intense\nworkouts, or for those who don't want to. One 2015 study found that even a gentle dance\nworkout helps to promote a healthy heart. And there’s plenty of evidence which suggests that\ndancing lowers the risk of falls, which could result in a broken hip, for example, by helping\npeople to improve their balance.\n\nThere are some less obvious benefits of dance for older people too. One thing I hadn't\nrealised before researching this topic was that dance isn’t just a physical challenge. It also\nrequires a lot of concentration because you need to remember different steps and routines.\nFor older people, this kind of activity is especially important because it forces their brain to\nprocess things more quickly and to retain more information.\n\nCurrent research also shows that dance promotes a general sense of well-being in older\nparticipants, which can last up to a week after a class. Participants report feeling less tired\nand having greater motivation to be more active and do daily activities such as gardening or\nwalking to the shops or a park.\n\nBallroom or country dancing, both popular with older people, have to be done in groups. They\nrequire collaboration and often involve touching a dance partner, all of which encourages\ninteraction on the dance floor. This helps to develop new relationships and can reduce older\npeople’s sense of isolation, which is a huge problem in many countries.\n\nI also looked at the benefits of Zumba. Fifteen million people in 180 countries now regularly\ntake a Zumba class, an aerobic workout based on Latin American dance moves. John\nPorcari, a professor of exercise and sport science at the University of Wisconsin, analysed a\ngroup of women who were Zumba regulars and found that a class lasting 40 minutes burns\nabout 370 calories. This is similar to moderately intense exercises like step aerobics or\nkickboxing.\n\nA study in the American Journal of Health Behavior showed that when women with obesity\ndid Zumba three times a week for 16 weeks, they lost an average of 1.2 kilos and lowered\ntheir percentage of body fat by 1%. More importantly, the women enjoyed the class so much\nthat they made it a habit and continued to attend classes at least once a week — very unusual\nfor an aerobic exercise programme.\n\nDance is never going to compete with high intensity workouts when it comes to physical\nfitness gains, but its popularity is likely to keep on rising because it's such a fun way to\nkeep fit."
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "groups": [
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nIn boxes 1—8 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 1,
+      "last": 8,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "Most geoglyphs in England are located in a particular area of the country.",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "There are more geoglyphs in the shape of a horse than any other creature.",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "A recent dating of the Uffington White Horse indicates that people were mistaken about its age.",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "Historians have come to an agreement about the origins of the Long Man of Wilmington.",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "Geoglyphs were created by people placing white chalk on the hillside.",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "Many geoglyphs in England are no longer visible.",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "The shape of some geoglyphs has been altered over time.",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "The fame of the Uffington White Horse is due to its size.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 9-13 on your answer sheet.",
+      "first": 9,
+      "last": 13,
+      "body": "The Uffington White Horse\n\nThe location of the Uffington White Horse:\n• a distance of 2.5 km from Uffington village\n• near an ancient road known as the [[9]]\n• close to an ancient cemetery that has a number of burial mounds\n\nDating the Uffington White Horse:\n• first reference to White Horse Hill appears in [[10]] from the 1070s\n• horses shown on coins from the period 100 BCE – 1 BCE are similar in appearance\n• according to analysis of the surrounding [[11]], the Horse is Late Bronze Age / Early Iron Age\n\nPossible reasons for creation of the Uffington White Horse:\n• an emblem to indicate land ownership\n• formed part of an ancient ritual\n• was a representation of goddess Epona — associated with protection of horses and [[12]]\n• was a representation of a Welsh goddess called [[13]]",
+      "options": [],
+      "questions": [
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "The White Horse of Uffington",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "The cutting of huge figures or ‘geoglyphs’ into the earth of English hillsides has taken place for more than 3,000 years. There are 56 hill figures scattered around England, with the vast majority on the chalk downlands of the country’s southern counties. The figures include giants, horses, crosses and regimental badges. Although the majority of these geoglyphs date within the last 300 years or so, there are one or two that are much older."
+     },
+     {
+      "label": "",
+      "text": "The most famous of these figures is perhaps also the most mysterious — the Uffington White Horse in Oxfordshire. The White Horse has recently been re-dated and shown to be even older than its previously assigned ancient pre-Roman Iron Age’ date. More controversial is the date of the enigmatic Long Man of Wilmington in Sussex. While many historians are convinced the figure is prehistoric, others believe that it was the work of an artistic monk from a nearby priory and was created between the 11th and 15th centuries."
+     },
+     {
+      "label": "",
+      "text": "The method of cutting these huge figures was simply to remove the overlying grass to reveal the gleaming white chalk below. However, the grass would soon grow over the geoglyph again unless it was regularly cleaned or scoured by a fairly large team of people. One reason that the vast majority of hill figures have disappeared is that when the traditions associated with the figures faded, people no longer bothered or remembered to clear away the grass to expose the chalk outline. Furthermore, over hundreds of years the outlines would sometimes change due to people not always cutting in exactly the same place, thus creating a different shape to the original geoglyph. The fact that any ancient hill figures survive at all in England today is testament to the strength and continuity of local customs and beliefs which, in one case at least, must stretch back over millennia."
+     },
+     {
+      "label": "",
+      "text": "“Iron Age: a period (in Britain 800 BCE — 43 CE) that is characterised by the use of iron tools The Uffington White Horse is a unique, stylised representation of a horse consisting of a long, sleek back, thin disjointed legs, a streaming tail, and a bird-like beaked head. The elegant creature almost melts into the landscape. The horse is situated 2.5 km from Uffington village on a steep slope close to the Late Bronze Age” (c. 7th century BCE) hillfort of Uffington Castle and below the Ridgeway, a long-distance Neolithic** track."
+     },
+     {
+      "label": "",
+      "text": "The Uffington Horse is also surrounded by Bronze Age burial mounds. It is not far from the Bronze Age cemetery of Lambourn Seven Barrows, which consists of more than 30 well-preserved burial mounds. The carving has been placed in such a way as to make it extremely difficult to see from close quarters, and like many geoglyphs is best appreciated from the air. Nevertheless, there are certain areas of the Vale of the White Horse, the valley containing and named after the enigmatic creature, from which an adequate impression may be gained. Indeed on a clear day the carving can be seen from up to 30 km away."
+     },
+     {
+      "label": "",
+      "text": "The earliest evidence of a horse at Uffington is from the 1070s CE when ‘White Horse Hill’ is mentioned in documents from the nearby Abbey of Abingdon, and the first reference to the horse itself is soon after, in 1190 CE. However, the carving is believed to date back much further than that. Due to the similarity of the Uffington White Horse to the stylised depictions of horses on 1st century BCE coins, it had been thought that the creature must also date to that period."
+     },
+     {
+      "label": "",
+      "text": "However, in 1995 Optically Stimulated Luminescence (OSL) testing was carried out by the Oxford Archaeological Unit on soil from two of the lower layers of the horse’s body, and from another cut near the base. The result was a date for the horse’s construction somewhere between 1400 and 600 BCE - in other words, it had a Late Bronze Age or Early Iron Age origin."
+     },
+     {
+      "label": "",
+      "text": "The latter end of this date range would tie the carving of the horse in with occupation of the nearby Uffington hillfort, indicating that it may represent a tribal emblem marking the land of the inhabitants of the hillfort. Alternatively, the carving may have been carried out during a Bronze or Iron Age ritual. Some researchers see the horse as representing the Celtic*** horse goddess Epona, who was worshipped as a protector of horses, and for her associations with fertility. However, the cult of Epona was not imported from Gaul (France) until around the first century CE. This date is at least six centuries after the Uffington Horse was probably carved. Nevertheless, the horse had great ritual and economic significance during the Bronze and Iron Ages, as attested by its depictions on jewellery and other metal objects. It is possible that the carving represents a goddess in native mythology, such as Rhiannon, described in later Welsh mythology as a beautiful woman dressed in gold and riding a white horse."
+     },
+     {
+      "label": "",
+      "text": "The fact that geoglyphs can disappear easily, along with their associated rituals and meaning, indicates that they were never intended to be anything more than temporary gestures. But this does not lessen their importance. These giant carvings are a fascinating glimpse into the minds of their creators and how they viewed the landscape in which they lived."
+     },
+     {
+      "label": "",
+      "text": "“Bronze Age: a period (in Britain c. 2,500 BCE — 800 BCE) that is characterised by the development of bronze tools “Neolithic: a period (in Britain c. 4,000 BCE – c. 2,500 BCE) that is significant for the spread of agricultural practices, and the use of stone tools “Celtic: an ancient people who migrated from Europe to Britain before the Romans"
+     }
+    ]
+   },
+   {
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 14—16 on your answer sheet.",
+      "first": 14,
+      "last": 16,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 14,
+        "text": "What point does the writer make about microbes in the first paragraph?",
+        "options": [
+         {
+          "key": "A",
+          "text": "They adapt quickly to their environment."
+         },
+         {
+          "key": "B",
+          "text": "The risk they pose has been exaggerated."
+         },
+         {
+          "key": "C",
+          "text": "They are more plentiful in animal life than plant life."
+         },
+         {
+          "key": "D",
+          "text": "They will continue to exist for longer than the human race."
+         }
+        ]
+       },
+       {
+        "n": 15,
+        "text": "In the second paragraph, the writer is impressed by the fact that",
+        "options": [
+         {
+          "key": "A",
+          "text": "each species tends to have vastly different microbes."
+         },
+         {
+          "key": "B",
+          "text": "some parts of the body contain relatively few microbes."
+         },
+         {
+          "key": "C",
+          "text": "the average individual has more microbial cells than human ones."
+         },
+         {
+          "key": "D",
+          "text": "scientists have limited understanding of how microbial cells behave."
+         }
+        ]
+       },
+       {
+        "n": 16,
+        "text": "What is the writer doing in the fifth paragraph?",
+        "options": [
+         {
+          "key": "A",
+          "text": "explaining how a discovery was made"
+         },
+         {
+          "key": "B",
+          "text": "comparing scientists' theories about microbes"
+         },
+         {
+          "key": "C",
+          "text": "describing confusion among scientists"
+         },
+         {
+          "key": "D",
+          "text": "giving details of how microbes cause disease"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary using the list of words, A-H, below.\nWrite the correct letter, A-H, in boxes 17-20 on your answer sheet.",
+      "first": 17,
+      "last": 20,
+      "body": "We should be more tolerant of microbes\nYong's book argues that we should be more tolerant of microbes. Many have a beneficial effect, and only a relatively small number lead to [[17]]. And although it is misleading to think of microbes as 'friendly', we should also stop thinking of them as the enemy. In fact, we should accept that our relationship with microbes is one based on [[18]].\n\nNew research shows that microbes have numerous benefits for humans. Amongst other things, they aid digestion, remove poisons, produce vitamins and may even help reduce obesity. However, there is a growing problem. Our poor [[19]], overuse of antibiotics, and our excessive focus on [[20]] are upsetting the bacterial balance and may be contributing to the huge increase in allergies and immune system problems.",
+      "options": [
+       {
+        "key": "A",
+        "text": "solution"
+       },
+       {
+        "key": "B",
+        "text": "partnership"
+       },
+       {
+        "key": "C",
+        "text": "destruction"
+       },
+       {
+        "key": "D",
+        "text": "exaggeration"
+       },
+       {
+        "key": "E",
+        "text": "cleanliness"
+       },
+       {
+        "key": "F",
+        "text": "regulations"
+       },
+       {
+        "key": "G",
+        "text": "illness"
+       },
+       {
+        "key": "H",
+        "text": "nutrition"
+       }
+      ],
+      "questions": [
+       {
+        "n": 17,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "yes_no_not_given",
+      "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 2?\nIn boxes 21-26 on your answer sheet, write\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+      "first": 21,
+      "last": 26,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 21,
+        "text": "It is possible that using antibacterial products in the home fails to have the desired effect.",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "It is a good idea to ensure that children come into contact with as few bacteria as possible.",
+        "options": []
+       },
+       {
+        "n": 23,
+        "text": "Yong's book contains more case studies than are necessary.",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "The case study about bacteria that prevent squid from being attacked may have limited appeal.",
+        "options": []
+       },
+       {
+        "n": 25,
+        "text": "Efforts to control dengue fever have been surprisingly successful.",
+        "options": []
+       },
+       {
+        "n": 26,
+        "text": "Microbes that reduce the risk of infection have already been put inside the walls of some hospital wards.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "I contain multitudes",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Wendy Moore reviews Ed Yong’s book about microbes Microbes, most of them bacteria, have populated this planet since long before animal life developed and they will outlive us. Invisible to the naked eye, they are ubiquitous. They inhabit the soil, air, rocks and water and are present within every form of life, from seaweed and coral to dogs and humans. And, as Yong explains in his utterly absorbing and hugely important book, we mess with them at our peril."
+     },
+     {
+      "label": "",
+      "text": "Every species has its own colony of microbes, called a ‘microbiome’, and these microbes vary not only between species but also between individuals and within different parts of each individual. What is amazing is that while the number of human cells in the average person is about 30 trillion, the number of microbial ones is higher — about 39 trillion. At best, Yong informs us, we are only 50 per cent human. Indeed, some scientists even suggest we should think of each species and its microbes as a single unit, dubbed a ‘holobiont’."
+     },
+     {
+      "label": "",
+      "text": "In each human there are microbes that live only in the stomach, the mouth or the armpit and by and large they do so peacefully. So ‘bad’ microbes are just microbes out of context. Microbes that sit contentedly in the human gut (where there are more microbes than there are stars in the galaxy) can become deadly if they find their way into the bloodstream. These communities are constantly changing too. The right hand shares just one sixth of its microbes with the left hand. And, of course, we are surrounded by microbes. Every time we eat, we swallow a million microbes in each gram of food; we are continually swapping microbes with other humans, pets and the world at large."
+     },
+     {
+      "label": "",
+      "text": "It’s a fascinating topic and Yong, a young British science journalist, is an extraordinarily adept guide. Writing with lightness and panache, he has a knack of explaining complex science in terms that are both easy to understand and totally enthralling. Yong is on a mission. Leading us gently by the hand, he takes us into the world of microbes — a bizarre, alien planet — in a bid to persuade us to love them as much as he does. By the end, we do."
+     },
+     {
+      "label": "",
+      "text": "For most of human history we had no idea that microbes existed. The first man to see these extraordinarily potent creatures was a Dutch lens-maker called Antony van Leeuwenhoek in the 1670s. Using microscopes of his own design that could magnify up to 270 times, he examined a drop of water from a nearby lake and found it teeming with tiny creatures he called ‘animalcules’. It wasn’t until nearly two hundred years later that the research of French biologist Louis Pasteur indicated that some microbes caused disease. It was Pasteur’s ‘germ theory’ that gave bacteria the poor image that endures today. Yong’s book is in many ways a plea for microbial tolerance, pointing out that while fewer than one hundred species of bacteria bring disease, many thousands more play a vital role in maintaining our health. The book also acknowledges that our attitude towards bacteria is not a simple one. We tend to see the dangers posed by bacteria, yet at the same time we are sold yoghurts and drinks that supposedly nurture ‘friendly’ bacteria. In reality, says Yong, bacteria should not be viewed as either friends or foes, villains or heroes. Instead we should realise we have a symbiotic relationship, that can be mutually beneficial or mutually destructive."
+     },
+     {
+      "label": "",
+      "text": "What then do these millions of organisms do? The answer is pretty much everything. New research is now unravelling the ways in which bacteria aid digestion, regulate our immune systems, eliminate toxins, produce vitamins, affect our behaviour and even combat obesity."
+     },
+     {
+      "label": "",
+      "text": "‘They actually help us become who we are,’ says Yong. But we are facing a growing problem. Our obsession with hygiene, our overuse of antibiotics and our unhealthy, low-fibre diets are disrupting the bacterial balance and may be responsible for soaring rates of allergies and immune problems, such as inflammatory bowel disease (IBD)."
+     },
+     {
+      "label": "",
+      "text": "The most recent research actually turns accepted norms upside down. For example, there are studies indicating that the excessive use of household detergents and antibacterial products actually destroys the microbes that normally keep the more dangerous germs at bay. Other studies show that keeping a dog as a pet gives children early exposure to a diverse range of bacteria, which may help protect them against allergies later."
+     },
+     {
+      "label": "",
+      "text": "The readers of Yong’s book must be prepared for a decidedly unglamorous world. Among the less appealing case studies is one about a fungus that is wiping out entire populations of frogs and that can be halted by a rare microbial bacterium. Another is about squid that carry luminescent bacteria that protect them against predators. However, if you can overcome your distaste for some of the investigations, the reasons for Yong’s enthusiasm become clear. The microbial world is a place of wonder. Already, in an attempt to stop mosquitoes spreading dengue fever — a disease that infects 400 million people a year — mosquitoes are being loaded with a bacterium to block the disease. In the future, our ability to manipulate microbes means we could construct buildings with useful microbes built into their walls to fight off infections. Just imagine a neonatal hospital ward coated in a specially mixed cocktail of microbes so that babies get the best start in life."
+     }
+    ]
+   },
+   {
+    "groups": [
+     {
+      "type": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27-30 on your answer sheet.",
+      "first": 27,
+      "last": 30,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 27,
+        "text": "What point does the writer make in the first paragraph?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Wisdom appears to be unique to the human race."
+         },
+         {
+          "key": "B",
+          "text": "A basic assumption about wisdom may be wrong."
+         },
+         {
+          "key": "C",
+          "text": "Concepts of wisdom may depend on the society we belong to."
+         },
+         {
+          "key": "D",
+          "text": "There is still much to be discovered about the nature of wisdom."
+         }
+        ]
+       },
+       {
+        "n": 28,
+        "text": "What does Igor Grossmann suggest about the ability to make wise decisions?",
+        "options": [
+         {
+          "key": "A",
+          "text": "It can vary greatly from one person to another."
+         },
+         {
+          "key": "B",
+          "text": "Earlier research into it was based on unreliable data."
+         },
+         {
+          "key": "C",
+          "text": "The importance of certain influences on it was underestimated."
+         },
+         {
+          "key": "D",
+          "text": "Various branches of psychology define it according to their own criteria."
+         }
+        ]
+       },
+       {
+        "n": 29,
+        "text": "According to the third paragraph, Grossmann claims that the level of wisdom an individual shows",
+        "options": [
+         {
+          "key": "A",
+          "text": "can be greater than they think it is."
+         },
+         {
+          "key": "B",
+          "text": "will be different in different circumstances."
+         },
+         {
+          "key": "C",
+          "text": "may be determined by particular aspects of their personality."
+         },
+         {
+          "key": "D",
+          "text": "should develop over time as a result of their life experiences."
+         }
+        ]
+       },
+       {
+        "n": 30,
+        "text": "What is described in the fifth paragraph?",
+        "options": [
+         {
+          "key": "A",
+          "text": "a difficulty encountered when attempting to reason wisely"
+         },
+         {
+          "key": "B",
+          "text": "an example of the type of person who is likely to reason wisely"
+         },
+         {
+          "key": "C",
+          "text": "a controversial view about the benefits of reasoning wisely"
+         },
+         {
+          "key": "D",
+          "text": "a recommended strategy that can help people to reason wisely"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary using the list of words, A-J, below.\nWrite the correct letter, A-J, in boxes 31-35 on your answer sheet.",
+      "first": 31,
+      "last": 35,
+      "body": "The characteristics of wise reasoning\nIgor Grossmann and colleagues have established four characteristics which enable us to make wise decisions. It is important to have a certain degree of [[31]] regarding the extent of our knowledge, and to take into account [[32]] which may not be the same as our own. We should also be able to take a broad [[33]] of any situation. Another key characteristic is being aware of the likelihood of alterations in the way that people relate to each other.\nGrossmann also believes that it is better to regard scenarios with [[34]]. By avoiding the first-person perspective, we focus more on [[35]] other moral ideals, which in turn leads to wiser decision-making.",
+      "options": [
+       {
+        "key": "A",
+        "text": "opinions"
+       },
+       {
+        "key": "B",
+        "text": "confidence"
+       },
+       {
+        "key": "C",
+        "text": "view"
+       },
+       {
+        "key": "D",
+        "text": "modesty"
+       },
+       {
+        "key": "E",
+        "text": "problems"
+       },
+       {
+        "key": "F",
+        "text": "objectivity"
+       },
+       {
+        "key": "G",
+        "text": "fairness"
+       },
+       {
+        "key": "H",
+        "text": "experiences"
+       },
+       {
+        "key": "I",
+        "text": "range"
+       },
+       {
+        "key": "J",
+        "text": "reasons"
+       }
+      ],
+      "questions": [
+       {
+        "n": 31,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 3?\nIn boxes 36-40 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 36,
+      "last": 40,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 36,
+        "text": "Students participating in the job prospects experiment could choose one of two perspectives to take.",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "Participants in the couples experiment were aware that they were taking part in a study about wise reasoning.",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "In the couples experiments, the length of the couples' relationships had an impact on the results.",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "In both experiments, the participants who looked at the situation from a more detached viewpoint tended to make wiser decisions.",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "Grossmann believes that a person's wisdom is determined by their intelligence to only a very limited extent.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "How to make wise decisions",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Across cultures, wisdom has been considered one of the most revered human qualities. Although the truly wise may seem few and far between, empirical research examining wisdom suggests that it isn’t an exceptional trait possessed by a small handful of bearded philosophers after all – in fact, the latest studies suggest that most of us have the ability to make wise decisions, given the right context."
+     },
+     {
+      "label": "",
+      "text": "“It appears that experiential, situational, and cultural factors are even more powerful in shaping wisdom than previously imagined,’ says Associate Professor Igor Grossmann of the University of Waterloo in Ontario, Canada. ‘Recent empirical findings from cognitive, developmental, social, and personality psychology cumulatively suggest that people’s ability to reason wisely varies dramatically across experiential and situational contexts. Understanding the role of such contextual factors offers unique insights into understanding wisdom in daily life, as well as how it can be enhanced and taught.’"
+     },
+     {
+      "label": "",
+      "text": "It seems that it’s not so much that some people simply possess wisdom and others lack it, but that our ability to reason wisely depends on a variety of external factors. ‘It is impossible to characterize thought processes attributed to wisdom without considering the role of contextual factors,’ explains Grossmann. ‘In other words, wisdom is not solely an “inner quality” but rather unfolds as a function of situations people happen to be in. Some situations are more likely to promote wisdom than others.’"
+     },
+     {
+      "label": "",
+      "text": "Coming up with a definition of wisdom is challenging, but Grossmann and his colleagues have identified four key characteristics as part of a framework of wise reasoning. One is intellectual humility or recognition of the limits of our own knowledge, and another is appreciation of perspectives wider than the issue at hand. Sensitivity to the possibility of change in social relations is also key, along with compromise or integration of different attitudes and beliefs."
+     },
+     {
+      "label": "",
+      "text": "Grossmann and his colleagues have also found that one of the most reliable ways to support wisdom in our own day-to-day decisions is to look at scenarios from a third-party perspective, as though giving advice to a friend. Research suggests that when adopting a first-person viewpoint we focus on ‘the focal features of the environment’ and when we adopt a third-person, ‘observer’ viewpoint we reason more broadly and focus more on interpersonal and moral ideals such as justice and impartiality. Looking at problems from this more expansive viewpoint appears to foster cognitive processes related to wise decisions. What are we to do, then, when confronted with situations like a disagreement with a spouse or negotiating a contract at work, that require us to take a personal stake? Grossmann argues that even when we aren’t able to change the situation, we can still evaluate these experiences from different perspectives."
+     },
+     {
+      "label": "",
+      "text": "For example, in one experiment that took place during the peak of a recent economic recession, graduating college seniors were asked to reflect on their job prospects. The students were instructed to imagine their career either ‘as if you were a distant observer’ or ‘before your own eyes as if you were right there’. Participants in the group assigned to the ‘distant observer’ role displayed more wisdom-related reasoning (intellectual humility and recognition of change) than did participants in the control group."
+     },
+     {
+      "label": "",
+      "text": "In another study, couples in long-term romantic relationships were instructed to visualize an unresolved relationship conflict either through the eyes of an outsider or from their own perspective. Participants then discussed the incident with their partner for 10 minutes, after which they wrote down their thoughts about it. Couples in the ‘other’s eyes’ condition were significantly more likely to rely on wise reasoning — recognizing others’ perspectives and searching for a compromise — compared to the couples in the egocentric condition."
+     },
+     {
+      "label": "",
+      "text": "‘Ego-decentering promotes greater focus on others and enables a bigger picture, conceptual view of the experience, affording recognition of intellectual humility and change,’ says Grossmann."
+     },
+     {
+      "label": "",
+      "text": "We might associate wisdom with intelligence or particular personality traits, but research shows only a small positive relationship between wise thinking and crystallized intelligence and the personality traits of openness and agreeableness. ‘It is remarkable how much people can vary in their wisdom from one situation to the next, and how much stronger such contextual effects are for understanding the relationship between wise judgment and its social and affective outcomes as compared to the generalized “traits”,’ Grossmann explains. ‘That is, knowing how wisely a person behaves in a given situation is more informative for understanding their emotions or likelihood to forgive [orl retaliate as compared to knowing whether the person may be wise “in general”.”"
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "TRUE",
+   "2": "NOT GIVEN",
+   "3": "TRUE",
+   "4": "FALSE",
+   "5": "FALSE",
+   "6": "TRUE",
+   "7": "TRUE",
+   "8": "NOT GIVEN",
+   "9": "Ridgeway",
+   "10": "documents",
+   "11": "soil",
+   "12": "fertility",
+   "13": "Rhiannon",
+   "14": "D",
+   "15": "C",
+   "16": "A",
+   "17": "G",
+   "18": "B",
+   "19": "H",
+   "20": "E",
+   "21": "YES",
+   "22": "NO",
+   "23": "NOT GIVEN",
+   "24": "YES",
+   "25": "NOT GIVEN",
+   "26": "NO",
+   "27": "B",
+   "28": "C",
+   "29": "B",
+   "30": "D",
+   "31": "D",
+   "32": "A",
+   "33": "C",
+   "34": "F",
+   "35": "G",
+   "36": "FALSE",
+   "37": "NOT GIVEN",
+   "38": "NOT GIVEN",
+   "39": "TRUE",
+   "40": "TRUE"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nThe diagram below shows the manufacturing process for making sugar from\nsugar cane.\n\nSummarise the information by selecting and reporting the main features, and\nmake comparisons where relevant.\n\nWrite at least 150 words.",
+   "figure_pdf_page": 52,
+   "kind": "process",
+   "image": "figures/p052.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nIn their advertising, businesses nowadays usually emphasise that their products\nare new in some way.\n\nWhy is this? Do you think it is a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0,
+   "kind": "two_part_question"
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Flowers and plants",
+    "questions": [
+     "Do you have a favourite flower or plant? [Why/Why not?]",
+     "What kinds of flowers and plants grow near where you live? [Why/Why not?]",
+     "Is it important to you to have flowers and plants in your home? [Why/Why not?]",
+     "Have you ever bought flowers for someone else? [Why/Why not?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe a review you read about a product or service.",
+   "points": [
+    "where you read the review",
+    "what the product or service was",
+    "what information the review gave about the product or service",
+    "and explain what you did as a result of reading this review."
+   ],
+   "rounding_off": [
+    "You will have to talk about the topic for one to two minutes.",
+    "You have one minute to think about what you are going to say.",
+    "You can make some notes to help you if you wish."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Online reviews",
+    "questions": [
+     "What kinds of things do people write online reviews about in your country?",
+     "Why do some people write online reviews?",
+     "Do you think that online reviews are good for both shoppers and companies?"
+    ]
+   },
+   {
+    "topic": "Customer service",
+    "questions": [
+     "What do you think it might be like to work in a customer service job?",
+     "Do you agree that customers are more likely to complain nowadays?",
+     "How important is it for companies to take all customer complaints seriously?"
+    ]
+   }
+  ],
+  "kind": "media"
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}

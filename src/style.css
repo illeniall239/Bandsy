@@ -362,7 +362,7 @@ mark.err.cohesion, mark.err.task { background: var(--soft); border-color: var(--
   .explain blockquote::before { left: 12px; }
 }
 @media (max-width: 560px) {
-  .pills { width: 100%; justify-content: space-between; }
+  .pills { width: 100%; flex-wrap: wrap; justify-content: center; row-gap: 4px; border-radius: 20px; }   /* six links: two rows rather than a cut-off one */
   .pills a { padding: 9px 8px; font-size: 12px; }
   .stats { gap: 24px; }
   .home { padding: 0 16px 32px; }
@@ -375,3 +375,31 @@ mark.err.cohesion, mark.err.task { background: var(--soft); border-color: var(--
 }
 /* iPhones zoom the page into any field under 16px when it's tapped */
 @media (max-width: 760px) { input, select, textarea, .home select, .graph .head select { font-size: 16px; } }
+
+/* practice by question type */
+.practice h2 { margin-top: 32px; }
+.practice td, .practice th { padding: 12px 20px; }
+.practice tbody th { font-weight: 700; white-space: normal; }
+.practice .weak { color: var(--bad); }
+.practice .explain-cell { white-space: nowrap; }
+.practice .explain-cell .chip { margin-right: 6px; }
+.practice .items { display: flex; flex-wrap: wrap; gap: 6px; padding: 4px 0; justify-content: flex-end; }
+.practice tr.sub { background: #FAFAF8; }
+.practice tr.sub th { font-weight: 600; color: var(--ink-2); padding-left: 36px; }
+.practice tr.sub .explain-cell { white-space: normal; }
+.practice .items .did { background: var(--lime); color: var(--ink); }
+@media (max-width: 760px) {
+  .practice td, .practice th { padding: 10px 8px; }
+  .practice thead th:nth-child(2), .practice tbody td:nth-child(2) { display: none; }   /* question count: the least needed column */
+}
+@media (max-width: 380px) {
+  .practice td, .practice th { padding: 10px 6px; font-size: 13px; }
+  .practice .chip, .practice .chip-btn { padding: 8px 9px; font-size: 11px; }
+  .practice thead th:nth-child(3), .practice tbody td:nth-child(3) { display: none; }   /* "done" count: the row's buttons say enough */
+}
+
+.practice tr.sub .items { max-height: 132px; overflow-y: auto; }   /* 58 note-completion items: a scroll strip, not a wall */
+@media (max-width: 760px) {
+  .practice tr.sub .items { justify-content: flex-start; max-height: 116px; }
+  .practice tr.sub th { padding-left: 10px; }
+}

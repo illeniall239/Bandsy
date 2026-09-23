@@ -11,6 +11,7 @@ A personal IELTS Academic prep app covering all four modules, built on the Cambr
 - **Explain.** On any Listening or Reading result, "Explain" quotes where the answer is in the transcript or passage, why the key is right, why your answer didn't fit, and gives a tip. Explanations are cached.
 - **Writing.** Tasks 1 and 2 with a word count. Grading gives the four criteria bands and marks the errors inline.
 - **Speaking.** A three-part test with a spoken examiner, or a tutor mode that replies as you go. Speech-to-text and the examiner's voice run locally; a model handles Part 3 follow-ups and feedback.
+- **Practice.** Every question type in the books in one list (map labelling, matching headings, process diagrams, Part 2 cards about a place, and so on) with your accuracy per type, so a weakness can be drilled directly instead of hunting through tests.
 - **Vocabulary.** Your saved words with definitions, plus topic word lists from *Check Your English Vocabulary for IELTS*.
 - **Settings.** API keys per provider and one model per job (Writing grading, Speaking, small tasks). Nothing is chosen for you: a job without a model refuses to run.
 
@@ -80,6 +81,7 @@ python pipeline/extract.py units     --book 15 --text claude:sonnet --vision cla
 python pipeline/extract.py scripts   --book 15
 python pipeline/extract.py proofread --book 15 --text claude:sonnet
 python pipeline/extract.py turns     --book 15 --text claude:sonnet
+python pipeline/extract.py tags      --book 15 --text claude:sonnet
 python pipeline/extract.py assemble  --book 15
 python pipeline/vocab.py --text claude:sonnet
 ```
@@ -90,6 +92,7 @@ python pipeline/vocab.py --text claude:sonnet
 - **scripts:** cleans the Listening transcripts and repairs them against the audio with local Whisper.
 - **proofread:** a model pass over the passages for real-word misreads, checked against the page images.
 - **turns:** puts speaker names on dialogue turns the rules couldn't place.
+- **tags:** classifies each Writing task and Speaking card (process diagram, pie chart, opinion essay, a place) for the Practice page.
 - **assemble:** writes `content/camNN/testN.json` and runs the validators (40/40 answers, no numbering gaps, options present).
 
 Model strings are `provider:model`, for example `claude:sonnet` or `ollama:<model>`. Any model error stops the run; run it again to resume from the cache.

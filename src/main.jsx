@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { TopNav, PageHead } from "./Nav.jsx";
 import { createRoot } from "react-dom/client";
 import { TestScreen } from "./Test.jsx";
@@ -12,20 +12,156 @@ import "./style.css";
 
 // hash routes: #/            home
 //              #/t/cam15/test1/listening?mode=mock|drill
-const route = () => { const [p, q] = location.hash.slice(1).split("?"); const u = new URLSearchParams(q); return { path: p || "/", mode: u.get("mode") || "mock", section: +u.get("section") || 0, task: +u.get("task") || 0 }; };
+const route = () => { const [p, q] = location.hash.slice(1).split("?"); const u = new URLSearchParams(q); return { path: p || "/", mode: u.get("mode") || "mock", section: +u.get("section") || 0, task: +u.get("task") || 0, group: +u.get("group") || 0 }; };
 
 function App() {
   const [r, setR] = useState(route());
   useEffect(() => { const f = () => setR(route()); addEventListener("hashchange", f); return () => removeEventListener("hashchange", f); }, []);
   if (r.path === "/settings") return <Settings />;
+  if (r.path === "/practice") return <Practice />;
   if (r.path === "/tests") return <Home />;
   if (r.path === "/history") return <History />;
   if (r.path === "/vocab" || r.path === "/review") return <Vocabulary />;   // #/review: old link
   let m = r.path.match(/^\/r\/(\d+)$/);
   if (m) return <Saved key={m[1]} id={m[1]} />;
   m = r.path.match(window.BANDSY_SPEAKING === false ? /^\/t\/([^/]+\/[^/]+)\/(listening|reading|writing)$/ : /^\/t\/([^/]+\/[^/]+)\/(listening|reading|writing|speaking)$/);
-  return m ? <Attempt key={location.hash} id={m[1]} module={m[2]} mode={r.mode} section={r.section} task={r.task} /> : <Today />;
+  return m ? <Attempt key={location.hash} id={m[1]} module={m[2]} mode={r.mode} section={r.section} task={r.task} group={r.group} /> : <Today />;
 }
+
+/** The official task types (ielts.org): six in Listening, eleven in Reading, where every layout of a completion
+ *  task counts as one type. Each holds the finer kinds we can drill separately. */
+const OFFICIAL = {
+  listening: [
+    ["Multiple choice", ["multiple_choice", "multiple_choice_multi"]],
+    ["Matching", ["matching_features"]],
+    ["Plan, map or diagram labelling", ["map_labelling", "diagram_labelling"]],
+    ["Form, note, table, flow-chart or summary completion", ["note_completion", "form_completion", "table_completion", "flow_chart_completion", "summary_completion"]],
+    ["Sentence completion", ["sentence_completion"]],
+    ["Short-answer questions", ["short_answer"]],
+  ],
+  reading: [
+    ["Multiple choice", ["multiple_choice", "multiple_choice_multi"]],
+    ["Identifying information (True / False / Not Given)", ["true_false_not_given"]],
+    ["Identifying the writer's views (Yes / No / Not Given)", ["yes_no_not_given"]],
+    ["Matching information", ["matching_information"]],
+    ["Matching headings", ["matching_headings"]],
+    ["Matching features", ["matching_features"]],
+    ["Matching sentence endings", ["matching_sentence_endings"]],
+    ["Sentence completion", ["sentence_completion"]],
+    ["Summary, note, table or flow-chart completion", ["summary_completion", "note_completion", "table_completion", "flow_chart_completion"]],
+    ["Diagram label completion", ["diagram_labelling"]],
+    ["Short-answer questions", ["short_answer"]],
+  ],
+  writing: [
+    ["Task 1 (150 words, describe a visual)", ["task1_process", "task1_pie_chart", "task1_bar_chart", "task1_line_graph", "task1_table", "task1_map", "task1_mixed", "task1_other"]],
+    ["Task 2 (250 words, essay)", ["task2_opinion", "task2_discussion", "task2_advantages_disadvantages", "task2_problem_solution", "task2_two_part_question", "task2_other"]],
+  ],
+  speaking: [
+    ["The whole test (Parts 1 to 3)", ["part2_person", "part2_place", "part2_object", "part2_event", "part2_experience", "part2_activity", "part2_media", "part2_other"]],
+  ],
+};
+// the finer kinds, shown when a type is opened
+const KIND_LABEL = {
+  multiple_choice: "One answer", multiple_choice_multi: "Choose TWO letters",
+  matching_features: "Matching features", matching_information: "Matching information", matching_headings: "Matching headings",
+  matching_sentence_endings: "Matching sentence endings", map_labelling: "Map or plan", diagram_labelling: "Diagram",
+  note_completion: "Notes", form_completion: "Form", table_completion: "Table", flow_chart_completion: "Flow chart",
+  summary_completion: "Summary", sentence_completion: "Sentences", short_answer: "Short answer",
+  true_false_not_given: "True / False / Not Given", yes_no_not_given: "Yes / No / Not Given",
+  task1_process: "Process diagram", task1_pie_chart: "Pie chart", task1_bar_chart: "Bar chart", task1_line_graph: "Line graph",
+  task1_table: "Table", task1_map: "Maps and plans", task1_mixed: "Two charts together", task1_other: "Other",
+  task2_opinion: "Opinion (agree or disagree)", task2_discussion: "Discuss both views", task2_advantages_disadvantages: "Advantages and disadvantages",
+  task2_problem_solution: "Problems and solutions", task2_two_part_question: "Two-part question", task2_other: "Other",
+  part2_person: "Part 2 card: a person", part2_place: "Part 2 card: a place", part2_object: "Part 2 card: an object",
+  part2_event: "Part 2 card: an event", part2_experience: "Part 2 card: an experience", part2_activity: "Part 2 card: an activity",
+  part2_media: "Part 2 card: a book, film or website", part2_other: "Part 2 card: other",
+};
+const MODULE_NAME = { listening: "Listening", reading: "Reading", writing: "Writing", speaking: "Speaking" };
+
+/** The link that practises one catalogue item, and the attempt mode it will be saved under. */
+const itemHref = i => i.module === "writing" ? `#/t/${i.test}/writing?mode=drill&task=${i.task}`
+  : i.module === "speaking" ? `#/t/${i.test}/speaking?mode=exam`
+  : `#/t/${i.test}/${i.module}?mode=drill&group=${i.first}`;
+const itemMode = i => i.module === "writing" ? `drill-t${i.task}` : i.module === "speaking" ? "exam" : `drill-g${i.first}`;
+const itemName = i => `${i.test.replace("cam", "C").replace("/test", " T")}${i.first ? ` Q${i.first}` : ""}`;
+
+/** Practice by question type: the official task types, each openable into the finer kinds and the individual items. */
+function Practice() {
+  const [items, setItems] = useState(null);
+  const [attempts, setAttempts] = useState([]);
+  const [open, setOpen] = useState(null);
+  useEffect(() => { fetch("/api/catalog").then(r => r.json()).then(setItems); fetch("/api/attempts").then(r => r.json()).then(setAttempts); }, []);
+  if (!items) return <main className="home"><TopNav /><p className="muted">Loading…</p></main>;
+
+  const best = new Map();   // "test|module|mode" -> best score, so a repeat counts once
+  for (const a of attempts) {
+    const k = `${a.test}|${a.module}|${a.mode}`;
+    if (!best.has(k) || (a.score ?? 0) > best.get(k)) best.set(k, a.score ?? 0);
+  }
+  const key = i => `${i.test}|${i.module}|${itemMode(i)}`;
+  const stats = list => {
+    const hit = list.filter(i => best.has(key(i)));
+    const scored = hit.filter(i => i.module === "listening" || i.module === "reading");
+    return { items: list, done: hit.length, questions: list.reduce((n, i) => n + i.n, 0),
+      accuracy: scored.length ? Math.round(100 * scored.reduce((s, i) => s + best.get(key(i)), 0) / scored.reduce((s, i) => s + i.n, 0)) : null };
+  };
+  const next = list => list.find(i => !best.has(key(i))) || list[0];
+  const cells = row => (
+    <>
+      <td>{row.questions}</td>
+      <td>{row.done} / {row.items.length}</td>
+      <td>{row.accuracy == null ? <span className="muted">—</span> : <b className={row.accuracy < 60 ? "weak" : ""}>{row.accuracy}%</b>}</td>
+    </>);
+
+  return (
+    <main className="home practice">
+      <TopNav />
+      <PageHead eyebrow="By task type" title="Practice"
+        meta="The official IELTS task types, with everything in the books sorted into them. Pick the one you keep losing marks on and it serves the ones you have not done yet." />
+      {Object.entries(OFFICIAL).filter(([m]) => m !== "speaking" || window.BANDSY_SPEAKING !== false).map(([m, types]) => (
+        <section key={m}>
+          <h2>{MODULE_NAME[m]}</h2>
+          <table>
+            <thead><tr><th>Task type</th><th>Questions</th><th>Done</th><th>Accuracy</th><th></th></tr></thead>
+            <tbody>{types.map(([label, kinds]) => {
+              const row = stats(items.filter(i => i.module === m && kinds.includes(i.type)));
+              if (!row.items.length) return null;
+              const id = m + label;
+              const subs = kinds.map(k => [k, stats(row.items.filter(i => i.type === k))]).filter(([, s]) => s.items.length);
+              return (
+                <Fragment key={id}>
+                  <tr>
+                    <th>{label}</th>
+                    {cells(row)}
+                    <td className="explain-cell">
+                      <a className="chip" href={itemHref(next(row.items))}>{row.done ? "Next" : "Start"}</a>
+                      <button className="chip-btn ghost" onClick={() => setOpen(open === id ? null : id)} aria-expanded={open === id}>{open === id ? "Hide" : "Break down"}</button>
+                    </td>
+                  </tr>
+                  {open === id && subs.length === 1 && (
+                    <tr className="sub"><th /><td colSpan={4}>
+                      <div className="items">{row.items.map(i => (
+                        <a key={key(i)} className={"chip ghost" + (best.has(key(i)) ? " did" : "")} href={itemHref(i)}>{itemName(i)}</a>))}</div>
+                    </td></tr>)}
+                  {open === id && subs.length > 1 && subs.map(([k, s]) => (
+                    <tr key={k} className="sub">
+                      <th>{KIND_LABEL[k] || k}</th>
+                      {cells(s)}
+                      <td className="explain-cell">
+                        <a className="chip" href={itemHref(next(s.items))}>{s.done ? "Next" : "Start"}</a>
+                        <div className="items">{s.items.map(i => (
+                          <a key={key(i)} className={"chip ghost" + (best.has(key(i)) ? " did" : "")} href={itemHref(i)}>{itemName(i)}</a>))}</div>
+                      </td>
+                    </tr>))}
+                </Fragment>);
+            })}
+            </tbody>
+          </table>
+        </section>))}
+    </main>);
+}
+
+
 
 function Home() {
   const [tests, setTests] = useState([]);
@@ -58,7 +194,7 @@ function Home() {
     </main>);
 }
 
-function Attempt({ id, module, mode, section, task }) {
+function Attempt({ id, module, mode, section, task, group }) {
   const [test, setTest] = useState(null);
   const [result, setResult] = useState(null);
   useEffect(() => { fetch(`/content/${id}.json`).then(r => r.json()).then(setTest); }, [id]);
@@ -66,7 +202,7 @@ function Attempt({ id, module, mode, section, task }) {
   if (result) return module === "writing" ? <WritingResult test={test} result={result} /> : module === "speaking" ? <SpeakingResult result={result} /> : <Result test={test} module={module} result={result} />;
   if (module === "writing") return <WritingScreen test={test} id={id} mode={mode} only={task} onDone={setResult} />;
   if (module === "speaking") return <SpeakingScreen test={test} id={id} mode={mode === "tutor" ? "tutor" : "exam"} onDone={setResult} />;
-  return <TestScreen test={test} id={id} module={module} mode={mode} section={section} onDone={setResult} />;
+  return <TestScreen test={test} id={id} module={module} mode={mode} section={section} group={group} onDone={setResult} />;
 }
 
 /** A stored attempt, shown with the same result screens. */

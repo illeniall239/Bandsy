@@ -5,13 +5,15 @@ import { AUDIO } from "./hosted.js";
 
 const fmt = s => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 
-/** module: "listening" | "reading"; mode: "mock" (timed, play-once) | "drill" (no clock). */
-export function TestScreen({ test, id, module, mode, section, onDone }) {
+/** module: "listening" | "reading"; mode: "mock" (timed, play-once) | "drill" (no clock).
+ *  group: practise one question group on its own (from the Practice page), keeping its audio, passage and figure. */
+export function TestScreen({ test, id, module, mode, section, group, onDone }) {
   const base = `/content/${id.split("/")[0]}/`;
   const all = module === "listening"
     ? test.listening.parts.map(p => ({ title: `Part ${p.part}`, groups: p.groups, audio: test.listening.audio[p.part - 1] }))
     : test.reading.passages.map((p, i) => ({ title: `Passage ${i + 1}`, groups: p.groups, passage: p }));
-  const sections = section ? [all[section - 1]] : all;   // a drill is one section; a band only means something for the whole test
+  const one = group ? all.map(s => ({ ...s, groups: s.groups.filter(g => g.first === group) })).find(s => s.groups.length) : null;
+  const sections = one ? [one] : section ? [all[section - 1]] : all;   // a drill is one section; a band only means something for the whole test
   const groups = sections.flatMap(s => s.groups);
   const numbers = groups.flatMap(g => g.questions.map(q => q.n));
   const key = test[module].answers;
@@ -29,8 +31,8 @@ export function TestScreen({ test, id, module, mode, section, onDone }) {
 
   const submit = () => {
     const { marks, score } = mark(groups, key, answers);
-    const result = { test: id, module, mode: section ? `drill-s${section}` : mode, started_at: started.current, finished_at: new Date().toISOString(),
-      answers, marks, score, band: section ? null : band(module, score), total: numbers.length };
+    const result = { test: id, module, mode: group ? `drill-g${group}` : section ? `drill-s${section}` : mode, started_at: started.current, finished_at: new Date().toISOString(),
+      answers, marks, score, band: section || group ? null : band(module, score), total: numbers.length };
     fetch("/api/attempts", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(result) }).catch(() => {});
     onDone(result);
   };

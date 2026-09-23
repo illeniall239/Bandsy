@@ -1,0 +1,1266 @@
+{
+ "book": 16,
+ "test": 3,
+ "module": "academic",
+ "listening": {
+  "parts": [
+   {
+    "part": 1,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+      "first": 1,
+      "last": 10,
+      "body": "JUNIOR CYCLE CAMP\nThe course focuses on skills and safety.\n\nCharlie would be placed in Level 5.\nFirst of all, children at this level are taken to practise in a [[1]].\n\nInstructors\nInstructors wear [[2]] shirts.\n[[3]] is required and training is given.\n\nClasses\nThe size of the classes is limited.\nThere are quiet times during the morning for a [[4]].\nClasses are held even if there is [[5]].\n\nWhat to bring\na change of clothing\nshoes (not sandals)\nCharlie's own [[6]]\n[[7]]\n\nCharlie should arrive at 9.20 am on the first day.\nBefore the class, his [[8]] will be checked.\nHe should then go to the [[9]] to meet his class instructor.\n\nCost\nThe course costs $[[10]] per week.",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "First of all, children at this level are taken to practise in a [[1]].",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "Instructors wear [[2]] shirts.",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "[[3]] is required and training is given.",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "There are quiet times during the morning for a [[4]].",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "Classes are held even if there is [[5]].",
+        "options": []
+       },
+       {
+        "n": 6,
+        "text": "Charlie's own [[6]]",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "[[7]]",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "Before the class, his [[8]] will be checked.",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "He should then go to the [[9]] to meet his class instructor.",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "The course costs $[[10]] per week.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "groups": [
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Questions 11 and 12\n\nChoose TWO letters, A-E.",
+      "first": 11,
+      "last": 12,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "the active lifestyle"
+       },
+       {
+        "key": "B",
+        "text": "the above-average salaries"
+       },
+       {
+        "key": "C",
+        "text": "the flexible working opportunities"
+       },
+       {
+        "key": "D",
+        "text": "the opportunities for overseas travel"
+       },
+       {
+        "key": "E",
+        "text": "the chance to be in a natural environment"
+       }
+      ],
+      "questions": [
+       {
+        "n": 11,
+        "text": "According to Megan, what are the TWO main advantages of working in the agriculture and horticulture sectors?",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "According to Megan, what are the TWO main advantages of working in the agriculture and horticulture sectors?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Questions 13 and 14\n\nChoose TWO letters, A-E.",
+      "first": 13,
+      "last": 14,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "the increasing risk of accidents"
+       },
+       {
+        "key": "B",
+        "text": "being in a very quiet location"
+       },
+       {
+        "key": "C",
+        "text": "difficult weather conditions at times"
+       },
+       {
+        "key": "D",
+        "text": "the cost of housing"
+       },
+       {
+        "key": "E",
+        "text": "the level of physical fitness required"
+       }
+      ],
+      "questions": [
+       {
+        "n": 13,
+        "text": "Which TWO of the following are likely to be disadvantages for people working outdoors?",
+        "options": []
+       },
+       {
+        "n": 14,
+        "text": "Which TWO of the following are likely to be disadvantages for people working outdoors?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_features",
+      "instructions": "Questions 15-20\n\nWhat information does Megan give about each of the following job opportunities?\n\nChoose SIX answers from the box and write the correct letter, A-H, next to Questions 15-20.",
+      "first": 15,
+      "last": 20,
+      "body": "Information",
+      "options": [
+       {
+        "key": "A",
+        "text": "not a permanent job"
+       },
+       {
+        "key": "B",
+        "text": "involves leading a team"
+       },
+       {
+        "key": "C",
+        "text": "experience not essential"
+       },
+       {
+        "key": "D",
+        "text": "intensive work but also fun"
+       },
+       {
+        "key": "E",
+        "text": "chance to earn more through overtime"
+       },
+       {
+        "key": "F",
+        "text": "chance for rapid promotion"
+       },
+       {
+        "key": "G",
+        "text": "accommodation available"
+       },
+       {
+        "key": "H",
+        "text": "local travel involved"
+       }
+      ],
+      "questions": [
+       {
+        "n": 15,
+        "text": "Fresh food commercial manager",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "Agronomist",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "Fresh produce buyer",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "Garden centre sales manager",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "Tree technician",
+        "options": []
+       },
+       {
+        "n": 20,
+        "text": "Farm worker",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "groups": [
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Questions 21 and 22\n\nChoose TWO letters, A-E.",
+      "first": 21,
+      "last": 22,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "The results were what he had predicted."
+       },
+       {
+        "key": "B",
+        "text": "The experiment was simple to set up."
+       },
+       {
+        "key": "C",
+        "text": "A large sample of people was tested."
+       },
+       {
+        "key": "D",
+        "text": "The subjects were unaware of what they were drinking."
+       },
+       {
+        "key": "E",
+        "text": "The test was repeated several times for each person."
+       }
+      ],
+      "questions": [
+       {
+        "n": 21,
+        "text": "Which TWO points does Adam make about his experiment on artificial sweeteners?",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "Which TWO points does Adam make about his experiment on artificial sweeteners?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Questions 23 and 24\n\nChoose TWO letters, A-E.",
+      "first": 23,
+      "last": 24,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "She used the wrong sort of nuts."
+       },
+       {
+        "key": "B",
+        "text": "She used an unsuitable chemical."
+       },
+       {
+        "key": "C",
+        "text": "She did not grind the nuts finely enough."
+       },
+       {
+        "key": "D",
+        "text": "The information on the nut package was incorrect."
+       },
+       {
+        "key": "E",
+        "text": "The weighing scales may have been unsuitable."
+       }
+      ],
+      "questions": [
+       {
+        "n": 23,
+        "text": "Which TWO problems did Rosie have when measuring the fat content of nuts?",
+        "options": []
+       },
+       {
+        "n": 24,
+        "text": "Which TWO problems did Rosie have when measuring the fat content of nuts?",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice",
+      "instructions": "Questions 25-30\n\nChoose the correct letter, A, B or C.",
+      "first": 25,
+      "last": 30,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 25,
+        "text": "Adam suggests that restaurants could reduce obesity if their menus",
+        "options": [
+         {
+          "key": "A",
+          "text": "offered fewer options."
+         },
+         {
+          "key": "B",
+          "text": "had more low-calorie foods."
+         },
+         {
+          "key": "C",
+          "text": "were organised in a particular way."
+         }
+        ]
+       },
+       {
+        "n": 26,
+        "text": "The students agree that food manufacturers deliberately",
+        "options": [
+         {
+          "key": "A",
+          "text": "make calorie counts hard to understand."
+         },
+         {
+          "key": "B",
+          "text": "fail to provide accurate calorie counts."
+         },
+         {
+          "key": "C",
+          "text": "use ineffective methods to reduce calories."
+         }
+        ]
+       },
+       {
+        "n": 27,
+        "text": "What does Rosie say about levels of exercise in England?",
+        "options": [
+         {
+          "key": "A",
+          "text": "The amount recommended is much too low."
+         },
+         {
+          "key": "B",
+          "text": "Most people overestimate how much they do."
+         },
+         {
+          "key": "C",
+          "text": "Women now exercise more than they used to."
+         }
+        ]
+       },
+       {
+        "n": 28,
+        "text": "Adam refers to the location and width of stairs in a train station to illustrate",
+        "options": [
+         {
+          "key": "A",
+          "text": "practical changes that can influence people's behaviour."
+         },
+         {
+          "key": "B",
+          "text": "methods of helping people who have mobility problems."
+         },
+         {
+          "key": "C",
+          "text": "ways of preventing accidents by controlling crowd movement."
+         }
+        ]
+       },
+       {
+        "n": 29,
+        "text": "What do the students agree about including reference to exercise in their presentation?",
+        "options": [
+         {
+          "key": "A",
+          "text": "They should probably leave it out."
+         },
+         {
+          "key": "B",
+          "text": "They need to do more research on it."
+         },
+         {
+          "key": "C",
+          "text": "They should discuss this with their tutor."
+         }
+        ]
+       },
+       {
+        "n": 30,
+        "text": "What are the students going to do next for their presentation?",
+        "options": [
+         {
+          "key": "A",
+          "text": "prepare some slides for it"
+         },
+         {
+          "key": "B",
+          "text": "find out how long they have for it"
+         },
+         {
+          "key": "C",
+          "text": "decide on its content and organisation"
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   },
+   {
+    "part": 4,
+    "groups": [
+     {
+      "type": "note_completion",
+      "instructions": "Complete the notes below.\n\nWrite ONE WORD ONLY for each answer.",
+      "first": 31,
+      "last": 40,
+      "body": "Hand knitting\n\nInterest in knitting\nKnitting has a long history around the world.\nWe imagine someone like a [[31]] knitting.\n[[32]] ago, knitting was expected to disappear.\nThe number of knitting classes is now increasing.\nPeople are buying more [[33]] for knitting nowadays.\n\nBenefits of knitting\nGives support in times of [[34]] difficulty\nRequires only [[35]] skills and little money to start\nReduces stress in a busy life\n\nEarly knitting\nThe origins are not known.\nFindings show early knitted items to be [[36]] in shape.\nThe first needles were made of natural materials such as wood and [[37]].\nEarly yarns felt [[38]] to touch.\nWool became the most popular yarn for spinning.\nGeographical areas had their own [[39]] of knitting.\nEveryday tasks like looking after [[40]] were done while knitting.",
+      "options": [],
+      "questions": [
+       {
+        "n": 31,
+        "text": "We imagine someone like a [[31]] knitting.",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "[[32]] ago, knitting was expected to disappear.",
+        "options": []
+       },
+       {
+        "n": 33,
+        "text": "People are buying more [[33]] for knitting nowadays.",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "Gives support in times of [[34]] difficulty.",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "Requires only [[35]] skills and little money to start.",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "Findings show early knitted items to be [[36]] in shape.",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "The first needles were made of natural materials such as wood and [[37]].",
+        "options": []
+       },
+       {
+        "n": 38,
+        "text": "Early yarns felt [[38]] to touch.",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "Geographical areas had their own [[39]] of knitting.",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "Everyday tasks like looking after [[40]] were done while knitting.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "park",
+   "2": "blue",
+   "3": "reference",
+   "4": "story",
+   "5": "rain",
+   "6": "snack",
+   "7": "medication",
+   "8": "helmet",
+   "9": "tent",
+   "10": "199",
+   "11": "A",
+   "12": "C",
+   "13": "B",
+   "14": "C",
+   "15": "D",
+   "16": "F",
+   "17": "A",
+   "18": "H",
+   "19": "C",
+   "20": "G",
+   "21": "C",
+   "22": "D",
+   "23": "C",
+   "24": "E",
+   "25": "C",
+   "26": "A",
+   "27": "B",
+   "28": "A",
+   "29": "A",
+   "30": "C",
+   "31": "grandmother",
+   "32": "decade",
+   "33": "equipment",
+   "34": "economic",
+   "35": "basic",
+   "36": "round",
+   "37": "bone",
+   "38": "rough",
+   "39": "style",
+   "40": "sheep"
+  },
+  "audio": [
+   "Cambridge-lists-main/Cambridge IELTS 16 Audio/Test 3 Part 1.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 16 Audio/Test 3 Part 2.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 16 Audio/Test 3 Part 3.mp3",
+   "Cambridge-lists-main/Cambridge IELTS 16 Audio/Test 3 Part 4.mp3"
+  ],
+  "transcript": [
+   {
+    "part": 1,
+    "text": "JAKE: Hello, Junior Cycle camp, Jake speaking.\nWOMAN: Hi. I'm calling for some information about the cycle camp — I’m thinking of\nsending my son.\nJAKE: Great. Well, it's held every weekday morning over the summer vacation and we\nfocus on basic cycling skills and safety. We have eight levels for children from\nthree years upwards. How old’s your son?\nWOMAN: Charlie? He's seven. He can ride a bike, but he needs a little more training\nbefore he’s safe to go on the road.\nJAKE: He'd probably be best in Level 5. They start off practising on the site here, and\nwe aim to get them riding on the road, but first they're taken to ride in the park,\naway from the traffic.\nWOMAN: Right. And can you tell me a bit about the instructors?\nJAKE: Well, all our staff wear different coloured shirts. So, we have three supervisors,\nand they have red shirts. They support the instructors, and they also stand in for\nme if I'm not around. Then the instructors themselves are in blue shirts, and one\nof these is responsible for each class.\nWOMAN: OK.\nJAKE: In order to be accepted, all our instructors have to submit a reference from\nsomeone who's seen them work with children — like if they've worked as a\nbabysitter, for example. Then they have to complete our training course, including\nhow to do lesson plans, and generally care for the well-being of the kids in their\nclass. They do a great job, I have to say.\nWOMAN: Right. And tell me a bit about the classes. What size will Charlie’s class be?\nJAKE: We have a limit of eight children in each class, so their instructor really gets to\nknow them well. They're out riding most of the time but they have quiet times\ntoo, where their instructor might tell them a story that’s got something to do with\ncycling, or get them to play a game together. It's a lot of fun.\nWOMAN: It must be. Now, what happens if there's rain? Do the classes still run?\nJAKE: Oh yes. We don't let that put us off — we just put on our waterproofs and\nkeep cycling.\nWOMAN: Anything special Charlie should bring along with him?\nJAKE: Well, maybe some spare clothes, especially if the weather's not so good. And\na snack for break time.\nWOMAN: How about a drink?\nJAKE: No, we'll provide that. And make sure he has shoes, not sandals.\nWOMAN: Sure. And just at present Charlie has to take medication every few hours, so I'll make sure he has that.\nJAKE: Absolutely. Just give us details of when he has to take it and we'll make sure\nhe does.\nWOMAN: Thanks.\nJAKE: Now, there are a few things you should know about Day 1 of the camp. The\nclasses normally start at 9.30 every morning, but on Day 1 you should aim to\nget Charlie here by 9.20. The finishing time will be 12.30 as usual. We need the\nadditional time because there are a few extra things to do. The most important\nis that we have a very careful to make sure that every child’s helmet fits\nproperly, If it doesn’t fit, we'll try to adjust it, or we'll find him another one — but he\nmust wear it all the time he’s on the bike.\nWOMAN: Of course.\nJAKE: Then after that, all the instructors will be waiting to meet their classes, and they'll \nmeet up in the tent — you can't miss it. And each instructor will take their class\naway and get started.\n\nWOMAN: OK. Well that all sounds good. Now can you tell me how much the camp costs a\nweek?\nJAKE: $199. We've managed to keep the price more or less\nthe same as last year — it was one hundred ninety then. But the places are filling\nup quite quickly.\nWOMAN: Right. OK, well I'd like to book for ..."
+   },
+   {
+    "part": 2,
+    "text": "Hello everyone. My name’s Megan Baker and I’m a recruitment consultant at AVT\nRecruitment specialists.\n\nNow, our company specialises in positions that involve working in the agriculture and\nhorticulture sectors, so that's fresh food production, garden and park maintenance and so on.\n\nAnd these sectors do provide some very special career opportunities. For a start, they often\noffer opportunities for those who don't want to be stuck with a 40 hour week, but need to \njuggle work with other responsibilities such as child care — and this is very important for many\nof our recruits. Some people like working in a rural setting, surrounded by plants and trees\ninstead of buildings, although we can’t guarantee that. But there are certainly health benefits, \nespecially in jobs where you're not sitting all day looking at a screen — a big plus for many\npeople. Salaries can sometimes be good too, although there's a lot of variety here. And you\nmay have the opportunity in some types of jobs for travel overseas, although that obviously\ndepends on the job, and not everyone is keen to do it.\n\nOf course, working outdoors does have its challenges. It's fine in summer, but can be \nextremely unpleasant when it's cold and windy. You may need to be pretty fit for some jobs,\nthough with modern technology that’s not as important as it once was. And standards of\nhealth and safety are much higher now than they used to be, so there are fewer work related\naccidents. But if you like a lively city environment surrounded by lots of people, these jobs \nare probably not for you — they're often in pretty remote areas. And some people worry about\nfinding a suitable place to live, but in our experience, this usually turns out fine.\n\nNow let me tell you about some of the exciting jobs that we have on our books right now.\n\nOne is for a fresh food commercial manager. Our client here is a very large fresh food\nproducer supplying a range of top supermarkets. They operate in a very fast paced\nenvironment with low profit margins — the staff there work hard, but they play hard as well, so\nif you've a sociable personality this may be for you\nWe have an exciting post as an agronomist advising farmers on issues such as crop nutrition,\nprotection against pests, and the latest legislation on farming and agricultural practices. There\nare good opportunities for the right person to quickly make their way up the career ladder, but \na deep knowledge of the agricultural sector is expected of applicants.\n\nAleading supermarket is looking for a fresh produce buyer who is available for a 12 month\nmaternity cover contract. You need to have experience in administration, planning and buying\nin the fresh produce industry, and in return will receive a very competitive salary.\nWe have also received a request for a sales manager for a chain of garden centres. You\nwill be visiting centres in the region to ensure their high levels of customer service are\nmaintained. This post is only suitable for someone who is prepared to live in the region.\n\nThere is also a vacancy for a tree technician to carry out tree cutting, forestry and\nconservation work. Candidates must have a clean driving licence and have training in safety\nprocedures. A year’s experience would be preferred but the company might be prepared to\nconsider someone who has just completed an appropriate training course.\n\nFinally, we have a position for a farm worker. This will involve a wide range of farm duties\nincluding crop sowing and harvesting, machine maintenance and animal care. Perks of the\njob include the possibility of renting a small cottage on the estate, and the chance to earn a\ncompetitive salary. A driving licence and tractor driving experience are essential."
+   },
+   {
+    "part": 3,
+    "text": "ADAM: OK Rosie, shall we try to get some ideas together for our presentation on\ndiet and obesity?\n\nROSIE: Sure.\n\nADAM: I can talk about the experiment I did to see if people can tell the difference\nbetween real sugar and artificial sweeteners.\n\nROSIE: Where you gave people drinks with either sugar or artificial sweeteners and they\nhad to say which they thought it was?\n\nADAM: Yeah. It took me ages to decide exactly how I'd organise it, especially how I could\nmake sure that people didn’t know which drink I was giving them. It was hard to\nkeep track of it all, especially as I had so many people doing it — I had to make \nsure I kept a proper record of what each person had had.\n\nROSIE: So could most people tell the difference?\n\nADAM: Yeah — I hadn't thought they would be able to, but most people could.\n\nROSIE: Then there's that experiment I did measuring the fat content of nuts, to see if the\nnutritional information given on the packet was accurate.\n\nADAM: The one where you ground up the nuts and mixed them with a chemical to\nabsorb the fat?\n\nROSIE: Yes. My results were a bit problematic — the fat content for that type of nut\nseemed much lower than it said on the package. But I reckon the package\ninformation was right. I think I should probably have ground up the nuts more \nthan I did. It's possible that the scales for weighing the fat weren't accurate \nenough, too. I'd really like to try the experiment again some time.\n\nADAM: So what can we say about helping people to lose weight?\nThere's a lot we could say about what restaurants could do to reduce obesity. I\nread that the items at the start of a menu and the items at the end of a menu are\nmuch more likely to be chosen than the items in the middle. So, if you put the\nfor the food with fewer calories, without even realising what they're doing.\n\nROSIE: I think food manufacturers could do more to encourage healthy eating.\nADAM: How?\nROSIE: Well, when manufacturers put calorie counts of a food on the label, they're\nsometimes really confusing and I suspect they do it on purpose. Because food\nthat’s high in calories tastes better, and so they'll sell more.\nADAM: Yeah, so if you look at the amount of calories in a pizza, they'll give you the\ncalories per quarter pizza and you think, oh that’s not too bad. But who's going to\neat a quarter pizza?\n\nROSIE: Exactly.\nADAM: I suppose another approach to this problem is to get people to exercise more.\nROSIE: Right. In England, the current guidelines are for at least 30 minutes of brisk\nwalking, five days a week. Now when you ask them, about 40% of men and\n30% of women say they do this, but when you objectively measure the amount.\nof walking they do with motion sensors, you find that only 6% of men and 4% of\nwomen do the recommended amount of exercise.\n\nADAM: Mm, so you can see why obesity is growing.\nROSIE: So how can people be encouraged to take more exercise?\nADAM: Well, for example, think of the location of stairs in a train station. If people reach\nthe stairs before they reach the escalator when they're leaving the station, they're\nmore likely to take the stairs. And if you increase the width of the stairs, you'll.\nget more people using them at the same time. It's an unconscious process and\ninfluenced by minor modifications in their environment.\n\nROSIE: Right. And it might not be a big change, but if it happens every day, it all adds up.\n\nADAM: Yes. But actually, I'm not sure if we should be talking about exercise in our\npresentation.\n\nROSIE: Well, we've done quite a bit of reading about it.\n\nADAM: I know, but it’s going to mean we have a very wide focus, and our tutor did say\nthat we need to focus on causes and solutions in terms of nutrition.\n\nROSIE: suppose so. And we've got plenty of information about that. OK, well that will be\nsimpler.\n\nADAM: So what shall we do now? We've still got half an hour before our next lecture.\n\nROSIE: Let's think about what we're going to include and what will go where. Then we\ncan decide what slides we need.\n\nADAM: OK, fine."
+   },
+   {
+    "part": 4,
+    "text": "Good morning everyone. So today we're going to look at an important creative activity and\nthat’s hand knitting. Ancient knitted garments have been found in many different countries,\nshowing that knitting is a global activity with a long history.\n\nWhen someone says the word ‘knitting’ we might well picture an elderly person — a\ngrandmother perhaps — sitting by the fire knitting garments for themselves or other members\nof the family. It's a homely image, but one that may lead you to feel that knitting is an activity\nof the past — and, indeed, during the previous decade, it was one of the skills that was\npredicted to vanish from everyday life. For although humans have sewn and knitted their\nown clothing for a very long time, many of these craft-based skills went into decline when\nindustrial machines took over — mainly because they were no longer passed down from one\ngeneration to another. However, that’s all changing and interest in knitting classes in many\ncountries is actually rising, as more and more people are seeking formal instruction in the\nskill. With that trend, we're also seeing an increase in the sales figures for knitting equipment.\n\nSo why do people want to be taught to knit at a time when a machine can readily do the job\nfor them? The answer is that knitting, as a handicraft, has numerous benefits for those doing\nit. Let's consider what some of these might be. While many people knitted garments in the\npast because they couldn't afford to buy clothes, it’s still true today that knitting can be helpful\nif you're experiencing economic hardship. If you have several children who all need warm\nwinter clothes, knitting may save you a lot of money. And the results of knitting your own\nclothes can be very rewarding, even though the skills you need to get going are really quite\nbasic and the financial outlay is minimal.\n\nBut the more significant benefits in today’s world are to do with well-being. In a world where\nit's estimated that we spend up to nine hours a day online, doing something with our hands\nthat is craft-based makes us feel good. It releases us from the stress of a technological, fast-\npaced life.\n\nNow, let's look back a bit to early knitting activities. In fact, no one really knows when knitting first\nbegan, but archaeological remains have disclosed plenty of information for us to think about.\n\nOne of the interesting things about knitting is that the earliest pieces of clothing that have\nbeen found suggest that most of the items produced were round rather than flat. Discoveries\nfrom the 3rd and 4th centuries in Egypt show that things like socks and gloves, that were\nneeded to keep hands and feet warm, were knitted in one piece using four or five needles.\nThat's very different from most knitting patterns today, which only require two. What's\nmore, the very first needles people used were hand carved out of wood and other natural\nmaterials, like bone, whereas today's needles are largely made of steel or plastic and make\nthat characteristic clicking sound when someone's using them. Ancient people knitted using\nyarns made from linen, hemp, cotton and wool, and these were often very rough on the skin.\nThe spinning wheel, which allowed people to make finer yarns and produce much greater\nquantities of them, led to the dominance of wool in the knitting industry — often favoured for\nits warmth.\n\nAnother interesting fact about knitting is that because it was practised in so many parts of the\nworld for so many purposes, regional differences in style developed. This visual identity has\nallowed researchers to match bits of knitted clothing that have been unearthed over time to\nthe region from which the wearer came or the job that he or she did.\n\nAs I've mentioned, knitting offered people from poor communities a way of making extra\nmoney while doing other tasks. For many centuries, it seems, men, women and children took\nevery opportunity to knit, for example, while watching over sheep, walking to market or riding\nin boats. So, let's move on to take a..."
+   }
+  ]
+ },
+ "reading": {
+  "passages": [
+   {
+    "groups": [
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nIn boxes 1-5 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 1,
+      "last": 5,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 1,
+        "text": "The Romans’ shipbuilding skills were passed on to the Greeks and the Egyptians.",
+        "options": []
+       },
+       {
+        "n": 2,
+        "text": "Skilled craftsmen were needed for the mortise and tenon method of fixing planks.",
+        "options": []
+       },
+       {
+        "n": 3,
+        "text": "The later practice used by Mediterranean shipbuilders involved building the hull before the frame.",
+        "options": []
+       },
+       {
+        "n": 4,
+        "text": "The Romans called the Mediterranean Sea Mare Nostrum because they dominated its use.",
+        "options": []
+       },
+       {
+        "n": 5,
+        "text": "Most rowers on ships were people from the Roman army.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 6-13 on your answer sheet.",
+      "first": 6,
+      "last": 13,
+      "body": "Warships and merchant ships\n\nWarships were designed so that they were [[6]] and moved\nquickly. They often remained afloat after battles and were able to sail close to land as\nthey lacked any additional weight. A battering ram made of [[7]]\nwas included in the design for attacking and damaging the timber and oars of\nenemy ships. Warships, such as the 'trireme', had rowers on three different\n[[8]] .\n\nUnlike warships, merchant ships had a broad [[9]] that lay far\nbelow the surface of the sea. Merchant ships were steered through the water with\nthe help of large rudders and a tiller bar. They had both square and [[10]]\nsails. On merchant ships and warships, [[11]] was used to\nensure rowers moved their oars in and out of the water at the same time.\n\nQuantities of agricultural goods such as [[12]] were transported\nby merchant ships to two main ports in Italy. The ships were pulled to the shore by\n[[13]] . When the weather was clear and they could see islands\nor land, sailors used landmarks that they knew to help them navigate their route.",
+      "options": [],
+      "questions": [
+       {
+        "n": 6,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 7,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 8,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 9,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 10,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 11,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 12,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 13,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "Roman shipbuilding and navigation",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "Shipbuilding today is based on science and ships are built using computers and sophisticated tools. Shipbuilding in ancient Rome, however, was more of an art relying on estimation, inherited techniques and personal experience. The Romans were not traditionally sailors but mostly land- based people, who learned to build ships from the people that they conquered, namely the Greeks and the Egyptians."
+     },
+     {
+      "label": "",
+      "text": "There are a few surviving written documents that give descriptions and representations of ancient Roman ships, including the sails and rigging. Excavated vessels also provide some clues about ancient shipbuilding techniques. Studies of these have taught us that ancient Roman shipbuilders built the outer hull first, then proceeded with the frame and the rest of the ship. Planks used to build the outer hull were initially sewn together. Starting from the 6th century BCE, they were fixed using a method called mortise and tenon, whereby one plank locked into another without the need for stitching. Then in the first centuries of the current era, Mediterranean shipbuilders shifted to another shipbuilding method, still in use today, which consisted of building the frame first and then proceeding with the hull and the other components of the ship. This method was more systematic and dramatically shortened ship construction times. The ancient Romans built large merchant ships and warships whose size and technology were unequalled until the 16th century CE."
+     },
+     {
+      "label": "",
+      "text": "Warships were built to be lightweight and very speedy. They had to be able to sail near the coast, which is why they had no ballast or excess load and were built with a long, narrow hull. They did not sink when damaged and often would lie crippled on the sea’s surface following naval battles. They had a bronze battering ram, which was used to pierce the timber hulls or break the oars of enemy vessels. Warships used both wind (sails) and human power (oarsmen) and were therefore very fast. Eventually, Rome’s navy became the largest and most powerful in the Mediterranean, and the Romans had control over what they therefore called Mare Nostrum meaning ‘our sea’."
+     },
+     {
+      "label": "",
+      "text": "There were many kinds of warship. The ‘trireme’ was the dominant warship from the 7th to 4th century BCE. It had rowers in the top, middle and lower levels, and approximately 50 rowers in each bank. The rowers at the bottom had the most uncomfortable position as they were under the other rowers and were exposed to the water entering through the oar-holes. It is worth noting that contrary to popular perception, rowers were not slaves but mostly Roman citizens enrolled in the military. The trireme was superseded by larger ships with even more rowers. Merchant ships were built to transport lots of cargo over long distances and at a reasonable cost. They had a wider hull, double planking and a solid interior for added stability. Unlike warships, their V-shaped hull was deep underwater, meaning that they could not sail too close to the coast. They usually had two huge side rudders located off the stern and controlled by a small tiller bar connected to a system of cables. They had from one to three masts with large square sails and a small triangular sail at the bow. Just like warships, merchant ships used oarsmen, but coordinating the hundreds of rowers in both types of ship was not an easy task. In order to assist them, music would be played on an instrument, and oars would then keep time with this."
+     },
+     {
+      "label": "",
+      "text": "The cargo on merchant ships included raw materials (e.g. iron bars, copper, marble and granite), and agricultural products (e.g. grain from Egypt’s Nile valley). During the Empire, Rome was a huge city by ancient standards of about one million inhabitants. Goods from all over the world would come to the city through the port of Pozzuoli situated west of the bay of Naples in Italy and through the gigantic port of Ostia situated at the mouth of the Tiber River. Large merchant ships would approach the destination port and, just like today, be intercepted by a number of towboats that would drag them to the quay."
+     },
+     {
+      "label": "",
+      "text": "The time of travel along the many sailing routes could vary widely. Navigation in ancient Rome did not rely on sophisticated instruments such as compasses but on experience, local knowledge and observation of natural phenomena. In conditions of good visibility, seamen in the Mediterranean often had the mainland or islands in sight, which greatly facilitated navigation. They sailed by noting their position relative to a succession of recognisable landmarks. When weather conditions were not good or where land was no longer visible, Roman mariners estimated directions from the pole star or, with less accuracy, from the Sun at noon. They also estimated directions relative to the wind and swell. Overall, shipping in ancient Roman times resembled shipping today with large vessels regularly crossing the seas and bringing supplies from their Empire."
+     }
+    ]
+   },
+   {
+    "groups": [
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 2 has eight sections, A-H.\n\nWhich section contains the following information?\n\nWrite the correct letter, A-H, in boxes 14-19 on your answer sheet.",
+      "first": 14,
+      "last": 19,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 14,
+        "text": "an explanation for weapons being left behind in the mountains",
+        "options": []
+       },
+       {
+        "n": 15,
+        "text": "a reference to the physical difficulties involved in an archaeological expedition",
+        "options": []
+       },
+       {
+        "n": 16,
+        "text": "an explanation of why less food may have been available",
+        "options": []
+       },
+       {
+        "n": 17,
+        "text": "a reference to the possibility of future archaeological discoveries",
+        "options": []
+       },
+       {
+        "n": 18,
+        "text": "examples of items that would have been traded",
+        "options": []
+       },
+       {
+        "n": 19,
+        "text": "a reference to the pressure archaeologists are under to work quickly",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "summary_completion",
+      "instructions": "Complete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 20-22 on your answer sheet.",
+      "first": 20,
+      "last": 22,
+      "body": "Interesting finds at an archaeological site\n\nOrganic materials such as animal skins and textiles are not discovered very often at archaeological sites. They have little protection against [[20]] which means that they decay relatively quickly. But this is not always the case.\n\nIf temperatures are low enough, fragile artefacts can be preserved for thousands of years.\n\nA team of archaeologists have been working in the mountains in Oppland in Norway to recover artefacts revealed by shrinking ice cover. In the past, there were trade routes through these mountains and [[21]] gathered there in the summer months to avoid being attacked by [[22]] on lower ground. The people who used these mountains left things behind and it is those objects that are of interest to archaeologists.",
+      "options": [],
+      "questions": [
+       {
+        "n": 20,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 21,
+        "text": "",
+        "options": []
+       },
+       {
+        "n": 22,
+        "text": "",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.\n\nWrite the correct letters in boxes 23 and 24 on your answer sheet.",
+      "first": 23,
+      "last": 24,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Artefacts found in the higher mountain passes were limited to skiing equipment."
+       },
+       {
+        "key": "B",
+        "text": "Hunters went into the mountains even during periods of extreme cold."
+       },
+       {
+        "key": "C",
+        "text": "The number of artefacts from certain time periods was relatively low."
+       },
+       {
+        "key": "D",
+        "text": "Radiocarbon dating of artefacts produced some unreliable results."
+       },
+       {
+        "key": "E",
+        "text": "More artefacts were found in Oppland than at any other mountain site."
+       }
+      ],
+      "questions": [
+       {
+        "n": 23,
+        "text": "Which TWO of the following statements does the writer make about the discoveries of Barrett's team?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Artefacts found in the higher mountain passes were limited to skiing equipment."
+         },
+         {
+          "key": "B",
+          "text": "Hunters went into the mountains even during periods of extreme cold."
+         },
+         {
+          "key": "C",
+          "text": "The number of artefacts from certain time periods was relatively low."
+         },
+         {
+          "key": "D",
+          "text": "Radiocarbon dating of artefacts produced some unreliable results."
+         },
+         {
+          "key": "E",
+          "text": "More artefacts were found in Oppland than at any other mountain site."
+         }
+        ]
+       },
+       {
+        "n": 24,
+        "text": "Which TWO of the following statements does the writer make about the discoveries of Barrett's team?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Artefacts found in the higher mountain passes were limited to skiing equipment."
+         },
+         {
+          "key": "B",
+          "text": "Hunters went into the mountains even during periods of extreme cold."
+         },
+         {
+          "key": "C",
+          "text": "The number of artefacts from certain time periods was relatively low."
+         },
+         {
+          "key": "D",
+          "text": "Radiocarbon dating of artefacts produced some unreliable results."
+         },
+         {
+          "key": "E",
+          "text": "More artefacts were found in Oppland than at any other mountain site."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "multiple_choice_multi",
+      "instructions": "Choose TWO letters, A-E.\n\nWrite the correct letters in boxes 25 and 26 on your answer sheet.",
+      "first": 25,
+      "last": 26,
+      "body": "",
+      "options": [
+       {
+        "key": "A",
+        "text": "Hunters at this time benefited from an increased demand for goods."
+       },
+       {
+        "key": "B",
+        "text": "The beginning of the period saw the greatest growth in the wealth of Vikings."
+       },
+       {
+        "key": "C",
+        "text": "Vikings did not rely on ships alone to transport goods."
+       },
+       {
+        "key": "D",
+        "text": "Norwegian towns at this time attracted traders from around the world."
+       },
+       {
+        "key": "E",
+        "text": "Vikings were primarily interested in their trading links with the Middle East."
+       }
+      ],
+      "questions": [
+       {
+        "n": 25,
+        "text": "Which TWO of the following statements does the writer make about the Viking Age?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Hunters at this time benefited from an increased demand for goods."
+         },
+         {
+          "key": "B",
+          "text": "The beginning of the period saw the greatest growth in the wealth of Vikings."
+         },
+         {
+          "key": "C",
+          "text": "Vikings did not rely on ships alone to transport goods."
+         },
+         {
+          "key": "D",
+          "text": "Norwegian towns at this time attracted traders from around the world."
+         },
+         {
+          "key": "E",
+          "text": "Vikings were primarily interested in their trading links with the Middle East."
+         }
+        ]
+       },
+       {
+        "n": 26,
+        "text": "Which TWO of the following statements does the writer make about the Viking Age?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Hunters at this time benefited from an increased demand for goods."
+         },
+         {
+          "key": "B",
+          "text": "The beginning of the period saw the greatest growth in the wealth of Vikings."
+         },
+         {
+          "key": "C",
+          "text": "Vikings did not rely on ships alone to transport goods."
+         },
+         {
+          "key": "D",
+          "text": "Norwegian towns at this time attracted traders from around the world."
+         },
+         {
+          "key": "E",
+          "text": "Vikings were primarily interested in their trading links with the Middle East."
+         }
+        ]
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "Climate change reveals ancient artefacts in Norway’s glaciers",
+    "paragraphs": [
+     {
+      "label": "A",
+      "text": "Well above the treeline in Norway’s highest mountains, ancient fields of ice are shrinking as Earth’s climate warms. As the ice has vanished, it has been giving up the treasures it has preserved in cold storage for the last 6,000 years — items such as ancient arrows and skis from Viking Age* traders. And those artefacts have provided archaeologists with some surprising insights into how ancient Norwegians made their livings."
+     },
+     {
+      "label": "B",
+      "text": "Organic materials like textiles and hides are relatively rare finds at archaeological sites. This is because unless they’re protected from the microorganisms that cause decay, they tend not to last long. Extreme cold is one reliable way to keep artefacts relatively fresh for a few thousand years, but once thawed out, these materials experience degradation relatively swiftly."
+     },
+     {
+      "label": "",
+      "text": "With climate change shrinking ice cover around the world, glacial archaeologists need to race the clock to find newly revealed artefacts, preserve them, and study them. If something fragile dries and is windblown it might very soon be lost to science, or an arrow might be exposed and then covered again by the next snow and remain well-preserved. The unpredictability means that glacial archaeologists have to be systematic in their approach to fieldwork."
+     },
+     {
+      "label": "C",
+      "text": "Over a nine-year period, a team of archaeologists, which included Lars Pilo of Oppland County Council, Norway, and James Barrett of the McDonald Institute for Archaeological Research, surveyed patches of ice in Oppland, an area of south-central Norway that is home to some of the country’s highest mountains. Reindeer once congregated on these icy patches in the later summer months to escape biting insects, and from the late Stone Age**, hunters followed. In addition, trade routes threaded through the mountain passes of Oppland, linking settlements in Norway to the rest of Europe."
+     },
+     {
+      "label": "",
+      "text": "The slow but steady movement of glaciers tends to destroy anything at their bases, so the team focused on stationary patches of ice, mostly above 1,400 metres. That ice is found amid fields of frost-weathered boulders, fallen rocks, and exposed bedrock that for nine months of the year is buried beneath snow."
+     },
+     {
+      "label": "",
+      "text": "‘Fieldwork is hard work — hiking with all our equipment, often camping on permafrost — but very rewarding. Youre rescuing the archaeology, bringing the melting ice to wider attention, discovering a unique environmental history and really connecting with the natural environment,’ says Barrett."
+     },
+     {
+      "label": "",
+      "text": "Europe by means of trade and warfare ** The Stone Age: a period in early history that began about 3.4 million years ago"
+     },
+     {
+      "label": "D",
+      "text": "At the edges of the contracting ice patches, archaeologists found more than 2,000 artefacts, which formed a material record that ran from 4,000 BCE to the beginnings of the Renaissance in the 14th century. Many of the artefacts are associated with hunting. Hunters would have easily misplaced arrows and they often discarded broken bows rather than take them all the way home. Other items could have been used by hunters traversing the high mountain passes of Oppland: all-purpose items like tools, skis, and horse tack."
+     },
+     {
+      "label": "E",
+      "text": "Barrett’s team radiocarbon-dated 153 of the artefacts and compared those dates to the timing of major environmental changes in the region — such as periods of cooling or warming — and major social and economic shifts — such as the growth of farming settlements and the spread of international trade networks leading up to the Viking Age. They found that some periods had produced lots of artefacts, which indicates that people had been pretty active in the mountains during those times. But there were few or no signs of activity during other periods."
+     },
+     {
+      "label": "F",
+      "text": "What was surprising, according to Barrett, was the timing of these periods. Oppland’s mountains present daunting terrain and in periods of extreme cold, glaciers could block the higher mountain passes and make travel in the upper reaches of the mountains extremely difficult. Archaeologists assumed people would stick to lower elevations during a time like the Late Antique Little Ice Age, a short period of deeper-than-usual cold from about 536-600 CE. But it turned out that hunters kept regularly venturing into the mountains even when the climate turned cold, based on the amount of stuff they had apparently dropped there."
+     },
+     {
+      "label": "",
+      "text": "‘Remarkably, though, the finds from the ice may have continued through this period, perhaps suggesting that the importance of mountain hunting increased to supplement failing agricultural harvests in times of low temperatures,’ says Barrett. A colder turn in the Scandinavian climate would likely have meant widespread crop failures, so more people would have depended on hunting to make up for those losses."
+     },
+     {
+      "label": "G",
+      "text": "Many of the artefacts Barrett’s team recovered date from the beginning of the Viking Age, the 700s through to the 900s CE. Trade networks connecting Scandinavia with Europe and the Middle East were expanding around this time. Although we usually think of ships when we think of Scandinavian expansion, these recent discoveries show that plenty of goods travelled on overland routes, like the mountain passes of Oppland. And growing Norwegian towns, along with export markets, would have created a booming demand for hides to fight off the cold, as well as antlers to make useful things like combs. Business must have been good for hunters."
+     },
+     {
+      "label": "H",
+      "text": "Norway’s mountains are probably still hiding a lot of history — and prehistory — in remote ice patches. When Barrett’s team looked at the dates for their sample of 153 artefacts, they noticed a gap with almost no artefacts from about 3,800 to 2,200 BCE. In fact, archaeological finds from that period are rare all over Norway. The researchers say that could be because many of those artefacts have already disintegrated or are still frozen in the ice. That means archaeologists could be extracting some of those artefacts from retreating ice in years to come."
+     },
+     {
+      "label": "",
+      "text": "*Viking Age: a period of European history from around 700 CE to around 1050 CE when Scandinavian Vikings migrated throughout"
+     }
+    ]
+   },
+   {
+    "groups": [
+     {
+      "type": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 3?\nIn boxes 27-32 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "first": 27,
+      "last": 32,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 27,
+        "text": "The Cambridge scientists' discovery of the 'thermometer molecule' caused surprise among other scientists.",
+        "options": []
+       },
+       {
+        "n": 28,
+        "text": "The target for agricultural production by 2050 could be missed.",
+        "options": []
+       },
+       {
+        "n": 29,
+        "text": "Wheat and rice suffer from a rise in temperatures.",
+        "options": []
+       },
+       {
+        "n": 30,
+        "text": "It may be possible to develop crops that require less water.",
+        "options": []
+       },
+       {
+        "n": 31,
+        "text": "Plants grow faster in sunlight than in shade.",
+        "options": []
+       },
+       {
+        "n": 32,
+        "text": "Phytochromes change their state at the same speed day and night.",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "matching_information",
+      "instructions": "Reading Passage 3 has eight sections, A-H.\nWhich section contains the following information?\nWrite the correct letter, A-H, in boxes 33-37 on your answer sheet.",
+      "first": 33,
+      "last": 37,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 33,
+        "text": "mention of specialists who can make use of the research findings",
+        "options": []
+       },
+       {
+        "n": 34,
+        "text": "a reference to a potential benefit of the research findings",
+        "options": []
+       },
+       {
+        "n": 35,
+        "text": "scientific support for a traditional saying",
+        "options": []
+       },
+       {
+        "n": 36,
+        "text": "a reference to people traditionally making plans based on plant behaviour",
+        "options": []
+       },
+       {
+        "n": 37,
+        "text": "a reference to where the research has been reported",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     },
+     {
+      "type": "sentence_completion",
+      "instructions": "Complete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 38-40 on your answer sheet.",
+      "first": 38,
+      "last": 40,
+      "body": "",
+      "options": [],
+      "questions": [
+       {
+        "n": 38,
+        "text": "Daffodils are likely to flower early in response to [[38]]",
+        "options": []
+       },
+       {
+        "n": 39,
+        "text": "If ash trees come into leaf before oak trees, the [[39]] will probably be wet.",
+        "options": []
+       },
+       {
+        "n": 40,
+        "text": "The research was carried out using a particular species of [[40]]",
+        "options": []
+       }
+      ],
+      "figure_pdf_page": 0
+     }
+    ],
+    "title": "Plant ‘thermometer’ triggers springtime growth by measuring night-time heat",
+    "paragraphs": [
+     {
+      "label": "",
+      "text": "A photoreceptor molecule in plant cells has been found to have a second job as a thermometer after dark — allowing plants to read seasonal temperature changes. Scientists say the discovery could help breed crops that are more resilient to the temperatures expected to result from climate change"
+     },
+     {
+      "label": "A",
+      "text": "An international team of scientists led by the University of Cambridge has discovered that the ‘thermometer’ molecule in plants enables them to develop according to seasonal temperature changes. Researchers have revealed that molecules called phytochromes — used by plants to detect light during the day — actually change their function in darkness to become cellular temperature gauges that measure the heat of the night."
+     },
+     {
+      "label": "",
+      "text": "The new findings, published in the journal Science, show that phytochromes control genetic switches in response to temperature as well as light to dictate plant development."
+     },
+     {
+      "label": "B",
+      "text": "At night, these molecules change states, and the pace at which they change is ‘directly proportional to temperature’, say scientists, who compare phytochromes to mercury in a thermometer. The warmer it is, the faster the molecular change — stimulating plant growth."
+     },
+     {
+      "label": "C",
+      "text": "Farmers and gardeners have known for hundreds of years how responsive plants are to temperature: warm winters cause many trees and flowers to bud early, something humans have long used to predict weather and harvest times for the coming year. The latest research pinpoints for the first time a molecular mechanism in plants that reacts to temperature — often triggering the buds of spring we long to see at the end of winter."
+     },
+     {
+      "label": "D",
+      "text": "With weather and temperatures set to become ever more unpredictable due to climate change, researchers say the discovery that this light-sensing molecule also functions as the internal thermometer in plant cells could help us breed tougher crops. ‘It is estimated that agricultural yields will need to double by 2050, but climate change is a major threat to achieving this. Key crops such as wheat and rice are sensitive to high temperatures. Thermal stress reduces crop yields by around 10% for every one degree increase in temperature,’ says lead researcher Dr Philip Wigge from Cambridge’s Sainsbury Laboratory. ‘Discovering the molecules that allow plants to sense temperature has the potential to accelerate the breeding of crops resilient to thermal stress and climate change.’"
+     },
+     {
+      "label": "E",
+      "text": "In their active state, phytochrome molecules bind themselves to DNA to restrict plant growth. During the day, sunlight activates the molecules, slowing down growth. If a plant finds itself in shade, phytochromes are quickly inactivated — enabling it to grow faster to find sunlight again. This is how plants compete to escape each other’s shade. ‘Light-driven changes to phytochrome activity occur very fast, in less than a second,’ says Wigge."
+     },
+     {
+      "label": "",
+      "text": "At night, however, it’s a different story. Instead of a rapid deactivation following sundown, the molecules gradually change from their active to inactive state. This is called ‘dark reversion’. ‘Just as mercury rises in a thermometer, the rate at which phytochromes revert to their inactive state during the night is a direct measure of temperature,’ says Wigge."
+     },
+     {
+      "label": "F",
+      "text": "The lower the temperature, the slower the rate at which phytochromes revert to in activity, so the molecules spend more time in their active, growth-suppressing state. This is why plants are slower to grow in winter. Warm temperatures accelerate dark reversion, so that phytochromes rapidly reach an inactive state and detach themselves from the plant’s DNA — allowing genes to be expressed and plant growth to resume.’ Wigge believes phytochrome thermo-sensing evolved at a later stage, and co-opted the biological network already used for light-based growth during the downtime of night."
+     },
+     {
+      "label": "G",
+      "text": "Some plants mainly use day length as an indicator of the season. Other species, such as daffodils, have considerable temperature sensitivity, and can flower months in advance during a warm winter. In fact, the discovery of the dual role of phytochromes provides the science behind a well-known rhyme long used to predict the coming season: oak before ash we’ll have a splash, ash before oak we're in for a soak."
+     },
+     {
+      "label": "",
+      "text": "Wigge explains: ‘Oak trees rely much more on temperature, likely using phytochromes as thermometers to dictate development, whereas ash trees rely on measuring day length to determine their seasonal timing. A warmer spring, and consequently a higher likeliness of a hot summer, will result in oak leafing before ash. A cold spring will see the opposite. As the British know only too well, a colder summer is likely to be a rain-soaked one.’"
+     },
+     {
+      "label": "H",
+      "text": "The new findings are the culmination of twelve years of research involving scientists from Germany, Argentina and the US, as well as the Cambridge team. The work was done in a model system, using a mustard plant called Arabidopsis, but Wigge says the phytochrome genes necessary for temperature sensing are found in crop plants as well. ‘Recent advances in plant genetics now mean that scientists are able to rapidly identify the genes controlling these processes in crop plants, and even alter their activity using precise molecular “scalpels”, adds Wigge. ‘Cambridge is uniquely well-positioned to do this kind of research as we have outstanding collaborators nearby who work on more applied aspects of plant biology, and can help us transfer this new knowledge into the field.’"
+     }
+    ]
+   }
+  ],
+  "answers": {
+   "1": "FALSE",
+   "2": "NOT GIVEN",
+   "3": "FALSE",
+   "4": "TRUE",
+   "5": "TRUE",
+   "6": "lightweight",
+   "7": "bronze",
+   "8": "levels",
+   "9": "hull",
+   "10": "triangular",
+   "11": "music",
+   "12": "grain",
+   "13": "towboats",
+   "14": "D",
+   "15": "C",
+   "16": "F",
+   "17": "H",
+   "18": "G",
+   "19": "B",
+   "20": "microorganisms / micro-organisms",
+   "21": "reindeer",
+   "22": "insects",
+   "23": "B/C IN EITHER ORDER (23&24)",
+   "24": "B/C IN EITHER ORDER (23&24)",
+   "25": "A/C IN EITHER ORDER (25&26)",
+   "26": "A/C IN EITHER ORDER (25&26)",
+   "27": "NOT GIVEN",
+   "28": "TRUE",
+   "29": "TRUE",
+   "30": "NOT GIVEN",
+   "31": "FALSE",
+   "32": "FALSE",
+   "33": "H",
+   "34": "D",
+   "35": "G",
+   "36": "C",
+   "37": "A",
+   "38": "warm (winter)",
+   "39": "summer",
+   "40": "mustard plant(s) / mustard"
+  }
+ },
+ "writing": [
+  {
+   "task": 1,
+   "prompt": "You should spend about 20 minutes on this task.\n\nredevelopment next year.\n\nmake comparisons where relevant.\n\nThe plans below show the site of an airport now and how it will look after\nSummarise the information by selecting and reporting the main features, and\nWrite at least 150 words.",
+   "figure_pdf_page": 73,
+   "kind": "map",
+   "image": "figures/p073.png"
+  },
+  {
+   "task": 2,
+   "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nMany manufactured food and drink products contain high levels of sugar,\nwhich causes many health problems. Sugary products should be made more\nexpensive to encourage people to consume less sugar.\n\nDo you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "figure_pdf_page": 0,
+   "kind": "opinion"
+  }
+ ],
+ "speaking": {
+  "part1": [
+   {
+    "topic": "Summer",
+    "questions": [
+     "Is summer your favourite time of year? [Why/Why not?]",
+     "What do you do in summer when the weather's very hot? [Why?]",
+     "Do you go on holiday every summer? [Why/Why not?]",
+     "Did you enjoy the summer holidays when you were at school? [Why/Why not?]"
+    ]
+   }
+  ],
+  "part2": {
+   "cue": "Describe a luxury item you would like to own in the future.\n\nYou should say:\nwhat item you would like to own\nwhat this item looks like\nwhy you would like to own this item\nand explain whether you think you will ever own this item.",
+   "points": [
+    "what item you would like to own",
+    "what this item looks like",
+    "why you would like to own this item"
+   ],
+   "rounding_off": [
+    "and explain whether you think you will ever own this item."
+   ]
+  },
+  "part3": [
+   {
+    "topic": "Expensive items",
+    "questions": [
+     "Which expensive items would many young people (in your country) like to buy?",
+     "How do the expensive items that younger people want to buy differ from those that older people want to buy?",
+     "Do you think that people are more likely to buy expensive items for their friends or for themselves?"
+    ]
+   },
+   {
+    "topic": "Rich people",
+    "questions": [
+     "How difficult is it to become very rich in today's world?",
+     "Do you agree that money does not necessarily bring happiness?",
+     "In what ways might rich people use their money to help society?"
+    ]
+   }
+  ],
+  "kind": "object"
+ },
+ "flags": {
+  "listening": [],
+  "reading_passage_1": [],
+  "reading_passage_2": [],
+  "reading_passage_3": [],
+  "writing_task_1": [],
+  "writing_task_2": [],
+  "speaking": [],
+  "keys": []
+ }
+}
