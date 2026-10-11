@@ -34,7 +34,7 @@ export function Today() {
   const s = d.session;
   const module = s.module || s.href?.match(/\/(listening|reading|writing|speaking)(\?|$)/)?.[1];
   const attempts = module ? d.history.filter(a => a.module === module).length : 0;
-  const count = { listening: [40, "Questions"], reading: [40, "Questions"], writing: [2, "Tasks"], speaking: [3, "Parts"] }[module];
+  const count = s.questions ? [s.questions, "Questions"] : module === "speaking" ? [3, "Parts"] : null;
   const bands = (d.modules || MODULES).map(m => [m, d.bands[m]]);
   const numeric = bands.map(([, b]) => parseFloat(b)).filter(b => !isNaN(b));
   const overall = numeric.length === bands.length ? (Math.round(numeric.reduce((a, b) => a + b, 0) / bands.length * 2) / 2).toFixed(1) : "—";
@@ -55,22 +55,20 @@ export function Today() {
           <div className="top">
             <span className="eyebrow">{eyebrow}</span>
             <h1>{s.label}</h1>
-            <p className="sub">{s.mode === "rest"
-              ? <>Nothing scheduled today. Browse the <a href="#/vocab">word bank</a> or pick any test if you feel like it.</>
+            <p className="sub">{s.questions ? "Your weakest question type, on a group you haven't done yet."
               : d.bands[d.weakest] != null ? `Your weakest module right now is ${NAME[d.weakest]}.`
               : "Today's session from your weekly rotation. Every test you do is tracked below."}</p>
           </div>
-          {s.mode !== "rest" && (
-            <div className="bottom">
-              <div className="stats">
-                <span><b>{s.minutes} min</b><small>Duration</small></span>
-                {count && <span><b>{count[0]}</b><small>{count[1]}</small></span>}
-                <span><b>{attempts}</b><small>Attempts</small></span>
-              </div>
-              {s.done
-                ? <span className="done">Done for today <a className="btn" href={s.href}>Go again</a></span>
-                : <a className="start" href={s.href}>Start <span aria-hidden="true">→</span></a>}
-            </div>)}
+          <div className="bottom">
+            <div className="stats">
+              <span><b>{s.minutes} min</b><small>Duration</small></span>
+              {count && <span><b>{count[0]}</b><small>{count[1]}</small></span>}
+              <span><b>{attempts}</b><small>Attempts</small></span>
+            </div>
+            {s.done
+              ? <span className="done">Done for today <a className="btn" href={s.href}>Go again</a></span>
+              : <a className="start" href={s.href}>Start <span aria-hidden="true">→</span></a>}
+          </div>
         </section>
 
         <aside className="side">

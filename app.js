@@ -64,7 +64,7 @@ export async function api(req, res, { store, hosted }) {
     }
     if (p === "/api/today") {
       const list = await store.attempts();
-      return json(res, { ...plan(new Date(), tests(), list, modules), modules, test_date: (await mine()).test_date || "2026-12-31", history: list.filter(a => a.band != null) });
+      return json(res, { ...plan(new Date(), tests(), list, modules, catalog()), modules, test_date: (await mine()).test_date || "2026-12-31", history: list.filter(a => a.band != null) });
     }
     if (p === "/api/settings" && req.method === "PUT") {
       const s = await body(req), old = await mine();

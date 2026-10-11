@@ -7,6 +7,7 @@ import { Settings } from "./Settings.jsx";
 import { Today, History } from "./Today.jsx";
 import { SpeakingScreen, SpeakingResult } from "./Speaking.jsx";
 import { Vocabulary } from "./Vocabulary.jsx";
+import { KIND_LABEL } from "../plan.js";   // the finer kinds, shown when a type is opened
 import "./hosted.js";
 import "./style.css";
 
@@ -59,22 +60,6 @@ const OFFICIAL = {
   speaking: [
     ["The whole test (Parts 1 to 3)", ["part2_person", "part2_place", "part2_object", "part2_event", "part2_experience", "part2_activity", "part2_media", "part2_other"]],
   ],
-};
-// the finer kinds, shown when a type is opened
-const KIND_LABEL = {
-  multiple_choice: "One answer", multiple_choice_multi: "Choose TWO letters",
-  matching_features: "Matching features", matching_information: "Matching information", matching_headings: "Matching headings",
-  matching_sentence_endings: "Matching sentence endings", map_labelling: "Map or plan", diagram_labelling: "Diagram",
-  note_completion: "Notes", form_completion: "Form", table_completion: "Table", flow_chart_completion: "Flow chart",
-  summary_completion: "Summary", sentence_completion: "Sentences", short_answer: "Short answer",
-  true_false_not_given: "True / False / Not Given", yes_no_not_given: "Yes / No / Not Given",
-  task1_process: "Process diagram", task1_pie_chart: "Pie chart", task1_bar_chart: "Bar chart", task1_line_graph: "Line graph",
-  task1_table: "Table", task1_map: "Maps and plans", task1_mixed: "Two charts together", task1_other: "Other",
-  task2_opinion: "Opinion (agree or disagree)", task2_discussion: "Discuss both views", task2_advantages_disadvantages: "Advantages and disadvantages",
-  task2_problem_solution: "Problems and solutions", task2_two_part_question: "Two-part question", task2_other: "Other",
-  part2_person: "Part 2 card: a person", part2_place: "Part 2 card: a place", part2_object: "Part 2 card: an object",
-  part2_event: "Part 2 card: an event", part2_experience: "Part 2 card: an experience", part2_activity: "Part 2 card: an activity",
-  part2_media: "Part 2 card: a book, film or website", part2_other: "Part 2 card: other",
 };
 const MODULE_NAME = { listening: "Listening", reading: "Reading", writing: "Writing", speaking: "Speaking" };
 
