@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { TopNav, PageHead } from "./Nav.jsx";
+import { Tips } from "./Tips.jsx";
 
 const fmt = s => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 const wc = t => t.trim().split(/\s+/).filter(Boolean).length;
@@ -59,6 +60,7 @@ export function WritingScreen({ test, id, mode, only, onDone }) {
           <div className="tabs">{tasks.map(t => <button key={t} className={task === t ? "on" : ""} onClick={() => setTask(t)}>Task {t}</button>)}</div>
           <p className="body">{w.prompt}</p>
           {w.image && <img className="figure" src={base + w.image} alt="Task figure" />}
+          <Tips key={task} keys={[`task${task}`, `task${task}_${w.kind}`]} mock={!only} />
         </div>
         <div className="editor">
           <textarea value={text[task]} spellCheck={false} autoCorrect="off" autoCapitalize="off" placeholder="Type your answer here"

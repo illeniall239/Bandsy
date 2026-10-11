@@ -240,6 +240,10 @@ mark.err.cohesion, mark.err.task { background: var(--soft); border-color: var(--
 .group { margin-bottom: 28px; }
 .group h3 { margin: 0 0 4px; font-size: 1.05em; }
 .instructions { white-space: pre-line; color: #333; margin: 0 0 10px; font-style: italic; }
+.tips { margin: 0 0 12px; padding: 8px 12px; background: #f4f4f1; border-radius: 8px; font-size: .92em; color: #333; }
+.tips summary { cursor: pointer; font-weight: 700; }
+.tips ul { margin: 6px 0 2px; padding-left: 18px; }
+.tips li { margin: 3px 0; }
 .figure { max-width: 100%; border: 1px solid #d0d0d0; margin-bottom: 10px; }
 .body { white-space: pre-wrap; max-width: 70ch; }
 .qtable { border-collapse: collapse; margin: 8px 0 12px; white-space: normal; width: 100%; }

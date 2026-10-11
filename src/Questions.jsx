@@ -1,8 +1,9 @@
 // Renders one extracted question group in the CD-IELTS idiom: numbered boxes, inline gaps, letter selects.
+import { Tips, TIPS } from "./Tips.jsx";
 const TFNG = { true_false_not_given: ["TRUE", "FALSE", "NOT GIVEN"], yes_no_not_given: ["YES", "NO", "NOT GIVEN"] };
 const isMatching = t => t.startsWith("matching_");
 
-export function Group({ g, answers, setAnswer, flags, toggleFlag, labels, base }) {
+export function Group({ g, answers, setAnswer, flags, toggleFlag, labels, base, module, mock }) {
   const ns = g.questions.map(q => q.n);
   // plain functions, not components: a component defined per render would remount its input on every keystroke
   const bodyParts = g.body.split(/\[\[(\d+)\]\]/);   // odd indexes are gap numbers
@@ -60,6 +61,7 @@ export function Group({ g, answers, setAnswer, flags, toggleFlag, labels, base }
     <section className="group">
       <h3>Questions {g.first}{g.last > g.first ? `–${g.last}` : ""}</h3>
       <p className="instructions">{g.instructions}</p>
+      <Tips keys={[TIPS[`${module}:${g.type}`] ? `${module}:${g.type}` : g.type]} mock={mock} />
       {g.image && /labelling/.test(g.type) && <img className="figure" src={base + g.image} alt="" />}   {/* page scan only for map/diagram labelling: the picture is the question */}
       {content}
     </section>);

@@ -76,7 +76,7 @@ export function TestScreen({ test, id, module, mode, section, group, onDone }) {
           <div className="questions">
             {module === "listening" && <Audio key={sec} src={AUDIO + s.audio} playOnce={mode === "mock"}
               onEnded={() => { if (sec === sections.length - 1 && mode === "mock") setLeft(120); }} />}
-            {s.groups.map(g => <Group key={g.first} g={g} answers={answers} setAnswer={setAnswer} flags={flags} toggleFlag={toggleFlag} labels={labels} base={base} />)}
+            {s.groups.map(g => <Group key={g.first} g={g} answers={answers} setAnswer={setAnswer} flags={flags} toggleFlag={toggleFlag} labels={labels} base={base} module={module} mock={mode === "mock"} />)}
           </div>
         </div>
       )}
