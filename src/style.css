@@ -121,6 +121,7 @@ input, select, textarea { font: 500 14px/1.4 var(--font); color: var(--ink); }
 .chart .grid { stroke: var(--line); }
 .chart .tick { font: 600 12px var(--font); fill: var(--faint); text-anchor: end; }
 .chart .tick.start { text-anchor: start; }
+.graph .picks { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
 .graph .head select { padding: 9px 12px; border-radius: 12px; border: 1px solid var(--line-2); background: var(--card); font: 700 13px/1 var(--font); color: var(--ink); cursor: pointer; }
 .graph .summary { margin: 4px 0 12px; color: var(--muted); font-size: 13px; }
 .graph .summary b { color: var(--ink); font-size: 18px; margin-right: 2px; }

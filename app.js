@@ -64,7 +64,9 @@ export async function api(req, res, { store, hosted }) {
     }
     if (p === "/api/today") {
       const list = await store.attempts();
-      return json(res, { ...plan(new Date(), tests(), list, modules, catalog()), modules, test_date: (await mine()).test_date || "2026-12-31", history: list.filter(a => a.band != null) });
+      const total = (test, module, section) => catalog().filter(i => i.test === test && i.module === module && i.section === section).reduce((n, i) => n + i.n, 0);
+      const drills = list.filter(a => /^drill-s\d+$/.test(a.mode)).map(a => { const section = +a.mode.slice(7); return { ...a, section, total: total(a.test, a.module, section) }; });   // part/passage drills, for the per-part trend
+      return json(res, { ...plan(new Date(), tests(), list, modules, catalog()), modules, test_date: (await mine()).test_date || "2026-12-31", history: list.filter(a => a.band != null), drills });
     }
     if (p === "/api/settings" && req.method === "PUT") {
       const s = await body(req), old = await mine();
