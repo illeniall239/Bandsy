@@ -1091,9 +1091,9 @@
   },
   {
    "task": 2,
-   "prompt": "You should spend about 40 minutes on this task.\n\nPresent a written argument or case to an educated reader with no specialist knowledge\nof the following topic.\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
+   "prompt": "You should spend about 40 minutes on this task.\n\nPresent a written argument or case to an educated reader with no specialist knowledge\nof the following topic.\n\nIt is important for children to learn the difference between right and wrong at\nan early age. Punishment is necessary to help them learn this distinction.\n\nTo what extent do you agree or disagree with this opinion?\n\nWhat sort of punishment should parents and teachers be allowed to use to\nteach good behaviour to children?\n\nGive reasons for your answer and include any relevant examples from your own\nknowledge or experience.\n\nWrite at least 250 words.",
    "figure_pdf_page": 0,
-   "kind": "opinion"
+   "kind": "two_part_question"
   }
  ],
  "speaking": {
