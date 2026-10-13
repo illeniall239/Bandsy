@@ -1,7 +1,7 @@
 // Strategy tips per question type, shown under a group's instructions (and under a Writing task). Standard advice from
 // the official IELTS guidance and the public band descriptors; "listening:" / "reading:" keys override the shared ones.
 const LIMIT = "Check the word limit in the instructions. One word over it makes the answer wrong, even if the words are right.";
-const ORDER = "Answers come in the same order as the questions.";
+const ORDER = "Within this group, the answers come in the same order as the questions. A new group starts again from the top.";
 const EXACT = "Copy the words exactly as they appear in the passage. Don't change their form.";
 const PREDICT = "Before you start, guess what kind of word fits each gap: a noun, a number, a plural, a name?";
 const L_SPELL = "Spelling and singular/plural count. A misspelt answer is wrong.";
