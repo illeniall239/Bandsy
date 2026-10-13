@@ -281,8 +281,15 @@ def passage_paragraphs(w, pages):
     chunks = [part for c in chunks for part in re.split(r"\s+(?=\[([A-J])\] \1\.? [A-Z])", c)[::2]]
     # a footnote runs straight into the next page's first paragraph ("* pathogens: ... [E] 'We discovered") (Cambridge 14 T2 P2)
     chunks = [part for c in chunks for part in (re.split(r"\s+(?=\[[A-J]\]\s)", c) if c.startswith("*") else [c])]
+    # the passage stops at the first question instructions, but its last lines can share a chunk with them when OCR garbled
+    # the "Questions N" heading ("Mii�stions 10-13", Cambridge 13 T2 P1 lost two paragraphs): keep what comes before
+    for i, c in enumerate(chunks):
+        if m := instructions.search(c):
+            h = re.search(r"\S{0,5}stions? \d", c[:m.start()])
+            head = c[:h.start()] if h else c[:max(c.rfind(x, 0, m.start()) for x in ".!?”’\"") + 1]
+            chunks = chunks[:i] + [head.strip()]
+            break
     for chunk in chunks:
-        if instructions.search(chunk): break
         if not re.search(r"[A-Za-z]{2}", chunk): continue            # lone OCR symbols ("�")
         if re.fullmatch(r"\[?[A-J]\]?", chunk):
             pending = chunk.strip("[] "); continue

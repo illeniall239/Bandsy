@@ -524,7 +524,7 @@
  "reading": {
   "passages": [
    {
-    "title": "Henry Moore (1898-1986)",
+    "title": "Henry Moore (1898-1986)\nThe British sculptor Henry Moore was a leading figure in the 20th-century art world",
     "groups": [
      {
       "type": "true_false_not_given",
@@ -617,7 +617,7 @@
     "paragraphs": [
      {
       "label": "",
-      "text": "The British sculptor Henry Moore was a leading figure in the 20th-century art world Henry Moore was born in Castleford, a small town near Leeds in the north of England. He was the seventh child of Raymond Moore and his wife Mary Baker. He studied at Castleford Grammar School from 1909 to 1915, where his early interest in art was encouraged by his teacher Alice Gostick. After leaving school, Moore hoped to become a sculptor, but instead he complied with his father’s wish that he train as a schoolteacher. He had to abandon his training in 1917 when he was sent to France to fight in the First World War."
+      "text": "Henry Moore was born in Castleford, a small town near Leeds in the north of England. He was the seventh child of Raymond Moore and his wife Mary Baker. He studied at Castleford Grammar School from 1909 to 1915, where his early interest in art was encouraged by his teacher Alice Gostick. After leaving school, Moore hoped to become a sculptor, but instead he complied with his father’s wish that he train as a schoolteacher. He had to abandon his training in 1917 when he was sent to France to fight in the First World War."
      },
      {
       "label": "",
@@ -829,7 +829,7 @@
     ]
    },
    {
-    "title": "Why fairy tales are really scary tales",
+    "title": "Why fairy tales are really scary tales\nSome people think that fairy tales are just stories to amuse children, but their universal and enduring appeal may be due to more serious reasons",
     "groups": [
      {
       "type": "matching_sentence_endings",
@@ -1068,7 +1068,7 @@
     "paragraphs": [
      {
       "label": "",
-      "text": "Some people think that fairy tales are just stories to amuse children, but their universal and enduring appeal may be due to more serious reasons People of every culture tell each other fairy tales but the same story often takes a variety of forms in different parts of the world. In the story of Little Red Riding Hood that European children are familiar with, a young girl on the way to see her grandmother meets a wolf and tells him where she is going. The wolf runs on ahead and disposes of the grandmother, then gets into bed dressed in the grandmother's clothes to wait for Little Red Riding Hood. You may think you know the story — but which version? In some versions, the wolf swallows up the grandmother, while in others it locks her in a cupboard. In some stories Red Riding Hood gets the better of the wolf on her own, while in others a hunter or a woodcutter hears her cries and comes to her rescue."
+      "text": "People of every culture tell each other fairy tales but the same story often takes a variety of forms in different parts of the world. In the story of Little Red Riding Hood that European children are familiar with, a young girl on the way to see her grandmother meets a wolf and tells him where she is going. The wolf runs on ahead and disposes of the grandmother, then gets into bed dressed in the grandmother's clothes to wait for Little Red Riding Hood. You may think you know the story — but which version? In some versions, the wolf swallows up the grandmother, while in others it locks her in a cupboard. In some stories Red Riding Hood gets the better of the wolf on her own, while in others a hunter or a woodcutter hears her cries and comes to her rescue."
      },
      {
       "label": "",
@@ -1084,7 +1084,7 @@
      },
      {
       "label": "",
-      "text": "First he tested some assumptions about which aspects of the story alter least as it evolves, indicating their importance. Folklorists believe that what happens in a story is more central to the story than the characters in it— that visiting a relative, only to be met by a scary animal in disguise, is “Folklorists: those who study traditional stories more fundamental than whether the visitor is a little girl or three siblings, or the animal is a tiger instead of a wolf."
+      "text": "First he tested some assumptions about which aspects of the story alter least as it evolves, indicating their importance. Folklorists believe that what happens in a story is more central to the story than the characters in it— that visiting a relative, only to be met by a scary animal in disguise, is more fundamental than whether the visitor is a little girl or three siblings, or the animal is a tiger instead of a wolf."
      },
      {
       "label": "",
@@ -1105,6 +1105,10 @@
      {
       "label": "",
       "text": "Mathias Clasen at Aarhus University in Denmark isn’t surprised by Tehrani’s findings. ‘Habits and morals change, but the things that scare us, and the fact that we seek out entertainment that’s designed to scare us — those are constant,’ he says. Clasen believes that scary stories teach us what it feels like to be afraid without having to experience real danger, and so build up resistance to negative emotions."
+     },
+     {
+      "label": "",
+      "text": "*Folklorists: those who study traditional stories"
      }
     ]
    }
