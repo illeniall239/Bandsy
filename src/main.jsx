@@ -9,6 +9,7 @@ import { SpeakingScreen, SpeakingResult } from "./Speaking.jsx";
 import { Vocabulary } from "./Vocabulary.jsx";
 import { KIND_LABEL } from "../plan.js";   // the finer kinds, shown when a type is opened
 import "./hosted.js";
+import { sendUnsaved } from "./save.js";
 import "./style.css";
 
 // hash routes: #/            home
@@ -252,9 +253,10 @@ function Row({ n, ok, yours, keyAnswer, test, module, answer }) {
   const toggle = async () => {
     if (open) return setOpen(false);
     setOpen(true);
-    if (exp) return;
+    if (exp && !exp.error) return;   // a failed one is fetched again on the next open
     setBusy(true);
-    const r = await fetch("/api/explain", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ test, module, n, answer }) }).then(r => r.json());
+    const r = await fetch("/api/explain", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ test, module, n, answer }) }).then(r => r.json())
+      .catch(e => ({ error: `Explain request failed: ${e.message}` }));   // server down, or a non-JSON reply
     setBusy(false); setExp(r);
   };
   return (
@@ -278,4 +280,5 @@ function Row({ n, ok, yours, keyAnswer, test, module, answer }) {
     </>);
 }
 
-createRoot(document.getElementById("root")).render(<App />);
+// attempts left from a failed save go first, so Home and the plan count them (at most 5 s, so a dead server still lets the app open)
+Promise.race([sendUnsaved(), new Promise(r => setTimeout(r, 5000))]).then(() => createRoot(document.getElementById("root")).render(<App />));

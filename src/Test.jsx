@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Group } from "./Questions.jsx";
 import { mark, band } from "./mark.js";
 import { AUDIO } from "./hosted.js";
+import { saveAttempt } from "./save.js";
 
 const fmt = s => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 
@@ -22,6 +23,7 @@ export function TestScreen({ test, id, module, mode, section, group, onDone }) {
   const [flags, setFlags] = useState(new Set());
   const [pane, setPane] = useState("q");   // phones: which reading pane is showing
   const [sec, setSec] = useState(0);
+  const [playing, setPlaying] = useState(0);   // mock listening: the part being played, apart from the part on screen
   const [review, setReview] = useState(false);
   const [hl, setHl] = useState({});          // reading highlights {sec: [{para, s, e, note}]}, lifted so Review doesn't lose them
   const [left, setLeft] = useState(module === "reading" ? 60 * 60 : null);  // listening: clock starts after the audio
@@ -33,7 +35,7 @@ export function TestScreen({ test, id, module, mode, section, group, onDone }) {
     const { marks, score } = mark(groups, key, answers);
     const result = { test: id, module, mode: group ? `drill-g${group}` : section ? `drill-s${section}` : mode, started_at: started.current, finished_at: new Date().toISOString(),
       answers, marks, score, band: section || group ? null : band(module, score), total: numbers.length };
-    fetch("/api/attempts", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(result) }).catch(() => {});
+    saveAttempt(result);
     onDone(result);
   };
   useEffect(() => {  // countdown; auto-submit at zero (mock only)
@@ -48,6 +50,14 @@ export function TestScreen({ test, id, module, mode, section, group, onDone }) {
   const answered = n => { const v = answers[n]; return Array.isArray(v) ? v.length > 0 : !!v; };
   const labels = useMemo(() => sections[sec].passage?.paragraphs.map(p => p.label).filter(Boolean) || [], [sec]);
   const s = sections[sec];
+  // a mock plays the parts straight through like the test: the player belongs to the recording, not the tab, so switching tabs
+  // or opening Review neither stops it nor lets a finished part play again; a drill's player follows the tab
+  const rec = mode === "mock" ? playing : sec;
+  const ended = () => {
+    if (mode !== "mock") return;
+    if (playing < sections.length - 1) { setPlaying(playing + 1); setSec(playing + 1); setReview(false); }
+    else setLeft(120);   // last part heard: two minutes to check answers
+  };
 
   return (
     <div className="test">
@@ -60,26 +70,25 @@ export function TestScreen({ test, id, module, mode, section, group, onDone }) {
         </span>
       </header>
 
-      {review ? (
+      {review && (
         <div className="review">
           <h2>Review</h2>
           <div className="numstrip">{numbers.map(n => (
             <button key={n} className={(answered(n) ? "done " : "") + (flags.has(n) ? "flagged" : "")}
               onClick={() => { setSec(sections.findIndex(x => x.groups.some(g => g.questions.some(q => q.n === n)))); setReview(false); setPane("q"); setTimeout(() => jump(n), 0); }}>{n}</button>))}</div>
           <p>{numbers.filter(answered).length} of {numbers.length} answered · {flags.size} flagged</p>
+        </div>)}
+      {/* hidden during Review, not unmounted: the recording keeps playing */}
+      <div className={"stage " + module + " show-" + pane} style={review ? { display: "none" } : undefined}>
+        {module === "reading" && <div className="panes">{[["p", "Passage"], ["q", "Questions"]].map(([k, l]) =>
+          <button key={k} className={pane === k ? "on" : ""} onClick={() => setPane(k)}>{l}</button>)}</div>}
+        {module === "reading" && <Passage passage={s.passage} sec={sec} hl={hl} setHl={setHl} source={`${id} passage ${sec + 1}`} />}
+        <div className="questions">
+          {module === "listening" && <Audio key={rec} src={AUDIO + sections[rec].audio} title={sections[rec].title} playOnce={mode === "mock"}
+            autoPlay={mode === "mock" && rec > 0} onEnded={ended} />}
+          {s.groups.map(g => <Group key={g.first} g={g} answers={answers} setAnswer={setAnswer} flags={flags} toggleFlag={toggleFlag} labels={labels} base={base} module={module} mock={mode === "mock"} />)}
         </div>
-      ) : (
-        <div className={"stage " + module + " show-" + pane}>
-          {module === "reading" && <div className="panes">{[["p", "Passage"], ["q", "Questions"]].map(([k, l]) =>
-            <button key={k} className={pane === k ? "on" : ""} onClick={() => setPane(k)}>{l}</button>)}</div>}
-          {module === "reading" && <Passage passage={s.passage} sec={sec} hl={hl} setHl={setHl} source={`${id} passage ${sec + 1}`} />}
-          <div className="questions">
-            {module === "listening" && <Audio key={sec} src={AUDIO + s.audio} playOnce={mode === "mock"}
-              onEnded={() => { if (sec === sections.length - 1 && mode === "mock") setLeft(120); }} />}
-            {s.groups.map(g => <Group key={g.first} g={g} answers={answers} setAnswer={setAnswer} flags={flags} toggleFlag={toggleFlag} labels={labels} base={base} module={module} mock={mode === "mock"} />)}
-          </div>
-        </div>
-      )}
+      </div>
 
       <footer className="bar">
         <span className="tabs">{sections.map((x, i) => <button key={i} className={i === sec ? "on" : ""} onClick={() => { setSec(i); setReview(false); }}>{x.title}</button>)}</span>
@@ -90,16 +99,16 @@ export function TestScreen({ test, id, module, mode, section, group, onDone }) {
 }
 
 /** In a mock the recording plays once: no seeking, no replay — like the test. */
-function Audio({ src, playOnce, onEnded }) {
+function Audio({ src, title, playOnce, autoPlay, onEnded }) {
   const ref = useRef();
   const [done, setDone] = useState(false);
   return (
     <div className="audio">
-      <audio ref={ref} src={src} controls controlsList="nodownload noplaybackrate"
+      <audio ref={ref} src={src} autoPlay={autoPlay} controls controlsList="nodownload noplaybackrate"
         onSeeking={e => { if (playOnce && Math.abs(e.target.currentTime - (ref.current._t || 0)) > 1) e.target.currentTime = ref.current._t || 0; }}
         onTimeUpdate={e => { ref.current._t = e.target.currentTime; }}
         onEnded={() => { setDone(true); onEnded(); }} onPlay={e => { if (playOnce && done) e.target.pause(); }} />
-      {playOnce && <small>{done ? "Recording finished — it plays once." : "Plays once. No pausing or replay in a mock."}</small>}
+      {playOnce && <small>{title} recording · {done ? "Finished — it plays once." : "Plays once. No pausing or replay in a mock."}</small>}
     </div>);
 }
 

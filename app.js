@@ -70,7 +70,8 @@ export async function api(req, res, { store, hosted }) {
     }
     if (p === "/api/settings" && req.method === "PUT") {
       const s = await body(req), old = await mine();
-      for (const [id, v] of Object.entries(s.providers || {})) if (v.apiKey?.startsWith(MASK)) v.apiKey = old.providers?.[id]?.apiKey;   // unchanged key
+      // unchanged key: kept only while the base URL is too, or anyone with the link could point a saved key at their own server
+      for (const [id, v] of Object.entries(s.providers || {})) if (v.apiKey?.startsWith(MASK)) v.apiKey = v.base === old.providers?.[id]?.base ? old.providers?.[id]?.apiKey : "";
       await store.saveSettings(s); return json(res, { ok: true });
     }
     if (p === "/api/settings") {

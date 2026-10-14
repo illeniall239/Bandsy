@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { TopNav, PageHead } from "./Nav.jsx";
 import { Tips } from "./Tips.jsx";
+import { saveAttempt } from "./save.js";
 
 const fmt = s => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 const wc = t => t.trim().split(/\s+/).filter(Boolean).length;
@@ -17,6 +18,7 @@ export function WritingScreen({ test, id, mode, only, onDone }) {
   const [busy, setBusy] = useState("");
   const [error, setError] = useState("");
   const started = useRef(new Date().toISOString());
+  const timeUp = useRef(false);
 
   const submit = async () => {
     setError("");
@@ -24,7 +26,8 @@ export function WritingScreen({ test, id, mode, only, onDone }) {
     for (const t of tasks) {
       if (!text[t].trim()) continue;
       setBusy(`Grading Task ${t}…`);
-      const r = await fetch("/api/grade", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ test: id, task: t, text: text[t] }) }).then(r => r.json());
+      const r = await fetch("/api/grade", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ test: id, task: t, text: text[t] }) }).then(r => r.json())
+        .catch(e => ({ error: `Grading request failed: ${e.message}` }));   // server down, or a non-JSON reply (e.g. a hosted timeout page)
       if (r.error) { setBusy(""); return setError(r.error); }
       marks[t] = r;
     }
@@ -33,12 +36,12 @@ export function WritingScreen({ test, id, mode, only, onDone }) {
     const band = marks[1] && marks[2] ? writingBand(marks[1].band, marks[2].band) : (marks[1] || marks[2]).band;
     const result = { test: id, module: "writing", mode: only ? `drill-t${only}` : mode, started_at: started.current, finished_at: new Date().toISOString(),
       answers: text, marks, score: 0, band: only ? null : band, task_band: band };   // one task is not a Writing band
-    fetch("/api/attempts", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(result) }).catch(() => {});
+    saveAttempt(result);
     onDone(result);
   };
-  useEffect(() => {
-    if (mode !== "mock" || busy) return;
-    if (left <= 0) return void submit();
+  useEffect(() => {   // countdown; at zero submit once — if grading fails, the error stays and Submit retries by hand
+    if (mode !== "mock" || busy || timeUp.current) return;
+    if (left <= 0) { timeUp.current = true; return void submit(); }
     const t = setTimeout(() => setLeft(left - 1), 1000);
     return () => clearTimeout(t);
   });

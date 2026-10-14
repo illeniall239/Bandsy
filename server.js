@@ -65,7 +65,9 @@ function sendFile(res, file, range) {
 }
 
 http.createServer(async (req, res) => {
-  const p = decodeURIComponent(new URL(req.url, "http://x").pathname);
+  let p;
+  try { p = decodeURIComponent(new URL(req.url, "http://x").pathname); }
+  catch { res.writeHead(400); return res.end("bad url"); }   // "%E0%A4%A": a throw here would be an unhandled rejection, which exits Node
   if (p.startsWith("/api/")) return api(req, res, { store, hosted: false });
   if (p.startsWith("/content/")) return sendFile(res, under("content", p.slice(9)));
   if (p.startsWith("/audio/Cambridge-lists-main/")) return sendFile(res, under("Cambridge-lists-main", p.slice(28)), req.headers.range);

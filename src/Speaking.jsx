@@ -1,7 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { TopNav, PageHead } from "./Nav.jsx";
+import { saveAttempt } from "./save.js";
 
-const post = (path, data, raw) => fetch(path, { method: "POST", headers: { "Content-Type": raw ? "audio/webm" : "application/json" }, body: raw ? data : JSON.stringify(data) }).then(r => r.json());
+const post = (path, data, raw) => fetch(path, { method: "POST", headers: { "Content-Type": raw ? "audio/webm" : "application/json" }, body: raw ? data : JSON.stringify(data) }).then(r => r.json())
+  .catch(e => ({ error: `Request failed: ${e.message}` }));   // server down, or a non-JSON reply: callers show r.error
 const wav = b64 => `data:audio/wav;base64,${b64}`;
 const fmt = s => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 const pref = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } };
@@ -84,7 +86,7 @@ export function SpeakingScreen({ test, id, mode, onDone }) {
     setState("grading"); stop();
     const r = await post("/api/speaking/finish", { session: S.current.session });
     if (r.error) { setState("idle"); return setError(r.error); }
-    fetch("/api/attempts", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(r) }).catch(() => {});
+    saveAttempt(r);
     onDone(r);
   };
 

@@ -26,7 +26,8 @@ export function makeSettings(db) {
   return { get, set };
 }
 
-const conf = (settings, id) => ({ ...PROVIDERS[id], ...(settings.providers[id] || {}) });
+// only custom and Ollama take a base URL from settings; the others keep theirs, so a stored base can't send their key elsewhere
+const conf = (settings, id) => ({ ...PROVIDERS[id], ...(settings.providers[id] || {}), ...(id === "custom" || id === "ollama" ? {} : { base: PROVIDERS[id].base }) });
 
 export async function listModels(settings, id) {
   const c = conf(settings, id);
