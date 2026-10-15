@@ -1,4 +1,6 @@
-// Writing grading: band per criterion against the public IELTS descriptors, inline errors, band-8 rewrite.
+// Writing grading: band per criterion against the public IELTS descriptors and the errors to fix. No model-written "band 8" essay: nothing
+// checks such a rewrite really is one, and a mid-sized model's often reads worse than the candidate's; the result page shows the
+// candidate's own essay with these corrections applied instead.
 import { complete } from "./providers.js";
 
 const DESCRIPTORS = `IELTS Writing band descriptors (public version, condensed). Score each criterion 0-9 in whole bands.
@@ -29,19 +31,19 @@ const SCHEMA = {
       required: ["task", "coherence", "lexical", "grammar"] },
     errors: { type: "array", items: { type: "object", properties: {
       quote: { type: "string", description: "exact substring of the candidate's text, short (a phrase or clause)" },
-      correction: { type: "string" }, explanation: { type: "string", description: "one line" },
+      correction: { type: "string", description: "the corrected wording, a drop-in replacement for the quote (for a 'task' error: what to add or change)" },
+      explanation: { type: "string", description: "one line" },
       kind: { type: "string", enum: ["grammar", "vocabulary", "spelling", "punctuation", "cohesion", "task"] } },
       required: ["quote", "correction", "explanation", "kind"] } },
-    rewrite: { type: "string", description: "the same essay rewritten at band 8: same ideas and structure, improved language; same paragraphing" },
   },
-  required: ["criteria", "errors", "rewrite"],
+  required: ["criteria", "errors"],
 };
 
 export async function gradeTask(settings, { task, prompt, image, text }) {
   const words = text.trim().split(/\s+/).filter(Boolean).length;
   const system = `You are a certified IELTS Writing examiner. Mark strictly against the descriptors; do not inflate. Quote errors exactly as written by the candidate.\n\n${DESCRIPTORS}`;
   const user = `Academic Writing Task ${task}${image ? " (the figure is provided as an image)" : ""}.\n\nTASK:\n${prompt}\n\nCANDIDATE'S ANSWER (${words} words):\n${text}\n\n` +
-    `Grade all four criteria, list every error worth fixing (up to 20, most important first), then write the band-8 rewrite.`;
+    `Grade all four criteria, then list every error worth fixing (up to 20, most important first).`;
   // Task 1 can have its own model, one that reads the chart, so a strong text-only model can stay on Task 2
   const job = task === 1 && settings.jobs.task1 ? "task1" : "grading";
   const r = await complete(settings, { job, system, prompt: user, schema: SCHEMA, image });

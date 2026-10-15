@@ -77,7 +77,7 @@ export function WritingScreen({ test, id, mode, only, onDone }) {
     </div>);
 }
 
-/** Bands per criterion, the answer with errors marked (hover for the fix), band-8 rewrite beside it. */
+/** Bands per criterion, the answer with errors marked (hover for the fix), and beside it the same answer with the corrections applied. */
 export function WritingResult({ test, result }) {
   const [task, setTask] = useState(result.marks[1] ? 1 : 2);
   const m = result.marks[task];
@@ -97,8 +97,8 @@ export function WritingResult({ test, result }) {
           <p className="body">{markErrors(result.answers[task], m.errors)}</p>
         </section>
         <section>
-          <h3>Band-8 rewrite</h3>
-          <p className="body">{m.rewrite}</p>
+          <h3>Your answer, corrected <small>({fixed(result.answers[task], m.errors).length} fixes)</small></h3>
+          <p className="body">{markErrors(result.answers[task], fixed(result.answers[task], m.errors), true)}</p>
         </section>
       </div>
       <section>
@@ -108,7 +108,12 @@ export function WritingResult({ test, result }) {
     </main>);
 }
 
-function markErrors(text, errors) {
+/** The errors that can replace their quote in place: a "task" error is advice ("add an overview"), not wording. */
+const fixed = (text, errors) => errors.filter(e => e.kind !== "task" && e.quote && text.includes(e.quote));
+
+/** The answer with each error's quote marked (hover: the fix), or with corrected=true each quote replaced by its correction
+ *  (hover: what you wrote). First occurrence of each quote, overlapping ones skipped. */
+function markErrors(text, errors, corrected = false) {
   const spans = [];
   for (const [i, e] of errors.entries()) {
     const at = text.indexOf(e.quote);
@@ -117,8 +122,11 @@ function markErrors(text, errors) {
   spans.sort((a, b) => a.s - b.s);
   const out = []; let pos = 0;
   for (const s of spans) {
+    const e = errors[s.i];
     out.push(text.slice(pos, s.s));
-    out.push(<mark key={s.i} className={"err " + errors[s.i].kind} title={`${errors[s.i].correction} — ${errors[s.i].explanation}`}>{text.slice(s.s, s.e)}</mark>);
+    out.push(corrected
+      ? <ins key={s.i} className={"fix " + e.kind} title={`You wrote: ${e.quote} — ${e.explanation}`}>{e.correction}</ins>
+      : <mark key={s.i} className={"err " + e.kind} title={`${e.correction} — ${e.explanation}`}>{text.slice(s.s, s.e)}</mark>);
     pos = s.e;
   }
   out.push(text.slice(pos));

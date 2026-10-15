@@ -98,7 +98,7 @@ const SCHEMA = {
     criteria: { type: "object", properties: Object.fromEntries(["fluency", "lexical", "grammar"].map(k =>
       [k, { type: "object", properties: { band: { type: "integer" }, comment: { type: "string" } }, required: ["band", "comment"] }])), required: ["fluency", "lexical", "grammar"] },
     errors: { type: "array", items: { type: "object", properties: { quote: { type: "string" }, correction: { type: "string" }, explanation: { type: "string" } }, required: ["quote", "correction", "explanation"] } },
-    better: { type: "array", items: { type: "object", properties: { question: { type: "string" }, answer: { type: "string", description: "a band-8 answer to this question, 3-5 spoken sentences, same ideas as the candidate where possible" } }, required: ["question", "answer"] },
+    better: { type: "array", items: { type: "object", properties: { question: { type: "string" }, answer: { type: "string", description: "a stronger answer to this question, 3-5 spoken sentences, same ideas as the candidate where possible" } }, required: ["question", "answer"] },
              description: "for the three weakest answers" },
   },
   required: ["criteria", "errors", "better"],

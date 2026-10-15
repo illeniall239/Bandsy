@@ -151,7 +151,7 @@ export function SpeakingResult({ result }) {
         <ol className="errors">{m.errors.map((e, i) => <li key={i}><s>{e.quote}</s> → <b>{e.correction}</b><br /><small>{e.explanation}</small></li>)}</ol>
       </section>
       <section>
-        <h3>Band-8 answers <button onClick={() => setShowBetter(s => !s)}>{showBetter ? "hide" : "show"}</button></h3>
+        <h3>Suggested answers <small className="muted">(written by the model, not examiner-graded)</small> <button onClick={() => setShowBetter(s => !s)}>{showBetter ? "hide" : "show"}</button></h3>
         {showBetter && m.better.map((b, i) => <div key={i} className="turn"><p className="muted">{b.question}</p><p>{b.answer}</p></div>)}
       </section>
     </main>);
