@@ -77,7 +77,12 @@ async function openaiCompatible(c, model, system, prompt, schema, image) {
     body: JSON.stringify({ model, messages: [{ role: "system", content: system }, { role: "user", content }],
       response_format: { type: "json_schema", json_schema: { name: "out", schema, strict: false } }, temperature: 0.2 }),
   });
-  if (!r.ok) throw new Error(`${c.label}: ${r.status} ${(await r.text()).slice(0, 300)}`);
+  if (!r.ok) {
+    const said = `${c.label}: ${r.status} ${(await r.text()).slice(0, 300)}`;
+    // a text-only model refuses the Task 1 chart with a bare 400 ("content must be a string"): say what to change
+    if (image && r.status === 400) throw new Error(`"${model}" couldn't take the Task 1 chart: it probably can't read images. In Settings, pick a model that does for Writing grading, then submit again. (${said})`);
+    throw new Error(said);
+  }
   const text = (await r.json()).choices[0].message.content;
   try { return JSON.parse(text.replace(/^```json\s*|```$/g, "")); } catch { throw new Error(`${c.label} did not return JSON: ${text.slice(0, 200)}`); }
 }

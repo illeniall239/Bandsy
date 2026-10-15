@@ -12,7 +12,9 @@ export function WritingScreen({ test, id, mode, only, onDone }) {
   const base = `/content/${id.split("/")[0]}/`;
   const tasks = only ? [only] : [1, 2];     // a drill is one task
   const [task, setTask] = useState(tasks[0]);
-  const [text, setText] = useState({ 1: "", 2: "" });
+  const draft = `bandsy-draft:${id}`;   // the essay is kept in this browser as you type, until it's graded: a failed grading or leaving the page loses nothing
+  const [text, setText] = useState(() => { try { return { 1: "", 2: "", ...JSON.parse(localStorage.getItem(draft)) }; } catch { return { 1: "", 2: "" }; } });
+  useEffect(() => { try { localStorage.setItem(draft, JSON.stringify(text)); } catch {} }, [text]);
   const [pane, setPane] = useState("task");   // phones: task or answer
   const [left, setLeft] = useState(only ? (only === 1 ? 20 : 40) * 60 : 60 * 60);
   const [busy, setBusy] = useState("");
@@ -37,6 +39,7 @@ export function WritingScreen({ test, id, mode, only, onDone }) {
     const result = { test: id, module: "writing", mode: only ? `drill-t${only}` : mode, started_at: started.current, finished_at: new Date().toISOString(),
       answers: text, marks, score: 0, band: only ? null : band, task_band: band };   // one task is not a Writing band
     saveAttempt(result);
+    try { localStorage.removeItem(draft); } catch {}
     onDone(result);
   };
   useEffect(() => {   // countdown; at zero submit once — if grading fails, the error stays and Submit retries by hand
