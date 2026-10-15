@@ -42,7 +42,9 @@ export async function gradeTask(settings, { task, prompt, image, text }) {
   const system = `You are a certified IELTS Writing examiner. Mark strictly against the descriptors; do not inflate. Quote errors exactly as written by the candidate.\n\n${DESCRIPTORS}`;
   const user = `Academic Writing Task ${task}${image ? " (the figure is provided as an image)" : ""}.\n\nTASK:\n${prompt}\n\nCANDIDATE'S ANSWER (${words} words):\n${text}\n\n` +
     `Grade all four criteria, list every error worth fixing (up to 20, most important first), then write the band-8 rewrite.`;
-  const r = await complete(settings, { job: "grading", system, prompt: user, schema: SCHEMA, image });
+  // Task 1 can have its own model, one that reads the chart, so a strong text-only model can stay on Task 2
+  const job = task === 1 && settings.jobs.task1 ? "task1" : "grading";
+  const r = await complete(settings, { job, system, prompt: user, schema: SCHEMA, image });
   const bands = Object.values(r.criteria).map(c => c.band);
   r.band = Math.round((bands.reduce((a, b) => a + b, 0) / 4) * 2) / 2;  // criterion mean to the nearest half band
   r.words = words;

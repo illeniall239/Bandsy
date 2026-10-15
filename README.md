@@ -13,7 +13,7 @@ A personal IELTS Academic prep app covering all four modules, built on the Cambr
 - **Speaking.** A three-part test with a spoken examiner, or a tutor mode that replies as you go. Speech-to-text and the examiner's voice run locally; a model handles Part 3 follow-ups and feedback.
 - **Practice.** Every question type in the books in one list (map labelling, matching headings, process diagrams, Part 2 cards about a place, and so on) with your accuracy per type, so a weakness can be drilled directly instead of hunting through tests.
 - **Vocabulary.** Your saved words with definitions, plus topic word lists from *Check Your English Vocabulary for IELTS*.
-- **Settings.** API keys per provider and one model per job (Writing grading, Speaking, small tasks). Nothing is chosen for you: a job without a model refuses to run.
+- **Settings.** API keys per provider and one model per job (Writing grading, Speaking, small tasks), plus an optional Writing Task 1 model that reads the chart image, so a text-only model can grade Task 2. Nothing is chosen for you: a job without a model refuses to run.
 
 ## How it is built
 
