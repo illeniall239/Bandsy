@@ -26,26 +26,26 @@ function Segments({ band }) {
       <i key={i} className={!isNaN(b) && i + 1 <= b ? "full" : !isNaN(b) && i < b ? "half" : ""} />))}</span>);
 }
 
-/** The only screen you're meant to see daily: today's session, the countdown, bands, and the band graph. */
+const PHASE = { build: "Building skills", timed: "Timed practice", final: "Final weeks" };
+const testName = id => id.replace(/^cam(\d+)\/test(\d+)$/, "Cambridge $1 · Test $2");
+
+/** The only screen you're meant to see daily: today's steps and why each is there, the countdown, bands, and the band graph. */
 export function Today() {
   const [d, setD] = useState(null);
-  useEffect(() => { fetch("/api/today").then(r => r.json()).then(setD); }, []);
+  useEffect(() => { fetch(`/api/today?tz=${-new Date().getTimezoneOffset()}`).then(r => r.json()).then(setD); }, []);
   if (!d) return <main className="home"><TopNav /><p className="muted">Loading…</p></main>;
-  const s = d.session;
-  const module = s.module || s.href?.match(/\/(listening|reading|writing|speaking)(\?|$)/)?.[1];
-  const attempts = module ? d.history.filter(a => a.module === module).length : 0;
-  const count = s.questions ? [s.questions, "Questions"] : module === "speaking" ? [3, "Parts"] : null;
-  const bands = (d.modules || MODULES).map(m => [m, d.bands[m]]);
-  const numeric = bands.map(([, b]) => parseFloat(b)).filter(b => !isNaN(b));
+  const next = d.steps.find(s => !s.done), did = d.steps.filter(s => s.done).length;
+  // a band from a full timed module where there is one; otherwise "~" and the level estimated from practice
+  const bands = (d.modules || MODULES).map(m => [m, d.bands[m] ?? null, d.levels?.[m] ?? null]);
+  const numeric = bands.map(([, b, e]) => parseFloat(b ?? e)).filter(b => !isNaN(b));
   const overall = numeric.length === bands.length ? (Math.round(numeric.reduce((a, b) => a + b, 0) / bands.length * 2) / 2).toFixed(1) : "—";
   const setDate = async () => {
     const v = prompt("Test date (YYYY-MM-DD):", d.test_date);
     if (!v || !/^\d{4}-\d{2}-\d{2}$/.test(v)) return;
     const cur = await fetch("/api/settings").then(r => r.json());
     await fetch("/api/settings", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ providers: cur.providers, jobs: cur.jobs, test_date: v }) });
-    setD({ ...d, test_date: v });
+    location.reload();   // the date sets the plan's phase
   };
-  const eyebrow = `Up next — ${new Date().toLocaleDateString(undefined, { weekday: "long" })}`;
 
   return (
     <main className="home today">
@@ -53,21 +53,29 @@ export function Today() {
       <div className="dash">
         <section className="card hero">
           <div className="top">
-            <span className="eyebrow">{eyebrow}</span>
-            <h1>{s.label}</h1>
-            <p className="sub">{s.questions ? "Your weakest question type, on a group you haven't done yet."
-              : d.bands[d.weakest] != null ? `Your weakest module right now is ${NAME[d.weakest]}.`
-              : "Today's session from your weekly rotation. Every test you do is tracked below."}</p>
+            <span className="eyebrow">{new Date().toLocaleDateString(undefined, { weekday: "long" })} · about {d.minutes} min · {PHASE[d.phase]}</span>
+            <h1>{d.title}</h1>
+            <p className="sub">{d.sub}</p>
           </div>
+          <ol className="steps">{d.steps.map((s, i) => (
+            <li key={s.key || s.href} className={s.done ? "did" : ""}>
+              <span className="n" aria-hidden="true">{s.done ? "✓" : i + 1}</span>
+              <div className="what">
+                <b>{s.label}{s.kind === "retry" && <em className="tag">Retry</em>}{s.timed && <em className="tag">Timed</em>}</b>
+                <small>{testName(s.test)}{s.questions ? ` · ${s.questions} questions` : ""} · {s.minutes} min</small>
+                <p>{s.why}</p>
+              </div>
+              <a className={"chip" + (s.done || s !== next ? " ghost" : "")} href={s.href}>{s.done ? "Again" : "Start"}</a>
+            </li>))}
+          </ol>
           <div className="bottom">
             <div className="stats">
-              <span><b>{s.minutes} min</b><small>Duration</small></span>
-              {count && <span><b>{count[0]}</b><small>{count[1]}</small></span>}
-              <span><b>{attempts}</b><small>Attempts</small></span>
+              <span><b>{did} / {d.steps.length}</b><small>Done today</small></span>
+              <span><b>{d.minutes} min</b><small>Planned</small></span>
             </div>
-            {s.done
-              ? <span className="done">Done for today <a className="btn" href={s.href}>Go again</a></span>
-              : <a className="start" href={s.href}>Start <span aria-hidden="true">→</span></a>}
+            {next
+              ? <a className="start" href={next.href}>{did ? "Next step" : "Start"} <span aria-hidden="true">→</span></a>
+              : <span className="done">Done for today</span>}
           </div>
         </section>
 
@@ -75,13 +83,14 @@ export function Today() {
           <Countdown date={d.test_date} onClick={setDate} />
           <section className="card bandcard">
             <div className="head"><span>Band</span><span>Overall {overall}</span></div>
-            <div className="rows">{bands.map(([m, b]) => {
+            <div className="rows">{bands.map(([m, b, est]) => {
               const has = b != null && b !== "" && !isNaN(parseFloat(b));
               return (
-                <div key={m} className={"bandrow" + (has ? "" : " empty")}>
-                  <span className="m">{NAME[m]}</span><Segments band={has ? parseFloat(b) : NaN} /><b className="v">{has ? b : "—"}</b>
+                <div key={m} className={"bandrow" + (has ? "" : est != null ? " est" : " empty")} title={has ? "From a full timed module" : est != null ? "Estimated from your practice" : undefined}>
+                  <span className="m">{NAME[m]}</span><Segments band={has ? parseFloat(b) : est ?? NaN} /><b className="v">{has ? b : est != null ? `~${est}` : "—"}</b>
                 </div>);
             })}</div>
+            <p className="note">~ estimated from your practice. A weekly check-up gives a real band.</p>
           </section>
         </aside>
       </div>

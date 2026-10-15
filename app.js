@@ -1,10 +1,10 @@
 // The /api routes, shared by the local server (server.js: SQLite, Speaking) and the hosted Vercel function (api/index.js: Supabase).
-// `store` is one person's data: attempts, settings, word bank and the shared explanation cache.
+// `store` is one person's data: attempts (marked() adds every answer's mark), settings, word bank and the shared explanation cache.
 import fs from "node:fs";
 import path from "node:path";
 import { PROVIDERS, JOBS, listModels } from "./providers.js";
 import { gradeTask } from "./grading.js";
-import { plan, MODULES } from "./plan.js";
+import { plan, localDay, MODULES } from "./plan.js";
 import * as examiner from "./examiner.js";
 import { define } from "./review.js";
 import { explain } from "./explain.js";
@@ -66,7 +66,10 @@ export async function api(req, res, { store, hosted }) {
       const list = await store.attempts();
       const total = (test, module, section) => catalog().filter(i => i.test === test && i.module === module && i.section === section).reduce((n, i) => n + i.n, 0);
       const drills = list.filter(a => /^drill-s\d+$/.test(a.mode)).map(a => { const section = +a.mode.slice(7); return { ...a, section, total: total(a.test, a.module, section) }; });   // part/passage drills, for the per-part trend
-      return json(res, { ...plan(new Date(), tests(), list, modules, catalog()), modules, test_date: (await mine()).test_date || "2026-12-31", history: list.filter(a => a.band != null), drills });
+      const tz = Math.max(-840, Math.min(840, +url.searchParams.get("tz") || 0));   // the viewer's offset east of UTC, minutes: "today" is their day
+      const { test_date } = await mine();   // the real date only: an unset one leaves the plan in its skill-building phase
+      return json(res, { ...plan(localDay(new Date().toISOString(), tz), await store.marked(), catalog(), { modules, tz, examDate: test_date }),
+        modules, test_date: test_date || "2026-12-31", history: list.filter(a => a.band != null), drills });
     }
     if (p === "/api/settings" && req.method === "PUT") {
       const s = await body(req), old = await mine();

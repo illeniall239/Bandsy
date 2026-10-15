@@ -26,7 +26,7 @@ export function TestScreen({ test, id, module, mode, section, group, onDone }) {
   const [playing, setPlaying] = useState(0);   // mock listening: the part being played, apart from the part on screen
   const [review, setReview] = useState(false);
   const [hl, setHl] = useState({});          // reading highlights {sec: [{para, s, e, note}]}, lifted so Review doesn't lose them
-  const [left, setLeft] = useState(module === "reading" ? 60 * 60 : null);  // listening: clock starts after the audio
+  const [left, setLeft] = useState(module === "reading" ? 20 * 60 * sections.length : null);  // 20 min a passage; listening: clock starts after the audio
   const started = useRef(new Date().toISOString());
   const setAnswer = (n, v) => setAnswers(a => ({ ...a, [n]: v }));
   const toggleFlag = n => setFlags(f => { const s = new Set(f); s.has(n) ? s.delete(n) : s.add(n); return s; });

@@ -33,6 +33,8 @@ const settings = makeSettings(db);
 const uid = 1;
 const store = {
   attempts: () => db.prepare("SELECT id, test, module, mode, started_at, finished_at, score, band FROM attempts WHERE user_id=? ORDER BY id DESC").all(uid),
+  marked: () => db.prepare("SELECT id, test, module, mode, finished_at, score, band, marks FROM attempts WHERE user_id=? ORDER BY id DESC").all(uid)
+    .map(a => ({ ...a, marks: JSON.parse(a.marks) })),   // the daily plan reads every answer's mark
   attempt: id => { const a = db.prepare("SELECT * FROM attempts WHERE id=? AND user_id=?").get(id, uid); return a && { ...a, answers: JSON.parse(a.answers), marks: JSON.parse(a.marks) }; },
   addAttempt: a => db.prepare(`INSERT INTO attempts (user_id, test, module, mode, started_at, finished_at, answers, marks, score, band)
       VALUES (@user_id, @test, @module, @mode, @started_at, @finished_at, @answers, @marks, @score, @band)`)

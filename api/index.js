@@ -10,6 +10,7 @@ const OWNER = process.env.BANDSY_OWNER_ID;
 const ok = ({ data, error }) => { if (error) throw new Error(error.message); return data; };
 const store = {
   attempts: async () => ok(await sb.from("attempts").select("id, test, module, mode, started_at, finished_at, score, band").eq("user_id", OWNER).order("id", { ascending: false })),
+  marked: async () => ok(await sb.from("attempts").select("id, test, module, mode, finished_at, score, band, marks").eq("user_id", OWNER).order("id", { ascending: false })),
   attempt: async id => ok(await sb.from("attempts").select("*").eq("user_id", OWNER).eq("id", id).maybeSingle()),
   addAttempt: async ({ test, module, mode, started_at, finished_at, answers, marks, score, band }) =>
     ok(await sb.from("attempts").insert({ user_id: OWNER, test, module, mode, started_at, finished_at, answers, marks, score, band }).select("id").single()).id,
