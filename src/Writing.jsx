@@ -80,6 +80,8 @@ export function WritingScreen({ test, id, mode, only, onDone }) {
 /** Bands per criterion, the answer with errors marked (hover for the fix), and beside it the same answer with the corrections applied. */
 export function WritingResult({ test, result }) {
   const [task, setTask] = useState(result.marks[1] ? 1 : 2);
+  const [book, setBook] = useState({});   // the book's own answers to this test's tasks, if extracted
+  useEffect(() => { fetch(`/content/${result.test.split("/")[0]}/samples.json`).then(r => r.ok ? r.json() : {}).then(s => setBook(s[test.test] || {})).catch(() => {}); }, []);
   const m = result.marks[task];
   return (
     <main className="home result wresult">
@@ -87,6 +89,7 @@ export function WritingResult({ test, result }) {
       <PageHead eyebrow={`Cambridge ${test.book} · Test ${test.test} · Writing`} title={<>Band <span className="bandnum">{result.band ?? m.band}</span></>}
         meta={result.band == null ? "One task only — not a full Writing band" : "Task 2 counts double"}><a className="btn primary" href="#/">Back to Home</a></PageHead>
       <div className="tabs">{[1, 2].map(t => result.marks[t] && <button key={t} className={task === t ? "on" : ""} onClick={() => setTask(t)}>Task {t} · band {result.marks[t].band}</button>)}</div>
+      {m.calibrated?.length > 0 && <p className="muted">Marked against the book's own Band {m.calibrated.join(" and ")} answer to this task, as a real examiner graded it.</p>}
       <table className="criteria"><tbody>
         {Object.entries({ task: task === 1 ? "Task Achievement" : "Task Response", coherence: "Coherence & Cohesion", lexical: "Lexical Resource", grammar: "Grammatical Range & Accuracy" }).map(([k, label]) => (
           <tr key={k}><th>{label}</th><td className="band">{m.criteria[k].band}</td><td>{m.criteria[k].comment}</td></tr>))}
@@ -105,6 +108,18 @@ export function WritingResult({ test, result }) {
         <h3>Corrections</h3>
         <ol className="errors">{m.errors.map((e, i) => <li key={i}><span className={"kind " + e.kind}>{e.kind}</span> <s>{e.quote}</s> → <b>{e.correction}</b><br /><small>{e.explanation}</small></li>)}</ol>
       </section>
+      {(book[task] || []).length > 0 && (
+        <section className="book">
+          <h3>From the book <small>(Cambridge {test.book}, an examiner's marking of this task)</small></h3>
+          {book[task].map((s, i) => (
+            <div key={i} className="sample">
+              <h4>{s.kind === "model" ? "An examiner's model answer" : <>A candidate's answer · Band {s.band}</>}</h4>
+              {s.comment && <p><b>Examiner's comment.</b> {s.comment}</p>}
+              {s.answer
+                ? <details><summary>Read the answer ({s.answer.split(/\s+/).length} words{s.kind === "candidate" ? ", mistakes and all" : ""}{s.source === "ocr" ? "; read from the page by OCR" : ""})</summary><p className="body">{s.answer}</p></details>
+                : <p className="muted">Only the examiner's comment could be extracted for this one.</p>}
+            </div>))}
+        </section>)}
     </main>);
 }
 

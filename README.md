@@ -84,6 +84,7 @@ python pipeline/extract.py turns     --book 15 --text claude:sonnet
 python pipeline/extract.py tags      --book 15 --text claude:sonnet
 python pipeline/extract.py assemble  --book 15
 python pipeline/vocab.py --text claude:sonnet
+python pipeline/samples.py --book 15 --vision claude:sonnet
 ```
 
 - **ocr:** Tesseract on every page.
@@ -94,6 +95,7 @@ python pipeline/vocab.py --text claude:sonnet
 - **turns:** puts speaker names on dialogue turns the rules couldn't place.
 - **tags:** classifies each Writing task and Speaking card (process diagram, pie chart, opinion essay, a place) for the Practice page.
 - **assemble:** writes `content/camNN/testN.json` and runs the validators (40/40 answers, no numbering gaps, options present).
+- **samples** (`pipeline/samples.py`): the book's own answers to each Writing task, with the examiner's band and comment, into `content/camNN/samples.json`. They're shown beside your graded answer and calibrate the grader. Most are real candidates' scripts at bands 4.5–7 (photos of handwriting in Cambridge 10–12), with a few examiner model answers. A model that reads images transcribes the pages. Where it declines to copy a script, a typeset one (Cambridge 13–15, and every examiner's model answer) is read by Tesseract and the model lists only the OCR's misreads to fix; a handwritten one keeps just its band and the examiner's comment. Needs `tesseract` for that fallback.
 
 Model strings are `provider:model`, for example `claude:sonnet` or `ollama:<model>`. Any model error stops the run; run it again to resume from the cache.
 

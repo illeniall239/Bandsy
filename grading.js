@@ -39,10 +39,19 @@ const SCHEMA = {
   required: ["criteria", "errors"],
 };
 
-export async function gradeTask(settings, { task, prompt, image, text }) {
+/** The book's own answers to the task (content/camNN/samples.json), as a scale to mark against: a real examiner's band and comment. */
+function calibration(references) {
+  const parts = references.filter(r => r.comment || r.answer).map(r => r.kind === "model"
+    ? `An examiner's model of a very good answer to this task:\n${r.answer || "(text not available)"}${r.comment ? `\nExaminer's note: ${r.comment}` : ""}`
+    : `Another candidate's answer to this task, which a real IELTS examiner marked Band ${r.band}:\n${r.answer || "(the script itself is not available; the comment says what earned the band)"}\nThe examiner's comment: ${r.comment}`);
+  return parts.length ? `CALIBRATION, from the official Cambridge book. Use it to set your scale, then mark the candidate's answer on its own merits against the descriptors: resembling this answer earns nothing.\n\n${parts.join("\n\n")}\n\n` : "";
+}
+
+/** @param references the book's answers to this task, [{kind, band, answer, comment}]: they calibrate the marking */
+export async function gradeTask(settings, { task, prompt, image, text, references = [] }) {
   const words = text.trim().split(/\s+/).filter(Boolean).length;
   const system = `You are a certified IELTS Writing examiner. Mark strictly against the descriptors; do not inflate. Quote errors exactly as written by the candidate.\n\n${DESCRIPTORS}`;
-  const user = `Academic Writing Task ${task}${image ? " (the figure is provided as an image)" : ""}.\n\nTASK:\n${prompt}\n\nCANDIDATE'S ANSWER (${words} words):\n${text}\n\n` +
+  const user = `Academic Writing Task ${task}${image ? " (the figure is provided as an image)" : ""}.\n\nTASK:\n${prompt}\n\n${calibration(references)}CANDIDATE'S ANSWER (${words} words):\n${text}\n\n` +
     `Grade all four criteria, then list every error worth fixing (up to 20, most important first).`;
   // Task 1 can have its own model, one that reads the chart, so a strong text-only model can stay on Task 2
   const job = task === 1 && settings.jobs.task1 ? "task1" : "grading";
@@ -50,6 +59,7 @@ export async function gradeTask(settings, { task, prompt, image, text }) {
   const bands = Object.values(r.criteria).map(c => c.band);
   r.band = Math.round((bands.reduce((a, b) => a + b, 0) / 4) * 2) / 2;  // criterion mean to the nearest half band
   r.words = words;
+  r.calibrated = references.filter(x => x.kind === "candidate" && x.band).map(x => x.band);   // shown on the result: what the marking was anchored to
   return r;
 }
 

@@ -39,6 +39,12 @@ export function catalog() {
   return CATALOG = items;
 }
 
+/** The book's own answers to a test's Writing tasks, {task: [{kind, band, answer, comment}]} (pipeline/samples.py); {} if not extracted. */
+function samples(test) {
+  const [book, t] = test.split("/test"), f = path.join(ROOT, "content", book, "samples.json");
+  return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf8"))[t] || {} : {};
+}
+
 export const json = (res, data, code = 200) => { res.writeHead(code, { "Content-Type": "application/json" }); res.end(JSON.stringify(data)); };
 const raw = req => new Promise(r => { const c = []; req.on("data", d => c.push(d)); req.on("end", () => r(Buffer.concat(c))); });
 const body = async req => "body" in req ? (typeof req.body === "string" ? JSON.parse(req.body || "{}") : req.body || {})   // Vercel parses JSON bodies itself
@@ -93,7 +99,7 @@ export async function api(req, res, { store, hosted }) {
       const { test, task, text } = await body(req);
       const w = content(`${test}.json`).writing.find(x => x.task === task);
       const image = w.image ? path.join(ROOT, "content", test.split("/")[0], w.image) : undefined;
-      return json(res, await gradeTask(await mine(), { task, prompt: w.prompt, image, text }));
+      return json(res, await gradeTask(await mine(), { task, prompt: w.prompt, image, text, references: samples(test)[task] || [] }));
     }
     if (p === "/api/explain" && req.method === "POST") return json(res, await explain(await mine(), store, await body(req)));
     if (p.startsWith("/api/speaking/") && !hosted) {
