@@ -104,6 +104,7 @@ export function WritingResult({ test, result }) {
           <p className="body">{markErrors(result.answers[task], fixed(result.answers[task], m.errors), true)}</p>
         </section>
       </div>
+      <Rewrite key={task} result={result} task={task} m={m} />
       <section>
         <h3>Corrections</h3>
         <ol className="errors">{m.errors.map((e, i) => <li key={i}><span className={"kind " + e.kind}>{e.kind}</span> <s>{e.quote}</s> → <b>{e.correction}</b><br /><small>{e.explanation}</small></li>)}</ol>
@@ -121,6 +122,35 @@ export function WritingResult({ test, result }) {
             </div>))}
         </section>)}
     </main>);
+}
+
+/** "Write a band-8 version": the chosen model rewrites the answer, the grader marks the rewrite, and the page says what it really got.
+ *  Kept in this browser per attempt, so reopening the result doesn't pay for it twice. */
+function Rewrite({ result, task, m }) {
+  const key = `bandsy-rewrite:${result.test}:${task}:${result.finished_at}`;
+  const [r, setR] = useState(() => { try { return JSON.parse(localStorage.getItem(key)); } catch { return null; } });
+  const [busy, setBusy] = useState(false), [error, setError] = useState("");
+  const go = async () => {
+    setBusy(true); setError("");
+    const x = await fetch("/api/rewrite", { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ test: result.test, task, text: result.answers[task], marks: m }) }).then(r => r.json()).catch(e => ({ error: `Request failed: ${e.message}` }));
+    setBusy(false);
+    if (x.error) return setError(x.error);
+    setR(x); try { localStorage.setItem(key, JSON.stringify(x)); } catch {}
+  };
+  return (
+    <section className="rewrite">
+      <h3>A band-8 version of your answer</h3>
+      {error && <p className="error-inline">{error}</p>}
+      {r ? <>
+          <p><b>Your grader gave it band {r.band}</b>{r.band < 8 ? ". That's short of band 8, so treat it as a better draft, not a target." : `: ${Object.values(r.criteria).map(c => c.band).join(" / ")} across the four criteria.`}</p>
+          <p className="body">{r.essay}</p>
+        </>
+        : <>
+          <p className="muted">Your answer rewritten at band 8–9, keeping your ideas, by the model set for it in Settings. Your grader then marks it, so you see the band it really gets.</p>
+          <button onClick={go} disabled={busy}>{busy ? "Writing it, then grading it…" : "Write a band-8 version"}</button>
+        </>}
+    </section>);
 }
 
 /** The errors that can replace their quote in place: a "task" error is advice ("add an overview"), not wording. */

@@ -15,7 +15,8 @@ export const PROVIDERS = {
   custom: { label: "Custom OpenAI-compatible", base: "", key: true },
 };
 export const JOBS = { grading: "Writing grading (Task 2, and Task 1 when no Task 1 model is set)",
-  task1: "Writing Task 1 grading (optional; must read images, the chart is sent as a picture)", examiner: "Speaking: Part 3 follow-ups, tutor mode, feedback (a fast model keeps tutor mode conversational)",
+  task1: "Writing Task 1 grading (optional; must read images, the chart is sent as a picture)",
+  rewrite: "Writing: a band-8 version of your answer, on request (your strongest writer; must read images for Task 1)", examiner: "Speaking: Part 3 follow-ups, tutor mode, feedback (a fast model keeps tutor mode conversational)",
   small: "Small tasks: Explain on Listening/Reading answers, word definitions, checking error-card rewrites" };
 
 export function makeSettings(db) {
@@ -44,7 +45,7 @@ export async function complete(settings, { job, system, prompt, schema, image })
   if (!spec) throw new Error(`No model chosen for "${JOBS[job] || job}" — pick one in Settings.`);
   const [id, model] = spec.split(/:(.+)/);
   if (id === "claude-code") return claudeCode(model, system, prompt, schema, image);
-  return openaiCompatible(conf(settings, id), model, system, prompt, schema, image);
+  return openaiCompatible(conf(settings, id), model, system, prompt, schema, image, job);
 }
 
 // Windows: the `claude` shim is a .cmd; spawning through a shell breaks the JSON argument quoting, so call the exe it wraps.
@@ -68,7 +69,7 @@ function claudeCode(model, system, prompt, schema, image) {
   });
 }
 
-async function openaiCompatible(c, model, system, prompt, schema, image) {
+async function openaiCompatible(c, model, system, prompt, schema, image, job) {
   const content = image
     ? [{ type: "text", text: prompt }, { type: "image_url", image_url: { url: `data:image/png;base64,${fs.readFileSync(image).toString("base64")}` } }]
     : prompt;
@@ -81,7 +82,7 @@ async function openaiCompatible(c, model, system, prompt, schema, image) {
   if (!r.ok) {
     const said = `${c.label}: ${r.status} ${(await r.text()).slice(0, 300)}`;
     // a text-only model refuses the Task 1 chart with a bare 400 ("content must be a string"): say what to change
-    if (image && r.status === 400) throw new Error(`"${model}" couldn't take the Task 1 chart: it probably can't read images. In Settings, set "Writing Task 1 grading" to a model that does, then submit again. (${said})`);
+    if (image && r.status === 400) throw new Error(`"${model}" couldn't take the Task 1 chart: it probably can't read images. In Settings, set "${job === "grading" ? "Writing Task 1 grading" : (JOBS[job] || job).split(" (")[0]}" to a model that does, then try again. (${said})`);
     throw new Error(said);
   }
   const text = (await r.json()).choices[0].message.content;

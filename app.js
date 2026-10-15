@@ -8,6 +8,7 @@ import { plan, localDay, MODULES } from "./plan.js";
 import * as examiner from "./examiner.js";
 import { define } from "./review.js";
 import { explain } from "./explain.js";
+import { rewrite } from "./rewrite.js";
 
 export const ROOT = import.meta.dirname;
 const MASK = "••••";   // hosted Settings shows keys as ••••last4
@@ -37,6 +38,12 @@ export function catalog() {
     items.push({ test: t.id, module: "speaking", type: `part2_${d.speaking.kind || "other"}`, n: 1 });
   }
   return CATALOG = items;
+}
+
+/** A Writing task's prompt, and its figure's path when it has one. */
+function writingTask(test, task) {
+  const w = content(`${test}.json`).writing.find(x => x.task === task);
+  return { prompt: w.prompt, image: w.image ? path.join(ROOT, "content", test.split("/")[0], w.image) : undefined };
 }
 
 /** The book's own answers to a test's Writing tasks, {task: [{kind, band, answer, comment}]} (pipeline/samples.py); {} if not extracted. */
@@ -97,9 +104,13 @@ export async function api(req, res, { store, hosted }) {
     if (p === "/api/models") return json(res, await listModels(await mine(), url.searchParams.get("provider")));
     if (p === "/api/grade" && req.method === "POST") {
       const { test, task, text } = await body(req);
-      const w = content(`${test}.json`).writing.find(x => x.task === task);
-      const image = w.image ? path.join(ROOT, "content", test.split("/")[0], w.image) : undefined;
-      return json(res, await gradeTask(await mine(), { task, prompt: w.prompt, image, text, references: samples(test)[task] || [] }));
+      return json(res, await gradeTask(await mine(), { task, ...writingTask(test, task), text, references: samples(test)[task] || [] }));
+    }
+    if (p === "/api/rewrite" && req.method === "POST") {
+      const { test, task, text, marks } = await body(req);
+      const feedback = [...Object.entries(marks.criteria).map(([k, c]) => `${k} (band ${c.band}): ${c.comment}`),
+        ...(marks.errors || []).slice(0, 15).map(e => `"${e.quote}" -> "${e.correction}" (${e.explanation})`)].join("\n");
+      return json(res, await rewrite(await mine(), { task, ...writingTask(test, task), text, feedback, references: samples(test)[task] || [] }));
     }
     if (p === "/api/explain" && req.method === "POST") return json(res, await explain(await mine(), store, await body(req)));
     if (p.startsWith("/api/speaking/") && !hosted) {
