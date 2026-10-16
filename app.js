@@ -17,7 +17,7 @@ const content = f => JSON.parse(fs.readFileSync(path.join(ROOT, "content", f), "
 let TESTS;
 export function tests() {
   return TESTS ||= fs.readdirSync(path.join(ROOT, "content")).filter(b => b.startsWith("cam")).sort().flatMap(book =>
-    fs.readdirSync(path.join(ROOT, "content", book)).filter(f => f.endsWith(".json")).sort().map(f => {
+    fs.readdirSync(path.join(ROOT, "content", book)).filter(f => /^test\d+\.json$/.test(f)).sort().map(f => {   // testN.json only, not samples.json
       const t = content(`${book}/${f}`);
       return { id: `${book}/${f.replace(".json", "")}`, book: t.book, test: t.test, module: t.module };
     }));

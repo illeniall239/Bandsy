@@ -77,5 +77,5 @@ http.createServer(async (req, res) => {
   sendFile(res, file && fs.existsSync(file) ? file : path.join(ROOT, "dist", "index.html"));
 }).listen(+process.env.PORT || 3001, () => console.log(`api on http://localhost:${process.env.PORT || 3001}`));   // PORT for side-by-side test runs
 
-if (process.argv.includes("--dev")) spawn("npx", ["vite"], { stdio: "inherit", shell: true });
+if (process.argv.includes("--dev")) spawn("npx", ["vite"], { stdio: ["ignore", "inherit", "inherit"], shell: true });   // no stdin: Vite reading the TTY crashes with EIO on Ctrl+C
 if (!process.argv.includes("--no-sidecar")) spawn(process.env.PYTHON || "python", [path.join(ROOT, "sidecar/audio.py")], { stdio: "inherit" });  // STT/TTS on :3002
