@@ -23,6 +23,15 @@ export const KIND_LABEL = {
 };
 
 const UNIT = { listening: "Part", reading: "Passage" };
+/** One Listening part at a time, hardest first (chosen 17 Oct 2026): every Part 4 in the books before any Part 3, then Part 2,
+ *  then Part 1. Saturday stays a full Listening check-up; once every part is done the plan goes back to the mixed week. */
+export const TRACK = [4, 3, 2, 1];
+const PART_WHY = {
+  4: "A lecture with no break: keep hold of the talk through ten notes",
+  3: "Two or three speakers discussing: follow who thinks what",
+  2: "One speaker giving information, often round a map or plan",
+  1: "A conversation filling in a form or notes: spellings and numbers",
+};
 const SKILL = ["listening", "reading"];   // the modules marked question by question
 
 /** The calendar day an ISO time falls on for a viewer tz minutes east of UTC. */
@@ -161,7 +170,7 @@ function focusModule(level, attempts, modules, day) {
 /** A question group you got under 60% on, 3 to 21 days ago, and haven't done since: done once more, so the lesson is tested when it's
  *  no longer fresh. Only once: if it's still wrong, the question-type steps keep working on it with new questions. The lowest score
  *  first, then the oldest. */
-function retry(ans, items, h, day, tz) {
+function retry(ans, items, h, day, tz, only = () => true) {
   const groups = new Map();   // the latest attempt at each group: right, total, when, and how many attempts it has had
   for (const x of ans) {
     const k = `${x.test}|${x.module}|g${x.first}`, g = groups.get(k) || { ...x, key: k, right: 0, total: 0, tries: new Set() };
@@ -169,7 +178,7 @@ function retry(ans, items, h, day, tz) {
     if (x.at === g.at) { g.right += x.ok; g.total++; }
     groups.set(k, g);
   }
-  const due = [...groups.values()].filter(g => g.right / g.total < 0.6 && g.tries.size < 2
+  const due = [...groups.values()].filter(g => only(g) && g.right / g.total < 0.6 && g.tries.size < 2
     && daysBetween(localDay(g.at, tz), day) >= 3 && daysBetween(localDay(g.at, tz), day) <= 21)
     .sort((a, b) => a.right / a.total - b.right / b.total || a.at.localeCompare(b.at));
   if (!due.length) return null;
@@ -194,8 +203,11 @@ const why = {
  *  day's main practice. The week covers every module and puts the most time on Writing, the slowest to move; the question-type steps
  *  go to the type costing you the most marks; Friday goes to your lowest module; Saturday is a timed check-up of one full module,
  *  the one measured longest ago, for a real band. As the exam nears, parts and tasks go on the clock (8 weeks out) and a second
- *  check-up joins the week (3 weeks out). */
-export function plan(day, attempts, items, { modules = MODULES, tz = 0, examDate } = {}) {
+ *  check-up joins the week (3 weeks out).
+ *
+ *  While a part of the track is still undone, the six other days are the track instead: four parts you haven't done, the current
+ *  one first (spilling into the next as it runs out), led by a retry of one you got under 60% on.  @param track [] for the mixed week */
+export function plan(day, attempts, items, { modules = MODULES, tz = 0, examDate, track = TRACK } = {}) {
   attempts = [...attempts].sort((a, b) => b.finished_at.localeCompare(a.finished_at));   // newest first, even for one sent late after a failed save
   const today = attempts.filter(a => localDay(a.finished_at, tz) === day);
   const before = attempts.filter(a => localDay(a.finished_at, tz) < day);   // today's work doesn't move today's plan: it stays put all day
@@ -204,6 +216,8 @@ export function plan(day, attempts, items, { modules = MODULES, tz = 0, examDate
   const weeks = examDate ? daysBetween(day, examDate) / 7 : null;
   const phase = weeks == null || weeks < 0 || weeks > 8 ? "build" : weeks > 3 ? "timed" : "final";
   const clock = c => phase === "build" ? c : timed(c);
+  const partsOf = n => sectionPieces(items, "listening").filter(c => c.slot === `listening|s${n}`);
+  const stage = modules.includes("listening") ? track.find(n => partsOf(n).some(c => !h.last.has(c.key))) : undefined;
 
   const part = () => { const c = clock(freshest(sectionPieces(items, "listening"), h, day)); return { ...c, why: why.section(c, "listening") }; };
   const passage = () => { const c = clock(freshest(sectionPieces(items, "reading"), h, day)); return { ...c, why: why.section(c, "reading") }; };
@@ -225,9 +239,9 @@ export function plan(day, attempts, items, { modules = MODULES, tz = 0, examDate
   };
   /** One full module under exam conditions on a test whose module you haven't touched, so the band is a clean measure. The module
    *  measured longest ago goes first (never before anything), then the lowest level. */
-  const checkup = () => {
+  const checkup = only => {
     const measured = m => before.find(a => a.module === m && a.band != null)?.finished_at || "";
-    const m = [...modules].sort((a, b) => order([measured(a), level[a] ?? 0], [measured(b), level[b] ?? 0]))[0];
+    const m = only || [...modules].sort((a, b) => order([measured(a), level[a] ?? 0], [measured(b), level[b] ?? 0]))[0];
     const test = tests(items, m).map(t => [[h.module.get(`${t}|${m}`) || "", +!reserved(t), h.touched.get(t) || "", hash(`${day}|${t}`)], t]).sort(([a], [b]) => order(a, b))[0][1];
     take(h, { test, module: m, key: `${test}|${m}` });
     const last = measured(m);
@@ -246,13 +260,27 @@ export function plan(day, attempts, items, { modules = MODULES, tz = 0, examDate
              : ["Reading", "A whole passage, then the question type costing you the most Reading marks", () => [passage(), ...types(["reading"], 2)]],
     /* Thu */ ["Writing and Listening", "A Task 1 report, a Listening part, and the question types costing you the most marks", () => [task(1), part(), ...types(SKILL, 2)]],
     /* Fri */ [`Focus: ${LABEL[focus]}`, focus in level ? `${LABEL[focus]} is your lowest module right now (about ${level[focus]})` : `No ${LABEL[focus]} level yet: today finds out where it is`, focusDay],
-    /* Sat */ ["Weekly check-up", "One module under exam conditions, to see if the practice is moving your band", () => [checkup()]],
+    /* Sat */ ["Weekly check-up", stage ? "A full Listening test under exam conditions, to see if the part-by-part practice is moving your band"
+      : "One module under exam conditions, to see if the practice is moving your band", () => [checkup(stage && "listening")]],
   ];
-  const weekday = new Date(Date.parse(day)).getUTCDay(), [title, sub, build] = week[weekday];
+  const trackDay = () => {
+    const out = [retry(ans, items, h, day, tz, g => g.module === "listening" && Math.ceil(g.first / 10) === stage)];
+    for (const n of track.slice(track.indexOf(stage)))
+      for (let fresh; out.filter(Boolean).length < 4 && (fresh = partsOf(n).filter(c => !h.last.has(c.key))).length;) {
+        const c = clock(freshest(fresh, h, day));
+        out.push({ ...c, why: c.timed ? `${PART_WHY[n]}. ${why.section(c, "listening")}` : PART_WHY[n] });
+      }
+    return out;
+  };
+  const weekday = new Date(Date.parse(day)).getUTCDay();
   const checkupDay = weekday === 6 || (weekday === 3 && phase === "final");
+  const onTrack = stage && !checkupDay, all = history(attempts, items).last;   // progress counts today's work too
+  const [title, sub, build] = onTrack ? [`Focus: Listening Part ${stage}`,
+    `Every Part ${stage} in the books, one by one, before moving on: ${partsOf(stage).filter(c => all.has(c.key)).length} of ${partsOf(stage).length} done`, trackDay]
+    : week[weekday];
   // a retry on the lighter days (Sun, Mon, Wed, Fri), at most four a week, so going back over mistakes never crowds out new material;
-  // planned first, so the other steps avoid its test
-  const first = [0, 1, 3, 5].includes(weekday) && !checkupDay ? retry(ans, items, h, day, tz) : null;
+  // planned first, so the other steps avoid its test (the track picks its own)
+  const first = [0, 1, 3, 5].includes(weekday) && !checkupDay && !onTrack ? retry(ans, items, h, day, tz) : null;
   const steps = [first, ...build()].filter(Boolean).map(s => ({ ...s, kind: s.kind || "practice",
     done: today.some(a => a.test === s.test && a.module === s.module && a.mode === s.mode) }));
   return { phase, title, sub, steps, minutes: steps.reduce((n, s) => n + s.minutes, 0), bands, levels: level, focus };
@@ -270,7 +298,7 @@ if (typeof process !== "undefined" && process.argv[1]?.endsWith("plan.js")) {
     { test, module: "speaking", type: "part2_place", n: 1 }]);
   const marks = (from, n, right) => Object.fromEntries(Array.from({ length: n }, (_, i) => [from + i, i < right]));
   const A = (test, module, mode, finished_at, extra = {}) => ({ test, module, mode, finished_at, score: 5, band: null, marks: {}, ...extra });
-  const NO_SPEAK = { modules: ["listening", "reading", "writing"] };
+  const NO_SPEAK = { modules: ["listening", "reading", "writing"], track: [] };   // the mixed week; the track is checked at the end
   const SUN = "2026-10-11", MON = "2026-10-12", TUE = "2026-10-13", WED = "2026-10-14", THU = "2026-10-15", FRI = "2026-10-16", SAT = "2026-10-17";
   const all = d => plan(d, [], items, NO_SPEAK);
 
@@ -342,5 +370,31 @@ if (typeof process !== "undefined" && process.argv[1]?.endsWith("plan.js")) {
   const late = A(l.test, "listening", l.mode, `${SUN}T20:00:00Z`);
   eq(plan(SUN, [late], items, { ...NO_SPEAK, tz: 300 }).steps.find(s => s.key === l.key)?.done, false);
   eq(plan(SUN, [late], items, NO_SPEAK).steps.find(s => s.key === l.key)?.done, true);
+
+  // the track: four Part 4s a day on four tests, never a check-up test while others are fresh
+  const TRACKED = { modules: NO_SPEAK.modules };
+  const t0 = plan(TUE, [], items, TRACKED);
+  eq([t0.title, t0.steps.map(s => s.label)], ["Focus: Listening Part 4", Array(4).fill("Listening Part 4")]);
+  ok(t0.sub.endsWith("0 of 6 done"), t0.sub);
+  eq(new Set(t0.steps.map(s => s.test)).size, 4);
+  ok(t0.steps.every(s => !reserved(s.test)), "the track used a check-up test while others were fresh");
+  // the last Part 4s left, then straight on into Part 3; the count includes today's work
+  const did = (n, tests, d = MON, right = 9) => tests.map(t => A(t, "listening", `drill-s${n}`, `${d}T08:00:00Z`, { marks: marks(n * 10 - 9, 10, right) }));
+  const five = did(4, T.slice(0, 5));
+  const t1 = plan(TUE, five, items, TRACKED);
+  eq([t1.title, t1.steps.map(s => s.label)], ["Focus: Listening Part 4", ["Listening Part 4", "Listening Part 3", "Listening Part 3", "Listening Part 3"]]);
+  ok(plan(TUE, [...did(4, [t1.steps[0].test], TUE), ...five], items, TRACKED).sub.endsWith("6 of 6 done"), "today's part not counted");
+  eq(plan(WED, did(4, T), items, TRACKED).title, "Focus: Listening Part 3");
+  // a full Listening check-up counts its Part 4 as done
+  eq(plan(TUE, [A("cam15/test4", "listening", "mock", `${MON}T08:00:00Z`, { band: 6 }), ...did(4, T.filter(t => !reserved(t)))], items, TRACKED).title, "Focus: Listening Part 3");
+  // a Part 4 under 60% comes back as the day's first step, 3+ days later; a weak Part 1 doesn't while on Part 4
+  const weak4 = did(4, ["cam15/test1"], SUN, 4), t2 = plan(WED, weak4, items, TRACKED);
+  eq([t2.steps[0].kind, t2.steps[0].key, t2.steps.length], ["retry", "cam15/test1|listening|g31", 4]);
+  ok(!plan(WED, did(1, ["cam15/test1"], SUN, 3), items, TRACKED).steps.some(s => s.kind === "retry"), "retried a Part 1 during Part 4");
+  // Saturday stays a full Listening test, even when Listening was measured more recently than Reading
+  const sat2 = plan(SAT, [A("cam15/test5", "listening", "mock", `${FRI}T08:00:00Z`, { band: 6 })], items, TRACKED).steps;
+  eq([sat2.length, sat2[0].kind, sat2[0].module], [1, "checkup", "listening"]);
+  // every part done: back to the mixed week
+  eq(plan(TUE, [4, 3, 2, 1].flatMap(n => did(n, T)), items, TRACKED).title, "Listening");
   console.log("plan.js ok");
 }
